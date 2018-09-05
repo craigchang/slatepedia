@@ -1,4 +1,4 @@
-module.exports = [
+[
   {
     "name": "Hearty Durian",
     "type": "Fruit",
@@ -633,7 +633,7 @@ module.exports = [
     "durationFactor": 30
   },
   {
-    "name": "Dinraal’s Scale",
+    "name": "Dinraal's Scale",
     "type": "Enemy Drop",
     "description": "This precious scale fell from the red spirit Dinraal. It emanates a great heat, You can use it in cooking, but eating it seems like a waste.",
     "sellPrice": 150,
@@ -643,7 +643,7 @@ module.exports = [
     "durationFactor": 90
   },
   {
-    "name": "Dinraal’s Claw",
+    "name": "Dinraal's Claw",
     "type": "Enemy Drop",
     "description": "This valuable claw was plucked from the red spirit Dinraal. It was extremely hot before it was removed. You could sell it to a store, but it must have some other use.",
     "sellPrice": 180,
@@ -653,7 +653,7 @@ module.exports = [
     "durationFactor": 210
   },
   {
-    "name": "Shard of Dinraal’s Fang",
+    "name": "Shard of Dinraal's Fang",
     "type": "Enemy Drop",
     "description": "This shard fell from the red spirit Dinraal's fang. It's exceptionally hard and therefore impossible to process, but apparently it can be used as a material for something.",
     "sellPrice": 250,
@@ -663,7 +663,7 @@ module.exports = [
     "durationFactor": 630
   },
   {
-    "name": "Shard of Dinraal’s Horn",
+    "name": "Shard of Dinraal's Horn",
     "type": "Enemy Drop",
     "description": "This shard chipped and fell off the red spirit Dinraal. Its horn is said to be the crystallized power of fire itself. It sells for a high price, but rumors say there's some other use for it.",
     "sellPrice": 300,
@@ -673,7 +673,7 @@ module.exports = [
     "durationFactor": 1800
   },
   {
-    "name": "Naydra’s Scale",
+    "name": "Naydra's Scale",
     "type": "Enemy Drop",
     "description": "This precious scale fell from the blue spirit Naydra. It contains a bitter cold within. You can use it in cooking, but just eating it seems like a waste.",
     "sellPrice": 150,
@@ -683,7 +683,7 @@ module.exports = [
     "durationFactor": 90
   },
   {
-    "name": "Naydra’s Claw",
+    "name": "Naydra's Claw",
     "type": "Enemy Drop",
     "description": "This valuable claw was plucked from the blue spirit Naydra. It was freezing cold before it was removed. You could sell it, but there must be some other use for it.",
     "sellPrice": 180,
@@ -693,7 +693,7 @@ module.exports = [
     "durationFactor": 210
   },
   {
-    "name": "Shard of Naydra’s Fang",
+    "name": "Shard of Naydra's Fang",
     "type": "Enemy Drop",
     "description": "This shard fell from the blue spirit Naydra's fang. It's much harder than any metal, so it's impossible to process. Yet rumors say it can be used as a material for something.",
     "sellPrice": 250,
@@ -703,7 +703,7 @@ module.exports = [
     "durationFactor": 630
   },
   {
-    "name": "Shard of Naydra’s Horn",
+    "name": "Shard of Naydra's Horn",
     "type": "Enemy Drop",
     "description": "This shard chipped and fell off the blue spirit Naydra. It's said the horn is the crystallized power of ice itself. It sells for quite a bit, but rumors say it has some other use.",
     "sellPrice": 300,
@@ -713,7 +713,7 @@ module.exports = [
     "durationFactor": 1800
   },
   {
-    "name": "Farosh’s Scale",
+    "name": "Farosh's Scale",
     "type": "Enemy Drop",
     "description": "This precious scale fell from the golden spirit Farosh. It contains powerful electricity within. You can cook it, but eating it seems like a waste.",
     "sellPrice": 150,
@@ -723,7 +723,7 @@ module.exports = [
     "durationFactor": 90
   },
   {
-    "name": "Farosh’s Claw",
+    "name": "Farosh's Claw",
     "type": "Enemy Drop",
     "description": "This claw was plucked from the golden spirit Farosh. Its electricity was expelled before it was removed, so it's safe to handle. A store will buy it, but it must have some other use.",
     "sellPrice": 180,
@@ -733,7 +733,7 @@ module.exports = [
     "durationFactor": 210
   },
   {
-    "name": "Shard of Farosh’s Fang",
+    "name": "Shard of Farosh's Fang",
     "type": "Enemy Drop",
     "description": "This shard fell from the golden spirit Farosh's fang. It's so hard, hammers bounce right off it, so it's impossible to process. Yet rumors say it does have some use as a material.",
     "sellPrice": 250,
@@ -743,7 +743,7 @@ module.exports = [
     "durationFactor": 630
   },
   {
-    "name": "Shard of Farosh’s Horn",
+    "name": "Shard of Farosh's Horn",
     "type": "Enemy Drop",
     "description": "This shard fell off the golden spirit Farosh. It's said the horn is the crystallized power of electricity itself. It sells for a lot, but there must be some other use for it.",
     "sellPrice": 300,
