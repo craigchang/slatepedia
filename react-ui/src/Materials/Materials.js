@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import HeartContainer from '../Other/HeartContainer/HeartContainer';
 //import ListViewGrid from '../components/list-view-grid/ListViewGrid';
 //import ScrollToTop from 'react-scroll-up';
 import _ from 'lodash';
@@ -354,8 +355,8 @@ const Material = ({material}) => {
       <td><img className="resource-icon" src={`/img/materials/${imageName}.png`}/></td>
       <td data-value={material.name}>{material.name}</td>
       <td data-value={material.sellPrice}>{material.sellPrice}</td>
-      <td data-value={material.hpRecovery}>{material.hpRecovery}</td>
-      <td data-value={material.category == null ? '-' : material.category.name}>{material.category == null ? '-' : material.category.name}</td>
+      <td data-value={material.hpRecovery}>{HeartContainer(material.hpRecovery)}</td>
+      {material.category == null ? (<td>-</td>) : (<td data-value={material.category.name}><span title={`${material.category.name} - ${material.category.addedEffect} `}>{material.category.name}</span></td>)}      
       <td data-value={material.potencyGrade === "" ? '-': material.potencyGrade}>{material.potencyGrade === "" ? '-': material.potencyGrade}</td>
       <td data-value={material.durationFactor}>{material.durationFactor}</td>
       <td>

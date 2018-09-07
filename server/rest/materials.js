@@ -1164,7 +1164,7 @@ module.exports = [
     "type": "Frog",
     "description": "This rare frog only ventures out in the rain. When cooked with monster parts, the elixir it produces will temporarily increase your maximum stamina.",
     "sellPrice": 20,
-    "hpRecovery": 16,
+    "hpRecovery": 0,
     "category": {
       "name": "Enduring",
       "addedEffect": "Extra Stamina"
