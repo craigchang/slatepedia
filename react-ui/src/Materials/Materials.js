@@ -70,7 +70,7 @@ class Materials extends Component {
               <tr>
                 <th>Icon</th>
                 <th>Name</th>
-                <th>Sell Price</th>
+                <th>Sell Price <img className="price-icon" src={`/img/other/green-rupee.png`}/></th>
                 <th>HP Recovery</th>
                 <th>Category</th>
                 <th>Potency Grade</th>
@@ -344,10 +344,14 @@ class Materials extends Component {
 }
 
 const Material = ({material}) => {
+
+  let imageName = material.name.replace(/ /g, "-").replace(/'/g,"").toLowerCase();
+
   return (
     <tr>
       {/* <td data-value={material.id}>{material.id}</td> */}
-      <td style={{'verticalAlign': 'middle'}}><div className={'sprite ' + material.cssClassName}></div></td>
+      {/* <td style={{'verticalAlign': 'middle'}}><div className={'sprite ' + material.cssClassName}></div></td> */}
+      <td><img className="resource-icon" src={`/img/materials/${imageName}.png`}/></td>
       <td data-value={material.name}>{material.name}</td>
       <td data-value={material.sellPrice}>{material.sellPrice}</td>
       <td data-value={material.hpRecovery}>{material.hpRecovery}</td>

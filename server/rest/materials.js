@@ -1,4 +1,4 @@
-[
+module.exports = [
   {
     "name": "Hearty Durian",
     "type": "Fruit",
