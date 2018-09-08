@@ -13,11 +13,14 @@ class Materials extends Component {
       json: null,
       jsonOriginal: null,
       fetching: true,
+      sortBy: "",
+      sortOrder: "",
       view: 'grid'
     };
+    
     this.renderGridView = this.renderGridView.bind(this);
     this.filterSearch = this.filterSearch.bind(this);
-    this.clickSortOrderBtn = this.clickSortOrderBtn.bind(this);
+    this.clickTableColumnHeader = this.clickTableColumnHeader.bind(this);
   }
 
   componentDidMount() {
@@ -62,21 +65,21 @@ class Materials extends Component {
   showGridView() {
 
     if (this.state.fetching)
-      return (<div>fetching</div>)
+      return (<div></div>)
     else
       return (
         <div className="table-responsive">
           <table className="table table-striped sortable">
             <thead>
               <tr>
-                <th>Icon</th>
-                <th>Name</th>
-                <th>Sell Price <img className="price-icon" src={`/img/other/green-rupee.png`}/></th>
-                <th>HP Recovery</th>
-                <th>Category</th>
-                <th>Potency Grade</th>
-                <th>Duration Factor</th>
-                <th>Availabilities</th>
+                <th onClick={this.clickTableColumnHeader}>Icon</th>
+                <th data-value="name" onClick={this.clickTableColumnHeader}>Name</th>
+                <th data-value="sellPrice" onClick={this.clickTableColumnHeader}>Sell Price</th>
+                <th data-value="hpRecovery" onClick={this.clickTableColumnHeader}>HP Recovery</th>
+                <th data-value="category[name]" onClick={this.clickTableColumnHeader}>Category</th>
+                <th data-value="potencyGrade" onClick={this.clickTableColumnHeader}>Potency Grade</th>
+                <th data-value="durationFactor" onClick={this.clickTableColumnHeader}>Duration Factor</th>
+                <th onClick={this.clickTableColumnHeader}>Availabilities</th>
               </tr>
             </thead>
             <tbody>
@@ -86,28 +89,53 @@ class Materials extends Component {
         </div>
       )
   }
+  
+  clickTableColumnHeader(event) {
+    event.preventDefault();
 
-  clickSortOrderBtn(event) {
-    let sortOrderSpanEl = this.sortOrderInput.getElementsByTagName('span')[0];
+    let tableHeaderColumn = event.target;
+    let sortOrder = 'asc';
+    let results = this.state.json.slice();
+    let columnName = tableHeaderColumn.getAttribute("data-value");
+    let allTableHeaderCols = tableHeaderColumn.parentElement.children;
 
-    if (sortOrderSpanEl.className === 'glyphicon glyphicon-sort-by-attributes') {
-      sortOrderSpanEl.title = 'descending';
-      sortOrderSpanEl.className = 'glyphicon glyphicon-sort-by-attributes-alt';
+    console.log(event.target.textContent);
+
+    if (!columnName) return false;
+
+    if (tableHeaderColumn.className == '' || tableHeaderColumn.className == 'desc') {
+      for(let i = 0; i < allTableHeaderCols.length; i++) {
+        allTableHeaderCols[i].className = "";
+      }
+      tableHeaderColumn.className = sortOrder = 'asc'
+    } else {
+      for(let i = 0; i < allTableHeaderCols.length; i++) {
+        allTableHeaderCols[i].className = "";
+      }
+      tableHeaderColumn.className = sortOrder = 'desc'
     }
-    else {
-      sortOrderSpanEl.title = 'ascending';
-      sortOrderSpanEl.className = 'glyphicon glyphicon-sort-by-attributes';
+
+    results = _.orderBy(results, columnName, sortOrder);
+
+    // Name Input
+    if (this.nameInput.value !== '') {
+      results = _.filter(results, (obj) => {
+        return obj.name.toLowerCase().indexOf(this.nameInput.value.toLowerCase()) !== -1;
+      });
     }
 
-    this.filterSearch(event);
+    this.setState({
+      json: results,
+      sortBy: columnName,
+      sortOrder: sortOrder
+    });
+
+    //this.filterSearch(results, event);
   }
 
   filterSearch(event) {
     event.preventDefault();
 
-    // Get the sort Order
-    let sortOrderSpanEl = this.sortOrderInput.getElementsByTagName('span')[0];
-    let sortOrder = sortOrderSpanEl.className === 'glyphicon glyphicon-sort-by-attributes' ? 'asc' : 'desc';
     let results = this.state.jsonOriginal.slice();
 
     // Name Input
@@ -117,10 +145,9 @@ class Materials extends Component {
       });
     }
 
-    // Sort By Select
-    if (this.sortSelect.value !== '') {
-      results = _.orderBy(results, this.sortSelect.value, sortOrder);
-    }
+    // Sorting
+    if (this.state.sortBy && this.state.sortOrder)
+      results = _.orderBy(results, this.state.sortBy, this.state.sortOrder);
 
     this.setState({json: results});
   }
@@ -165,22 +192,7 @@ class Materials extends Component {
                   </div>
                 </div>
                 <div className="col-lg-6 col-md-6">
-                  <div className="input-group">
-                    <select className="form-control" name="sort" ref={(select) => { this.sortSelect = select; }} onChange={this.filterSearch}>
-                      <option value="">Sort By...</option>
-                      <option value="name">Name</option>
-                      <option value="sellPrice">Sell Price</option>
-                      <option value="hpRecovery">HP Recovery</option>
-                      <option value="category[name]">Category</option>
-                      <option value="potencyGrade">Potency Grade</option>
-                      <option value="durationFactor">Duration Factor</option>
-                    </select>
-                    <span className="input-group-btn">
-                      <button className="btn btn-default btn-sort-order" type="button" title="ascending" ref={(sortOrderInput) => { this.sortOrderInput = sortOrderInput; }} onClick={this.clickSortOrderBtn}>
-                        <span className="glyphicon glyphicon-sort-by-attributes" aria-hidden="true"></span>
-                      </button>
-                    </span>
-                  </div>
+
                 </div>
               </div>
             </form>
@@ -352,19 +364,22 @@ const Material = ({material}) => {
     <tr>
       {/* <td data-value={material.id}>{material.id}</td> */}
       {/* <td style={{'verticalAlign': 'middle'}}><div className={'sprite ' + material.cssClassName}></div></td> */}
-      <td><img className="resource-icon" src={`/img/materials/${imageName}.png`}/></td>
-      <td data-value={material.name}>{material.name}</td>
-      <td data-value={material.sellPrice}>{material.sellPrice}</td>
-      <td data-value={material.hpRecovery}>{HeartContainer(material.hpRecovery)}</td>
-      {material.category == null ? (<td>-</td>) : (<td data-value={material.category.name}><span title={`${material.category.name} - ${material.category.addedEffect} `}>{material.category.name}</span></td>)}      
-      <td data-value={material.potencyGrade === "" ? '-': material.potencyGrade}>{material.potencyGrade === "" ? '-': material.potencyGrade}</td>
-      <td data-value={material.durationFactor}>{material.durationFactor}</td>
+      <td><img alt={imageName} className="resource-icon" src={`/img/materials/${imageName}.png`}/></td>
+      <td>{material.name}</td>
+      <td>{material.sellPrice}</td>
+      <td><HeartContainer health={material.hpRecovery}/></td>
+      {
+        material.category == null ? 
+          (<td>-</td>) : 
+          (<td><span title={`${material.category.name} - ${material.category.addedEffect} `}>{material.category.name}</span></td>)
+      }
+      <td>{material.potencyGrade === "" ? '-': material.potencyGrade}</td>
+      <td>{material.durationFactor}</td>
       <td>
       {/* {material.availabilities.map((availability, index) => (
         <span key={index}><i className="fa fa-map-marker" aria-hidden="true"></i> {availability.name}</span>
       ))} */}
       </td>
-      <br/>
     </tr>
   )
 }

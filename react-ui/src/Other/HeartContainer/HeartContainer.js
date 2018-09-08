@@ -1,4 +1,5 @@
 import React from 'react';
+import './HeartContainer.css'
 
 const QUARTER_HEART = "quarter-heart";
 const HALF_HEART = "half-heart";
@@ -10,15 +11,15 @@ const HEART15 = "heart15";
 const HEART20 = "heart20";
 const HEART25 = "heart25";
 
-const HeartContainerComponent = (hpRecovery) => {
-    if (hpRecovery == 0) return '-';
+const HeartContainerComponent = ({health}) => {
+    if (health === 0) return '-';
   
     let heartsArray = [];
-    let numWholeHearts = Math.floor(hpRecovery / 4); // 4 hp = 1 heart
-    let partialHeart = hpRecovery % 4;
+    let numWholeHearts = Math.floor(health / 4); // 4 hp = 1 heart
+    let partialHeart = health % 4;
     let getHeartIconComponent = (imageName) => (<img alt={imageName} title={imageName} src={`/img/other/${imageName}.png`} />);
   
-    if (numWholeHearts != 0) {
+    if (numWholeHearts !== 0) {
         if (5 <= numWholeHearts && numWholeHearts < 10) {
             heartsArray.push(getHeartIconComponent(HEART5));
             numWholeHearts -= 5;
@@ -41,7 +42,7 @@ const HeartContainerComponent = (hpRecovery) => {
             heartsArray.push(getHeartIconComponent(HEART));
     }
   
-    if (partialHeart != 0) {
+    if (partialHeart !== 0) {
       switch(partialHeart) {
         case 1: heartsArray.push(getHeartIconComponent(QUARTER_HEART)); break;
         case 2: heartsArray.push(getHeartIconComponent(HALF_HEART)); break;
@@ -50,9 +51,9 @@ const HeartContainerComponent = (hpRecovery) => {
       }
     }
 
-    heartsArray.push( (<span className="sr-only">{hpRecovery}</span>) )
+    heartsArray.push( (<span className="sr-only">{health}</span>) )
   
-    return heartsArray;
+    return React.Children.toArray(heartsArray);
   }
 
   export default HeartContainerComponent; 
