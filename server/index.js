@@ -45,6 +45,12 @@ if (cluster.isMaster) {
     res.set('Content-Type', 'application/json');
     res.send(materialsJson);
   });
+  // Materials Detail API
+  app.get('/api/materials/:id', function (req, res) {
+    res.set('Content-Type', 'application/json');
+    res.send(materialsJson[Number(req.params.id) - 1]);
+  });
+  
 
   // All remaining requests return the React app, so it can handle routing.
   app.get('*', function(request, response) {

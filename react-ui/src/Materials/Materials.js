@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import HeartContainer from '../Other/HeartContainer/HeartContainer';
+import { Link } from 'react-router-dom'
 //import ListViewGrid from '../components/list-view-grid/ListViewGrid';
 //import ScrollToTop from 'react-scroll-up';
 import _ from 'lodash';
@@ -19,6 +20,7 @@ class Materials extends Component {
     };
     
     this.renderGridView = this.renderGridView.bind(this);
+    this.renderListView = this.renderListView.bind(this);
     this.filterSearch = this.filterSearch.bind(this);
     this.clickTableColumnHeader = this.clickTableColumnHeader.bind(this);
   }
@@ -53,9 +55,28 @@ class Materials extends Component {
       ));
     }
   }
+  
+  outputListView(json) {
+    if (json && json.length > 0) {
+      return json.map((material, index) => (
+        <MaterialListView key={index} material={material} />
+      ));
+    }
+  }
 
-  switchToListView() {
+  renderListView() {
     this.setState({view: 'list'});
+  }
+
+  showListView() {
+    if (this.state.fetching)
+      return (<div></div>)
+    else
+      return ( 
+        <div class="list-group">
+          {this.state.fetching ? 'Fetching message from API' : this.outputListView(this.state.json)}
+        </div>
+      )
   }
 
   renderGridView() {
@@ -74,6 +95,7 @@ class Materials extends Component {
               <tr>
                 <th onClick={this.clickTableColumnHeader}>Icon</th>
                 <th data-value="name" onClick={this.clickTableColumnHeader}>Name</th>
+                <th data-value="type" onClick={this.clickTableColumnHeader}>Type</th>
                 <th data-value="sellPrice" onClick={this.clickTableColumnHeader}>Sell Price</th>
                 <th data-value="hpRecovery" onClick={this.clickTableColumnHeader}>HP Recovery</th>
                 <th data-value="category[name]" onClick={this.clickTableColumnHeader}>Category</th>
@@ -89,7 +111,7 @@ class Materials extends Component {
         </div>
       )
   }
-  
+
   clickTableColumnHeader(event) {
     event.preventDefault();
 
@@ -158,22 +180,8 @@ class Materials extends Component {
 
     switch(this.state.view) {
       case 'grid': view = this.showGridView(); break;
-      case 'list': view = (
-        {/*<ListViewGrid 
-          json={this.state.json} 
-          isFetching={this.state.fetching}
-          url='/materials/'
-          usesSprites={true}
-          dataItems={[
-            { data: 'sellPrice', icon: 'fa fa-diamond', label: 'Rupees', singular: true }, 
-            { data: 'hpRecovery', icon: 'fa fa-heart', label: 'HP', singular: true },
-            { data: 'category', icon: 'fa fa-tags', label: '', singular: true, nestedData: 'name' }, 
-            { data: 'potencyGrade', icon: 'fa fa-thermometer-full', label: 'Potency Grade', singular: true }, 
-            { data: 'durationFactor', icon: 'fa fa-clock-o', label: 'seconds duration', singular: true },
-            { data: 'availabilities', icon: 'fa fa-map-marker', label: '', singular: false, arrayOfObjects: true }
-          ]} />*/}
-        ); break;
-      default: view = this.renderListView(); break; 
+      case 'list': view =  this.showListView(); break;
+      default: view = this.showListView(); break; 
     }
 
     return (
@@ -182,6 +190,12 @@ class Materials extends Component {
           <h1 className="page-header">Materials</h1>
           <div className="filter-form">
             <form onSubmit={this.filterSearch}>
+            
+              <p>
+                <button type="button" className={this.state.view === 'grid' ? 'btn btn-primary' : 'btn btn-secondary'} onClick={this.renderGridView}>Grid View</button>
+                <button type="button" className={this.state.view === 'list' ? 'btn btn-primary' : 'btn btn-secondary'} onClick={this.renderListView}>List View</button>
+              </p>
+              
               <div className="row">
                 <div className="col-lg-6 col-md-6">
                   <div className="input-group">
@@ -197,160 +211,8 @@ class Materials extends Component {
               </div>
             </form>
           </div>
-
-              {/* 
-              <h3 className="sub-header">Category Overview</h3>
-              <div className="table-responsive">
-                <table className="table table-striped" style={{width: '100%'}}>
-                  <thead>
-                    <tr>
-                      <th>Name</th>
-                      <th>Added Effect</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Hearty</td>
-                      <td>Extra Hearts</td>
-                    </tr>
-                    <tr>
-                      <td>Energizing</td>
-                      <td>Stamina Restoration</td>
-                    </tr>
-                    <tr>
-                      <td>Enduring</td>
-                      <td>Extra Stamina</td>
-                    </tr>
-                    <tr>
-                      <td>Fireproof</td>
-                      <td>Flame Guard</td>
-                    </tr>
-                    <tr>
-                      <td>Chilly</td>
-                      <td>Heat Resistance</td>
-                    </tr>
-                    <tr>
-                      <td>Spicy</td>
-                      <td>Cold Resistance</td>
-                    </tr>
-                    <tr>
-                      <td>Electro</td>
-                      <td>Shock Resistance</td>
-                    </tr>
-                    <tr>
-                      <td>Hasty</td>
-                      <td>Movement Speed Up</td>
-                    </tr>
-                    <tr>
-                      <td>Sneaky</td>
-                      <td>Stealth Up</td>
-                    </tr>
-                    <tr>
-                      <td>Mighty</td>
-                      <td>Attack Up</td>
-                    </tr>
-                    <tr>
-                      <td>Tough</td>
-                      <td>Defense Up</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              */}
-
-              {/* 
-
-              <p>
-                <button type="button" className={this.state.view === 'list' ? 'btn btn-primary' : 'btn btn-default'} onClick={this.switchToListView}>List View</button>
-                <button type="button" className={this.state.view === 'grid' ? 'btn btn-primary' : 'btn btn-default'} onClick={this.renderGridView}>Grid View</button>
-              </p>
-
-               */}
-          
-
-          {
-            // this.state.fetching && this.state.json && this.state.json.length > 0 ? 'Fetching Data' : 
-            // (
-            //   <ListGroupGrid 
-            //     data-json={this.state.json}
-            //     permalinkName="materials">
-            //     <ListGroupGridCriteria 
-            //       data-name="cssClassName"
-            //       data-position="left"
-            //       data-area="image" 
-            //       data-icon=""/>
-            //     <ListGroupGridCriteria 
-            //       data-name="name"
-            //       data-position="middle"
-            //       data-area="header"
-            //       data-icon=""/>
-            //     <ListGroupGridCriteria 
-            //       data-name="sellPrice"
-            //       data-position="middle"
-            //       data-area="body"
-            //       data-icon="fa fa-diamond" 
-            //       data-label="Rupees" 
-            //       data-do-not-show-if-empty={false} />
-            //     <ListGroupGridCriteria 
-            //       data-name="hpRecovery" 
-            //       data-position="middle"
-            //       data-area="body" 
-            //       data-icon="fa fa-heart" 
-            //       data-label="HP" 
-            //       data-do-not-show-if-empty={false} /> 
-            //     <ListGroupGridCriteria 
-            //       data-name="category.name" 
-            //       data-level={2}
-            //       data-position="middle" 
-            //       data-area="body"
-            //       data-icon="fa fa-tags" 
-            //       data-label="Category" 
-            //       data-do-not-show-if-empty={true} />
-            //     <ListGroupGridCriteria 
-            //       data-name="potencyGrade" 
-            //       data-position="middle"
-            //       data-area="body" 
-            //       data-icon="fa fa-thermometer-full" 
-            //       data-label="Potency Grade"
-            //       data-do-not-show-if-empty={true} />
-            //     <ListGroupGridCriteria 
-            //       data-name="durationFactor"
-            //       data-position="middle"
-            //       data-area="body"
-            //       data-icon="fa fa-diamond"
-            //       data-label="seconds duration"
-            //       data-do-not-show-if-empty={false} />
-            //     <ListGroupGridCriteria 
-            //       data-name="availabilities"
-            //       data-nested={true}
-            //       data-position="right"
-            //       data-area="body"
-            //       data-type="list"
-            //       data-icon="fa fa-map-marker"
-            //       data-label=""
-            //       data-do-not-show-if-empty={false} />
-
-            //   </ListGroupGrid>
-            // )
-          }             
-          {view}           
+          {view}
         </div>
-
-        {/* <ScrollToTop 
-          showUnder={160}
-          style={{bottom: "30px"}}>
-          <a ref={(SOT) => { this.scrollToTopBtn = SOT; }}
-             id="back-to-top" 
-             href="#" 
-             className="btn btn-primary btn-lg back-to-top"
-             role="button" 
-             title="Click to return on the top page" 
-             data-toggle="tooltip" 
-             data-placement="left">
-             <span className="glyphicon glyphicon-chevron-up"></span>
-          </a>
-        </ScrollToTop> */}
-
       </div>
     );
   }
@@ -365,7 +227,11 @@ const Material = ({material}) => {
       {/* <td data-value={material.id}>{material.id}</td> */}
       {/* <td style={{'verticalAlign': 'middle'}}><div className={'sprite ' + material.cssClassName}></div></td> */}
       <td><img alt={imageName} className="resource-icon" src={`/img/materials/${imageName}.png`}/></td>
-      <td>{material.name}</td>
+      <td>
+        <p className="mb-0">{material.name}</p>
+        <small className="small"><Link to={`/materials/${material.id}`}>Details &#187;</Link></small>
+      </td>
+      <td>{material.type}</td>
       <td>{material.sellPrice}</td>
       <td><HeartContainer health={material.hpRecovery}/></td>
       {
@@ -381,6 +247,40 @@ const Material = ({material}) => {
       ))} */}
       </td>
     </tr>
+  )
+}
+
+const MaterialListView = ({material}) => {
+
+  let imageName = material.name.replace(/ /g, "-").replace(/'/g,"").toLowerCase();
+  
+  return (
+    <div className="list-group-item list-view-item">
+      <div className="media">
+        <div className="media-left media-middle mr-2">
+          <img alt={imageName} className="resource-icon-list-view" src={`/img/materials/${imageName}.png`}/>
+        </div>
+        <div className="media-body">
+          <p className="mb-0">
+            <span className="media-heading">{material.name}</span>&nbsp;
+            <small className="small"><Link to={`/materials/${material.id}`}>Details &#187;</Link></small>
+          </p>
+          <span>
+            <span><i className="fa fa-tag" aria-hidden="true"></i> <b>{material.type}</b></span>
+            <span><i className="fa fa-diamond" aria-hidden="true"></i> <b>{material.sellPrice}</b> Rupees</span>
+            <span><i className="fa fa-heart" aria-hidden="true"></i> <b>{material.hpRecovery}</b></span>
+
+            <span><i className="fa fa-tags" aria-hidden="true"></i> <b>{material.category == null ? 'None' : material.category.name}</b></span>
+            <span><i className="fa fa-thermometer-full" aria-hidden="true"></i> <b>{material.potencyGrade === '' ? 'None': material.potencyGrade}</b></span>
+            <span><i className="fa fa-clock-o" aria-hidden="true"></i> <b>{material.durationFactor}</b></span>
+          </span>
+          <br/>
+          
+        </div>
+        <div className="media-right media-middle">
+        </div>
+      </div>
+    </div>
   )
 }
 

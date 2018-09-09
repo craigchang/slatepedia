@@ -181,6 +181,12 @@ body {
   width: 100%;
 }
 
+.resource-icon-list-view {
+  max-width: 80px;
+  min-width: 60px;
+  width: 60%;
+}
+
 .price-icon {
   max-width: 30px;
   min-width: 20px;
