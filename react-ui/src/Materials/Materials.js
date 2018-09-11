@@ -16,11 +16,14 @@ class Materials extends Component {
       fetching: true,
       sortBy: "",
       sortOrder: "",
+      filterButtonCollapsed: true,
       view: 'grid'
     };
     
     this.renderGridView = this.renderGridView.bind(this);
     this.renderListView = this.renderListView.bind(this);
+    this.searchFilterButton = this.searchFilterButton.bind(this);
+    this.clearFilterButton = this.clearFilterButton.bind(this);
     this.filterSearch = this.filterSearch.bind(this);
     this.clickTableColumnHeader = this.clickTableColumnHeader.bind(this);
   }
@@ -84,6 +87,24 @@ class Materials extends Component {
   }
 
   showGridView() {
+    let tableHeaderColsArray = [];
+    let columnsArray = [
+      {"dataValue": null, "headerName": "Icon", "isSortable": false},
+      {"dataValue": "name", "headerName": "Name", "isSortable": true}, 
+      {"dataValue": "type", "headerName": "Type", "isSortable": true}, 
+      {"dataValue": "sellPrice", "headerName": "Sell Price", "isSortable": true}, 
+      {"dataValue": "hpRecovery", "headerName": "HP Recovery", "isSortable": true},
+      {"dataValue": "category.name", "headerName": "Category", "isSortable": true}, 
+      {"dataValue": "potencyGrade", "headerName": "Potency Grade", "isSortable": true}, 
+      {"dataValue": "durationFactor", "headerName": "Duration Factor", "isSortable": true},
+      {"dataValue": null, "headerName": "Availabilities", "isSortable": false},
+    ];
+    for(let i = 0; i < columnsArray.length; i++) {
+      if (columnsArray[i].isSortable)
+        tableHeaderColsArray.push( <th key={`${i}-${columnsArray[i].headerName}`} data-value={columnsArray[i].dataValue} onClick={this.clickTableColumnHeader}>{columnsArray[i].headerName}</th> )
+      else
+        tableHeaderColsArray.push( <th key={`${i}-${columnsArray[i].dataValue}`}>{columnsArray[i].headerName}</th> )
+    }
 
     if (this.state.fetching)
       return (<div></div>)
@@ -93,15 +114,7 @@ class Materials extends Component {
           <table className="table table-striped sortable">
             <thead>
               <tr>
-                <th onClick={this.clickTableColumnHeader}>Icon</th>
-                <th data-value="name" onClick={this.clickTableColumnHeader}>Name</th>
-                <th data-value="type" onClick={this.clickTableColumnHeader}>Type</th>
-                <th data-value="sellPrice" onClick={this.clickTableColumnHeader}>Sell Price</th>
-                <th data-value="hpRecovery" onClick={this.clickTableColumnHeader}>HP Recovery</th>
-                <th data-value="category[name]" onClick={this.clickTableColumnHeader}>Category</th>
-                <th data-value="potencyGrade" onClick={this.clickTableColumnHeader}>Potency Grade</th>
-                <th data-value="durationFactor" onClick={this.clickTableColumnHeader}>Duration Factor</th>
-                <th onClick={this.clickTableColumnHeader}>Availabilities</th>
+                {tableHeaderColsArray}
               </tr>
             </thead>
             <tbody>
@@ -140,11 +153,11 @@ class Materials extends Component {
     results = _.orderBy(results, columnName, sortOrder);
 
     // Name Input
-    if (this.nameInput.value !== '') {
-      results = _.filter(results, (obj) => {
-        return obj.name.toLowerCase().indexOf(this.nameInput.value.toLowerCase()) !== -1;
-      });
-    }
+    // if (this.nameInput.value !== '') {
+    //   results = _.filter(results, (obj) => {
+    //     return obj.name.toLowerCase().indexOf(this.nameInput.value.toLowerCase()) !== -1;
+    //   });
+    // }
 
     this.setState({
       json: results,
@@ -160,21 +173,94 @@ class Materials extends Component {
 
     let results = this.state.jsonOriginal.slice();
 
-    // Name Input
-    if (this.nameInput.value !== '') {
-      results = _.filter(results, (obj) => {
-        return obj.name.toLowerCase().indexOf(this.nameInput.value.toLowerCase()) !== -1;
-      });
+    let form = document.getElementsByTagName('form');
+    let inputs = form[0].getElementsByTagName('input');
+
+    for(let i = 0; i < inputs.length; i++) {
+      if (inputs[i].value !== '')
+        results = _.filter(results, (obj) => {
+          return obj[inputs[i].name].toLowerCase().indexOf(inputs[i].value.toLowerCase()) !== -1;
+        });
     }
+
+    // clear sorting
+    let allTableHeaderCols = document.getElementsByTagName('th');
+    for(let i = 0; i < allTableHeaderCols.length; i++) {
+      allTableHeaderCols[i].className = "";
+    }
+
+    // Name Input
+    // if (this.nameInput.value !== '') {
+    //   results = _.filter(results, (obj) => {
+    //     return obj.name.toLowerCase().indexOf(this.nameInput.value.toLowerCase()) !== -1;
+    //   });
+    // }
 
     // Sorting
     if (this.state.sortBy && this.state.sortOrder)
       results = _.orderBy(results, this.state.sortBy, this.state.sortOrder);
 
-    this.setState({json: results});
+    this.setState({
+      json: results,
+      sortBy: "",
+      sortOrder: ""
+    });
+  }
+
+  searchFilterButton(event) {
+    if(event.target.classList.contains("collapsed"))
+      this.setState({filterButtonCollapsed: true})
+    else
+      this.setState({filterButtonCollapsed: false})
+  }
+
+  clearFilterButton(event) {
+    let results = this.state.jsonOriginal.slice();
+
+    let form = document.getElementsByTagName('form');
+    let inputs = form[0].getElementsByTagName('input');
+
+    for(let i = 0; i < inputs.length; i++) {
+      inputs[i].value = ''
+    }
+
+    this.filterSearch(event);
   }
 
   render() {
+    let inputFieldsArray = [];
+    let settings = [
+      {"dataValue": null, "headerName": "Icon", "isSortable": false},
+      {"dataValue": "name", "headerName": "Name", "dataType": "string", "isSortable": true}, 
+      {"dataValue": "type", "headerName": "Type", "dataType": "string", "isSortable": true}, 
+      {"dataValue": "sellPrice", "headerName": "Sell Price", "dataType": "integer", "isSortable": true}, 
+      {"dataValue": "hpRecovery", "headerName": "HP Recovery", "dataType": "integer", "isSortable": true},
+      {"dataValue": "category[name]", "headerName": "Category", "dataType": "string", "isSortable": true}, 
+      {"dataValue": "potencyGrade", "headerName": "Potency Grade", "dataType": "string", "isSortable": true}, 
+      {"dataValue": "durationFactor", "headerName": "Duration Factor", "dataType": "integer", "isSortable": true},
+      {"dataValue": null, "headerName": "Availabilities", "isSortable": false},
+    ];
+
+    for(let i = 0; i < settings.length; i++) {
+      switch(settings[i].dataType) {
+        case "string": inputFieldsArray.push(
+          <div className="form-group"> 
+            <input 
+              type="search" 
+              name={`${settings[i].dataValue}`} 
+              className="form-control" 
+              placeholder={`Search by ${settings[i].headerName}`} 
+              //ref={(input) => { this.nameInput = input; }} 
+              style={{'fontSize': '16px'}} 
+              onChange={this.filterSearch}/>
+          </div>
+         ); break;
+        case "integer": inputFieldsArray.push( 
+
+         ); break;
+        default: break;
+      }
+    }
 
     let view = '';
 
@@ -188,27 +274,24 @@ class Materials extends Component {
       <div>
         <div className="container-nonresponsive container-results">
           <h1 className="page-header">Materials</h1>
-          <div className="filter-form">
+          <p>
+            <button type="button" className={(this.state.view === 'grid' ? 'btn btn-primary' : 'btn btn-secondary') + ' mr-1'} onClick={this.renderGridView}>Grid View</button>
+            <button type="button" className={this.state.view === 'list' ? 'btn btn-primary' : 'btn btn-secondary'} onClick={this.renderListView}>List View</button>
+          </p>
+          <p>
+            <a href="#formCollapse" className="mr-1" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="formCollapse" onClick={this.searchFilterButton}>{this.state.filterButtonCollapsed ? "Open Filters" : "Close Filters" }</a>&nbsp;
+            <a href="#" role="button" onClick={this.clearFilterButton}>Clear Filters</a>
+          </p>
+          <div className="filter-form collapse" id="formCollapse">
             <form onSubmit={this.filterSearch}>
-            
-              <p>
-                <button type="button" className={this.state.view === 'grid' ? 'btn btn-primary' : 'btn btn-secondary'} onClick={this.renderGridView}>Grid View</button>
-                <button type="button" className={this.state.view === 'list' ? 'btn btn-primary' : 'btn btn-secondary'} onClick={this.renderListView}>List View</button>
-              </p>
-              
-              <div className="row">
-                <div className="col-lg-6 col-md-6">
-                  <div className="input-group">
-                    <span className="input-group-addon">
-                      <span className="glyphicon glyphicon-search" aria-hidden="true"></span>
-                    </span>
-                    <input type="search" name="name" className="form-control" placeholder="Search by Name" ref={(input) => { this.nameInput = input; }} style={{'fontSize': '16px'}} onChange={this.filterSearch}/>
-                  </div>
-                </div>
-                <div className="col-lg-6 col-md-6">
-
+              {inputFieldsArray}
+              {/* <div className="col-lg-6 col-md-6">
+                <div className="input-group">
+                  <input type="search" name="name" className="form-control" placeholder="Search by Name" ref={(input) => { this.nameInput = input; }} style={{'fontSize': '16px'}} onChange={this.filterSearch}/>
                 </div>
               </div>
+              <div className="col-lg-6 col-md-6">
+              </div> */}
             </form>
           </div>
           {view}
@@ -253,7 +336,7 @@ const Material = ({material}) => {
 const MaterialListView = ({material}) => {
 
   let imageName = material.name.replace(/ /g, "-").replace(/'/g,"").toLowerCase();
-  
+
   return (
     <div className="list-group-item list-view-item">
       <div className="media">
