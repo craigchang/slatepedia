@@ -10,12 +10,40 @@ import MaterialsDetail from './MaterialsDetail/MaterialsDetail';
 // and /schedule routes will match any pathname that starts
 // with /roster or /schedule. The / route will only match
 // when the pathname is exactly the string "/"
+
+
+// const MaterialsPage = (props) => {
+//   return (
+//     <ProductPage 
+//       toggleSidebarOn={this.toggleSidebarOn.bind(this)}
+//       {...props}
+//     />
+//   );
+// }
+
 const Main = () => (
   <main>
     <Header/>
     <Switch>
       <Route path='/materials/:id' component={MaterialsDetail} />
-      <Route path='/materials' component={Materials}/>
+      <Route 
+        path='/materials' 
+        render={(props) => 
+          <Materials 
+            test="test"
+            filterSettings={[
+              {"dataName": null, "headerName": "Icon", "isSortable": false, "isFilterable": false},
+              {"dataName": "name", "headerName": "Name", "dataType": "string", "isSortable": true, "isFilterable": true}, 
+              {"dataName": "type", "headerName": "Type", "dataType": "string", "isSortable": true, "isFilterable": true}, 
+              {"dataName": "sellPrice", "headerName": "Sell Price", "dataType": "integer", "isSortable": true, "isFilterable": true}, 
+              {"dataName": "hpRecovery", "headerName": "HP Recovery", "dataType": "integer", "isSortable": true, "isFilterable": true},
+              {"dataName": "category.name", "headerName": "Category", "dataType": "string", "isSortable": true, "isFilterable": true}, 
+              {"dataName": "potencyGrade", "headerName": "Potency Grade", "dataType": "string", "isSortable": true, "isFilterable": true}, 
+              {"dataName": "durationFactor", "headerName": "Duration Factor", "dataType": "integer", "isSortable": true, "isFilterable": true},
+              {"dataName": null, "headerName": "Availabilities", "isSortable": false, "isFilterable": false}
+            ]} 
+            />}
+        />
       <Route path='/' component={App}/>
     </Switch>
   </main>

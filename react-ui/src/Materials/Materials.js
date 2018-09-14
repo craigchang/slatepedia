@@ -67,8 +67,21 @@ class Materials extends Component {
     }
   }
 
-  renderListView() {
-    this.setState({view: 'list'});
+  renderListView(event) {
+    // clear sorting
+    let allTableHeaderCols = document.getElementsByTagName('th');
+    for(let i = 0; i < allTableHeaderCols.length; i++) {
+      allTableHeaderCols[i].className = "";
+    }
+    let results = this.state.json.slice();
+    results = _.orderBy(results, "id", "asc");
+
+    this.setState({
+      json: results,
+      view: 'list',
+      sortBy: '',
+      sortOrder: ''
+    });
   }
 
   showListView() {
@@ -76,7 +89,7 @@ class Materials extends Component {
       return (<div></div>)
     else
       return ( 
-        <div class="list-group">
+        <div className="list-group">
           {this.state.fetching ? 'Fetching message from API' : this.outputListView(this.state.json)}
         </div>
       )
@@ -103,7 +116,7 @@ class Materials extends Component {
       if (columnsArray[i].isSortable)
         tableHeaderColsArray.push( <th key={`${i}-${columnsArray[i].headerName}`} data-value={columnsArray[i].dataValue} onClick={this.clickTableColumnHeader}>{columnsArray[i].headerName}</th> )
       else
-        tableHeaderColsArray.push( <th key={`${i}-${columnsArray[i].dataValue}`}>{columnsArray[i].headerName}</th> )
+        tableHeaderColsArray.push( <th style={{cursor: 'default'}} key={`${i}-${columnsArray[i].dataValue}`}>{columnsArray[i].headerName}</th> )
     }
 
     if (this.state.fetching)
@@ -176,18 +189,75 @@ class Materials extends Component {
     let form = document.getElementsByTagName('form');
     let inputs = form[0].getElementsByTagName('input');
 
-    for(let i = 0; i < inputs.length; i++) {
-      if (inputs[i].value !== '')
-        results = _.filter(results, (obj) => {
-          return obj[inputs[i].name].toLowerCase().indexOf(inputs[i].value.toLowerCase()) !== -1;
-        });
+    for(let i = 0; i < this.props.filterSettings.length; i++) {
+      if (this.props.filterSettings[i].isFilterable) {
+        let dataName = this.props.filterSettings[i].dataName;
+
+        if (this.props.filterSettings[i].dataType == "string") {
+          let inputField = document.querySelector(`input[name="${dataName}"]`);
+
+          if (inputField && inputField.value !== '') {
+            let dataNameArray = dataName.split(".");
+
+            if (dataNameArray.length === 1)
+              results = _.filter(results, (obj) => {
+                return obj[dataNameArray[0]].toLowerCase().indexOf(inputField.value.toLowerCase()) !== -1;
+              });
+
+            if (dataNameArray.length === 2)
+              results = _.filter(results, (obj) => {
+                if (obj[dataNameArray[0]] != null)
+                  return obj[dataNameArray[0]][dataNameArray[1]].toLowerCase().indexOf(inputField.value.toLowerCase()) !== -1;
+              });
+          }
+        } else if (this.props.filterSettings[i].dataType == "integer"){
+          let minInputField = document.querySelector(`input[name="${dataName}-min"]`);
+          let maxInputField = document.querySelector(`input[name="${dataName}-max"]`);
+
+          let minVal = parseInt(minInputField.value) ? parseInt(minInputField.value) : 0;
+          let maxVal = parseInt(maxInputField.value) ? parseInt(maxInputField.value) : 0;
+
+          if (minVal === 0 && maxVal === 0) continue;
+          //if (minVal > maxVal) continue;
+          //if (minVal === 0 && maxVal !== 0) 
+          if (minVal !== 0 && maxVal === 0) {
+            maxVal = Infinity;
+          }
+
+          if (minVal !== 0 || maxVal !== 0)
+            results = _.filter(results, (obj) => {
+              console.log(`${obj.name} ${obj.sellPrice}`)
+              return minVal <= obj[dataName] && obj[dataName] <= maxVal;
+            });
+        }
+
+      }
     }
 
+
+    // for(let i = 0; i < inputs.length; i++) {
+    //   if (inputs[i].value !== '') {
+
+    //     let dataNameArray = inputs[i].name.split(".");
+
+    //     if (dataNameArray.length === 1)
+    //       results = _.filter(results, (obj) => {
+    //         return obj[inputs[i].name].toLowerCase().indexOf(inputs[i].value.toLowerCase()) !== -1;
+    //       });
+
+    //     if (dataNameArray.length === 2)
+    //       results = _.filter(results, (obj) => {
+    //         if (obj[dataNameArray[0]] != null)
+    //           return obj[dataNameArray[0]][dataNameArray[1]].toLowerCase().indexOf(inputs[i].value.toLowerCase()) !== -1;
+    //       });
+    //   }
+    // }
+
     // clear sorting
-    let allTableHeaderCols = document.getElementsByTagName('th');
-    for(let i = 0; i < allTableHeaderCols.length; i++) {
-      allTableHeaderCols[i].className = "";
-    }
+    // let allTableHeaderCols = document.getElementsByTagName('th');
+    // for(let i = 0; i < allTableHeaderCols.length; i++) {
+    //   allTableHeaderCols[i].className = "";
+    // }
 
     // Name Input
     // if (this.nameInput.value !== '') {
@@ -229,35 +299,27 @@ class Materials extends Component {
 
   render() {
     let inputFieldsArray = [];
-    let settings = [
-      {"dataValue": null, "headerName": "Icon", "isSortable": false},
-      {"dataValue": "name", "headerName": "Name", "dataType": "string", "isSortable": true}, 
-      {"dataValue": "type", "headerName": "Type", "dataType": "string", "isSortable": true}, 
-      {"dataValue": "sellPrice", "headerName": "Sell Price", "dataType": "integer", "isSortable": true}, 
-      {"dataValue": "hpRecovery", "headerName": "HP Recovery", "dataType": "integer", "isSortable": true},
-      {"dataValue": "category[name]", "headerName": "Category", "dataType": "string", "isSortable": true}, 
-      {"dataValue": "potencyGrade", "headerName": "Potency Grade", "dataType": "string", "isSortable": true}, 
-      {"dataValue": "durationFactor", "headerName": "Duration Factor", "dataType": "integer", "isSortable": true},
-      {"dataValue": null, "headerName": "Availabilities", "isSortable": false},
-    ];
+    let inputFieldsArray2 = []; 
 
-    for(let i = 0; i < settings.length; i++) {
-      switch(settings[i].dataType) {
-        case "string": inputFieldsArray.push(
-          <div className="form-group"> 
-            <input 
-              type="search" 
-              name={`${settings[i].dataValue}`} 
-              className="form-control" 
-              placeholder={`Search by ${settings[i].headerName}`} 
-              //ref={(input) => { this.nameInput = input; }} 
-              style={{'fontSize': '16px'}} 
-              onChange={this.filterSearch}/>
-          </div>
-         ); break;
-        case "integer": inputFieldsArray.push( 
+    for(let i = 0; i < this.props.filterSettings.length; i++) {
+      let j = i % 2;
 
+      switch(this.props.filterSettings[i].dataType) {
+        case "string": 
+          inputFieldsArray.push( 
+            <InputField
+              headerName={this.props.filterSettings[i].headerName}
+              dataName={this.props.filterSettings[i].dataName}
+              filterSearch={this.filterSearch}/>
          ); break;
+        case "integer": 
+          inputFieldsArray.push(
+            <InputNumberFields
+              headerName={this.props.filterSettings[i].headerName}
+              dataName={this.props.filterSettings[i].dataName}
+              filterSearch={this.filterSearch}/>
+          );
+          break;
         default: break;
       }
     }
@@ -268,6 +330,16 @@ class Materials extends Component {
       case 'grid': view = this.showGridView(); break;
       case 'list': view =  this.showListView(); break;
       default: view = this.showListView(); break; 
+    }
+    
+    let formRowsArray = [];
+    for(let i = 0; i < inputFieldsArray.length; i += 2){
+      formRowsArray.push(
+        <div className="form-row">
+          {inputFieldsArray[i]}
+          {i > inputFieldsArray.length ? '' : inputFieldsArray[i + 1]}
+        </div>
+      )
     }
 
     return (
@@ -284,16 +356,14 @@ class Materials extends Component {
           </p>
           <div className="filter-form collapse" id="formCollapse">
             <form onSubmit={this.filterSearch}>
-              {inputFieldsArray}
-              {/* <div className="col-lg-6 col-md-6">
-                <div className="input-group">
-                  <input type="search" name="name" className="form-control" placeholder="Search by Name" ref={(input) => { this.nameInput = input; }} style={{'fontSize': '16px'}} onChange={this.filterSearch}/>
-                </div>
-              </div>
-              <div className="col-lg-6 col-md-6">
-              </div> */}
+              
+              {formRowsArray}
+
             </form>
           </div>
+          <p className="mb-0">
+            {this.state.fetching ? '' : `${this.state.json.length} Items`} 
+          </p>
           {view}
         </div>
       </div>
@@ -364,6 +434,57 @@ const MaterialListView = ({material}) => {
         </div>
       </div>
     </div>
+  )
+}
+
+const InputField = ({headerName, dataName, filterSearch}) => {
+  return (
+    <div className="col-md-6">
+      <div className="form-group"> 
+        <label for="test">{headerName}</label>
+        <input 
+          type="search" 
+          name={dataName} 
+          className="form-control" 
+          placeholder={`Search by ${headerName}`} 
+          onChange={filterSearch}/>
+      </div>
+    </div>
+  )
+}
+
+const InputNumberFields = ({headerName, dataName, filterSearch}) => {
+  return (
+    <React.Fragment>
+      <div className="col-md-3">
+        <div className="form-group"> 
+          <label for="inputEmail4">{headerName} (Min)</label>
+          <input 
+            type="number" 
+            name={`${dataName}-min`} 
+            className="form-control" 
+            //laceholder={`Min`} 
+            //value={0}
+            //ref={(input) => { this.nameInput = input; }} 
+            //style={{'fontSize': '16px'}} 
+            onChange={filterSearch}/>
+        </div>
+      </div>
+      <div className="col-md-3">
+        <div className="form-group">
+          <label for="inputEmail4">{headerName} (Max)</label>
+          <input 
+            type="number" 
+            name={`${dataName}-max`} 
+            className="form-control" 
+            //placeholder={`Max`} 
+            //value={0}
+            //ref={(input) => { this.nameInput = input; }} 
+            //style={{'fontSize': '16px'}} 
+            onChange={filterSearch}/>
+        </div>
+      </div>
+    </React.Fragment>
   )
 }
 

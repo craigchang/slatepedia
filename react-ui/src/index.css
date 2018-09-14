@@ -163,9 +163,9 @@ body {
 .slider.slider-horizontal {
   width: 100%; }
 
-.table-responsive {
+/* .table-responsive {
   margin-top: 20px;
-}
+} */
 
 .container-nonresponsive {
   width: 100%;
