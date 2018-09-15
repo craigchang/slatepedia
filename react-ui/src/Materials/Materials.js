@@ -19,13 +19,13 @@ class Materials extends Component {
       filterButtonCollapsed: true,
       view: 'grid'
     };
-    
+
+    this.nameInput = React.createRef();
     this.renderGridView = this.renderGridView.bind(this);
     this.renderListView = this.renderListView.bind(this);
     this.searchFilterButton = this.searchFilterButton.bind(this);
     this.clearFilterButton = this.clearFilterButton.bind(this);
     this.filterSearch = this.filterSearch.bind(this);
-    this.clickTableColumnHeader = this.clickTableColumnHeader.bind(this);
   }
 
   componentDidMount() {
@@ -51,10 +51,10 @@ class Materials extends Component {
       });
   }
 
-  outputJson(json) {
+  outputGridView(json) {
     if (json && json.length > 0) {
       return json.map((material, index) => (
-        <Material key={index} material={material} />
+        <MaterialGridView key={index} material={material} />
       ));
     }
   }
@@ -69,11 +69,13 @@ class Materials extends Component {
 
   renderListView(event) {
     // clear sorting
+    let results = this.state.json.slice();
     let allTableHeaderCols = document.getElementsByTagName('th');
+
     for(let i = 0; i < allTableHeaderCols.length; i++) {
       allTableHeaderCols[i].className = "";
     }
-    let results = this.state.json.slice();
+    
     results = _.orderBy(results, "id", "asc");
 
     this.setState({
@@ -89,7 +91,7 @@ class Materials extends Component {
       return (<div></div>)
     else
       return ( 
-        <div className="list-group">
+        <div className="list-group mt-0">
           {this.state.fetching ? 'Fetching message from API' : this.outputListView(this.state.json)}
         </div>
       )
@@ -101,22 +103,17 @@ class Materials extends Component {
 
   showGridView() {
     let tableHeaderColsArray = [];
-    let columnsArray = [
-      {"dataValue": null, "headerName": "Icon", "isSortable": false},
-      {"dataValue": "name", "headerName": "Name", "isSortable": true}, 
-      {"dataValue": "type", "headerName": "Type", "isSortable": true}, 
-      {"dataValue": "sellPrice", "headerName": "Sell Price", "isSortable": true}, 
-      {"dataValue": "hpRecovery", "headerName": "HP Recovery", "isSortable": true},
-      {"dataValue": "category.name", "headerName": "Category", "isSortable": true}, 
-      {"dataValue": "potencyGrade", "headerName": "Potency Grade", "isSortable": true}, 
-      {"dataValue": "durationFactor", "headerName": "Duration Factor", "isSortable": true},
-      {"dataValue": null, "headerName": "Availabilities", "isSortable": false},
-    ];
-    for(let i = 0; i < columnsArray.length; i++) {
-      if (columnsArray[i].isSortable)
-        tableHeaderColsArray.push( <th key={`${i}-${columnsArray[i].headerName}`} data-value={columnsArray[i].dataValue} onClick={this.clickTableColumnHeader}>{columnsArray[i].headerName}</th> )
+    for(let i = 0; i < this.props.filterSettings.length; i++) {
+      if (this.props.filterSettings[i].isSortable)
+        tableHeaderColsArray.push( 
+          <th 
+            className="sortable"
+            key={`${i}-${this.props.filterSettings[i].headerName}`} 
+            data-value={this.props.filterSettings[i].dataValue} 
+            onClick={(event) => this.clickTableColumnHeader(event, this.props.filterSettings[i].dataName)}>{this.props.filterSettings[i].headerName}</th> 
+        )
       else
-        tableHeaderColsArray.push( <th style={{cursor: 'default'}} key={`${i}-${columnsArray[i].dataValue}`}>{columnsArray[i].headerName}</th> )
+        tableHeaderColsArray.push( <th style={{cursor: 'default'}} key={`${i}-${this.props.filterSettings[i].dataValue}`}>{this.props.filterSettings[i].headerName}</th> )
     }
 
     if (this.state.fetching)
@@ -131,54 +128,48 @@ class Materials extends Component {
               </tr>
             </thead>
             <tbody>
-              {this.state.fetching ? 'Fetching message from API' : this.outputJson(this.state.json)}
+              {this.state.fetching ? 'Fetching message from API' : this.outputGridView(this.state.json)}
             </tbody>
           </table>
         </div>
       )
   }
 
-  clickTableColumnHeader(event) {
+  clickTableColumnHeader(event, dataName) {
     event.preventDefault();
 
     let tableHeaderColumn = event.target;
     let sortOrder = 'asc';
     let results = this.state.json.slice();
-    let columnName = tableHeaderColumn.getAttribute("data-value");
     let allTableHeaderCols = tableHeaderColumn.parentElement.children;
 
     console.log(event.target.textContent);
 
-    if (!columnName) return false;
-
-    if (tableHeaderColumn.className == '' || tableHeaderColumn.className == 'desc') {
-      for(let i = 0; i < allTableHeaderCols.length; i++) {
-        allTableHeaderCols[i].className = "";
-      }
-      tableHeaderColumn.className = sortOrder = 'asc'
-    } else {
-      for(let i = 0; i < allTableHeaderCols.length; i++) {
-        allTableHeaderCols[i].className = "";
-      }
-      tableHeaderColumn.className = sortOrder = 'desc'
+    for(let i = 0; i < allTableHeaderCols.length; i++) {
+      allTableHeaderCols[i].classList.remove('asc')
+      allTableHeaderCols[i].classList.remove('desc');
     }
 
-    results = _.orderBy(results, columnName, sortOrder);
+    if (this.state.sortBy == dataName) {
+      if (this.state.sortOrder == "" || this.state.sortOrder == 'desc') {
+        tableHeaderColumn.classList.add('asc'); 
+        sortOrder = 'asc';
+      } else {
+        tableHeaderColumn.classList.add('desc');
+        sortOrder = 'desc';
+      }
+    } else {
+      tableHeaderColumn.classList.add('asc'); 
+      sortOrder = 'asc';
+    }
 
-    // Name Input
-    // if (this.nameInput.value !== '') {
-    //   results = _.filter(results, (obj) => {
-    //     return obj.name.toLowerCase().indexOf(this.nameInput.value.toLowerCase()) !== -1;
-    //   });
-    // }
+    results = _.orderBy(results, dataName, sortOrder);
 
     this.setState({
       json: results,
-      sortBy: columnName,
+      sortBy: dataName,
       sortOrder: sortOrder
     });
-
-    //this.filterSearch(results, event);
   }
 
   filterSearch(event) {
@@ -186,94 +177,19 @@ class Materials extends Component {
 
     let results = this.state.jsonOriginal.slice();
 
-    let form = document.getElementsByTagName('form');
-    let inputs = form[0].getElementsByTagName('input');
-
-    for(let i = 0; i < this.props.filterSettings.length; i++) {
-      if (this.props.filterSettings[i].isFilterable) {
-        let dataName = this.props.filterSettings[i].dataName;
-
-        if (this.props.filterSettings[i].dataType == "string") {
-          let inputField = document.querySelector(`input[name="${dataName}"]`);
-
-          if (inputField && inputField.value !== '') {
-            let dataNameArray = dataName.split(".");
-
-            if (dataNameArray.length === 1)
-              results = _.filter(results, (obj) => {
-                return obj[dataNameArray[0]].toLowerCase().indexOf(inputField.value.toLowerCase()) !== -1;
-              });
-
-            if (dataNameArray.length === 2)
-              results = _.filter(results, (obj) => {
-                if (obj[dataNameArray[0]] != null)
-                  return obj[dataNameArray[0]][dataNameArray[1]].toLowerCase().indexOf(inputField.value.toLowerCase()) !== -1;
-              });
-          }
-        } else if (this.props.filterSettings[i].dataType == "integer"){
-          let minInputField = document.querySelector(`input[name="${dataName}-min"]`);
-          let maxInputField = document.querySelector(`input[name="${dataName}-max"]`);
-
-          let minVal = parseInt(minInputField.value) ? parseInt(minInputField.value) : 0;
-          let maxVal = parseInt(maxInputField.value) ? parseInt(maxInputField.value) : 0;
-
-          if (minVal === 0 && maxVal === 0) continue;
-          //if (minVal > maxVal) continue;
-          //if (minVal === 0 && maxVal !== 0) 
-          if (minVal !== 0 && maxVal === 0) {
-            maxVal = Infinity;
-          }
-
-          if (minVal !== 0 || maxVal !== 0)
-            results = _.filter(results, (obj) => {
-              console.log(`${obj.name} ${obj.sellPrice}`)
-              return minVal <= obj[dataName] && obj[dataName] <= maxVal;
-            });
-        }
-
-      }
-    }
-
-
-    // for(let i = 0; i < inputs.length; i++) {
-    //   if (inputs[i].value !== '') {
-
-    //     let dataNameArray = inputs[i].name.split(".");
-
-    //     if (dataNameArray.length === 1)
-    //       results = _.filter(results, (obj) => {
-    //         return obj[inputs[i].name].toLowerCase().indexOf(inputs[i].value.toLowerCase()) !== -1;
-    //       });
-
-    //     if (dataNameArray.length === 2)
-    //       results = _.filter(results, (obj) => {
-    //         if (obj[dataNameArray[0]] != null)
-    //           return obj[dataNameArray[0]][dataNameArray[1]].toLowerCase().indexOf(inputs[i].value.toLowerCase()) !== -1;
-    //       });
-    //   }
-    // }
-
-    // clear sorting
-    // let allTableHeaderCols = document.getElementsByTagName('th');
-    // for(let i = 0; i < allTableHeaderCols.length; i++) {
-    //   allTableHeaderCols[i].className = "";
-    // }
-
     // Name Input
-    // if (this.nameInput.value !== '') {
-    //   results = _.filter(results, (obj) => {
-    //     return obj.name.toLowerCase().indexOf(this.nameInput.value.toLowerCase()) !== -1;
-    //   });
-    // }
+    if (this.nameInput.current.value !== '') {
+      results = _.filter(results, (obj) => {
+        return obj.name.toLowerCase().indexOf(this.nameInput.current.value.toLowerCase()) !== -1;
+      });
+    }
 
     // Sorting
     if (this.state.sortBy && this.state.sortOrder)
       results = _.orderBy(results, this.state.sortBy, this.state.sortOrder);
 
     this.setState({
-      json: results,
-      sortBy: "",
-      sortOrder: ""
+      json: results
     });
   }
 
@@ -285,61 +201,32 @@ class Materials extends Component {
   }
 
   clearFilterButton(event) {
+    event.preventDefault();
+
     let results = this.state.jsonOriginal.slice();
 
-    let form = document.getElementsByTagName('form');
-    let inputs = form[0].getElementsByTagName('input');
-
-    for(let i = 0; i < inputs.length; i++) {
-      inputs[i].value = ''
+    //clear sorting
+    let allTableHeaderCols = document.getElementsByTagName('th');
+    for(let i = 0; i < allTableHeaderCols.length; i++) {
+      allTableHeaderCols[i].classList.remove('asc');
+      allTableHeaderCols[i].classList.remove('desc');
     }
 
-    this.filterSearch(event);
+    this.setState({
+      json: results,
+      sortBy: '',
+      sortOrder: ''
+    })
+
   }
 
   render() {
-    let inputFieldsArray = [];
-    let inputFieldsArray2 = []; 
-
-    for(let i = 0; i < this.props.filterSettings.length; i++) {
-      let j = i % 2;
-
-      switch(this.props.filterSettings[i].dataType) {
-        case "string": 
-          inputFieldsArray.push( 
-            <InputField
-              headerName={this.props.filterSettings[i].headerName}
-              dataName={this.props.filterSettings[i].dataName}
-              filterSearch={this.filterSearch}/>
-         ); break;
-        case "integer": 
-          inputFieldsArray.push(
-            <InputNumberFields
-              headerName={this.props.filterSettings[i].headerName}
-              dataName={this.props.filterSettings[i].dataName}
-              filterSearch={this.filterSearch}/>
-          );
-          break;
-        default: break;
-      }
-    }
-
-    let view = '';
+    let dataView = '';
 
     switch(this.state.view) {
-      case 'grid': view = this.showGridView(); break;
-      case 'list': view =  this.showListView(); break;
-      default: view = this.showListView(); break; 
-    }
-    
-    let formRowsArray = [];
-    for(let i = 0; i < inputFieldsArray.length; i += 2){
-      formRowsArray.push(
-        <div className="form-row">
-          {inputFieldsArray[i]}
-          {i > inputFieldsArray.length ? '' : inputFieldsArray[i + 1]}
-        </div>
-      )
+      case 'grid': dataView = this.showGridView(); break;
+      case 'list': dataView =  this.showListView(); break;
+      default: dataView = this.showListView(); break; 
     }
 
     return (
@@ -349,37 +236,53 @@ class Materials extends Component {
           <p>
             <button type="button" className={(this.state.view === 'grid' ? 'btn btn-primary' : 'btn btn-secondary') + ' mr-1'} onClick={this.renderGridView}>Grid View</button>
             <button type="button" className={this.state.view === 'list' ? 'btn btn-primary' : 'btn btn-secondary'} onClick={this.renderListView}>List View</button>
-          </p>
-          <p>
-            <a href="#formCollapse" className="mr-1" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="formCollapse" onClick={this.searchFilterButton}>{this.state.filterButtonCollapsed ? "Open Filters" : "Close Filters" }</a>&nbsp;
-            <a href="#" role="button" onClick={this.clearFilterButton}>Clear Filters</a>
-          </p>
-          <div className="filter-form collapse" id="formCollapse">
-            <form onSubmit={this.filterSearch}>
-              
-              {formRowsArray}
-
-            </form>
-          </div>
+          </p> 
+          <form onSubmit={this.filterSearch}>
+            <div className="form-row">
+              <div className="col-md-6">
+                <div className="form-group">
+                  <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text"><i className="fa fa-search" aria-hidden="true"></i></div>
+                    </div>
+                    <input
+                      type="text"
+                      className="form-control"
+                      ref={this.nameInput} 
+                      placeholder={`Search by Name`} 
+                      name="name"
+                      onChange={this.filterSearch}/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p>
+              <a href="#formCollapse" className="mr-1" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="formCollapse" onClick={this.searchFilterButton}>{this.state.filterButtonCollapsed ? "More Filters" : "Close Filters" }</a>&nbsp;
+              <a href="#" role="button" onClick={this.clearFilterButton}>Clear Filters</a>
+            </p>
+            <div className="filter-form collapse" id="formCollapse">
+              Test
+            </div>
+          </form>
           <p className="mb-0">
             {this.state.fetching ? '' : `${this.state.json.length} Items`} 
           </p>
-          {view}
+          {dataView}
         </div>
       </div>
     );
   }
 }
 
-const Material = ({material}) => {
+const MaterialGridView = ({material}) => {
 
   let imageName = material.name.replace(/ /g, "-").replace(/'/g,"").toLowerCase();
 
   return (
     <tr>
-      {/* <td data-value={material.id}>{material.id}</td> */}
       {/* <td style={{'verticalAlign': 'middle'}}><div className={'sprite ' + material.cssClassName}></div></td> */}
       <td><img alt={imageName} className="resource-icon" src={`/img/materials/${imageName}.png`}/></td>
+      <td data-value={material.id}>{material.id}</td>
       <td>
         <p className="mb-0">{material.name}</p>
         <small className="small"><Link to={`/materials/${material.id}`}>Details &#187;</Link></small>
@@ -395,9 +298,11 @@ const Material = ({material}) => {
       <td>{material.potencyGrade === "" ? '-': material.potencyGrade}</td>
       <td>{material.durationFactor}</td>
       <td>
-      {/* {material.availabilities.map((availability, index) => (
-        <span key={index}><i className="fa fa-map-marker" aria-hidden="true"></i> {availability.name}</span>
-      ))} */}
+        {
+          material.availabilities.map((availability, index) => {
+            return <React.Fragment>{availability}{index < material.availabilities.length - 1 ? ", ": ""}</React.Fragment>
+          })
+        }
       </td>
     </tr>
   )
@@ -426,6 +331,11 @@ const MaterialListView = ({material}) => {
             <span><i className="fa fa-tags" aria-hidden="true"></i> <b>{material.category == null ? 'None' : material.category.name}</b></span>
             <span><i className="fa fa-thermometer-full" aria-hidden="true"></i> <b>{material.potencyGrade === '' ? 'None': material.potencyGrade}</b></span>
             <span><i className="fa fa-clock-o" aria-hidden="true"></i> <b>{material.durationFactor}</b></span>
+            {
+              material.availabilities.map((availability, index) => (
+                <span key={index}><i className="fa fa-map-marker" aria-hidden="true"></i> {availability}</span>
+              ))
+            }
           </span>
           <br/>
           
@@ -434,57 +344,6 @@ const MaterialListView = ({material}) => {
         </div>
       </div>
     </div>
-  )
-}
-
-const InputField = ({headerName, dataName, filterSearch}) => {
-  return (
-    <div className="col-md-6">
-      <div className="form-group"> 
-        <label for="test">{headerName}</label>
-        <input 
-          type="search" 
-          name={dataName} 
-          className="form-control" 
-          placeholder={`Search by ${headerName}`} 
-          onChange={filterSearch}/>
-      </div>
-    </div>
-  )
-}
-
-const InputNumberFields = ({headerName, dataName, filterSearch}) => {
-  return (
-    <React.Fragment>
-      <div className="col-md-3">
-        <div className="form-group"> 
-          <label for="inputEmail4">{headerName} (Min)</label>
-          <input 
-            type="number" 
-            name={`${dataName}-min`} 
-            className="form-control" 
-            //laceholder={`Min`} 
-            //value={0}
-            //ref={(input) => { this.nameInput = input; }} 
-            //style={{'fontSize': '16px'}} 
-            onChange={filterSearch}/>
-        </div>
-      </div>
-      <div className="col-md-3">
-        <div className="form-group">
-          <label for="inputEmail4">{headerName} (Max)</label>
-          <input 
-            type="number" 
-            name={`${dataName}-max`} 
-            className="form-control" 
-            //placeholder={`Max`} 
-            //value={0}
-            //ref={(input) => { this.nameInput = input; }} 
-            //style={{'fontSize': '16px'}} 
-            onChange={filterSearch}/>
-        </div>
-      </div>
-    </React.Fragment>
   )
 }
 

@@ -5,7 +5,7 @@ th {
     padding-right: 1.5rem !important;
 }
 
-th:before {
+th.sortable:before {
     position: absolute;
     bottom: 0.9em;
     display: block;
@@ -15,11 +15,11 @@ th:before {
     content: "\2191";
 }
 
-th.asc:before {
+th.sortable.asc:before {
     opacity: 1;
 }
 
-th:after {
+th.sortable:after {
     position: absolute;
     bottom: 0.9em;
     display: block;
@@ -29,6 +29,6 @@ th:after {
     content: "\2193";
 }
 
-th.desc:after {
+th.sortable.desc:after {
     opacity: 1;
 }

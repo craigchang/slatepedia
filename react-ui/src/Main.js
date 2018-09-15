@@ -33,6 +33,7 @@ const Main = () => (
             test="test"
             filterSettings={[
               {"dataName": null, "headerName": "Icon", "isSortable": false, "isFilterable": false},
+              {"dataName": "id", "headerName": "Id", "isSortable": true, "isFilterable": true},
               {"dataName": "name", "headerName": "Name", "dataType": "string", "isSortable": true, "isFilterable": true}, 
               {"dataName": "type", "headerName": "Type", "dataType": "string", "isSortable": true, "isFilterable": true}, 
               {"dataName": "sellPrice", "headerName": "Sell Price", "dataType": "integer", "isSortable": true, "isFilterable": true}, 

@@ -72,8 +72,8 @@ class MaterialsDetail extends Component {
               <tr>
                 <td>Availabilities</td>
                 <td>
-                  {material.availabilities != null && material.availabilities.map((availability, index) => (
-                    <p key={index}><i className="fa fa-map-marker" aria-hidden="true"></i> {availability.name}</p>
+                  { material.availabilities && material.availabilities.map((availability, index) => (
+                    <p key={index}><i className="fa fa-map-marker" aria-hidden="true"></i> {availability}</p>
                   ))}
                 </td>
               </tr>

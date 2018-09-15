@@ -11,7 +11,11 @@ module.exports = [
       "addedEffect": "Extra Hearts"
     },
     "potencyGrade": "B",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "West Necluda",
+      "Faron Grasslands"
+    ]
   },
   {
     "name": "Palm Fruit",
@@ -22,7 +26,11 @@ module.exports = [
     "hpRecovery": 4,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 30
+    "durationFactor": 30,
+    "availabilities": [
+      "East Necluda",
+      "Gerudo Desert"
+    ]
   },
   {
     "name": "Apple",
@@ -33,7 +41,12 @@ module.exports = [
     "hpRecovery": 2,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 30
+    "durationFactor": 30,
+    "availabilities": [
+      "Great Plateau",
+      "Hyrule Field",
+      "East Necluda"
+    ]
   },
   {
     "name": "Wildberry",
@@ -44,7 +57,11 @@ module.exports = [
     "hpRecovery": 2,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 30
+    "durationFactor": 30,
+    "availabilities": [
+      "Hebra Mountains",
+      "Gerudo Highlands"
+    ]
   },
   {
     "name": "Hydromelon",
@@ -58,7 +75,11 @@ module.exports = [
       "addedEffect": "Heat Resistance"
     },
     "potencyGrade": "E",
-    "durationFactor": 150
+    "durationFactor": 150,
+    "availabilities": [
+      "Gerudo Desert",
+      "Faron Grasslands"
+    ]
   },
   {
     "name": "Spicy Pepper",
@@ -72,7 +93,11 @@ module.exports = [
       "addedEffect": "Cold Resistance"
     },
     "potencyGrade": "E",
-    "durationFactor": 150
+    "durationFactor": 150,
+    "availabilities": [
+      "Gerudo Desert",
+      "Tabantha Frontier"
+    ]
   },
   {
     "name": "Voltfruit",
@@ -86,7 +111,11 @@ module.exports = [
       "addedEffect": "Shock Resistance"
     },
     "potencyGrade": "D",
-    "durationFactor": 150
+    "durationFactor": 150,
+    "availabilities": [
+      "Gerudo Desert",
+      "Gerudo Highlands"
+    ]
   },
   {
     "name": "Fleet-Lotus Seeds",
@@ -100,7 +129,11 @@ module.exports = [
       "addedEffect": "Movement Speed Up"
     },
     "potencyGrade": "B",
-    "durationFactor": 60
+    "durationFactor": 60,
+    "availabilities": [
+      "Lanayru Wetlands",
+      "Lanayru Great Spring"
+    ]
   },
   {
     "name": "Mighty Bananas",
@@ -114,7 +147,10 @@ module.exports = [
       "addedEffect": "Attack Up"
     },
     "potencyGrade": "B",
-    "durationFactor": 50
+    "durationFactor": 50,
+    "availabilities": [
+      "Faron"
+    ]
   },
   {
     "name": "Big Hearty Truffle",
@@ -128,7 +164,11 @@ module.exports = [
       "addedEffect": "Extra Hearts"
     },
     "potencyGrade": "B",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Hebra Mountains",
+      "Mount Lanayru"
+    ]
   },
   {
     "name": "Hearty Truffle",
@@ -142,7 +182,11 @@ module.exports = [
       "addedEffect": "Extra Hearts"
     },
     "potencyGrade": "E",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Hebra Mountains",
+      "Great Hyrule Forest"
+    ]
   },
   {
     "name": "Hylian Shroom",
@@ -153,7 +197,11 @@ module.exports = [
     "hpRecovery": 2,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 30
+    "durationFactor": 30,
+    "availabilities": [
+      "Hyrule Ridge",
+      "Hyrule Field"
+    ]
   },
   {
     "name": "Endura Shroom",
@@ -167,7 +215,11 @@ module.exports = [
       "addedEffect": "Extra Stamina"
     },
     "potencyGrade": "C",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Hyrule Ridge",
+      "Hyrule Field"
+    ]
   },
   {
     "name": "Stamella Shroom",
@@ -181,7 +233,11 @@ module.exports = [
       "addedEffect": "Stamina Restoration"
     },
     "potencyGrade": "C",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Great Hyrule Forest",
+      "Hyrule Field"
+    ]
   },
   {
     "name": "Chillshroom",
@@ -195,7 +251,11 @@ module.exports = [
       "addedEffect": "Heat Resistance"
     },
     "potencyGrade": "C",
-    "durationFactor": 150
+    "durationFactor": 150,
+    "availabilities": [
+      "Eldin Canyon",
+      "Gerudo Highlands"
+    ]
   },
   {
     "name": "Sunshroom",
@@ -209,7 +269,11 @@ module.exports = [
       "addedEffect": "Cold Resistance"
     },
     "potencyGrade": "C",
-    "durationFactor": 150
+    "durationFactor": 150,
+    "availabilities": [
+      "Deep Akkala",
+      "Gerudo Highlands"
+    ]
   },
   {
     "name": "Zapshroom",
@@ -223,7 +287,11 @@ module.exports = [
       "addedEffect": "Shock Resistance"
     },
     "potencyGrade": "A",
-    "durationFactor": 150
+    "durationFactor": 150,
+    "availabilities": [
+      "Gerudo Highlands",
+      "Hyrule Ridge"
+    ]
   },
   {
     "name": "Rushroom",
@@ -237,7 +305,11 @@ module.exports = [
       "addedEffect": "Movement Speed Up"
     },
     "potencyGrade": "E",
-    "durationFactor": 60
+    "durationFactor": 60,
+    "availabilities": [
+      "Great Hyrule Forest",
+      "Tabantha Frontier"
+    ]
   },
   {
     "name": "Razorshroom",
@@ -251,7 +323,11 @@ module.exports = [
       "addedEffect": "Attack Up"
     },
     "potencyGrade": "B",
-    "durationFactor": 50
+    "durationFactor": 50,
+    "availabilities": [
+      "West Necluda",
+      "East Necluda"
+    ]
   },
   {
     "name": "Ironshroom",
@@ -265,7 +341,11 @@ module.exports = [
       "addedEffect": "Defense Up"
     },
     "potencyGrade": "B",
-    "durationFactor": 50
+    "durationFactor": 50,
+    "availabilities": [
+      "Lanayru Great Spring",
+      "West Necluda"
+    ]
   },
   {
     "name": "Silent Shroom",
@@ -279,7 +359,11 @@ module.exports = [
       "addedEffect": "Stealth Up"
     },
     "potencyGrade": "C",
-    "durationFactor": 120
+    "durationFactor": 120,
+    "availabilities": [
+      "Hyrule Field",
+      "Akkala Highlands"
+    ]
   },
   {
     "name": "Big Hearty Radish",
@@ -293,7 +377,11 @@ module.exports = [
       "addedEffect": "Extra Hearts"
     },
     "potencyGrade": "A",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Hebra Mountains",
+      "Gerudo Highlands"
+    ]
   },
   {
     "name": "Hearty Radish",
@@ -307,7 +395,11 @@ module.exports = [
       "addedEffect": "Extra Hearts"
     },
     "potencyGrade": "C",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Akkala Highlands",
+      "Lanayru Great Spring"
+    ]
   },
   {
     "name": "Endura Carrot",
@@ -321,7 +413,10 @@ module.exports = [
       "addedEffect": "Extra Stamina"
     },
     "potencyGrade": "A",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Kakariko Village"
+    ]
   },
   {
     "name": "Hyrule Herb",
@@ -332,7 +427,11 @@ module.exports = [
     "hpRecovery": 4,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 30
+    "durationFactor": 30,
+    "availabilities": [
+      "Hyrule Ridge",
+      "East Necluda"
+    ]
   },
   {
     "name": "Swift Carrot",
@@ -346,7 +445,11 @@ module.exports = [
       "addedEffect": "Movement Speed Up"
     },
     "potencyGrade": "E",
-    "durationFactor": 60
+    "durationFactor": 60,
+    "availabilities": [
+      "Hyrule Ridge",
+      "Faron Grasslands"
+    ]
   },
   {
     "name": "Fortified Pumpkin",
@@ -360,7 +463,11 @@ module.exports = [
       "addedEffect": "Defense Up"
     },
     "potencyGrade": "B",
-    "durationFactor": 50
+    "durationFactor": 50,
+    "availabilities": [
+      "Hyrule Field",
+      "West Necluda"
+    ]
   },
   {
     "name": "Cool Safflina",
@@ -374,7 +481,11 @@ module.exports = [
       "addedEffect": "Heat Resistance"
     },
     "potencyGrade": "E",
-    "durationFactor": 150
+    "durationFactor": 150,
+    "availabilities": [
+      "Gerudo Desert",
+      "Hyrule Ridge"
+    ]
   },
   {
     "name": "Warm Safflina",
@@ -388,7 +499,11 @@ module.exports = [
       "addedEffect": "Cold Resistance"
     },
     "potencyGrade": "E",
-    "durationFactor": 150
+    "durationFactor": 150,
+    "availabilities": [
+      "Gerudo Desert",
+      "Hyrule Ridge"
+    ]
   },
   {
     "name": "Electric Safflina",
@@ -402,7 +517,11 @@ module.exports = [
       "addedEffect": "Shock Resistance"
     },
     "potencyGrade": "D",
-    "durationFactor": 150
+    "durationFactor": 150,
+    "availabilities": [
+      "Gerudo Desert",
+      "Hyrule Ridge"
+    ]
   },
   {
     "name": "Swift Violet",
@@ -416,7 +535,11 @@ module.exports = [
       "addedEffect": "Stealth Up"
     },
     "potencyGrade": "A",
-    "durationFactor": 60
+    "durationFactor": 60,
+    "availabilities": [
+      "Hebra Mountains",
+      "Gerudo Highlands"
+    ]
   },
   {
     "name": "Mighty Thistle",
@@ -430,7 +553,11 @@ module.exports = [
       "addedEffect": "Attack Up"
     },
     "potencyGrade": "E",
-    "durationFactor": 50
+    "durationFactor": 50,
+    "availabilities": [
+      "West Necluda",
+      "Faron Grasslands"
+    ]
   },
   {
     "name": "Armoranth",
@@ -444,7 +571,11 @@ module.exports = [
       "addedEffect": "Defense Up"
     },
     "potencyGrade": "E",
-    "durationFactor": 50
+    "durationFactor": 50,
+    "availabilities": [
+      "Akkala Highlands",
+      "Hyrule Ridge"
+    ]
   },
   {
     "name": "Blue Nightshade",
@@ -458,7 +589,11 @@ module.exports = [
       "addedEffect": "Stealth Up"
     },
     "potencyGrade": "E",
-    "durationFactor": 120
+    "durationFactor": 120,
+    "availabilities": [
+      "West Necluda",
+      "Lanayru Great Spring"
+    ]
   },
   {
     "name": "Silent Princess",
@@ -472,7 +607,11 @@ module.exports = [
       "addedEffect": "Stealth Up"
     },
     "potencyGrade": "A",
-    "durationFactor": 120
+    "durationFactor": 120,
+    "availabilities": [
+      "Hyrule Ridge",
+      "West Necluda"
+    ]
   },
   {
     "name": "Raw Gourmet Meat",
@@ -483,7 +622,11 @@ module.exports = [
     "hpRecovery": 12,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 30
+    "durationFactor": 30,
+    "availabilities": [
+      "Dropped by the biggest",
+      " most dangerous mammals"
+    ]
   },
   {
     "name": "Raw Whole Bird",
@@ -494,7 +637,10 @@ module.exports = [
     "hpRecovery": 6,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 30
+    "durationFactor": 30,
+    "availabilities": [
+      "Dropped by white pigeons and Eldin ostriches"
+    ]
   },
   {
     "name": "Raw Prime Meat",
@@ -505,7 +651,11 @@ module.exports = [
     "hpRecovery": 6,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 30
+    "durationFactor": 30,
+    "availabilities": [
+      "Dropped by bigger",
+      " more dangerous mammals"
+    ]
   },
   {
     "name": "Raw Bird Thigh",
@@ -516,7 +666,10 @@ module.exports = [
     "hpRecovery": 4,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 30
+    "durationFactor": 30,
+    "availabilities": [
+      "Dropped by small birds"
+    ]
   },
   {
     "name": "Raw Meat",
@@ -527,7 +680,11 @@ module.exports = [
     "hpRecovery": 4,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 30
+    "durationFactor": 30,
+    "availabilities": [
+      "Dropped by small",
+      " harmless animals"
+    ]
   },
   {
     "name": "Raw Bird Drumstick",
@@ -538,7 +695,10 @@ module.exports = [
     "hpRecovery": 8,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 30
+    "durationFactor": 30,
+    "availabilities": [
+      "Dropped by small birds"
+    ]
   },
   {
     "name": "Courser Bee Honey",
@@ -552,7 +712,10 @@ module.exports = [
       "addedEffect": "Stamina Restoration"
     },
     "potencyGrade": "B",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Hit a bee hive"
+    ]
   },
   {
     "name": "Hylian Rice",
@@ -563,7 +726,10 @@ module.exports = [
     "hpRecovery": 1,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 60
+    "durationFactor": 60,
+    "availabilities": [
+      "Cut tall grass in Hyrule Field"
+    ]
   },
   {
     "name": "Acorn",
@@ -574,7 +740,10 @@ module.exports = [
     "hpRecovery": 1,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 50
+    "durationFactor": 50,
+    "availabilities": [
+      "Dropped by squirrels"
+    ]
   },
   {
     "name": "Chickaloo Tree Nut",
@@ -585,7 +754,10 @@ module.exports = [
     "hpRecovery": 4,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 40
+    "durationFactor": 40,
+    "availabilities": [
+      "Dropped by small birds"
+    ]
   },
   {
     "name": "Bird Egg",
@@ -596,7 +768,10 @@ module.exports = [
     "hpRecovery": 4,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 90
+    "durationFactor": 90,
+    "availabilities": [
+      "Found in certain tall trees; dropped by cuccos"
+    ]
   },
   {
     "name": "Tabantha Wheat",
@@ -607,7 +782,10 @@ module.exports = [
     "hpRecovery": 2,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 60
+    "durationFactor": 60,
+    "availabilities": [
+      "Cut tall grass in the Tabantha region; sold in Rito Village"
+    ]
   },
   {
     "name": "Fresh Milk",
@@ -618,7 +796,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 80
+    "durationFactor": 80,
+    "availabilities": [
+      "Sold in Hateno Village's general store"
+    ]
   },
   {
     "name": "Cane Sugar",
@@ -629,7 +810,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 80
+    "durationFactor": 80,
+    "availabilities": [
+      "Sold in Rito Village's general store"
+    ]
   },
   {
     "name": "Goat Butter",
@@ -640,7 +824,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 80
+    "durationFactor": 80,
+    "availabilities": [
+      "Sold in Rito Village's general store"
+    ]
   },
   {
     "name": "Goron Spice",
@@ -651,7 +838,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 90
+    "durationFactor": 90,
+    "availabilities": [
+      "Sold in Goron City's general store"
+    ]
   },
   {
     "name": "Rock Salt",
@@ -662,7 +852,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 60
+    "durationFactor": 60,
+    "availabilities": [
+      "Ore deposits"
+    ]
   },
   {
     "name": "Monster Extract",
@@ -673,7 +866,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Kilton's monster shop"
+    ]
   },
   {
     "name": "Star Fragment",
@@ -684,7 +880,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 30
+    "durationFactor": 30,
+    "availabilities": [
+      "Shooting stars"
+    ]
   },
   {
     "name": "Dinraal's Scale",
@@ -695,7 +894,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 90
+    "durationFactor": 90,
+    "availabilities": [
+      "Fire an arrow at Dinraal's body"
+    ]
   },
   {
     "name": "Dinraal's Claw",
@@ -706,7 +908,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 210
+    "durationFactor": 210,
+    "availabilities": [
+      "Fire an arrow at Dinraal's feet"
+    ]
   },
   {
     "name": "Shard of Dinraal's Fang",
@@ -717,7 +922,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 630
+    "durationFactor": 630,
+    "availabilities": [
+      "Fire an arrow at Dinraal's mouth"
+    ]
   },
   {
     "name": "Shard of Dinraal's Horn",
@@ -728,7 +936,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 1800
+    "durationFactor": 1800,
+    "availabilities": [
+      "Fire an arrow at Dinraal's horn"
+    ]
   },
   {
     "name": "Naydra's Scale",
@@ -739,7 +950,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 90
+    "durationFactor": 90,
+    "availabilities": [
+      "Fire an arrow at Naydra's body"
+    ]
   },
   {
     "name": "Naydra's Claw",
@@ -750,7 +964,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 210
+    "durationFactor": 210,
+    "availabilities": [
+      "Fire an arrow at Naydra's feet"
+    ]
   },
   {
     "name": "Shard of Naydra's Fang",
@@ -761,7 +978,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 630
+    "durationFactor": 630,
+    "availabilities": [
+      "Fire an arrow at Naydra's mouth"
+    ]
   },
   {
     "name": "Shard of Naydra's Horn",
@@ -772,7 +992,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 1800
+    "durationFactor": 1800,
+    "availabilities": [
+      "Fire an arrow at Naydra's horn"
+    ]
   },
   {
     "name": "Farosh's Scale",
@@ -783,7 +1006,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 90
+    "durationFactor": 90,
+    "availabilities": [
+      "Fire an arrow at Farosh's body"
+    ]
   },
   {
     "name": "Farosh's Claw",
@@ -794,7 +1020,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 210
+    "durationFactor": 210,
+    "availabilities": [
+      "Fire an arrow at Farosh's feet"
+    ]
   },
   {
     "name": "Shard of Farosh's Fang",
@@ -805,7 +1034,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 630
+    "durationFactor": 630,
+    "availabilities": [
+      "Fire an arrow at Farosh's mouth"
+    ]
   },
   {
     "name": "Shard of Farosh's Horn",
@@ -816,7 +1048,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 1800
+    "durationFactor": 1800,
+    "availabilities": [
+      "Fire an arrow at Farosh's horn"
+    ]
   },
   {
     "name": "Hearty Salmon",
@@ -830,7 +1065,11 @@ module.exports = [
       "addedEffect": "Extra Hearts"
     },
     "potencyGrade": "B",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Hebra Mountains",
+      "Tabantha Frontier"
+    ]
   },
   {
     "name": "Hearty Bass",
@@ -844,7 +1083,11 @@ module.exports = [
       "addedEffect": "Extra Hearts"
     },
     "potencyGrade": "D",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "West Necluda",
+      "Akkala Highlands"
+    ]
   },
   {
     "name": "Hyrule Bass",
@@ -855,7 +1098,11 @@ module.exports = [
     "hpRecovery": 4,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 30
+    "durationFactor": 30,
+    "availabilities": [
+      "Hyrule Field",
+      "West Necluda"
+    ]
   },
   {
     "name": "Staminoka Bass",
@@ -869,7 +1116,11 @@ module.exports = [
       "addedEffect": "Stamina Restoration"
     },
     "potencyGrade": "A",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Hyrule Field",
+      "West Necluda"
+    ]
   },
   {
     "name": "Chillfin Trout",
@@ -883,7 +1134,11 @@ module.exports = [
       "addedEffect": "Heat Resistance"
     },
     "potencyGrade": "C",
-    "durationFactor": 150
+    "durationFactor": 150,
+    "availabilities": [
+      "Hebra Mountains",
+      "Tabantha Frontier"
+    ]
   },
   {
     "name": "Sizzlefin Trout",
@@ -897,7 +1152,11 @@ module.exports = [
       "addedEffect": "Cold Resistance"
     },
     "potencyGrade": "C",
-    "durationFactor": 150
+    "durationFactor": 150,
+    "availabilities": [
+      "Eldin Canyon",
+      "Eldin Mountains"
+    ]
   },
   {
     "name": "Voltfin Trout",
@@ -911,7 +1170,11 @@ module.exports = [
       "addedEffect": "Shock Resistance"
     },
     "potencyGrade": "A",
-    "durationFactor": 150
+    "durationFactor": 150,
+    "availabilities": [
+      "Tabantha Frontier",
+      "Hyrule Field"
+    ]
   },
   {
     "name": "Stealthfin Trout",
@@ -925,7 +1188,11 @@ module.exports = [
       "addedEffect": "Stealth Up"
     },
     "potencyGrade": "C",
-    "durationFactor": 120
+    "durationFactor": 120,
+    "availabilities": [
+      "Great Hyrule Forest",
+      "Eldin Mountains"
+    ]
   },
   {
     "name": "Mighty Carp",
@@ -939,7 +1206,11 @@ module.exports = [
       "addedEffect": "Attack Up"
     },
     "potencyGrade": "B",
-    "durationFactor": 50
+    "durationFactor": 50,
+    "availabilities": [
+      "Akkala Highlands",
+      "Lanayru Great Spring"
+    ]
   },
   {
     "name": "Armored Carp",
@@ -953,7 +1224,11 @@ module.exports = [
       "addedEffect": "Defense Up"
     },
     "potencyGrade": "B",
-    "durationFactor": 50
+    "durationFactor": 50,
+    "availabilities": [
+      "Lanayru Great Spring",
+      "East Necluda"
+    ]
   },
   {
     "name": "Sanke Carp",
@@ -964,7 +1239,10 @@ module.exports = [
     "hpRecovery": 4,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 30
+    "durationFactor": 30,
+    "availabilities": [
+      "West Necluda"
+    ]
   },
   {
     "name": "Mighty Porgy",
@@ -978,7 +1256,11 @@ module.exports = [
       "addedEffect": "Attack Up"
     },
     "potencyGrade": "A",
-    "durationFactor": 50
+    "durationFactor": 50,
+    "availabilities": [
+      "Necluda Sea",
+      "Lanayru Sea"
+    ]
   },
   {
     "name": "Armored Porgy",
@@ -992,7 +1274,11 @@ module.exports = [
       "addedEffect": "Defense Up"
     },
     "potencyGrade": "A",
-    "durationFactor": 50
+    "durationFactor": 50,
+    "availabilities": [
+      "Necluda Sea",
+      "Lanayru Sea"
+    ]
   },
   {
     "name": "Sneaky River Snail",
@@ -1006,7 +1292,11 @@ module.exports = [
       "addedEffect": "Stealth Up"
     },
     "potencyGrade": "E",
-    "durationFactor": 120
+    "durationFactor": 120,
+    "availabilities": [
+      "West Necluda",
+      "Lanayru Great Spring"
+    ]
   },
   {
     "name": "Hearty Blueshell Snail",
@@ -1020,7 +1310,11 @@ module.exports = [
       "addedEffect": "Extra Hearts"
     },
     "potencyGrade": "C",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Necluda Sea",
+      "Lanayru Sea"
+    ]
   },
   {
     "name": "Razorclaw Crab",
@@ -1034,7 +1328,11 @@ module.exports = [
       "addedEffect": "Attack Up"
     },
     "potencyGrade": "B",
-    "durationFactor": 50
+    "durationFactor": 50,
+    "availabilities": [
+      "Necluda Sea",
+      "East Necluda"
+    ]
   },
   {
     "name": "Ironshell Crab",
@@ -1048,7 +1346,11 @@ module.exports = [
       "addedEffect": "Defense Up"
     },
     "potencyGrade": "B",
-    "durationFactor": 50
+    "durationFactor": 50,
+    "availabilities": [
+      "Necluda Sea",
+      "East Necluda"
+    ]
   },
   {
     "name": "Bright-Eyed Crab",
@@ -1062,7 +1364,11 @@ module.exports = [
       "addedEffect": "Stamina Restoration"
     },
     "potencyGrade": "B",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Lanayru Great Spring",
+      "Eldin Canyon"
+    ]
   },
   {
     "name": "Fairy",
@@ -1073,7 +1379,10 @@ module.exports = [
     "hpRecovery": 20,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 30
+    "durationFactor": 30,
+    "availabilities": [
+      "Around Great Fairy Fountains"
+    ]
   },
   {
     "name": "Winterwing Butterfly",
@@ -1087,7 +1396,11 @@ module.exports = [
       "addedEffect": "Heat Resistance"
     },
     "potencyGrade": "E",
-    "durationFactor": 150
+    "durationFactor": 150,
+    "availabilities": [
+      "Hyrule Field",
+      "Tabantha Frontier"
+    ]
   },
   {
     "name": "Summerwing Butterfly",
@@ -1101,7 +1414,11 @@ module.exports = [
       "addedEffect": "Cold Resistance"
     },
     "potencyGrade": "E",
-    "durationFactor": 150
+    "durationFactor": 150,
+    "availabilities": [
+      "Great Hyrule Forest",
+      "Eldin Mountains"
+    ]
   },
   {
     "name": "Thunderwing Butterfly",
@@ -1115,7 +1432,11 @@ module.exports = [
       "addedEffect": "Shock Resistance"
     },
     "potencyGrade": "D",
-    "durationFactor": 150
+    "durationFactor": 150,
+    "availabilities": [
+      "Hyrule Ridge",
+      "Gerudo Highlands"
+    ]
   },
   {
     "name": "Smotherwing Butterfly",
@@ -1129,7 +1450,11 @@ module.exports = [
       "addedEffect": "Flame Guard"
     },
     "potencyGrade": "D",
-    "durationFactor": 150
+    "durationFactor": 150,
+    "availabilities": [
+      "Eldin Canyon",
+      "Death Mountain"
+    ]
   },
   {
     "name": "Cold Darner",
@@ -1143,7 +1468,11 @@ module.exports = [
       "addedEffect": "Heat Resistance"
     },
     "potencyGrade": "C",
-    "durationFactor": 150
+    "durationFactor": 150,
+    "availabilities": [
+      "Tabantha Frontier",
+      "Hyrule Ridge"
+    ]
   },
   {
     "name": "Warm Darner",
@@ -1157,7 +1486,11 @@ module.exports = [
       "addedEffect": "Cold Resistance"
     },
     "potencyGrade": "C",
-    "durationFactor": 150
+    "durationFactor": 150,
+    "availabilities": [
+      "Akkala Highlands",
+      "Hyrule Field"
+    ]
   },
   {
     "name": "Electric Darner",
@@ -1171,7 +1504,11 @@ module.exports = [
       "addedEffect": "Shock Resistance"
     },
     "potencyGrade": "A",
-    "durationFactor": 150
+    "durationFactor": 150,
+    "availabilities": [
+      "Hyrule Ridge",
+      "Gerudo Desert"
+    ]
   },
   {
     "name": "Restless Cricket",
@@ -1185,7 +1522,11 @@ module.exports = [
       "addedEffect": "Stamina Restoration"
     },
     "potencyGrade": "D",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Hyrule Field",
+      "East Necluda"
+    ]
   },
   {
     "name": "Bladed Rhino Beetle",
@@ -1199,7 +1540,11 @@ module.exports = [
       "addedEffect": "Attack Up"
     },
     "potencyGrade": "E",
-    "durationFactor": 50
+    "durationFactor": 50,
+    "availabilities": [
+      "West Necluda",
+      "East Necluda"
+    ]
   },
   {
     "name": "Rugged Rhino Beetle",
@@ -1213,7 +1558,11 @@ module.exports = [
       "addedEffect": "Defense Up"
     },
     "potencyGrade": "E",
-    "durationFactor": 50
+    "durationFactor": 50,
+    "availabilities": [
+      "Hyrule Field",
+      "Faron Grasslands"
+    ]
   },
   {
     "name": "Energetic Rhino Beetle",
@@ -1227,7 +1576,11 @@ module.exports = [
       "addedEffect": "Stamina Restoration"
     },
     "potencyGrade": "A",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Akkala Highlands",
+      "West Necluda"
+    ]
   },
   {
     "name": "Sunset Firefly",
@@ -1241,7 +1594,11 @@ module.exports = [
       "addedEffect": "Stealth Up"
     },
     "potencyGrade": "E",
-    "durationFactor": 120
+    "durationFactor": 120,
+    "availabilities": [
+      "West Necluda",
+      "Korok Forest"
+    ]
   },
   {
     "name": "Hot-Footed Frog",
@@ -1255,7 +1612,11 @@ module.exports = [
       "addedEffect": "Extra Hearts"
     },
     "potencyGrade": "B",
-    "durationFactor": 60
+    "durationFactor": 60,
+    "availabilities": [
+      "Lanayru Great Spring",
+      "Hyrule Ridge"
+    ]
   },
   {
     "name": "Tireless Frog",
@@ -1269,7 +1630,11 @@ module.exports = [
       "addedEffect": "Extra Stamina"
     },
     "potencyGrade": "B",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Lanayru Great Spring",
+      "Hyrule Ridge"
+    ]
   },
   {
     "name": "Hightail Lizard",
@@ -1283,7 +1648,11 @@ module.exports = [
       "addedEffect": "Movement Speed Up"
     },
     "potencyGrade": "E",
-    "durationFactor": 60
+    "durationFactor": 60,
+    "availabilities": [
+      "West Necluda",
+      "East Necluda"
+    ]
   },
   {
     "name": "Hearty Lizard",
@@ -1297,7 +1666,11 @@ module.exports = [
       "addedEffect": "Extra Hearts"
     },
     "potencyGrade": "B",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Gerudo Desert",
+      "Necluda Sea"
+    ]
   },
   {
     "name": "Fireproof Lizard",
@@ -1311,7 +1684,11 @@ module.exports = [
       "addedEffect": "Flame Guard"
     },
     "potencyGrade": "E",
-    "durationFactor": 150
+    "durationFactor": 150,
+    "availabilities": [
+      "Eldin Canyon",
+      "Death Mountain"
+    ]
   },
   {
     "name": "Flint",
@@ -1322,7 +1699,11 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Ore deposits",
+      "all Talus Types"
+    ]
   },
   {
     "name": "Amber",
@@ -1333,7 +1714,12 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Ore deposits",
+      "all Talus Types",
+      "all Silver enemies"
+    ]
   },
   {
     "name": "Opal",
@@ -1344,7 +1730,12 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Ore deposits",
+      "all Talus Types",
+      "all Silver enemies"
+    ]
   },
   {
     "name": "Luminous Stone",
@@ -1355,7 +1746,12 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Luminous stone deposits",
+      "Stone Talus (Luminous)",
+      "all Silver enemies"
+    ]
   },
   {
     "name": "Topaz",
@@ -1366,7 +1762,12 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Ore deposits",
+      "Stone Talus (Luminous and Rare Types)",
+      "all Silver enemies"
+    ]
   },
   {
     "name": "Ruby",
@@ -1377,7 +1778,13 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Ore deposits",
+      "Stone Talus (standard",
+      " Luminous and Igneo Types)",
+      "all Silver enemies"
+    ]
   },
   {
     "name": "Sapphire",
@@ -1388,7 +1795,12 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Ore deposits",
+      "Stone Talus (Frost and Rare Types)",
+      "all Silver enemies"
+    ]
   },
   {
     "name": "Diamond",
@@ -1399,7 +1811,12 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Rare ore deposits",
+      "Stone Talus (All except default)",
+      "all Silver enemies"
+    ]
   },
   {
     "name": "Bokoblin Horn",
@@ -1410,7 +1827,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 70
+    "durationFactor": 70,
+    "availabilities": [
+      "Dropped by Bokoblin"
+    ]
   },
   {
     "name": "Bokoblin Fang",
@@ -1421,7 +1841,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 110
+    "durationFactor": 110,
+    "availabilities": [
+      "Dropped by Bokoblin"
+    ]
   },
   {
     "name": "Bokoblin Guts",
@@ -1432,7 +1855,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 190
+    "durationFactor": 190,
+    "availabilities": [
+      "Dropped by Bokoblin"
+    ]
   },
   {
     "name": "Moblin Horn",
@@ -1443,7 +1869,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 70
+    "durationFactor": 70,
+    "availabilities": [
+      "Dropped by Moblin"
+    ]
   },
   {
     "name": "Moblin Fang",
@@ -1454,7 +1883,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 110
+    "durationFactor": 110,
+    "availabilities": [
+      "Dropped by Moblin"
+    ]
   },
   {
     "name": "Moblin Guts",
@@ -1465,7 +1897,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 190
+    "durationFactor": 190,
+    "availabilities": [
+      "Dropped by Moblin"
+    ]
   },
   {
     "name": "Lizalfos Horn",
@@ -1476,7 +1911,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 70
+    "durationFactor": 70,
+    "availabilities": [
+      "Dropped by Lizalfos"
+    ]
   },
   {
     "name": "Lizalfos Talon",
@@ -1487,7 +1925,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 110
+    "durationFactor": 110,
+    "availabilities": [
+      "Dropped by Lizalfos"
+    ]
   },
   {
     "name": "Lizalfos Tail",
@@ -1498,7 +1939,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 190
+    "durationFactor": 190,
+    "availabilities": [
+      "Dropped by Lizalfos"
+    ]
   },
   {
     "name": "Icy Lizalfos Tail",
@@ -1509,7 +1953,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 190
+    "durationFactor": 190,
+    "availabilities": [
+      "Dropped by Ice-Breath Lizalfos"
+    ]
   },
   {
     "name": "Red Lizalfos Tail",
@@ -1520,7 +1967,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 190
+    "durationFactor": 190,
+    "availabilities": [
+      "Dropped by Fire-Breath Lizalfos"
+    ]
   },
   {
     "name": "Yellow Lizalfos Tail",
@@ -1531,7 +1981,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 190
+    "durationFactor": 190,
+    "availabilities": [
+      "Dropped by Electric Lizalfos"
+    ]
   },
   {
     "name": "Lynel Horn",
@@ -1542,7 +1995,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 70
+    "durationFactor": 70,
+    "availabilities": [
+      "Dropped by Lynels"
+    ]
   },
   {
     "name": "Lynel Hoof",
@@ -1553,7 +2009,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 110
+    "durationFactor": 110,
+    "availabilities": [
+      "Dropped by Lynels"
+    ]
   },
   {
     "name": "Lynel Guts",
@@ -1564,7 +2023,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 190
+    "durationFactor": 190,
+    "availabilities": [
+      "Dropped by Lynels"
+    ]
   },
   {
     "name": "Chuchu Jelly",
@@ -1575,7 +2037,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 70
+    "durationFactor": 70,
+    "availabilities": [
+      "Dropped by Chuchus"
+    ]
   },
   {
     "name": "White Chuchu Jelly",
@@ -1586,7 +2051,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 110
+    "durationFactor": 110,
+    "availabilities": [
+      "Dropped by Ice Chuchus"
+    ]
   },
   {
     "name": "Red Chuchu Jelly",
@@ -1597,7 +2065,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 110
+    "durationFactor": 110,
+    "availabilities": [
+      "Dropped by Fire Chuchus"
+    ]
   },
   {
     "name": "Yellow Chuchu Jelly",
@@ -1608,7 +2079,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 110
+    "durationFactor": 110,
+    "availabilities": [
+      "Dropped by Electric Chuchus"
+    ]
   },
   {
     "name": "Keese Wing",
@@ -1619,7 +2093,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 70
+    "durationFactor": 70,
+    "availabilities": [
+      "Dropped by Keese"
+    ]
   },
   {
     "name": "Ice Keese Wing",
@@ -1630,7 +2107,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 110
+    "durationFactor": 110,
+    "availabilities": [
+      "Dropped by Ice Keese"
+    ]
   },
   {
     "name": "Fire Keese Wing",
@@ -1641,7 +2121,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 110
+    "durationFactor": 110,
+    "availabilities": [
+      "Dropped by Fire Keese"
+    ]
   },
   {
     "name": "Electric Keese Wing",
@@ -1652,7 +2135,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 110
+    "durationFactor": 110,
+    "availabilities": [
+      "Dropped by Electric Keese"
+    ]
   },
   {
     "name": "Keese Eyeball",
@@ -1663,7 +2149,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 190
+    "durationFactor": 190,
+    "availabilities": [
+      "Dropped by Keese"
+    ]
   },
   {
     "name": "Octorok Tentacle",
@@ -1674,7 +2163,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 70
+    "durationFactor": 70,
+    "availabilities": [
+      "Dropped by Octoroks"
+    ]
   },
   {
     "name": "Octorok Eyeball",
@@ -1685,7 +2177,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 110
+    "durationFactor": 110,
+    "availabilities": [
+      "Dropped by Octoroks"
+    ]
   },
   {
     "name": "Octo Balloon",
@@ -1696,7 +2191,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 70
+    "durationFactor": 70,
+    "availabilities": [
+      "Dropped by Octoroks"
+    ]
   },
   {
     "name": "Molduga Fin",
@@ -1707,7 +2205,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 110
+    "durationFactor": 110,
+    "availabilities": [
+      "Dropped by Moldugas"
+    ]
   },
   {
     "name": "Molduga Guts",
@@ -1718,7 +2219,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 190
+    "durationFactor": 190,
+    "availabilities": [
+      "Dropped by Moldugas"
+    ]
   },
   {
     "name": "Hinox Toenail",
@@ -1729,7 +2233,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 70
+    "durationFactor": 70,
+    "availabilities": [
+      "Dropped by Hinox"
+    ]
   },
   {
     "name": "Hinox Tooth",
@@ -1740,7 +2247,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 110
+    "durationFactor": 110,
+    "availabilities": [
+      "Dropped by Hinox"
+    ]
   },
   {
     "name": "Hinox Guts",
@@ -1751,7 +2261,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 190
+    "durationFactor": 190,
+    "availabilities": [
+      "Dropped by Hinox"
+    ]
   },
   {
     "name": "Ancient Screw",
@@ -1762,7 +2275,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 70
+    "durationFactor": 70,
+    "availabilities": [
+      "Dropped by Guardians"
+    ]
   },
   {
     "name": "Ancient Spring",
@@ -1773,7 +2289,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 70
+    "durationFactor": 70,
+    "availabilities": [
+      "Dropped by Guardians"
+    ]
   },
   {
     "name": "Ancient Gear",
@@ -1784,7 +2303,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 110
+    "durationFactor": 110,
+    "availabilities": [
+      "Dropped by Guardians"
+    ]
   },
   {
     "name": "Ancient Shaft",
@@ -1795,7 +2317,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 110
+    "durationFactor": 110,
+    "availabilities": [
+      "Dropped by Guardians"
+    ]
   },
   {
     "name": "Ancient Core",
@@ -1806,7 +2331,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 190
+    "durationFactor": 190,
+    "availabilities": [
+      "Dropped by Guardians"
+    ]
   },
   {
     "name": "Giant Ancient Core",
@@ -1817,7 +2345,10 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 190
+    "durationFactor": 190,
+    "availabilities": [
+      "Dropped by Guardians"
+    ]
   },
   {
     "name": "Wood",
@@ -1828,6 +2359,9 @@ module.exports = [
     "hpRecovery": 0,
     "category": null,
     "potencyGrade": "",
-    "durationFactor": 0
+    "durationFactor": 0,
+    "availabilities": [
+      "Obtained by cutting trees"
+    ]
   }
 ]
