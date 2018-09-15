@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
-import HeartContainer from '../Other/HeartContainer/HeartContainer';
-import { Link } from 'react-router-dom';
 import DataView from './DataView';
-//import ListViewGrid from '../components/list-view-grid/ListViewGrid';
-//import ScrollToTop from 'react-scroll-up';
-import _ from 'lodash';
 
 import './Materials.css';
 
@@ -56,16 +51,77 @@ class Materials extends Component {
               jsonOriginal={this.state.jsonOriginal}
               fetching={false}
               filterSettings={[
-                {"dataName": null, "headerName": "Icon", "isSortable": false, "isFilterable": false},
-                {"dataName": "id", "headerName": "Id", "isSortable": true, "isFilterable": true},
-                {"dataName": "name", "headerName": "Name", "dataType": "string", "isSortable": true, "isFilterable": true}, 
-                {"dataName": "type", "headerName": "Type", "dataType": "string", "isSortable": true, "isFilterable": true}, 
-                {"dataName": "sellPrice", "headerName": "Sell Price", "dataType": "integer", "isSortable": true, "isFilterable": true}, 
-                {"dataName": "hpRecovery", "headerName": "HP Recovery", "dataType": "integer", "isSortable": true, "isFilterable": true},
-                {"dataName": "category.name", "headerName": "Category", "dataType": "string", "isSortable": true, "isFilterable": true}, 
-                {"dataName": "potencyGrade", "headerName": "Potency Grade", "dataType": "string", "isSortable": true, "isFilterable": true}, 
-                {"dataName": "durationFactor", "headerName": "Duration Factor", "dataType": "integer", "isSortable": true, "isFilterable": true},
-                {"dataName": null, "headerName": "Availabilities", "isSortable": false, "isFilterable": false}
+                {
+                  "dataName": null, 
+                  "headerName": "Icon",
+                  "dataType": "image", 
+                  "isSortable": false, 
+                  "isFilterable": false
+                },
+                {
+                  "dataName": "name",
+                  "headerName": "Name",
+                  "dataType": "string",
+                  "isSortable": true,
+                  "isFilterable": true
+                },
+                {
+                  "dataName": "id",
+                  "headerName": "Id",
+                  "dataType": "integer",
+                  "isSortable": true,
+                  "isFilterable": true
+                },
+                {
+                  "dataName": "type",
+                  "headerName": "Type",
+                  "dataType": "string",
+                  "isSortable": true,
+                  "isFilterable": true
+                },
+                {
+                  "dataName": "sellPrice",
+                  "headerName": "Sell Price",
+                  "dataType": "integer",
+                  "isSortable": true,
+                  "isFilterable": true
+                },
+                {
+                  "dataName": "hpRecovery",
+                  "headerName": "HP Recovery",
+                  "dataType": "integer",
+                  "isSortable": true,
+                  "isFilterable": true
+                },
+                {
+                  "dataName": "category.name",
+                  "nested": 'addedEffect',
+                  "headerName": "Category",
+                  "dataType": "string",
+                  "isSortable": true,
+                  "isFilterable": true
+                },
+                {
+                  "dataName": "potencyGrade",
+                  "headerName": "Potency Grade",
+                  "dataType": "string",
+                  "isSortable": true,
+                  "isFilterable": true
+                },
+                {
+                  "dataName": "durationFactor",
+                  "headerName": "Duration Factor",
+                  "dataType": "integer",
+                  "isSortable": true,
+                  "isFilterable": true
+                },
+                {
+                  "dataName": "availabilities",
+                  "headerName": "Availabilities",
+                  "dataType": "array",
+                  "isSortable": false,
+                  "isFilterable": false
+                }
               ]} 
             />
           }

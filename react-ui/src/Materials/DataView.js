@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 //import ScrollToTop from 'react-scroll-up';
 import _ from 'lodash';
 
-import './Materials.css';
+import './DataView.css';
 
 class DataView extends Component {
   constructor(props) {
@@ -203,7 +203,7 @@ class DataView extends Component {
           <tbody>
             {this.state.fetching ? 
               'Fetching message from API' : 
-              this.state.json.map((material, index) => (<MaterialGridViewItem key={index} material={material} />))}
+              this.state.json.map((obj, index) => (<GridItemView key={index} obj={obj} filterSettings={this.props.filterSettings} />))}
           </tbody>
         </table>
       </div>
@@ -238,7 +238,7 @@ class DataView extends Component {
           </div>
           <p>
             <a href="#formCollapse" className="mr-1" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="formCollapse" onClick={this.clickFilterOptionsButton}>{this.state.filterButtonCollapsed ? "More Filters" : "Close Filters" }</a>&nbsp;
-            <a href="#" role="button" onClick={this.clearFilterButton}>Clear Filters</a>
+            <a href="#" role="button" onClick={this.clickClearFilterButton}>Clear Filters</a>
           </p>
           <div className="filter-form collapse" id="formCollapse">
             Test
@@ -284,6 +284,75 @@ const MaterialGridViewItem = ({material}) => {
       </td>
     </tr>
   )
+}
+
+const GridItemImageView = ({name}) => {
+  let imageName = name.replace(/ /g, "-").replace(/'/g,"").toLowerCase();
+  return (
+    <img alt={imageName} className="resource-icon" src={`/img/materials/${imageName}.png`}/>
+  )
+}
+
+const GridItemStringView = ({obj, dataName, nestedDataName}) => {
+  let dataNameArray = dataName.split(".");
+
+  if (dataNameArray.length == 2) {
+    if(obj[dataNameArray[0]] == null)
+      return '-';
+    else      
+      return (
+        <span title={`${obj[dataNameArray[0]].name} - ${obj[dataNameArray[0]][nestedDataName]} `}>{obj[dataNameArray[0]].name}</span>
+      );
+  } else {
+    if (dataName === "name")
+      return (
+        <React.Fragment>
+          <p className="mb-0">{obj.name}</p>
+          <small className="small"><Link to={`/materials/${obj.id}`}>Details &#187;</Link></small>
+        </React.Fragment>
+      );
+    else
+      return <React.Fragment>{obj[dataName] === "" ? '-': obj[dataName]}</React.Fragment> 
+  }
+}
+
+const GridItemIntegerView = ({dataValue}) => {
+  return <React.Fragment>{dataValue}</React.Fragment>; 
+}
+
+const GridItemArrayView = ({obj, dataName}) => {
+  return obj[dataName] && obj[dataName].map((item, index) => {
+    return <React.Fragment key={`${obj.name}-${item}`}>{item}{index < obj[dataName].length - 1 ? ", ": ""}</React.Fragment>
+  });
+}
+
+const GridItemView = ({obj, filterSettings}) => {
+  let array = [];
+  
+  for(let i = 0; i < filterSettings.length; i++) {
+    switch(filterSettings[i].dataType) {
+      case 'image':
+        array.push(<td><GridItemImageView name={obj.name}/></td>)
+        break;
+      case 'string':
+        array.push(<td><GridItemStringView obj={obj} dataName={filterSettings[i].dataName} nestedDataName={filterSettings[i].nested} /></td>)    
+        break;
+      case 'integer':
+        array.push(<td><GridItemIntegerView dataValue={obj[filterSettings[i].dataName]} /></td>)
+        break;
+      case 'array':
+        array.push(<td><GridItemArrayView obj={obj} dataName={filterSettings[i].dataName}/></td>)
+      default:
+        break;
+    }
+  }
+  
+  return (
+    <tr>
+      {array}
+    </tr>
+  );
+
 }
 
 const MaterialListViewItem = ({material}) => {
