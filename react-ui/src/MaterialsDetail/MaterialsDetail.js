@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import _ from 'lodash';
 import classnames from 'classnames';
 
-import '../Materials/Materials.css';
+import '../MaterialsDetail/MaterialsDetail.css';
 
 class MaterialsDetail extends Component {
   constructor(props) {
@@ -37,13 +37,17 @@ class MaterialsDetail extends Component {
   showMaterialDetailView(material) {
     let imageName = material.name.replace(/ /g, "-").replace(/'/g,"").toLowerCase();
     return (
-      <div>
+      <div className="material-detail">
         <div className="table-responsive">
           <table className="table table-striped">
             <tbody>
               <tr>
                 <td>Icon</td>
                 <td><img alt={imageName} className="resource-icon" src={`/img/materials/${imageName}.png`}/></td>
+              </tr>
+              <tr>
+                <td>Description</td>
+                <td><i className="fa fa-book"></i> {material.description}</td>
               </tr>
               <tr>
                 <td>Type</td>

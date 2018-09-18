@@ -17,15 +17,21 @@ class DataView extends Component {
       sortBy: "",
       sortOrder: "",
       filterButtonCollapsed: true,
-      dataView: 'grid'
+      dataView: 'list'
     };
 
     this.nameInput = React.createRef();
+    this.sortSelect = React.createRef();
+    this.sortOrderButton = React.createRef();
+
     this.changeToGridView = this.changeToGridView.bind(this);
     this.changeToListView = this.changeToListView.bind(this);
     this.clickFilterOptionsButton = this.clickFilterOptionsButton.bind(this);
     this.clickClearFilterButton = this.clickClearFilterButton.bind(this);
     this.filterSearch = this.filterSearch.bind(this);
+
+    this.onClickSortButton = this.onClickSortButton.bind(this);
+    this.onChangeSortSelect = this.onChangeSortSelect.bind(this);
   }
 
   componentDidMount() {
@@ -38,23 +44,12 @@ class DataView extends Component {
 
   }
 
-  changeToGridView() {
+  changeToGridView(event) {
     this.setState({dataView: 'grid'});
   }
 
   changeToListView(event) {
-    let results = this.state.json.slice();
-
-    this.clearSorting();
-
-    results = _.orderBy(results, "id", "asc");
-
-    this.setState({
-      json: results,
-      dataView: 'list',
-      sortBy: '',
-      sortOrder: ''
-    });
+    this.setState({ dataView: 'list'});
   }
 
   clickFilterOptionsButton(event) {
@@ -113,6 +108,34 @@ class DataView extends Component {
     });
   }
 
+  onChangeSortSelect(event) {
+    let dataName = this.sortSelect.current.value;
+    if (dataName == '') return false;
+
+    let results = this.state.json.slice();
+    
+    results = _.orderBy(results, dataName, this.state.sortOrder);
+
+    this.setState({
+      json: results,
+      sortBy: dataName
+    })
+  }
+
+  onClickSortButton(event) {
+    let dataName = this.sortSelect.current.value;
+    let sortOrderIcon = this.sortOrderButton.current.getElementsByTagName("i")[0];
+    let sortOrder = sortOrderIcon.classList.contains('fa-sort-alpha-asc') ? 'desc' : 'asc'; //toggle
+    let results = this.state.json.slice();
+
+    results = _.orderBy(results, dataName, sortOrder);
+
+    this.setState({
+      json: results,
+      sortOrder: sortOrder
+    })
+  }
+
   filterSearch(event) {
     event.preventDefault();
 
@@ -169,15 +192,43 @@ class DataView extends Component {
     )
   }
 
+  renderListSortSelectView() {
+    if (this.state.dataView !== 'list') return '';
+
+    let options = [];
+
+    for(let i = 0; i < this.props.filterSettings.length; i++) {
+      if (this.props.filterSettings[i].isSortable)
+        options.push(<option value={this.props.filterSettings[i].dataName} selected={this.state.sortBy == this.props.filterSettings[i].dataName ? 'selected' : ''} >{this.props.filterSettings[i].headerName}</option>)
+    }
+
+    return (
+      <div className="col-md-6">
+        <div className="form-group">
+          <div className="input-group mb-2">
+            <div className="input-group-prepend">
+              <button className="input-group-text" ref={this.sortOrderButton} style={{"cursor": "pointer"}} onClick={this.onClickSortButton}>
+                <i className={this.state.sortOrder == 'desc' ? 'fa fa-sort-alpha-desc': 'fa fa-sort-alpha-asc'} aria-hidden="true"></i>
+              </button>
+            </div>
+            <select className="form-control" name="sortSelect" ref={this.sortSelect} onChange={this.onChangeSortSelect}>
+              <option value="" >Sort By...</option>
+              {options}
+            </select>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
   renderGridHeaderView() {
     let tableHeaderColsArray = [];
     for(let i = 0; i < this.props.filterSettings.length; i++) {
       if (this.props.filterSettings[i].isSortable)
         tableHeaderColsArray.push( 
           <th 
-            className="sortable"
+            className={`sortable ${this.state.sortBy == this.props.filterSettings[i].dataName ? this.state.sortOrder : ''}`}
             key={`${i}-${this.props.filterSettings[i].headerName}`} 
-            data-value={this.props.filterSettings[i].dataValue} 
             onClick={(event) => this.clickTableColumnHeader(event, this.props.filterSettings[i].dataName)}>{this.props.filterSettings[i].headerName}</th> 
         )
       else
@@ -235,6 +286,7 @@ class DataView extends Component {
                 </div>
               </div>
             </div>
+            {this.renderListSortSelectView()}
           </div>
           <p>
             <a href="#formCollapse" className="mr-1" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="formCollapse" onClick={this.clickFilterOptionsButton}>{this.state.filterButtonCollapsed ? "More Filters" : "Close Filters" }</a>&nbsp;

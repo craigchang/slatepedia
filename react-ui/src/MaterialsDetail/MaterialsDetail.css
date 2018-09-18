@@ -1,0 +1,7 @@
+.material-detail table td:first-child{
+  width: 25%;
+}
+
+.material-detail table td:last-child{
+  width: 75%;
+}
