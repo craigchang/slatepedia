@@ -76,12 +76,15 @@ class Materials extends Component {
                   "dataName": "type",
                   "headerName": "Type",
                   "dataType": "string",
+                  "classIcon": "fa fa-tag",
                   "isSortable": true,
                   "isFilterable": true
                 },
                 {
                   "dataName": "sellPrice",
                   "headerName": "Sell Price",
+                  "classIcon": "fa fa-diamond",
+                  "labelName": "Rupees",
                   "dataType": "integer",
                   "isSortable": true,
                   "isFilterable": true
@@ -89,6 +92,7 @@ class Materials extends Component {
                 {
                   "dataName": "hpRecovery",
                   "headerName": "HP Recovery",
+                  "classIcon": "fa fa-heart",
                   "dataType": "integer",
                   "isSortable": true,
                   "isFilterable": true
@@ -97,6 +101,7 @@ class Materials extends Component {
                   "dataName": "category.name",
                   "nested": 'addedEffect',
                   "headerName": "Category",
+                  "classIcon": "fa fa-tags",
                   "dataType": "string",
                   "isSortable": true,
                   "isFilterable": true
@@ -104,6 +109,7 @@ class Materials extends Component {
                 {
                   "dataName": "potencyGrade",
                   "headerName": "Potency Grade",
+                  "classIcon": "fa fa-thermometer-full",
                   "dataType": "string",
                   "isSortable": true,
                   "isFilterable": true
@@ -111,6 +117,7 @@ class Materials extends Component {
                 {
                   "dataName": "durationFactor",
                   "headerName": "Duration Factor",
+                  "classIcon": "fa fa-clock-o",
                   "dataType": "integer",
                   "isSortable": true,
                   "isFilterable": true
@@ -118,6 +125,7 @@ class Materials extends Component {
                 {
                   "dataName": "availabilities",
                   "headerName": "Availabilities",
+                  "classIcon": "fa fa-map-marker",
                   "dataType": "array",
                   "isSortable": false,
                   "isFilterable": false

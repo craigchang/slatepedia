@@ -86,7 +86,7 @@ class DataView extends Component {
 
     // assign new sorting
     if (this.state.sortBy == dataName) {
-      if (this.state.sortOrder == "" || this.state.sortOrder == 'desc') {
+      if (this.state.sortOrder === "" || this.state.sortOrder === 'desc') {
         tableHeaderColumn.classList.add('asc'); 
         sortOrder = 'asc';
       } else {
@@ -187,7 +187,7 @@ class DataView extends Component {
       <div className="list-group mt-0">
         {this.state.fetching ? 
           'Fetching message from API' : 
-          this.state.json.map((material, index) => (<MaterialListViewItem key={index} material={material} />))}
+          this.state.json.map((material, index) => (<ListItemView key={index} material={material} filterSettings={this.props.filterSettings} />))}
       </div>
     )
   }
@@ -407,22 +407,126 @@ const GridItemView = ({obj, filterSettings}) => {
 
 }
 
-const MaterialListViewItem = ({material}) => {
+// const GridItemStringView = ({obj, dataName, nestedDataName}) => {
+//   let dataNameArray = dataName.split(".");
 
-  let imageName = material.name.replace(/ /g, "-").replace(/'/g,"").toLowerCase();
+//   if (dataNameArray.length == 2) {
+//     if(obj[dataNameArray[0]] == null)
+//       return '-';
+//     else      
+//       return (
+//         <span title={`${obj[dataNameArray[0]].name} - ${obj[dataNameArray[0]][nestedDataName]} `}>{obj[dataNameArray[0]].name}</span>
+//       );
+//   } else {
+//     if (dataName === "name")
+//       return (
+//         <React.Fragment>
+//           <p className="mb-0">{obj.name}</p>
+//           <small className="small"><Link to={`/materials/${obj.id}`}>Details &#187;</Link></small>
+//         </React.Fragment>
+//       );
+//     else
+//       return <React.Fragment>{obj[dataName] === "" ? '-': obj[dataName]}</React.Fragment> 
+//   }
+// }
 
+
+const ListItemImageView = ({name}) => {
+  let imageName = name.replace(/ /g, "-").replace(/'/g,"").toLowerCase();
+
+  return (
+    <img alt={imageName} className="resource-icon-list-view" src={`/img/materials/${imageName}.png`}/>
+  )
+}
+
+const ListItemStringView = ({obj, dataName, nestedDataName, classIcon}) => {
+  let dataNameArray = dataName.split(".");
+
+  if (dataNameArray.length == 2) {
+    if(obj[dataNameArray[0]] == null)
+      return <span><i className={classIcon} aria-hidden="true"></i> <b>None</b></span>;
+    else      
+      return (
+        <span title={`${obj[dataNameArray[0]].name} - ${obj[dataNameArray[0]][nestedDataName]} `}><i className={classIcon} aria-hidden="true"></i> <b>{obj[dataNameArray[0]].name}</b></span>
+      );
+  } else {
+    if (dataName === "name")
+      return (
+        <React.Fragment>
+          <span className="media-heading">{obj.name}</span>&nbsp;
+          <small className="small"><Link to={`/materials/${obj.id}`}>Details &#187;</Link></small>
+        </React.Fragment>
+      );
+    else
+      return <span><i className={classIcon} aria-hidden="true"></i> <b>{obj[dataName] === "" ? 'None': obj[dataName]}</b></span> 
+  }
+}
+
+const ListItemIntegerView = ({dataValue, classIcon, labelName}) => {
+  return <span><i className={classIcon} aria-hidden="true"></i> <b>{dataValue}</b> {labelName}</span>; 
+}
+
+const ListItemArrayView = ({obj, dataName, classIcon}) => {
+  return obj[dataName] && obj[dataName].map((item, index) => {
+    return <span key={`${obj.name}-${item}`}><i className={classIcon} aria-hidden="true"></i> {item}{index < obj[dataName].length - 1 ? " ": ""}</span>
+  });
+}
+
+const ListItemViewBody = ({obj, filterSettings}) => {
+  let array = [];
+  
+  for(let i = 0; i < filterSettings.length; i++) {
+    if (filterSettings[i].dataName == null || 
+        filterSettings[i].dataName == "name" || 
+        filterSettings[i].dataName == "id")
+      continue;
+
+    switch(filterSettings[i].dataType) {
+      case 'string':
+        array.push(<ListItemStringView 
+                      obj={obj} 
+                      dataName={filterSettings[i].dataName} 
+                      nestedDataName={filterSettings[i].nested} 
+                      classIcon={filterSettings[i].classIcon}/>)    
+        break;
+      case 'integer':
+        array.push(<ListItemIntegerView 
+                      dataValue={obj[filterSettings[i].dataName]}
+                      labelName={filterSettings[i].labelName} 
+                      classIcon={filterSettings[i].classIcon} />)
+        break;
+      case 'array':
+        array.push(<ListItemArrayView 
+                      obj={obj} 
+                      dataName={filterSettings[i].dataName}
+                      classIcon={filterSettings[i].classIcon}/>)
+      default:
+        break;
+    }
+
+  }
+  
+  return (
+    <tr>
+      {array}
+    </tr>
+  );
+}
+
+const ListItemView = ({material, filterSettings}) => {
   return (
     <div className="list-group-item list-view-item">
       <div className="media">
         <div className="media-left media-middle mr-2">
-          <img alt={imageName} className="resource-icon-list-view" src={`/img/materials/${imageName}.png`}/>
+          <ListItemImageView name={material.name}/>
         </div>
         <div className="media-body">
           <p className="mb-0">
-            <span className="media-heading">{material.name}</span>&nbsp;
-            <small className="small"><Link to={`/materials/${material.id}`}>Details &#187;</Link></small>
+            <ListItemStringView obj={material} dataName="name" />
+            {/* <span className="media-heading">{material.name}</span>&nbsp;
+            <small className="small"><Link to={`/materials/${material.id}`}>Details &#187;</Link></small> */}
           </p>
-          <span>
+          {/* <span>
             <span><i className="fa fa-tag" aria-hidden="true"></i> <b>{material.type}</b></span>
             <span><i className="fa fa-diamond" aria-hidden="true"></i> <b>{material.sellPrice}</b> Rupees</span>
             <span><i className="fa fa-heart" aria-hidden="true"></i> <b>{material.hpRecovery}</b></span>
@@ -435,6 +539,9 @@ const MaterialListViewItem = ({material}) => {
                 <span key={index}><i className="fa fa-map-marker" aria-hidden="true"></i> {availability}</span>
               ))
             }
+          </span> */}
+          <span>
+            <ListItemViewBody obj={material} filterSettings={filterSettings}/>
           </span>
         </div>
       </div>
