@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import _ from 'lodash';
+//import _ from 'lodash';
 import classnames from 'classnames';
 
 import '../MaterialsDetail/MaterialsDetail.css';
@@ -156,7 +156,7 @@ class MaterialsDetail extends Component {
                   {material.monsterList.map((monster, index) => (
                     <tr key={index}>
                       <td>
-                        <img src={"/img/monsters/" + monster.cssClassName + ".jpg"} width="48" height="48"/>
+                        <img alt={`${monster.name}`} src={"/img/monsters/" + monster.cssClassName + ".jpg"} width="48" height="48"/>
                       </td>
                       <td>
                         <i className="fa fa-optin-monster" aria-hidden="true"></i> <a href={"/monsters/" + monster.id}>{monster.name}</a>

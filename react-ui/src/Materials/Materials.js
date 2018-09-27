@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import DataView from './DataView';
+import DataView from '../Other/DataView/DataView';
 
 import './Materials.css';
 
@@ -118,6 +118,7 @@ class Materials extends Component {
                   "dataName": "durationFactor",
                   "headerName": "Duration Factor",
                   "classIcon": "fa fa-clock-o",
+                  "labelName": "seconds",
                   "dataType": "integer",
                   "isSortable": true,
                   "isFilterable": true
