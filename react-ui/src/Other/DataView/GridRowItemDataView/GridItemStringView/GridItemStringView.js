@@ -6,21 +6,25 @@ const GridItemStringView = ({obj, dataName, nestedDataName}) => {
 
   if (dataNameArray.length === 2) {
     if(obj[dataNameArray[0]] == null)
-      return '-';
+      return <td>-</td>;
     else      
       return (
-        <span title={`${obj[dataNameArray[0]].name} - ${obj[dataNameArray[0]][nestedDataName]} `}>{obj[dataNameArray[0]].name}</span>
+        <td>
+          <span title={`${obj[dataNameArray[0]].name} - ${obj[dataNameArray[0]][nestedDataName]} `}>{obj[dataNameArray[0]].name}</span>
+        </td>
       );
   } else {
     if (dataName === "name")
       return (
-        <React.Fragment>
+        <td>
           <p className="mb-0">{obj.name}</p>
           <small className="small"><Link to={`/materials/${obj.id}`}>Details &#187;</Link></small>
-        </React.Fragment>
+        </td>
       );
     else
-      return <React.Fragment>{obj[dataName] === "" ? '-': obj[dataName]}</React.Fragment> 
+      return (
+        <td>{obj[dataName] === "" ? '-': obj[dataName]}</td>
+      ) 
   }
 }
 

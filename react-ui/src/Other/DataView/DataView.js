@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import GridItemDataView from './GridItemDataView/GridItemDataView';
-import ListItemDataView from './ListItemDataView/ListItemDataView';
+import GridRowItemDataView from './GridRowItemDataView/GridRowItemDataView';
+import ListRowItemDataView from './ListRowItemDataView/ListRowItemDataView';
 import _ from 'lodash';
 
 import './DataView.css';
@@ -15,7 +15,7 @@ class DataView extends Component {
       sortBy: "",
       sortOrder: "",
       filterButtonCollapsed: true,
-      dataView: 'list'
+      dataView: 'grid'
     };
 
     this.nameInput = React.createRef();
@@ -26,7 +26,7 @@ class DataView extends Component {
     this.changeToListView = this.changeToListView.bind(this);
     this.clickFilterOptionsButton = this.clickFilterOptionsButton.bind(this);
     this.clickClearFilterButton = this.clickClearFilterButton.bind(this);
-    this.filterSearch = this.filterSearch.bind(this);
+    this.submitFilterSearch = this.submitFilterSearch.bind(this);
 
     this.onClickSortButton = this.onClickSortButton.bind(this);
     this.onChangeSortSelect = this.onChangeSortSelect.bind(this);
@@ -127,7 +127,7 @@ class DataView extends Component {
     })
   }
 
-  filterSearch(event) {
+  submitFilterSearch(event) {
     event.preventDefault();
 
     let results = this.state.jsonOriginal.slice();
@@ -178,7 +178,7 @@ class DataView extends Component {
       <div className="list-group mt-0">
         {this.state.fetching ? 
           'Fetching message from API' : 
-          this.state.json.map((material, index) => (<ListItemDataView key={index} material={material} filterSettings={this.props.filterSettings} />))}
+          this.state.json.map((material, index) => (<ListRowItemDataView key={index} obj={material} filterSettings={this.props.filterSettings} />))}
       </div>
     )
   }
@@ -245,7 +245,7 @@ class DataView extends Component {
           <tbody>
             {this.state.fetching ? 
               'Fetching message from API' : 
-              this.state.json.map((obj, index) => (<GridItemDataView key={index} obj={obj} filterSettings={this.props.filterSettings} />))}
+              this.state.json.map((obj, index) => (<GridRowItemDataView key={index} obj={obj} filterSettings={this.props.filterSettings} />))}
           </tbody>
         </table>
       </div>
@@ -259,7 +259,7 @@ class DataView extends Component {
           <button type="button" className={(this.state.dataView === 'grid' ? 'btn btn-primary' : 'btn btn-secondary') + ' mr-1'} onClick={this.changeToGridView}>Grid View</button>
           <button type="button" className={this.state.dataView === 'list' ? 'btn btn-primary' : 'btn btn-secondary'} onClick={this.changeToListView}>List View</button>
         </p> 
-        <form onSubmit={this.filterSearch}>
+        <form onSubmit={this.submitFilterSearch}>
           <div className="form-row">
             <div className="col-md-6">
               <div className="form-group">
@@ -273,16 +273,16 @@ class DataView extends Component {
                     ref={this.nameInput} 
                     placeholder={`Search by Name`} 
                     name="name"
-                    onChange={this.filterSearch}/>
+                    onChange={this.submitFilterSearch}/>
                 </div>
               </div>
             </div>
             {this.renderListSortSelectView()}
           </div>
-          <p>
+          {/* <p>
             <a href="#formCollapse" className="mr-1" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="formCollapse" onClick={this.clickFilterOptionsButton}>{this.state.filterButtonCollapsed ? "More Filters" : "Close Filters" }</a>&nbsp;
             <a href="#clearFilters" role="button" onClick={this.clickClearFilterButton}>Clear Filters</a>
-          </p>
+          </p> */}
           <div className="filter-form collapse" id="formCollapse">
             Test
           </div>

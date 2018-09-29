@@ -1,7 +1,9 @@
 import React from 'react';
 
 const GridItemIntegerView = ({dataValue}) => {
-  return <React.Fragment>{dataValue}</React.Fragment>; 
+  return (
+    <td>{dataValue}</td>
+  ); 
 }
 
 export default GridItemIntegerView;
