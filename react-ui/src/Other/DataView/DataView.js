@@ -178,7 +178,7 @@ class DataView extends Component {
       <div className="list-group mt-0">
         {this.state.fetching ? 
           'Fetching message from API' : 
-          this.state.json.map((material, index) => (<ListRowItemDataView key={index} obj={material} filterSettings={this.props.filterSettings} />))}
+          this.state.json.map((obj, index) => (<ListRowItemDataView key={index} obj={obj} filterSettings={this.props.filterSettings} />))}
       </div>
     )
   }

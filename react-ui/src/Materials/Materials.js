@@ -54,7 +54,8 @@ class Materials extends Component {
                 {
                   "dataName": null, 
                   "headerName": "Icon",
-                  "dataType": "image", 
+                  "dataType": "image",
+                  "imageFolder": "/img/materials",
                   "isSortable": false, 
                   "isFilterable": false
                 },
@@ -62,6 +63,7 @@ class Materials extends Component {
                   "dataName": "name",
                   "headerName": "Name",
                   "dataType": "string",
+                  "detailLink": "/materials",
                   "isSortable": true,
                   "isFilterable": true
                 },

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const GridItemStringView = ({obj, dataName, nestedDataName}) => {
+const GridItemStringView = ({obj, dataName, nestedDataName, detailLink}) => {
   let dataNameArray = dataName.split(".");
 
   if (dataNameArray.length === 2) {
@@ -18,7 +18,7 @@ const GridItemStringView = ({obj, dataName, nestedDataName}) => {
       return (
         <td>
           <p className="mb-0">{obj.name}</p>
-          <small className="small"><Link to={`/materials/${obj.id}`}>Details &#187;</Link></small>
+          <small className="small"><Link to={`${detailLink}/${obj.id}`}>Details &#187;</Link></small>
         </td>
       );
     else

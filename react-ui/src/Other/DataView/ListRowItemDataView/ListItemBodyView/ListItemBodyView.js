@@ -2,6 +2,7 @@ import React from 'react';
 import ListItemStringView from '../ListItemStringView/ListItemStringView';
 import ListItemIntegerView from '../ListItemIntegerView/ListItemIntegerView';
 import ListItemArrayView from '../ListItemArrayView/ListItemArrayView';
+import ListItemArrayObjectView from '../ListItemArrayObjectView/ListItemArrayObjectView';
 
 const ListItemBodyView = ({obj, filterSettings}) => {
   let array = [];
@@ -31,6 +32,12 @@ const ListItemBodyView = ({obj, filterSettings}) => {
       case 'array':
         array.push(<ListItemArrayView 
                       key={`${filterSettings[i].dataName}-array`}
+                      inputArray={obj[filterSettings[i].dataName]} 
+                      classIcon={filterSettings[i].classIcon}/>)
+        break;
+      case 'arrayObject':
+        array.push(<ListItemArrayObjectView
+                      key={`${filterSettings[i].dataName}-arrayObject`}
                       inputArray={obj[filterSettings[i].dataName]} 
                       classIcon={filterSettings[i].classIcon}/>)
         break;

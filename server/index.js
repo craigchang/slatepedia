@@ -6,6 +6,7 @@ const numCPUs = require('os').cpus().length;
 const PORT = process.env.PORT || 5000;
 
 const materialsJson = require('./rest/materials');
+const recipesJson = require('./rest/recipes');
 
 // Multi-process to utilize all CPU cores.
 if (cluster.isMaster) {
@@ -50,7 +51,17 @@ if (cluster.isMaster) {
     res.set('Content-Type', 'application/json');
     res.send(materialsJson[Number(req.params.id) - 1]);
   });
-  
+
+  // Recipes API
+  app.get('/api/recipes', function (req, res) {
+    res.set('Content-Type', 'application/json');
+    res.send(recipesJson);
+  })
+  // Recipes Detail API
+  app.get('/api/recipes/:id', function (req, res) {
+    res.set('Content-Type', 'application/json');
+    res.send(recipesJson[Number(req.params.id) - 1]);
+  });
 
   // All remaining requests return the React app, so it can handle routing.
   app.get('*', function(request, response) {
