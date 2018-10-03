@@ -15,6 +15,43 @@ module.exports = [
     "availabilities": [
       "West Necluda",
       "Faron Grasslands"
+    ],
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Fruitcake",
+        "cssClassName": "fruitcake"
+      },
+      {
+        "id": 32,
+        "name": "Fruit Pie",
+        "cssClassName": "fruit-pie"
+      },
+      {
+        "id": 72,
+        "name": "Honeyed Fruits",
+        "cssClassName": "honeyed-fruits"
+      },
+      {
+        "id": 89,
+        "name": "Copious Simmered Fruit",
+        "cssClassName": "copious-simmered-fruit"
+      },
+      {
+        "id": 101,
+        "name": "Steamed Fruit",
+        "cssClassName": "steamed-fruit"
+      },
+      {
+        "id": 104,
+        "name": "Fruit and Mushroom Mix",
+        "cssClassName": "fruit-and-mushroom-mix"
+      },
+      {
+        "id": 112,
+        "name": "Simmered Fruit",
+        "cssClassName": "simmered-fruit"
+      }
     ]
   },
   {
@@ -30,6 +67,43 @@ module.exports = [
     "availabilities": [
       "East Necluda",
       "Gerudo Desert"
+    ],
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Fruitcake",
+        "cssClassName": "fruitcake"
+      },
+      {
+        "id": 32,
+        "name": "Fruit Pie",
+        "cssClassName": "fruit-pie"
+      },
+      {
+        "id": 72,
+        "name": "Honeyed Fruits",
+        "cssClassName": "honeyed-fruits"
+      },
+      {
+        "id": 89,
+        "name": "Copious Simmered Fruit",
+        "cssClassName": "copious-simmered-fruit"
+      },
+      {
+        "id": 101,
+        "name": "Steamed Fruit",
+        "cssClassName": "steamed-fruit"
+      },
+      {
+        "id": 104,
+        "name": "Fruit and Mushroom Mix",
+        "cssClassName": "fruit-and-mushroom-mix"
+      },
+      {
+        "id": 112,
+        "name": "Simmered Fruit",
+        "cssClassName": "simmered-fruit"
+      }
     ]
   },
   {
@@ -46,6 +120,58 @@ module.exports = [
       "Great Plateau",
       "Hyrule Field",
       "East Necluda"
+    ],
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Fruitcake",
+        "cssClassName": "fruitcake"
+      },
+      {
+        "id": 27,
+        "name": "Apple Pie",
+        "cssClassName": "apple-pie"
+      },
+      {
+        "id": 32,
+        "name": "Fruit Pie",
+        "cssClassName": "fruit-pie"
+      },
+      {
+        "id": 64,
+        "name": "Hot Buttered Apple",
+        "cssClassName": "hot-buttered-apple"
+      },
+      {
+        "id": 71,
+        "name": "Honeyed Apple",
+        "cssClassName": "honeyed-apple"
+      },
+      {
+        "id": 72,
+        "name": "Honeyed Fruits",
+        "cssClassName": "honeyed-fruits"
+      },
+      {
+        "id": 89,
+        "name": "Copious Simmered Fruit",
+        "cssClassName": "copious-simmered-fruit"
+      },
+      {
+        "id": 101,
+        "name": "Steamed Fruit",
+        "cssClassName": "steamed-fruit"
+      },
+      {
+        "id": 104,
+        "name": "Fruit and Mushroom Mix",
+        "cssClassName": "fruit-and-mushroom-mix"
+      },
+      {
+        "id": 112,
+        "name": "Simmered Fruit",
+        "cssClassName": "simmered-fruit"
+      }
     ]
   },
   {
@@ -61,6 +187,48 @@ module.exports = [
     "availabilities": [
       "Hebra Mountains",
       "Gerudo Highlands"
+    ],
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Fruitcake",
+        "cssClassName": "fruitcake"
+      },
+      {
+        "id": 24,
+        "name": "Wildberry Crepe",
+        "cssClassName": "wildberry-crepe"
+      },
+      {
+        "id": 32,
+        "name": "Fruit Pie",
+        "cssClassName": "fruit-pie"
+      },
+      {
+        "id": 72,
+        "name": "Honeyed Fruits",
+        "cssClassName": "honeyed-fruits"
+      },
+      {
+        "id": 89,
+        "name": "Copious Simmered Fruit",
+        "cssClassName": "copious-simmered-fruit"
+      },
+      {
+        "id": 101,
+        "name": "Steamed Fruit",
+        "cssClassName": "steamed-fruit"
+      },
+      {
+        "id": 104,
+        "name": "Fruit and Mushroom Mix",
+        "cssClassName": "fruit-and-mushroom-mix"
+      },
+      {
+        "id": 112,
+        "name": "Simmered Fruit",
+        "cssClassName": "simmered-fruit"
+      }
     ]
   },
   {
@@ -79,6 +247,48 @@ module.exports = [
     "availabilities": [
       "Gerudo Desert",
       "Faron Grasslands"
+    ],
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Fruitcake",
+        "cssClassName": "fruitcake"
+      },
+      {
+        "id": 8,
+        "name": "Creamy Heart Soup",
+        "cssClassName": "creamy-heart-soup"
+      },
+      {
+        "id": 32,
+        "name": "Fruit Pie",
+        "cssClassName": "fruit-pie"
+      },
+      {
+        "id": 72,
+        "name": "Honeyed Fruits",
+        "cssClassName": "honeyed-fruits"
+      },
+      {
+        "id": 89,
+        "name": "Copious Simmered Fruit",
+        "cssClassName": "copious-simmered-fruit"
+      },
+      {
+        "id": 101,
+        "name": "Steamed Fruit",
+        "cssClassName": "steamed-fruit"
+      },
+      {
+        "id": 104,
+        "name": "Fruit and Mushroom Mix",
+        "cssClassName": "fruit-and-mushroom-mix"
+      },
+      {
+        "id": 112,
+        "name": "Simmered Fruit",
+        "cssClassName": "simmered-fruit"
+      }
     ]
   },
   {
@@ -97,6 +307,23 @@ module.exports = [
     "availabilities": [
       "Gerudo Desert",
       "Tabantha Frontier"
+    ],
+    "recipes": [
+      {
+        "id": 96,
+        "name": "Pepper Steak",
+        "cssClassName": "pepper-steak"
+      },
+      {
+        "id": 97,
+        "name": "Pepper Seafood",
+        "cssClassName": "pepper-seafood"
+      },
+      {
+        "id": 118,
+        "name": "Sauteed Peppers",
+        "cssClassName": "sauteed-peppers"
+      }
     ]
   },
   {
@@ -115,6 +342,48 @@ module.exports = [
     "availabilities": [
       "Gerudo Desert",
       "Gerudo Highlands"
+    ],
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Fruitcake",
+        "cssClassName": "fruitcake"
+      },
+      {
+        "id": 8,
+        "name": "Creamy Heart Soup",
+        "cssClassName": "creamy-heart-soup"
+      },
+      {
+        "id": 32,
+        "name": "Fruit Pie",
+        "cssClassName": "fruit-pie"
+      },
+      {
+        "id": 72,
+        "name": "Honeyed Fruits",
+        "cssClassName": "honeyed-fruits"
+      },
+      {
+        "id": 89,
+        "name": "Copious Simmered Fruit",
+        "cssClassName": "copious-simmered-fruit"
+      },
+      {
+        "id": 101,
+        "name": "Steamed Fruit",
+        "cssClassName": "steamed-fruit"
+      },
+      {
+        "id": 104,
+        "name": "Fruit and Mushroom Mix",
+        "cssClassName": "fruit-and-mushroom-mix"
+      },
+      {
+        "id": 112,
+        "name": "Simmered Fruit",
+        "cssClassName": "simmered-fruit"
+      }
     ]
   },
   {
@@ -133,6 +402,43 @@ module.exports = [
     "availabilities": [
       "Lanayru Wetlands",
       "Lanayru Great Spring"
+    ],
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Fruitcake",
+        "cssClassName": "fruitcake"
+      },
+      {
+        "id": 32,
+        "name": "Fruit Pie",
+        "cssClassName": "fruit-pie"
+      },
+      {
+        "id": 72,
+        "name": "Honeyed Fruits",
+        "cssClassName": "honeyed-fruits"
+      },
+      {
+        "id": 89,
+        "name": "Copious Simmered Fruit",
+        "cssClassName": "copious-simmered-fruit"
+      },
+      {
+        "id": 101,
+        "name": "Steamed Fruit",
+        "cssClassName": "steamed-fruit"
+      },
+      {
+        "id": 104,
+        "name": "Fruit and Mushroom Mix",
+        "cssClassName": "fruit-and-mushroom-mix"
+      },
+      {
+        "id": 112,
+        "name": "Simmered Fruit",
+        "cssClassName": "simmered-fruit"
+      }
     ]
   },
   {
@@ -150,6 +456,48 @@ module.exports = [
     "durationFactor": 50,
     "availabilities": [
       "Faron"
+    ],
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Fruitcake",
+        "cssClassName": "fruitcake"
+      },
+      {
+        "id": 31,
+        "name": "Fried Bananas",
+        "cssClassName": "fried-bananas"
+      },
+      {
+        "id": 32,
+        "name": "Fruit Pie",
+        "cssClassName": "fruit-pie"
+      },
+      {
+        "id": 72,
+        "name": "Honeyed Fruits",
+        "cssClassName": "honeyed-fruits"
+      },
+      {
+        "id": 89,
+        "name": "Copious Simmered Fruit",
+        "cssClassName": "copious-simmered-fruit"
+      },
+      {
+        "id": 101,
+        "name": "Steamed Fruit",
+        "cssClassName": "steamed-fruit"
+      },
+      {
+        "id": 104,
+        "name": "Fruit and Mushroom Mix",
+        "cssClassName": "fruit-and-mushroom-mix"
+      },
+      {
+        "id": 112,
+        "name": "Simmered Fruit",
+        "cssClassName": "simmered-fruit"
+      }
     ]
   },
   {
@@ -168,6 +516,73 @@ module.exports = [
     "availabilities": [
       "Hebra Mountains",
       "Mount Lanayru"
+    ],
+    "recipes": [
+      {
+        "id": 39,
+        "name": "Mushroom Risotto",
+        "cssClassName": "mushroom-risotto"
+      },
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 46,
+        "name": "Mushroom Omelet",
+        "cssClassName": "mushroom-omelet"
+      },
+      {
+        "id": 62,
+        "name": "Mushroom Rice Balls",
+        "cssClassName": "mushroom-rice-balls"
+      },
+      {
+        "id": 68,
+        "name": "Glazed Mushrooms",
+        "cssClassName": "glazed-mushrooms"
+      },
+      {
+        "id": 76,
+        "name": "Fragrant Mushroom Saute",
+        "cssClassName": "fragrant-mushroom-saute"
+      },
+      {
+        "id": 86,
+        "name": "Salt-Grilled Mushrooms",
+        "cssClassName": "salt-grilled-mushrooms"
+      },
+      {
+        "id": 90,
+        "name": "Copious Mushroom Skewers",
+        "cssClassName": "copious-mushroom-skewers"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 103,
+        "name": "Meat and Mushroom Skewer",
+        "cssClassName": "meat-and-mushroom-skewer"
+      },
+      {
+        "id": 104,
+        "name": "Fruit and Mushroom Mix",
+        "cssClassName": "fruit-and-mushroom-mix"
+      },
+      {
+        "id": 110,
+        "name": "Mushroom Skewer",
+        "cssClassName": "mushroom-skewer"
+      }
     ]
   },
   {
@@ -186,6 +601,73 @@ module.exports = [
     "availabilities": [
       "Hebra Mountains",
       "Great Hyrule Forest"
+    ],
+    "recipes": [
+      {
+        "id": 39,
+        "name": "Mushroom Risotto",
+        "cssClassName": "mushroom-risotto"
+      },
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 46,
+        "name": "Mushroom Omelet",
+        "cssClassName": "mushroom-omelet"
+      },
+      {
+        "id": 62,
+        "name": "Mushroom Rice Balls",
+        "cssClassName": "mushroom-rice-balls"
+      },
+      {
+        "id": 68,
+        "name": "Glazed Mushrooms",
+        "cssClassName": "glazed-mushrooms"
+      },
+      {
+        "id": 76,
+        "name": "Fragrant Mushroom Saute",
+        "cssClassName": "fragrant-mushroom-saute"
+      },
+      {
+        "id": 86,
+        "name": "Salt-Grilled Mushrooms",
+        "cssClassName": "salt-grilled-mushrooms"
+      },
+      {
+        "id": 90,
+        "name": "Copious Mushroom Skewers",
+        "cssClassName": "copious-mushroom-skewers"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 103,
+        "name": "Meat and Mushroom Skewer",
+        "cssClassName": "meat-and-mushroom-skewer"
+      },
+      {
+        "id": 104,
+        "name": "Fruit and Mushroom Mix",
+        "cssClassName": "fruit-and-mushroom-mix"
+      },
+      {
+        "id": 110,
+        "name": "Mushroom Skewer",
+        "cssClassName": "mushroom-skewer"
+      }
     ]
   },
   {
@@ -201,6 +683,73 @@ module.exports = [
     "availabilities": [
       "Hyrule Ridge",
       "Hyrule Field"
+    ],
+    "recipes": [
+      {
+        "id": 39,
+        "name": "Mushroom Risotto",
+        "cssClassName": "mushroom-risotto"
+      },
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 46,
+        "name": "Mushroom Omelet",
+        "cssClassName": "mushroom-omelet"
+      },
+      {
+        "id": 62,
+        "name": "Mushroom Rice Balls",
+        "cssClassName": "mushroom-rice-balls"
+      },
+      {
+        "id": 68,
+        "name": "Glazed Mushrooms",
+        "cssClassName": "glazed-mushrooms"
+      },
+      {
+        "id": 76,
+        "name": "Fragrant Mushroom Saute",
+        "cssClassName": "fragrant-mushroom-saute"
+      },
+      {
+        "id": 86,
+        "name": "Salt-Grilled Mushrooms",
+        "cssClassName": "salt-grilled-mushrooms"
+      },
+      {
+        "id": 90,
+        "name": "Copious Mushroom Skewers",
+        "cssClassName": "copious-mushroom-skewers"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 103,
+        "name": "Meat and Mushroom Skewer",
+        "cssClassName": "meat-and-mushroom-skewer"
+      },
+      {
+        "id": 104,
+        "name": "Fruit and Mushroom Mix",
+        "cssClassName": "fruit-and-mushroom-mix"
+      },
+      {
+        "id": 110,
+        "name": "Mushroom Skewer",
+        "cssClassName": "mushroom-skewer"
+      }
     ]
   },
   {
@@ -219,6 +768,73 @@ module.exports = [
     "availabilities": [
       "Hyrule Ridge",
       "Hyrule Field"
+    ],
+    "recipes": [
+      {
+        "id": 39,
+        "name": "Mushroom Risotto",
+        "cssClassName": "mushroom-risotto"
+      },
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 46,
+        "name": "Mushroom Omelet",
+        "cssClassName": "mushroom-omelet"
+      },
+      {
+        "id": 62,
+        "name": "Mushroom Rice Balls",
+        "cssClassName": "mushroom-rice-balls"
+      },
+      {
+        "id": 68,
+        "name": "Glazed Mushrooms",
+        "cssClassName": "glazed-mushrooms"
+      },
+      {
+        "id": 76,
+        "name": "Fragrant Mushroom Saute",
+        "cssClassName": "fragrant-mushroom-saute"
+      },
+      {
+        "id": 86,
+        "name": "Salt-Grilled Mushrooms",
+        "cssClassName": "salt-grilled-mushrooms"
+      },
+      {
+        "id": 90,
+        "name": "Copious Mushroom Skewers",
+        "cssClassName": "copious-mushroom-skewers"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 103,
+        "name": "Meat and Mushroom Skewer",
+        "cssClassName": "meat-and-mushroom-skewer"
+      },
+      {
+        "id": 104,
+        "name": "Fruit and Mushroom Mix",
+        "cssClassName": "fruit-and-mushroom-mix"
+      },
+      {
+        "id": 110,
+        "name": "Mushroom Skewer",
+        "cssClassName": "mushroom-skewer"
+      }
     ]
   },
   {
@@ -237,6 +853,73 @@ module.exports = [
     "availabilities": [
       "Great Hyrule Forest",
       "Hyrule Field"
+    ],
+    "recipes": [
+      {
+        "id": 39,
+        "name": "Mushroom Risotto",
+        "cssClassName": "mushroom-risotto"
+      },
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 46,
+        "name": "Mushroom Omelet",
+        "cssClassName": "mushroom-omelet"
+      },
+      {
+        "id": 62,
+        "name": "Mushroom Rice Balls",
+        "cssClassName": "mushroom-rice-balls"
+      },
+      {
+        "id": 68,
+        "name": "Glazed Mushrooms",
+        "cssClassName": "glazed-mushrooms"
+      },
+      {
+        "id": 76,
+        "name": "Fragrant Mushroom Saute",
+        "cssClassName": "fragrant-mushroom-saute"
+      },
+      {
+        "id": 86,
+        "name": "Salt-Grilled Mushrooms",
+        "cssClassName": "salt-grilled-mushrooms"
+      },
+      {
+        "id": 90,
+        "name": "Copious Mushroom Skewers",
+        "cssClassName": "copious-mushroom-skewers"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 103,
+        "name": "Meat and Mushroom Skewer",
+        "cssClassName": "meat-and-mushroom-skewer"
+      },
+      {
+        "id": 104,
+        "name": "Fruit and Mushroom Mix",
+        "cssClassName": "fruit-and-mushroom-mix"
+      },
+      {
+        "id": 110,
+        "name": "Mushroom Skewer",
+        "cssClassName": "mushroom-skewer"
+      }
     ]
   },
   {
@@ -255,6 +938,73 @@ module.exports = [
     "availabilities": [
       "Eldin Canyon",
       "Gerudo Highlands"
+    ],
+    "recipes": [
+      {
+        "id": 39,
+        "name": "Mushroom Risotto",
+        "cssClassName": "mushroom-risotto"
+      },
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 46,
+        "name": "Mushroom Omelet",
+        "cssClassName": "mushroom-omelet"
+      },
+      {
+        "id": 62,
+        "name": "Mushroom Rice Balls",
+        "cssClassName": "mushroom-rice-balls"
+      },
+      {
+        "id": 68,
+        "name": "Glazed Mushrooms",
+        "cssClassName": "glazed-mushrooms"
+      },
+      {
+        "id": 76,
+        "name": "Fragrant Mushroom Saute",
+        "cssClassName": "fragrant-mushroom-saute"
+      },
+      {
+        "id": 86,
+        "name": "Salt-Grilled Mushrooms",
+        "cssClassName": "salt-grilled-mushrooms"
+      },
+      {
+        "id": 90,
+        "name": "Copious Mushroom Skewers",
+        "cssClassName": "copious-mushroom-skewers"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 103,
+        "name": "Meat and Mushroom Skewer",
+        "cssClassName": "meat-and-mushroom-skewer"
+      },
+      {
+        "id": 104,
+        "name": "Fruit and Mushroom Mix",
+        "cssClassName": "fruit-and-mushroom-mix"
+      },
+      {
+        "id": 110,
+        "name": "Mushroom Skewer",
+        "cssClassName": "mushroom-skewer"
+      }
     ]
   },
   {
@@ -273,6 +1023,73 @@ module.exports = [
     "availabilities": [
       "Deep Akkala",
       "Gerudo Highlands"
+    ],
+    "recipes": [
+      {
+        "id": 39,
+        "name": "Mushroom Risotto",
+        "cssClassName": "mushroom-risotto"
+      },
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 46,
+        "name": "Mushroom Omelet",
+        "cssClassName": "mushroom-omelet"
+      },
+      {
+        "id": 62,
+        "name": "Mushroom Rice Balls",
+        "cssClassName": "mushroom-rice-balls"
+      },
+      {
+        "id": 68,
+        "name": "Glazed Mushrooms",
+        "cssClassName": "glazed-mushrooms"
+      },
+      {
+        "id": 76,
+        "name": "Fragrant Mushroom Saute",
+        "cssClassName": "fragrant-mushroom-saute"
+      },
+      {
+        "id": 86,
+        "name": "Salt-Grilled Mushrooms",
+        "cssClassName": "salt-grilled-mushrooms"
+      },
+      {
+        "id": 90,
+        "name": "Copious Mushroom Skewers",
+        "cssClassName": "copious-mushroom-skewers"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 103,
+        "name": "Meat and Mushroom Skewer",
+        "cssClassName": "meat-and-mushroom-skewer"
+      },
+      {
+        "id": 104,
+        "name": "Fruit and Mushroom Mix",
+        "cssClassName": "fruit-and-mushroom-mix"
+      },
+      {
+        "id": 110,
+        "name": "Mushroom Skewer",
+        "cssClassName": "mushroom-skewer"
+      }
     ]
   },
   {
@@ -291,6 +1108,73 @@ module.exports = [
     "availabilities": [
       "Gerudo Highlands",
       "Hyrule Ridge"
+    ],
+    "recipes": [
+      {
+        "id": 39,
+        "name": "Mushroom Risotto",
+        "cssClassName": "mushroom-risotto"
+      },
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 46,
+        "name": "Mushroom Omelet",
+        "cssClassName": "mushroom-omelet"
+      },
+      {
+        "id": 62,
+        "name": "Mushroom Rice Balls",
+        "cssClassName": "mushroom-rice-balls"
+      },
+      {
+        "id": 68,
+        "name": "Glazed Mushrooms",
+        "cssClassName": "glazed-mushrooms"
+      },
+      {
+        "id": 76,
+        "name": "Fragrant Mushroom Saute",
+        "cssClassName": "fragrant-mushroom-saute"
+      },
+      {
+        "id": 86,
+        "name": "Salt-Grilled Mushrooms",
+        "cssClassName": "salt-grilled-mushrooms"
+      },
+      {
+        "id": 90,
+        "name": "Copious Mushroom Skewers",
+        "cssClassName": "copious-mushroom-skewers"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 103,
+        "name": "Meat and Mushroom Skewer",
+        "cssClassName": "meat-and-mushroom-skewer"
+      },
+      {
+        "id": 104,
+        "name": "Fruit and Mushroom Mix",
+        "cssClassName": "fruit-and-mushroom-mix"
+      },
+      {
+        "id": 110,
+        "name": "Mushroom Skewer",
+        "cssClassName": "mushroom-skewer"
+      }
     ]
   },
   {
@@ -309,6 +1193,73 @@ module.exports = [
     "availabilities": [
       "Great Hyrule Forest",
       "Tabantha Frontier"
+    ],
+    "recipes": [
+      {
+        "id": 39,
+        "name": "Mushroom Risotto",
+        "cssClassName": "mushroom-risotto"
+      },
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 46,
+        "name": "Mushroom Omelet",
+        "cssClassName": "mushroom-omelet"
+      },
+      {
+        "id": 62,
+        "name": "Mushroom Rice Balls",
+        "cssClassName": "mushroom-rice-balls"
+      },
+      {
+        "id": 68,
+        "name": "Glazed Mushrooms",
+        "cssClassName": "glazed-mushrooms"
+      },
+      {
+        "id": 76,
+        "name": "Fragrant Mushroom Saute",
+        "cssClassName": "fragrant-mushroom-saute"
+      },
+      {
+        "id": 86,
+        "name": "Salt-Grilled Mushrooms",
+        "cssClassName": "salt-grilled-mushrooms"
+      },
+      {
+        "id": 90,
+        "name": "Copious Mushroom Skewers",
+        "cssClassName": "copious-mushroom-skewers"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 103,
+        "name": "Meat and Mushroom Skewer",
+        "cssClassName": "meat-and-mushroom-skewer"
+      },
+      {
+        "id": 104,
+        "name": "Fruit and Mushroom Mix",
+        "cssClassName": "fruit-and-mushroom-mix"
+      },
+      {
+        "id": 110,
+        "name": "Mushroom Skewer",
+        "cssClassName": "mushroom-skewer"
+      }
     ]
   },
   {
@@ -327,6 +1278,73 @@ module.exports = [
     "availabilities": [
       "West Necluda",
       "East Necluda"
+    ],
+    "recipes": [
+      {
+        "id": 39,
+        "name": "Mushroom Risotto",
+        "cssClassName": "mushroom-risotto"
+      },
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 46,
+        "name": "Mushroom Omelet",
+        "cssClassName": "mushroom-omelet"
+      },
+      {
+        "id": 62,
+        "name": "Mushroom Rice Balls",
+        "cssClassName": "mushroom-rice-balls"
+      },
+      {
+        "id": 68,
+        "name": "Glazed Mushrooms",
+        "cssClassName": "glazed-mushrooms"
+      },
+      {
+        "id": 76,
+        "name": "Fragrant Mushroom Saute",
+        "cssClassName": "fragrant-mushroom-saute"
+      },
+      {
+        "id": 86,
+        "name": "Salt-Grilled Mushrooms",
+        "cssClassName": "salt-grilled-mushrooms"
+      },
+      {
+        "id": 90,
+        "name": "Copious Mushroom Skewers",
+        "cssClassName": "copious-mushroom-skewers"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 103,
+        "name": "Meat and Mushroom Skewer",
+        "cssClassName": "meat-and-mushroom-skewer"
+      },
+      {
+        "id": 104,
+        "name": "Fruit and Mushroom Mix",
+        "cssClassName": "fruit-and-mushroom-mix"
+      },
+      {
+        "id": 110,
+        "name": "Mushroom Skewer",
+        "cssClassName": "mushroom-skewer"
+      }
     ]
   },
   {
@@ -345,6 +1363,73 @@ module.exports = [
     "availabilities": [
       "Lanayru Great Spring",
       "West Necluda"
+    ],
+    "recipes": [
+      {
+        "id": 39,
+        "name": "Mushroom Risotto",
+        "cssClassName": "mushroom-risotto"
+      },
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 46,
+        "name": "Mushroom Omelet",
+        "cssClassName": "mushroom-omelet"
+      },
+      {
+        "id": 62,
+        "name": "Mushroom Rice Balls",
+        "cssClassName": "mushroom-rice-balls"
+      },
+      {
+        "id": 68,
+        "name": "Glazed Mushrooms",
+        "cssClassName": "glazed-mushrooms"
+      },
+      {
+        "id": 76,
+        "name": "Fragrant Mushroom Saute",
+        "cssClassName": "fragrant-mushroom-saute"
+      },
+      {
+        "id": 86,
+        "name": "Salt-Grilled Mushrooms",
+        "cssClassName": "salt-grilled-mushrooms"
+      },
+      {
+        "id": 90,
+        "name": "Copious Mushroom Skewers",
+        "cssClassName": "copious-mushroom-skewers"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 103,
+        "name": "Meat and Mushroom Skewer",
+        "cssClassName": "meat-and-mushroom-skewer"
+      },
+      {
+        "id": 104,
+        "name": "Fruit and Mushroom Mix",
+        "cssClassName": "fruit-and-mushroom-mix"
+      },
+      {
+        "id": 110,
+        "name": "Mushroom Skewer",
+        "cssClassName": "mushroom-skewer"
+      }
     ]
   },
   {
@@ -363,6 +1448,73 @@ module.exports = [
     "availabilities": [
       "Hyrule Field",
       "Akkala Highlands"
+    ],
+    "recipes": [
+      {
+        "id": 39,
+        "name": "Mushroom Risotto",
+        "cssClassName": "mushroom-risotto"
+      },
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 46,
+        "name": "Mushroom Omelet",
+        "cssClassName": "mushroom-omelet"
+      },
+      {
+        "id": 62,
+        "name": "Mushroom Rice Balls",
+        "cssClassName": "mushroom-rice-balls"
+      },
+      {
+        "id": 68,
+        "name": "Glazed Mushrooms",
+        "cssClassName": "glazed-mushrooms"
+      },
+      {
+        "id": 76,
+        "name": "Fragrant Mushroom Saute",
+        "cssClassName": "fragrant-mushroom-saute"
+      },
+      {
+        "id": 86,
+        "name": "Salt-Grilled Mushrooms",
+        "cssClassName": "salt-grilled-mushrooms"
+      },
+      {
+        "id": 90,
+        "name": "Copious Mushroom Skewers",
+        "cssClassName": "copious-mushroom-skewers"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 103,
+        "name": "Meat and Mushroom Skewer",
+        "cssClassName": "meat-and-mushroom-skewer"
+      },
+      {
+        "id": 104,
+        "name": "Fruit and Mushroom Mix",
+        "cssClassName": "fruit-and-mushroom-mix"
+      },
+      {
+        "id": 110,
+        "name": "Mushroom Skewer",
+        "cssClassName": "mushroom-skewer"
+      }
     ]
   },
   {
@@ -381,6 +1533,93 @@ module.exports = [
     "availabilities": [
       "Hebra Mountains",
       "Gerudo Highlands"
+    ],
+    "recipes": [
+      {
+        "id": 8,
+        "name": "Creamy Heart Soup",
+        "cssClassName": "creamy-heart-soup"
+      },
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 42,
+        "name": "Creamy Meat Soup",
+        "cssClassName": "creamy-meat-soup"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 44,
+        "name": "Cream of Vegetable Soup",
+        "cssClassName": "cream-of-vegetable-soup"
+      },
+      {
+        "id": 51,
+        "name": "Vegetable Omelet",
+        "cssClassName": "vegetable-omelet"
+      },
+      {
+        "id": 63,
+        "name": "Veggie Rice Balls",
+        "cssClassName": "veggie-rice-balls"
+      },
+      {
+        "id": 69,
+        "name": "Glazed Veggies",
+        "cssClassName": "glazed-veggies"
+      },
+      {
+        "id": 77,
+        "name": "Herb Saute",
+        "cssClassName": "herb-saute"
+      },
+      {
+        "id": 85,
+        "name": "Salt-Grilled Greens",
+        "cssClassName": "salt-grilled-greens"
+      },
+      {
+        "id": 88,
+        "name": "Copious Fried Wild Greens",
+        "cssClassName": "copious-fried-wild-greens"
+      },
+      {
+        "id": 92,
+        "name": "Fried Wild Greens Level 2",
+        "cssClassName": "fried-wild-greens-level-2"
+      },
+      {
+        "id": 98,
+        "name": "Steamed Meat",
+        "cssClassName": "steamed-meat"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 101,
+        "name": "Steamed Fruit",
+        "cssClassName": "steamed-fruit"
+      },
+      {
+        "id": 111,
+        "name": "Fried Wild Greens",
+        "cssClassName": "fried-wild-greens"
+      }
     ]
   },
   {
@@ -399,6 +1638,93 @@ module.exports = [
     "availabilities": [
       "Akkala Highlands",
       "Lanayru Great Spring"
+    ],
+    "recipes": [
+      {
+        "id": 8,
+        "name": "Creamy Heart Soup",
+        "cssClassName": "creamy-heart-soup"
+      },
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 42,
+        "name": "Creamy Meat Soup",
+        "cssClassName": "creamy-meat-soup"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 44,
+        "name": "Cream of Vegetable Soup",
+        "cssClassName": "cream-of-vegetable-soup"
+      },
+      {
+        "id": 51,
+        "name": "Vegetable Omelet",
+        "cssClassName": "vegetable-omelet"
+      },
+      {
+        "id": 63,
+        "name": "Veggie Rice Balls",
+        "cssClassName": "veggie-rice-balls"
+      },
+      {
+        "id": 69,
+        "name": "Glazed Veggies",
+        "cssClassName": "glazed-veggies"
+      },
+      {
+        "id": 77,
+        "name": "Herb Saute",
+        "cssClassName": "herb-saute"
+      },
+      {
+        "id": 85,
+        "name": "Salt-Grilled Greens",
+        "cssClassName": "salt-grilled-greens"
+      },
+      {
+        "id": 88,
+        "name": "Copious Fried Wild Greens",
+        "cssClassName": "copious-fried-wild-greens"
+      },
+      {
+        "id": 92,
+        "name": "Fried Wild Greens Level 2",
+        "cssClassName": "fried-wild-greens-level-2"
+      },
+      {
+        "id": 98,
+        "name": "Steamed Meat",
+        "cssClassName": "steamed-meat"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 101,
+        "name": "Steamed Fruit",
+        "cssClassName": "steamed-fruit"
+      },
+      {
+        "id": 111,
+        "name": "Fried Wild Greens",
+        "cssClassName": "fried-wild-greens"
+      }
     ]
   },
   {
@@ -416,6 +1742,113 @@ module.exports = [
     "durationFactor": 0,
     "availabilities": [
       "Kakariko Village"
+    ],
+    "recipes": [
+      {
+        "id": 21,
+        "name": "Vegetable Curry",
+        "cssClassName": "vegetable-curry"
+      },
+      {
+        "id": 23,
+        "name": "Carrot Cake",
+        "cssClassName": "carrot-cake"
+      },
+      {
+        "id": 38,
+        "name": "Vegetable Risotto",
+        "cssClassName": "vegetable-risotto"
+      },
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 41,
+        "name": "Veggie Cream Soup",
+        "cssClassName": "veggie-cream-soup"
+      },
+      {
+        "id": 42,
+        "name": "Creamy Meat Soup",
+        "cssClassName": "creamy-meat-soup"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 44,
+        "name": "Cream of Vegetable Soup",
+        "cssClassName": "cream-of-vegetable-soup"
+      },
+      {
+        "id": 45,
+        "name": "Carrot Stew",
+        "cssClassName": "carrot-stew"
+      },
+      {
+        "id": 51,
+        "name": "Vegetable Omelet",
+        "cssClassName": "vegetable-omelet"
+      },
+      {
+        "id": 63,
+        "name": "Veggie Rice Balls",
+        "cssClassName": "veggie-rice-balls"
+      },
+      {
+        "id": 69,
+        "name": "Glazed Veggies",
+        "cssClassName": "glazed-veggies"
+      },
+      {
+        "id": 77,
+        "name": "Herb Saute",
+        "cssClassName": "herb-saute"
+      },
+      {
+        "id": 85,
+        "name": "Salt-Grilled Greens",
+        "cssClassName": "salt-grilled-greens"
+      },
+      {
+        "id": 88,
+        "name": "Copious Fried Wild Greens",
+        "cssClassName": "copious-fried-wild-greens"
+      },
+      {
+        "id": 92,
+        "name": "Fried Wild Greens Level 2",
+        "cssClassName": "fried-wild-greens-level-2"
+      },
+      {
+        "id": 98,
+        "name": "Steamed Meat",
+        "cssClassName": "steamed-meat"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 101,
+        "name": "Steamed Fruit",
+        "cssClassName": "steamed-fruit"
+      },
+      {
+        "id": 111,
+        "name": "Fried Wild Greens",
+        "cssClassName": "fried-wild-greens"
+      }
     ]
   },
   {
@@ -431,6 +1864,88 @@ module.exports = [
     "availabilities": [
       "Hyrule Ridge",
       "East Necluda"
+    ],
+    "recipes": [
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 42,
+        "name": "Creamy Meat Soup",
+        "cssClassName": "creamy-meat-soup"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 44,
+        "name": "Cream of Vegetable Soup",
+        "cssClassName": "cream-of-vegetable-soup"
+      },
+      {
+        "id": 51,
+        "name": "Vegetable Omelet",
+        "cssClassName": "vegetable-omelet"
+      },
+      {
+        "id": 63,
+        "name": "Veggie Rice Balls",
+        "cssClassName": "veggie-rice-balls"
+      },
+      {
+        "id": 69,
+        "name": "Glazed Veggies",
+        "cssClassName": "glazed-veggies"
+      },
+      {
+        "id": 77,
+        "name": "Herb Saute",
+        "cssClassName": "herb-saute"
+      },
+      {
+        "id": 85,
+        "name": "Salt-Grilled Greens",
+        "cssClassName": "salt-grilled-greens"
+      },
+      {
+        "id": 88,
+        "name": "Copious Fried Wild Greens",
+        "cssClassName": "copious-fried-wild-greens"
+      },
+      {
+        "id": 92,
+        "name": "Fried Wild Greens Level 2",
+        "cssClassName": "fried-wild-greens-level-2"
+      },
+      {
+        "id": 98,
+        "name": "Steamed Meat",
+        "cssClassName": "steamed-meat"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 101,
+        "name": "Steamed Fruit",
+        "cssClassName": "steamed-fruit"
+      },
+      {
+        "id": 111,
+        "name": "Fried Wild Greens",
+        "cssClassName": "fried-wild-greens"
+      }
     ]
   },
   {
@@ -449,6 +1964,113 @@ module.exports = [
     "availabilities": [
       "Hyrule Ridge",
       "Faron Grasslands"
+    ],
+    "recipes": [
+      {
+        "id": 21,
+        "name": "Vegetable Curry",
+        "cssClassName": "vegetable-curry"
+      },
+      {
+        "id": 23,
+        "name": "Carrot Cake",
+        "cssClassName": "carrot-cake"
+      },
+      {
+        "id": 38,
+        "name": "Vegetable Risotto",
+        "cssClassName": "vegetable-risotto"
+      },
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 41,
+        "name": "Veggie Cream Soup",
+        "cssClassName": "veggie-cream-soup"
+      },
+      {
+        "id": 42,
+        "name": "Creamy Meat Soup",
+        "cssClassName": "creamy-meat-soup"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 44,
+        "name": "Cream of Vegetable Soup",
+        "cssClassName": "cream-of-vegetable-soup"
+      },
+      {
+        "id": 45,
+        "name": "Carrot Stew",
+        "cssClassName": "carrot-stew"
+      },
+      {
+        "id": 51,
+        "name": "Vegetable Omelet",
+        "cssClassName": "vegetable-omelet"
+      },
+      {
+        "id": 63,
+        "name": "Veggie Rice Balls",
+        "cssClassName": "veggie-rice-balls"
+      },
+      {
+        "id": 69,
+        "name": "Glazed Veggies",
+        "cssClassName": "glazed-veggies"
+      },
+      {
+        "id": 77,
+        "name": "Herb Saute",
+        "cssClassName": "herb-saute"
+      },
+      {
+        "id": 85,
+        "name": "Salt-Grilled Greens",
+        "cssClassName": "salt-grilled-greens"
+      },
+      {
+        "id": 88,
+        "name": "Copious Fried Wild Greens",
+        "cssClassName": "copious-fried-wild-greens"
+      },
+      {
+        "id": 92,
+        "name": "Fried Wild Greens Level 2",
+        "cssClassName": "fried-wild-greens-level-2"
+      },
+      {
+        "id": 98,
+        "name": "Steamed Meat",
+        "cssClassName": "steamed-meat"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 101,
+        "name": "Steamed Fruit",
+        "cssClassName": "steamed-fruit"
+      },
+      {
+        "id": 111,
+        "name": "Fried Wild Greens",
+        "cssClassName": "fried-wild-greens"
+      }
     ]
   },
   {
@@ -467,6 +2089,118 @@ module.exports = [
     "availabilities": [
       "Hyrule Field",
       "West Necluda"
+    ],
+    "recipes": [
+      {
+        "id": 10,
+        "name": "Pumpkin Stew",
+        "cssClassName": "pumpkin-stew"
+      },
+      {
+        "id": 21,
+        "name": "Vegetable Curry",
+        "cssClassName": "vegetable-curry"
+      },
+      {
+        "id": 22,
+        "name": "Pumpkin Pie",
+        "cssClassName": "pumpkin-pie"
+      },
+      {
+        "id": 38,
+        "name": "Vegetable Risotto",
+        "cssClassName": "vegetable-risotto"
+      },
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 41,
+        "name": "Veggie Cream Soup",
+        "cssClassName": "veggie-cream-soup"
+      },
+      {
+        "id": 42,
+        "name": "Creamy Meat Soup",
+        "cssClassName": "creamy-meat-soup"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 44,
+        "name": "Cream of Vegetable Soup",
+        "cssClassName": "cream-of-vegetable-soup"
+      },
+      {
+        "id": 51,
+        "name": "Vegetable Omelet",
+        "cssClassName": "vegetable-omelet"
+      },
+      {
+        "id": 63,
+        "name": "Veggie Rice Balls",
+        "cssClassName": "veggie-rice-balls"
+      },
+      {
+        "id": 65,
+        "name": "Meat-Stuffed Pumpkin",
+        "cssClassName": "meat-stuffed-pumpkin"
+      },
+      {
+        "id": 69,
+        "name": "Glazed Veggies",
+        "cssClassName": "glazed-veggies"
+      },
+      {
+        "id": 77,
+        "name": "Herb Saute",
+        "cssClassName": "herb-saute"
+      },
+      {
+        "id": 85,
+        "name": "Salt-Grilled Greens",
+        "cssClassName": "salt-grilled-greens"
+      },
+      {
+        "id": 88,
+        "name": "Copious Fried Wild Greens",
+        "cssClassName": "copious-fried-wild-greens"
+      },
+      {
+        "id": 92,
+        "name": "Fried Wild Greens Level 2",
+        "cssClassName": "fried-wild-greens-level-2"
+      },
+      {
+        "id": 98,
+        "name": "Steamed Meat",
+        "cssClassName": "steamed-meat"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 101,
+        "name": "Steamed Fruit",
+        "cssClassName": "steamed-fruit"
+      },
+      {
+        "id": 111,
+        "name": "Fried Wild Greens",
+        "cssClassName": "fried-wild-greens"
+      }
     ]
   },
   {
@@ -485,6 +2219,83 @@ module.exports = [
     "availabilities": [
       "Gerudo Desert",
       "Hyrule Ridge"
+    ],
+    "recipes": [
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 42,
+        "name": "Creamy Meat Soup",
+        "cssClassName": "creamy-meat-soup"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 44,
+        "name": "Cream of Vegetable Soup",
+        "cssClassName": "cream-of-vegetable-soup"
+      },
+      {
+        "id": 51,
+        "name": "Vegetable Omelet",
+        "cssClassName": "vegetable-omelet"
+      },
+      {
+        "id": 63,
+        "name": "Veggie Rice Balls",
+        "cssClassName": "veggie-rice-balls"
+      },
+      {
+        "id": 77,
+        "name": "Herb Saute",
+        "cssClassName": "herb-saute"
+      },
+      {
+        "id": 85,
+        "name": "Salt-Grilled Greens",
+        "cssClassName": "salt-grilled-greens"
+      },
+      {
+        "id": 88,
+        "name": "Copious Fried Wild Greens",
+        "cssClassName": "copious-fried-wild-greens"
+      },
+      {
+        "id": 92,
+        "name": "Fried Wild Greens Level 2",
+        "cssClassName": "fried-wild-greens-level-2"
+      },
+      {
+        "id": 98,
+        "name": "Steamed Meat",
+        "cssClassName": "steamed-meat"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 101,
+        "name": "Steamed Fruit",
+        "cssClassName": "steamed-fruit"
+      },
+      {
+        "id": 111,
+        "name": "Fried Wild Greens",
+        "cssClassName": "fried-wild-greens"
+      }
     ]
   },
   {
@@ -503,6 +2314,83 @@ module.exports = [
     "availabilities": [
       "Gerudo Desert",
       "Hyrule Ridge"
+    ],
+    "recipes": [
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 42,
+        "name": "Creamy Meat Soup",
+        "cssClassName": "creamy-meat-soup"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 44,
+        "name": "Cream of Vegetable Soup",
+        "cssClassName": "cream-of-vegetable-soup"
+      },
+      {
+        "id": 51,
+        "name": "Vegetable Omelet",
+        "cssClassName": "vegetable-omelet"
+      },
+      {
+        "id": 63,
+        "name": "Veggie Rice Balls",
+        "cssClassName": "veggie-rice-balls"
+      },
+      {
+        "id": 77,
+        "name": "Herb Saute",
+        "cssClassName": "herb-saute"
+      },
+      {
+        "id": 85,
+        "name": "Salt-Grilled Greens",
+        "cssClassName": "salt-grilled-greens"
+      },
+      {
+        "id": 88,
+        "name": "Copious Fried Wild Greens",
+        "cssClassName": "copious-fried-wild-greens"
+      },
+      {
+        "id": 92,
+        "name": "Fried Wild Greens Level 2",
+        "cssClassName": "fried-wild-greens-level-2"
+      },
+      {
+        "id": 98,
+        "name": "Steamed Meat",
+        "cssClassName": "steamed-meat"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 101,
+        "name": "Steamed Fruit",
+        "cssClassName": "steamed-fruit"
+      },
+      {
+        "id": 111,
+        "name": "Fried Wild Greens",
+        "cssClassName": "fried-wild-greens"
+      }
     ]
   },
   {
@@ -521,6 +2409,83 @@ module.exports = [
     "availabilities": [
       "Gerudo Desert",
       "Hyrule Ridge"
+    ],
+    "recipes": [
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 42,
+        "name": "Creamy Meat Soup",
+        "cssClassName": "creamy-meat-soup"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 44,
+        "name": "Cream of Vegetable Soup",
+        "cssClassName": "cream-of-vegetable-soup"
+      },
+      {
+        "id": 51,
+        "name": "Vegetable Omelet",
+        "cssClassName": "vegetable-omelet"
+      },
+      {
+        "id": 63,
+        "name": "Veggie Rice Balls",
+        "cssClassName": "veggie-rice-balls"
+      },
+      {
+        "id": 77,
+        "name": "Herb Saute",
+        "cssClassName": "herb-saute"
+      },
+      {
+        "id": 85,
+        "name": "Salt-Grilled Greens",
+        "cssClassName": "salt-grilled-greens"
+      },
+      {
+        "id": 88,
+        "name": "Copious Fried Wild Greens",
+        "cssClassName": "copious-fried-wild-greens"
+      },
+      {
+        "id": 92,
+        "name": "Fried Wild Greens Level 2",
+        "cssClassName": "fried-wild-greens-level-2"
+      },
+      {
+        "id": 98,
+        "name": "Steamed Meat",
+        "cssClassName": "steamed-meat"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 101,
+        "name": "Steamed Fruit",
+        "cssClassName": "steamed-fruit"
+      },
+      {
+        "id": 111,
+        "name": "Fried Wild Greens",
+        "cssClassName": "fried-wild-greens"
+      }
     ]
   },
   {
@@ -539,6 +2504,83 @@ module.exports = [
     "availabilities": [
       "Hebra Mountains",
       "Gerudo Highlands"
+    ],
+    "recipes": [
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 42,
+        "name": "Creamy Meat Soup",
+        "cssClassName": "creamy-meat-soup"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 44,
+        "name": "Cream of Vegetable Soup",
+        "cssClassName": "cream-of-vegetable-soup"
+      },
+      {
+        "id": 51,
+        "name": "Vegetable Omelet",
+        "cssClassName": "vegetable-omelet"
+      },
+      {
+        "id": 63,
+        "name": "Veggie Rice Balls",
+        "cssClassName": "veggie-rice-balls"
+      },
+      {
+        "id": 77,
+        "name": "Herb Saute",
+        "cssClassName": "herb-saute"
+      },
+      {
+        "id": 85,
+        "name": "Salt-Grilled Greens",
+        "cssClassName": "salt-grilled-greens"
+      },
+      {
+        "id": 88,
+        "name": "Copious Fried Wild Greens",
+        "cssClassName": "copious-fried-wild-greens"
+      },
+      {
+        "id": 92,
+        "name": "Fried Wild Greens Level 2",
+        "cssClassName": "fried-wild-greens-level-2"
+      },
+      {
+        "id": 98,
+        "name": "Steamed Meat",
+        "cssClassName": "steamed-meat"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 101,
+        "name": "Steamed Fruit",
+        "cssClassName": "steamed-fruit"
+      },
+      {
+        "id": 111,
+        "name": "Fried Wild Greens",
+        "cssClassName": "fried-wild-greens"
+      }
     ]
   },
   {
@@ -557,6 +2599,88 @@ module.exports = [
     "availabilities": [
       "West Necluda",
       "Faron Grasslands"
+    ],
+    "recipes": [
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 42,
+        "name": "Creamy Meat Soup",
+        "cssClassName": "creamy-meat-soup"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 44,
+        "name": "Cream of Vegetable Soup",
+        "cssClassName": "cream-of-vegetable-soup"
+      },
+      {
+        "id": 51,
+        "name": "Vegetable Omelet",
+        "cssClassName": "vegetable-omelet"
+      },
+      {
+        "id": 63,
+        "name": "Veggie Rice Balls",
+        "cssClassName": "veggie-rice-balls"
+      },
+      {
+        "id": 69,
+        "name": "Glazed Veggies",
+        "cssClassName": "glazed-veggies"
+      },
+      {
+        "id": 77,
+        "name": "Herb Saute",
+        "cssClassName": "herb-saute"
+      },
+      {
+        "id": 85,
+        "name": "Salt-Grilled Greens",
+        "cssClassName": "salt-grilled-greens"
+      },
+      {
+        "id": 88,
+        "name": "Copious Fried Wild Greens",
+        "cssClassName": "copious-fried-wild-greens"
+      },
+      {
+        "id": 92,
+        "name": "Fried Wild Greens Level 2",
+        "cssClassName": "fried-wild-greens-level-2"
+      },
+      {
+        "id": 98,
+        "name": "Steamed Meat",
+        "cssClassName": "steamed-meat"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 101,
+        "name": "Steamed Fruit",
+        "cssClassName": "steamed-fruit"
+      },
+      {
+        "id": 111,
+        "name": "Fried Wild Greens",
+        "cssClassName": "fried-wild-greens"
+      }
     ]
   },
   {
@@ -575,6 +2699,88 @@ module.exports = [
     "availabilities": [
       "Akkala Highlands",
       "Hyrule Ridge"
+    ],
+    "recipes": [
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 42,
+        "name": "Creamy Meat Soup",
+        "cssClassName": "creamy-meat-soup"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 44,
+        "name": "Cream of Vegetable Soup",
+        "cssClassName": "cream-of-vegetable-soup"
+      },
+      {
+        "id": 51,
+        "name": "Vegetable Omelet",
+        "cssClassName": "vegetable-omelet"
+      },
+      {
+        "id": 63,
+        "name": "Veggie Rice Balls",
+        "cssClassName": "veggie-rice-balls"
+      },
+      {
+        "id": 69,
+        "name": "Glazed Veggies",
+        "cssClassName": "glazed-veggies"
+      },
+      {
+        "id": 77,
+        "name": "Herb Saute",
+        "cssClassName": "herb-saute"
+      },
+      {
+        "id": 85,
+        "name": "Salt-Grilled Greens",
+        "cssClassName": "salt-grilled-greens"
+      },
+      {
+        "id": 88,
+        "name": "Copious Fried Wild Greens",
+        "cssClassName": "copious-fried-wild-greens"
+      },
+      {
+        "id": 92,
+        "name": "Fried Wild Greens Level 2",
+        "cssClassName": "fried-wild-greens-level-2"
+      },
+      {
+        "id": 98,
+        "name": "Steamed Meat",
+        "cssClassName": "steamed-meat"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 101,
+        "name": "Steamed Fruit",
+        "cssClassName": "steamed-fruit"
+      },
+      {
+        "id": 111,
+        "name": "Fried Wild Greens",
+        "cssClassName": "fried-wild-greens"
+      }
     ]
   },
   {
@@ -593,6 +2799,83 @@ module.exports = [
     "availabilities": [
       "West Necluda",
       "Lanayru Great Spring"
+    ],
+    "recipes": [
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 42,
+        "name": "Creamy Meat Soup",
+        "cssClassName": "creamy-meat-soup"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 44,
+        "name": "Cream of Vegetable Soup",
+        "cssClassName": "cream-of-vegetable-soup"
+      },
+      {
+        "id": 51,
+        "name": "Vegetable Omelet",
+        "cssClassName": "vegetable-omelet"
+      },
+      {
+        "id": 63,
+        "name": "Veggie Rice Balls",
+        "cssClassName": "veggie-rice-balls"
+      },
+      {
+        "id": 77,
+        "name": "Herb Saute",
+        "cssClassName": "herb-saute"
+      },
+      {
+        "id": 85,
+        "name": "Salt-Grilled Greens",
+        "cssClassName": "salt-grilled-greens"
+      },
+      {
+        "id": 88,
+        "name": "Copious Fried Wild Greens",
+        "cssClassName": "copious-fried-wild-greens"
+      },
+      {
+        "id": 92,
+        "name": "Fried Wild Greens Level 2",
+        "cssClassName": "fried-wild-greens-level-2"
+      },
+      {
+        "id": 98,
+        "name": "Steamed Meat",
+        "cssClassName": "steamed-meat"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 101,
+        "name": "Steamed Fruit",
+        "cssClassName": "steamed-fruit"
+      },
+      {
+        "id": 111,
+        "name": "Fried Wild Greens",
+        "cssClassName": "fried-wild-greens"
+      }
     ]
   },
   {
@@ -611,6 +2894,83 @@ module.exports = [
     "availabilities": [
       "Hyrule Ridge",
       "West Necluda"
+    ],
+    "recipes": [
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 42,
+        "name": "Creamy Meat Soup",
+        "cssClassName": "creamy-meat-soup"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 44,
+        "name": "Cream of Vegetable Soup",
+        "cssClassName": "cream-of-vegetable-soup"
+      },
+      {
+        "id": 51,
+        "name": "Vegetable Omelet",
+        "cssClassName": "vegetable-omelet"
+      },
+      {
+        "id": 63,
+        "name": "Veggie Rice Balls",
+        "cssClassName": "veggie-rice-balls"
+      },
+      {
+        "id": 77,
+        "name": "Herb Saute",
+        "cssClassName": "herb-saute"
+      },
+      {
+        "id": 85,
+        "name": "Salt-Grilled Greens",
+        "cssClassName": "salt-grilled-greens"
+      },
+      {
+        "id": 88,
+        "name": "Copious Fried Wild Greens",
+        "cssClassName": "copious-fried-wild-greens"
+      },
+      {
+        "id": 92,
+        "name": "Fried Wild Greens Level 2",
+        "cssClassName": "fried-wild-greens-level-2"
+      },
+      {
+        "id": 98,
+        "name": "Steamed Meat",
+        "cssClassName": "steamed-meat"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 100,
+        "name": "Steamed Mushrooms",
+        "cssClassName": "steamed-mushrooms"
+      },
+      {
+        "id": 101,
+        "name": "Steamed Fruit",
+        "cssClassName": "steamed-fruit"
+      },
+      {
+        "id": 111,
+        "name": "Fried Wild Greens",
+        "cssClassName": "fried-wild-greens"
+      }
     ]
   },
   {
@@ -626,6 +2986,68 @@ module.exports = [
     "availabilities": [
       "Dropped by the biggest",
       " most dangerous mammals"
+    ],
+    "recipes": [
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      },
+      {
+        "id": 14,
+        "name": "Gourmet Meat Curry",
+        "cssClassName": "gourmet-meat-curry"
+      },
+      {
+        "id": 33,
+        "name": "Meat Pie",
+        "cssClassName": "meat-pie"
+      },
+      {
+        "id": 42,
+        "name": "Creamy Meat Soup",
+        "cssClassName": "creamy-meat-soup"
+      },
+      {
+        "id": 60,
+        "name": "Meaty Rice Balls",
+        "cssClassName": "meaty-rice-balls"
+      },
+      {
+        "id": 65,
+        "name": "Meat-Stuffed Pumpkin",
+        "cssClassName": "meat-stuffed-pumpkin"
+      },
+      {
+        "id": 66,
+        "name": "Glazed Meat",
+        "cssClassName": "glazed-meat"
+      },
+      {
+        "id": 73,
+        "name": "Gourmet Spiced Meat Skewer",
+        "cssClassName": "gourmet-spiced-meat-skewer"
+      },
+      {
+        "id": 96,
+        "name": "Pepper Steak",
+        "cssClassName": "pepper-steak"
+      },
+      {
+        "id": 98,
+        "name": "Steamed Meat",
+        "cssClassName": "steamed-meat"
+      },
+      {
+        "id": 103,
+        "name": "Meat and Mushroom Skewer",
+        "cssClassName": "meat-and-mushroom-skewer"
+      },
+      {
+        "id": 105,
+        "name": "Meat Skewer",
+        "cssClassName": "meat-skewer"
+      }
     ]
   },
   {
@@ -640,6 +3062,68 @@ module.exports = [
     "durationFactor": 30,
     "availabilities": [
       "Dropped by white pigeons and Eldin ostriches"
+    ],
+    "recipes": [
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      },
+      {
+        "id": 15,
+        "name": "Gourmet Poultry Curry",
+        "cssClassName": "gourmet-poultry-curry"
+      },
+      {
+        "id": 33,
+        "name": "Meat Pie",
+        "cssClassName": "meat-pie"
+      },
+      {
+        "id": 42,
+        "name": "Creamy Meat Soup",
+        "cssClassName": "creamy-meat-soup"
+      },
+      {
+        "id": 48,
+        "name": "Gourmet Poultry Pilaf",
+        "cssClassName": "gourmet-poultry-pilaf"
+      },
+      {
+        "id": 60,
+        "name": "Meaty Rice Balls",
+        "cssClassName": "meaty-rice-balls"
+      },
+      {
+        "id": 65,
+        "name": "Meat-Stuffed Pumpkin",
+        "cssClassName": "meat-stuffed-pumpkin"
+      },
+      {
+        "id": 66,
+        "name": "Glazed Meat",
+        "cssClassName": "glazed-meat"
+      },
+      {
+        "id": 96,
+        "name": "Pepper Steak",
+        "cssClassName": "pepper-steak"
+      },
+      {
+        "id": 98,
+        "name": "Steamed Meat",
+        "cssClassName": "steamed-meat"
+      },
+      {
+        "id": 103,
+        "name": "Meat and Mushroom Skewer",
+        "cssClassName": "meat-and-mushroom-skewer"
+      },
+      {
+        "id": 105,
+        "name": "Meat Skewer",
+        "cssClassName": "meat-skewer"
+      }
     ]
   },
   {
@@ -655,6 +3139,68 @@ module.exports = [
     "availabilities": [
       "Dropped by bigger",
       " more dangerous mammals"
+    ],
+    "recipes": [
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      },
+      {
+        "id": 16,
+        "name": "Prime Meat Curry",
+        "cssClassName": "prime-meat-curry"
+      },
+      {
+        "id": 33,
+        "name": "Meat Pie",
+        "cssClassName": "meat-pie"
+      },
+      {
+        "id": 42,
+        "name": "Creamy Meat Soup",
+        "cssClassName": "creamy-meat-soup"
+      },
+      {
+        "id": 60,
+        "name": "Meaty Rice Balls",
+        "cssClassName": "meaty-rice-balls"
+      },
+      {
+        "id": 65,
+        "name": "Meat-Stuffed Pumpkin",
+        "cssClassName": "meat-stuffed-pumpkin"
+      },
+      {
+        "id": 66,
+        "name": "Glazed Meat",
+        "cssClassName": "glazed-meat"
+      },
+      {
+        "id": 74,
+        "name": "Prime Spiced Meat Skewer",
+        "cssClassName": "prime-spiced-meat-skewer"
+      },
+      {
+        "id": 96,
+        "name": "Pepper Steak",
+        "cssClassName": "pepper-steak"
+      },
+      {
+        "id": 98,
+        "name": "Steamed Meat",
+        "cssClassName": "steamed-meat"
+      },
+      {
+        "id": 103,
+        "name": "Meat and Mushroom Skewer",
+        "cssClassName": "meat-and-mushroom-skewer"
+      },
+      {
+        "id": 105,
+        "name": "Meat Skewer",
+        "cssClassName": "meat-skewer"
+      }
     ]
   },
   {
@@ -669,6 +3215,68 @@ module.exports = [
     "durationFactor": 30,
     "availabilities": [
       "Dropped by small birds"
+    ],
+    "recipes": [
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      },
+      {
+        "id": 17,
+        "name": "Prime Poultry Curry",
+        "cssClassName": "prime-poultry-curry"
+      },
+      {
+        "id": 33,
+        "name": "Meat Pie",
+        "cssClassName": "meat-pie"
+      },
+      {
+        "id": 42,
+        "name": "Creamy Meat Soup",
+        "cssClassName": "creamy-meat-soup"
+      },
+      {
+        "id": 49,
+        "name": "Prime Poultry Pilaf",
+        "cssClassName": "prime-poultry-pilaf"
+      },
+      {
+        "id": 60,
+        "name": "Meaty Rice Balls",
+        "cssClassName": "meaty-rice-balls"
+      },
+      {
+        "id": 65,
+        "name": "Meat-Stuffed Pumpkin",
+        "cssClassName": "meat-stuffed-pumpkin"
+      },
+      {
+        "id": 66,
+        "name": "Glazed Meat",
+        "cssClassName": "glazed-meat"
+      },
+      {
+        "id": 96,
+        "name": "Pepper Steak",
+        "cssClassName": "pepper-steak"
+      },
+      {
+        "id": 98,
+        "name": "Steamed Meat",
+        "cssClassName": "steamed-meat"
+      },
+      {
+        "id": 103,
+        "name": "Meat and Mushroom Skewer",
+        "cssClassName": "meat-and-mushroom-skewer"
+      },
+      {
+        "id": 105,
+        "name": "Meat Skewer",
+        "cssClassName": "meat-skewer"
+      }
     ]
   },
   {
@@ -684,6 +3292,123 @@ module.exports = [
     "availabilities": [
       "Dropped by small",
       " harmless animals"
+    ],
+    "recipes": [
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      },
+      {
+        "id": 12,
+        "name": "Prime Meat Stew",
+        "cssClassName": "prime-meat-stew"
+      },
+      {
+        "id": 13,
+        "name": "Meat Stew",
+        "cssClassName": "meat-stew"
+      },
+      {
+        "id": 18,
+        "name": "Meat Curry",
+        "cssClassName": "meat-curry"
+      },
+      {
+        "id": 33,
+        "name": "Meat Pie",
+        "cssClassName": "meat-pie"
+      },
+      {
+        "id": 42,
+        "name": "Creamy Meat Soup",
+        "cssClassName": "creamy-meat-soup"
+      },
+      {
+        "id": 56,
+        "name": "Gourmet Meat and Rice Bowl",
+        "cssClassName": "gourmet-meat-and-rice-bowl"
+      },
+      {
+        "id": 57,
+        "name": "Prime Meat and Rice Bowl",
+        "cssClassName": "prime-meat-and-rice-bowl"
+      },
+      {
+        "id": 58,
+        "name": "Meat and Rice Bowl",
+        "cssClassName": "meat-and-rice-bowl"
+      },
+      {
+        "id": 60,
+        "name": "Meaty Rice Balls",
+        "cssClassName": "meaty-rice-balls"
+      },
+      {
+        "id": 65,
+        "name": "Meat-Stuffed Pumpkin",
+        "cssClassName": "meat-stuffed-pumpkin"
+      },
+      {
+        "id": 66,
+        "name": "Glazed Meat",
+        "cssClassName": "glazed-meat"
+      },
+      {
+        "id": 75,
+        "name": "Spiced Meat Skewer",
+        "cssClassName": "spiced-meat-skewer"
+      },
+      {
+        "id": 78,
+        "name": "Salt-Grilled Gourmet Meat",
+        "cssClassName": "salt-grilled-gourmet-meat"
+      },
+      {
+        "id": 79,
+        "name": "Salt-Grilled Prime Meat",
+        "cssClassName": "salt-grilled-prime-meat"
+      },
+      {
+        "id": 80,
+        "name": "Salt-Grilled Meat",
+        "cssClassName": "salt-grilled-meat"
+      },
+      {
+        "id": 93,
+        "name": "Gourmet Meat and Seafood Fry",
+        "cssClassName": "gourmet-meat-and-seafood-fry"
+      },
+      {
+        "id": 94,
+        "name": "Prime Meat and Seafood Fry",
+        "cssClassName": "prime-meat-and-seafood-fry"
+      },
+      {
+        "id": 95,
+        "name": "Meat and Seafood Fry",
+        "cssClassName": "meat-and-seafood-fry"
+      },
+      {
+        "id": 96,
+        "name": "Pepper Steak",
+        "cssClassName": "pepper-steak"
+      },
+      {
+        "id": 98,
+        "name": "Steamed Meat",
+        "cssClassName": "steamed-meat"
+      },
+      {
+        "id": 103,
+        "name": "Meat and Mushroom Skewer",
+        "cssClassName": "meat-and-mushroom-skewer"
+      },
+      {
+        "id": 105,
+        "name": "Meat Skewer",
+        "cssClassName": "meat-skewer"
+      }
     ]
   },
   {
@@ -698,6 +3423,123 @@ module.exports = [
     "durationFactor": 30,
     "availabilities": [
       "Dropped by small birds"
+    ],
+    "recipes": [
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      },
+      {
+        "id": 12,
+        "name": "Prime Meat Stew",
+        "cssClassName": "prime-meat-stew"
+      },
+      {
+        "id": 13,
+        "name": "Meat Stew",
+        "cssClassName": "meat-stew"
+      },
+      {
+        "id": 19,
+        "name": "Poultry Curry",
+        "cssClassName": "poultry-curry"
+      },
+      {
+        "id": 33,
+        "name": "Meat Pie",
+        "cssClassName": "meat-pie"
+      },
+      {
+        "id": 42,
+        "name": "Creamy Meat Soup",
+        "cssClassName": "creamy-meat-soup"
+      },
+      {
+        "id": 50,
+        "name": "Poultry Pilaf",
+        "cssClassName": "poultry-pilaf"
+      },
+      {
+        "id": 56,
+        "name": "Gourmet Meat and Rice Bowl",
+        "cssClassName": "gourmet-meat-and-rice-bowl"
+      },
+      {
+        "id": 57,
+        "name": "Prime Meat and Rice Bowl",
+        "cssClassName": "prime-meat-and-rice-bowl"
+      },
+      {
+        "id": 58,
+        "name": "Meat and Rice Bowl",
+        "cssClassName": "meat-and-rice-bowl"
+      },
+      {
+        "id": 60,
+        "name": "Meaty Rice Balls",
+        "cssClassName": "meaty-rice-balls"
+      },
+      {
+        "id": 65,
+        "name": "Meat-Stuffed Pumpkin",
+        "cssClassName": "meat-stuffed-pumpkin"
+      },
+      {
+        "id": 66,
+        "name": "Glazed Meat",
+        "cssClassName": "glazed-meat"
+      },
+      {
+        "id": 78,
+        "name": "Salt-Grilled Gourmet Meat",
+        "cssClassName": "salt-grilled-gourmet-meat"
+      },
+      {
+        "id": 79,
+        "name": "Salt-Grilled Prime Meat",
+        "cssClassName": "salt-grilled-prime-meat"
+      },
+      {
+        "id": 80,
+        "name": "Salt-Grilled Meat",
+        "cssClassName": "salt-grilled-meat"
+      },
+      {
+        "id": 93,
+        "name": "Gourmet Meat and Seafood Fry",
+        "cssClassName": "gourmet-meat-and-seafood-fry"
+      },
+      {
+        "id": 94,
+        "name": "Prime Meat and Seafood Fry",
+        "cssClassName": "prime-meat-and-seafood-fry"
+      },
+      {
+        "id": 95,
+        "name": "Meat and Seafood Fry",
+        "cssClassName": "meat-and-seafood-fry"
+      },
+      {
+        "id": 96,
+        "name": "Pepper Steak",
+        "cssClassName": "pepper-steak"
+      },
+      {
+        "id": 98,
+        "name": "Steamed Meat",
+        "cssClassName": "steamed-meat"
+      },
+      {
+        "id": 103,
+        "name": "Meat and Mushroom Skewer",
+        "cssClassName": "meat-and-mushroom-skewer"
+      },
+      {
+        "id": 105,
+        "name": "Meat Skewer",
+        "cssClassName": "meat-skewer"
+      }
     ]
   },
   {
@@ -715,6 +3557,48 @@ module.exports = [
     "durationFactor": 0,
     "availabilities": [
       "Hit a bee hive"
+    ],
+    "recipes": [
+      {
+        "id": 25,
+        "name": "Honey Crepe",
+        "cssClassName": "honey-crepe"
+      },
+      {
+        "id": 66,
+        "name": "Glazed Meat",
+        "cssClassName": "glazed-meat"
+      },
+      {
+        "id": 67,
+        "name": "Glazed Seafood",
+        "cssClassName": "glazed-seafood"
+      },
+      {
+        "id": 68,
+        "name": "Glazed Mushrooms",
+        "cssClassName": "glazed-mushrooms"
+      },
+      {
+        "id": 69,
+        "name": "Glazed Veggies",
+        "cssClassName": "glazed-veggies"
+      },
+      {
+        "id": 71,
+        "name": "Honeyed Apple",
+        "cssClassName": "honeyed-apple"
+      },
+      {
+        "id": 72,
+        "name": "Honeyed Fruits",
+        "cssClassName": "honeyed-fruits"
+      },
+      {
+        "id": 119,
+        "name": "Honey Candy",
+        "cssClassName": "honey-candy"
+      }
     ]
   },
   {
@@ -729,6 +3613,158 @@ module.exports = [
     "durationFactor": 60,
     "availabilities": [
       "Cut tall grass in Hyrule Field"
+    ],
+    "recipes": [
+      {
+        "id": 2,
+        "name": "Seafood Paella",
+        "cssClassName": "seafood-paella"
+      },
+      {
+        "id": 3,
+        "name": "Monster Curry",
+        "cssClassName": "monster-curry"
+      },
+      {
+        "id": 4,
+        "name": "Monster Rice Balls",
+        "cssClassName": "monster-rice-balls"
+      },
+      {
+        "id": 14,
+        "name": "Gourmet Meat Curry",
+        "cssClassName": "gourmet-meat-curry"
+      },
+      {
+        "id": 15,
+        "name": "Gourmet Poultry Curry",
+        "cssClassName": "gourmet-poultry-curry"
+      },
+      {
+        "id": 16,
+        "name": "Prime Meat Curry",
+        "cssClassName": "prime-meat-curry"
+      },
+      {
+        "id": 17,
+        "name": "Prime Poultry Curry",
+        "cssClassName": "prime-poultry-curry"
+      },
+      {
+        "id": 18,
+        "name": "Meat Curry",
+        "cssClassName": "meat-curry"
+      },
+      {
+        "id": 19,
+        "name": "Poultry Curry",
+        "cssClassName": "poultry-curry"
+      },
+      {
+        "id": 20,
+        "name": "Seafood Curry",
+        "cssClassName": "seafood-curry"
+      },
+      {
+        "id": 21,
+        "name": "Vegetable Curry",
+        "cssClassName": "vegetable-curry"
+      },
+      {
+        "id": 36,
+        "name": "Salmon Risotto",
+        "cssClassName": "salmon-risotto"
+      },
+      {
+        "id": 37,
+        "name": "Crab Risotto",
+        "cssClassName": "crab-risotto"
+      },
+      {
+        "id": 38,
+        "name": "Vegetable Risotto",
+        "cssClassName": "vegetable-risotto"
+      },
+      {
+        "id": 39,
+        "name": "Mushroom Risotto",
+        "cssClassName": "mushroom-risotto"
+      },
+      {
+        "id": 47,
+        "name": "Crab Omelet with Rice",
+        "cssClassName": "crab-omelet-with-rice"
+      },
+      {
+        "id": 48,
+        "name": "Gourmet Poultry Pilaf",
+        "cssClassName": "gourmet-poultry-pilaf"
+      },
+      {
+        "id": 49,
+        "name": "Prime Poultry Pilaf",
+        "cssClassName": "prime-poultry-pilaf"
+      },
+      {
+        "id": 50,
+        "name": "Poultry Pilaf",
+        "cssClassName": "poultry-pilaf"
+      },
+      {
+        "id": 54,
+        "name": "Seafood Fried Rice",
+        "cssClassName": "seafood-fried-rice"
+      },
+      {
+        "id": 55,
+        "name": "Curry Pilaf",
+        "cssClassName": "curry-pilaf"
+      },
+      {
+        "id": 56,
+        "name": "Gourmet Meat and Rice Bowl",
+        "cssClassName": "gourmet-meat-and-rice-bowl"
+      },
+      {
+        "id": 57,
+        "name": "Prime Meat and Rice Bowl",
+        "cssClassName": "prime-meat-and-rice-bowl"
+      },
+      {
+        "id": 58,
+        "name": "Meat and Rice Bowl",
+        "cssClassName": "meat-and-rice-bowl"
+      },
+      {
+        "id": 59,
+        "name": "Fried Egg and Rice",
+        "cssClassName": "fried-egg-and-rice"
+      },
+      {
+        "id": 60,
+        "name": "Meaty Rice Balls",
+        "cssClassName": "meaty-rice-balls"
+      },
+      {
+        "id": 61,
+        "name": "Seafood Rice Balls",
+        "cssClassName": "seafood-rice-balls"
+      },
+      {
+        "id": 62,
+        "name": "Mushroom Rice Balls",
+        "cssClassName": "mushroom-rice-balls"
+      },
+      {
+        "id": 63,
+        "name": "Veggie Rice Balls",
+        "cssClassName": "veggie-rice-balls"
+      },
+      {
+        "id": 70,
+        "name": "Curry Rice",
+        "cssClassName": "curry-rice"
+      }
     ]
   },
   {
@@ -743,6 +3779,18 @@ module.exports = [
     "durationFactor": 50,
     "availabilities": [
       "Dropped by squirrels"
+    ],
+    "recipes": [
+      {
+        "id": 28,
+        "name": "Nutcake",
+        "cssClassName": "nutcake"
+      },
+      {
+        "id": 113,
+        "name": "Sauteed Nuts",
+        "cssClassName": "sauteed-nuts"
+      }
     ]
   },
   {
@@ -757,6 +3805,18 @@ module.exports = [
     "durationFactor": 40,
     "availabilities": [
       "Dropped by small birds"
+    ],
+    "recipes": [
+      {
+        "id": 28,
+        "name": "Nutcake",
+        "cssClassName": "nutcake"
+      },
+      {
+        "id": 113,
+        "name": "Sauteed Nuts",
+        "cssClassName": "sauteed-nuts"
+      }
     ]
   },
   {
@@ -771,6 +3831,78 @@ module.exports = [
     "durationFactor": 90,
     "availabilities": [
       "Found in certain tall trees; dropped by cuccos"
+    ],
+    "recipes": [
+      {
+        "id": 24,
+        "name": "Wildberry Crepe",
+        "cssClassName": "wildberry-crepe"
+      },
+      {
+        "id": 25,
+        "name": "Honey Crepe",
+        "cssClassName": "honey-crepe"
+      },
+      {
+        "id": 26,
+        "name": "Plain Crepe",
+        "cssClassName": "plain-crepe"
+      },
+      {
+        "id": 27,
+        "name": "Apple Pie",
+        "cssClassName": "apple-pie"
+      },
+      {
+        "id": 29,
+        "name": "Egg Tart",
+        "cssClassName": "egg-tart"
+      },
+      {
+        "id": 30,
+        "name": "Egg Pudding",
+        "cssClassName": "egg-pudding"
+      },
+      {
+        "id": 46,
+        "name": "Mushroom Omelet",
+        "cssClassName": "mushroom-omelet"
+      },
+      {
+        "id": 47,
+        "name": "Crab Omelet with Rice",
+        "cssClassName": "crab-omelet-with-rice"
+      },
+      {
+        "id": 48,
+        "name": "Gourmet Poultry Pilaf",
+        "cssClassName": "gourmet-poultry-pilaf"
+      },
+      {
+        "id": 49,
+        "name": "Prime Poultry Pilaf",
+        "cssClassName": "prime-poultry-pilaf"
+      },
+      {
+        "id": 50,
+        "name": "Poultry Pilaf",
+        "cssClassName": "poultry-pilaf"
+      },
+      {
+        "id": 51,
+        "name": "Vegetable Omelet",
+        "cssClassName": "vegetable-omelet"
+      },
+      {
+        "id": 59,
+        "name": "Fried Egg and Rice",
+        "cssClassName": "fried-egg-and-rice"
+      },
+      {
+        "id": 108,
+        "name": "Omelet",
+        "cssClassName": "omelet"
+      }
     ]
   },
   {
@@ -785,6 +3917,133 @@ module.exports = [
     "durationFactor": 60,
     "availabilities": [
       "Cut tall grass in the Tabantha region; sold in Rito Village"
+    ],
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Fruitcake",
+        "cssClassName": "fruitcake"
+      },
+      {
+        "id": 5,
+        "name": "Monster Cake",
+        "cssClassName": "monster-cake"
+      },
+      {
+        "id": 6,
+        "name": "Monster Soup",
+        "cssClassName": "monster-soup"
+      },
+      {
+        "id": 9,
+        "name": "Clam Chowder",
+        "cssClassName": "clam-chowder"
+      },
+      {
+        "id": 10,
+        "name": "Pumpkin Stew",
+        "cssClassName": "pumpkin-stew"
+      },
+      {
+        "id": 11,
+        "name": "Gourmet Meat Stew",
+        "cssClassName": "gourmet-meat-stew"
+      },
+      {
+        "id": 12,
+        "name": "Prime Meat Stew",
+        "cssClassName": "prime-meat-stew"
+      },
+      {
+        "id": 13,
+        "name": "Meat Stew",
+        "cssClassName": "meat-stew"
+      },
+      {
+        "id": 22,
+        "name": "Pumpkin Pie",
+        "cssClassName": "pumpkin-pie"
+      },
+      {
+        "id": 23,
+        "name": "Carrot Cake",
+        "cssClassName": "carrot-cake"
+      },
+      {
+        "id": 24,
+        "name": "Wildberry Crepe",
+        "cssClassName": "wildberry-crepe"
+      },
+      {
+        "id": 25,
+        "name": "Honey Crepe",
+        "cssClassName": "honey-crepe"
+      },
+      {
+        "id": 26,
+        "name": "Plain Crepe",
+        "cssClassName": "plain-crepe"
+      },
+      {
+        "id": 27,
+        "name": "Apple Pie",
+        "cssClassName": "apple-pie"
+      },
+      {
+        "id": 28,
+        "name": "Nutcake",
+        "cssClassName": "nutcake"
+      },
+      {
+        "id": 29,
+        "name": "Egg Tart",
+        "cssClassName": "egg-tart"
+      },
+      {
+        "id": 31,
+        "name": "Fried Bananas",
+        "cssClassName": "fried-bananas"
+      },
+      {
+        "id": 32,
+        "name": "Fruit Pie",
+        "cssClassName": "fruit-pie"
+      },
+      {
+        "id": 33,
+        "name": "Meat Pie",
+        "cssClassName": "meat-pie"
+      },
+      {
+        "id": 34,
+        "name": "Fish Pie",
+        "cssClassName": "fish-pie"
+      },
+      {
+        "id": 35,
+        "name": "Salmon Meuniere",
+        "cssClassName": "salmon-meuniere"
+      },
+      {
+        "id": 45,
+        "name": "Carrot Stew",
+        "cssClassName": "carrot-stew"
+      },
+      {
+        "id": 52,
+        "name": "Porgy Meuniere",
+        "cssClassName": "porgy-meuniere"
+      },
+      {
+        "id": 53,
+        "name": "Seafood Meuniere",
+        "cssClassName": "seafood-meuniere"
+      },
+      {
+        "id": 84,
+        "name": "Wheat Bread",
+        "cssClassName": "wheat-bread"
+      }
     ]
   },
   {
@@ -799,6 +4058,98 @@ module.exports = [
     "durationFactor": 80,
     "availabilities": [
       "Sold in Hateno Village's general store"
+    ],
+    "recipes": [
+      {
+        "id": 6,
+        "name": "Monster Soup",
+        "cssClassName": "monster-soup"
+      },
+      {
+        "id": 8,
+        "name": "Creamy Heart Soup",
+        "cssClassName": "creamy-heart-soup"
+      },
+      {
+        "id": 9,
+        "name": "Clam Chowder",
+        "cssClassName": "clam-chowder"
+      },
+      {
+        "id": 10,
+        "name": "Pumpkin Stew",
+        "cssClassName": "pumpkin-stew"
+      },
+      {
+        "id": 11,
+        "name": "Gourmet Meat Stew",
+        "cssClassName": "gourmet-meat-stew"
+      },
+      {
+        "id": 12,
+        "name": "Prime Meat Stew",
+        "cssClassName": "prime-meat-stew"
+      },
+      {
+        "id": 13,
+        "name": "Meat Stew",
+        "cssClassName": "meat-stew"
+      },
+      {
+        "id": 24,
+        "name": "Wildberry Crepe",
+        "cssClassName": "wildberry-crepe"
+      },
+      {
+        "id": 25,
+        "name": "Honey Crepe",
+        "cssClassName": "honey-crepe"
+      },
+      {
+        "id": 26,
+        "name": "Plain Crepe",
+        "cssClassName": "plain-crepe"
+      },
+      {
+        "id": 30,
+        "name": "Egg Pudding",
+        "cssClassName": "egg-pudding"
+      },
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 41,
+        "name": "Veggie Cream Soup",
+        "cssClassName": "veggie-cream-soup"
+      },
+      {
+        "id": 42,
+        "name": "Creamy Meat Soup",
+        "cssClassName": "creamy-meat-soup"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 44,
+        "name": "Cream of Vegetable Soup",
+        "cssClassName": "cream-of-vegetable-soup"
+      },
+      {
+        "id": 45,
+        "name": "Carrot Stew",
+        "cssClassName": "carrot-stew"
+      },
+      {
+        "id": 109,
+        "name": "Warm Milk",
+        "cssClassName": "warm-milk"
+      }
     ]
   },
   {
@@ -813,6 +4164,73 @@ module.exports = [
     "durationFactor": 80,
     "availabilities": [
       "Sold in Rito Village's general store"
+    ],
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Fruitcake",
+        "cssClassName": "fruitcake"
+      },
+      {
+        "id": 5,
+        "name": "Monster Cake",
+        "cssClassName": "monster-cake"
+      },
+      {
+        "id": 22,
+        "name": "Pumpkin Pie",
+        "cssClassName": "pumpkin-pie"
+      },
+      {
+        "id": 23,
+        "name": "Carrot Cake",
+        "cssClassName": "carrot-cake"
+      },
+      {
+        "id": 24,
+        "name": "Wildberry Crepe",
+        "cssClassName": "wildberry-crepe"
+      },
+      {
+        "id": 25,
+        "name": "Honey Crepe",
+        "cssClassName": "honey-crepe"
+      },
+      {
+        "id": 26,
+        "name": "Plain Crepe",
+        "cssClassName": "plain-crepe"
+      },
+      {
+        "id": 27,
+        "name": "Apple Pie",
+        "cssClassName": "apple-pie"
+      },
+      {
+        "id": 28,
+        "name": "Nutcake",
+        "cssClassName": "nutcake"
+      },
+      {
+        "id": 29,
+        "name": "Egg Tart",
+        "cssClassName": "egg-tart"
+      },
+      {
+        "id": 30,
+        "name": "Egg Pudding",
+        "cssClassName": "egg-pudding"
+      },
+      {
+        "id": 31,
+        "name": "Fried Bananas",
+        "cssClassName": "fried-bananas"
+      },
+      {
+        "id": 32,
+        "name": "Fruit Pie",
+        "cssClassName": "fruit-pie"
+      }
     ]
   },
   {
@@ -827,6 +4245,163 @@ module.exports = [
     "durationFactor": 80,
     "availabilities": [
       "Sold in Rito Village's general store"
+    ],
+    "recipes": [
+      {
+        "id": 2,
+        "name": "Seafood Paella",
+        "cssClassName": "seafood-paella"
+      },
+      {
+        "id": 5,
+        "name": "Monster Cake",
+        "cssClassName": "monster-cake"
+      },
+      {
+        "id": 6,
+        "name": "Monster Soup",
+        "cssClassName": "monster-soup"
+      },
+      {
+        "id": 9,
+        "name": "Clam Chowder",
+        "cssClassName": "clam-chowder"
+      },
+      {
+        "id": 10,
+        "name": "Pumpkin Stew",
+        "cssClassName": "pumpkin-stew"
+      },
+      {
+        "id": 11,
+        "name": "Gourmet Meat Stew",
+        "cssClassName": "gourmet-meat-stew"
+      },
+      {
+        "id": 12,
+        "name": "Prime Meat Stew",
+        "cssClassName": "prime-meat-stew"
+      },
+      {
+        "id": 13,
+        "name": "Meat Stew",
+        "cssClassName": "meat-stew"
+      },
+      {
+        "id": 22,
+        "name": "Pumpkin Pie",
+        "cssClassName": "pumpkin-pie"
+      },
+      {
+        "id": 23,
+        "name": "Carrot Cake",
+        "cssClassName": "carrot-cake"
+      },
+      {
+        "id": 28,
+        "name": "Nutcake",
+        "cssClassName": "nutcake"
+      },
+      {
+        "id": 29,
+        "name": "Egg Tart",
+        "cssClassName": "egg-tart"
+      },
+      {
+        "id": 32,
+        "name": "Fruit Pie",
+        "cssClassName": "fruit-pie"
+      },
+      {
+        "id": 33,
+        "name": "Meat Pie",
+        "cssClassName": "meat-pie"
+      },
+      {
+        "id": 34,
+        "name": "Fish Pie",
+        "cssClassName": "fish-pie"
+      },
+      {
+        "id": 35,
+        "name": "Salmon Meuniere",
+        "cssClassName": "salmon-meuniere"
+      },
+      {
+        "id": 36,
+        "name": "Salmon Risotto",
+        "cssClassName": "salmon-risotto"
+      },
+      {
+        "id": 37,
+        "name": "Crab Risotto",
+        "cssClassName": "crab-risotto"
+      },
+      {
+        "id": 38,
+        "name": "Vegetable Risotto",
+        "cssClassName": "vegetable-risotto"
+      },
+      {
+        "id": 39,
+        "name": "Mushroom Risotto",
+        "cssClassName": "mushroom-risotto"
+      },
+      {
+        "id": 45,
+        "name": "Carrot Stew",
+        "cssClassName": "carrot-stew"
+      },
+      {
+        "id": 46,
+        "name": "Mushroom Omelet",
+        "cssClassName": "mushroom-omelet"
+      },
+      {
+        "id": 47,
+        "name": "Crab Omelet with Rice",
+        "cssClassName": "crab-omelet-with-rice"
+      },
+      {
+        "id": 48,
+        "name": "Gourmet Poultry Pilaf",
+        "cssClassName": "gourmet-poultry-pilaf"
+      },
+      {
+        "id": 49,
+        "name": "Prime Poultry Pilaf",
+        "cssClassName": "prime-poultry-pilaf"
+      },
+      {
+        "id": 50,
+        "name": "Poultry Pilaf",
+        "cssClassName": "poultry-pilaf"
+      },
+      {
+        "id": 51,
+        "name": "Vegetable Omelet",
+        "cssClassName": "vegetable-omelet"
+      },
+      {
+        "id": 52,
+        "name": "Porgy Meuniere",
+        "cssClassName": "porgy-meuniere"
+      },
+      {
+        "id": 53,
+        "name": "Seafood Meuniere",
+        "cssClassName": "seafood-meuniere"
+      },
+      {
+        "id": 55,
+        "name": "Curry Pilaf",
+        "cssClassName": "curry-pilaf"
+      },
+      {
+        "id": 64,
+        "name": "Hot Buttered Apple",
+        "cssClassName": "hot-buttered-apple"
+      }
     ]
   },
   {
@@ -841,6 +4416,93 @@ module.exports = [
     "durationFactor": 90,
     "availabilities": [
       "Sold in Goron City's general store"
+    ],
+    "recipes": [
+      {
+        "id": 3,
+        "name": "Monster Curry",
+        "cssClassName": "monster-curry"
+      },
+      {
+        "id": 14,
+        "name": "Gourmet Meat Curry",
+        "cssClassName": "gourmet-meat-curry"
+      },
+      {
+        "id": 15,
+        "name": "Gourmet Poultry Curry",
+        "cssClassName": "gourmet-poultry-curry"
+      },
+      {
+        "id": 16,
+        "name": "Prime Meat Curry",
+        "cssClassName": "prime-meat-curry"
+      },
+      {
+        "id": 17,
+        "name": "Prime Poultry Curry",
+        "cssClassName": "prime-poultry-curry"
+      },
+      {
+        "id": 18,
+        "name": "Meat Curry",
+        "cssClassName": "meat-curry"
+      },
+      {
+        "id": 19,
+        "name": "Poultry Curry",
+        "cssClassName": "poultry-curry"
+      },
+      {
+        "id": 20,
+        "name": "Seafood Curry",
+        "cssClassName": "seafood-curry"
+      },
+      {
+        "id": 21,
+        "name": "Vegetable Curry",
+        "cssClassName": "vegetable-curry"
+      },
+      {
+        "id": 55,
+        "name": "Curry Pilaf",
+        "cssClassName": "curry-pilaf"
+      },
+      {
+        "id": 70,
+        "name": "Curry Rice",
+        "cssClassName": "curry-rice"
+      },
+      {
+        "id": 73,
+        "name": "Gourmet Spiced Meat Skewer",
+        "cssClassName": "gourmet-spiced-meat-skewer"
+      },
+      {
+        "id": 74,
+        "name": "Prime Spiced Meat Skewer",
+        "cssClassName": "prime-spiced-meat-skewer"
+      },
+      {
+        "id": 75,
+        "name": "Spiced Meat Skewer",
+        "cssClassName": "spiced-meat-skewer"
+      },
+      {
+        "id": 76,
+        "name": "Fragrant Mushroom Saute",
+        "cssClassName": "fragrant-mushroom-saute"
+      },
+      {
+        "id": 77,
+        "name": "Herb Saute",
+        "cssClassName": "herb-saute"
+      },
+      {
+        "id": 81,
+        "name": "Crab Stir-Fry",
+        "cssClassName": "crab-stir-fry"
+      }
     ]
   },
   {
@@ -855,6 +4517,143 @@ module.exports = [
     "durationFactor": 60,
     "availabilities": [
       "Ore deposits"
+    ],
+    "recipes": [
+      {
+        "id": 2,
+        "name": "Seafood Paella",
+        "cssClassName": "seafood-paella"
+      },
+      {
+        "id": 4,
+        "name": "Monster Rice Balls",
+        "cssClassName": "monster-rice-balls"
+      },
+      {
+        "id": 33,
+        "name": "Meat Pie",
+        "cssClassName": "meat-pie"
+      },
+      {
+        "id": 34,
+        "name": "Fish Pie",
+        "cssClassName": "fish-pie"
+      },
+      {
+        "id": 36,
+        "name": "Salmon Risotto",
+        "cssClassName": "salmon-risotto"
+      },
+      {
+        "id": 37,
+        "name": "Crab Risotto",
+        "cssClassName": "crab-risotto"
+      },
+      {
+        "id": 38,
+        "name": "Vegetable Risotto",
+        "cssClassName": "vegetable-risotto"
+      },
+      {
+        "id": 39,
+        "name": "Mushroom Risotto",
+        "cssClassName": "mushroom-risotto"
+      },
+      {
+        "id": 40,
+        "name": "Cream of Mushroom Soup",
+        "cssClassName": "cream-of-mushroom-soup"
+      },
+      {
+        "id": 41,
+        "name": "Veggie Cream Soup",
+        "cssClassName": "veggie-cream-soup"
+      },
+      {
+        "id": 42,
+        "name": "Creamy Meat Soup",
+        "cssClassName": "creamy-meat-soup"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 44,
+        "name": "Cream of Vegetable Soup",
+        "cssClassName": "cream-of-vegetable-soup"
+      },
+      {
+        "id": 46,
+        "name": "Mushroom Omelet",
+        "cssClassName": "mushroom-omelet"
+      },
+      {
+        "id": 51,
+        "name": "Vegetable Omelet",
+        "cssClassName": "vegetable-omelet"
+      },
+      {
+        "id": 54,
+        "name": "Seafood Fried Rice",
+        "cssClassName": "seafood-fried-rice"
+      },
+      {
+        "id": 56,
+        "name": "Gourmet Meat and Rice Bowl",
+        "cssClassName": "gourmet-meat-and-rice-bowl"
+      },
+      {
+        "id": 57,
+        "name": "Prime Meat and Rice Bowl",
+        "cssClassName": "prime-meat-and-rice-bowl"
+      },
+      {
+        "id": 58,
+        "name": "Meat and Rice Bowl",
+        "cssClassName": "meat-and-rice-bowl"
+      },
+      {
+        "id": 78,
+        "name": "Salt-Grilled Gourmet Meat",
+        "cssClassName": "salt-grilled-gourmet-meat"
+      },
+      {
+        "id": 79,
+        "name": "Salt-Grilled Prime Meat",
+        "cssClassName": "salt-grilled-prime-meat"
+      },
+      {
+        "id": 80,
+        "name": "Salt-Grilled Meat",
+        "cssClassName": "salt-grilled-meat"
+      },
+      {
+        "id": 82,
+        "name": "Salt-Grilled Crab",
+        "cssClassName": "salt-grilled-crab"
+      },
+      {
+        "id": 83,
+        "name": "Salt-Grilled Fish",
+        "cssClassName": "salt-grilled-fish"
+      },
+      {
+        "id": 84,
+        "name": "Wheat Bread",
+        "cssClassName": "wheat-bread"
+      },
+      {
+        "id": 85,
+        "name": "Salt-Grilled Greens",
+        "cssClassName": "salt-grilled-greens"
+      },
+      {
+        "id": 86,
+        "name": "Salt-Grilled Mushrooms",
+        "cssClassName": "salt-grilled-mushrooms"
+      }
     ]
   },
   {
@@ -869,6 +4668,33 @@ module.exports = [
     "durationFactor": 0,
     "availabilities": [
       "Kilton's monster shop"
+    ],
+    "recipes": [
+      {
+        "id": 3,
+        "name": "Monster Curry",
+        "cssClassName": "monster-curry"
+      },
+      {
+        "id": 4,
+        "name": "Monster Rice Balls",
+        "cssClassName": "monster-rice-balls"
+      },
+      {
+        "id": 5,
+        "name": "Monster Cake",
+        "cssClassName": "monster-cake"
+      },
+      {
+        "id": 6,
+        "name": "Monster Soup",
+        "cssClassName": "monster-soup"
+      },
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      }
     ]
   },
   {
@@ -883,7 +4709,8 @@ module.exports = [
     "durationFactor": 30,
     "availabilities": [
       "Shooting stars"
-    ]
+    ],
+    "recipes": null
   },
   {
     "name": "Dinraal's Scale",
@@ -897,6 +4724,33 @@ module.exports = [
     "durationFactor": 90,
     "availabilities": [
       "Fire an arrow at Dinraal's body"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -911,6 +4765,33 @@ module.exports = [
     "durationFactor": 210,
     "availabilities": [
       "Fire an arrow at Dinraal's feet"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -925,6 +4806,33 @@ module.exports = [
     "durationFactor": 630,
     "availabilities": [
       "Fire an arrow at Dinraal's mouth"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -939,6 +4847,33 @@ module.exports = [
     "durationFactor": 1800,
     "availabilities": [
       "Fire an arrow at Dinraal's horn"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -953,6 +4888,33 @@ module.exports = [
     "durationFactor": 90,
     "availabilities": [
       "Fire an arrow at Naydra's body"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -967,6 +4929,33 @@ module.exports = [
     "durationFactor": 210,
     "availabilities": [
       "Fire an arrow at Naydra's feet"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -981,6 +4970,33 @@ module.exports = [
     "durationFactor": 630,
     "availabilities": [
       "Fire an arrow at Naydra's mouth"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -995,6 +5011,33 @@ module.exports = [
     "durationFactor": 1800,
     "availabilities": [
       "Fire an arrow at Naydra's horn"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1009,6 +5052,33 @@ module.exports = [
     "durationFactor": 90,
     "availabilities": [
       "Fire an arrow at Farosh's body"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1023,6 +5093,33 @@ module.exports = [
     "durationFactor": 210,
     "availabilities": [
       "Fire an arrow at Farosh's feet"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1037,6 +5134,33 @@ module.exports = [
     "durationFactor": 630,
     "availabilities": [
       "Fire an arrow at Farosh's mouth"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1051,6 +5175,33 @@ module.exports = [
     "durationFactor": 1800,
     "availabilities": [
       "Fire an arrow at Farosh's horn"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1069,6 +5220,93 @@ module.exports = [
     "availabilities": [
       "Hebra Mountains",
       "Tabantha Frontier"
+    ],
+    "recipes": [
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      },
+      {
+        "id": 34,
+        "name": "Fish Pie",
+        "cssClassName": "fish-pie"
+      },
+      {
+        "id": 35,
+        "name": "Salmon Meuniere",
+        "cssClassName": "salmon-meuniere"
+      },
+      {
+        "id": 36,
+        "name": "Salmon Risotto",
+        "cssClassName": "salmon-risotto"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 53,
+        "name": "Seafood Meuniere",
+        "cssClassName": "seafood-meuniere"
+      },
+      {
+        "id": 61,
+        "name": "Seafood Rice Balls",
+        "cssClassName": "seafood-rice-balls"
+      },
+      {
+        "id": 67,
+        "name": "Glazed Seafood",
+        "cssClassName": "glazed-seafood"
+      },
+      {
+        "id": 83,
+        "name": "Salt-Grilled Fish",
+        "cssClassName": "salt-grilled-fish"
+      },
+      {
+        "id": 91,
+        "name": "Copious Fish Skewers",
+        "cssClassName": "copious-fish-skewers"
+      },
+      {
+        "id": 93,
+        "name": "Gourmet Meat and Seafood Fry",
+        "cssClassName": "gourmet-meat-and-seafood-fry"
+      },
+      {
+        "id": 94,
+        "name": "Prime Meat and Seafood Fry",
+        "cssClassName": "prime-meat-and-seafood-fry"
+      },
+      {
+        "id": 95,
+        "name": "Meat and Seafood Fry",
+        "cssClassName": "meat-and-seafood-fry"
+      },
+      {
+        "id": 97,
+        "name": "Pepper Seafood",
+        "cssClassName": "pepper-seafood"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 107,
+        "name": "Fish Skewer",
+        "cssClassName": "fish-skewer"
+      }
     ]
   },
   {
@@ -1087,6 +5325,83 @@ module.exports = [
     "availabilities": [
       "West Necluda",
       "Akkala Highlands"
+    ],
+    "recipes": [
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      },
+      {
+        "id": 34,
+        "name": "Fish Pie",
+        "cssClassName": "fish-pie"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 53,
+        "name": "Seafood Meuniere",
+        "cssClassName": "seafood-meuniere"
+      },
+      {
+        "id": 61,
+        "name": "Seafood Rice Balls",
+        "cssClassName": "seafood-rice-balls"
+      },
+      {
+        "id": 67,
+        "name": "Glazed Seafood",
+        "cssClassName": "glazed-seafood"
+      },
+      {
+        "id": 83,
+        "name": "Salt-Grilled Fish",
+        "cssClassName": "salt-grilled-fish"
+      },
+      {
+        "id": 91,
+        "name": "Copious Fish Skewers",
+        "cssClassName": "copious-fish-skewers"
+      },
+      {
+        "id": 93,
+        "name": "Gourmet Meat and Seafood Fry",
+        "cssClassName": "gourmet-meat-and-seafood-fry"
+      },
+      {
+        "id": 94,
+        "name": "Prime Meat and Seafood Fry",
+        "cssClassName": "prime-meat-and-seafood-fry"
+      },
+      {
+        "id": 95,
+        "name": "Meat and Seafood Fry",
+        "cssClassName": "meat-and-seafood-fry"
+      },
+      {
+        "id": 97,
+        "name": "Pepper Seafood",
+        "cssClassName": "pepper-seafood"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 107,
+        "name": "Fish Skewer",
+        "cssClassName": "fish-skewer"
+      }
     ]
   },
   {
@@ -1102,6 +5417,83 @@ module.exports = [
     "availabilities": [
       "Hyrule Field",
       "West Necluda"
+    ],
+    "recipes": [
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      },
+      {
+        "id": 34,
+        "name": "Fish Pie",
+        "cssClassName": "fish-pie"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 53,
+        "name": "Seafood Meuniere",
+        "cssClassName": "seafood-meuniere"
+      },
+      {
+        "id": 61,
+        "name": "Seafood Rice Balls",
+        "cssClassName": "seafood-rice-balls"
+      },
+      {
+        "id": 67,
+        "name": "Glazed Seafood",
+        "cssClassName": "glazed-seafood"
+      },
+      {
+        "id": 83,
+        "name": "Salt-Grilled Fish",
+        "cssClassName": "salt-grilled-fish"
+      },
+      {
+        "id": 91,
+        "name": "Copious Fish Skewers",
+        "cssClassName": "copious-fish-skewers"
+      },
+      {
+        "id": 93,
+        "name": "Gourmet Meat and Seafood Fry",
+        "cssClassName": "gourmet-meat-and-seafood-fry"
+      },
+      {
+        "id": 94,
+        "name": "Prime Meat and Seafood Fry",
+        "cssClassName": "prime-meat-and-seafood-fry"
+      },
+      {
+        "id": 95,
+        "name": "Meat and Seafood Fry",
+        "cssClassName": "meat-and-seafood-fry"
+      },
+      {
+        "id": 97,
+        "name": "Pepper Seafood",
+        "cssClassName": "pepper-seafood"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 107,
+        "name": "Fish Skewer",
+        "cssClassName": "fish-skewer"
+      }
     ]
   },
   {
@@ -1120,6 +5512,83 @@ module.exports = [
     "availabilities": [
       "Hyrule Field",
       "West Necluda"
+    ],
+    "recipes": [
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      },
+      {
+        "id": 34,
+        "name": "Fish Pie",
+        "cssClassName": "fish-pie"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 53,
+        "name": "Seafood Meuniere",
+        "cssClassName": "seafood-meuniere"
+      },
+      {
+        "id": 61,
+        "name": "Seafood Rice Balls",
+        "cssClassName": "seafood-rice-balls"
+      },
+      {
+        "id": 67,
+        "name": "Glazed Seafood",
+        "cssClassName": "glazed-seafood"
+      },
+      {
+        "id": 83,
+        "name": "Salt-Grilled Fish",
+        "cssClassName": "salt-grilled-fish"
+      },
+      {
+        "id": 91,
+        "name": "Copious Fish Skewers",
+        "cssClassName": "copious-fish-skewers"
+      },
+      {
+        "id": 93,
+        "name": "Gourmet Meat and Seafood Fry",
+        "cssClassName": "gourmet-meat-and-seafood-fry"
+      },
+      {
+        "id": 94,
+        "name": "Prime Meat and Seafood Fry",
+        "cssClassName": "prime-meat-and-seafood-fry"
+      },
+      {
+        "id": 95,
+        "name": "Meat and Seafood Fry",
+        "cssClassName": "meat-and-seafood-fry"
+      },
+      {
+        "id": 97,
+        "name": "Pepper Seafood",
+        "cssClassName": "pepper-seafood"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 107,
+        "name": "Fish Skewer",
+        "cssClassName": "fish-skewer"
+      }
     ]
   },
   {
@@ -1138,6 +5607,83 @@ module.exports = [
     "availabilities": [
       "Hebra Mountains",
       "Tabantha Frontier"
+    ],
+    "recipes": [
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      },
+      {
+        "id": 34,
+        "name": "Fish Pie",
+        "cssClassName": "fish-pie"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 53,
+        "name": "Seafood Meuniere",
+        "cssClassName": "seafood-meuniere"
+      },
+      {
+        "id": 61,
+        "name": "Seafood Rice Balls",
+        "cssClassName": "seafood-rice-balls"
+      },
+      {
+        "id": 67,
+        "name": "Glazed Seafood",
+        "cssClassName": "glazed-seafood"
+      },
+      {
+        "id": 83,
+        "name": "Salt-Grilled Fish",
+        "cssClassName": "salt-grilled-fish"
+      },
+      {
+        "id": 91,
+        "name": "Copious Fish Skewers",
+        "cssClassName": "copious-fish-skewers"
+      },
+      {
+        "id": 93,
+        "name": "Gourmet Meat and Seafood Fry",
+        "cssClassName": "gourmet-meat-and-seafood-fry"
+      },
+      {
+        "id": 94,
+        "name": "Prime Meat and Seafood Fry",
+        "cssClassName": "prime-meat-and-seafood-fry"
+      },
+      {
+        "id": 95,
+        "name": "Meat and Seafood Fry",
+        "cssClassName": "meat-and-seafood-fry"
+      },
+      {
+        "id": 97,
+        "name": "Pepper Seafood",
+        "cssClassName": "pepper-seafood"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 107,
+        "name": "Fish Skewer",
+        "cssClassName": "fish-skewer"
+      }
     ]
   },
   {
@@ -1156,6 +5702,83 @@ module.exports = [
     "availabilities": [
       "Eldin Canyon",
       "Eldin Mountains"
+    ],
+    "recipes": [
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      },
+      {
+        "id": 34,
+        "name": "Fish Pie",
+        "cssClassName": "fish-pie"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 53,
+        "name": "Seafood Meuniere",
+        "cssClassName": "seafood-meuniere"
+      },
+      {
+        "id": 61,
+        "name": "Seafood Rice Balls",
+        "cssClassName": "seafood-rice-balls"
+      },
+      {
+        "id": 67,
+        "name": "Glazed Seafood",
+        "cssClassName": "glazed-seafood"
+      },
+      {
+        "id": 83,
+        "name": "Salt-Grilled Fish",
+        "cssClassName": "salt-grilled-fish"
+      },
+      {
+        "id": 91,
+        "name": "Copious Fish Skewers",
+        "cssClassName": "copious-fish-skewers"
+      },
+      {
+        "id": 93,
+        "name": "Gourmet Meat and Seafood Fry",
+        "cssClassName": "gourmet-meat-and-seafood-fry"
+      },
+      {
+        "id": 94,
+        "name": "Prime Meat and Seafood Fry",
+        "cssClassName": "prime-meat-and-seafood-fry"
+      },
+      {
+        "id": 95,
+        "name": "Meat and Seafood Fry",
+        "cssClassName": "meat-and-seafood-fry"
+      },
+      {
+        "id": 97,
+        "name": "Pepper Seafood",
+        "cssClassName": "pepper-seafood"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 107,
+        "name": "Fish Skewer",
+        "cssClassName": "fish-skewer"
+      }
     ]
   },
   {
@@ -1174,6 +5797,83 @@ module.exports = [
     "availabilities": [
       "Tabantha Frontier",
       "Hyrule Field"
+    ],
+    "recipes": [
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      },
+      {
+        "id": 34,
+        "name": "Fish Pie",
+        "cssClassName": "fish-pie"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 53,
+        "name": "Seafood Meuniere",
+        "cssClassName": "seafood-meuniere"
+      },
+      {
+        "id": 61,
+        "name": "Seafood Rice Balls",
+        "cssClassName": "seafood-rice-balls"
+      },
+      {
+        "id": 67,
+        "name": "Glazed Seafood",
+        "cssClassName": "glazed-seafood"
+      },
+      {
+        "id": 83,
+        "name": "Salt-Grilled Fish",
+        "cssClassName": "salt-grilled-fish"
+      },
+      {
+        "id": 91,
+        "name": "Copious Fish Skewers",
+        "cssClassName": "copious-fish-skewers"
+      },
+      {
+        "id": 93,
+        "name": "Gourmet Meat and Seafood Fry",
+        "cssClassName": "gourmet-meat-and-seafood-fry"
+      },
+      {
+        "id": 94,
+        "name": "Prime Meat and Seafood Fry",
+        "cssClassName": "prime-meat-and-seafood-fry"
+      },
+      {
+        "id": 95,
+        "name": "Meat and Seafood Fry",
+        "cssClassName": "meat-and-seafood-fry"
+      },
+      {
+        "id": 97,
+        "name": "Pepper Seafood",
+        "cssClassName": "pepper-seafood"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 107,
+        "name": "Fish Skewer",
+        "cssClassName": "fish-skewer"
+      }
     ]
   },
   {
@@ -1192,6 +5892,83 @@ module.exports = [
     "availabilities": [
       "Great Hyrule Forest",
       "Eldin Mountains"
+    ],
+    "recipes": [
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      },
+      {
+        "id": 34,
+        "name": "Fish Pie",
+        "cssClassName": "fish-pie"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 53,
+        "name": "Seafood Meuniere",
+        "cssClassName": "seafood-meuniere"
+      },
+      {
+        "id": 61,
+        "name": "Seafood Rice Balls",
+        "cssClassName": "seafood-rice-balls"
+      },
+      {
+        "id": 67,
+        "name": "Glazed Seafood",
+        "cssClassName": "glazed-seafood"
+      },
+      {
+        "id": 83,
+        "name": "Salt-Grilled Fish",
+        "cssClassName": "salt-grilled-fish"
+      },
+      {
+        "id": 91,
+        "name": "Copious Fish Skewers",
+        "cssClassName": "copious-fish-skewers"
+      },
+      {
+        "id": 93,
+        "name": "Gourmet Meat and Seafood Fry",
+        "cssClassName": "gourmet-meat-and-seafood-fry"
+      },
+      {
+        "id": 94,
+        "name": "Prime Meat and Seafood Fry",
+        "cssClassName": "prime-meat-and-seafood-fry"
+      },
+      {
+        "id": 95,
+        "name": "Meat and Seafood Fry",
+        "cssClassName": "meat-and-seafood-fry"
+      },
+      {
+        "id": 97,
+        "name": "Pepper Seafood",
+        "cssClassName": "pepper-seafood"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 107,
+        "name": "Fish Skewer",
+        "cssClassName": "fish-skewer"
+      }
     ]
   },
   {
@@ -1210,6 +5987,83 @@ module.exports = [
     "availabilities": [
       "Akkala Highlands",
       "Lanayru Great Spring"
+    ],
+    "recipes": [
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      },
+      {
+        "id": 34,
+        "name": "Fish Pie",
+        "cssClassName": "fish-pie"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 53,
+        "name": "Seafood Meuniere",
+        "cssClassName": "seafood-meuniere"
+      },
+      {
+        "id": 61,
+        "name": "Seafood Rice Balls",
+        "cssClassName": "seafood-rice-balls"
+      },
+      {
+        "id": 67,
+        "name": "Glazed Seafood",
+        "cssClassName": "glazed-seafood"
+      },
+      {
+        "id": 83,
+        "name": "Salt-Grilled Fish",
+        "cssClassName": "salt-grilled-fish"
+      },
+      {
+        "id": 91,
+        "name": "Copious Fish Skewers",
+        "cssClassName": "copious-fish-skewers"
+      },
+      {
+        "id": 93,
+        "name": "Gourmet Meat and Seafood Fry",
+        "cssClassName": "gourmet-meat-and-seafood-fry"
+      },
+      {
+        "id": 94,
+        "name": "Prime Meat and Seafood Fry",
+        "cssClassName": "prime-meat-and-seafood-fry"
+      },
+      {
+        "id": 95,
+        "name": "Meat and Seafood Fry",
+        "cssClassName": "meat-and-seafood-fry"
+      },
+      {
+        "id": 97,
+        "name": "Pepper Seafood",
+        "cssClassName": "pepper-seafood"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 107,
+        "name": "Fish Skewer",
+        "cssClassName": "fish-skewer"
+      }
     ]
   },
   {
@@ -1228,6 +6082,83 @@ module.exports = [
     "availabilities": [
       "Lanayru Great Spring",
       "East Necluda"
+    ],
+    "recipes": [
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      },
+      {
+        "id": 34,
+        "name": "Fish Pie",
+        "cssClassName": "fish-pie"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 53,
+        "name": "Seafood Meuniere",
+        "cssClassName": "seafood-meuniere"
+      },
+      {
+        "id": 61,
+        "name": "Seafood Rice Balls",
+        "cssClassName": "seafood-rice-balls"
+      },
+      {
+        "id": 67,
+        "name": "Glazed Seafood",
+        "cssClassName": "glazed-seafood"
+      },
+      {
+        "id": 83,
+        "name": "Salt-Grilled Fish",
+        "cssClassName": "salt-grilled-fish"
+      },
+      {
+        "id": 91,
+        "name": "Copious Fish Skewers",
+        "cssClassName": "copious-fish-skewers"
+      },
+      {
+        "id": 93,
+        "name": "Gourmet Meat and Seafood Fry",
+        "cssClassName": "gourmet-meat-and-seafood-fry"
+      },
+      {
+        "id": 94,
+        "name": "Prime Meat and Seafood Fry",
+        "cssClassName": "prime-meat-and-seafood-fry"
+      },
+      {
+        "id": 95,
+        "name": "Meat and Seafood Fry",
+        "cssClassName": "meat-and-seafood-fry"
+      },
+      {
+        "id": 97,
+        "name": "Pepper Seafood",
+        "cssClassName": "pepper-seafood"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 107,
+        "name": "Fish Skewer",
+        "cssClassName": "fish-skewer"
+      }
     ]
   },
   {
@@ -1242,7 +6173,8 @@ module.exports = [
     "durationFactor": 30,
     "availabilities": [
       "West Necluda"
-    ]
+    ],
+    "recipes": null
   },
   {
     "name": "Mighty Porgy",
@@ -1260,6 +6192,103 @@ module.exports = [
     "availabilities": [
       "Necluda Sea",
       "Lanayru Sea"
+    ],
+    "recipes": [
+      {
+        "id": 2,
+        "name": "Seafood Paella",
+        "cssClassName": "seafood-paella"
+      },
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      },
+      {
+        "id": 20,
+        "name": "Seafood Curry",
+        "cssClassName": "seafood-curry"
+      },
+      {
+        "id": 34,
+        "name": "Fish Pie",
+        "cssClassName": "fish-pie"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 52,
+        "name": "Porgy Meuniere",
+        "cssClassName": "porgy-meuniere"
+      },
+      {
+        "id": 53,
+        "name": "Seafood Meuniere",
+        "cssClassName": "seafood-meuniere"
+      },
+      {
+        "id": 54,
+        "name": "Seafood Fried Rice",
+        "cssClassName": "seafood-fried-rice"
+      },
+      {
+        "id": 61,
+        "name": "Seafood Rice Balls",
+        "cssClassName": "seafood-rice-balls"
+      },
+      {
+        "id": 67,
+        "name": "Glazed Seafood",
+        "cssClassName": "glazed-seafood"
+      },
+      {
+        "id": 83,
+        "name": "Salt-Grilled Fish",
+        "cssClassName": "salt-grilled-fish"
+      },
+      {
+        "id": 91,
+        "name": "Copious Fish Skewers",
+        "cssClassName": "copious-fish-skewers"
+      },
+      {
+        "id": 93,
+        "name": "Gourmet Meat and Seafood Fry",
+        "cssClassName": "gourmet-meat-and-seafood-fry"
+      },
+      {
+        "id": 94,
+        "name": "Prime Meat and Seafood Fry",
+        "cssClassName": "prime-meat-and-seafood-fry"
+      },
+      {
+        "id": 95,
+        "name": "Meat and Seafood Fry",
+        "cssClassName": "meat-and-seafood-fry"
+      },
+      {
+        "id": 97,
+        "name": "Pepper Seafood",
+        "cssClassName": "pepper-seafood"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 107,
+        "name": "Fish Skewer",
+        "cssClassName": "fish-skewer"
+      }
     ]
   },
   {
@@ -1278,6 +6307,103 @@ module.exports = [
     "availabilities": [
       "Necluda Sea",
       "Lanayru Sea"
+    ],
+    "recipes": [
+      {
+        "id": 2,
+        "name": "Seafood Paella",
+        "cssClassName": "seafood-paella"
+      },
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      },
+      {
+        "id": 20,
+        "name": "Seafood Curry",
+        "cssClassName": "seafood-curry"
+      },
+      {
+        "id": 34,
+        "name": "Fish Pie",
+        "cssClassName": "fish-pie"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 52,
+        "name": "Porgy Meuniere",
+        "cssClassName": "porgy-meuniere"
+      },
+      {
+        "id": 53,
+        "name": "Seafood Meuniere",
+        "cssClassName": "seafood-meuniere"
+      },
+      {
+        "id": 54,
+        "name": "Seafood Fried Rice",
+        "cssClassName": "seafood-fried-rice"
+      },
+      {
+        "id": 61,
+        "name": "Seafood Rice Balls",
+        "cssClassName": "seafood-rice-balls"
+      },
+      {
+        "id": 67,
+        "name": "Glazed Seafood",
+        "cssClassName": "glazed-seafood"
+      },
+      {
+        "id": 83,
+        "name": "Salt-Grilled Fish",
+        "cssClassName": "salt-grilled-fish"
+      },
+      {
+        "id": 91,
+        "name": "Copious Fish Skewers",
+        "cssClassName": "copious-fish-skewers"
+      },
+      {
+        "id": 93,
+        "name": "Gourmet Meat and Seafood Fry",
+        "cssClassName": "gourmet-meat-and-seafood-fry"
+      },
+      {
+        "id": 94,
+        "name": "Prime Meat and Seafood Fry",
+        "cssClassName": "prime-meat-and-seafood-fry"
+      },
+      {
+        "id": 95,
+        "name": "Meat and Seafood Fry",
+        "cssClassName": "meat-and-seafood-fry"
+      },
+      {
+        "id": 97,
+        "name": "Pepper Seafood",
+        "cssClassName": "pepper-seafood"
+      },
+      {
+        "id": 99,
+        "name": "Steamed Fish",
+        "cssClassName": "steamed-fish"
+      },
+      {
+        "id": 102,
+        "name": "Fish and Mushroom Skewer",
+        "cssClassName": "fish-and-mushroom-skewer"
+      },
+      {
+        "id": 107,
+        "name": "Fish Skewer",
+        "cssClassName": "fish-skewer"
+      }
     ]
   },
   {
@@ -1296,6 +6422,58 @@ module.exports = [
     "availabilities": [
       "West Necluda",
       "Lanayru Great Spring"
+    ],
+    "recipes": [
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      },
+      {
+        "id": 34,
+        "name": "Fish Pie",
+        "cssClassName": "fish-pie"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 53,
+        "name": "Seafood Meuniere",
+        "cssClassName": "seafood-meuniere"
+      },
+      {
+        "id": 67,
+        "name": "Glazed Seafood",
+        "cssClassName": "glazed-seafood"
+      },
+      {
+        "id": 93,
+        "name": "Gourmet Meat and Seafood Fry",
+        "cssClassName": "gourmet-meat-and-seafood-fry"
+      },
+      {
+        "id": 94,
+        "name": "Prime Meat and Seafood Fry",
+        "cssClassName": "prime-meat-and-seafood-fry"
+      },
+      {
+        "id": 95,
+        "name": "Meat and Seafood Fry",
+        "cssClassName": "meat-and-seafood-fry"
+      },
+      {
+        "id": 97,
+        "name": "Pepper Seafood",
+        "cssClassName": "pepper-seafood"
+      },
+      {
+        "id": 106,
+        "name": "Seafood Skewer",
+        "cssClassName": "seafood-skewer"
+      }
     ]
   },
   {
@@ -1314,6 +6492,78 @@ module.exports = [
     "availabilities": [
       "Necluda Sea",
       "Lanayru Sea"
+    ],
+    "recipes": [
+      {
+        "id": 2,
+        "name": "Seafood Paella",
+        "cssClassName": "seafood-paella"
+      },
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      },
+      {
+        "id": 9,
+        "name": "Clam Chowder",
+        "cssClassName": "clam-chowder"
+      },
+      {
+        "id": 20,
+        "name": "Seafood Curry",
+        "cssClassName": "seafood-curry"
+      },
+      {
+        "id": 34,
+        "name": "Fish Pie",
+        "cssClassName": "fish-pie"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 53,
+        "name": "Seafood Meuniere",
+        "cssClassName": "seafood-meuniere"
+      },
+      {
+        "id": 54,
+        "name": "Seafood Fried Rice",
+        "cssClassName": "seafood-fried-rice"
+      },
+      {
+        "id": 67,
+        "name": "Glazed Seafood",
+        "cssClassName": "glazed-seafood"
+      },
+      {
+        "id": 93,
+        "name": "Gourmet Meat and Seafood Fry",
+        "cssClassName": "gourmet-meat-and-seafood-fry"
+      },
+      {
+        "id": 94,
+        "name": "Prime Meat and Seafood Fry",
+        "cssClassName": "prime-meat-and-seafood-fry"
+      },
+      {
+        "id": 95,
+        "name": "Meat and Seafood Fry",
+        "cssClassName": "meat-and-seafood-fry"
+      },
+      {
+        "id": 97,
+        "name": "Pepper Seafood",
+        "cssClassName": "pepper-seafood"
+      },
+      {
+        "id": 106,
+        "name": "Seafood Skewer",
+        "cssClassName": "seafood-skewer"
+      }
     ]
   },
   {
@@ -1332,6 +6582,73 @@ module.exports = [
     "availabilities": [
       "Necluda Sea",
       "East Necluda"
+    ],
+    "recipes": [
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      },
+      {
+        "id": 34,
+        "name": "Fish Pie",
+        "cssClassName": "fish-pie"
+      },
+      {
+        "id": 37,
+        "name": "Crab Risotto",
+        "cssClassName": "crab-risotto"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 53,
+        "name": "Seafood Meuniere",
+        "cssClassName": "seafood-meuniere"
+      },
+      {
+        "id": 67,
+        "name": "Glazed Seafood",
+        "cssClassName": "glazed-seafood"
+      },
+      {
+        "id": 81,
+        "name": "Crab Stir-Fry",
+        "cssClassName": "crab-stir-fry"
+      },
+      {
+        "id": 82,
+        "name": "Salt-Grilled Crab",
+        "cssClassName": "salt-grilled-crab"
+      },
+      {
+        "id": 93,
+        "name": "Gourmet Meat and Seafood Fry",
+        "cssClassName": "gourmet-meat-and-seafood-fry"
+      },
+      {
+        "id": 94,
+        "name": "Prime Meat and Seafood Fry",
+        "cssClassName": "prime-meat-and-seafood-fry"
+      },
+      {
+        "id": 95,
+        "name": "Meat and Seafood Fry",
+        "cssClassName": "meat-and-seafood-fry"
+      },
+      {
+        "id": 97,
+        "name": "Pepper Seafood",
+        "cssClassName": "pepper-seafood"
+      },
+      {
+        "id": 106,
+        "name": "Seafood Skewer",
+        "cssClassName": "seafood-skewer"
+      }
     ]
   },
   {
@@ -1350,6 +6667,73 @@ module.exports = [
     "availabilities": [
       "Necluda Sea",
       "East Necluda"
+    ],
+    "recipes": [
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      },
+      {
+        "id": 34,
+        "name": "Fish Pie",
+        "cssClassName": "fish-pie"
+      },
+      {
+        "id": 37,
+        "name": "Crab Risotto",
+        "cssClassName": "crab-risotto"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 53,
+        "name": "Seafood Meuniere",
+        "cssClassName": "seafood-meuniere"
+      },
+      {
+        "id": 67,
+        "name": "Glazed Seafood",
+        "cssClassName": "glazed-seafood"
+      },
+      {
+        "id": 81,
+        "name": "Crab Stir-Fry",
+        "cssClassName": "crab-stir-fry"
+      },
+      {
+        "id": 82,
+        "name": "Salt-Grilled Crab",
+        "cssClassName": "salt-grilled-crab"
+      },
+      {
+        "id": 93,
+        "name": "Gourmet Meat and Seafood Fry",
+        "cssClassName": "gourmet-meat-and-seafood-fry"
+      },
+      {
+        "id": 94,
+        "name": "Prime Meat and Seafood Fry",
+        "cssClassName": "prime-meat-and-seafood-fry"
+      },
+      {
+        "id": 95,
+        "name": "Meat and Seafood Fry",
+        "cssClassName": "meat-and-seafood-fry"
+      },
+      {
+        "id": 97,
+        "name": "Pepper Seafood",
+        "cssClassName": "pepper-seafood"
+      },
+      {
+        "id": 106,
+        "name": "Seafood Skewer",
+        "cssClassName": "seafood-skewer"
+      }
     ]
   },
   {
@@ -1368,6 +6752,73 @@ module.exports = [
     "availabilities": [
       "Lanayru Great Spring",
       "Eldin Canyon"
+    ],
+    "recipes": [
+      {
+        "id": 7,
+        "name": "Monster Stew",
+        "cssClassName": "monster-stew"
+      },
+      {
+        "id": 34,
+        "name": "Fish Pie",
+        "cssClassName": "fish-pie"
+      },
+      {
+        "id": 37,
+        "name": "Crab Risotto",
+        "cssClassName": "crab-risotto"
+      },
+      {
+        "id": 43,
+        "name": "Creamy Seafood Soup",
+        "cssClassName": "creamy-seafood-soup"
+      },
+      {
+        "id": 53,
+        "name": "Seafood Meuniere",
+        "cssClassName": "seafood-meuniere"
+      },
+      {
+        "id": 67,
+        "name": "Glazed Seafood",
+        "cssClassName": "glazed-seafood"
+      },
+      {
+        "id": 81,
+        "name": "Crab Stir-Fry",
+        "cssClassName": "crab-stir-fry"
+      },
+      {
+        "id": 82,
+        "name": "Salt-Grilled Crab",
+        "cssClassName": "salt-grilled-crab"
+      },
+      {
+        "id": 93,
+        "name": "Gourmet Meat and Seafood Fry",
+        "cssClassName": "gourmet-meat-and-seafood-fry"
+      },
+      {
+        "id": 94,
+        "name": "Prime Meat and Seafood Fry",
+        "cssClassName": "prime-meat-and-seafood-fry"
+      },
+      {
+        "id": 95,
+        "name": "Meat and Seafood Fry",
+        "cssClassName": "meat-and-seafood-fry"
+      },
+      {
+        "id": 97,
+        "name": "Pepper Seafood",
+        "cssClassName": "pepper-seafood"
+      },
+      {
+        "id": 106,
+        "name": "Seafood Skewer",
+        "cssClassName": "seafood-skewer"
+      }
     ]
   },
   {
@@ -1382,6 +6833,28 @@ module.exports = [
     "durationFactor": 30,
     "availabilities": [
       "Around Great Fairy Fountains"
+    ],
+    "recipes": [
+      {
+        "id": 114,
+        "name": "Fairy Tonic Level 1",
+        "cssClassName": "fairy-tonic-level-1"
+      },
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      }
     ]
   },
   {
@@ -1400,6 +6873,33 @@ module.exports = [
     "availabilities": [
       "Hyrule Field",
       "Tabantha Frontier"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1418,6 +6918,33 @@ module.exports = [
     "availabilities": [
       "Great Hyrule Forest",
       "Eldin Mountains"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1436,6 +6963,33 @@ module.exports = [
     "availabilities": [
       "Hyrule Ridge",
       "Gerudo Highlands"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1454,6 +7008,33 @@ module.exports = [
     "availabilities": [
       "Eldin Canyon",
       "Death Mountain"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1472,6 +7053,33 @@ module.exports = [
     "availabilities": [
       "Tabantha Frontier",
       "Hyrule Ridge"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1490,6 +7098,33 @@ module.exports = [
     "availabilities": [
       "Akkala Highlands",
       "Hyrule Field"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1508,6 +7143,33 @@ module.exports = [
     "availabilities": [
       "Hyrule Ridge",
       "Gerudo Desert"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1526,6 +7188,33 @@ module.exports = [
     "availabilities": [
       "Hyrule Field",
       "East Necluda"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1544,6 +7233,33 @@ module.exports = [
     "availabilities": [
       "West Necluda",
       "East Necluda"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1562,6 +7278,33 @@ module.exports = [
     "availabilities": [
       "Hyrule Field",
       "Faron Grasslands"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1580,6 +7323,33 @@ module.exports = [
     "availabilities": [
       "Akkala Highlands",
       "West Necluda"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1598,6 +7368,33 @@ module.exports = [
     "availabilities": [
       "West Necluda",
       "Korok Forest"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1616,6 +7413,33 @@ module.exports = [
     "availabilities": [
       "Lanayru Great Spring",
       "Hyrule Ridge"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1634,6 +7458,33 @@ module.exports = [
     "availabilities": [
       "Lanayru Great Spring",
       "Hyrule Ridge"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1652,6 +7503,33 @@ module.exports = [
     "availabilities": [
       "West Necluda",
       "East Necluda"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1670,6 +7548,33 @@ module.exports = [
     "availabilities": [
       "Gerudo Desert",
       "Necluda Sea"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1688,6 +7593,33 @@ module.exports = [
     "availabilities": [
       "Eldin Canyon",
       "Death Mountain"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1703,7 +7635,8 @@ module.exports = [
     "availabilities": [
       "Ore deposits",
       "all Talus Types"
-    ]
+    ],
+    "recipes": null
   },
   {
     "name": "Amber",
@@ -1719,6 +7652,23 @@ module.exports = [
       "Ore deposits",
       "all Talus Types",
       "all Silver enemies"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 120,
+        "name": "Rock-Hard Food",
+        "cssClassName": "rock-hard-food"
+      }
     ]
   },
   {
@@ -1735,6 +7685,23 @@ module.exports = [
       "Ore deposits",
       "all Talus Types",
       "all Silver enemies"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 120,
+        "name": "Rock-Hard Food",
+        "cssClassName": "rock-hard-food"
+      }
     ]
   },
   {
@@ -1751,7 +7718,8 @@ module.exports = [
       "Luminous stone deposits",
       "Stone Talus (Luminous)",
       "all Silver enemies"
-    ]
+    ],
+    "recipes": null
   },
   {
     "name": "Topaz",
@@ -1767,6 +7735,23 @@ module.exports = [
       "Ore deposits",
       "Stone Talus (Luminous and Rare Types)",
       "all Silver enemies"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 120,
+        "name": "Rock-Hard Food",
+        "cssClassName": "rock-hard-food"
+      }
     ]
   },
   {
@@ -1784,6 +7769,23 @@ module.exports = [
       "Stone Talus (standard",
       " Luminous and Igneo Types)",
       "all Silver enemies"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 120,
+        "name": "Rock-Hard Food",
+        "cssClassName": "rock-hard-food"
+      }
     ]
   },
   {
@@ -1800,6 +7802,23 @@ module.exports = [
       "Ore deposits",
       "Stone Talus (Frost and Rare Types)",
       "all Silver enemies"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 120,
+        "name": "Rock-Hard Food",
+        "cssClassName": "rock-hard-food"
+      }
     ]
   },
   {
@@ -1816,6 +7835,23 @@ module.exports = [
       "Rare ore deposits",
       "Stone Talus (All except default)",
       "all Silver enemies"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 120,
+        "name": "Rock-Hard Food",
+        "cssClassName": "rock-hard-food"
+      }
     ]
   },
   {
@@ -1830,6 +7866,33 @@ module.exports = [
     "durationFactor": 70,
     "availabilities": [
       "Dropped by Bokoblin"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1844,6 +7907,33 @@ module.exports = [
     "durationFactor": 110,
     "availabilities": [
       "Dropped by Bokoblin"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1858,6 +7948,33 @@ module.exports = [
     "durationFactor": 190,
     "availabilities": [
       "Dropped by Bokoblin"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1872,6 +7989,33 @@ module.exports = [
     "durationFactor": 70,
     "availabilities": [
       "Dropped by Moblin"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1886,6 +8030,33 @@ module.exports = [
     "durationFactor": 110,
     "availabilities": [
       "Dropped by Moblin"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1900,6 +8071,33 @@ module.exports = [
     "durationFactor": 190,
     "availabilities": [
       "Dropped by Moblin"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1914,6 +8112,33 @@ module.exports = [
     "durationFactor": 70,
     "availabilities": [
       "Dropped by Lizalfos"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1928,6 +8153,33 @@ module.exports = [
     "durationFactor": 110,
     "availabilities": [
       "Dropped by Lizalfos"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1942,6 +8194,33 @@ module.exports = [
     "durationFactor": 190,
     "availabilities": [
       "Dropped by Lizalfos"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1956,6 +8235,33 @@ module.exports = [
     "durationFactor": 190,
     "availabilities": [
       "Dropped by Ice-Breath Lizalfos"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1970,6 +8276,33 @@ module.exports = [
     "durationFactor": 190,
     "availabilities": [
       "Dropped by Fire-Breath Lizalfos"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1984,6 +8317,33 @@ module.exports = [
     "durationFactor": 190,
     "availabilities": [
       "Dropped by Electric Lizalfos"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -1998,6 +8358,33 @@ module.exports = [
     "durationFactor": 70,
     "availabilities": [
       "Dropped by Lynels"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2012,6 +8399,33 @@ module.exports = [
     "durationFactor": 110,
     "availabilities": [
       "Dropped by Lynels"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2026,6 +8440,33 @@ module.exports = [
     "durationFactor": 190,
     "availabilities": [
       "Dropped by Lynels"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2040,6 +8481,33 @@ module.exports = [
     "durationFactor": 70,
     "availabilities": [
       "Dropped by Chuchus"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2054,6 +8522,33 @@ module.exports = [
     "durationFactor": 110,
     "availabilities": [
       "Dropped by Ice Chuchus"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2068,6 +8563,33 @@ module.exports = [
     "durationFactor": 110,
     "availabilities": [
       "Dropped by Fire Chuchus"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2082,6 +8604,33 @@ module.exports = [
     "durationFactor": 110,
     "availabilities": [
       "Dropped by Electric Chuchus"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2096,6 +8645,33 @@ module.exports = [
     "durationFactor": 70,
     "availabilities": [
       "Dropped by Keese"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2110,6 +8686,33 @@ module.exports = [
     "durationFactor": 110,
     "availabilities": [
       "Dropped by Ice Keese"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2124,6 +8727,33 @@ module.exports = [
     "durationFactor": 110,
     "availabilities": [
       "Dropped by Fire Keese"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2138,6 +8768,33 @@ module.exports = [
     "durationFactor": 110,
     "availabilities": [
       "Dropped by Electric Keese"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2152,6 +8809,33 @@ module.exports = [
     "durationFactor": 190,
     "availabilities": [
       "Dropped by Keese"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2166,6 +8850,33 @@ module.exports = [
     "durationFactor": 70,
     "availabilities": [
       "Dropped by Octoroks"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2180,6 +8891,33 @@ module.exports = [
     "durationFactor": 110,
     "availabilities": [
       "Dropped by Octoroks"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2194,6 +8932,33 @@ module.exports = [
     "durationFactor": 70,
     "availabilities": [
       "Dropped by Octoroks"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2208,6 +8973,33 @@ module.exports = [
     "durationFactor": 110,
     "availabilities": [
       "Dropped by Moldugas"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2222,6 +9014,33 @@ module.exports = [
     "durationFactor": 190,
     "availabilities": [
       "Dropped by Moldugas"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2236,6 +9055,33 @@ module.exports = [
     "durationFactor": 70,
     "availabilities": [
       "Dropped by Hinox"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2250,6 +9096,33 @@ module.exports = [
     "durationFactor": 110,
     "availabilities": [
       "Dropped by Hinox"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2264,6 +9137,33 @@ module.exports = [
     "durationFactor": 190,
     "availabilities": [
       "Dropped by Hinox"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2278,6 +9178,33 @@ module.exports = [
     "durationFactor": 70,
     "availabilities": [
       "Dropped by Guardians"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2292,6 +9219,33 @@ module.exports = [
     "durationFactor": 70,
     "availabilities": [
       "Dropped by Guardians"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2306,6 +9260,33 @@ module.exports = [
     "durationFactor": 110,
     "availabilities": [
       "Dropped by Guardians"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2320,6 +9301,33 @@ module.exports = [
     "durationFactor": 110,
     "availabilities": [
       "Dropped by Guardians"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2334,6 +9342,33 @@ module.exports = [
     "durationFactor": 190,
     "availabilities": [
       "Dropped by Guardians"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2348,6 +9383,33 @@ module.exports = [
     "durationFactor": 190,
     "availabilities": [
       "Dropped by Guardians"
+    ],
+    "recipes": [
+      {
+        "id": 115,
+        "name": "Fairy Tonic Level 2",
+        "cssClassName": "fairy-tonic-level-2"
+      },
+      {
+        "id": 116,
+        "name": "Fairy Tonic Level 3",
+        "cssClassName": "fairy-tonic-level-3"
+      },
+      {
+        "id": 117,
+        "name": "Fairy Tonic Level 4",
+        "cssClassName": "fairy-tonic-level-4"
+      },
+      {
+        "id": 121,
+        "name": "Elixer",
+        "cssClassName": "elixer"
+      },
+      {
+        "id": 122,
+        "name": "Dubious Food",
+        "cssClassName": "dubious-food"
+      }
     ]
   },
   {
@@ -2362,6 +9424,13 @@ module.exports = [
     "durationFactor": 0,
     "availabilities": [
       "Obtained by cutting trees"
+    ],
+    "recipes": [
+      {
+        "id": 120,
+        "name": "Rock-Hard Food",
+        "cssClassName": "rock-hard-food"
+      }
     ]
   }
 ]

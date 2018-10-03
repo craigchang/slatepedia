@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-//import _ from 'lodash';
-import classnames from 'classnames';
+import IconContainer from '..//Other/IconContainer/IconContainer';
 
 import '../MaterialsDetail/MaterialsDetail.css';
 
@@ -35,7 +34,6 @@ class MaterialsDetail extends Component {
   }
 
   showMaterialDetailView(material) {
-    let imageName = material.name.replace(/ /g, "-").replace(/'/g,"").toLowerCase();
     return (
       <div className="material-detail">
         <div className="table-responsive">
@@ -43,7 +41,7 @@ class MaterialsDetail extends Component {
             <tbody>
               <tr>
                 <td>Icon</td>
-                <td><img alt={imageName} className="resource-icon" src={`/img/materials/${imageName}.png`}/></td>
+                <td><IconContainer propertyName={material.name} folderName={"materials"} /></td>
               </tr>
               <tr>
                 <td>Description</td>
@@ -100,7 +98,7 @@ class MaterialsDetail extends Component {
                   {material.recipes.map((recipe, index) => (
                     <tr key={index}>
                       <td>
-                        <div className={classnames('sprite', recipe.cssClassName)}></div>
+                        <IconContainer propertyName={recipe.name} folderName={"recipes"} />
                       </td>
                       <td>
                         <i className="fa fa-cutlery" aria-hidden="true"></i> <a href={"/recipes/" + recipe.id}>{recipe.name}</a>
@@ -128,7 +126,7 @@ class MaterialsDetail extends Component {
                   {material.armorList.map((armor, index) => (
                     <tr key={index}>
                       <td>
-                        <div className={classnames('sprite', armor.cssClassName)}></div>
+                        <IconContainer propertyName={armor.name} folderName={"armor"} />
                       </td>
                       <td>
                         <i className="fa fa-male" aria-hidden="true"></i> <a href={"/armor/" + armor.id}>{armor.name}</a>
@@ -156,7 +154,7 @@ class MaterialsDetail extends Component {
                   {material.monsterList.map((monster, index) => (
                     <tr key={index}>
                       <td>
-                        <img alt={`${monster.name}`} src={"/img/monsters/" + monster.cssClassName + ".jpg"} width="48" height="48"/>
+                        <IconContainer propertyName={monster.name} folderName={"monsters"} />
                       </td>
                       <td>
                         <i className="fa fa-optin-monster" aria-hidden="true"></i> <a href={"/monsters/" + monster.id}>{monster.name}</a>
