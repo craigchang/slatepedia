@@ -85,84 +85,78 @@ class MaterialsDetail extends Component {
         { !material.recipes  ? '' : (
           <div>
             <h2 className="page-header">Recipes</h2>
-            <div className="table-responsive">
-              <table className="table table-striped">
-                <thead>
-                  <tr>
-                    <td><b>Icon</b></td>
-                    <td><b>Name</b></td>
+            <DataDetailTableView>
+              <thead>
+                <tr>
+                  <td><b>Icon</b></td>
+                  <td><b>Name</b></td>
+                </tr>
+              </thead>
+              <tbody>
+                {material.recipes.map((recipe, index) => (
+                  <tr key={index}>
+                    <td>
+                      <IconContainer propertyName={recipe.name} folderName={"recipes"} />
+                    </td>
+                    <td>
+                      <i className="fa fa-cutlery" aria-hidden="true"></i> <a href={"/recipes/" + recipe.id}>{recipe.name}</a>
+                    </td>
                   </tr>
-                </thead>
-                <tbody>
-                  {material.recipes.map((recipe, index) => (
-                    <tr key={index}>
-                      <td>
-                        <IconContainer propertyName={recipe.name} folderName={"recipes"} />
-                      </td>
-                      <td>
-                        <i className="fa fa-cutlery" aria-hidden="true"></i> <a href={"/recipes/" + recipe.id}>{recipe.name}</a>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+                ))}
+              </tbody>
+            </DataDetailTableView>
           </div>
         )}
 
         { !material.armorList ? '' : (
           <div>
             <h2 className="page-header">Armor</h2>
-            <div className="table-responsive">
-              <table className="table table-striped">
-                <thead>
-                  <tr>
-                    <td><b>Icon</b></td>
-                    <td><b>Name</b></td>
+            <DataDetailTableView>
+              <thead>
+                <tr>
+                  <td><b>Icon</b></td>
+                  <td><b>Name</b></td>
+                </tr>
+              </thead>
+              <tbody>
+                {material.armorList.map((armor, index) => (
+                  <tr key={index}>
+                    <td>
+                      <IconContainer propertyName={armor.name} folderName={"armor"} />
+                    </td>
+                    <td>
+                      <i className="fa fa-male" aria-hidden="true"></i> <a href={"/armor/" + armor.id}>{armor.name}</a>
+                    </td>
                   </tr>
-                </thead>
-                <tbody>
-                  {material.armorList.map((armor, index) => (
-                    <tr key={index}>
-                      <td>
-                        <IconContainer propertyName={armor.name} folderName={"armor"} />
-                      </td>
-                      <td>
-                        <i className="fa fa-male" aria-hidden="true"></i> <a href={"/armor/" + armor.id}>{armor.name}</a>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+                ))}
+              </tbody>
+            </DataDetailTableView>
           </div>
         )}
 
         { !material.monsterList ? '' : (
           <div>
             <h2 className="page-header">Dropped by Monsters</h2>
-            <div className="table-responsive">
-              <table className="table table-striped">
-                <thead>
-                  <tr>
-                    <td><b>Icon</b></td>
-                    <td><b>Name</b></td>
+            <DataDetailTableView>
+              <thead>
+                <tr>
+                  <td><b>Icon</b></td>
+                  <td><b>Name</b></td>
+                </tr>
+              </thead>
+              <tbody>
+                {material.monsterList.map((monster, index) => (
+                  <tr key={index}>
+                    <td>
+                      <IconContainer propertyName={monster.name} folderName={"monsters"} />
+                    </td>
+                    <td>
+                      <i className="fa fa-optin-monster" aria-hidden="true"></i> <a href={"/monsters/" + monster.id}>{monster.name}</a>
+                    </td>
                   </tr>
-                </thead>
-                <tbody>
-                  {material.monsterList.map((monster, index) => (
-                    <tr key={index}>
-                      <td>
-                        <IconContainer propertyName={monster.name} folderName={"monsters"} />
-                      </td>
-                      <td>
-                        <i className="fa fa-optin-monster" aria-hidden="true"></i> <a href={"/monsters/" + monster.id}>{monster.name}</a>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+                ))}
+              </tbody>
+            </DataDetailTableView>
           </div>
         )}
       </div>

@@ -1,10 +1,12 @@
 import React from 'react';
 
-const GridItemImageView = ({imageFolder, name}) => {
+const GridItemImageView = ({imageFolder, name, fileType}) => {
   let imageName = name.replace(/ /g, "-").replace(/'/g,"").toLowerCase();
+  fileType = fileType || 'png';
+  
   return (
     <td>
-      <img alt={imageName} className="resource-icon" src={`${imageFolder}/${imageName}.png`}/>
+      <img alt={imageName} className="resource-icon" src={`${imageFolder}/${imageName}.${fileType}`}/>
     </td>
   )
 }

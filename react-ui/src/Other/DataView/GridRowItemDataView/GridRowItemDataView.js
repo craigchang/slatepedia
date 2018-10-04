@@ -14,7 +14,8 @@ const GridRowItemDataView = ({obj, filterSettings}) => {
         array.push(<GridItemImageView 
                       key={`${filterSettings[i].dataName}-image`}
                       imageFolder={filterSettings[i].imageFolder} 
-                      name={obj.name}/>)
+                      fileType={filterSettings[i].fileType}
+                      name={obj.name} />)
         break;
       case 'string':
         array.push(<GridItemStringView 
@@ -22,7 +23,7 @@ const GridRowItemDataView = ({obj, filterSettings}) => {
                       obj={obj} 
                       dataName={filterSettings[i].dataName} 
                       nestedDataName={filterSettings[i].nested}
-                      detailLink={filterSettings[i].detailLink}/>)    
+                      detailLink={filterSettings[i].detailLink} />)    
         break;
       case 'integer':
         array.push(<GridItemIntegerView 

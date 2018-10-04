@@ -52,7 +52,8 @@ module.exports = [
         "name": "Simmered Fruit",
         "cssClassName": "simmered-fruit"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Palm Fruit",
@@ -104,7 +105,8 @@ module.exports = [
         "name": "Simmered Fruit",
         "cssClassName": "simmered-fruit"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Apple",
@@ -172,7 +174,8 @@ module.exports = [
         "name": "Simmered Fruit",
         "cssClassName": "simmered-fruit"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Wildberry",
@@ -229,7 +232,8 @@ module.exports = [
         "name": "Simmered Fruit",
         "cssClassName": "simmered-fruit"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Hydromelon",
@@ -289,7 +293,8 @@ module.exports = [
         "name": "Simmered Fruit",
         "cssClassName": "simmered-fruit"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Spicy Pepper",
@@ -324,7 +329,8 @@ module.exports = [
         "name": "Sauteed Peppers",
         "cssClassName": "sauteed-peppers"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Voltfruit",
@@ -384,6 +390,23 @@ module.exports = [
         "name": "Simmered Fruit",
         "cssClassName": "simmered-fruit"
       }
+    ],
+    "armorList": [
+      {
+        "id": 67,
+        "name": "Rubber Helm",
+        "cssClassName": "rubber-helm"
+      },
+      {
+        "id": 68,
+        "name": "Rubber Armor",
+        "cssClassName": "rubber-armor"
+      },
+      {
+        "id": 69,
+        "name": "Rubber Tights",
+        "cssClassName": "rubber-tights"
+      }
     ]
   },
   {
@@ -439,7 +462,8 @@ module.exports = [
         "name": "Simmered Fruit",
         "cssClassName": "simmered-fruit"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Mighty Bananas",
@@ -498,7 +522,8 @@ module.exports = [
         "name": "Simmered Fruit",
         "cssClassName": "simmered-fruit"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Big Hearty Truffle",
@@ -583,7 +608,8 @@ module.exports = [
         "name": "Mushroom Skewer",
         "cssClassName": "mushroom-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Hearty Truffle",
@@ -668,7 +694,8 @@ module.exports = [
         "name": "Mushroom Skewer",
         "cssClassName": "mushroom-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Hylian Shroom",
@@ -750,7 +777,8 @@ module.exports = [
         "name": "Mushroom Skewer",
         "cssClassName": "mushroom-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Endura Shroom",
@@ -835,7 +863,8 @@ module.exports = [
         "name": "Mushroom Skewer",
         "cssClassName": "mushroom-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Stamella Shroom",
@@ -920,7 +949,8 @@ module.exports = [
         "name": "Mushroom Skewer",
         "cssClassName": "mushroom-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Chillshroom",
@@ -1005,7 +1035,8 @@ module.exports = [
         "name": "Mushroom Skewer",
         "cssClassName": "mushroom-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Sunshroom",
@@ -1089,6 +1120,23 @@ module.exports = [
         "id": 110,
         "name": "Mushroom Skewer",
         "cssClassName": "mushroom-skewer"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 70,
+        "name": "Snowquill Headdress",
+        "cssClassName": "snowquill-headdress"
+      },
+      {
+        "id": 71,
+        "name": "Snowquill Tunic",
+        "cssClassName": "snowquill-tunic"
+      },
+      {
+        "id": 72,
+        "name": "Snowquill Trousers",
+        "cssClassName": "snowquill-trousers"
       }
     ]
   },
@@ -1175,6 +1223,23 @@ module.exports = [
         "name": "Mushroom Skewer",
         "cssClassName": "mushroom-skewer"
       }
+    ],
+    "armorList": [
+      {
+        "id": 67,
+        "name": "Rubber Helm",
+        "cssClassName": "rubber-helm"
+      },
+      {
+        "id": 68,
+        "name": "Rubber Armor",
+        "cssClassName": "rubber-armor"
+      },
+      {
+        "id": 69,
+        "name": "Rubber Tights",
+        "cssClassName": "rubber-tights"
+      }
     ]
   },
   {
@@ -1259,6 +1324,33 @@ module.exports = [
         "id": 110,
         "name": "Mushroom Skewer",
         "cssClassName": "mushroom-skewer"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 6,
+        "name": "Sand Boots",
+        "cssClassName": "sand-boots"
+      },
+      {
+        "id": 7,
+        "name": "Snow Boots",
+        "cssClassName": "snow-boots"
+      },
+      {
+        "id": 22,
+        "name": "Climber's Bandana",
+        "cssClassName": "climber's-bandana"
+      },
+      {
+        "id": 23,
+        "name": "Climber's Gear",
+        "cssClassName": "climber's-gear"
+      },
+      {
+        "id": 24,
+        "name": "Climber's Boots",
+        "cssClassName": "climber's-boots"
       }
     ]
   },
@@ -1345,7 +1437,8 @@ module.exports = [
         "name": "Mushroom Skewer",
         "cssClassName": "mushroom-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Ironshroom",
@@ -1430,7 +1523,8 @@ module.exports = [
         "name": "Mushroom Skewer",
         "cssClassName": "mushroom-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Silent Shroom",
@@ -1514,6 +1608,23 @@ module.exports = [
         "id": 110,
         "name": "Mushroom Skewer",
         "cssClassName": "mushroom-skewer"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 76,
+        "name": "Stealth Mask",
+        "cssClassName": "stealth-mask"
+      },
+      {
+        "id": 77,
+        "name": "Stealth Chest Guard",
+        "cssClassName": "stealth-chest-guard"
+      },
+      {
+        "id": 78,
+        "name": "Stealth Tights",
+        "cssClassName": "stealth-tights"
       }
     ]
   },
@@ -1620,7 +1731,8 @@ module.exports = [
         "name": "Fried Wild Greens",
         "cssClassName": "fried-wild-greens"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Hearty Radish",
@@ -1725,7 +1837,8 @@ module.exports = [
         "name": "Fried Wild Greens",
         "cssClassName": "fried-wild-greens"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Endura Carrot",
@@ -1849,7 +1962,8 @@ module.exports = [
         "name": "Fried Wild Greens",
         "cssClassName": "fried-wild-greens"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Hyrule Herb",
@@ -1946,7 +2060,8 @@ module.exports = [
         "name": "Fried Wild Greens",
         "cssClassName": "fried-wild-greens"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Swift Carrot",
@@ -2070,6 +2185,18 @@ module.exports = [
         "id": 111,
         "name": "Fried Wild Greens",
         "cssClassName": "fried-wild-greens"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 6,
+        "name": "Sand Boots",
+        "cssClassName": "sand-boots"
+      },
+      {
+        "id": 7,
+        "name": "Snow Boots",
+        "cssClassName": "snow-boots"
       }
     ]
   },
@@ -2201,7 +2328,8 @@ module.exports = [
         "name": "Fried Wild Greens",
         "cssClassName": "fried-wild-greens"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Cool Safflina",
@@ -2296,7 +2424,8 @@ module.exports = [
         "name": "Fried Wild Greens",
         "cssClassName": "fried-wild-greens"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Warm Safflina",
@@ -2390,6 +2519,23 @@ module.exports = [
         "id": 111,
         "name": "Fried Wild Greens",
         "cssClassName": "fried-wild-greens"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 70,
+        "name": "Snowquill Headdress",
+        "cssClassName": "snowquill-headdress"
+      },
+      {
+        "id": 71,
+        "name": "Snowquill Tunic",
+        "cssClassName": "snowquill-tunic"
+      },
+      {
+        "id": 72,
+        "name": "Snowquill Trousers",
+        "cssClassName": "snowquill-trousers"
       }
     ]
   },
@@ -2486,7 +2632,8 @@ module.exports = [
         "name": "Fried Wild Greens",
         "cssClassName": "fried-wild-greens"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Swift Violet",
@@ -2580,6 +2727,33 @@ module.exports = [
         "id": 111,
         "name": "Fried Wild Greens",
         "cssClassName": "fried-wild-greens"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 6,
+        "name": "Sand Boots",
+        "cssClassName": "sand-boots"
+      },
+      {
+        "id": 7,
+        "name": "Snow Boots",
+        "cssClassName": "snow-boots"
+      },
+      {
+        "id": 22,
+        "name": "Climber's Bandana",
+        "cssClassName": "climber's-bandana"
+      },
+      {
+        "id": 23,
+        "name": "Climber's Gear",
+        "cssClassName": "climber's-gear"
+      },
+      {
+        "id": 24,
+        "name": "Climber's Boots",
+        "cssClassName": "climber's-boots"
       }
     ]
   },
@@ -2681,7 +2855,8 @@ module.exports = [
         "name": "Fried Wild Greens",
         "cssClassName": "fried-wild-greens"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Armoranth",
@@ -2781,7 +2956,8 @@ module.exports = [
         "name": "Fried Wild Greens",
         "cssClassName": "fried-wild-greens"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Blue Nightshade",
@@ -2875,6 +3051,23 @@ module.exports = [
         "id": 111,
         "name": "Fried Wild Greens",
         "cssClassName": "fried-wild-greens"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 76,
+        "name": "Stealth Mask",
+        "cssClassName": "stealth-mask"
+      },
+      {
+        "id": 77,
+        "name": "Stealth Chest Guard",
+        "cssClassName": "stealth-chest-guard"
+      },
+      {
+        "id": 78,
+        "name": "Stealth Tights",
+        "cssClassName": "stealth-tights"
       }
     ]
   },
@@ -2971,6 +3164,33 @@ module.exports = [
         "name": "Fried Wild Greens",
         "cssClassName": "fried-wild-greens"
       }
+    ],
+    "armorList": [
+      {
+        "id": 4,
+        "name": "Champion's Tunic",
+        "cssClassName": "champion's-tunic"
+      },
+      {
+        "id": 14,
+        "name": "Sheik's Mask",
+        "cssClassName": "sheik's-mask"
+      },
+      {
+        "id": 76,
+        "name": "Stealth Mask",
+        "cssClassName": "stealth-mask"
+      },
+      {
+        "id": 77,
+        "name": "Stealth Chest Guard",
+        "cssClassName": "stealth-chest-guard"
+      },
+      {
+        "id": 78,
+        "name": "Stealth Tights",
+        "cssClassName": "stealth-tights"
+      }
     ]
   },
   {
@@ -3048,7 +3268,8 @@ module.exports = [
         "name": "Meat Skewer",
         "cssClassName": "meat-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Raw Whole Bird",
@@ -3124,7 +3345,8 @@ module.exports = [
         "name": "Meat Skewer",
         "cssClassName": "meat-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Raw Prime Meat",
@@ -3201,7 +3423,8 @@ module.exports = [
         "name": "Meat Skewer",
         "cssClassName": "meat-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Raw Bird Thigh",
@@ -3277,7 +3500,8 @@ module.exports = [
         "name": "Meat Skewer",
         "cssClassName": "meat-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Raw Meat",
@@ -3409,7 +3633,8 @@ module.exports = [
         "name": "Meat Skewer",
         "cssClassName": "meat-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Raw Bird Drumstick",
@@ -3540,7 +3765,8 @@ module.exports = [
         "name": "Meat Skewer",
         "cssClassName": "meat-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Courser Bee Honey",
@@ -3598,6 +3824,23 @@ module.exports = [
         "id": 119,
         "name": "Honey Candy",
         "cssClassName": "honey-candy"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 52,
+        "name": "Cap of the Wild",
+        "cssClassName": "cap-of-the-wild"
+      },
+      {
+        "id": 53,
+        "name": "Tunic of the Wild",
+        "cssClassName": "tunic-of-the-wild"
+      },
+      {
+        "id": 54,
+        "name": "Trousers of the Wild",
+        "cssClassName": "trousers-of-the-wild"
       }
     ]
   },
@@ -3765,7 +4008,8 @@ module.exports = [
         "name": "Curry Rice",
         "cssClassName": "curry-rice"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Acorn",
@@ -3790,6 +4034,23 @@ module.exports = [
         "id": 113,
         "name": "Sauteed Nuts",
         "cssClassName": "sauteed-nuts"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 52,
+        "name": "Cap of the Wild",
+        "cssClassName": "cap-of-the-wild"
+      },
+      {
+        "id": 53,
+        "name": "Tunic of the Wild",
+        "cssClassName": "tunic-of-the-wild"
+      },
+      {
+        "id": 54,
+        "name": "Trousers of the Wild",
+        "cssClassName": "trousers-of-the-wild"
       }
     ]
   },
@@ -3817,7 +4078,8 @@ module.exports = [
         "name": "Sauteed Nuts",
         "cssClassName": "sauteed-nuts"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Bird Egg",
@@ -3903,7 +4165,8 @@ module.exports = [
         "name": "Omelet",
         "cssClassName": "omelet"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Tabantha Wheat",
@@ -4044,7 +4307,8 @@ module.exports = [
         "name": "Wheat Bread",
         "cssClassName": "wheat-bread"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Fresh Milk",
@@ -4150,7 +4414,8 @@ module.exports = [
         "name": "Warm Milk",
         "cssClassName": "warm-milk"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Cane Sugar",
@@ -4231,7 +4496,8 @@ module.exports = [
         "name": "Fruit Pie",
         "cssClassName": "fruit-pie"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Goat Butter",
@@ -4402,7 +4668,8 @@ module.exports = [
         "name": "Hot Buttered Apple",
         "cssClassName": "hot-buttered-apple"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Goron Spice",
@@ -4503,7 +4770,8 @@ module.exports = [
         "name": "Crab Stir-Fry",
         "cssClassName": "crab-stir-fry"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Rock Salt",
@@ -4654,7 +4922,8 @@ module.exports = [
         "name": "Salt-Grilled Mushrooms",
         "cssClassName": "salt-grilled-mushrooms"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Monster Extract",
@@ -4695,7 +4964,8 @@ module.exports = [
         "name": "Monster Stew",
         "cssClassName": "monster-stew"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Star Fragment",
@@ -4710,7 +4980,139 @@ module.exports = [
     "availabilities": [
       "Shooting stars"
     ],
-    "recipes": null
+    "recipes": null,
+    "armorList": [
+      {
+        "id": 8,
+        "name": "Topaz Earrings",
+        "cssClassName": "topaz-earrings"
+      },
+      {
+        "id": 11,
+        "name": "Diamond Circlet",
+        "cssClassName": "diamond-circlet"
+      },
+      {
+        "id": 12,
+        "name": "Ruby Circlet",
+        "cssClassName": "ruby-circlet"
+      },
+      {
+        "id": 13,
+        "name": "Sapphire Circlet",
+        "cssClassName": "sapphire-circlet"
+      },
+      {
+        "id": 14,
+        "name": "Sheik's Mask",
+        "cssClassName": "sheik's-mask"
+      },
+      {
+        "id": 40,
+        "name": "Ancient Helm",
+        "cssClassName": "ancient-helm"
+      },
+      {
+        "id": 41,
+        "name": "Ancient Cuiress",
+        "cssClassName": "ancient-cuiress"
+      },
+      {
+        "id": 42,
+        "name": "Ancient Greaves",
+        "cssClassName": "ancient-greaves"
+      },
+      {
+        "id": 43,
+        "name": "Cap of the Sky",
+        "cssClassName": "cap-of-the-sky"
+      },
+      {
+        "id": 44,
+        "name": "Tunic of the Sky",
+        "cssClassName": "tunic-of-the-sky"
+      },
+      {
+        "id": 45,
+        "name": "Trousers of the Sky",
+        "cssClassName": "trousers-of-the-sky"
+      },
+      {
+        "id": 46,
+        "name": "Cap of Time",
+        "cssClassName": "cap-of-time"
+      },
+      {
+        "id": 47,
+        "name": "Tunic of Time",
+        "cssClassName": "tunic-of-time"
+      },
+      {
+        "id": 48,
+        "name": "Trousers of Time",
+        "cssClassName": "trousers-of-time"
+      },
+      {
+        "id": 49,
+        "name": "Cap of Twilight",
+        "cssClassName": "cap-of-twilight"
+      },
+      {
+        "id": 50,
+        "name": "Tunic of Twilight",
+        "cssClassName": "tunic-of-twilight"
+      },
+      {
+        "id": 51,
+        "name": "Trousers of Twilight",
+        "cssClassName": "trousers-of-twilight"
+      },
+      {
+        "id": 52,
+        "name": "Cap of the Wild",
+        "cssClassName": "cap-of-the-wild"
+      },
+      {
+        "id": 53,
+        "name": "Tunic of the Wild",
+        "cssClassName": "tunic-of-the-wild"
+      },
+      {
+        "id": 54,
+        "name": "Trousers of the Wild",
+        "cssClassName": "trousers-of-the-wild"
+      },
+      {
+        "id": 55,
+        "name": "Cap of the Wind",
+        "cssClassName": "cap-of-the-wind"
+      },
+      {
+        "id": 56,
+        "name": "Tunic of the Wind",
+        "cssClassName": "tunic-of-the-wind"
+      },
+      {
+        "id": 57,
+        "name": "Trousers of the Wind",
+        "cssClassName": "trousers-of-the-wind"
+      },
+      {
+        "id": 58,
+        "name": "Cap of the Hero",
+        "cssClassName": "cap-of-the-hero"
+      },
+      {
+        "id": 59,
+        "name": "Tunic of the Hero",
+        "cssClassName": "tunic-of-the-hero"
+      },
+      {
+        "id": 60,
+        "name": "Trousers of the Hero",
+        "cssClassName": "trousers-of-the-hero"
+      }
+    ]
   },
   {
     "name": "Dinraal's Scale",
@@ -4750,6 +5152,18 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 31,
+        "name": "Fierce Deity Mask",
+        "cssClassName": "fierce-deity-mask"
+      },
+      {
+        "id": 54,
+        "name": "Trousers of the Wild",
+        "cssClassName": "trousers-of-the-wild"
       }
     ]
   },
@@ -4792,6 +5206,13 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 31,
+        "name": "Fierce Deity Mask",
+        "cssClassName": "fierce-deity-mask"
+      }
     ]
   },
   {
@@ -4832,6 +5253,13 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 31,
+        "name": "Fierce Deity Mask",
+        "cssClassName": "fierce-deity-mask"
       }
     ]
   },
@@ -4874,6 +5302,23 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 4,
+        "name": "Champion's Tunic",
+        "cssClassName": "champion's-tunic"
+      },
+      {
+        "id": 19,
+        "name": "Barbarian Helm",
+        "cssClassName": "barbarian-helm"
+      },
+      {
+        "id": 31,
+        "name": "Fierce Deity Mask",
+        "cssClassName": "fierce-deity-mask"
+      }
     ]
   },
   {
@@ -4914,6 +5359,23 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 7,
+        "name": "Snow Boots",
+        "cssClassName": "snow-boots"
+      },
+      {
+        "id": 32,
+        "name": "Fierce Deity Armor",
+        "cssClassName": "fierce-deity-armor"
+      },
+      {
+        "id": 53,
+        "name": "Tunic of the Wild",
+        "cssClassName": "tunic-of-the-wild"
       }
     ]
   },
@@ -4956,6 +5418,23 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 32,
+        "name": "Fierce Deity Armor",
+        "cssClassName": "fierce-deity-armor"
+      },
+      {
+        "id": 53,
+        "name": "Tunic of the Wild",
+        "cssClassName": "tunic-of-the-wild"
+      },
+      {
+        "id": 54,
+        "name": "Trousers of the Wild",
+        "cssClassName": "trousers-of-the-wild"
+      }
     ]
   },
   {
@@ -4996,6 +5475,23 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 32,
+        "name": "Fierce Deity Armor",
+        "cssClassName": "fierce-deity-armor"
+      },
+      {
+        "id": 53,
+        "name": "Tunic of the Wild",
+        "cssClassName": "tunic-of-the-wild"
+      },
+      {
+        "id": 54,
+        "name": "Trousers of the Wild",
+        "cssClassName": "trousers-of-the-wild"
       }
     ]
   },
@@ -5038,6 +5534,33 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 4,
+        "name": "Champion's Tunic",
+        "cssClassName": "champion's-tunic"
+      },
+      {
+        "id": 21,
+        "name": "Barbarian Leg Wraps",
+        "cssClassName": "barbarian-leg-wraps"
+      },
+      {
+        "id": 32,
+        "name": "Fierce Deity Armor",
+        "cssClassName": "fierce-deity-armor"
+      },
+      {
+        "id": 53,
+        "name": "Tunic of the Wild",
+        "cssClassName": "tunic-of-the-wild"
+      },
+      {
+        "id": 54,
+        "name": "Trousers of the Wild",
+        "cssClassName": "trousers-of-the-wild"
+      }
     ]
   },
   {
@@ -5078,6 +5601,18 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 33,
+        "name": "Fierce Deity Boots",
+        "cssClassName": "fierce-deity-boots"
+      },
+      {
+        "id": 52,
+        "name": "Cap of the Wild",
+        "cssClassName": "cap-of-the-wild"
       }
     ]
   },
@@ -5120,6 +5655,18 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 33,
+        "name": "Fierce Deity Boots",
+        "cssClassName": "fierce-deity-boots"
+      },
+      {
+        "id": 52,
+        "name": "Cap of the Wild",
+        "cssClassName": "cap-of-the-wild"
+      }
     ]
   },
   {
@@ -5161,6 +5708,18 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 33,
+        "name": "Fierce Deity Boots",
+        "cssClassName": "fierce-deity-boots"
+      },
+      {
+        "id": 52,
+        "name": "Cap of the Wild",
+        "cssClassName": "cap-of-the-wild"
+      }
     ]
   },
   {
@@ -5201,6 +5760,28 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 4,
+        "name": "Champion's Tunic",
+        "cssClassName": "champion's-tunic"
+      },
+      {
+        "id": 20,
+        "name": "Barbarian Armor",
+        "cssClassName": "barbarian-armor"
+      },
+      {
+        "id": 33,
+        "name": "Fierce Deity Boots",
+        "cssClassName": "fierce-deity-boots"
+      },
+      {
+        "id": 52,
+        "name": "Cap of the Wild",
+        "cssClassName": "cap-of-the-wild"
       }
     ]
   },
@@ -5307,7 +5888,8 @@ module.exports = [
         "name": "Fish Skewer",
         "cssClassName": "fish-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Hearty Bass",
@@ -5402,6 +5984,23 @@ module.exports = [
         "name": "Fish Skewer",
         "cssClassName": "fish-skewer"
       }
+    ],
+    "armorList": [
+      {
+        "id": 79,
+        "name": "Zora Helm",
+        "cssClassName": "zora-helm"
+      },
+      {
+        "id": 80,
+        "name": "Zora Armor",
+        "cssClassName": "zora-armor"
+      },
+      {
+        "id": 81,
+        "name": "Zora Greaves",
+        "cssClassName": "zora-greaves"
+      }
     ]
   },
   {
@@ -5493,6 +6092,23 @@ module.exports = [
         "id": 107,
         "name": "Fish Skewer",
         "cssClassName": "fish-skewer"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 79,
+        "name": "Zora Helm",
+        "cssClassName": "zora-helm"
+      },
+      {
+        "id": 80,
+        "name": "Zora Armor",
+        "cssClassName": "zora-armor"
+      },
+      {
+        "id": 81,
+        "name": "Zora Greaves",
+        "cssClassName": "zora-greaves"
       }
     ]
   },
@@ -5589,7 +6205,8 @@ module.exports = [
         "name": "Fish Skewer",
         "cssClassName": "fish-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Chillfin Trout",
@@ -5684,7 +6301,8 @@ module.exports = [
         "name": "Fish Skewer",
         "cssClassName": "fish-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Sizzlefin Trout",
@@ -5779,7 +6397,8 @@ module.exports = [
         "name": "Fish Skewer",
         "cssClassName": "fish-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Voltfin Trout",
@@ -5874,7 +6493,8 @@ module.exports = [
         "name": "Fish Skewer",
         "cssClassName": "fish-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Stealthfin Trout",
@@ -5969,7 +6589,8 @@ module.exports = [
         "name": "Fish Skewer",
         "cssClassName": "fish-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Mighty Carp",
@@ -6064,7 +6685,8 @@ module.exports = [
         "name": "Fish Skewer",
         "cssClassName": "fish-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Armored Carp",
@@ -6159,7 +6781,8 @@ module.exports = [
         "name": "Fish Skewer",
         "cssClassName": "fish-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Sanke Carp",
@@ -6174,7 +6797,8 @@ module.exports = [
     "availabilities": [
       "West Necluda"
     ],
-    "recipes": null
+    "recipes": null,
+    "armorList": null
   },
   {
     "name": "Mighty Porgy",
@@ -6289,7 +6913,8 @@ module.exports = [
         "name": "Fish Skewer",
         "cssClassName": "fish-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Armored Porgy",
@@ -6404,7 +7029,8 @@ module.exports = [
         "name": "Fish Skewer",
         "cssClassName": "fish-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Sneaky River Snail",
@@ -6473,6 +7099,23 @@ module.exports = [
         "id": 106,
         "name": "Seafood Skewer",
         "cssClassName": "seafood-skewer"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 76,
+        "name": "Stealth Mask",
+        "cssClassName": "stealth-mask"
+      },
+      {
+        "id": 77,
+        "name": "Stealth Chest Guard",
+        "cssClassName": "stealth-chest-guard"
+      },
+      {
+        "id": 78,
+        "name": "Stealth Tights",
+        "cssClassName": "stealth-tights"
       }
     ]
   },
@@ -6564,6 +7207,23 @@ module.exports = [
         "name": "Seafood Skewer",
         "cssClassName": "seafood-skewer"
       }
+    ],
+    "armorList": [
+      {
+        "id": 76,
+        "name": "Stealth Mask",
+        "cssClassName": "stealth-mask"
+      },
+      {
+        "id": 77,
+        "name": "Stealth Chest Guard",
+        "cssClassName": "stealth-chest-guard"
+      },
+      {
+        "id": 78,
+        "name": "Stealth Tights",
+        "cssClassName": "stealth-tights"
+      }
     ]
   },
   {
@@ -6649,7 +7309,8 @@ module.exports = [
         "name": "Seafood Skewer",
         "cssClassName": "seafood-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Ironshell Crab",
@@ -6734,7 +7395,8 @@ module.exports = [
         "name": "Seafood Skewer",
         "cssClassName": "seafood-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Bright-Eyed Crab",
@@ -6819,7 +7481,8 @@ module.exports = [
         "name": "Seafood Skewer",
         "cssClassName": "seafood-skewer"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Fairy",
@@ -6855,7 +7518,8 @@ module.exports = [
         "name": "Fairy Tonic Level 4",
         "cssClassName": "fairy-tonic-level-4"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Winterwing Butterfly",
@@ -6900,7 +7564,8 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Summerwing Butterfly",
@@ -6945,7 +7610,8 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Thunderwing Butterfly",
@@ -6990,7 +7656,8 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Smotherwing Butterfly",
@@ -7034,6 +7701,23 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 34,
+        "name": "Flamebreaker Helm",
+        "cssClassName": "flamebreaker-helm"
+      },
+      {
+        "id": 35,
+        "name": "Flamebreaker Armor",
+        "cssClassName": "flamebreaker-armor"
+      },
+      {
+        "id": 36,
+        "name": "Flamebreaker Boots",
+        "cssClassName": "flamebreaker-boots"
       }
     ]
   },
@@ -7080,7 +7764,8 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Warm Darner",
@@ -7125,7 +7810,8 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Electric Darner",
@@ -7170,7 +7856,8 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Restless Cricket",
@@ -7215,7 +7902,8 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Bladed Rhino Beetle",
@@ -7260,7 +7948,8 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Rugged Rhino Beetle",
@@ -7305,7 +7994,8 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Energetic Rhino Beetle",
@@ -7349,6 +8039,23 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 52,
+        "name": "Cap of the Wild",
+        "cssClassName": "cap-of-the-wild"
+      },
+      {
+        "id": 53,
+        "name": "Tunic of the Wild",
+        "cssClassName": "tunic-of-the-wild"
+      },
+      {
+        "id": 54,
+        "name": "Trousers of the Wild",
+        "cssClassName": "trousers-of-the-wild"
       }
     ]
   },
@@ -7395,6 +8102,23 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 76,
+        "name": "Stealth Mask",
+        "cssClassName": "stealth-mask"
+      },
+      {
+        "id": 77,
+        "name": "Stealth Chest Guard",
+        "cssClassName": "stealth-chest-guard"
+      },
+      {
+        "id": 78,
+        "name": "Stealth Tights",
+        "cssClassName": "stealth-tights"
+      }
     ]
   },
   {
@@ -7439,6 +8163,23 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 22,
+        "name": "Climber's Bandana",
+        "cssClassName": "climber's-bandana"
+      },
+      {
+        "id": 23,
+        "name": "Climber's Gear",
+        "cssClassName": "climber's-gear"
+      },
+      {
+        "id": 24,
+        "name": "Climber's Boots",
+        "cssClassName": "climber's-boots"
       }
     ]
   },
@@ -7485,7 +8226,8 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Hightail Lizard",
@@ -7529,6 +8271,33 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 6,
+        "name": "Sand Boots",
+        "cssClassName": "sand-boots"
+      },
+      {
+        "id": 7,
+        "name": "Snow Boots",
+        "cssClassName": "snow-boots"
+      },
+      {
+        "id": 22,
+        "name": "Climber's Bandana",
+        "cssClassName": "climber's-bandana"
+      },
+      {
+        "id": 23,
+        "name": "Climber's Gear",
+        "cssClassName": "climber's-gear"
+      },
+      {
+        "id": 24,
+        "name": "Climber's Boots",
+        "cssClassName": "climber's-boots"
       }
     ]
   },
@@ -7575,7 +8344,8 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Fireproof Lizard",
@@ -7620,6 +8390,23 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 34,
+        "name": "Flamebreaker Helm",
+        "cssClassName": "flamebreaker-helm"
+      },
+      {
+        "id": 35,
+        "name": "Flamebreaker Armor",
+        "cssClassName": "flamebreaker-armor"
+      },
+      {
+        "id": 36,
+        "name": "Flamebreaker Boots",
+        "cssClassName": "flamebreaker-boots"
+      }
     ]
   },
   {
@@ -7636,7 +8423,39 @@ module.exports = [
       "Ore deposits",
       "all Talus Types"
     ],
-    "recipes": null
+    "recipes": null,
+    "armorList": [
+      {
+        "id": 8,
+        "name": "Topaz Earrings",
+        "cssClassName": "topaz-earrings"
+      },
+      {
+        "id": 9,
+        "name": "Opal Earrings",
+        "cssClassName": "opal-earrings"
+      },
+      {
+        "id": 10,
+        "name": "Amber Earrings",
+        "cssClassName": "amber-earrings"
+      },
+      {
+        "id": 11,
+        "name": "Diamond Circlet",
+        "cssClassName": "diamond-circlet"
+      },
+      {
+        "id": 12,
+        "name": "Ruby Circlet",
+        "cssClassName": "ruby-circlet"
+      },
+      {
+        "id": 13,
+        "name": "Sapphire Circlet",
+        "cssClassName": "sapphire-circlet"
+      }
+    ]
   },
   {
     "name": "Amber",
@@ -7668,6 +8487,43 @@ module.exports = [
         "id": 120,
         "name": "Rock-Hard Food",
         "cssClassName": "rock-hard-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 10,
+        "name": "Amber Earrings",
+        "cssClassName": "amber-earrings"
+      },
+      {
+        "id": 46,
+        "name": "Cap of Time",
+        "cssClassName": "cap-of-time"
+      },
+      {
+        "id": 47,
+        "name": "Tunic of Time",
+        "cssClassName": "tunic-of-time"
+      },
+      {
+        "id": 48,
+        "name": "Trousers of Time",
+        "cssClassName": "trousers-of-time"
+      },
+      {
+        "id": 61,
+        "name": "Hylian Hood",
+        "cssClassName": "hylian-hood"
+      },
+      {
+        "id": 62,
+        "name": "Hylian Tunic",
+        "cssClassName": "hylian-tunic"
+      },
+      {
+        "id": 63,
+        "name": "Hylian Trousers",
+        "cssClassName": "hylian-trousers"
       }
     ]
   },
@@ -7702,6 +8558,43 @@ module.exports = [
         "name": "Rock-Hard Food",
         "cssClassName": "rock-hard-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 9,
+        "name": "Opal Earrings",
+        "cssClassName": "opal-earrings"
+      },
+      {
+        "id": 55,
+        "name": "Cap of the Wind",
+        "cssClassName": "cap-of-the-wind"
+      },
+      {
+        "id": 56,
+        "name": "Tunic of the Wind",
+        "cssClassName": "tunic-of-the-wind"
+      },
+      {
+        "id": 57,
+        "name": "Trousers of the Wind",
+        "cssClassName": "trousers-of-the-wind"
+      },
+      {
+        "id": 79,
+        "name": "Zora Helm",
+        "cssClassName": "zora-helm"
+      },
+      {
+        "id": 80,
+        "name": "Zora Armor",
+        "cssClassName": "zora-armor"
+      },
+      {
+        "id": 81,
+        "name": "Zora Greaves",
+        "cssClassName": "zora-greaves"
+      }
     ]
   },
   {
@@ -7719,7 +8612,24 @@ module.exports = [
       "Stone Talus (Luminous)",
       "all Silver enemies"
     ],
-    "recipes": null
+    "recipes": null,
+    "armorList": [
+      {
+        "id": 64,
+        "name": "Radiant Mask",
+        "cssClassName": "radiant-mask"
+      },
+      {
+        "id": 65,
+        "name": "Radiant Shirt",
+        "cssClassName": "radiant-shirt"
+      },
+      {
+        "id": 66,
+        "name": "Radiant Tights",
+        "cssClassName": "radiant-tights"
+      }
+    ]
   },
   {
     "name": "Topaz",
@@ -7751,6 +8661,43 @@ module.exports = [
         "id": 120,
         "name": "Rock-Hard Food",
         "cssClassName": "rock-hard-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 8,
+        "name": "Topaz Earrings",
+        "cssClassName": "topaz-earrings"
+      },
+      {
+        "id": 49,
+        "name": "Cap of Twilight",
+        "cssClassName": "cap-of-twilight"
+      },
+      {
+        "id": 50,
+        "name": "Tunic of Twilight",
+        "cssClassName": "tunic-of-twilight"
+      },
+      {
+        "id": 51,
+        "name": "Trousers of Twilight",
+        "cssClassName": "trousers-of-twilight"
+      },
+      {
+        "id": 67,
+        "name": "Rubber Helm",
+        "cssClassName": "rubber-helm"
+      },
+      {
+        "id": 68,
+        "name": "Rubber Armor",
+        "cssClassName": "rubber-armor"
+      },
+      {
+        "id": 69,
+        "name": "Rubber Tights",
+        "cssClassName": "rubber-tights"
       }
     ]
   },
@@ -7786,6 +8733,43 @@ module.exports = [
         "name": "Rock-Hard Food",
         "cssClassName": "rock-hard-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 12,
+        "name": "Ruby Circlet",
+        "cssClassName": "ruby-circlet"
+      },
+      {
+        "id": 58,
+        "name": "Cap of the Hero",
+        "cssClassName": "cap-of-the-hero"
+      },
+      {
+        "id": 59,
+        "name": "Tunic of the Hero",
+        "cssClassName": "tunic-of-the-hero"
+      },
+      {
+        "id": 60,
+        "name": "Trousers of the Hero",
+        "cssClassName": "trousers-of-the-hero"
+      },
+      {
+        "id": 70,
+        "name": "Snowquill Headdress",
+        "cssClassName": "snowquill-headdress"
+      },
+      {
+        "id": 71,
+        "name": "Snowquill Tunic",
+        "cssClassName": "snowquill-tunic"
+      },
+      {
+        "id": 72,
+        "name": "Snowquill Trousers",
+        "cssClassName": "snowquill-trousers"
+      }
     ]
   },
   {
@@ -7819,6 +8803,43 @@ module.exports = [
         "name": "Rock-Hard Food",
         "cssClassName": "rock-hard-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 13,
+        "name": "Sapphire Circlet",
+        "cssClassName": "sapphire-circlet"
+      },
+      {
+        "id": 28,
+        "name": "Desert Voe Headband",
+        "cssClassName": "desert-voe-headband"
+      },
+      {
+        "id": 29,
+        "name": "Desert Voe Spaulder",
+        "cssClassName": "desert-voe-spaulder"
+      },
+      {
+        "id": 30,
+        "name": "Desert Voe Trousers",
+        "cssClassName": "desert-voe-trousers"
+      },
+      {
+        "id": 43,
+        "name": "Cap of the Sky",
+        "cssClassName": "cap-of-the-sky"
+      },
+      {
+        "id": 44,
+        "name": "Tunic of the Sky",
+        "cssClassName": "tunic-of-the-sky"
+      },
+      {
+        "id": 45,
+        "name": "Trousers of the Sky",
+        "cssClassName": "trousers-of-the-sky"
+      }
     ]
   },
   {
@@ -7851,6 +8872,13 @@ module.exports = [
         "id": 120,
         "name": "Rock-Hard Food",
         "cssClassName": "rock-hard-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 11,
+        "name": "Diamond Circlet",
+        "cssClassName": "diamond-circlet"
       }
     ]
   },
@@ -7893,6 +8921,23 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 61,
+        "name": "Hylian Hood",
+        "cssClassName": "hylian-hood"
+      },
+      {
+        "id": 62,
+        "name": "Hylian Tunic",
+        "cssClassName": "hylian-tunic"
+      },
+      {
+        "id": 63,
+        "name": "Hylian Trousers",
+        "cssClassName": "hylian-trousers"
+      }
     ]
   },
   {
@@ -7933,6 +8978,23 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 61,
+        "name": "Hylian Hood",
+        "cssClassName": "hylian-hood"
+      },
+      {
+        "id": 62,
+        "name": "Hylian Tunic",
+        "cssClassName": "hylian-tunic"
+      },
+      {
+        "id": 63,
+        "name": "Hylian Trousers",
+        "cssClassName": "hylian-trousers"
       }
     ]
   },
@@ -7975,6 +9037,53 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 61,
+        "name": "Hylian Hood",
+        "cssClassName": "hylian-hood"
+      },
+      {
+        "id": 62,
+        "name": "Hylian Tunic",
+        "cssClassName": "hylian-tunic"
+      },
+      {
+        "id": 63,
+        "name": "Hylian Trousers",
+        "cssClassName": "hylian-trousers"
+      },
+      {
+        "id": 64,
+        "name": "Radiant Mask",
+        "cssClassName": "radiant-mask"
+      },
+      {
+        "id": 65,
+        "name": "Radiant Shirt",
+        "cssClassName": "radiant-shirt"
+      },
+      {
+        "id": 66,
+        "name": "Radiant Tights",
+        "cssClassName": "radiant-tights"
+      },
+      {
+        "id": 73,
+        "name": "Soldier's Helm",
+        "cssClassName": "soldier's-helm"
+      },
+      {
+        "id": 74,
+        "name": "Soldier's Armor",
+        "cssClassName": "soldier's-armor"
+      },
+      {
+        "id": 75,
+        "name": "Soldier's Greaves",
+        "cssClassName": "soldier's-greaves"
+      }
     ]
   },
   {
@@ -8015,6 +9124,23 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 34,
+        "name": "Flamebreaker Helm",
+        "cssClassName": "flamebreaker-helm"
+      },
+      {
+        "id": 35,
+        "name": "Flamebreaker Armor",
+        "cssClassName": "flamebreaker-armor"
+      },
+      {
+        "id": 36,
+        "name": "Flamebreaker Boots",
+        "cssClassName": "flamebreaker-boots"
       }
     ]
   },
@@ -8057,6 +9183,23 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 34,
+        "name": "Flamebreaker Helm",
+        "cssClassName": "flamebreaker-helm"
+      },
+      {
+        "id": 35,
+        "name": "Flamebreaker Armor",
+        "cssClassName": "flamebreaker-armor"
+      },
+      {
+        "id": 36,
+        "name": "Flamebreaker Boots",
+        "cssClassName": "flamebreaker-boots"
+      }
     ]
   },
   {
@@ -8097,6 +9240,53 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 34,
+        "name": "Flamebreaker Helm",
+        "cssClassName": "flamebreaker-helm"
+      },
+      {
+        "id": 35,
+        "name": "Flamebreaker Armor",
+        "cssClassName": "flamebreaker-armor"
+      },
+      {
+        "id": 36,
+        "name": "Flamebreaker Boots",
+        "cssClassName": "flamebreaker-boots"
+      },
+      {
+        "id": 64,
+        "name": "Radiant Mask",
+        "cssClassName": "radiant-mask"
+      },
+      {
+        "id": 65,
+        "name": "Radiant Shirt",
+        "cssClassName": "radiant-shirt"
+      },
+      {
+        "id": 66,
+        "name": "Radiant Tights",
+        "cssClassName": "radiant-tights"
+      },
+      {
+        "id": 73,
+        "name": "Soldier's Helm",
+        "cssClassName": "soldier's-helm"
+      },
+      {
+        "id": 74,
+        "name": "Soldier's Armor",
+        "cssClassName": "soldier's-armor"
+      },
+      {
+        "id": 75,
+        "name": "Soldier's Greaves",
+        "cssClassName": "soldier's-greaves"
       }
     ]
   },
@@ -8139,6 +9329,23 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 79,
+        "name": "Zora Helm",
+        "cssClassName": "zora-helm"
+      },
+      {
+        "id": 80,
+        "name": "Zora Armor",
+        "cssClassName": "zora-armor"
+      },
+      {
+        "id": 81,
+        "name": "Zora Greaves",
+        "cssClassName": "zora-greaves"
+      }
     ]
   },
   {
@@ -8179,6 +9386,23 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 79,
+        "name": "Zora Helm",
+        "cssClassName": "zora-helm"
+      },
+      {
+        "id": 80,
+        "name": "Zora Armor",
+        "cssClassName": "zora-armor"
+      },
+      {
+        "id": 81,
+        "name": "Zora Greaves",
+        "cssClassName": "zora-greaves"
       }
     ]
   },
@@ -8221,6 +9445,38 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 73,
+        "name": "Soldier's Helm",
+        "cssClassName": "soldier's-helm"
+      },
+      {
+        "id": 74,
+        "name": "Soldier's Armor",
+        "cssClassName": "soldier's-armor"
+      },
+      {
+        "id": 75,
+        "name": "Soldier's Greaves",
+        "cssClassName": "soldier's-greaves"
+      },
+      {
+        "id": 79,
+        "name": "Zora Helm",
+        "cssClassName": "zora-helm"
+      },
+      {
+        "id": 80,
+        "name": "Zora Armor",
+        "cssClassName": "zora-armor"
+      },
+      {
+        "id": 81,
+        "name": "Zora Greaves",
+        "cssClassName": "zora-greaves"
+      }
     ]
   },
   {
@@ -8261,6 +9517,23 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 28,
+        "name": "Desert Voe Headband",
+        "cssClassName": "desert-voe-headband"
+      },
+      {
+        "id": 29,
+        "name": "Desert Voe Spaulder",
+        "cssClassName": "desert-voe-spaulder"
+      },
+      {
+        "id": 30,
+        "name": "Desert Voe Trousers",
+        "cssClassName": "desert-voe-trousers"
       }
     ]
   },
@@ -8303,6 +9576,23 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 70,
+        "name": "Snowquill Headdress",
+        "cssClassName": "snowquill-headdress"
+      },
+      {
+        "id": 71,
+        "name": "Snowquill Tunic",
+        "cssClassName": "snowquill-tunic"
+      },
+      {
+        "id": 72,
+        "name": "Snowquill Trousers",
+        "cssClassName": "snowquill-trousers"
+      }
     ]
   },
   {
@@ -8343,6 +9633,23 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 67,
+        "name": "Rubber Helm",
+        "cssClassName": "rubber-helm"
+      },
+      {
+        "id": 68,
+        "name": "Rubber Armor",
+        "cssClassName": "rubber-armor"
+      },
+      {
+        "id": 69,
+        "name": "Rubber Tights",
+        "cssClassName": "rubber-tights"
       }
     ]
   },
@@ -8385,6 +9692,23 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 19,
+        "name": "Barbarian Helm",
+        "cssClassName": "barbarian-helm"
+      },
+      {
+        "id": 20,
+        "name": "Barbarian Armor",
+        "cssClassName": "barbarian-armor"
+      },
+      {
+        "id": 21,
+        "name": "Barbarian Leg Wraps",
+        "cssClassName": "barbarian-leg-wraps"
+      }
     ]
   },
   {
@@ -8425,6 +9749,38 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 19,
+        "name": "Barbarian Helm",
+        "cssClassName": "barbarian-helm"
+      },
+      {
+        "id": 20,
+        "name": "Barbarian Armor",
+        "cssClassName": "barbarian-armor"
+      },
+      {
+        "id": 21,
+        "name": "Barbarian Leg Wraps",
+        "cssClassName": "barbarian-leg-wraps"
+      },
+      {
+        "id": 73,
+        "name": "Soldier's Helm",
+        "cssClassName": "soldier's-helm"
+      },
+      {
+        "id": 74,
+        "name": "Soldier's Armor",
+        "cssClassName": "soldier's-armor"
+      },
+      {
+        "id": 75,
+        "name": "Soldier's Greaves",
+        "cssClassName": "soldier's-greaves"
       }
     ]
   },
@@ -8467,6 +9823,68 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 19,
+        "name": "Barbarian Helm",
+        "cssClassName": "barbarian-helm"
+      },
+      {
+        "id": 20,
+        "name": "Barbarian Armor",
+        "cssClassName": "barbarian-armor"
+      },
+      {
+        "id": 21,
+        "name": "Barbarian Leg Wraps",
+        "cssClassName": "barbarian-leg-wraps"
+      },
+      {
+        "id": 31,
+        "name": "Fierce Deity Mask",
+        "cssClassName": "fierce-deity-mask"
+      },
+      {
+        "id": 32,
+        "name": "Fierce Deity Armor",
+        "cssClassName": "fierce-deity-armor"
+      },
+      {
+        "id": 33,
+        "name": "Fierce Deity Boots",
+        "cssClassName": "fierce-deity-boots"
+      },
+      {
+        "id": 64,
+        "name": "Radiant Mask",
+        "cssClassName": "radiant-mask"
+      },
+      {
+        "id": 65,
+        "name": "Radiant Shirt",
+        "cssClassName": "radiant-shirt"
+      },
+      {
+        "id": 66,
+        "name": "Radiant Tights",
+        "cssClassName": "radiant-tights"
+      },
+      {
+        "id": 73,
+        "name": "Soldier's Helm",
+        "cssClassName": "soldier's-helm"
+      },
+      {
+        "id": 74,
+        "name": "Soldier's Armor",
+        "cssClassName": "soldier's-armor"
+      },
+      {
+        "id": 75,
+        "name": "Soldier's Greaves",
+        "cssClassName": "soldier's-greaves"
+      }
     ]
   },
   {
@@ -8507,6 +9925,23 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 73,
+        "name": "Soldier's Helm",
+        "cssClassName": "soldier's-helm"
+      },
+      {
+        "id": 74,
+        "name": "Soldier's Armor",
+        "cssClassName": "soldier's-armor"
+      },
+      {
+        "id": 75,
+        "name": "Soldier's Greaves",
+        "cssClassName": "soldier's-greaves"
       }
     ]
   },
@@ -8549,6 +9984,23 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 28,
+        "name": "Desert Voe Headband",
+        "cssClassName": "desert-voe-headband"
+      },
+      {
+        "id": 29,
+        "name": "Desert Voe Spaulder",
+        "cssClassName": "desert-voe-spaulder"
+      },
+      {
+        "id": 30,
+        "name": "Desert Voe Trousers",
+        "cssClassName": "desert-voe-trousers"
+      }
     ]
   },
   {
@@ -8589,6 +10041,23 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 70,
+        "name": "Snowquill Headdress",
+        "cssClassName": "snowquill-headdress"
+      },
+      {
+        "id": 71,
+        "name": "Snowquill Tunic",
+        "cssClassName": "snowquill-tunic"
+      },
+      {
+        "id": 72,
+        "name": "Snowquill Trousers",
+        "cssClassName": "snowquill-trousers"
       }
     ]
   },
@@ -8631,6 +10100,23 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 67,
+        "name": "Rubber Helm",
+        "cssClassName": "rubber-helm"
+      },
+      {
+        "id": 68,
+        "name": "Rubber Armor",
+        "cssClassName": "rubber-armor"
+      },
+      {
+        "id": 69,
+        "name": "Rubber Tights",
+        "cssClassName": "rubber-tights"
+      }
     ]
   },
   {
@@ -8671,6 +10157,38 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 22,
+        "name": "Climber's Bandana",
+        "cssClassName": "climber's-bandana"
+      },
+      {
+        "id": 23,
+        "name": "Climber's Gear",
+        "cssClassName": "climber's-gear"
+      },
+      {
+        "id": 24,
+        "name": "Climber's Boots",
+        "cssClassName": "climber's-boots"
+      },
+      {
+        "id": 73,
+        "name": "Soldier's Helm",
+        "cssClassName": "soldier's-helm"
+      },
+      {
+        "id": 74,
+        "name": "Soldier's Armor",
+        "cssClassName": "soldier's-armor"
+      },
+      {
+        "id": 75,
+        "name": "Soldier's Greaves",
+        "cssClassName": "soldier's-greaves"
       }
     ]
   },
@@ -8713,6 +10231,38 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 22,
+        "name": "Climber's Bandana",
+        "cssClassName": "climber's-bandana"
+      },
+      {
+        "id": 23,
+        "name": "Climber's Gear",
+        "cssClassName": "climber's-gear"
+      },
+      {
+        "id": 24,
+        "name": "Climber's Boots",
+        "cssClassName": "climber's-boots"
+      },
+      {
+        "id": 28,
+        "name": "Desert Voe Headband",
+        "cssClassName": "desert-voe-headband"
+      },
+      {
+        "id": 29,
+        "name": "Desert Voe Spaulder",
+        "cssClassName": "desert-voe-spaulder"
+      },
+      {
+        "id": 30,
+        "name": "Desert Voe Trousers",
+        "cssClassName": "desert-voe-trousers"
+      }
     ]
   },
   {
@@ -8753,6 +10303,38 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 22,
+        "name": "Climber's Bandana",
+        "cssClassName": "climber's-bandana"
+      },
+      {
+        "id": 23,
+        "name": "Climber's Gear",
+        "cssClassName": "climber's-gear"
+      },
+      {
+        "id": 24,
+        "name": "Climber's Boots",
+        "cssClassName": "climber's-boots"
+      },
+      {
+        "id": 70,
+        "name": "Snowquill Headdress",
+        "cssClassName": "snowquill-headdress"
+      },
+      {
+        "id": 71,
+        "name": "Snowquill Tunic",
+        "cssClassName": "snowquill-tunic"
+      },
+      {
+        "id": 72,
+        "name": "Snowquill Trousers",
+        "cssClassName": "snowquill-trousers"
       }
     ]
   },
@@ -8795,6 +10377,23 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 22,
+        "name": "Climber's Bandana",
+        "cssClassName": "climber's-bandana"
+      },
+      {
+        "id": 23,
+        "name": "Climber's Gear",
+        "cssClassName": "climber's-gear"
+      },
+      {
+        "id": 24,
+        "name": "Climber's Boots",
+        "cssClassName": "climber's-boots"
+      }
     ]
   },
   {
@@ -8836,7 +10435,8 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
-    ]
+    ],
+    "armorList": null
   },
   {
     "name": "Octorok Tentacle",
@@ -8876,6 +10476,13 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 7,
+        "name": "Snow Boots",
+        "cssClassName": "snow-boots"
       }
     ]
   },
@@ -8918,6 +10525,13 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 7,
+        "name": "Snow Boots",
+        "cssClassName": "snow-boots"
+      }
     ]
   },
   {
@@ -8958,6 +10572,13 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 7,
+        "name": "Snow Boots",
+        "cssClassName": "snow-boots"
       }
     ]
   },
@@ -9000,6 +10621,13 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 6,
+        "name": "Sand Boots",
+        "cssClassName": "sand-boots"
+      }
     ]
   },
   {
@@ -9040,6 +10668,28 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 6,
+        "name": "Sand Boots",
+        "cssClassName": "sand-boots"
+      },
+      {
+        "id": 64,
+        "name": "Radiant Mask",
+        "cssClassName": "radiant-mask"
+      },
+      {
+        "id": 65,
+        "name": "Radiant Shirt",
+        "cssClassName": "radiant-shirt"
+      },
+      {
+        "id": 66,
+        "name": "Radiant Tights",
+        "cssClassName": "radiant-tights"
       }
     ]
   },
@@ -9082,6 +10732,23 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 31,
+        "name": "Fierce Deity Mask",
+        "cssClassName": "fierce-deity-mask"
+      },
+      {
+        "id": 32,
+        "name": "Fierce Deity Armor",
+        "cssClassName": "fierce-deity-armor"
+      },
+      {
+        "id": 33,
+        "name": "Fierce Deity Boots",
+        "cssClassName": "fierce-deity-boots"
+      }
     ]
   },
   {
@@ -9122,6 +10789,23 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 31,
+        "name": "Fierce Deity Mask",
+        "cssClassName": "fierce-deity-mask"
+      },
+      {
+        "id": 32,
+        "name": "Fierce Deity Armor",
+        "cssClassName": "fierce-deity-armor"
+      },
+      {
+        "id": 33,
+        "name": "Fierce Deity Boots",
+        "cssClassName": "fierce-deity-boots"
       }
     ]
   },
@@ -9164,6 +10848,53 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 31,
+        "name": "Fierce Deity Mask",
+        "cssClassName": "fierce-deity-mask"
+      },
+      {
+        "id": 32,
+        "name": "Fierce Deity Armor",
+        "cssClassName": "fierce-deity-armor"
+      },
+      {
+        "id": 33,
+        "name": "Fierce Deity Boots",
+        "cssClassName": "fierce-deity-boots"
+      },
+      {
+        "id": 34,
+        "name": "Flamebreaker Helm",
+        "cssClassName": "flamebreaker-helm"
+      },
+      {
+        "id": 35,
+        "name": "Flamebreaker Armor",
+        "cssClassName": "flamebreaker-armor"
+      },
+      {
+        "id": 36,
+        "name": "Flamebreaker Boots",
+        "cssClassName": "flamebreaker-boots"
+      },
+      {
+        "id": 73,
+        "name": "Soldier's Helm",
+        "cssClassName": "soldier's-helm"
+      },
+      {
+        "id": 74,
+        "name": "Soldier's Armor",
+        "cssClassName": "soldier's-armor"
+      },
+      {
+        "id": 75,
+        "name": "Soldier's Greaves",
+        "cssClassName": "soldier's-greaves"
+      }
     ]
   },
   {
@@ -9204,6 +10935,23 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 40,
+        "name": "Ancient Helm",
+        "cssClassName": "ancient-helm"
+      },
+      {
+        "id": 41,
+        "name": "Ancient Cuiress",
+        "cssClassName": "ancient-cuiress"
+      },
+      {
+        "id": 42,
+        "name": "Ancient Greaves",
+        "cssClassName": "ancient-greaves"
       }
     ]
   },
@@ -9246,6 +10994,23 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 40,
+        "name": "Ancient Helm",
+        "cssClassName": "ancient-helm"
+      },
+      {
+        "id": 41,
+        "name": "Ancient Cuiress",
+        "cssClassName": "ancient-cuiress"
+      },
+      {
+        "id": 42,
+        "name": "Ancient Greaves",
+        "cssClassName": "ancient-greaves"
+      }
     ]
   },
   {
@@ -9286,6 +11051,23 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 40,
+        "name": "Ancient Helm",
+        "cssClassName": "ancient-helm"
+      },
+      {
+        "id": 41,
+        "name": "Ancient Cuiress",
+        "cssClassName": "ancient-cuiress"
+      },
+      {
+        "id": 42,
+        "name": "Ancient Greaves",
+        "cssClassName": "ancient-greaves"
       }
     ]
   },
@@ -9328,6 +11110,23 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 40,
+        "name": "Ancient Helm",
+        "cssClassName": "ancient-helm"
+      },
+      {
+        "id": 41,
+        "name": "Ancient Cuiress",
+        "cssClassName": "ancient-cuiress"
+      },
+      {
+        "id": 42,
+        "name": "Ancient Greaves",
+        "cssClassName": "ancient-greaves"
+      }
     ]
   },
   {
@@ -9368,6 +11167,23 @@ module.exports = [
         "id": 122,
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
+      }
+    ],
+    "armorList": [
+      {
+        "id": 40,
+        "name": "Ancient Helm",
+        "cssClassName": "ancient-helm"
+      },
+      {
+        "id": 41,
+        "name": "Ancient Cuiress",
+        "cssClassName": "ancient-cuiress"
+      },
+      {
+        "id": 42,
+        "name": "Ancient Greaves",
+        "cssClassName": "ancient-greaves"
       }
     ]
   },
@@ -9410,6 +11226,23 @@ module.exports = [
         "name": "Dubious Food",
         "cssClassName": "dubious-food"
       }
+    ],
+    "armorList": [
+      {
+        "id": 40,
+        "name": "Ancient Helm",
+        "cssClassName": "ancient-helm"
+      },
+      {
+        "id": 41,
+        "name": "Ancient Cuiress",
+        "cssClassName": "ancient-cuiress"
+      },
+      {
+        "id": 42,
+        "name": "Ancient Greaves",
+        "cssClassName": "ancient-greaves"
+      }
     ]
   },
   {
@@ -9431,6 +11264,7 @@ module.exports = [
         "name": "Rock-Hard Food",
         "cssClassName": "rock-hard-food"
       }
-    ]
+    ],
+    "armorList": null
   }
 ]

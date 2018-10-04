@@ -10,6 +10,8 @@ import Armor from './Armor/Armor';
 import ArmorDetail from './ArmorDetail/ArmorDetail';
 import Food from './Food/Food'
 import FoodDetail from './FoodDetail/FoodDetail';
+import Monsters from './Monsters/Monsters';
+import MonstersDetail from './MonstersDetail/MonstersDetail';
 
 // The Main component renders one of the three provided
 // Routes (provided that one matches). Both the /roster
@@ -39,6 +41,8 @@ const Main = () => (
       <Route path='/armor' component={Armor} />
       <Route path='/food/:id' component={FoodDetail} />
       <Route path='/food' component={Food} />
+      <Route path='/monsters/:id' component={MonstersDetail} />
+      <Route path='/monsters' component={Monsters} />
       <Route path='/' component={App}/>
     </Switch>
   </main>

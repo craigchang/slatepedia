@@ -17,7 +17,7 @@ const ListRowItemDataView = ({obj, filterSettings}) => {
     <div className="list-group-item list-view-item">
       <div className="media">
         <div className="media-left media-middle mr-2">
-          <ListItemImageView imageFolder={imageFilterSettings[0].imageFolder} name={obj.name}/>
+          <ListItemImageView imageFolder={imageFilterSettings[0].imageFolder} name={obj.name} fileType={imageFilterSettings[0].fileType}/>
         </div>
         <div className="media-body">
           <p className="mb-0">

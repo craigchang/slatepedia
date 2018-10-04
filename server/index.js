@@ -9,6 +9,7 @@ const materialsJson = require('./rest/materials');
 const recipesJson = require('./rest/recipes');
 const armorJson = require('./rest/armor');
 const foodJson = require('./rest/food');
+const monstersJson = require('./rest/monsters')
 
 // Multi-process to utilize all CPU cores.
 if (cluster.isMaster) {
@@ -85,6 +86,17 @@ if (cluster.isMaster) {
   app.get('/api/food/:id', function (req, res) {
     res.set('Content-Type', 'application/json');
     res.send(foodJson[Number(req.params.id) - 1]);
+  });
+
+  // Monsters API
+  app.get('/api/monsters', function(req, res) {
+    res.set('Content-Type', 'application/json');
+    res.send(monstersJson);
+  })
+  // Monsters Detail API
+  app.get('/api/monsters/:id', function (req, res) {
+    res.set('Content-Type', 'application/json');
+    res.send(monstersJson[Number(req.params.id) - 1]);
   });
   
 
