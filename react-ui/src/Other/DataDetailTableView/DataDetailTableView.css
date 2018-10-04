@@ -1,0 +1,7 @@
+table.table-detail td:first-child{
+  width: 25%;
+}
+
+table.table-detail td:last-child{
+  width: 75%;
+}

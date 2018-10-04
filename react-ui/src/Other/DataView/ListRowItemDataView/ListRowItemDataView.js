@@ -9,6 +9,10 @@ const ListRowItemDataView = ({obj, filterSettings}) => {
     return obj.dataType === 'image' && obj.dataName == null;
   });
 
+  let detailLinkFilterSettings = _.filter(filterSettings, (obj) => {
+    return obj.dataName == "name";
+  });
+
   return (
     <div className="list-group-item list-view-item">
       <div className="media">
@@ -17,7 +21,7 @@ const ListRowItemDataView = ({obj, filterSettings}) => {
         </div>
         <div className="media-body">
           <p className="mb-0">
-            <ListItemStringView obj={obj} dataName="name" />
+            <ListItemStringView obj={obj} dataName="name" detailLink={detailLinkFilterSettings[0].detailLink} />
           </p>
           <ListItemBodyView obj={obj} filterSettings={filterSettings}/>
         </div>

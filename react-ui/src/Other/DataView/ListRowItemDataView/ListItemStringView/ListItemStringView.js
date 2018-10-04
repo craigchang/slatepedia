@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const ListItemStringView = ({obj, dataName, nestedDataName, classIcon}) => {
+const ListItemStringView = ({obj, dataName, nestedDataName, detailLink, classIcon}) => {
   let dataNameArray = dataName.split(".");
 
   if (dataNameArray.length === 2) {
@@ -16,7 +16,7 @@ const ListItemStringView = ({obj, dataName, nestedDataName, classIcon}) => {
       return (
         <React.Fragment>
           <span className="media-heading">{obj.name}</span>&nbsp;
-          <small className="small"><Link to={`/materials/${obj.id}`}>Details &#187;</Link></small>
+          <small className="small"><Link to={`${detailLink}/${obj.id}`}>Details &#187;</Link></small>
         </React.Fragment>
       );
     else

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import DataDetailTableView from '../Other/DataDetailTableView/DataDetailTableView';
 
 import './RecipesDetail.css';
 
@@ -36,29 +37,27 @@ class RecipesDetail extends Component {
     let imageName = recipe.name.replace(/ /g, "-").replace(/'/g,"").toLowerCase();
     return (
       <div>
-        <div className="table-responsive">
-          <table className="table table-striped">
-            <tbody>
-              <tr>
-                <td>Icon</td>
-                <td>
-                  <img alt={imageName} className="resource-icon" src={`/img/recipes/${imageName}.png`}/>
-                </td>
-              </tr>
-              <tr>
-                <td>Ingredients</td>
-                <td>
-                  {recipe.ingredients != null && recipe.ingredients.map((ingredient, index) => (     
-                    ingredient.id === 0 ?
-                      <p key={index}><i className="fa fa-cutlery" aria-hidden="true"></i> {ingredient.name}</p>
-                     : 
-                      <p key={index}><i className="fa fa-cutlery" aria-hidden="true"></i> <a href={"/materials/" + ingredient.id}>{ingredient.name}</a></p>
-                  ))}
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+        <DataDetailTableView>
+          <tbody>
+            <tr>
+              <td>Icon</td>
+              <td>
+                <img alt={imageName} className="resource-icon" src={`/img/recipes/${imageName}.png`}/>
+              </td>
+            </tr>
+            <tr>
+              <td>Ingredients</td>
+              <td>
+                {recipe.ingredients != null && recipe.ingredients.map((ingredient, index) => (     
+                  ingredient.id === 0 ?
+                    <p key={index}><i className="fa fa-cutlery" aria-hidden="true"></i> {ingredient.name}</p>
+                    : 
+                    <p key={index}><i className="fa fa-cutlery" aria-hidden="true"></i> <a href={"/materials/" + ingredient.id}>{ingredient.name}</a></p>
+                ))}
+              </td>
+            </tr>
+          </tbody>
+        </DataDetailTableView>
       </div>
     )
   }

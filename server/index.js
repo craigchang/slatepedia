@@ -7,6 +7,8 @@ const PORT = process.env.PORT || 5000;
 
 const materialsJson = require('./rest/materials');
 const recipesJson = require('./rest/recipes');
+const armorJson = require('./rest/armor');
+const foodJson = require('./rest/food');
 
 // Multi-process to utilize all CPU cores.
 if (cluster.isMaster) {
@@ -62,6 +64,29 @@ if (cluster.isMaster) {
     res.set('Content-Type', 'application/json');
     res.send(recipesJson[Number(req.params.id) - 1]);
   });
+
+  // Armor API
+  app.get('/api/armor', function(req, res) {
+    res.set('Content-Type', 'application/json');
+    res.send(armorJson);
+  })
+  // Armor Detail API
+  app.get('/api/armor/:id', function (req, res) {
+    res.set('Content-Type', 'application/json');
+    res.send(armorJson[Number(req.params.id) - 1]);
+  });
+
+  // Food API
+  app.get('/api/food', function(req, res) {
+    res.set('Content-Type', 'application/json');
+    res.send(foodJson);
+  })
+  // Food Detail API
+  app.get('/api/food/:id', function (req, res) {
+    res.set('Content-Type', 'application/json');
+    res.send(foodJson[Number(req.params.id) - 1]);
+  });
+  
 
   // All remaining requests return the React app, so it can handle routing.
   app.get('*', function(request, response) {
