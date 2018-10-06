@@ -12,6 +12,13 @@ import Food from './Food/Food'
 import FoodDetail from './FoodDetail/FoodDetail';
 import Monsters from './Monsters/Monsters';
 import MonstersDetail from './MonstersDetail/MonstersDetail';
+import Shields from './Shields/Shields';
+import ShieldsDetial from './ShieldsDetail/ShieldsDetail';
+import Weapons from './Weapons/Weapons';
+import WeaponsDetail from './WeaponsDetail/WeaponsDetail';
+import Bows from './Bows/Bows';
+import BowsDetail from './BowsDetail/BowsDetail';
+
 
 // The Main component renders one of the three provided
 // Routes (provided that one matches). Both the /roster
@@ -43,6 +50,12 @@ const Main = () => (
       <Route path='/food' component={Food} />
       <Route path='/monsters/:id' component={MonstersDetail} />
       <Route path='/monsters' component={Monsters} />
+      <Route path='/shields/:id' component={ShieldsDetial} />
+      <Route path='/shields' component={Shields} />
+      <Route path='/weapons/:id' component={WeaponsDetail} />
+      <Route path='/weapons' component={Weapons} />
+      <Route path='/bows/:id' component={BowsDetail} />
+      <Route path='/bows' component={Bows} />
       <Route path='/' component={App}/>
     </Switch>
   </main>

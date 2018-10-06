@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import DataDetailTableView from '../Other/DataDetailTableView/DataDetailTableView';
 import IconContainer from '../Other/IconContainer/IconContainer';
+import _ from 'lodash';
 
-import './RecipesDetail.css';
+import './ShieldsDetail.css';
 
-class RecipesDetail extends Component {
+class ShieldsDetail extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -34,7 +35,7 @@ class RecipesDetail extends Component {
       });
   }
 
-  showDetailView(recipe) {
+  showDetailView(shield) {
     return (
       <div>
         <DataDetailTableView>
@@ -42,17 +43,26 @@ class RecipesDetail extends Component {
             <tr>
               <td>Icon</td>
               <td>
-                <IconContainer propertyName={recipe.name} folderName={"recipes"} />
+                <IconContainer propertyName={shield.name} folderName={"shields"} />
               </td>
             </tr>
             <tr>
-              <td>Ingredients</td>
+              <td>Description</td>
+              <td><i className="fa fa-book"></i> {shield.description}</td>
+            </tr>
+            <tr>
+              <td>Durability</td>
+              <td><i className="fa fa-shield" aria-hidden="true"></i> {shield.durability}</td>
+            </tr>
+            <tr>
+              <td>Parry Power</td>
+              <td><i className="fa fa-superpowers" aria-hidden="true"></i> {shield.parryPower}</td>
+            </tr>
+            <tr>
+              <td>Availabilities</td>
               <td>
-                {recipe.ingredients != null && recipe.ingredients.map((ingredient, index) => (     
-                  ingredient.id === 0 ?
-                    <p key={index}><i className="fa fa-cutlery" aria-hidden="true"></i> {ingredient.name}</p>
-                    : 
-                    <p key={index}><i className="fa fa-cutlery" aria-hidden="true"></i> <a href={"/materials/" + ingredient.id}>{ingredient.name}</a></p>
+                {shield.availabilities != null && shield.availabilities.map((availability, index) => (
+                  <p key={index}><i className="fa fa-map-marker" aria-hidden="true"></i> {availability}</p>
                 ))}
               </td>
             </tr>
@@ -70,7 +80,7 @@ class RecipesDetail extends Component {
     else {
       if (this.state.json == null)
         view = (
-          <h1 className="page-header">Recipe Not Found :(</h1>
+          <h1 className="page-header">Shield Not Found :(</h1>
         );
       else
         view = (
@@ -89,4 +99,4 @@ class RecipesDetail extends Component {
   }
 }
 
-export default RecipesDetail;
+export default ShieldsDetail;

@@ -3,6 +3,7 @@ import ListItemStringView from '../ListItemStringView/ListItemStringView';
 import ListItemIntegerView from '../ListItemIntegerView/ListItemIntegerView';
 import ListItemArrayView from '../ListItemArrayView/ListItemArrayView';
 import ListItemArrayObjectView from '../ListItemArrayObjectView/ListItemArrayObjectView';
+import ListItemBooleanView from '../ListItemBooleanView/ListItemBooleanView';
 
 const ListItemBodyView = ({obj, filterSettings}) => {
   let array = [];
@@ -40,6 +41,13 @@ const ListItemBodyView = ({obj, filterSettings}) => {
                       key={`${filterSettings[i].dataName}-arrayObject`}
                       inputArray={obj[filterSettings[i].dataName]} 
                       classIcon={filterSettings[i].classIcon}/>)
+        break;
+      case 'boolean':
+        array.push(<ListItemBooleanView
+                      key={`${filterSettings[i].dataName}-boolean`}
+                      dataValue={obj[filterSettings[i].dataName]}
+                      classIcon={filterSettings[i].classIcon}
+                      labelName={filterSettings[i].labelName} />)
         break;
       default:
         break;

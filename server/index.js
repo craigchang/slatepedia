@@ -9,7 +9,10 @@ const materialsJson = require('./rest/materials');
 const recipesJson = require('./rest/recipes');
 const armorJson = require('./rest/armor');
 const foodJson = require('./rest/food');
-const monstersJson = require('./rest/monsters')
+const monstersJson = require('./rest/monsters');
+const shieldsJson = require('./rest/shields');
+const weaponsJson = require('./rest/weapons');
+const bowsJson = require('./rest/bows');
 
 // Multi-process to utilize all CPU cores.
 if (cluster.isMaster) {
@@ -97,6 +100,39 @@ if (cluster.isMaster) {
   app.get('/api/monsters/:id', function (req, res) {
     res.set('Content-Type', 'application/json');
     res.send(monstersJson[Number(req.params.id) - 1]);
+  });
+
+  // Shields API
+  app.get('/api/shields', function(req, res) {
+    res.set('Content-Type', 'application/json');
+    res.send(shieldsJson);
+  })
+  // Shields Detail API
+  app.get('/api/shields/:id', function (req, res) {
+    res.set('Content-Type', 'application/json');
+    res.send(shieldsJson[Number(req.params.id) - 1]);
+  });
+
+  // Weapons API
+  app.get('/api/weapons', function(req, res) {
+    res.set('Content-Type', 'application/json');
+    res.send(weaponsJson);
+  })
+  // Weapons Detail API
+  app.get('/api/weapons/:id', function (req, res) {
+    res.set('Content-Type', 'application/json');
+    res.send(weaponsJson[Number(req.params.id) - 1]);
+  });
+
+   // Bows API
+  app.get('/api/bows', function(req, res) {
+    res.set('Content-Type', 'application/json');
+    res.send(bowsJson);
+  })
+  // Bows Detail API
+  app.get('/api/bows/:id', function (req, res) {
+    res.set('Content-Type', 'application/json');
+    res.send(bowsJson[Number(req.params.id) - 1]);
   });
   
 

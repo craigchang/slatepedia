@@ -4,6 +4,7 @@ import GridItemStringView from './GridItemStringView/GridItemStringView';
 import GridItemIntegerView from './GridItemIntegerView/GridItemIntegerView';
 import GridItemArrayView from './GridItemArrayView/GridItemArrayView';
 import GridItemArrayObjectView from './GridItemArrayObjectView/GridItemArrayObjectView';
+import GridItemBooleanView from './GridItemBooleanView/GridItemBooleanView';
 
 const GridRowItemDataView = ({obj, filterSettings}) => {
   let array = [];
@@ -39,6 +40,11 @@ const GridRowItemDataView = ({obj, filterSettings}) => {
         array.push(<GridItemArrayObjectView 
                       key={`${filterSettings[i].dataName}-arrayObject`}
                       inputArray={obj[filterSettings[i].dataName]}/>)
+        break;
+      case 'boolean':
+        array.push(<GridItemBooleanView 
+                      key={`${filterSettings[i].dataName}-boolean`}
+                      dataValue={obj[filterSettings[i].dataName]}/>)
         break;
       default:
         break;
