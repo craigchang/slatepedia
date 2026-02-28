@@ -3,7 +3,7 @@ const path = require('path');
 const cluster = require('cluster');
 const numCPUs = require('os').cpus().length;
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3001;
 
 const materialsJson = require('./rest/materials');
 const recipesJson = require('./rest/recipes');
