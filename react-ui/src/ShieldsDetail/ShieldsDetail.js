@@ -4,6 +4,7 @@ import IconContainer from '../Other/IconContainer/IconContainer';
 import _ from 'lodash';
 
 import './ShieldsDetail.css';
+import '../Shields/ShieldSprites.css';
 
 class ShieldsDetail extends Component {
   constructor(props) {
@@ -43,7 +44,7 @@ class ShieldsDetail extends Component {
             <tr>
               <td>Icon</td>
               <td>
-                <IconContainer propertyName={shield.name} folderName={"shields"} />
+                <IconContainer propertyName={shield.name} folderName={"shields"} cssClassName={shield.cssClassName} spriteSheet={"shields"} />
               </td>
             </tr>
             <tr>

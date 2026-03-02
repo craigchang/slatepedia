@@ -59,22 +59,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Silent Princess",
-              "id": 35,
-              "type": "Plant",
-              "description": "This lovely flower was said to have been a favorite of the princess of Hyrule. Once feared to have gone extinct, it's recently been spotted growing in the wild.",
-              "sellPrice": 10,
-              "hpRecovery": 12,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "A",
-              "durationFactor": 120,
-              "availabilities": [
-                "Hyrule Ridge",
-                "West Necluda"
-              ],
-              "recipes": null
+              "id": 35
             },
             "quantity": 3
           }
@@ -89,22 +74,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Silent Princess",
-              "id": 35,
-              "type": "Plant",
-              "description": "This lovely flower was said to have been a favorite of the princess of Hyrule. Once feared to have gone extinct, it's recently been spotted growing in the wild.",
-              "sellPrice": 10,
-              "hpRecovery": 12,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "A",
-              "durationFactor": 120,
-              "availabilities": [
-                "Hyrule Ridge",
-                "West Necluda"
-              ],
-              "recipes": null
+              "id": 35
             },
             "quantity": 3
           },
@@ -112,18 +82,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Shard of Farosh's Horn",
-              "id": 66,
-              "type": "Enemy Drop",
-              "description": "This shard fell off the golden spirit Farosh. It's said the horn is the crystallized power of electricity itself. It sells for a lot, but there must be some other use for it.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 1800,
-              "availabilities": [
-                "Fire an arrow at Farosh's horn"
-              ],
-              "recipes": null
+              "id": 66
             },
             "quantity": 2
           }
@@ -138,22 +97,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Silent Princess",
-              "id": 35,
-              "type": "Plant",
-              "description": "This lovely flower was said to have been a favorite of the princess of Hyrule. Once feared to have gone extinct, it's recently been spotted growing in the wild.",
-              "sellPrice": 10,
-              "hpRecovery": 12,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "A",
-              "durationFactor": 120,
-              "availabilities": [
-                "Hyrule Ridge",
-                "West Necluda"
-              ],
-              "recipes": null
+              "id": 35
             },
             "quantity": 3
           },
@@ -161,18 +105,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Shard of Naydra's Horn",
-              "id": 62,
-              "type": "Enemy Drop",
-              "description": "This shard chipped and fell off the blue spirit Naydra. It's said the horn is the crystallized power of ice itself. It sells for quite a bit, but rumors say it has some other use.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 1800,
-              "availabilities": [
-                "Fire an arrow at Naydra's horn"
-              ],
-              "recipes": null
+              "id": 62
             },
             "quantity": 2
           }
@@ -187,22 +120,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Silent Princess",
-              "id": 35,
-              "type": "Plant",
-              "description": "This lovely flower was said to have been a favorite of the princess of Hyrule. Once feared to have gone extinct, it's recently been spotted growing in the wild.",
-              "sellPrice": 10,
-              "hpRecovery": 12,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "A",
-              "durationFactor": 120,
-              "availabilities": [
-                "Hyrule Ridge",
-                "West Necluda"
-              ],
-              "recipes": null
+              "id": 35
             },
             "quantity": 3
           },
@@ -210,18 +128,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Shard of Dinraal's Horn",
-              "id": 58,
-              "type": "Enemy Drop",
-              "description": "This shard chipped and fell off the red spirit Dinraal. Its horn is said to be the crystallized power of fire itself. It sells for a high price, but rumors say there's some other use for it.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 1800,
-              "availabilities": [
-                "Fire an arrow at Dinraal's horn"
-              ],
-              "recipes": null
+              "id": 58
             },
             "quantity": 2
           }
@@ -263,18 +170,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Molduga Fin",
-              "id": 138,
-              "type": "Enemy Drop",
-              "description": "A sturdy fin obtained from a Molduga. It can be used to make elixirs, but there may be someone willing to trade for it.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Moldugas"
-              ],
-              "recipes": null
+              "id": 138
             },
             "quantity": 5
           },
@@ -282,22 +178,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hightail Lizard",
-              "id": 100,
-              "type": "Lizard",
-              "description": "A lizard found throughout Hyrule. It's a bit slow to react at times, but if given a chance to escape, it will dart off quickly. Cook it with monster parts for a speed-boosting elixir.",
-              "sellPrice": 2,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Hasty",
-                "addedEffect": "Movement Speed Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 60,
-              "availabilities": [
-                "West Necluda",
-                "East Necluda"
-              ],
-              "recipes": null
+              "id": 100
             },
             "quantity": 10
           }
@@ -312,18 +193,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Molduga Fin",
-              "id": 138,
-              "type": "Enemy Drop",
-              "description": "A sturdy fin obtained from a Molduga. It can be used to make elixirs, but there may be someone willing to trade for it.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Moldugas"
-              ],
-              "recipes": null
+              "id": 138
             },
             "quantity": 10
           },
@@ -331,22 +201,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Swift Carrot",
-              "id": 26,
-              "type": "Vegetable",
-              "description": "This carrot is cultivated extensively in Kakariko Village. It strengthens the legs and hips when cooked into a dish, which helps increase your movement speed.",
-              "sellPrice": 4,
-              "hpRecovery": 2,
-              "category": {
-                "name": "Hasty",
-                "addedEffect": "Movement Speed Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 60,
-              "availabilities": [
-                "Hyrule Ridge",
-                "Faron Grasslands"
-              ],
-              "recipes": null
+              "id": 26
             },
             "quantity": 10
           }
@@ -361,18 +216,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Molduga Guts",
-              "id": 139,
-              "type": "Enemy Drop",
-              "description": "A giant organ obtained from a Molduga. This invaluable ingredient is hard to come by, and its use is shrouded in mystery.",
-              "sellPrice": 110,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Moldugas"
-              ],
-              "recipes": null
+              "id": 139
             },
             "quantity": 3
           },
@@ -380,22 +224,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Rushroom",
-              "id": 18,
-              "type": "Mushroom",
-              "description": "A mushroom that can grow almost anywhere but prefers ceilings and sheer cliffs. Cook it before eating to temporarily increase your movement speed.",
-              "sellPrice": 3,
-              "hpRecovery": 2,
-              "category": {
-                "name": "Hasty",
-                "addedEffect": "Movement Speed Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 60,
-              "availabilities": [
-                "Great Hyrule Forest",
-                "Tabantha Frontier"
-              ],
-              "recipes": null
+              "id": 18
             },
             "quantity": 15
           }
@@ -410,18 +239,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Molduga Guts",
-              "id": 139,
-              "type": "Enemy Drop",
-              "description": "A giant organ obtained from a Molduga. This invaluable ingredient is hard to come by, and its use is shrouded in mystery.",
-              "sellPrice": 110,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Moldugas"
-              ],
-              "recipes": null
+              "id": 139
             },
             "quantity": 5
           },
@@ -429,22 +247,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Swift Violet",
-              "id": 31,
-              "type": "Plant",
-              "description": "This vitality-rich flower blooms mainly on cliffsides. When cooked into a dish, the nourishing compounds increase your movement speed.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "A",
-              "durationFactor": 60,
-              "availabilities": [
-                "Hebra Mountains",
-                "Gerudo Highlands"
-              ],
-              "recipes": null
+              "id": 31
             },
             "quantity": 15
           }
@@ -473,18 +276,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Octorok Tentacle",
-              "id": 135,
-              "type": "Enemy Drop",
-              "description": "This can only be obtained from an Octorok-type enemy. It's too acidic for cooking, but it's highly valued as an ingredient for elixirs.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Octoroks"
-              ],
-              "recipes": null
+              "id": 135
             },
             "quantity": 5
           },
@@ -492,22 +284,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hightail Lizard",
-              "id": 100,
-              "type": "Lizard",
-              "description": "A lizard found throughout Hyrule. It's a bit slow to react at times, but if given a chance to escape, it will dart off quickly. Cook it with monster parts for a speed-boosting elixir.",
-              "sellPrice": 2,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Hasty",
-                "addedEffect": "Movement Speed Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 60,
-              "availabilities": [
-                "West Necluda",
-                "East Necluda"
-              ],
-              "recipes": null
+              "id": 100
             },
             "quantity": 10
           }
@@ -522,18 +299,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Octo Balloon",
-              "id": 137,
-              "type": "Enemy Drop",
-              "description": "This inflatable Octorok organ has a lot of lift, so attach it to items you want to see float. Hold it in your hands, and then place it on an object to attach it.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Octoroks"
-              ],
-              "recipes": null
+              "id": 137
             },
             "quantity": 5
           },
@@ -541,22 +307,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Swift Carrot",
-              "id": 26,
-              "type": "Vegetable",
-              "description": "This carrot is cultivated extensively in Kakariko Village. It strengthens the legs and hips when cooked into a dish, which helps increase your movement speed.",
-              "sellPrice": 4,
-              "hpRecovery": 2,
-              "category": {
-                "name": "Hasty",
-                "addedEffect": "Movement Speed Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 60,
-              "availabilities": [
-                "Hyrule Ridge",
-                "Faron Grasslands"
-              ],
-              "recipes": null
+              "id": 26
             },
             "quantity": 10
           }
@@ -571,18 +322,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Octorok Eyeball",
-              "id": 136,
-              "type": "Enemy Drop",
-              "description": "This can only be obtained from an Octorok-type enemy. You can sell it to a store, or you can make elixirs with it, but it may have other uses, as well.",
-              "sellPrice": 25,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Octoroks"
-              ],
-              "recipes": null
+              "id": 136
             },
             "quantity": 5
           },
@@ -590,22 +330,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Rushroom",
-              "id": 18,
-              "type": "Mushroom",
-              "description": "A mushroom that can grow almost anywhere but prefers ceilings and sheer cliffs. Cook it before eating to temporarily increase your movement speed.",
-              "sellPrice": 3,
-              "hpRecovery": 2,
-              "category": {
-                "name": "Hasty",
-                "addedEffect": "Movement Speed Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 60,
-              "availabilities": [
-                "Great Hyrule Forest",
-                "Tabantha Frontier"
-              ],
-              "recipes": null
+              "id": 18
             },
             "quantity": 15
           }
@@ -620,18 +345,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Naydra's Scale",
-              "id": 59,
-              "type": "Enemy Drop",
-              "description": "This precious scale fell from the blue spirit Naydra. It contains a bitter cold within. You can use it in cooking, but just eating it seems like a waste.",
-              "sellPrice": 150,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 90,
-              "availabilities": [
-                "Fire an arrow at Naydra's body"
-              ],
-              "recipes": null
+              "id": 59
             },
             "quantity": 2
           },
@@ -639,22 +353,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Swift Violet",
-              "id": 31,
-              "type": "Plant",
-              "description": "This vitality-rich flower blooms mainly on cliffsides. When cooked into a dish, the nourishing compounds increase your movement speed.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "A",
-              "durationFactor": 60,
-              "availabilities": [
-                "Hebra Mountains",
-                "Gerudo Highlands"
-              ],
-              "recipes": null
+              "id": 31
             },
             "quantity": 15
           }
@@ -683,20 +382,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Topaz",
-              "id": 107,
-              "type": "Ore",
-              "description": "This precious yellow gem contains the power of electricity. It's been known to fetch a high price since ancient times.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Luminous and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 107
             },
             "quantity": 2
           },
@@ -704,19 +390,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Flint",
-              "id": 103,
-              "type": "Ore",
-              "description": "Strike it with a metallic weapon to generate a spark. The portable fire starter breaks after one use, but it can create a long-lasting flame if you use it near firewood.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types"
-              ],
-              "recipes": null
+              "id": 103
             },
             "quantity": 3
           }
@@ -731,20 +405,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Topaz",
-              "id": 107,
-              "type": "Ore",
-              "description": "This precious yellow gem contains the power of electricity. It's been known to fetch a high price since ancient times.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Luminous and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 107
             },
             "quantity": 4
           },
@@ -752,19 +413,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Flint",
-              "id": 103,
-              "type": "Ore",
-              "description": "Strike it with a metallic weapon to generate a spark. The portable fire starter breaks after one use, but it can create a long-lasting flame if you use it near firewood.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types"
-              ],
-              "recipes": null
+              "id": 103
             },
             "quantity": 3
           }
@@ -779,20 +428,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Topaz",
-              "id": 107,
-              "type": "Ore",
-              "description": "This precious yellow gem contains the power of electricity. It's been known to fetch a high price since ancient times.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Luminous and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 107
             },
             "quantity": 6
           },
@@ -800,18 +436,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -826,20 +451,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Topaz",
-              "id": 107,
-              "type": "Ore",
-              "description": "This precious yellow gem contains the power of electricity. It's been known to fetch a high price since ancient times.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Luminous and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 107
             },
             "quantity": 10
           },
@@ -847,18 +459,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -887,20 +488,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Opal",
-              "id": 105,
-              "type": "Ore",
-              "description": "A valuable ore that gives off a mesmerizing iridescence similar to the inside of a seashell. It contains the power of water.",
-              "sellPrice": 60,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 105
             },
             "quantity": 5
           },
@@ -908,19 +496,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Flint",
-              "id": 103,
-              "type": "Ore",
-              "description": "Strike it with a metallic weapon to generate a spark. The portable fire starter breaks after one use, but it can create a long-lasting flame if you use it near firewood.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types"
-              ],
-              "recipes": null
+              "id": 103
             },
             "quantity": 3
           }
@@ -935,20 +511,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Opal",
-              "id": 105,
-              "type": "Ore",
-              "description": "A valuable ore that gives off a mesmerizing iridescence similar to the inside of a seashell. It contains the power of water.",
-              "sellPrice": 60,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 105
             },
             "quantity": 8
           },
@@ -956,19 +519,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Flint",
-              "id": 103,
-              "type": "Ore",
-              "description": "Strike it with a metallic weapon to generate a spark. The portable fire starter breaks after one use, but it can create a long-lasting flame if you use it near firewood.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types"
-              ],
-              "recipes": null
+              "id": 103
             },
             "quantity": 3
           }
@@ -983,20 +534,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Opal",
-              "id": 105,
-              "type": "Ore",
-              "description": "A valuable ore that gives off a mesmerizing iridescence similar to the inside of a seashell. It contains the power of water.",
-              "sellPrice": 60,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 105
             },
             "quantity": 16
           },
@@ -1004,19 +542,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Flint",
-              "id": 103,
-              "type": "Ore",
-              "description": "Strike it with a metallic weapon to generate a spark. The portable fire starter breaks after one use, but it can create a long-lasting flame if you use it near firewood.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types"
-              ],
-              "recipes": null
+              "id": 103
             },
             "quantity": 3
           }
@@ -1031,20 +557,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Opal",
-              "id": 105,
-              "type": "Ore",
-              "description": "A valuable ore that gives off a mesmerizing iridescence similar to the inside of a seashell. It contains the power of water.",
-              "sellPrice": 60,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 105
             },
             "quantity": 20
           },
@@ -1052,19 +565,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Flint",
-              "id": 103,
-              "type": "Ore",
-              "description": "Strike it with a metallic weapon to generate a spark. The portable fire starter breaks after one use, but it can create a long-lasting flame if you use it near firewood.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types"
-              ],
-              "recipes": null
+              "id": 103
             },
             "quantity": 3
           }
@@ -1093,20 +594,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Amber",
-              "id": 104,
-              "type": "Ore",
-              "description": "A fossilized resin with a caramelesque sheen to it. It's been valued as a component in decorations and crafting since ancient times.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 104
             },
             "quantity": 5
           },
@@ -1114,19 +602,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Flint",
-              "id": 103,
-              "type": "Ore",
-              "description": "Strike it with a metallic weapon to generate a spark. The portable fire starter breaks after one use, but it can create a long-lasting flame if you use it near firewood.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types"
-              ],
-              "recipes": null
+              "id": 103
             },
             "quantity": 3
           }
@@ -1141,20 +617,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Amber",
-              "id": 104,
-              "type": "Ore",
-              "description": "A fossilized resin with a caramelesque sheen to it. It's been valued as a component in decorations and crafting since ancient times.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 104
             },
             "quantity": 10
           },
@@ -1162,19 +625,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Flint",
-              "id": 103,
-              "type": "Ore",
-              "description": "Strike it with a metallic weapon to generate a spark. The portable fire starter breaks after one use, but it can create a long-lasting flame if you use it near firewood.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types"
-              ],
-              "recipes": null
+              "id": 103
             },
             "quantity": 3
           }
@@ -1189,20 +640,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Amber",
-              "id": 104,
-              "type": "Ore",
-              "description": "A fossilized resin with a caramelesque sheen to it. It's been valued as a component in decorations and crafting since ancient times.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 104
             },
             "quantity": 20
           },
@@ -1210,19 +648,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Flint",
-              "id": 103,
-              "type": "Ore",
-              "description": "Strike it with a metallic weapon to generate a spark. The portable fire starter breaks after one use, but it can create a long-lasting flame if you use it near firewood.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types"
-              ],
-              "recipes": null
+              "id": 103
             },
             "quantity": 3
           }
@@ -1237,20 +663,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Amber",
-              "id": 104,
-              "type": "Ore",
-              "description": "A fossilized resin with a caramelesque sheen to it. It's been valued as a component in decorations and crafting since ancient times.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 104
             },
             "quantity": 30
           },
@@ -1258,19 +671,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Flint",
-              "id": 103,
-              "type": "Ore",
-              "description": "Strike it with a metallic weapon to generate a spark. The portable fire starter breaks after one use, but it can create a long-lasting flame if you use it near firewood.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types"
-              ],
-              "recipes": null
+              "id": 103
             },
             "quantity": 3
           }
@@ -1299,20 +700,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Diamond",
-              "id": 110,
-              "type": "Ore",
-              "description": "The most precious gem one can find in Hyrule, its signature sparkle has charmed Hyruleans for generations. As such, it has sold for a very high price since ancient times.",
-              "sellPrice": 500,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Rare ore deposits",
-                "Stone Talus (All except default)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 110
             },
             "quantity": 2
           },
@@ -1320,19 +708,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Flint",
-              "id": 103,
-              "type": "Ore",
-              "description": "Strike it with a metallic weapon to generate a spark. The portable fire starter breaks after one use, but it can create a long-lasting flame if you use it near firewood.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types"
-              ],
-              "recipes": null
+              "id": 103
             },
             "quantity": 3
           }
@@ -1347,20 +723,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Diamond",
-              "id": 110,
-              "type": "Ore",
-              "description": "The most precious gem one can find in Hyrule, its signature sparkle has charmed Hyruleans for generations. As such, it has sold for a very high price since ancient times.",
-              "sellPrice": 500,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Rare ore deposits",
-                "Stone Talus (All except default)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 110
             },
             "quantity": 4
           },
@@ -1368,19 +731,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Flint",
-              "id": 103,
-              "type": "Ore",
-              "description": "Strike it with a metallic weapon to generate a spark. The portable fire starter breaks after one use, but it can create a long-lasting flame if you use it near firewood.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types"
-              ],
-              "recipes": null
+              "id": 103
             },
             "quantity": 3
           }
@@ -1395,20 +746,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Diamond",
-              "id": 110,
-              "type": "Ore",
-              "description": "The most precious gem one can find in Hyrule, its signature sparkle has charmed Hyruleans for generations. As such, it has sold for a very high price since ancient times.",
-              "sellPrice": 500,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Rare ore deposits",
-                "Stone Talus (All except default)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 110
             },
             "quantity": 6
           },
@@ -1416,18 +754,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -1442,20 +769,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Diamond",
-              "id": 110,
-              "type": "Ore",
-              "description": "The most precious gem one can find in Hyrule, its signature sparkle has charmed Hyruleans for generations. As such, it has sold for a very high price since ancient times.",
-              "sellPrice": 500,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Rare ore deposits",
-                "Stone Talus (All except default)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 110
             },
             "quantity": 10
           },
@@ -1463,18 +777,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -1503,21 +806,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ruby",
-              "id": 108,
-              "type": "Ore",
-              "description": "A precious red gem mined from large ore deposits found throughout Hyrule. Rubies contain the power of fire and have fetched a high price since ancient times.",
-              "sellPrice": 210,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (standard",
-                " Luminous and Igneo Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 108
             },
             "quantity": 2
           },
@@ -1525,19 +814,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Flint",
-              "id": 103,
-              "type": "Ore",
-              "description": "Strike it with a metallic weapon to generate a spark. The portable fire starter breaks after one use, but it can create a long-lasting flame if you use it near firewood.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types"
-              ],
-              "recipes": null
+              "id": 103
             },
             "quantity": 3
           }
@@ -1552,21 +829,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ruby",
-              "id": 108,
-              "type": "Ore",
-              "description": "A precious red gem mined from large ore deposits found throughout Hyrule. Rubies contain the power of fire and have fetched a high price since ancient times.",
-              "sellPrice": 210,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (standard",
-                " Luminous and Igneo Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 108
             },
             "quantity": 4
           },
@@ -1574,19 +837,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Flint",
-              "id": 103,
-              "type": "Ore",
-              "description": "Strike it with a metallic weapon to generate a spark. The portable fire starter breaks after one use, but it can create a long-lasting flame if you use it near firewood.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types"
-              ],
-              "recipes": null
+              "id": 103
             },
             "quantity": 3
           }
@@ -1601,21 +852,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ruby",
-              "id": 108,
-              "type": "Ore",
-              "description": "A precious red gem mined from large ore deposits found throughout Hyrule. Rubies contain the power of fire and have fetched a high price since ancient times.",
-              "sellPrice": 210,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (standard",
-                " Luminous and Igneo Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 108
             },
             "quantity": 6
           },
@@ -1623,18 +860,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -1649,21 +875,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ruby",
-              "id": 108,
-              "type": "Ore",
-              "description": "A precious red gem mined from large ore deposits found throughout Hyrule. Rubies contain the power of fire and have fetched a high price since ancient times.",
-              "sellPrice": 210,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (standard",
-                " Luminous and Igneo Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 108
             },
             "quantity": 10
           },
@@ -1671,18 +883,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -1711,20 +912,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sapphire",
-              "id": 109,
-              "type": "Ore",
-              "description": "A precious blue gem mined from natural rock formations. Sapphires contain the very essence of ice. They've been known to fetch a high price since ancient times.",
-              "sellPrice": 260,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Frost and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 109
             },
             "quantity": 2
           },
@@ -1732,19 +920,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Flint",
-              "id": 103,
-              "type": "Ore",
-              "description": "Strike it with a metallic weapon to generate a spark. The portable fire starter breaks after one use, but it can create a long-lasting flame if you use it near firewood.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types"
-              ],
-              "recipes": null
+              "id": 103
             },
             "quantity": 3
           }
@@ -1759,20 +935,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sapphire",
-              "id": 109,
-              "type": "Ore",
-              "description": "A precious blue gem mined from natural rock formations. Sapphires contain the very essence of ice. They've been known to fetch a high price since ancient times.",
-              "sellPrice": 260,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Frost and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 109
             },
             "quantity": 4
           },
@@ -1780,19 +943,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Flint",
-              "id": 103,
-              "type": "Ore",
-              "description": "Strike it with a metallic weapon to generate a spark. The portable fire starter breaks after one use, but it can create a long-lasting flame if you use it near firewood.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types"
-              ],
-              "recipes": null
+              "id": 103
             },
             "quantity": 3
           }
@@ -1807,20 +958,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sapphire",
-              "id": 109,
-              "type": "Ore",
-              "description": "A precious blue gem mined from natural rock formations. Sapphires contain the very essence of ice. They've been known to fetch a high price since ancient times.",
-              "sellPrice": 260,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Frost and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 109
             },
             "quantity": 6
           },
@@ -1828,18 +966,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -1854,20 +981,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sapphire",
-              "id": 109,
-              "type": "Ore",
-              "description": "A precious blue gem mined from natural rock formations. Sapphires contain the very essence of ice. They've been known to fetch a high price since ancient times.",
-              "sellPrice": 260,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Frost and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 109
             },
             "quantity": 10
           },
@@ -1875,18 +989,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -1915,22 +1018,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Silent Princess",
-              "id": 35,
-              "type": "Plant",
-              "description": "This lovely flower was said to have been a favorite of the princess of Hyrule. Once feared to have gone extinct, it's recently been spotted growing in the wild.",
-              "sellPrice": 10,
-              "hpRecovery": 12,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "A",
-              "durationFactor": 120,
-              "availabilities": [
-                "Hyrule Ridge",
-                "West Necluda"
-              ],
-              "recipes": null
+              "id": 35
             },
             "quantity": 1
           },
@@ -1938,18 +1026,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -1964,22 +1041,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Silent Princess",
-              "id": 35,
-              "type": "Plant",
-              "description": "This lovely flower was said to have been a favorite of the princess of Hyrule. Once feared to have gone extinct, it's recently been spotted growing in the wild.",
-              "sellPrice": 10,
-              "hpRecovery": 12,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "A",
-              "durationFactor": 120,
-              "availabilities": [
-                "Hyrule Ridge",
-                "West Necluda"
-              ],
-              "recipes": null
+              "id": 35
             },
             "quantity": 2
           },
@@ -1987,18 +1049,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 2
           }
@@ -2013,22 +1064,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Silent Princess",
-              "id": 35,
-              "type": "Plant",
-              "description": "This lovely flower was said to have been a favorite of the princess of Hyrule. Once feared to have gone extinct, it's recently been spotted growing in the wild.",
-              "sellPrice": 10,
-              "hpRecovery": 12,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "A",
-              "durationFactor": 120,
-              "availabilities": [
-                "Hyrule Ridge",
-                "West Necluda"
-              ],
-              "recipes": null
+              "id": 35
             },
             "quantity": 3
           },
@@ -2036,18 +1072,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 3
           }
@@ -2062,22 +1087,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Silent Princess",
-              "id": 35,
-              "type": "Plant",
-              "description": "This lovely flower was said to have been a favorite of the princess of Hyrule. Once feared to have gone extinct, it's recently been spotted growing in the wild.",
-              "sellPrice": 10,
-              "hpRecovery": 12,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "A",
-              "durationFactor": 120,
-              "availabilities": [
-                "Hyrule Ridge",
-                "West Necluda"
-              ],
-              "recipes": null
+              "id": 35
             },
             "quantity": 4
           },
@@ -2085,18 +1095,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 4
           }
@@ -2177,18 +1176,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Horn",
-              "id": 123,
-              "type": "Enemy Drop",
-              "description": "The Lynel this horn once grew upon surely misses it. It's exceptionally hard—so hard that most blades cannot scratch it. Throw it into a stew with critters to make elixirs.",
-              "sellPrice": 40,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 123
             },
             "quantity": 3
           }
@@ -2203,18 +1191,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Horn",
-              "id": 123,
-              "type": "Enemy Drop",
-              "description": "The Lynel this horn once grew upon surely misses it. It's exceptionally hard—so hard that most blades cannot scratch it. Throw it into a stew with critters to make elixirs.",
-              "sellPrice": 40,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 123
             },
             "quantity": 5
           },
@@ -2222,18 +1199,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Hoof",
-              "id": 124,
-              "type": "Enemy Drop",
-              "description": "This rare ingredient can be obtained only from a Lynel's foot. It's larger and heavier than a horse's hoof. It's useful for making elixirs but may have uses beyond that.",
-              "sellPrice": 50,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 124
             },
             "quantity": 5
           }
@@ -2248,18 +1214,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Horn",
-              "id": 123,
-              "type": "Enemy Drop",
-              "description": "The Lynel this horn once grew upon surely misses it. It's exceptionally hard—so hard that most blades cannot scratch it. Throw it into a stew with critters to make elixirs.",
-              "sellPrice": 40,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 123
             },
             "quantity": 8
           },
@@ -2267,18 +1222,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Guts",
-              "id": 125,
-              "type": "Enemy Drop",
-              "description": "This highly sought-after ingredient can only be obtained from a Lynel. It pulses with the vitality of a Lynel, a strength that makes it invaluable as an ingredient for elixirs.",
-              "sellPrice": 200,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 125
             },
             "quantity": 1
           }
@@ -2293,18 +1237,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Guts",
-              "id": 125,
-              "type": "Enemy Drop",
-              "description": "This highly sought-after ingredient can only be obtained from a Lynel. It pulses with the vitality of a Lynel, a strength that makes it invaluable as an ingredient for elixirs.",
-              "sellPrice": 200,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 125
             },
             "quantity": 10
           },
@@ -2312,18 +1245,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Shard of Dinraal's Horn",
-              "id": 58,
-              "type": "Enemy Drop",
-              "description": "This shard chipped and fell off the red spirit Dinraal. Its horn is said to be the crystallized power of fire itself. It sells for a high price, but rumors say there's some other use for it.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 1800,
-              "availabilities": [
-                "Fire an arrow at Dinraal's horn"
-              ],
-              "recipes": null
+              "id": 58
             },
             "quantity": 1
           }
@@ -2352,18 +1274,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Horn",
-              "id": 123,
-              "type": "Enemy Drop",
-              "description": "The Lynel this horn once grew upon surely misses it. It's exceptionally hard—so hard that most blades cannot scratch it. Throw it into a stew with critters to make elixirs.",
-              "sellPrice": 40,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 123
             },
             "quantity": 3
           }
@@ -2378,18 +1289,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Horn",
-              "id": 123,
-              "type": "Enemy Drop",
-              "description": "The Lynel this horn once grew upon surely misses it. It's exceptionally hard—so hard that most blades cannot scratch it. Throw it into a stew with critters to make elixirs.",
-              "sellPrice": 40,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 123
             },
             "quantity": 5
           },
@@ -2397,18 +1297,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Hoof",
-              "id": 124,
-              "type": "Enemy Drop",
-              "description": "This rare ingredient can be obtained only from a Lynel's foot. It's larger and heavier than a horse's hoof. It's useful for making elixirs but may have uses beyond that.",
-              "sellPrice": 50,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 124
             },
             "quantity": 5
           }
@@ -2423,18 +1312,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Horn",
-              "id": 123,
-              "type": "Enemy Drop",
-              "description": "The Lynel this horn once grew upon surely misses it. It's exceptionally hard—so hard that most blades cannot scratch it. Throw it into a stew with critters to make elixirs.",
-              "sellPrice": 40,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 123
             },
             "quantity": 8
           },
@@ -2442,18 +1320,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Guts",
-              "id": 125,
-              "type": "Enemy Drop",
-              "description": "This highly sought-after ingredient can only be obtained from a Lynel. It pulses with the vitality of a Lynel, a strength that makes it invaluable as an ingredient for elixirs.",
-              "sellPrice": 200,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 125
             },
             "quantity": 1
           }
@@ -2468,18 +1335,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Guts",
-              "id": 125,
-              "type": "Enemy Drop",
-              "description": "This highly sought-after ingredient can only be obtained from a Lynel. It pulses with the vitality of a Lynel, a strength that makes it invaluable as an ingredient for elixirs.",
-              "sellPrice": 200,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 125
             },
             "quantity": 10
           },
@@ -2487,18 +1343,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Shard of Farosh's Horn",
-              "id": 66,
-              "type": "Enemy Drop",
-              "description": "This shard fell off the golden spirit Farosh. It's said the horn is the crystallized power of electricity itself. It sells for a lot, but there must be some other use for it.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 1800,
-              "availabilities": [
-                "Fire an arrow at Farosh's horn"
-              ],
-              "recipes": null
+              "id": 66
             },
             "quantity": 1
           }
@@ -2527,18 +1372,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Horn",
-              "id": 123,
-              "type": "Enemy Drop",
-              "description": "The Lynel this horn once grew upon surely misses it. It's exceptionally hard—so hard that most blades cannot scratch it. Throw it into a stew with critters to make elixirs.",
-              "sellPrice": 40,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 123
             },
             "quantity": 3
           }
@@ -2553,18 +1387,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Horn",
-              "id": 123,
-              "type": "Enemy Drop",
-              "description": "The Lynel this horn once grew upon surely misses it. It's exceptionally hard—so hard that most blades cannot scratch it. Throw it into a stew with critters to make elixirs.",
-              "sellPrice": 40,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 123
             },
             "quantity": 5
           },
@@ -2572,18 +1395,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Hoof",
-              "id": 124,
-              "type": "Enemy Drop",
-              "description": "This rare ingredient can be obtained only from a Lynel's foot. It's larger and heavier than a horse's hoof. It's useful for making elixirs but may have uses beyond that.",
-              "sellPrice": 50,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 124
             },
             "quantity": 5
           }
@@ -2598,18 +1410,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Horn",
-              "id": 123,
-              "type": "Enemy Drop",
-              "description": "The Lynel this horn once grew upon surely misses it. It's exceptionally hard—so hard that most blades cannot scratch it. Throw it into a stew with critters to make elixirs.",
-              "sellPrice": 40,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 123
             },
             "quantity": 8
           },
@@ -2617,18 +1418,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Guts",
-              "id": 125,
-              "type": "Enemy Drop",
-              "description": "This highly sought-after ingredient can only be obtained from a Lynel. It pulses with the vitality of a Lynel, a strength that makes it invaluable as an ingredient for elixirs.",
-              "sellPrice": 200,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 125
             },
             "quantity": 3
           }
@@ -2643,18 +1433,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Guts",
-              "id": 125,
-              "type": "Enemy Drop",
-              "description": "This highly sought-after ingredient can only be obtained from a Lynel. It pulses with the vitality of a Lynel, a strength that makes it invaluable as an ingredient for elixirs.",
-              "sellPrice": 200,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 125
             },
             "quantity": 10
           },
@@ -2662,18 +1441,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Shard of Naydra's Horn",
-              "id": 62,
-              "type": "Enemy Drop",
-              "description": "This shard chipped and fell off the blue spirit Naydra. It's said the horn is the crystallized power of ice itself. It sells for quite a bit, but rumors say it has some other use.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 1800,
-              "availabilities": [
-                "Fire an arrow at Naydra's horn"
-              ],
-              "recipes": null
+              "id": 62
             },
             "quantity": 1
           }
@@ -2702,18 +1470,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Keese Wing",
-              "id": 130,
-              "type": "Enemy Drop",
-              "description": "The wing of a Keese. It's covered with very short, sharp fur. It's not much use by itself, but you can mix it with critters to make something useful.",
-              "sellPrice": 2,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Keese"
-              ],
-              "recipes": null
+              "id": 130
             },
             "quantity": 3
           },
@@ -2721,22 +1478,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Rushroom",
-              "id": 18,
-              "type": "Mushroom",
-              "description": "A mushroom that can grow almost anywhere but prefers ceilings and sheer cliffs. Cook it before eating to temporarily increase your movement speed.",
-              "sellPrice": 3,
-              "hpRecovery": 2,
-              "category": {
-                "name": "Hasty",
-                "addedEffect": "Movement Speed Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 60,
-              "availabilities": [
-                "Great Hyrule Forest",
-                "Tabantha Frontier"
-              ],
-              "recipes": null
+              "id": 18
             },
             "quantity": 3
           }
@@ -2751,18 +1493,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Electric Keese Wing",
-              "id": 133,
-              "type": "Enemy Drop",
-              "description": "A rare Electric Keese wing. The part of the Electric Keese that produces electricity is not in its wings, so it won't shock you. Toss it in with some critters to make elixirs.",
-              "sellPrice": 6,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Electric Keese"
-              ],
-              "recipes": null
+              "id": 133
             },
             "quantity": 5
           },
@@ -2770,22 +1501,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hightail Lizard",
-              "id": 100,
-              "type": "Lizard",
-              "description": "A lizard found throughout Hyrule. It's a bit slow to react at times, but if given a chance to escape, it will dart off quickly. Cook it with monster parts for a speed-boosting elixir.",
-              "sellPrice": 2,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Hasty",
-                "addedEffect": "Movement Speed Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 60,
-              "availabilities": [
-                "West Necluda",
-                "East Necluda"
-              ],
-              "recipes": null
+              "id": 100
             },
             "quantity": 5
           }
@@ -2800,18 +1516,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ice Keese Wing",
-              "id": 131,
-              "type": "Enemy Drop",
-              "description": "A rare Ice Keese wing. Its frozen surface gleams attractively, but its usefulness isn't readily apparent.",
-              "sellPrice": 6,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Ice Keese"
-              ],
-              "recipes": null
+              "id": 131
             },
             "quantity": 5
           },
@@ -2819,22 +1524,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hot-Footed Frog",
-              "id": 98,
-              "type": "Frog",
-              "description": "A quick frog that can be found hopping around near water. Cook it with monster parts to draw out its speed-boost effect.",
-              "sellPrice": 2,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Hearty",
-                "addedEffect": "Extra Hearts"
-              },
-              "potencyGrade": "B",
-              "durationFactor": 60,
-              "availabilities": [
-                "Lanayru Great Spring",
-                "Hyrule Ridge"
-              ],
-              "recipes": null
+              "id": 98
             },
             "quantity": 10
           }
@@ -2849,18 +1539,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Fire Keese Wing",
-              "id": 132,
-              "type": "Enemy Drop",
-              "description": "A rare Fire Keese wing. There isn't enough Fire Keese attached to it to burn you, but it does have a slight warmth to it. It can be used as an ingredient for elixirs.",
-              "sellPrice": 6,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Fire Keese"
-              ],
-              "recipes": null
+              "id": 132
             },
             "quantity": 5
           },
@@ -2868,22 +1547,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Swift Violet",
-              "id": 31,
-              "type": "Plant",
-              "description": "This vitality-rich flower blooms mainly on cliffsides. When cooked into a dish, the nourishing compounds increase your movement speed.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "A",
-              "durationFactor": 60,
-              "availabilities": [
-                "Hebra Mountains",
-                "Gerudo Highlands"
-              ],
-              "recipes": null
+              "id": 31
             },
             "quantity": 20
           }
@@ -2912,18 +1576,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Keese Wing",
-              "id": 130,
-              "type": "Enemy Drop",
-              "description": "The wing of a Keese. It's covered with very short, sharp fur. It's not much use by itself, but you can mix it with critters to make something useful.",
-              "sellPrice": 2,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Keese"
-              ],
-              "recipes": null
+              "id": 130
             },
             "quantity": 3
           },
@@ -2931,22 +1584,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Rushroom",
-              "id": 18,
-              "type": "Mushroom",
-              "description": "A mushroom that can grow almost anywhere but prefers ceilings and sheer cliffs. Cook it before eating to temporarily increase your movement speed.",
-              "sellPrice": 3,
-              "hpRecovery": 2,
-              "category": {
-                "name": "Hasty",
-                "addedEffect": "Movement Speed Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 60,
-              "availabilities": [
-                "Great Hyrule Forest",
-                "Tabantha Frontier"
-              ],
-              "recipes": null
+              "id": 18
             },
             "quantity": 3
           }
@@ -2961,18 +1599,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Electric Keese Wing",
-              "id": 133,
-              "type": "Enemy Drop",
-              "description": "A rare Electric Keese wing. The part of the Electric Keese that produces electricity is not in its wings, so it won't shock you. Toss it in with some critters to make elixirs.",
-              "sellPrice": 6,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Electric Keese"
-              ],
-              "recipes": null
+              "id": 133
             },
             "quantity": 5
           },
@@ -2980,22 +1607,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hightail Lizard",
-              "id": 100,
-              "type": "Lizard",
-              "description": "A lizard found throughout Hyrule. It's a bit slow to react at times, but if given a chance to escape, it will dart off quickly. Cook it with monster parts for a speed-boosting elixir.",
-              "sellPrice": 2,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Hasty",
-                "addedEffect": "Movement Speed Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 60,
-              "availabilities": [
-                "West Necluda",
-                "East Necluda"
-              ],
-              "recipes": null
+              "id": 100
             },
             "quantity": 5
           }
@@ -3010,18 +1622,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ice Keese Wing",
-              "id": 131,
-              "type": "Enemy Drop",
-              "description": "A rare Ice Keese wing. Its frozen surface gleams attractively, but its usefulness isn't readily apparent.",
-              "sellPrice": 6,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Ice Keese"
-              ],
-              "recipes": null
+              "id": 131
             },
             "quantity": 5
           },
@@ -3029,22 +1630,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hot-Footed Frog",
-              "id": 98,
-              "type": "Frog",
-              "description": "A quick frog that can be found hopping around near water. Cook it with monster parts to draw out its speed-boost effect.",
-              "sellPrice": 2,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Hearty",
-                "addedEffect": "Extra Hearts"
-              },
-              "potencyGrade": "B",
-              "durationFactor": 60,
-              "availabilities": [
-                "Lanayru Great Spring",
-                "Hyrule Ridge"
-              ],
-              "recipes": null
+              "id": 98
             },
             "quantity": 10
           }
@@ -3059,18 +1645,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Fire Keese Wing",
-              "id": 132,
-              "type": "Enemy Drop",
-              "description": "A rare Fire Keese wing. There isn't enough Fire Keese attached to it to burn you, but it does have a slight warmth to it. It can be used as an ingredient for elixirs.",
-              "sellPrice": 6,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Fire Keese"
-              ],
-              "recipes": null
+              "id": 132
             },
             "quantity": 5
           },
@@ -3078,22 +1653,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Swift Violet",
-              "id": 31,
-              "type": "Plant",
-              "description": "This vitality-rich flower blooms mainly on cliffsides. When cooked into a dish, the nourishing compounds increase your movement speed.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "A",
-              "durationFactor": 60,
-              "availabilities": [
-                "Hebra Mountains",
-                "Gerudo Highlands"
-              ],
-              "recipes": null
+              "id": 31
             },
             "quantity": 20
           }
@@ -3122,18 +1682,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Keese Wing",
-              "id": 130,
-              "type": "Enemy Drop",
-              "description": "The wing of a Keese. It's covered with very short, sharp fur. It's not much use by itself, but you can mix it with critters to make something useful.",
-              "sellPrice": 2,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Keese"
-              ],
-              "recipes": null
+              "id": 130
             },
             "quantity": 3
           },
@@ -3141,22 +1690,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Rushroom",
-              "id": 18,
-              "type": "Mushroom",
-              "description": "A mushroom that can grow almost anywhere but prefers ceilings and sheer cliffs. Cook it before eating to temporarily increase your movement speed.",
-              "sellPrice": 3,
-              "hpRecovery": 2,
-              "category": {
-                "name": "Hasty",
-                "addedEffect": "Movement Speed Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 60,
-              "availabilities": [
-                "Great Hyrule Forest",
-                "Tabantha Frontier"
-              ],
-              "recipes": null
+              "id": 18
             },
             "quantity": 3
           }
@@ -3171,18 +1705,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Electric Keese Wing",
-              "id": 133,
-              "type": "Enemy Drop",
-              "description": "A rare Electric Keese wing. The part of the Electric Keese that produces electricity is not in its wings, so it won't shock you. Toss it in with some critters to make elixirs.",
-              "sellPrice": 6,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Electric Keese"
-              ],
-              "recipes": null
+              "id": 133
             },
             "quantity": 5
           },
@@ -3190,22 +1713,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hightail Lizard",
-              "id": 100,
-              "type": "Lizard",
-              "description": "A lizard found throughout Hyrule. It's a bit slow to react at times, but if given a chance to escape, it will dart off quickly. Cook it with monster parts for a speed-boosting elixir.",
-              "sellPrice": 2,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Hasty",
-                "addedEffect": "Movement Speed Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 60,
-              "availabilities": [
-                "West Necluda",
-                "East Necluda"
-              ],
-              "recipes": null
+              "id": 100
             },
             "quantity": 5
           }
@@ -3220,18 +1728,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ice Keese Wing",
-              "id": 131,
-              "type": "Enemy Drop",
-              "description": "A rare Ice Keese wing. Its frozen surface gleams attractively, but its usefulness isn't readily apparent.",
-              "sellPrice": 6,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Ice Keese"
-              ],
-              "recipes": null
+              "id": 131
             },
             "quantity": 5
           },
@@ -3239,22 +1736,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hot-Footed Frog",
-              "id": 98,
-              "type": "Frog",
-              "description": "A quick frog that can be found hopping around near water. Cook it with monster parts to draw out its speed-boost effect.",
-              "sellPrice": 2,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Hearty",
-                "addedEffect": "Extra Hearts"
-              },
-              "potencyGrade": "B",
-              "durationFactor": 60,
-              "availabilities": [
-                "Lanayru Great Spring",
-                "Hyrule Ridge"
-              ],
-              "recipes": null
+              "id": 98
             },
             "quantity": 10
           }
@@ -3269,18 +1751,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Fire Keese Wing",
-              "id": 132,
-              "type": "Enemy Drop",
-              "description": "A rare Fire Keese wing. There isn't enough Fire Keese attached to it to burn you, but it does have a slight warmth to it. It can be used as an ingredient for elixirs.",
-              "sellPrice": 6,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Fire Keese"
-              ],
-              "recipes": null
+              "id": 132
             },
             "quantity": 5
           },
@@ -3288,22 +1759,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Swift Violet",
-              "id": 31,
-              "type": "Plant",
-              "description": "This vitality-rich flower blooms mainly on cliffsides. When cooked into a dish, the nourishing compounds increase your movement speed.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "A",
-              "durationFactor": 60,
-              "availabilities": [
-                "Hebra Mountains",
-                "Gerudo Highlands"
-              ],
-              "recipes": null
+              "id": 31
             },
             "quantity": 20
           }
@@ -3371,18 +1827,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "White Chuchu Jelly",
-              "id": 127,
-              "type": "Enemy Drop",
-              "description": "A jiggly substance that came from an Ice Chuchu. It's cool to the touch, and squeezing it seems to relieve stress. If struck, it will explode in a cold mist.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Ice Chuchus"
-              ],
-              "recipes": null
+              "id": 127
             },
             "quantity": 3
           }
@@ -3397,18 +1842,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "White Chuchu Jelly",
-              "id": 127,
-              "type": "Enemy Drop",
-              "description": "A jiggly substance that came from an Ice Chuchu. It's cool to the touch, and squeezing it seems to relieve stress. If struck, it will explode in a cold mist.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Ice Chuchus"
-              ],
-              "recipes": null
+              "id": 127
             },
             "quantity": 5
           },
@@ -3416,18 +1850,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ice Keese Wing",
-              "id": 131,
-              "type": "Enemy Drop",
-              "description": "A rare Ice Keese wing. Its frozen surface gleams attractively, but its usefulness isn't readily apparent.",
-              "sellPrice": 6,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Ice Keese"
-              ],
-              "recipes": null
+              "id": 131
             },
             "quantity": 3
           }
@@ -3442,18 +1865,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ice Keese Wing",
-              "id": 131,
-              "type": "Enemy Drop",
-              "description": "A rare Ice Keese wing. Its frozen surface gleams attractively, but its usefulness isn't readily apparent.",
-              "sellPrice": 6,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Ice Keese"
-              ],
-              "recipes": null
+              "id": 131
             },
             "quantity": 8
           },
@@ -3461,18 +1873,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Icy Lizalfos Tail",
-              "id": 120,
-              "type": "Enemy Drop",
-              "description": "The severed tail of an Ice-Breath Lizalfos. Its hard scales and flesh make it unsuitable for cooking, but it's perfect for making elixirs.",
-              "sellPrice": 35,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Ice-Breath Lizalfos"
-              ],
-              "recipes": null
+              "id": 120
             },
             "quantity": 3
           }
@@ -3487,18 +1888,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Icy Lizalfos Tail",
-              "id": 120,
-              "type": "Enemy Drop",
-              "description": "The severed tail of an Ice-Breath Lizalfos. Its hard scales and flesh make it unsuitable for cooking, but it's perfect for making elixirs.",
-              "sellPrice": 35,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Ice-Breath Lizalfos"
-              ],
-              "recipes": null
+              "id": 120
             },
             "quantity": 10
           },
@@ -3506,20 +1896,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sapphire",
-              "id": 109,
-              "type": "Ore",
-              "description": "A precious blue gem mined from natural rock formations. Sapphires contain the very essence of ice. They've been known to fetch a high price since ancient times.",
-              "sellPrice": 260,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Frost and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 109
             },
             "quantity": 5
           }
@@ -3548,18 +1925,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "White Chuchu Jelly",
-              "id": 127,
-              "type": "Enemy Drop",
-              "description": "A jiggly substance that came from an Ice Chuchu. It's cool to the touch, and squeezing it seems to relieve stress. If struck, it will explode in a cold mist.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Ice Chuchus"
-              ],
-              "recipes": null
+              "id": 127
             },
             "quantity": 3
           }
@@ -3574,18 +1940,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "White Chuchu Jelly",
-              "id": 127,
-              "type": "Enemy Drop",
-              "description": "A jiggly substance that came from an Ice Chuchu. It's cool to the touch, and squeezing it seems to relieve stress. If struck, it will explode in a cold mist.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Ice Chuchus"
-              ],
-              "recipes": null
+              "id": 127
             },
             "quantity": 5
           },
@@ -3593,18 +1948,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ice Keese Wing",
-              "id": 131,
-              "type": "Enemy Drop",
-              "description": "A rare Ice Keese wing. Its frozen surface gleams attractively, but its usefulness isn't readily apparent.",
-              "sellPrice": 6,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Ice Keese"
-              ],
-              "recipes": null
+              "id": 131
             },
             "quantity": 3
           }
@@ -3619,18 +1963,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ice Keese Wing",
-              "id": 131,
-              "type": "Enemy Drop",
-              "description": "A rare Ice Keese wing. Its frozen surface gleams attractively, but its usefulness isn't readily apparent.",
-              "sellPrice": 6,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Ice Keese"
-              ],
-              "recipes": null
+              "id": 131
             },
             "quantity": 8
           },
@@ -3638,18 +1971,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Icy Lizalfos Tail",
-              "id": 120,
-              "type": "Enemy Drop",
-              "description": "The severed tail of an Ice-Breath Lizalfos. Its hard scales and flesh make it unsuitable for cooking, but it's perfect for making elixirs.",
-              "sellPrice": 35,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Ice-Breath Lizalfos"
-              ],
-              "recipes": null
+              "id": 120
             },
             "quantity": 3
           }
@@ -3664,18 +1986,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Icy Lizalfos Tail",
-              "id": 120,
-              "type": "Enemy Drop",
-              "description": "The severed tail of an Ice-Breath Lizalfos. Its hard scales and flesh make it unsuitable for cooking, but it's perfect for making elixirs.",
-              "sellPrice": 35,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Ice-Breath Lizalfos"
-              ],
-              "recipes": null
+              "id": 120
             },
             "quantity": 10
           },
@@ -3683,20 +1994,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sapphire",
-              "id": 109,
-              "type": "Ore",
-              "description": "A precious blue gem mined from natural rock formations. Sapphires contain the very essence of ice. They've been known to fetch a high price since ancient times.",
-              "sellPrice": 260,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Frost and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 109
             },
             "quantity": 5
           }
@@ -3725,18 +2023,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "White Chuchu Jelly",
-              "id": 127,
-              "type": "Enemy Drop",
-              "description": "A jiggly substance that came from an Ice Chuchu. It's cool to the touch, and squeezing it seems to relieve stress. If struck, it will explode in a cold mist.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Ice Chuchus"
-              ],
-              "recipes": null
+              "id": 127
             },
             "quantity": 3
           }
@@ -3751,18 +2038,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "White Chuchu Jelly",
-              "id": 127,
-              "type": "Enemy Drop",
-              "description": "A jiggly substance that came from an Ice Chuchu. It's cool to the touch, and squeezing it seems to relieve stress. If struck, it will explode in a cold mist.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Ice Chuchus"
-              ],
-              "recipes": null
+              "id": 127
             },
             "quantity": 5
           },
@@ -3770,18 +2046,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ice Keese Wing",
-              "id": 131,
-              "type": "Enemy Drop",
-              "description": "A rare Ice Keese wing. Its frozen surface gleams attractively, but its usefulness isn't readily apparent.",
-              "sellPrice": 6,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Ice Keese"
-              ],
-              "recipes": null
+              "id": 131
             },
             "quantity": 3
           }
@@ -3796,18 +2061,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ice Keese Wing",
-              "id": 131,
-              "type": "Enemy Drop",
-              "description": "A rare Ice Keese wing. Its frozen surface gleams attractively, but its usefulness isn't readily apparent.",
-              "sellPrice": 6,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Ice Keese"
-              ],
-              "recipes": null
+              "id": 131
             },
             "quantity": 8
           },
@@ -3815,18 +2069,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Icy Lizalfos Tail",
-              "id": 120,
-              "type": "Enemy Drop",
-              "description": "The severed tail of an Ice-Breath Lizalfos. Its hard scales and flesh make it unsuitable for cooking, but it's perfect for making elixirs.",
-              "sellPrice": 35,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Ice-Breath Lizalfos"
-              ],
-              "recipes": null
+              "id": 120
             },
             "quantity": 3
           }
@@ -3841,18 +2084,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Icy Lizalfos Tail",
-              "id": 120,
-              "type": "Enemy Drop",
-              "description": "The severed tail of an Ice-Breath Lizalfos. Its hard scales and flesh make it unsuitable for cooking, but it's perfect for making elixirs.",
-              "sellPrice": 35,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Ice-Breath Lizalfos"
-              ],
-              "recipes": null
+              "id": 120
             },
             "quantity": 10
           },
@@ -3860,20 +2092,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sapphire",
-              "id": 109,
-              "type": "Ore",
-              "description": "A precious blue gem mined from natural rock formations. Sapphires contain the very essence of ice. They've been known to fetch a high price since ancient times.",
-              "sellPrice": 260,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Frost and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 109
             },
             "quantity": 5
           }
@@ -3902,18 +2121,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hinox Toenail",
-              "id": 140,
-              "type": "Enemy Drop",
-              "description": "A nail obtained from a Hinox. It's as thick as a plate of armor and can be stewed with critters to make elixirs.",
-              "sellPrice": 20,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Hinox"
-              ],
-              "recipes": null
+              "id": 140
             },
             "quantity": 5
           },
@@ -3921,18 +2129,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Dinraal's Scale",
-              "id": 55,
-              "type": "Enemy Drop",
-              "description": "This precious scale fell from the red spirit Dinraal. It emanates a great heat, You can use it in cooking, but eating it seems like a waste.",
-              "sellPrice": 150,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 90,
-              "availabilities": [
-                "Fire an arrow at Dinraal's body"
-              ],
-              "recipes": null
+              "id": 55
             },
             "quantity": 1
           }
@@ -3947,18 +2144,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hinox Tooth",
-              "id": 141,
-              "type": "Enemy Drop",
-              "description": "A tooth obtained from a Hinox. It's so large, it's hard to believe it's a real tooth. It can be used to make elixirs.",
-              "sellPrice": 35,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Hinox"
-              ],
-              "recipes": null
+              "id": 141
             },
             "quantity": 5
           },
@@ -3966,18 +2152,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Dinraal's Claw",
-              "id": 56,
-              "type": "Enemy Drop",
-              "description": "This valuable claw was plucked from the red spirit Dinraal. It was extremely hot before it was removed. You could sell it to a store, but it must have some other use.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 210,
-              "availabilities": [
-                "Fire an arrow at Dinraal's feet"
-              ],
-              "recipes": null
+              "id": 56
             },
             "quantity": 1
           }
@@ -3992,18 +2167,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hinox Guts",
-              "id": 142,
-              "type": "Enemy Drop",
-              "description": "A giant, smelly Hinox organ of unknown function. Upon closer inspection, it appears to be quivering, It can be used to make an elixir, but some say it has other uses, as well.",
-              "sellPrice": 80,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Hinox"
-              ],
-              "recipes": null
+              "id": 142
             },
             "quantity": 5
           },
@@ -4011,18 +2175,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Shard of Dinraal's Fang",
-              "id": 57,
-              "type": "Enemy Drop",
-              "description": "This shard fell from the red spirit Dinraal's fang. It's exceptionally hard and therefore impossible to process, but apparently it can be used as a material for something.",
-              "sellPrice": 250,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 630,
-              "availabilities": [
-                "Fire an arrow at Dinraal's mouth"
-              ],
-              "recipes": null
+              "id": 57
             },
             "quantity": 1
           }
@@ -4037,18 +2190,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Guts",
-              "id": 125,
-              "type": "Enemy Drop",
-              "description": "This highly sought-after ingredient can only be obtained from a Lynel. It pulses with the vitality of a Lynel, a strength that makes it invaluable as an ingredient for elixirs.",
-              "sellPrice": 200,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 125
             },
             "quantity": 5
           },
@@ -4056,18 +2198,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Shard of Dinraal's Horn",
-              "id": 58,
-              "type": "Enemy Drop",
-              "description": "This shard chipped and fell off the red spirit Dinraal. Its horn is said to be the crystallized power of fire itself. It sells for a high price, but rumors say there's some other use for it.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 1800,
-              "availabilities": [
-                "Fire an arrow at Dinraal's horn"
-              ],
-              "recipes": null
+              "id": 58
             },
             "quantity": 1
           }
@@ -4096,18 +2227,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hinox Toenail",
-              "id": 140,
-              "type": "Enemy Drop",
-              "description": "A nail obtained from a Hinox. It's as thick as a plate of armor and can be stewed with critters to make elixirs.",
-              "sellPrice": 20,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Hinox"
-              ],
-              "recipes": null
+              "id": 140
             },
             "quantity": 5
           },
@@ -4115,18 +2235,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Naydra's Scale",
-              "id": 59,
-              "type": "Enemy Drop",
-              "description": "This precious scale fell from the blue spirit Naydra. It contains a bitter cold within. You can use it in cooking, but just eating it seems like a waste.",
-              "sellPrice": 150,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 90,
-              "availabilities": [
-                "Fire an arrow at Naydra's body"
-              ],
-              "recipes": null
+              "id": 59
             },
             "quantity": 1
           }
@@ -4141,18 +2250,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hinox Tooth",
-              "id": 141,
-              "type": "Enemy Drop",
-              "description": "A tooth obtained from a Hinox. It's so large, it's hard to believe it's a real tooth. It can be used to make elixirs.",
-              "sellPrice": 35,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Hinox"
-              ],
-              "recipes": null
+              "id": 141
             },
             "quantity": 5
           },
@@ -4160,18 +2258,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Naydra's Claw",
-              "id": 60,
-              "type": "Enemy Drop",
-              "description": "This valuable claw was plucked from the blue spirit Naydra. It was freezing cold before it was removed. You could sell it, but there must be some other use for it.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 210,
-              "availabilities": [
-                "Fire an arrow at Naydra's feet"
-              ],
-              "recipes": null
+              "id": 60
             },
             "quantity": 1
           }
@@ -4186,18 +2273,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hinox Guts",
-              "id": 142,
-              "type": "Enemy Drop",
-              "description": "A giant, smelly Hinox organ of unknown function. Upon closer inspection, it appears to be quivering, It can be used to make an elixir, but some say it has other uses, as well.",
-              "sellPrice": 80,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Hinox"
-              ],
-              "recipes": null
+              "id": 142
             },
             "quantity": 5
           },
@@ -4205,18 +2281,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Shard of Naydra's Fang",
-              "id": 61,
-              "type": "Enemy Drop",
-              "description": "This shard fell from the blue spirit Naydra's fang. It's much harder than any metal, so it's impossible to process. Yet rumors say it can be used as a material for something.",
-              "sellPrice": 250,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 630,
-              "availabilities": [
-                "Fire an arrow at Naydra's mouth"
-              ],
-              "recipes": null
+              "id": 61
             },
             "quantity": 1
           }
@@ -4231,18 +2296,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Guts",
-              "id": 125,
-              "type": "Enemy Drop",
-              "description": "This highly sought-after ingredient can only be obtained from a Lynel. It pulses with the vitality of a Lynel, a strength that makes it invaluable as an ingredient for elixirs.",
-              "sellPrice": 200,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 125
             },
             "quantity": 5
           },
@@ -4250,18 +2304,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Shard of Naydra's Horn",
-              "id": 62,
-              "type": "Enemy Drop",
-              "description": "This shard chipped and fell off the blue spirit Naydra. It's said the horn is the crystallized power of ice itself. It sells for quite a bit, but rumors say it has some other use.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 1800,
-              "availabilities": [
-                "Fire an arrow at Naydra's horn"
-              ],
-              "recipes": null
+              "id": 62
             },
             "quantity": 1
           }
@@ -4290,18 +2333,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hinox Toenail",
-              "id": 140,
-              "type": "Enemy Drop",
-              "description": "A nail obtained from a Hinox. It's as thick as a plate of armor and can be stewed with critters to make elixirs.",
-              "sellPrice": 20,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Hinox"
-              ],
-              "recipes": null
+              "id": 140
             },
             "quantity": 5
           },
@@ -4309,18 +2341,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Farosh's Scale",
-              "id": 63,
-              "type": "Enemy Drop",
-              "description": "This precious scale fell from the golden spirit Farosh. It contains powerful electricity within. You can cook it, but eating it seems like a waste.",
-              "sellPrice": 150,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 90,
-              "availabilities": [
-                "Fire an arrow at Farosh's body"
-              ],
-              "recipes": null
+              "id": 63
             },
             "quantity": 1
           }
@@ -4335,18 +2356,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hinox Tooth",
-              "id": 141,
-              "type": "Enemy Drop",
-              "description": "A tooth obtained from a Hinox. It's so large, it's hard to believe it's a real tooth. It can be used to make elixirs.",
-              "sellPrice": 35,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Hinox"
-              ],
-              "recipes": null
+              "id": 141
             },
             "quantity": 5
           },
@@ -4354,18 +2364,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Farosh's Claw",
-              "id": 64,
-              "type": "Enemy Drop",
-              "description": "This claw was plucked from the golden spirit Farosh. Its electricity was expelled before it was removed, so it's safe to handle. A store will buy it, but it must have some other use.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 210,
-              "availabilities": [
-                "Fire an arrow at Farosh's feet"
-              ],
-              "recipes": null
+              "id": 64
             },
             "quantity": 1
           }
@@ -4380,18 +2379,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hinox Guts",
-              "id": 142,
-              "type": "Enemy Drop",
-              "description": "A giant, smelly Hinox organ of unknown function. Upon closer inspection, it appears to be quivering, It can be used to make an elixir, but some say it has other uses, as well.",
-              "sellPrice": 80,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Hinox"
-              ],
-              "recipes": null
+              "id": 142
             },
             "quantity": 5
           },
@@ -4399,18 +2387,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Shard of Farosh's Fang",
-              "id": 65,
-              "type": "Enemy Drop",
-              "description": "This shard fell from the golden spirit Farosh's fang. It's so hard, hammers bounce right off it, so it's impossible to process. Yet rumors say it does have some use as a material.",
-              "sellPrice": 250,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 630,
-              "availabilities": [
-                "Fire an arrow at Farosh's mouth"
-              ],
-              "recipes": null
+              "id": 65
             },
             "quantity": 1
           }
@@ -4425,18 +2402,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Guts",
-              "id": 125,
-              "type": "Enemy Drop",
-              "description": "This highly sought-after ingredient can only be obtained from a Lynel. It pulses with the vitality of a Lynel, a strength that makes it invaluable as an ingredient for elixirs.",
-              "sellPrice": 200,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 125
             },
             "quantity": 5
           },
@@ -4444,18 +2410,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Shard of Farosh's Horn",
-              "id": 66,
-              "type": "Enemy Drop",
-              "description": "This shard fell off the golden spirit Farosh. It's said the horn is the crystallized power of electricity itself. It sells for a lot, but there must be some other use for it.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 1800,
-              "availabilities": [
-                "Fire an arrow at Farosh's horn"
-              ],
-              "recipes": null
+              "id": 66
             },
             "quantity": 1
           }
@@ -4484,22 +2439,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Fireproof Lizard",
-              "id": 102,
-              "type": "Lizard",
-              "description": "This rare lizard can only be found in the Eldin region. Its scales have heat-resistant properties, so when cooked with monster parts, it produces a heat-resistant elixir.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Fireproof",
-                "addedEffect": "Flame Guard"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 150,
-              "availabilities": [
-                "Eldin Canyon",
-                "Death Mountain"
-              ],
-              "recipes": null
+              "id": 102
             },
             "quantity": 3
           },
@@ -4507,18 +2447,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Moblin Horn",
-              "id": 114,
-              "type": "Enemy Drop",
-              "description": "This splendid horn once grew atop the head of a Moblin. It can't be used in normal food recipes, but it does have some use as an ingredient in making elixirs.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Moblin"
-              ],
-              "recipes": null
+              "id": 114
             },
             "quantity": 3
           }
@@ -4533,22 +2462,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Fireproof Lizard",
-              "id": 102,
-              "type": "Lizard",
-              "description": "This rare lizard can only be found in the Eldin region. Its scales have heat-resistant properties, so when cooked with monster parts, it produces a heat-resistant elixir.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Fireproof",
-                "addedEffect": "Flame Guard"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 150,
-              "availabilities": [
-                "Eldin Canyon",
-                "Death Mountain"
-              ],
-              "recipes": null
+              "id": 102
             },
             "quantity": 5
           },
@@ -4556,18 +2470,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Moblin Fang",
-              "id": 115,
-              "type": "Enemy Drop",
-              "description": "A sharp fang obtained from a Moblin. It's too hard to be reshaped into a tool, but it can be tossed into a stew with some critters to create elixirs.",
-              "sellPrice": 12,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Moblin"
-              ],
-              "recipes": null
+              "id": 115
             },
             "quantity": 5
           }
@@ -4582,22 +2485,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Smotherwing Butterfly",
-              "id": 89,
-              "type": "Insect",
-              "description": "This rare butterfly lives in volcanic regions. Its body contains a heat-resistant liquid, which can be turned into a topical elixir that offers resistance to flames.",
-              "sellPrice": 2,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Fireproof",
-                "addedEffect": "Flame Guard"
-              },
-              "potencyGrade": "D",
-              "durationFactor": 150,
-              "availabilities": [
-                "Eldin Canyon",
-                "Death Mountain"
-              ],
-              "recipes": null
+              "id": 89
             },
             "quantity": 5
           },
@@ -4605,18 +2493,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Moblin Guts",
-              "id": 116,
-              "type": "Enemy Drop",
-              "description": "This prized ingredient can be obtained from Moblins. Its odor is too pungent for normal food preparation, but stew it with some critters to make elixirs.",
-              "sellPrice": 25,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Moblin"
-              ],
-              "recipes": null
+              "id": 116
             },
             "quantity": 3
           }
@@ -4631,22 +2508,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Smotherwing Butterfly",
-              "id": 89,
-              "type": "Insect",
-              "description": "This rare butterfly lives in volcanic regions. Its body contains a heat-resistant liquid, which can be turned into a topical elixir that offers resistance to flames.",
-              "sellPrice": 2,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Fireproof",
-                "addedEffect": "Flame Guard"
-              },
-              "potencyGrade": "D",
-              "durationFactor": 150,
-              "availabilities": [
-                "Eldin Canyon",
-                "Death Mountain"
-              ],
-              "recipes": null
+              "id": 89
             },
             "quantity": 8
           },
@@ -4654,18 +2516,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hinox Guts",
-              "id": 142,
-              "type": "Enemy Drop",
-              "description": "A giant, smelly Hinox organ of unknown function. Upon closer inspection, it appears to be quivering, It can be used to make an elixir, but some say it has other uses, as well.",
-              "sellPrice": 80,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Hinox"
-              ],
-              "recipes": null
+              "id": 142
             },
             "quantity": 5
           }
@@ -4694,22 +2545,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Fireproof Lizard",
-              "id": 102,
-              "type": "Lizard",
-              "description": "This rare lizard can only be found in the Eldin region. Its scales have heat-resistant properties, so when cooked with monster parts, it produces a heat-resistant elixir.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Fireproof",
-                "addedEffect": "Flame Guard"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 150,
-              "availabilities": [
-                "Eldin Canyon",
-                "Death Mountain"
-              ],
-              "recipes": null
+              "id": 102
             },
             "quantity": 3
           },
@@ -4717,18 +2553,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Moblin Horn",
-              "id": 114,
-              "type": "Enemy Drop",
-              "description": "This splendid horn once grew atop the head of a Moblin. It can't be used in normal food recipes, but it does have some use as an ingredient in making elixirs.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Moblin"
-              ],
-              "recipes": null
+              "id": 114
             },
             "quantity": 3
           }
@@ -4743,22 +2568,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Fireproof Lizard",
-              "id": 102,
-              "type": "Lizard",
-              "description": "This rare lizard can only be found in the Eldin region. Its scales have heat-resistant properties, so when cooked with monster parts, it produces a heat-resistant elixir.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Fireproof",
-                "addedEffect": "Flame Guard"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 150,
-              "availabilities": [
-                "Eldin Canyon",
-                "Death Mountain"
-              ],
-              "recipes": null
+              "id": 102
             },
             "quantity": 5
           },
@@ -4766,18 +2576,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Moblin Fang",
-              "id": 115,
-              "type": "Enemy Drop",
-              "description": "A sharp fang obtained from a Moblin. It's too hard to be reshaped into a tool, but it can be tossed into a stew with some critters to create elixirs.",
-              "sellPrice": 12,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Moblin"
-              ],
-              "recipes": null
+              "id": 115
             },
             "quantity": 5
           }
@@ -4792,22 +2591,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Smotherwing Butterfly",
-              "id": 89,
-              "type": "Insect",
-              "description": "This rare butterfly lives in volcanic regions. Its body contains a heat-resistant liquid, which can be turned into a topical elixir that offers resistance to flames.",
-              "sellPrice": 2,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Fireproof",
-                "addedEffect": "Flame Guard"
-              },
-              "potencyGrade": "D",
-              "durationFactor": 150,
-              "availabilities": [
-                "Eldin Canyon",
-                "Death Mountain"
-              ],
-              "recipes": null
+              "id": 89
             },
             "quantity": 5
           },
@@ -4815,18 +2599,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Moblin Guts",
-              "id": 116,
-              "type": "Enemy Drop",
-              "description": "This prized ingredient can be obtained from Moblins. Its odor is too pungent for normal food preparation, but stew it with some critters to make elixirs.",
-              "sellPrice": 25,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Moblin"
-              ],
-              "recipes": null
+              "id": 116
             },
             "quantity": 3
           }
@@ -4841,22 +2614,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Smotherwing Butterfly",
-              "id": 89,
-              "type": "Insect",
-              "description": "This rare butterfly lives in volcanic regions. Its body contains a heat-resistant liquid, which can be turned into a topical elixir that offers resistance to flames.",
-              "sellPrice": 2,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Fireproof",
-                "addedEffect": "Flame Guard"
-              },
-              "potencyGrade": "D",
-              "durationFactor": 150,
-              "availabilities": [
-                "Eldin Canyon",
-                "Death Mountain"
-              ],
-              "recipes": null
+              "id": 89
             },
             "quantity": 8
           },
@@ -4864,18 +2622,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hinox Guts",
-              "id": 142,
-              "type": "Enemy Drop",
-              "description": "A giant, smelly Hinox organ of unknown function. Upon closer inspection, it appears to be quivering, It can be used to make an elixir, but some say it has other uses, as well.",
-              "sellPrice": 80,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Hinox"
-              ],
-              "recipes": null
+              "id": 142
             },
             "quantity": 5
           }
@@ -4904,22 +2651,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Fireproof Lizard",
-              "id": 102,
-              "type": "Lizard",
-              "description": "This rare lizard can only be found in the Eldin region. Its scales have heat-resistant properties, so when cooked with monster parts, it produces a heat-resistant elixir.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Fireproof",
-                "addedEffect": "Flame Guard"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 150,
-              "availabilities": [
-                "Eldin Canyon",
-                "Death Mountain"
-              ],
-              "recipes": null
+              "id": 102
             },
             "quantity": 3
           },
@@ -4927,18 +2659,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Moblin Horn",
-              "id": 114,
-              "type": "Enemy Drop",
-              "description": "This splendid horn once grew atop the head of a Moblin. It can't be used in normal food recipes, but it does have some use as an ingredient in making elixirs.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Moblin"
-              ],
-              "recipes": null
+              "id": 114
             },
             "quantity": 3
           }
@@ -4953,22 +2674,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Fireproof Lizard",
-              "id": 102,
-              "type": "Lizard",
-              "description": "This rare lizard can only be found in the Eldin region. Its scales have heat-resistant properties, so when cooked with monster parts, it produces a heat-resistant elixir.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Fireproof",
-                "addedEffect": "Flame Guard"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 150,
-              "availabilities": [
-                "Eldin Canyon",
-                "Death Mountain"
-              ],
-              "recipes": null
+              "id": 102
             },
             "quantity": 5
           },
@@ -4976,18 +2682,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Moblin Fang",
-              "id": 115,
-              "type": "Enemy Drop",
-              "description": "A sharp fang obtained from a Moblin. It's too hard to be reshaped into a tool, but it can be tossed into a stew with some critters to create elixirs.",
-              "sellPrice": 12,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Moblin"
-              ],
-              "recipes": null
+              "id": 115
             },
             "quantity": 5
           }
@@ -5002,22 +2697,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Smotherwing Butterfly",
-              "id": 89,
-              "type": "Insect",
-              "description": "This rare butterfly lives in volcanic regions. Its body contains a heat-resistant liquid, which can be turned into a topical elixir that offers resistance to flames.",
-              "sellPrice": 2,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Fireproof",
-                "addedEffect": "Flame Guard"
-              },
-              "potencyGrade": "D",
-              "durationFactor": 150,
-              "availabilities": [
-                "Eldin Canyon",
-                "Death Mountain"
-              ],
-              "recipes": null
+              "id": 89
             },
             "quantity": 5
           },
@@ -5025,18 +2705,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Moblin Guts",
-              "id": 116,
-              "type": "Enemy Drop",
-              "description": "This prized ingredient can be obtained from Moblins. Its odor is too pungent for normal food preparation, but stew it with some critters to make elixirs.",
-              "sellPrice": 25,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Moblin"
-              ],
-              "recipes": null
+              "id": 116
             },
             "quantity": 3
           }
@@ -5051,22 +2720,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Smotherwing Butterfly",
-              "id": 89,
-              "type": "Insect",
-              "description": "This rare butterfly lives in volcanic regions. Its body contains a heat-resistant liquid, which can be turned into a topical elixir that offers resistance to flames.",
-              "sellPrice": 2,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Fireproof",
-                "addedEffect": "Flame Guard"
-              },
-              "potencyGrade": "D",
-              "durationFactor": 150,
-              "availabilities": [
-                "Eldin Canyon",
-                "Death Mountain"
-              ],
-              "recipes": null
+              "id": 89
             },
             "quantity": 8
           },
@@ -5074,18 +2728,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hinox Guts",
-              "id": 142,
-              "type": "Enemy Drop",
-              "description": "A giant, smelly Hinox organ of unknown function. Upon closer inspection, it appears to be quivering, It can be used to make an elixir, but some say it has other uses, as well.",
-              "sellPrice": 80,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Hinox"
-              ],
-              "recipes": null
+              "id": 142
             },
             "quantity": 5
           }
@@ -5153,18 +2796,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ancient Screw",
-              "id": 143,
-              "type": "Enemy Drop",
-              "description": "A screw used in ancient machinery. It's made of an unknown material, and no matter how many times it's turned, its threads never seem to show signs of wear.",
-              "sellPrice": 12,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Guardians"
-              ],
-              "recipes": null
+              "id": 143
             },
             "quantity": 5
           },
@@ -5172,18 +2804,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ancient Spring",
-              "id": 144,
-              "type": "Enemy Drop",
-              "description": "A spring used in ancient machinery. It is light and buoyant enough to float on water, and no matter how many times it's compressed, it never loses tension.",
-              "sellPrice": 15,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Guardians"
-              ],
-              "recipes": null
+              "id": 144
             },
             "quantity": 5
           }
@@ -5198,18 +2819,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ancient Spring",
-              "id": 144,
-              "type": "Enemy Drop",
-              "description": "A spring used in ancient machinery. It is light and buoyant enough to float on water, and no matter how many times it's compressed, it never loses tension.",
-              "sellPrice": 15,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Guardians"
-              ],
-              "recipes": null
+              "id": 144
             },
             "quantity": 15
           },
@@ -5217,18 +2827,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ancient Gear",
-              "id": 145,
-              "type": "Enemy Drop",
-              "description": "A gear used in ancient machinery. Despite being incredibly old, its build quality is leaps and bounds above anything built using current technology.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Guardians"
-              ],
-              "recipes": null
+              "id": 145
             },
             "quantity": 10
           }
@@ -5243,18 +2842,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ancient Shaft",
-              "id": 146,
-              "type": "Enemy Drop",
-              "description": "A machine part used in ancient machinery. It's incredibly sturdy, and it's not made of any recognizable material. It may come in handy someday.",
-              "sellPrice": 40,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Guardians"
-              ],
-              "recipes": null
+              "id": 146
             },
             "quantity": 15
           },
@@ -5262,18 +2850,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ancient Core",
-              "id": 147,
-              "type": "Enemy Drop",
-              "description": "This crystal was made using lost technology. At one time it was the power source for ancient machines. This item is very valuable to researchers.",
-              "sellPrice": 80,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Guardians"
-              ],
-              "recipes": null
+              "id": 147
             },
             "quantity": 5
           }
@@ -5288,18 +2865,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 3
           },
@@ -5307,18 +2873,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Giant Ancient Core",
-              "id": 148,
-              "type": "Enemy Drop",
-              "description": "A giant energy crystal made using lost ancient technology. Cores this large are an extremely rare find. A researcher would probably know how to use this.",
-              "sellPrice": 200,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Guardians"
-              ],
-              "recipes": null
+              "id": 148
             },
             "quantity": 3
           }
@@ -5347,18 +2902,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ancient Screw",
-              "id": 143,
-              "type": "Enemy Drop",
-              "description": "A screw used in ancient machinery. It's made of an unknown material, and no matter how many times it's turned, its threads never seem to show signs of wear.",
-              "sellPrice": 12,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Guardians"
-              ],
-              "recipes": null
+              "id": 143
             },
             "quantity": 5
           },
@@ -5366,18 +2910,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ancient Spring",
-              "id": 144,
-              "type": "Enemy Drop",
-              "description": "A spring used in ancient machinery. It is light and buoyant enough to float on water, and no matter how many times it's compressed, it never loses tension.",
-              "sellPrice": 15,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Guardians"
-              ],
-              "recipes": null
+              "id": 144
             },
             "quantity": 5
           }
@@ -5392,18 +2925,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ancient Spring",
-              "id": 144,
-              "type": "Enemy Drop",
-              "description": "A spring used in ancient machinery. It is light and buoyant enough to float on water, and no matter how many times it's compressed, it never loses tension.",
-              "sellPrice": 15,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Guardians"
-              ],
-              "recipes": null
+              "id": 144
             },
             "quantity": 15
           },
@@ -5411,18 +2933,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ancient Gear",
-              "id": 145,
-              "type": "Enemy Drop",
-              "description": "A gear used in ancient machinery. Despite being incredibly old, its build quality is leaps and bounds above anything built using current technology.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Guardians"
-              ],
-              "recipes": null
+              "id": 145
             },
             "quantity": 10
           }
@@ -5437,18 +2948,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ancient Shaft",
-              "id": 146,
-              "type": "Enemy Drop",
-              "description": "A machine part used in ancient machinery. It's incredibly sturdy, and it's not made of any recognizable material. It may come in handy someday.",
-              "sellPrice": 40,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Guardians"
-              ],
-              "recipes": null
+              "id": 146
             },
             "quantity": 15
           },
@@ -5456,18 +2956,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ancient Core",
-              "id": 147,
-              "type": "Enemy Drop",
-              "description": "This crystal was made using lost technology. At one time it was the power source for ancient machines. This item is very valuable to researchers.",
-              "sellPrice": 80,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Guardians"
-              ],
-              "recipes": null
+              "id": 147
             },
             "quantity": 5
           }
@@ -5482,18 +2971,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 3
           },
@@ -5501,18 +2979,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Giant Ancient Core",
-              "id": 148,
-              "type": "Enemy Drop",
-              "description": "A giant energy crystal made using lost ancient technology. Cores this large are an extremely rare find. A researcher would probably know how to use this.",
-              "sellPrice": 200,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Guardians"
-              ],
-              "recipes": null
+              "id": 148
             },
             "quantity": 3
           }
@@ -5541,18 +3008,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ancient Screw",
-              "id": 143,
-              "type": "Enemy Drop",
-              "description": "A screw used in ancient machinery. It's made of an unknown material, and no matter how many times it's turned, its threads never seem to show signs of wear.",
-              "sellPrice": 12,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Guardians"
-              ],
-              "recipes": null
+              "id": 143
             },
             "quantity": 5
           },
@@ -5560,18 +3016,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ancient Spring",
-              "id": 144,
-              "type": "Enemy Drop",
-              "description": "A spring used in ancient machinery. It is light and buoyant enough to float on water, and no matter how many times it's compressed, it never loses tension.",
-              "sellPrice": 15,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Guardians"
-              ],
-              "recipes": null
+              "id": 144
             },
             "quantity": 5
           }
@@ -5586,18 +3031,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ancient Spring",
-              "id": 144,
-              "type": "Enemy Drop",
-              "description": "A spring used in ancient machinery. It is light and buoyant enough to float on water, and no matter how many times it's compressed, it never loses tension.",
-              "sellPrice": 15,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Guardians"
-              ],
-              "recipes": null
+              "id": 144
             },
             "quantity": 15
           },
@@ -5605,18 +3039,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ancient Gear",
-              "id": 145,
-              "type": "Enemy Drop",
-              "description": "A gear used in ancient machinery. Despite being incredibly old, its build quality is leaps and bounds above anything built using current technology.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Guardians"
-              ],
-              "recipes": null
+              "id": 145
             },
             "quantity": 10
           }
@@ -5631,18 +3054,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ancient Shaft",
-              "id": 146,
-              "type": "Enemy Drop",
-              "description": "A machine part used in ancient machinery. It's incredibly sturdy, and it's not made of any recognizable material. It may come in handy someday.",
-              "sellPrice": 40,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Guardians"
-              ],
-              "recipes": null
+              "id": 146
             },
             "quantity": 15
           },
@@ -5650,18 +3062,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ancient Core",
-              "id": 147,
-              "type": "Enemy Drop",
-              "description": "This crystal was made using lost technology. At one time it was the power source for ancient machines. This item is very valuable to researchers.",
-              "sellPrice": 80,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Guardians"
-              ],
-              "recipes": null
+              "id": 147
             },
             "quantity": 5
           }
@@ -5676,18 +3077,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 3
           },
@@ -5695,18 +3085,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Giant Ancient Core",
-              "id": 148,
-              "type": "Enemy Drop",
-              "description": "A giant energy crystal made using lost ancient technology. Cores this large are an extremely rare find. A researcher would probably know how to use this.",
-              "sellPrice": 200,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Guardians"
-              ],
-              "recipes": null
+              "id": 148
             },
             "quantity": 3
           }
@@ -5735,20 +3114,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sapphire",
-              "id": 109,
-              "type": "Ore",
-              "description": "A precious blue gem mined from natural rock formations. Sapphires contain the very essence of ice. They've been known to fetch a high price since ancient times.",
-              "sellPrice": 260,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Frost and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 109
             },
             "quantity": 1
           },
@@ -5756,18 +3122,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -5782,20 +3137,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sapphire",
-              "id": 109,
-              "type": "Ore",
-              "description": "A precious blue gem mined from natural rock formations. Sapphires contain the very essence of ice. They've been known to fetch a high price since ancient times.",
-              "sellPrice": 260,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Frost and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 109
             },
             "quantity": 3
           },
@@ -5803,18 +3145,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 2
           }
@@ -5829,20 +3160,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sapphire",
-              "id": 109,
-              "type": "Ore",
-              "description": "A precious blue gem mined from natural rock formations. Sapphires contain the very essence of ice. They've been known to fetch a high price since ancient times.",
-              "sellPrice": 260,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Frost and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 109
             },
             "quantity": 5
           },
@@ -5850,18 +3168,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 3
           }
@@ -5876,20 +3183,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sapphire",
-              "id": 109,
-              "type": "Ore",
-              "description": "A precious blue gem mined from natural rock formations. Sapphires contain the very essence of ice. They've been known to fetch a high price since ancient times.",
-              "sellPrice": 260,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Frost and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 109
             },
             "quantity": 10
           },
@@ -5897,18 +3191,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 4
           }
@@ -5937,20 +3220,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sapphire",
-              "id": 109,
-              "type": "Ore",
-              "description": "A precious blue gem mined from natural rock formations. Sapphires contain the very essence of ice. They've been known to fetch a high price since ancient times.",
-              "sellPrice": 260,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Frost and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 109
             },
             "quantity": 1
           },
@@ -5958,18 +3228,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -5984,20 +3243,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sapphire",
-              "id": 109,
-              "type": "Ore",
-              "description": "A precious blue gem mined from natural rock formations. Sapphires contain the very essence of ice. They've been known to fetch a high price since ancient times.",
-              "sellPrice": 260,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Frost and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 109
             },
             "quantity": 3
           },
@@ -6005,18 +3251,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 2
           }
@@ -6031,20 +3266,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sapphire",
-              "id": 109,
-              "type": "Ore",
-              "description": "A precious blue gem mined from natural rock formations. Sapphires contain the very essence of ice. They've been known to fetch a high price since ancient times.",
-              "sellPrice": 260,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Frost and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 109
             },
             "quantity": 5
           },
@@ -6052,18 +3274,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 3
           }
@@ -6078,20 +3289,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sapphire",
-              "id": 109,
-              "type": "Ore",
-              "description": "A precious blue gem mined from natural rock formations. Sapphires contain the very essence of ice. They've been known to fetch a high price since ancient times.",
-              "sellPrice": 260,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Frost and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 109
             },
             "quantity": 10
           },
@@ -6099,18 +3297,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 4
           }
@@ -6139,20 +3326,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sapphire",
-              "id": 109,
-              "type": "Ore",
-              "description": "A precious blue gem mined from natural rock formations. Sapphires contain the very essence of ice. They've been known to fetch a high price since ancient times.",
-              "sellPrice": 260,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Frost and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 109
             },
             "quantity": 1
           },
@@ -6160,18 +3334,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -6186,20 +3349,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sapphire",
-              "id": 109,
-              "type": "Ore",
-              "description": "A precious blue gem mined from natural rock formations. Sapphires contain the very essence of ice. They've been known to fetch a high price since ancient times.",
-              "sellPrice": 260,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Frost and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 109
             },
             "quantity": 3
           },
@@ -6207,18 +3357,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 2
           }
@@ -6233,20 +3372,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sapphire",
-              "id": 109,
-              "type": "Ore",
-              "description": "A precious blue gem mined from natural rock formations. Sapphires contain the very essence of ice. They've been known to fetch a high price since ancient times.",
-              "sellPrice": 260,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Frost and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 109
             },
             "quantity": 5
           },
@@ -6254,18 +3380,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 3
           }
@@ -6280,20 +3395,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sapphire",
-              "id": 109,
-              "type": "Ore",
-              "description": "A precious blue gem mined from natural rock formations. Sapphires contain the very essence of ice. They've been known to fetch a high price since ancient times.",
-              "sellPrice": 260,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Frost and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 109
             },
             "quantity": 10
           },
@@ -6301,18 +3403,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 4
           }
@@ -6341,20 +3432,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Amber",
-              "id": 104,
-              "type": "Ore",
-              "description": "A fossilized resin with a caramelesque sheen to it. It's been valued as a component in decorations and crafting since ancient times.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 104
             },
             "quantity": 3
           },
@@ -6362,18 +3440,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -6388,20 +3455,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Amber",
-              "id": 104,
-              "type": "Ore",
-              "description": "A fossilized resin with a caramelesque sheen to it. It's been valued as a component in decorations and crafting since ancient times.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 104
             },
             "quantity": 5
           },
@@ -6409,18 +3463,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 2
           }
@@ -6435,20 +3478,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Amber",
-              "id": 104,
-              "type": "Ore",
-              "description": "A fossilized resin with a caramelesque sheen to it. It's been valued as a component in decorations and crafting since ancient times.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 104
             },
             "quantity": 15
           },
@@ -6456,18 +3486,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 3
           }
@@ -6482,20 +3501,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Amber",
-              "id": 104,
-              "type": "Ore",
-              "description": "A fossilized resin with a caramelesque sheen to it. It's been valued as a component in decorations and crafting since ancient times.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 104
             },
             "quantity": 30
           },
@@ -6503,18 +3509,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 4
           }
@@ -6543,20 +3538,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Amber",
-              "id": 104,
-              "type": "Ore",
-              "description": "A fossilized resin with a caramelesque sheen to it. It's been valued as a component in decorations and crafting since ancient times.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 104
             },
             "quantity": 3
           },
@@ -6564,18 +3546,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -6590,20 +3561,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Amber",
-              "id": 104,
-              "type": "Ore",
-              "description": "A fossilized resin with a caramelesque sheen to it. It's been valued as a component in decorations and crafting since ancient times.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 104
             },
             "quantity": 5
           },
@@ -6611,18 +3569,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 2
           }
@@ -6637,20 +3584,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Amber",
-              "id": 104,
-              "type": "Ore",
-              "description": "A fossilized resin with a caramelesque sheen to it. It's been valued as a component in decorations and crafting since ancient times.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 104
             },
             "quantity": 15
           },
@@ -6658,18 +3592,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 3
           }
@@ -6684,20 +3607,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Amber",
-              "id": 104,
-              "type": "Ore",
-              "description": "A fossilized resin with a caramelesque sheen to it. It's been valued as a component in decorations and crafting since ancient times.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 104
             },
             "quantity": 30
           },
@@ -6705,18 +3615,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 4
           }
@@ -6745,20 +3644,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Amber",
-              "id": 104,
-              "type": "Ore",
-              "description": "A fossilized resin with a caramelesque sheen to it. It's been valued as a component in decorations and crafting since ancient times.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 104
             },
             "quantity": 3
           },
@@ -6766,18 +3652,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -6792,20 +3667,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Amber",
-              "id": 104,
-              "type": "Ore",
-              "description": "A fossilized resin with a caramelesque sheen to it. It's been valued as a component in decorations and crafting since ancient times.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 104
             },
             "quantity": 5
           },
@@ -6813,18 +3675,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 2
           }
@@ -6839,20 +3690,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Amber",
-              "id": 104,
-              "type": "Ore",
-              "description": "A fossilized resin with a caramelesque sheen to it. It's been valued as a component in decorations and crafting since ancient times.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 104
             },
             "quantity": 15
           },
@@ -6860,18 +3698,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 3
           }
@@ -6886,20 +3713,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Amber",
-              "id": 104,
-              "type": "Ore",
-              "description": "A fossilized resin with a caramelesque sheen to it. It's been valued as a component in decorations and crafting since ancient times.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 104
             },
             "quantity": 30
           },
@@ -6907,18 +3721,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 4
           }
@@ -6947,20 +3750,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Topaz",
-              "id": 107,
-              "type": "Ore",
-              "description": "This precious yellow gem contains the power of electricity. It's been known to fetch a high price since ancient times.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Luminous and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 107
             },
             "quantity": 1
           },
@@ -6968,18 +3758,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -6994,20 +3773,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Topaz",
-              "id": 107,
-              "type": "Ore",
-              "description": "This precious yellow gem contains the power of electricity. It's been known to fetch a high price since ancient times.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Luminous and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 107
             },
             "quantity": 3
           },
@@ -7015,18 +3781,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 2
           }
@@ -7041,20 +3796,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Topaz",
-              "id": 107,
-              "type": "Ore",
-              "description": "This precious yellow gem contains the power of electricity. It's been known to fetch a high price since ancient times.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Luminous and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 107
             },
             "quantity": 5
           },
@@ -7062,18 +3804,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 3
           }
@@ -7088,20 +3819,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Topaz",
-              "id": 107,
-              "type": "Ore",
-              "description": "This precious yellow gem contains the power of electricity. It's been known to fetch a high price since ancient times.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Luminous and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 107
             },
             "quantity": 10
           },
@@ -7109,18 +3827,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 4
           }
@@ -7149,20 +3856,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Topaz",
-              "id": 107,
-              "type": "Ore",
-              "description": "This precious yellow gem contains the power of electricity. It's been known to fetch a high price since ancient times.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Luminous and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 107
             },
             "quantity": 1
           },
@@ -7170,18 +3864,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -7196,20 +3879,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Topaz",
-              "id": 107,
-              "type": "Ore",
-              "description": "This precious yellow gem contains the power of electricity. It's been known to fetch a high price since ancient times.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Luminous and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 107
             },
             "quantity": 3
           },
@@ -7217,18 +3887,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 2
           }
@@ -7243,20 +3902,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Topaz",
-              "id": 107,
-              "type": "Ore",
-              "description": "This precious yellow gem contains the power of electricity. It's been known to fetch a high price since ancient times.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Luminous and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 107
             },
             "quantity": 5
           },
@@ -7264,18 +3910,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 3
           }
@@ -7290,20 +3925,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Topaz",
-              "id": 107,
-              "type": "Ore",
-              "description": "This precious yellow gem contains the power of electricity. It's been known to fetch a high price since ancient times.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Luminous and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 107
             },
             "quantity": 10
           },
@@ -7311,18 +3933,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 4
           }
@@ -7351,20 +3962,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Topaz",
-              "id": 107,
-              "type": "Ore",
-              "description": "This precious yellow gem contains the power of electricity. It's been known to fetch a high price since ancient times.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Luminous and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 107
             },
             "quantity": 1
           },
@@ -7372,18 +3970,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -7398,20 +3985,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Topaz",
-              "id": 107,
-              "type": "Ore",
-              "description": "This precious yellow gem contains the power of electricity. It's been known to fetch a high price since ancient times.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Luminous and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 107
             },
             "quantity": 3
           },
@@ -7419,18 +3993,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 2
           }
@@ -7445,20 +4008,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Topaz",
-              "id": 107,
-              "type": "Ore",
-              "description": "This precious yellow gem contains the power of electricity. It's been known to fetch a high price since ancient times.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Luminous and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 107
             },
             "quantity": 5
           },
@@ -7466,18 +4016,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 3
           }
@@ -7492,20 +4031,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Topaz",
-              "id": 107,
-              "type": "Ore",
-              "description": "This precious yellow gem contains the power of electricity. It's been known to fetch a high price since ancient times.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Luminous and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 107
             },
             "quantity": 10
           },
@@ -7513,18 +4039,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 4
           }
@@ -7553,18 +4068,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Acorn",
-              "id": 44,
-              "type": "Nut",
-              "description": "Often found on the ground near trees. Squirrels adore this nut, so you may have competition while foraging. Add one to a meal for a nutty seasoning.",
-              "sellPrice": 2,
-              "hpRecovery": 1,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 50,
-              "availabilities": [
-                "Dropped by squirrels"
-              ],
-              "recipes": null
+              "id": 44
             },
             "quantity": 10
           },
@@ -7572,18 +4076,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Farosh's Scale",
-              "id": 63,
-              "type": "Enemy Drop",
-              "description": "This precious scale fell from the golden spirit Farosh. It contains powerful electricity within. You can cook it, but eating it seems like a waste.",
-              "sellPrice": 150,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 90,
-              "availabilities": [
-                "Fire an arrow at Farosh's body"
-              ],
-              "recipes": null
+              "id": 63
             },
             "quantity": 2
           }
@@ -7598,21 +4091,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Courser Bee Honey",
-              "id": 42,
-              "type": "Misc",
-              "description": "Honey straight from the hive is chock-full of nutrients. Cooking this into a meal unlocks the potential of these nutrients and provides a stamina-recovery effect.",
-              "sellPrice": 10,
-              "hpRecovery": 4,
-              "category": {
-                "name": "Energizing",
-                "addedEffect": "Stamina Restoration"
-              },
-              "potencyGrade": "B",
-              "durationFactor": 0,
-              "availabilities": [
-                "Hit a bee hive"
-              ],
-              "recipes": null
+              "id": 42
             },
             "quantity": 5
           },
@@ -7620,18 +4099,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Farosh's Claw",
-              "id": 64,
-              "type": "Enemy Drop",
-              "description": "This claw was plucked from the golden spirit Farosh. Its electricity was expelled before it was removed, so it's safe to handle. A store will buy it, but it must have some other use.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 210,
-              "availabilities": [
-                "Fire an arrow at Farosh's feet"
-              ],
-              "recipes": null
+              "id": 64
             },
             "quantity": 2
           }
@@ -7646,22 +4114,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Energetic Rhino Beetle",
-              "id": 96,
-              "type": "Insect",
-              "description": "This valuable beetle can live up to ten years. When cooked with monster parts, its impressive vitality translates into an elixir that will greatly restore your stamina.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Energizing",
-                "addedEffect": "Stamina Restoration"
-              },
-              "potencyGrade": "A",
-              "durationFactor": 0,
-              "availabilities": [
-                "Akkala Highlands",
-                "West Necluda"
-              ],
-              "recipes": null
+              "id": 96
             },
             "quantity": 5
           },
@@ -7669,18 +4122,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Shard of Farosh's Fang",
-              "id": 65,
-              "type": "Enemy Drop",
-              "description": "This shard fell from the golden spirit Farosh's fang. It's so hard, hammers bounce right off it, so it's impossible to process. Yet rumors say it does have some use as a material.",
-              "sellPrice": 250,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 630,
-              "availabilities": [
-                "Fire an arrow at Farosh's mouth"
-              ],
-              "recipes": null
+              "id": 65
             },
             "quantity": 2
           }
@@ -7695,18 +4137,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           },
@@ -7714,18 +4145,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Shard of Farosh's Horn",
-              "id": 66,
-              "type": "Enemy Drop",
-              "description": "This shard fell off the golden spirit Farosh. It's said the horn is the crystallized power of electricity itself. It sells for a lot, but there must be some other use for it.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 1800,
-              "availabilities": [
-                "Fire an arrow at Farosh's horn"
-              ],
-              "recipes": null
+              "id": 66
             },
             "quantity": 2
           }
@@ -7754,18 +4174,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Acorn",
-              "id": 44,
-              "type": "Nut",
-              "description": "Often found on the ground near trees. Squirrels adore this nut, so you may have competition while foraging. Add one to a meal for a nutty seasoning.",
-              "sellPrice": 2,
-              "hpRecovery": 1,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 50,
-              "availabilities": [
-                "Dropped by squirrels"
-              ],
-              "recipes": null
+              "id": 44
             },
             "quantity": 10
           },
@@ -7773,18 +4182,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Naydra's Scale",
-              "id": 59,
-              "type": "Enemy Drop",
-              "description": "This precious scale fell from the blue spirit Naydra. It contains a bitter cold within. You can use it in cooking, but just eating it seems like a waste.",
-              "sellPrice": 150,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 90,
-              "availabilities": [
-                "Fire an arrow at Naydra's body"
-              ],
-              "recipes": null
+              "id": 59
             },
             "quantity": 2
           }
@@ -7799,21 +4197,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Courser Bee Honey",
-              "id": 42,
-              "type": "Misc",
-              "description": "Honey straight from the hive is chock-full of nutrients. Cooking this into a meal unlocks the potential of these nutrients and provides a stamina-recovery effect.",
-              "sellPrice": 10,
-              "hpRecovery": 4,
-              "category": {
-                "name": "Energizing",
-                "addedEffect": "Stamina Restoration"
-              },
-              "potencyGrade": "B",
-              "durationFactor": 0,
-              "availabilities": [
-                "Hit a bee hive"
-              ],
-              "recipes": null
+              "id": 42
             },
             "quantity": 5
           },
@@ -7821,18 +4205,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Naydra's Claw",
-              "id": 60,
-              "type": "Enemy Drop",
-              "description": "This valuable claw was plucked from the blue spirit Naydra. It was freezing cold before it was removed. You could sell it, but there must be some other use for it.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 210,
-              "availabilities": [
-                "Fire an arrow at Naydra's feet"
-              ],
-              "recipes": null
+              "id": 60
             },
             "quantity": 2
           }
@@ -7847,22 +4220,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Energetic Rhino Beetle",
-              "id": 96,
-              "type": "Insect",
-              "description": "This valuable beetle can live up to ten years. When cooked with monster parts, its impressive vitality translates into an elixir that will greatly restore your stamina.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Energizing",
-                "addedEffect": "Stamina Restoration"
-              },
-              "potencyGrade": "A",
-              "durationFactor": 0,
-              "availabilities": [
-                "Akkala Highlands",
-                "West Necluda"
-              ],
-              "recipes": null
+              "id": 96
             },
             "quantity": 5
           },
@@ -7870,18 +4228,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Shard of Naydra's Fang",
-              "id": 61,
-              "type": "Enemy Drop",
-              "description": "This shard fell from the blue spirit Naydra's fang. It's much harder than any metal, so it's impossible to process. Yet rumors say it can be used as a material for something.",
-              "sellPrice": 250,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 630,
-              "availabilities": [
-                "Fire an arrow at Naydra's mouth"
-              ],
-              "recipes": null
+              "id": 61
             },
             "quantity": 2
           }
@@ -7896,18 +4243,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           },
@@ -7915,18 +4251,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Shard of Naydra's Horn",
-              "id": 62,
-              "type": "Enemy Drop",
-              "description": "This shard chipped and fell off the blue spirit Naydra. It's said the horn is the crystallized power of ice itself. It sells for quite a bit, but rumors say it has some other use.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 1800,
-              "availabilities": [
-                "Fire an arrow at Naydra's horn"
-              ],
-              "recipes": null
+              "id": 62
             },
             "quantity": 2
           }
@@ -7955,18 +4280,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Acorn",
-              "id": 44,
-              "type": "Nut",
-              "description": "Often found on the ground near trees. Squirrels adore this nut, so you may have competition while foraging. Add one to a meal for a nutty seasoning.",
-              "sellPrice": 2,
-              "hpRecovery": 1,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 50,
-              "availabilities": [
-                "Dropped by squirrels"
-              ],
-              "recipes": null
+              "id": 44
             },
             "quantity": 10
           },
@@ -7974,18 +4288,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Dinraal's Scale",
-              "id": 55,
-              "type": "Enemy Drop",
-              "description": "This precious scale fell from the red spirit Dinraal. It emanates a great heat, You can use it in cooking, but eating it seems like a waste.",
-              "sellPrice": 150,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 90,
-              "availabilities": [
-                "Fire an arrow at Dinraal's body"
-              ],
-              "recipes": null
+              "id": 55
             },
             "quantity": 2
           }
@@ -8000,21 +4303,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Courser Bee Honey",
-              "id": 42,
-              "type": "Misc",
-              "description": "Honey straight from the hive is chock-full of nutrients. Cooking this into a meal unlocks the potential of these nutrients and provides a stamina-recovery effect.",
-              "sellPrice": 10,
-              "hpRecovery": 4,
-              "category": {
-                "name": "Energizing",
-                "addedEffect": "Stamina Restoration"
-              },
-              "potencyGrade": "B",
-              "durationFactor": 0,
-              "availabilities": [
-                "Hit a bee hive"
-              ],
-              "recipes": null
+              "id": 42
             },
             "quantity": 5
           },
@@ -8022,18 +4311,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Naydra's Claw",
-              "id": 60,
-              "type": "Enemy Drop",
-              "description": "This valuable claw was plucked from the blue spirit Naydra. It was freezing cold before it was removed. You could sell it, but there must be some other use for it.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 210,
-              "availabilities": [
-                "Fire an arrow at Naydra's feet"
-              ],
-              "recipes": null
+              "id": 60
             },
             "quantity": 2
           }
@@ -8048,22 +4326,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Energetic Rhino Beetle",
-              "id": 96,
-              "type": "Insect",
-              "description": "This valuable beetle can live up to ten years. When cooked with monster parts, its impressive vitality translates into an elixir that will greatly restore your stamina.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Energizing",
-                "addedEffect": "Stamina Restoration"
-              },
-              "potencyGrade": "A",
-              "durationFactor": 0,
-              "availabilities": [
-                "Akkala Highlands",
-                "West Necluda"
-              ],
-              "recipes": null
+              "id": 96
             },
             "quantity": 5
           },
@@ -8071,18 +4334,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Shard of Naydra's Fang",
-              "id": 61,
-              "type": "Enemy Drop",
-              "description": "This shard fell from the blue spirit Naydra's fang. It's much harder than any metal, so it's impossible to process. Yet rumors say it can be used as a material for something.",
-              "sellPrice": 250,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 630,
-              "availabilities": [
-                "Fire an arrow at Naydra's mouth"
-              ],
-              "recipes": null
+              "id": 61
             },
             "quantity": 2
           }
@@ -8097,18 +4349,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           },
@@ -8116,18 +4357,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Shard of Naydra's Horn",
-              "id": 62,
-              "type": "Enemy Drop",
-              "description": "This shard chipped and fell off the blue spirit Naydra. It's said the horn is the crystallized power of ice itself. It sells for quite a bit, but rumors say it has some other use.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 1800,
-              "availabilities": [
-                "Fire an arrow at Naydra's horn"
-              ],
-              "recipes": null
+              "id": 62
             },
             "quantity": 2
           }
@@ -8156,20 +4386,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Opal",
-              "id": 105,
-              "type": "Ore",
-              "description": "A valuable ore that gives off a mesmerizing iridescence similar to the inside of a seashell. It contains the power of water.",
-              "sellPrice": 60,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 105
             },
             "quantity": 1
           },
@@ -8177,18 +4394,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -8203,20 +4409,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Opal",
-              "id": 105,
-              "type": "Ore",
-              "description": "A valuable ore that gives off a mesmerizing iridescence similar to the inside of a seashell. It contains the power of water.",
-              "sellPrice": 60,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 105
             },
             "quantity": 5
           },
@@ -8224,18 +4417,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 2
           }
@@ -8250,20 +4432,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Opal",
-              "id": 105,
-              "type": "Ore",
-              "description": "A valuable ore that gives off a mesmerizing iridescence similar to the inside of a seashell. It contains the power of water.",
-              "sellPrice": 60,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 105
             },
             "quantity": 10
           },
@@ -8271,18 +4440,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 3
           }
@@ -8297,20 +4455,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Opal",
-              "id": 105,
-              "type": "Ore",
-              "description": "A valuable ore that gives off a mesmerizing iridescence similar to the inside of a seashell. It contains the power of water.",
-              "sellPrice": 60,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 105
             },
             "quantity": 20
           },
@@ -8318,18 +4463,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 4
           }
@@ -8358,20 +4492,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Opal",
-              "id": 105,
-              "type": "Ore",
-              "description": "A valuable ore that gives off a mesmerizing iridescence similar to the inside of a seashell. It contains the power of water.",
-              "sellPrice": 60,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 105
             },
             "quantity": 1
           },
@@ -8379,18 +4500,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -8405,20 +4515,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Opal",
-              "id": 105,
-              "type": "Ore",
-              "description": "A valuable ore that gives off a mesmerizing iridescence similar to the inside of a seashell. It contains the power of water.",
-              "sellPrice": 60,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 105
             },
             "quantity": 5
           },
@@ -8426,18 +4523,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 2
           }
@@ -8452,20 +4538,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Opal",
-              "id": 105,
-              "type": "Ore",
-              "description": "A valuable ore that gives off a mesmerizing iridescence similar to the inside of a seashell. It contains the power of water.",
-              "sellPrice": 60,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 105
             },
             "quantity": 10
           },
@@ -8473,18 +4546,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 3
           }
@@ -8499,20 +4561,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Opal",
-              "id": 105,
-              "type": "Ore",
-              "description": "A valuable ore that gives off a mesmerizing iridescence similar to the inside of a seashell. It contains the power of water.",
-              "sellPrice": 60,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 105
             },
             "quantity": 20
           },
@@ -8520,18 +4569,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 4
           }
@@ -8560,20 +4598,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Opal",
-              "id": 105,
-              "type": "Ore",
-              "description": "A valuable ore that gives off a mesmerizing iridescence similar to the inside of a seashell. It contains the power of water.",
-              "sellPrice": 60,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 105
             },
             "quantity": 1
           },
@@ -8581,18 +4606,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -8607,20 +4621,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Opal",
-              "id": 105,
-              "type": "Ore",
-              "description": "A valuable ore that gives off a mesmerizing iridescence similar to the inside of a seashell. It contains the power of water.",
-              "sellPrice": 60,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 105
             },
             "quantity": 5
           },
@@ -8628,18 +4629,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 2
           }
@@ -8654,20 +4644,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Opal",
-              "id": 105,
-              "type": "Ore",
-              "description": "A valuable ore that gives off a mesmerizing iridescence similar to the inside of a seashell. It contains the power of water.",
-              "sellPrice": 60,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 105
             },
             "quantity": 10
           },
@@ -8675,18 +4652,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 3
           }
@@ -8701,20 +4667,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Opal",
-              "id": 105,
-              "type": "Ore",
-              "description": "A valuable ore that gives off a mesmerizing iridescence similar to the inside of a seashell. It contains the power of water.",
-              "sellPrice": 60,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 105
             },
             "quantity": 20
           },
@@ -8722,18 +4675,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 4
           }
@@ -8762,21 +4704,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ruby",
-              "id": 108,
-              "type": "Ore",
-              "description": "A precious red gem mined from large ore deposits found throughout Hyrule. Rubies contain the power of fire and have fetched a high price since ancient times.",
-              "sellPrice": 210,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (standard",
-                " Luminous and Igneo Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 108
             },
             "quantity": 1
           },
@@ -8784,18 +4712,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -8810,21 +4727,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ruby",
-              "id": 108,
-              "type": "Ore",
-              "description": "A precious red gem mined from large ore deposits found throughout Hyrule. Rubies contain the power of fire and have fetched a high price since ancient times.",
-              "sellPrice": 210,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (standard",
-                " Luminous and Igneo Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 108
             },
             "quantity": 3
           },
@@ -8832,18 +4735,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 2
           }
@@ -8858,21 +4750,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ruby",
-              "id": 108,
-              "type": "Ore",
-              "description": "A precious red gem mined from large ore deposits found throughout Hyrule. Rubies contain the power of fire and have fetched a high price since ancient times.",
-              "sellPrice": 210,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (standard",
-                " Luminous and Igneo Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 108
             },
             "quantity": 5
           },
@@ -8880,18 +4758,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 3
           }
@@ -8906,21 +4773,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ruby",
-              "id": 108,
-              "type": "Ore",
-              "description": "A precious red gem mined from large ore deposits found throughout Hyrule. Rubies contain the power of fire and have fetched a high price since ancient times.",
-              "sellPrice": 210,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (standard",
-                " Luminous and Igneo Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 108
             },
             "quantity": 10
           },
@@ -8928,18 +4781,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 4
           }
@@ -8968,21 +4810,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ruby",
-              "id": 108,
-              "type": "Ore",
-              "description": "A precious red gem mined from large ore deposits found throughout Hyrule. Rubies contain the power of fire and have fetched a high price since ancient times.",
-              "sellPrice": 210,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (standard",
-                " Luminous and Igneo Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 108
             },
             "quantity": 1
           },
@@ -8990,18 +4818,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -9016,21 +4833,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ruby",
-              "id": 108,
-              "type": "Ore",
-              "description": "A precious red gem mined from large ore deposits found throughout Hyrule. Rubies contain the power of fire and have fetched a high price since ancient times.",
-              "sellPrice": 210,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (standard",
-                " Luminous and Igneo Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 108
             },
             "quantity": 3
           },
@@ -9038,18 +4841,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 2
           }
@@ -9064,21 +4856,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ruby",
-              "id": 108,
-              "type": "Ore",
-              "description": "A precious red gem mined from large ore deposits found throughout Hyrule. Rubies contain the power of fire and have fetched a high price since ancient times.",
-              "sellPrice": 210,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (standard",
-                " Luminous and Igneo Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 108
             },
             "quantity": 5
           },
@@ -9086,18 +4864,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 3
           }
@@ -9112,21 +4879,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ruby",
-              "id": 108,
-              "type": "Ore",
-              "description": "A precious red gem mined from large ore deposits found throughout Hyrule. Rubies contain the power of fire and have fetched a high price since ancient times.",
-              "sellPrice": 210,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (standard",
-                " Luminous and Igneo Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 108
             },
             "quantity": 10
           },
@@ -9134,18 +4887,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 4
           }
@@ -9174,21 +4916,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ruby",
-              "id": 108,
-              "type": "Ore",
-              "description": "A precious red gem mined from large ore deposits found throughout Hyrule. Rubies contain the power of fire and have fetched a high price since ancient times.",
-              "sellPrice": 210,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (standard",
-                " Luminous and Igneo Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 108
             },
             "quantity": 1
           },
@@ -9196,18 +4924,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 1
           }
@@ -9222,21 +4939,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ruby",
-              "id": 108,
-              "type": "Ore",
-              "description": "A precious red gem mined from large ore deposits found throughout Hyrule. Rubies contain the power of fire and have fetched a high price since ancient times.",
-              "sellPrice": 210,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (standard",
-                " Luminous and Igneo Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 108
             },
             "quantity": 3
           },
@@ -9244,18 +4947,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 2
           }
@@ -9270,21 +4962,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ruby",
-              "id": 108,
-              "type": "Ore",
-              "description": "A precious red gem mined from large ore deposits found throughout Hyrule. Rubies contain the power of fire and have fetched a high price since ancient times.",
-              "sellPrice": 210,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (standard",
-                " Luminous and Igneo Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 108
             },
             "quantity": 5
           },
@@ -9292,18 +4970,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 3
           }
@@ -9318,21 +4985,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ruby",
-              "id": 108,
-              "type": "Ore",
-              "description": "A precious red gem mined from large ore deposits found throughout Hyrule. Rubies contain the power of fire and have fetched a high price since ancient times.",
-              "sellPrice": 210,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (standard",
-                " Luminous and Igneo Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 108
             },
             "quantity": 10
           },
@@ -9340,18 +4993,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Star Fragment",
-              "id": 54,
-              "type": "Ore",
-              "description": "A mysterious stone fragment that fell from the sky. It looks like it would fetch a good price, but you may be able to use it in certain recipes as well.",
-              "sellPrice": 300,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Shooting stars"
-              ],
-              "recipes": null
+              "id": 54
             },
             "quantity": 4
           }
@@ -9380,18 +5022,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Horn",
-              "id": 111,
-              "type": "Enemy Drop",
-              "description": "The severed horn of a Bokoblin, a creature often encountered on the plains of Hyrule. It isn't edible, but it can be tossed into a stew with some critters to make an elixir.",
-              "sellPrice": 3,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 111
             },
             "quantity": 5
           }
@@ -9406,18 +5037,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Horn",
-              "id": 111,
-              "type": "Enemy Drop",
-              "description": "The severed horn of a Bokoblin, a creature often encountered on the plains of Hyrule. It isn't edible, but it can be tossed into a stew with some critters to make an elixir.",
-              "sellPrice": 3,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 111
             },
             "quantity": 8
           },
@@ -9425,18 +5045,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Fang",
-              "id": 112,
-              "type": "Enemy Drop",
-              "description": "A tooth obtained from a Bokoblin. It's worn down and not very sharp, but it's still pretty hard. Cook it alongside a critter to make an elixir.",
-              "sellPrice": 8,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 112
             },
             "quantity": 5
           }
@@ -9451,18 +5060,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Fang",
-              "id": 112,
-              "type": "Enemy Drop",
-              "description": "A tooth obtained from a Bokoblin. It's worn down and not very sharp, but it's still pretty hard. Cook it alongside a critter to make an elixir.",
-              "sellPrice": 8,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 112
             },
             "quantity": 10
           },
@@ -9470,18 +5068,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113,
-              "type": "Enemy Drop",
-              "description": "A rare material obtained by defeating a Bokoblin. It convulses on its own every now and then, which is really creepy, but perhaps it has a use.",
-              "sellPrice": 20,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 113
             },
             "quantity": 5
           }
@@ -9496,18 +5083,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113,
-              "type": "Enemy Drop",
-              "description": "A rare material obtained by defeating a Bokoblin. It convulses on its own every now and then, which is really creepy, but perhaps it has a use.",
-              "sellPrice": 20,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 113
             },
             "quantity": 15
           },
@@ -9515,20 +5091,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Amber",
-              "id": 104,
-              "type": "Ore",
-              "description": "A fossilized resin with a caramelesque sheen to it. It's been valued as a component in decorations and crafting since ancient times.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 104
             },
             "quantity": 30
           }
@@ -9557,18 +5120,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Horn",
-              "id": 111,
-              "type": "Enemy Drop",
-              "description": "The severed horn of a Bokoblin, a creature often encountered on the plains of Hyrule. It isn't edible, but it can be tossed into a stew with some critters to make an elixir.",
-              "sellPrice": 3,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 111
             },
             "quantity": 5
           }
@@ -9583,18 +5135,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Horn",
-              "id": 111,
-              "type": "Enemy Drop",
-              "description": "The severed horn of a Bokoblin, a creature often encountered on the plains of Hyrule. It isn't edible, but it can be tossed into a stew with some critters to make an elixir.",
-              "sellPrice": 3,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 111
             },
             "quantity": 8
           },
@@ -9602,18 +5143,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Fang",
-              "id": 112,
-              "type": "Enemy Drop",
-              "description": "A tooth obtained from a Bokoblin. It's worn down and not very sharp, but it's still pretty hard. Cook it alongside a critter to make an elixir.",
-              "sellPrice": 8,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 112
             },
             "quantity": 5
           }
@@ -9628,18 +5158,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Fang",
-              "id": 112,
-              "type": "Enemy Drop",
-              "description": "A tooth obtained from a Bokoblin. It's worn down and not very sharp, but it's still pretty hard. Cook it alongside a critter to make an elixir.",
-              "sellPrice": 8,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 112
             },
             "quantity": 10
           },
@@ -9647,18 +5166,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113,
-              "type": "Enemy Drop",
-              "description": "A rare material obtained by defeating a Bokoblin. It convulses on its own every now and then, which is really creepy, but perhaps it has a use.",
-              "sellPrice": 20,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 113
             },
             "quantity": 5
           }
@@ -9673,18 +5181,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113,
-              "type": "Enemy Drop",
-              "description": "A rare material obtained by defeating a Bokoblin. It convulses on its own every now and then, which is really creepy, but perhaps it has a use.",
-              "sellPrice": 20,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 113
             },
             "quantity": 15
           },
@@ -9692,20 +5189,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Amber",
-              "id": 104,
-              "type": "Ore",
-              "description": "A fossilized resin with a caramelesque sheen to it. It's been valued as a component in decorations and crafting since ancient times.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 104
             },
             "quantity": 30
           }
@@ -9734,18 +5218,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Horn",
-              "id": 111,
-              "type": "Enemy Drop",
-              "description": "The severed horn of a Bokoblin, a creature often encountered on the plains of Hyrule. It isn't edible, but it can be tossed into a stew with some critters to make an elixir.",
-              "sellPrice": 3,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 111
             },
             "quantity": 5
           }
@@ -9760,18 +5233,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Horn",
-              "id": 111,
-              "type": "Enemy Drop",
-              "description": "The severed horn of a Bokoblin, a creature often encountered on the plains of Hyrule. It isn't edible, but it can be tossed into a stew with some critters to make an elixir.",
-              "sellPrice": 3,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 111
             },
             "quantity": 8
           },
@@ -9779,18 +5241,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Fang",
-              "id": 112,
-              "type": "Enemy Drop",
-              "description": "A tooth obtained from a Bokoblin. It's worn down and not very sharp, but it's still pretty hard. Cook it alongside a critter to make an elixir.",
-              "sellPrice": 8,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 112
             },
             "quantity": 5
           }
@@ -9805,18 +5256,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Fang",
-              "id": 112,
-              "type": "Enemy Drop",
-              "description": "A tooth obtained from a Bokoblin. It's worn down and not very sharp, but it's still pretty hard. Cook it alongside a critter to make an elixir.",
-              "sellPrice": 8,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 112
             },
             "quantity": 10
           },
@@ -9824,18 +5264,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113,
-              "type": "Enemy Drop",
-              "description": "A rare material obtained by defeating a Bokoblin. It convulses on its own every now and then, which is really creepy, but perhaps it has a use.",
-              "sellPrice": 20,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 113
             },
             "quantity": 5
           }
@@ -9850,18 +5279,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113,
-              "type": "Enemy Drop",
-              "description": "A rare material obtained by defeating a Bokoblin. It convulses on its own every now and then, which is really creepy, but perhaps it has a use.",
-              "sellPrice": 20,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 113
             },
             "quantity": 15
           },
@@ -9869,20 +5287,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Amber",
-              "id": 104,
-              "type": "Ore",
-              "description": "A fossilized resin with a caramelesque sheen to it. It's been valued as a component in decorations and crafting since ancient times.",
-              "sellPrice": 30,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 104
             },
             "quantity": 30
           }
@@ -9911,20 +5316,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Luminous Stone",
-              "id": 106,
-              "type": "Ore",
-              "description": "This mysterious mineral gives off a pale blue glow in the dark, which some believe to be souls of the undead. Apparently, this stone can be used as a base to make special clothing.",
-              "sellPrice": 70,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Luminous stone deposits",
-                "Stone Talus (Luminous)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 106
             },
             "quantity": 5
           },
@@ -9932,18 +5324,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113,
-              "type": "Enemy Drop",
-              "description": "A rare material obtained by defeating a Bokoblin. It convulses on its own every now and then, which is really creepy, but perhaps it has a use.",
-              "sellPrice": 20,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 113
             },
             "quantity": 3
           }
@@ -9958,20 +5339,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Luminous Stone",
-              "id": 106,
-              "type": "Ore",
-              "description": "This mysterious mineral gives off a pale blue glow in the dark, which some believe to be souls of the undead. Apparently, this stone can be used as a base to make special clothing.",
-              "sellPrice": 70,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Luminous stone deposits",
-                "Stone Talus (Luminous)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 106
             },
             "quantity": 8
           },
@@ -9979,18 +5347,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Moblin Guts",
-              "id": 116,
-              "type": "Enemy Drop",
-              "description": "This prized ingredient can be obtained from Moblins. Its odor is too pungent for normal food preparation, but stew it with some critters to make elixirs.",
-              "sellPrice": 25,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Moblin"
-              ],
-              "recipes": null
+              "id": 116
             },
             "quantity": 3
           }
@@ -10005,20 +5362,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Luminous Stone",
-              "id": 106,
-              "type": "Ore",
-              "description": "This mysterious mineral gives off a pale blue glow in the dark, which some believe to be souls of the undead. Apparently, this stone can be used as a base to make special clothing.",
-              "sellPrice": 70,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Luminous stone deposits",
-                "Stone Talus (Luminous)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 106
             },
             "quantity": 10
           },
@@ -10026,18 +5370,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Molduga Guts",
-              "id": 139,
-              "type": "Enemy Drop",
-              "description": "A giant organ obtained from a Molduga. This invaluable ingredient is hard to come by, and its use is shrouded in mystery.",
-              "sellPrice": 110,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Moldugas"
-              ],
-              "recipes": null
+              "id": 139
             },
             "quantity": 3
           }
@@ -10052,20 +5385,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Luminous Stone",
-              "id": 106,
-              "type": "Ore",
-              "description": "This mysterious mineral gives off a pale blue glow in the dark, which some believe to be souls of the undead. Apparently, this stone can be used as a base to make special clothing.",
-              "sellPrice": 70,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Luminous stone deposits",
-                "Stone Talus (Luminous)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 106
             },
             "quantity": 20
           },
@@ -10073,18 +5393,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Guts",
-              "id": 125,
-              "type": "Enemy Drop",
-              "description": "This highly sought-after ingredient can only be obtained from a Lynel. It pulses with the vitality of a Lynel, a strength that makes it invaluable as an ingredient for elixirs.",
-              "sellPrice": 200,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 125
             },
             "quantity": 3
           }
@@ -10113,20 +5422,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Luminous Stone",
-              "id": 106,
-              "type": "Ore",
-              "description": "This mysterious mineral gives off a pale blue glow in the dark, which some believe to be souls of the undead. Apparently, this stone can be used as a base to make special clothing.",
-              "sellPrice": 70,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Luminous stone deposits",
-                "Stone Talus (Luminous)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 106
             },
             "quantity": 5
           },
@@ -10134,18 +5430,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113,
-              "type": "Enemy Drop",
-              "description": "A rare material obtained by defeating a Bokoblin. It convulses on its own every now and then, which is really creepy, but perhaps it has a use.",
-              "sellPrice": 20,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 113
             },
             "quantity": 3
           }
@@ -10160,20 +5445,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Luminous Stone",
-              "id": 106,
-              "type": "Ore",
-              "description": "This mysterious mineral gives off a pale blue glow in the dark, which some believe to be souls of the undead. Apparently, this stone can be used as a base to make special clothing.",
-              "sellPrice": 70,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Luminous stone deposits",
-                "Stone Talus (Luminous)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 106
             },
             "quantity": 8
           },
@@ -10181,18 +5453,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Moblin Guts",
-              "id": 116,
-              "type": "Enemy Drop",
-              "description": "This prized ingredient can be obtained from Moblins. Its odor is too pungent for normal food preparation, but stew it with some critters to make elixirs.",
-              "sellPrice": 25,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Moblin"
-              ],
-              "recipes": null
+              "id": 116
             },
             "quantity": 3
           }
@@ -10207,20 +5468,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Luminous Stone",
-              "id": 106,
-              "type": "Ore",
-              "description": "This mysterious mineral gives off a pale blue glow in the dark, which some believe to be souls of the undead. Apparently, this stone can be used as a base to make special clothing.",
-              "sellPrice": 70,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Luminous stone deposits",
-                "Stone Talus (Luminous)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 106
             },
             "quantity": 10
           },
@@ -10228,18 +5476,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Molduga Guts",
-              "id": 139,
-              "type": "Enemy Drop",
-              "description": "A giant organ obtained from a Molduga. This invaluable ingredient is hard to come by, and its use is shrouded in mystery.",
-              "sellPrice": 110,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Moldugas"
-              ],
-              "recipes": null
+              "id": 139
             },
             "quantity": 3
           }
@@ -10254,20 +5491,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Luminous Stone",
-              "id": 106,
-              "type": "Ore",
-              "description": "This mysterious mineral gives off a pale blue glow in the dark, which some believe to be souls of the undead. Apparently, this stone can be used as a base to make special clothing.",
-              "sellPrice": 70,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Luminous stone deposits",
-                "Stone Talus (Luminous)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 106
             },
             "quantity": 20
           },
@@ -10275,18 +5499,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Guts",
-              "id": 125,
-              "type": "Enemy Drop",
-              "description": "This highly sought-after ingredient can only be obtained from a Lynel. It pulses with the vitality of a Lynel, a strength that makes it invaluable as an ingredient for elixirs.",
-              "sellPrice": 200,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 125
             },
             "quantity": 3
           }
@@ -10315,20 +5528,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Luminous Stone",
-              "id": 106,
-              "type": "Ore",
-              "description": "This mysterious mineral gives off a pale blue glow in the dark, which some believe to be souls of the undead. Apparently, this stone can be used as a base to make special clothing.",
-              "sellPrice": 70,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Luminous stone deposits",
-                "Stone Talus (Luminous)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 106
             },
             "quantity": 5
           },
@@ -10336,18 +5536,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113,
-              "type": "Enemy Drop",
-              "description": "A rare material obtained by defeating a Bokoblin. It convulses on its own every now and then, which is really creepy, but perhaps it has a use.",
-              "sellPrice": 20,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 113
             },
             "quantity": 3
           }
@@ -10362,20 +5551,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Luminous Stone",
-              "id": 106,
-              "type": "Ore",
-              "description": "This mysterious mineral gives off a pale blue glow in the dark, which some believe to be souls of the undead. Apparently, this stone can be used as a base to make special clothing.",
-              "sellPrice": 70,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Luminous stone deposits",
-                "Stone Talus (Luminous)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 106
             },
             "quantity": 8
           },
@@ -10383,18 +5559,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Moblin Guts",
-              "id": 116,
-              "type": "Enemy Drop",
-              "description": "This prized ingredient can be obtained from Moblins. Its odor is too pungent for normal food preparation, but stew it with some critters to make elixirs.",
-              "sellPrice": 25,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Moblin"
-              ],
-              "recipes": null
+              "id": 116
             },
             "quantity": 3
           }
@@ -10409,20 +5574,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Luminous Stone",
-              "id": 106,
-              "type": "Ore",
-              "description": "This mysterious mineral gives off a pale blue glow in the dark, which some believe to be souls of the undead. Apparently, this stone can be used as a base to make special clothing.",
-              "sellPrice": 70,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Luminous stone deposits",
-                "Stone Talus (Luminous)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 106
             },
             "quantity": 10
           },
@@ -10430,18 +5582,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Molduga Guts",
-              "id": 139,
-              "type": "Enemy Drop",
-              "description": "A giant organ obtained from a Molduga. This invaluable ingredient is hard to come by, and its use is shrouded in mystery.",
-              "sellPrice": 110,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Moldugas"
-              ],
-              "recipes": null
+              "id": 139
             },
             "quantity": 3
           }
@@ -10456,20 +5597,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Luminous Stone",
-              "id": 106,
-              "type": "Ore",
-              "description": "This mysterious mineral gives off a pale blue glow in the dark, which some believe to be souls of the undead. Apparently, this stone can be used as a base to make special clothing.",
-              "sellPrice": 70,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Luminous stone deposits",
-                "Stone Talus (Luminous)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 106
             },
             "quantity": 20
           },
@@ -10477,18 +5605,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Guts",
-              "id": 125,
-              "type": "Enemy Drop",
-              "description": "This highly sought-after ingredient can only be obtained from a Lynel. It pulses with the vitality of a Lynel, a strength that makes it invaluable as an ingredient for elixirs.",
-              "sellPrice": 200,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 125
             },
             "quantity": 3
           }
@@ -10517,18 +5634,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Yellow Chuchu Jelly",
-              "id": 129,
-              "type": "Enemy Drop",
-              "description": "A jiggly substance that came from an Electric Chuchu. Electricity pulses through its gelatinous mass. If struck, it will explode in a burst of electric current.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Electric Chuchus"
-              ],
-              "recipes": null
+              "id": 129
             },
             "quantity": 3
           }
@@ -10543,18 +5649,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Yellow Chuchu Jelly",
-              "id": 129,
-              "type": "Enemy Drop",
-              "description": "A jiggly substance that came from an Electric Chuchu. Electricity pulses through its gelatinous mass. If struck, it will explode in a burst of electric current.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Electric Chuchus"
-              ],
-              "recipes": null
+              "id": 129
             },
             "quantity": 5
           },
@@ -10562,22 +5657,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Voltfruit",
-              "id": 7,
-              "type": "Fruit",
-              "description": "Cacti found in the Gerudo Desert bear this sweet fruit. It's naturally insulated, so when cooked into a dish, it provides resistance against electricity.",
-              "sellPrice": 4,
-              "hpRecovery": 2,
-              "category": {
-                "name": "Electro",
-                "addedEffect": "Shock Resistance"
-              },
-              "potencyGrade": "D",
-              "durationFactor": 150,
-              "availabilities": [
-                "Gerudo Desert",
-                "Gerudo Highlands"
-              ],
-              "recipes": null
+              "id": 7
             },
             "quantity": 5
           }
@@ -10592,22 +5672,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Zapshroom",
-              "id": 17,
-              "type": "Mushroom",
-              "description": "This mushroom grows wild in the Gerudo region. The cap is naturally insulated, so when used in cooking, it will offer protection against electricity.",
-              "sellPrice": 4,
-              "hpRecovery": 2,
-              "category": {
-                "name": "Electro",
-                "addedEffect": "Shock Resistance"
-              },
-              "potencyGrade": "A",
-              "durationFactor": 150,
-              "availabilities": [
-                "Gerudo Highlands",
-                "Hyrule Ridge"
-              ],
-              "recipes": null
+              "id": 17
             },
             "quantity": 5
           },
@@ -10615,18 +5680,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Yellow Lizalfos Tail",
-              "id": 122,
-              "type": "Enemy Drop",
-              "description": "The severed tail of an Electric Lizalfos. Its powerful stench makes it unappetizing and unfit for cooking, but it's highly valued as an ingredient for elixirs.",
-              "sellPrice": 35,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Electric Lizalfos"
-              ],
-              "recipes": null
+              "id": 122
             },
             "quantity": 5
           }
@@ -10641,18 +5695,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Yellow Lizalfos Tail",
-              "id": 122,
-              "type": "Enemy Drop",
-              "description": "The severed tail of an Electric Lizalfos. Its powerful stench makes it unappetizing and unfit for cooking, but it's highly valued as an ingredient for elixirs.",
-              "sellPrice": 35,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Electric Lizalfos"
-              ],
-              "recipes": null
+              "id": 122
             },
             "quantity": 10
           },
@@ -10660,20 +5703,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Topaz",
-              "id": 107,
-              "type": "Ore",
-              "description": "This precious yellow gem contains the power of electricity. It's been known to fetch a high price since ancient times.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Luminous and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 107
             },
             "quantity": 10
           }
@@ -10702,18 +5732,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Yellow Chuchu Jelly",
-              "id": 129,
-              "type": "Enemy Drop",
-              "description": "A jiggly substance that came from an Electric Chuchu. Electricity pulses through its gelatinous mass. If struck, it will explode in a burst of electric current.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Electric Chuchus"
-              ],
-              "recipes": null
+              "id": 129
             },
             "quantity": 3
           }
@@ -10728,18 +5747,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Yellow Chuchu Jelly",
-              "id": 129,
-              "type": "Enemy Drop",
-              "description": "A jiggly substance that came from an Electric Chuchu. Electricity pulses through its gelatinous mass. If struck, it will explode in a burst of electric current.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Electric Chuchus"
-              ],
-              "recipes": null
+              "id": 129
             },
             "quantity": 5
           },
@@ -10747,22 +5755,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Voltfruit",
-              "id": 7,
-              "type": "Fruit",
-              "description": "Cacti found in the Gerudo Desert bear this sweet fruit. It's naturally insulated, so when cooked into a dish, it provides resistance against electricity.",
-              "sellPrice": 4,
-              "hpRecovery": 2,
-              "category": {
-                "name": "Electro",
-                "addedEffect": "Shock Resistance"
-              },
-              "potencyGrade": "D",
-              "durationFactor": 150,
-              "availabilities": [
-                "Gerudo Desert",
-                "Gerudo Highlands"
-              ],
-              "recipes": null
+              "id": 7
             },
             "quantity": 5
           }
@@ -10777,22 +5770,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Zapshroom",
-              "id": 17,
-              "type": "Mushroom",
-              "description": "This mushroom grows wild in the Gerudo region. The cap is naturally insulated, so when used in cooking, it will offer protection against electricity.",
-              "sellPrice": 4,
-              "hpRecovery": 2,
-              "category": {
-                "name": "Electro",
-                "addedEffect": "Shock Resistance"
-              },
-              "potencyGrade": "A",
-              "durationFactor": 150,
-              "availabilities": [
-                "Gerudo Highlands",
-                "Hyrule Ridge"
-              ],
-              "recipes": null
+              "id": 17
             },
             "quantity": 5
           },
@@ -10800,18 +5778,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Yellow Lizalfos Tail",
-              "id": 122,
-              "type": "Enemy Drop",
-              "description": "The severed tail of an Electric Lizalfos. Its powerful stench makes it unappetizing and unfit for cooking, but it's highly valued as an ingredient for elixirs.",
-              "sellPrice": 35,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Electric Lizalfos"
-              ],
-              "recipes": null
+              "id": 122
             },
             "quantity": 5
           }
@@ -10826,18 +5793,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Yellow Lizalfos Tail",
-              "id": 122,
-              "type": "Enemy Drop",
-              "description": "The severed tail of an Electric Lizalfos. Its powerful stench makes it unappetizing and unfit for cooking, but it's highly valued as an ingredient for elixirs.",
-              "sellPrice": 35,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Electric Lizalfos"
-              ],
-              "recipes": null
+              "id": 122
             },
             "quantity": 10
           },
@@ -10845,20 +5801,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Topaz",
-              "id": 107,
-              "type": "Ore",
-              "description": "This precious yellow gem contains the power of electricity. It's been known to fetch a high price since ancient times.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Luminous and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 107
             },
             "quantity": 10
           }
@@ -10887,18 +5830,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Yellow Chuchu Jelly",
-              "id": 129,
-              "type": "Enemy Drop",
-              "description": "A jiggly substance that came from an Electric Chuchu. Electricity pulses through its gelatinous mass. If struck, it will explode in a burst of electric current.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Electric Chuchus"
-              ],
-              "recipes": null
+              "id": 129
             },
             "quantity": 3
           }
@@ -10913,18 +5845,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Yellow Chuchu Jelly",
-              "id": 129,
-              "type": "Enemy Drop",
-              "description": "A jiggly substance that came from an Electric Chuchu. Electricity pulses through its gelatinous mass. If struck, it will explode in a burst of electric current.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Electric Chuchus"
-              ],
-              "recipes": null
+              "id": 129
             },
             "quantity": 5
           },
@@ -10932,22 +5853,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Voltfruit",
-              "id": 7,
-              "type": "Fruit",
-              "description": "Cacti found in the Gerudo Desert bear this sweet fruit. It's naturally insulated, so when cooked into a dish, it provides resistance against electricity.",
-              "sellPrice": 4,
-              "hpRecovery": 2,
-              "category": {
-                "name": "Electro",
-                "addedEffect": "Shock Resistance"
-              },
-              "potencyGrade": "D",
-              "durationFactor": 150,
-              "availabilities": [
-                "Gerudo Desert",
-                "Gerudo Highlands"
-              ],
-              "recipes": null
+              "id": 7
             },
             "quantity": 5
           }
@@ -10962,22 +5868,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Zapshroom",
-              "id": 17,
-              "type": "Mushroom",
-              "description": "This mushroom grows wild in the Gerudo region. The cap is naturally insulated, so when used in cooking, it will offer protection against electricity.",
-              "sellPrice": 4,
-              "hpRecovery": 2,
-              "category": {
-                "name": "Electro",
-                "addedEffect": "Shock Resistance"
-              },
-              "potencyGrade": "A",
-              "durationFactor": 150,
-              "availabilities": [
-                "Gerudo Highlands",
-                "Hyrule Ridge"
-              ],
-              "recipes": null
+              "id": 17
             },
             "quantity": 5
           },
@@ -10985,18 +5876,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Yellow Lizalfos Tail",
-              "id": 122,
-              "type": "Enemy Drop",
-              "description": "The severed tail of an Electric Lizalfos. Its powerful stench makes it unappetizing and unfit for cooking, but it's highly valued as an ingredient for elixirs.",
-              "sellPrice": 35,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Electric Lizalfos"
-              ],
-              "recipes": null
+              "id": 122
             },
             "quantity": 5
           }
@@ -11011,18 +5891,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Yellow Lizalfos Tail",
-              "id": 122,
-              "type": "Enemy Drop",
-              "description": "The severed tail of an Electric Lizalfos. Its powerful stench makes it unappetizing and unfit for cooking, but it's highly valued as an ingredient for elixirs.",
-              "sellPrice": 35,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Electric Lizalfos"
-              ],
-              "recipes": null
+              "id": 122
             },
             "quantity": 10
           },
@@ -11030,20 +5899,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Topaz",
-              "id": 107,
-              "type": "Ore",
-              "description": "This precious yellow gem contains the power of electricity. It's been known to fetch a high price since ancient times.",
-              "sellPrice": 180,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (Luminous and Rare Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 107
             },
             "quantity": 10
           }
@@ -11072,18 +5928,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Red Chuchu Jelly",
-              "id": 128,
-              "type": "Enemy Drop",
-              "description": "A jiggly substance that normally comes from a Fire Chuchu. It constantly gives off heat. If struck, it will explode in a ball of flame.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Fire Chuchus"
-              ],
-              "recipes": null
+              "id": 128
             },
             "quantity": 3
           }
@@ -11098,18 +5943,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Red Chuchu Jelly",
-              "id": 128,
-              "type": "Enemy Drop",
-              "description": "A jiggly substance that normally comes from a Fire Chuchu. It constantly gives off heat. If struck, it will explode in a ball of flame.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Fire Chuchus"
-              ],
-              "recipes": null
+              "id": 128
             },
             "quantity": 5
           },
@@ -11117,22 +5951,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Warm Safflina",
-              "id": 29,
-              "type": "Plant",
-              "description": "This medicinal plant grows in hot regions, such as the Gerudo Desert. It's warm to the touch and increases your cold resistance when cooked into a dish.",
-              "sellPrice": 3,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Spicy",
-                "addedEffect": "Cold Resistance"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 150,
-              "availabilities": [
-                "Gerudo Desert",
-                "Hyrule Ridge"
-              ],
-              "recipes": null
+              "id": 29
             },
             "quantity": 3
           }
@@ -11147,18 +5966,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Fire Keese Wing",
-              "id": 132,
-              "type": "Enemy Drop",
-              "description": "A rare Fire Keese wing. There isn't enough Fire Keese attached to it to burn you, but it does have a slight warmth to it. It can be used as an ingredient for elixirs.",
-              "sellPrice": 6,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Fire Keese"
-              ],
-              "recipes": null
+              "id": 132
             },
             "quantity": 8
           },
@@ -11166,22 +5974,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sunshroom",
-              "id": 16,
-              "type": "Mushroom",
-              "description": "A bright red mushroom that grows in hot climates. Imbued with the power of heat, they can be used to cook dishes that will allow you to endure the bitter cold.",
-              "sellPrice": 4,
-              "hpRecovery": 2,
-              "category": {
-                "name": "Spicy",
-                "addedEffect": "Cold Resistance"
-              },
-              "potencyGrade": "C",
-              "durationFactor": 150,
-              "availabilities": [
-                "Deep Akkala",
-                "Gerudo Highlands"
-              ],
-              "recipes": null
+              "id": 16
             },
             "quantity": 5
           }
@@ -11196,18 +5989,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Red Lizalfos Tail",
-              "id": 121,
-              "type": "Enemy Drop",
-              "description": "The severed tail of a Fire-Breath Lizalfos. Its flavor makes the flesh inedible, but toss it into a stew with some critters, and you'll have yourself a nice elixir.",
-              "sellPrice": 35,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Fire-Breath Lizalfos"
-              ],
-              "recipes": null
+              "id": 121
             },
             "quantity": 10
           },
@@ -11215,21 +5997,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ruby",
-              "id": 108,
-              "type": "Ore",
-              "description": "A precious red gem mined from large ore deposits found throughout Hyrule. Rubies contain the power of fire and have fetched a high price since ancient times.",
-              "sellPrice": 210,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (standard",
-                " Luminous and Igneo Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 108
             },
             "quantity": 5
           }
@@ -11258,18 +6026,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Red Chuchu Jelly",
-              "id": 128,
-              "type": "Enemy Drop",
-              "description": "A jiggly substance that normally comes from a Fire Chuchu. It constantly gives off heat. If struck, it will explode in a ball of flame.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Fire Chuchus"
-              ],
-              "recipes": null
+              "id": 128
             },
             "quantity": 3
           }
@@ -11284,18 +6041,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Red Chuchu Jelly",
-              "id": 128,
-              "type": "Enemy Drop",
-              "description": "A jiggly substance that normally comes from a Fire Chuchu. It constantly gives off heat. If struck, it will explode in a ball of flame.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Fire Chuchus"
-              ],
-              "recipes": null
+              "id": 128
             },
             "quantity": 5
           },
@@ -11303,22 +6049,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Warm Safflina",
-              "id": 29,
-              "type": "Plant",
-              "description": "This medicinal plant grows in hot regions, such as the Gerudo Desert. It's warm to the touch and increases your cold resistance when cooked into a dish.",
-              "sellPrice": 3,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Spicy",
-                "addedEffect": "Cold Resistance"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 150,
-              "availabilities": [
-                "Gerudo Desert",
-                "Hyrule Ridge"
-              ],
-              "recipes": null
+              "id": 29
             },
             "quantity": 3
           }
@@ -11333,18 +6064,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Fire Keese Wing",
-              "id": 132,
-              "type": "Enemy Drop",
-              "description": "A rare Fire Keese wing. There isn't enough Fire Keese attached to it to burn you, but it does have a slight warmth to it. It can be used as an ingredient for elixirs.",
-              "sellPrice": 6,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Fire Keese"
-              ],
-              "recipes": null
+              "id": 132
             },
             "quantity": 8
           },
@@ -11352,22 +6072,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sunshroom",
-              "id": 16,
-              "type": "Mushroom",
-              "description": "A bright red mushroom that grows in hot climates. Imbued with the power of heat, they can be used to cook dishes that will allow you to endure the bitter cold.",
-              "sellPrice": 4,
-              "hpRecovery": 2,
-              "category": {
-                "name": "Spicy",
-                "addedEffect": "Cold Resistance"
-              },
-              "potencyGrade": "C",
-              "durationFactor": 150,
-              "availabilities": [
-                "Deep Akkala",
-                "Gerudo Highlands"
-              ],
-              "recipes": null
+              "id": 16
             },
             "quantity": 5
           }
@@ -11382,18 +6087,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Red Lizalfos Tail",
-              "id": 121,
-              "type": "Enemy Drop",
-              "description": "The severed tail of a Fire-Breath Lizalfos. Its flavor makes the flesh inedible, but toss it into a stew with some critters, and you'll have yourself a nice elixir.",
-              "sellPrice": 35,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Fire-Breath Lizalfos"
-              ],
-              "recipes": null
+              "id": 121
             },
             "quantity": 10
           },
@@ -11401,21 +6095,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ruby",
-              "id": 108,
-              "type": "Ore",
-              "description": "A precious red gem mined from large ore deposits found throughout Hyrule. Rubies contain the power of fire and have fetched a high price since ancient times.",
-              "sellPrice": 210,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (standard",
-                " Luminous and Igneo Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 108
             },
             "quantity": 5
           }
@@ -11444,18 +6124,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Red Chuchu Jelly",
-              "id": 128,
-              "type": "Enemy Drop",
-              "description": "A jiggly substance that normally comes from a Fire Chuchu. It constantly gives off heat. If struck, it will explode in a ball of flame.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Fire Chuchus"
-              ],
-              "recipes": null
+              "id": 128
             },
             "quantity": 3
           }
@@ -11470,18 +6139,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Red Chuchu Jelly",
-              "id": 128,
-              "type": "Enemy Drop",
-              "description": "A jiggly substance that normally comes from a Fire Chuchu. It constantly gives off heat. If struck, it will explode in a ball of flame.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Fire Chuchus"
-              ],
-              "recipes": null
+              "id": 128
             },
             "quantity": 5
           },
@@ -11489,22 +6147,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Warm Safflina",
-              "id": 29,
-              "type": "Plant",
-              "description": "This medicinal plant grows in hot regions, such as the Gerudo Desert. It's warm to the touch and increases your cold resistance when cooked into a dish.",
-              "sellPrice": 3,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Spicy",
-                "addedEffect": "Cold Resistance"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 150,
-              "availabilities": [
-                "Gerudo Desert",
-                "Hyrule Ridge"
-              ],
-              "recipes": null
+              "id": 29
             },
             "quantity": 3
           }
@@ -11519,18 +6162,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Fire Keese Wing",
-              "id": 132,
-              "type": "Enemy Drop",
-              "description": "A rare Fire Keese wing. There isn't enough Fire Keese attached to it to burn you, but it does have a slight warmth to it. It can be used as an ingredient for elixirs.",
-              "sellPrice": 6,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Fire Keese"
-              ],
-              "recipes": null
+              "id": 132
             },
             "quantity": 8
           },
@@ -11538,22 +6170,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sunshroom",
-              "id": 16,
-              "type": "Mushroom",
-              "description": "A bright red mushroom that grows in hot climates. Imbued with the power of heat, they can be used to cook dishes that will allow you to endure the bitter cold.",
-              "sellPrice": 4,
-              "hpRecovery": 2,
-              "category": {
-                "name": "Spicy",
-                "addedEffect": "Cold Resistance"
-              },
-              "potencyGrade": "C",
-              "durationFactor": 150,
-              "availabilities": [
-                "Deep Akkala",
-                "Gerudo Highlands"
-              ],
-              "recipes": null
+              "id": 16
             },
             "quantity": 5
           }
@@ -11568,18 +6185,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Red Lizalfos Tail",
-              "id": 121,
-              "type": "Enemy Drop",
-              "description": "The severed tail of a Fire-Breath Lizalfos. Its flavor makes the flesh inedible, but toss it into a stew with some critters, and you'll have yourself a nice elixir.",
-              "sellPrice": 35,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Fire-Breath Lizalfos"
-              ],
-              "recipes": null
+              "id": 121
             },
             "quantity": 10
           },
@@ -11587,21 +6193,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Ruby",
-              "id": 108,
-              "type": "Ore",
-              "description": "A precious red gem mined from large ore deposits found throughout Hyrule. Rubies contain the power of fire and have fetched a high price since ancient times.",
-              "sellPrice": 210,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "Stone Talus (standard",
-                " Luminous and Igneo Types)",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 108
             },
             "quantity": 5
           }
@@ -11630,18 +6222,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Chuchu Jelly",
-              "id": 126,
-              "type": "Enemy Drop",
-              "description": "A gelatinous substance that came from a Chuchu. It's unusable in this state, but applying a bit of elemental stimulation will change its form.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Chuchus"
-              ],
-              "recipes": null
+              "id": 126
             },
             "quantity": 5
           },
@@ -11649,18 +6230,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113,
-              "type": "Enemy Drop",
-              "description": "A rare material obtained by defeating a Bokoblin. It convulses on its own every now and then, which is really creepy, but perhaps it has a use.",
-              "sellPrice": 20,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 113
             },
             "quantity": 3
           }
@@ -11675,18 +6245,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Keese Wing",
-              "id": 130,
-              "type": "Enemy Drop",
-              "description": "The wing of a Keese. It's covered with very short, sharp fur. It's not much use by itself, but you can mix it with critters to make something useful.",
-              "sellPrice": 2,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Keese"
-              ],
-              "recipes": null
+              "id": 130
             },
             "quantity": 5
           },
@@ -11694,18 +6253,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Moblin Guts",
-              "id": 116,
-              "type": "Enemy Drop",
-              "description": "This prized ingredient can be obtained from Moblins. Its odor is too pungent for normal food preparation, but stew it with some critters to make elixirs.",
-              "sellPrice": 25,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Moblin"
-              ],
-              "recipes": null
+              "id": 116
             },
             "quantity": 3
           }
@@ -11720,18 +6268,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lizalfos Tail",
-              "id": 119,
-              "type": "Enemy Drop",
-              "description": "The severed tail of a Lizalfos. It continues to wriggle even after being separated from its body. That kind of vitality makes it highly valued as an ingredient in elixirs.",
-              "sellPrice": 28,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lizalfos"
-              ],
-              "recipes": null
+              "id": 119
             },
             "quantity": 5
           },
@@ -11739,18 +6276,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hinox Guts",
-              "id": 142,
-              "type": "Enemy Drop",
-              "description": "A giant, smelly Hinox organ of unknown function. Upon closer inspection, it appears to be quivering, It can be used to make an elixir, but some say it has other uses, as well.",
-              "sellPrice": 80,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Hinox"
-              ],
-              "recipes": null
+              "id": 142
             },
             "quantity": 3
           }
@@ -11765,18 +6291,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Hoof",
-              "id": 124,
-              "type": "Enemy Drop",
-              "description": "This rare ingredient can be obtained only from a Lynel's foot. It's larger and heavier than a horse's hoof. It's useful for making elixirs but may have uses beyond that.",
-              "sellPrice": 50,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 124
             },
             "quantity": 4
           },
@@ -11784,18 +6299,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Guts",
-              "id": 125,
-              "type": "Enemy Drop",
-              "description": "This highly sought-after ingredient can only be obtained from a Lynel. It pulses with the vitality of a Lynel, a strength that makes it invaluable as an ingredient for elixirs.",
-              "sellPrice": 200,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 125
             },
             "quantity": 2
           }
@@ -11824,18 +6328,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Chuchu Jelly",
-              "id": 126,
-              "type": "Enemy Drop",
-              "description": "A gelatinous substance that came from a Chuchu. It's unusable in this state, but applying a bit of elemental stimulation will change its form.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Chuchus"
-              ],
-              "recipes": null
+              "id": 126
             },
             "quantity": 5
           },
@@ -11843,18 +6336,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113,
-              "type": "Enemy Drop",
-              "description": "A rare material obtained by defeating a Bokoblin. It convulses on its own every now and then, which is really creepy, but perhaps it has a use.",
-              "sellPrice": 20,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 113
             },
             "quantity": 3
           }
@@ -11869,18 +6351,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Keese Wing",
-              "id": 130,
-              "type": "Enemy Drop",
-              "description": "The wing of a Keese. It's covered with very short, sharp fur. It's not much use by itself, but you can mix it with critters to make something useful.",
-              "sellPrice": 2,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Keese"
-              ],
-              "recipes": null
+              "id": 130
             },
             "quantity": 5
           },
@@ -11888,18 +6359,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Moblin Guts",
-              "id": 116,
-              "type": "Enemy Drop",
-              "description": "This prized ingredient can be obtained from Moblins. Its odor is too pungent for normal food preparation, but stew it with some critters to make elixirs.",
-              "sellPrice": 25,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Moblin"
-              ],
-              "recipes": null
+              "id": 116
             },
             "quantity": 3
           }
@@ -11914,18 +6374,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lizalfos Tail",
-              "id": 119,
-              "type": "Enemy Drop",
-              "description": "The severed tail of a Lizalfos. It continues to wriggle even after being separated from its body. That kind of vitality makes it highly valued as an ingredient in elixirs.",
-              "sellPrice": 28,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lizalfos"
-              ],
-              "recipes": null
+              "id": 119
             },
             "quantity": 5
           },
@@ -11933,18 +6382,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hinox Guts",
-              "id": 142,
-              "type": "Enemy Drop",
-              "description": "A giant, smelly Hinox organ of unknown function. Upon closer inspection, it appears to be quivering, It can be used to make an elixir, but some say it has other uses, as well.",
-              "sellPrice": 80,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Hinox"
-              ],
-              "recipes": null
+              "id": 142
             },
             "quantity": 3
           }
@@ -11959,18 +6397,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Hoof",
-              "id": 124,
-              "type": "Enemy Drop",
-              "description": "This rare ingredient can be obtained only from a Lynel's foot. It's larger and heavier than a horse's hoof. It's useful for making elixirs but may have uses beyond that.",
-              "sellPrice": 50,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 124
             },
             "quantity": 4
           },
@@ -11978,18 +6405,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Guts",
-              "id": 125,
-              "type": "Enemy Drop",
-              "description": "This highly sought-after ingredient can only be obtained from a Lynel. It pulses with the vitality of a Lynel, a strength that makes it invaluable as an ingredient for elixirs.",
-              "sellPrice": 200,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 125
             },
             "quantity": 2
           }
@@ -12018,18 +6434,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Chuchu Jelly",
-              "id": 126,
-              "type": "Enemy Drop",
-              "description": "A gelatinous substance that came from a Chuchu. It's unusable in this state, but applying a bit of elemental stimulation will change its form.",
-              "sellPrice": 5,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Chuchus"
-              ],
-              "recipes": null
+              "id": 126
             },
             "quantity": 5
           },
@@ -12037,18 +6442,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113,
-              "type": "Enemy Drop",
-              "description": "A rare material obtained by defeating a Bokoblin. It convulses on its own every now and then, which is really creepy, but perhaps it has a use.",
-              "sellPrice": 20,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Bokoblin"
-              ],
-              "recipes": null
+              "id": 113
             },
             "quantity": 3
           }
@@ -12063,18 +6457,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Keese Wing",
-              "id": 130,
-              "type": "Enemy Drop",
-              "description": "The wing of a Keese. It's covered with very short, sharp fur. It's not much use by itself, but you can mix it with critters to make something useful.",
-              "sellPrice": 2,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Keese"
-              ],
-              "recipes": null
+              "id": 130
             },
             "quantity": 5
           },
@@ -12082,18 +6465,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Moblin Guts",
-              "id": 116,
-              "type": "Enemy Drop",
-              "description": "This prized ingredient can be obtained from Moblins. Its odor is too pungent for normal food preparation, but stew it with some critters to make elixirs.",
-              "sellPrice": 25,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Moblin"
-              ],
-              "recipes": null
+              "id": 116
             },
             "quantity": 3
           }
@@ -12108,18 +6480,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lizalfos Tail",
-              "id": 119,
-              "type": "Enemy Drop",
-              "description": "The severed tail of a Lizalfos. It continues to wriggle even after being separated from its body. That kind of vitality makes it highly valued as an ingredient in elixirs.",
-              "sellPrice": 28,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lizalfos"
-              ],
-              "recipes": null
+              "id": 119
             },
             "quantity": 5
           },
@@ -12127,18 +6488,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hinox Guts",
-              "id": 142,
-              "type": "Enemy Drop",
-              "description": "A giant, smelly Hinox organ of unknown function. Upon closer inspection, it appears to be quivering, It can be used to make an elixir, but some say it has other uses, as well.",
-              "sellPrice": 80,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Hinox"
-              ],
-              "recipes": null
+              "id": 142
             },
             "quantity": 3
           }
@@ -12153,18 +6503,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Hoof",
-              "id": 124,
-              "type": "Enemy Drop",
-              "description": "This rare ingredient can be obtained only from a Lynel's foot. It's larger and heavier than a horse's hoof. It's useful for making elixirs but may have uses beyond that.",
-              "sellPrice": 50,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 124
             },
             "quantity": 4
           },
@@ -12172,18 +6511,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lynel Guts",
-              "id": 125,
-              "type": "Enemy Drop",
-              "description": "This highly sought-after ingredient can only be obtained from a Lynel. It pulses with the vitality of a Lynel, a strength that makes it invaluable as an ingredient for elixirs.",
-              "sellPrice": 200,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lynels"
-              ],
-              "recipes": null
+              "id": 125
             },
             "quantity": 2
           }
@@ -12212,22 +6540,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Blue Nightshade",
-              "id": 34,
-              "type": "Plant",
-              "description": "A plant that grows in quieter areas of Hyrule. At night, it gives off a soft glow. Cook with it to increase your stealth.",
-              "sellPrice": 4,
-              "hpRecovery": 8,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 120,
-              "availabilities": [
-                "West Necluda",
-                "Lanayru Great Spring"
-              ],
-              "recipes": null
+              "id": 34
             },
             "quantity": 3
           }
@@ -12242,22 +6555,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Blue Nightshade",
-              "id": 34,
-              "type": "Plant",
-              "description": "A plant that grows in quieter areas of Hyrule. At night, it gives off a soft glow. Cook with it to increase your stealth.",
-              "sellPrice": 4,
-              "hpRecovery": 8,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 120,
-              "availabilities": [
-                "West Necluda",
-                "Lanayru Great Spring"
-              ],
-              "recipes": null
+              "id": 34
             },
             "quantity": 5
           },
@@ -12265,22 +6563,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sunset Firefly",
-              "id": 97,
-              "type": "Insect",
-              "description": "These fireflies glow gently in the dark. When cooked with monster parts, the compound that causes it to glow results in an elixir that will allow you to move more quietly.",
-              "sellPrice": 2,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 120,
-              "availabilities": [
-                "West Necluda",
-                "Korok Forest"
-              ],
-              "recipes": null
+              "id": 97
             },
             "quantity": 5
           }
@@ -12295,22 +6578,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Silent Shroom",
-              "id": 21,
-              "type": "Mushroom",
-              "description": "A strange mushroom that glows quietly in the forest at night. Cooking it into a dish unlocks the nutrients in its cap, resulting in a meal that will allow you to move stealthily.",
-              "sellPrice": 3,
-              "hpRecovery": 2,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "C",
-              "durationFactor": 120,
-              "availabilities": [
-                "Hyrule Field",
-                "Akkala Highlands"
-              ],
-              "recipes": null
+              "id": 21
             },
             "quantity": 8
           },
@@ -12318,22 +6586,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sneaky River Snail",
-              "id": 80,
-              "type": "Fish",
-              "description": "This large, glow-in-the-dark snail lives in fresh water. When cooked into a dish, it heightens your senses so you can move about silently.",
-              "sellPrice": 6,
-              "hpRecovery": 4,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 120,
-              "availabilities": [
-                "West Necluda",
-                "Lanayru Great Spring"
-              ],
-              "recipes": null
+              "id": 80
             },
             "quantity": 5
           }
@@ -12348,22 +6601,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hearty Blueshell Snail",
-              "id": 81,
-              "type": "Fish",
-              "description": "This snail lives on sandy beaches in large numbers. Its flesh contains a high amount of stimulants, so when cooked into a dish, it temporarily increases your maximum hearts.",
-              "sellPrice": 15,
-              "hpRecovery": 12,
-              "category": {
-                "name": "Hearty",
-                "addedEffect": "Extra Hearts"
-              },
-              "potencyGrade": "C",
-              "durationFactor": 0,
-              "availabilities": [
-                "Necluda Sea",
-                "Lanayru Sea"
-              ],
-              "recipes": null
+              "id": 81
             },
             "quantity": 10
           },
@@ -12371,22 +6609,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Silent Princess",
-              "id": 35,
-              "type": "Plant",
-              "description": "This lovely flower was said to have been a favorite of the princess of Hyrule. Once feared to have gone extinct, it's recently been spotted growing in the wild.",
-              "sellPrice": 10,
-              "hpRecovery": 12,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "A",
-              "durationFactor": 120,
-              "availabilities": [
-                "Hyrule Ridge",
-                "West Necluda"
-              ],
-              "recipes": null
+              "id": 35
             },
             "quantity": 5
           }
@@ -12415,22 +6638,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Blue Nightshade",
-              "id": 34,
-              "type": "Plant",
-              "description": "A plant that grows in quieter areas of Hyrule. At night, it gives off a soft glow. Cook with it to increase your stealth.",
-              "sellPrice": 4,
-              "hpRecovery": 8,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 120,
-              "availabilities": [
-                "West Necluda",
-                "Lanayru Great Spring"
-              ],
-              "recipes": null
+              "id": 34
             },
             "quantity": 3
           }
@@ -12445,22 +6653,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Blue Nightshade",
-              "id": 34,
-              "type": "Plant",
-              "description": "A plant that grows in quieter areas of Hyrule. At night, it gives off a soft glow. Cook with it to increase your stealth.",
-              "sellPrice": 4,
-              "hpRecovery": 8,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 120,
-              "availabilities": [
-                "West Necluda",
-                "Lanayru Great Spring"
-              ],
-              "recipes": null
+              "id": 34
             },
             "quantity": 5
           },
@@ -12468,22 +6661,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sunset Firefly",
-              "id": 97,
-              "type": "Insect",
-              "description": "These fireflies glow gently in the dark. When cooked with monster parts, the compound that causes it to glow results in an elixir that will allow you to move more quietly.",
-              "sellPrice": 2,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 120,
-              "availabilities": [
-                "West Necluda",
-                "Korok Forest"
-              ],
-              "recipes": null
+              "id": 97
             },
             "quantity": 5
           }
@@ -12498,22 +6676,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Silent Shroom",
-              "id": 21,
-              "type": "Mushroom",
-              "description": "A strange mushroom that glows quietly in the forest at night. Cooking it into a dish unlocks the nutrients in its cap, resulting in a meal that will allow you to move stealthily.",
-              "sellPrice": 3,
-              "hpRecovery": 2,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "C",
-              "durationFactor": 120,
-              "availabilities": [
-                "Hyrule Field",
-                "Akkala Highlands"
-              ],
-              "recipes": null
+              "id": 21
             },
             "quantity": 8
           },
@@ -12521,22 +6684,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sneaky River Snail",
-              "id": 80,
-              "type": "Fish",
-              "description": "This large, glow-in-the-dark snail lives in fresh water. When cooked into a dish, it heightens your senses so you can move about silently.",
-              "sellPrice": 6,
-              "hpRecovery": 4,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 120,
-              "availabilities": [
-                "West Necluda",
-                "Lanayru Great Spring"
-              ],
-              "recipes": null
+              "id": 80
             },
             "quantity": 5
           }
@@ -12551,22 +6699,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hearty Blueshell Snail",
-              "id": 81,
-              "type": "Fish",
-              "description": "This snail lives on sandy beaches in large numbers. Its flesh contains a high amount of stimulants, so when cooked into a dish, it temporarily increases your maximum hearts.",
-              "sellPrice": 15,
-              "hpRecovery": 12,
-              "category": {
-                "name": "Hearty",
-                "addedEffect": "Extra Hearts"
-              },
-              "potencyGrade": "C",
-              "durationFactor": 0,
-              "availabilities": [
-                "Necluda Sea",
-                "Lanayru Sea"
-              ],
-              "recipes": null
+              "id": 81
             },
             "quantity": 10
           },
@@ -12574,22 +6707,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Silent Princess",
-              "id": 35,
-              "type": "Plant",
-              "description": "This lovely flower was said to have been a favorite of the princess of Hyrule. Once feared to have gone extinct, it's recently been spotted growing in the wild.",
-              "sellPrice": 10,
-              "hpRecovery": 12,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "A",
-              "durationFactor": 120,
-              "availabilities": [
-                "Hyrule Ridge",
-                "West Necluda"
-              ],
-              "recipes": null
+              "id": 35
             },
             "quantity": 5
           }
@@ -12618,22 +6736,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Blue Nightshade",
-              "id": 34,
-              "type": "Plant",
-              "description": "A plant that grows in quieter areas of Hyrule. At night, it gives off a soft glow. Cook with it to increase your stealth.",
-              "sellPrice": 4,
-              "hpRecovery": 8,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 120,
-              "availabilities": [
-                "West Necluda",
-                "Lanayru Great Spring"
-              ],
-              "recipes": null
+              "id": 34
             },
             "quantity": 3
           }
@@ -12648,22 +6751,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Blue Nightshade",
-              "id": 34,
-              "type": "Plant",
-              "description": "A plant that grows in quieter areas of Hyrule. At night, it gives off a soft glow. Cook with it to increase your stealth.",
-              "sellPrice": 4,
-              "hpRecovery": 8,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 120,
-              "availabilities": [
-                "West Necluda",
-                "Lanayru Great Spring"
-              ],
-              "recipes": null
+              "id": 34
             },
             "quantity": 5
           },
@@ -12671,22 +6759,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sunset Firefly",
-              "id": 97,
-              "type": "Insect",
-              "description": "These fireflies glow gently in the dark. When cooked with monster parts, the compound that causes it to glow results in an elixir that will allow you to move more quietly.",
-              "sellPrice": 2,
-              "hpRecovery": 0,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 120,
-              "availabilities": [
-                "West Necluda",
-                "Korok Forest"
-              ],
-              "recipes": null
+              "id": 97
             },
             "quantity": 5
           }
@@ -12701,22 +6774,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Silent Shroom",
-              "id": 21,
-              "type": "Mushroom",
-              "description": "A strange mushroom that glows quietly in the forest at night. Cooking it into a dish unlocks the nutrients in its cap, resulting in a meal that will allow you to move stealthily.",
-              "sellPrice": 3,
-              "hpRecovery": 2,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "C",
-              "durationFactor": 120,
-              "availabilities": [
-                "Hyrule Field",
-                "Akkala Highlands"
-              ],
-              "recipes": null
+              "id": 21
             },
             "quantity": 8
           },
@@ -12724,22 +6782,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Sneaky River Snail",
-              "id": 80,
-              "type": "Fish",
-              "description": "This large, glow-in-the-dark snail lives in fresh water. When cooked into a dish, it heightens your senses so you can move about silently.",
-              "sellPrice": 6,
-              "hpRecovery": 4,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "E",
-              "durationFactor": 120,
-              "availabilities": [
-                "West Necluda",
-                "Lanayru Great Spring"
-              ],
-              "recipes": null
+              "id": 80
             },
             "quantity": 5
           }
@@ -12754,22 +6797,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hearty Blueshell Snail",
-              "id": 81,
-              "type": "Fish",
-              "description": "This snail lives on sandy beaches in large numbers. Its flesh contains a high amount of stimulants, so when cooked into a dish, it temporarily increases your maximum hearts.",
-              "sellPrice": 15,
-              "hpRecovery": 12,
-              "category": {
-                "name": "Hearty",
-                "addedEffect": "Extra Hearts"
-              },
-              "potencyGrade": "C",
-              "durationFactor": 0,
-              "availabilities": [
-                "Necluda Sea",
-                "Lanayru Sea"
-              ],
-              "recipes": null
+              "id": 81
             },
             "quantity": 10
           },
@@ -12777,22 +6805,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Silent Princess",
-              "id": 35,
-              "type": "Plant",
-              "description": "This lovely flower was said to have been a favorite of the princess of Hyrule. Once feared to have gone extinct, it's recently been spotted growing in the wild.",
-              "sellPrice": 10,
-              "hpRecovery": 12,
-              "category": {
-                "name": "Sneaky",
-                "addedEffect": "Stealth Up"
-              },
-              "potencyGrade": "A",
-              "durationFactor": 120,
-              "availabilities": [
-                "Hyrule Ridge",
-                "West Necluda"
-              ],
-              "recipes": null
+              "id": 35
             },
             "quantity": 5
           }
@@ -12821,18 +6834,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lizalfos Horn",
-              "id": 117,
-              "type": "Enemy Drop",
-              "description": "This winding horn once grew atop the head of a Lizalfos. It's too hard to use for cooking, but stores are willing to buy it from you. It can also be used to make elixirs.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Lizalfos"
-              ],
-              "recipes": null
+              "id": 117
             },
             "quantity": 3
           }
@@ -12847,18 +6849,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lizalfos Talon",
-              "id": 118,
-              "type": "Enemy Drop",
-              "description": "This talon once grew from the elbow of a Lizalfos. You can stew it with critters to make elixirs, but it may have some other uses, as well.",
-              "sellPrice": 15,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Lizalfos"
-              ],
-              "recipes": null
+              "id": 118
             },
             "quantity": 5
           },
@@ -12866,19 +6857,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hyrule Bass",
-              "id": 69,
-              "type": "Fish",
-              "description": "An ordinary fish that can be found all over Hyrule. Can be eaten raw, but cooking it amplifies its healing benefits.",
-              "sellPrice": 6,
-              "hpRecovery": 4,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Hyrule Field",
-                "West Necluda"
-              ],
-              "recipes": null
+              "id": 69
             },
             "quantity": 5
           }
@@ -12893,18 +6872,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lizalfos Tail",
-              "id": 119,
-              "type": "Enemy Drop",
-              "description": "The severed tail of a Lizalfos. It continues to wriggle even after being separated from its body. That kind of vitality makes it highly valued as an ingredient in elixirs.",
-              "sellPrice": 28,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lizalfos"
-              ],
-              "recipes": null
+              "id": 119
             },
             "quantity": 5
           },
@@ -12912,22 +6880,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hearty Bass",
-              "id": 68,
-              "type": "Fish",
-              "description": "This large fish lives near the shoreline. Its sizable body can restore a lot of nutrient. When cooked into a dish, it will temporarily increase your maximum hearts.",
-              "sellPrice": 18,
-              "hpRecovery": 8,
-              "category": {
-                "name": "Hearty",
-                "addedEffect": "Extra Hearts"
-              },
-              "potencyGrade": "D",
-              "durationFactor": 0,
-              "availabilities": [
-                "West Necluda",
-                "Akkala Highlands"
-              ],
-              "recipes": null
+              "id": 68
             },
             "quantity": 5
           }
@@ -12942,18 +6895,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lizalfos Tail",
-              "id": 119,
-              "type": "Enemy Drop",
-              "description": "The severed tail of a Lizalfos. It continues to wriggle even after being separated from its body. That kind of vitality makes it highly valued as an ingredient in elixirs.",
-              "sellPrice": 28,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lizalfos"
-              ],
-              "recipes": null
+              "id": 119
             },
             "quantity": 10
           },
@@ -12961,20 +6903,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Opal",
-              "id": 105,
-              "type": "Ore",
-              "description": "A valuable ore that gives off a mesmerizing iridescence similar to the inside of a seashell. It contains the power of water.",
-              "sellPrice": 60,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 105
             },
             "quantity": 15
           }
@@ -13003,18 +6932,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lizalfos Horn",
-              "id": 117,
-              "type": "Enemy Drop",
-              "description": "This winding horn once grew atop the head of a Lizalfos. It's too hard to use for cooking, but stores are willing to buy it from you. It can also be used to make elixirs.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Lizalfos"
-              ],
-              "recipes": null
+              "id": 117
             },
             "quantity": 3
           }
@@ -13029,18 +6947,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lizalfos Talon",
-              "id": 118,
-              "type": "Enemy Drop",
-              "description": "This talon once grew from the elbow of a Lizalfos. You can stew it with critters to make elixirs, but it may have some other uses, as well.",
-              "sellPrice": 15,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Lizalfos"
-              ],
-              "recipes": null
+              "id": 118
             },
             "quantity": 5
           },
@@ -13048,19 +6955,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hyrule Bass",
-              "id": 69,
-              "type": "Fish",
-              "description": "An ordinary fish that can be found all over Hyrule. Can be eaten raw, but cooking it amplifies its healing benefits.",
-              "sellPrice": 6,
-              "hpRecovery": 4,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Hyrule Field",
-                "West Necluda"
-              ],
-              "recipes": null
+              "id": 69
             },
             "quantity": 5
           }
@@ -13075,18 +6970,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lizalfos Tail",
-              "id": 119,
-              "type": "Enemy Drop",
-              "description": "The severed tail of a Lizalfos. It continues to wriggle even after being separated from its body. That kind of vitality makes it highly valued as an ingredient in elixirs.",
-              "sellPrice": 28,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lizalfos"
-              ],
-              "recipes": null
+              "id": 119
             },
             "quantity": 5
           },
@@ -13094,22 +6978,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hearty Bass",
-              "id": 68,
-              "type": "Fish",
-              "description": "This large fish lives near the shoreline. Its sizable body can restore a lot of nutrient. When cooked into a dish, it will temporarily increase your maximum hearts.",
-              "sellPrice": 18,
-              "hpRecovery": 8,
-              "category": {
-                "name": "Hearty",
-                "addedEffect": "Extra Hearts"
-              },
-              "potencyGrade": "D",
-              "durationFactor": 0,
-              "availabilities": [
-                "West Necluda",
-                "Akkala Highlands"
-              ],
-              "recipes": null
+              "id": 68
             },
             "quantity": 5
           }
@@ -13124,18 +6993,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lizalfos Tail",
-              "id": 119,
-              "type": "Enemy Drop",
-              "description": "The severed tail of a Lizalfos. It continues to wriggle even after being separated from its body. That kind of vitality makes it highly valued as an ingredient in elixirs.",
-              "sellPrice": 28,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lizalfos"
-              ],
-              "recipes": null
+              "id": 119
             },
             "quantity": 10
           },
@@ -13143,20 +7001,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Opal",
-              "id": 105,
-              "type": "Ore",
-              "description": "A valuable ore that gives off a mesmerizing iridescence similar to the inside of a seashell. It contains the power of water.",
-              "sellPrice": 60,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 105
             },
             "quantity": 15
           }
@@ -13185,18 +7030,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lizalfos Horn",
-              "id": 117,
-              "type": "Enemy Drop",
-              "description": "This winding horn once grew atop the head of a Lizalfos. It's too hard to use for cooking, but stores are willing to buy it from you. It can also be used to make elixirs.",
-              "sellPrice": 10,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 70,
-              "availabilities": [
-                "Dropped by Lizalfos"
-              ],
-              "recipes": null
+              "id": 117
             },
             "quantity": 3
           }
@@ -13211,18 +7045,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lizalfos Talon",
-              "id": 118,
-              "type": "Enemy Drop",
-              "description": "This talon once grew from the elbow of a Lizalfos. You can stew it with critters to make elixirs, but it may have some other uses, as well.",
-              "sellPrice": 15,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 110,
-              "availabilities": [
-                "Dropped by Lizalfos"
-              ],
-              "recipes": null
+              "id": 118
             },
             "quantity": 5
           },
@@ -13230,19 +7053,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hyrule Bass",
-              "id": 69,
-              "type": "Fish",
-              "description": "An ordinary fish that can be found all over Hyrule. Can be eaten raw, but cooking it amplifies its healing benefits.",
-              "sellPrice": 6,
-              "hpRecovery": 4,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 30,
-              "availabilities": [
-                "Hyrule Field",
-                "West Necluda"
-              ],
-              "recipes": null
+              "id": 69
             },
             "quantity": 5
           }
@@ -13257,18 +7068,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lizalfos Tail",
-              "id": 119,
-              "type": "Enemy Drop",
-              "description": "The severed tail of a Lizalfos. It continues to wriggle even after being separated from its body. That kind of vitality makes it highly valued as an ingredient in elixirs.",
-              "sellPrice": 28,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lizalfos"
-              ],
-              "recipes": null
+              "id": 119
             },
             "quantity": 5
           },
@@ -13276,22 +7076,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Hearty Bass",
-              "id": 68,
-              "type": "Fish",
-              "description": "This large fish lives near the shoreline. Its sizable body can restore a lot of nutrient. When cooked into a dish, it will temporarily increase your maximum hearts.",
-              "sellPrice": 18,
-              "hpRecovery": 8,
-              "category": {
-                "name": "Hearty",
-                "addedEffect": "Extra Hearts"
-              },
-              "potencyGrade": "D",
-              "durationFactor": 0,
-              "availabilities": [
-                "West Necluda",
-                "Akkala Highlands"
-              ],
-              "recipes": null
+              "id": 68
             },
             "quantity": 5
           }
@@ -13306,18 +7091,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Lizalfos Tail",
-              "id": 119,
-              "type": "Enemy Drop",
-              "description": "The severed tail of a Lizalfos. It continues to wriggle even after being separated from its body. That kind of vitality makes it highly valued as an ingredient in elixirs.",
-              "sellPrice": 28,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 190,
-              "availabilities": [
-                "Dropped by Lizalfos"
-              ],
-              "recipes": null
+              "id": 119
             },
             "quantity": 10
           },
@@ -13325,20 +7099,7 @@ module.exports = [
             "id": 0,
             "material": {
               "name": "Opal",
-              "id": 105,
-              "type": "Ore",
-              "description": "A valuable ore that gives off a mesmerizing iridescence similar to the inside of a seashell. It contains the power of water.",
-              "sellPrice": 60,
-              "hpRecovery": 0,
-              "category": null,
-              "potencyGrade": "",
-              "durationFactor": 0,
-              "availabilities": [
-                "Ore deposits",
-                "all Talus Types",
-                "all Silver enemies"
-              ],
-              "recipes": null
+              "id": 105
             },
             "quantity": 15
           }
@@ -13684,4 +7445,4 @@ module.exports = [
     "defense": 1,
     "armorUpgrades": null
   }
-]
+];

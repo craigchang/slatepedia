@@ -1,0 +1,134 @@
+/* Monster sprite sheet - monsters.png, 280x280px per sprite + 1px border (281px step) */
+/* Formula: x = -((col-1)*281+1)px, y = -((row-1)*281+1)px */
+.monster-sprite {
+  width: 280px;
+  height: 280px;
+  background-image: url('../img/monsters.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* Scaled down for list/grid view (~80px) */
+.monster-sprite.monster-sprite-sm {
+  transform: scale(0.286);
+  transform-origin: top left;
+}
+
+/* Row 1 (y = -1px) */
+.monster-sprite.yiga-footsoldier { background-position: -1px -1px; }
+.monster-sprite.yiga-blademaster { background-position: -282px -1px; }
+.monster-sprite.master-kohga { background-position: -563px -1px; }
+.monster-sprite.stalkoblin { background-position: -844px -1px; }
+.monster-sprite.silver-bokoblin { background-position: -1125px -1px; }
+.monster-sprite.bokoblin { background-position: -1406px -1px; }
+.monster-sprite.blue-bokoblin { background-position: -1687px -1px; }
+
+/* Row 2 (y = -282px) */
+.monster-sprite.black-bokoblin { background-position: -1px -282px; }
+.monster-sprite.electric-chuchu-small { background-position: -282px -282px; }
+.monster-sprite.electric-chuchu-medium { background-position: -563px -282px; }
+.monster-sprite.electric-chuchu-large { background-position: -563px -282px; }
+.monster-sprite.fire-chuchu-small { background-position: -844px -282px; }
+.monster-sprite.fire-chuchu-medium { background-position: -1125px -282px; }
+.monster-sprite.fire-chuchu-large { background-position: -1406px -282px; }
+.monster-sprite.ice-chuchu-small { background-position: -1687px -282px; }
+
+/* Row 3 (y = -563px) */
+.monster-sprite.ice-chuchu-medium { background-position: -1px -563px; }
+.monster-sprite.ice-chuchu-large { background-position: -1px -563px; }
+.monster-sprite.chuchu-small { background-position: -282px -563px; }
+.monster-sprite.chuchu-medium { background-position: -563px -563px; }
+.monster-sprite.chuchu-large { background-position: -844px -563px; }
+
+/* Row 4 (y = -844px) */
+.monster-sprite.calamity-ganon { background-position: -1px -844px; }
+.monster-sprite.dark-beast-ganon { background-position: -282px -844px; }
+.monster-sprite.cursed-bokoblin { background-position: -563px -844px; }
+.monster-sprite.cursed-moblin { background-position: -844px -844px; }
+.monster-sprite.cursed-lizalfos { background-position: -1125px -844px; }
+.monster-sprite.stalnox { background-position: -1406px -844px; }
+.monster-sprite.hinox { background-position: -1687px -844px; }
+
+/* Row 5 (y = -1125px) */
+.monster-sprite.blue-hinox { background-position: -1px -1125px; }
+.monster-sprite.black-hinox { background-position: -282px -1125px; }
+.monster-sprite.igneo-talus { background-position: -563px -1125px; }
+.monster-sprite.frost-talus { background-position: -844px -1125px; }
+.monster-sprite.stone-talus { background-position: -1125px -1125px; }
+.monster-sprite.stone-pebblit { background-position: -1406px -1125px; }
+.monster-sprite.igneo-pebblit { background-position: -1687px -1125px; }
+
+/* Row 6 (y = -1406px) */
+.monster-sprite.frost-pebblit { background-position: -1px -1406px; }
+.monster-sprite.stone-talus-luminous { background-position: -282px -1406px; }
+.monster-sprite.stone-talus-rare { background-position: -563px -1406px; }
+.monster-sprite.guardian-stalker { background-position: -844px -1406px; }
+.monster-sprite.decayed-guardian { background-position: -1125px -1406px; }
+.monster-sprite.guardian-turret { background-position: -1406px -1406px; }
+.monster-sprite.guardian-skywatcher { background-position: -1687px -1406px; }
+
+/* Row 7 (y = -1687px) */
+.monster-sprite.guardian-scout-1 { background-position: -1px -1687px; }
+.monster-sprite.guardian-scout-2 { background-position: -282px -1687px; }
+.monster-sprite.glowing-eyeball { background-position: -563px -1687px; }
+.monster-sprite.guardian-scout-3 { background-position: -844px -1687px; }
+.monster-sprite.guardian-scout-4 { background-position: -1125px -1687px; }
+.monster-sprite.keese { background-position: -1406px -1687px; }
+.monster-sprite.electric-keese { background-position: -1687px -1687px; }
+
+/* Row 8 (y = -1968px) */
+.monster-sprite.fire-keese { background-position: -1px -1968px; }
+.monster-sprite.ice-keese { background-position: -282px -1968px; }
+.monster-sprite.stalizalfos { background-position: -563px -1968px; }
+.monster-sprite.silver-lizalfos { background-position: -844px -1968px; }
+.monster-sprite.electric-lizalfos { background-position: -1125px -1968px; }
+.monster-sprite.fire-breath-lizalfos { background-position: -1406px -1968px; }
+.monster-sprite.ice-breath-lizalfos { background-position: -1687px -1968px; }
+
+/* Row 9 (y = -2249px) */
+.monster-sprite.lizalfos { background-position: -1px -2249px; }
+.monster-sprite.blue-lizalfos { background-position: -282px -2249px; }
+.monster-sprite.black-lizalfos { background-position: -563px -2249px; }
+.monster-sprite.silver-lynel { background-position: -844px -2249px; }
+.monster-sprite.lynel { background-position: -1125px -2249px; }
+.monster-sprite.blue-manned-lynel { background-position: -1406px -2249px; }
+.monster-sprite.white-manned-lynel { background-position: -1687px -2249px; }
+
+/* Row 10 (y = -2530px) */
+.monster-sprite.stalmoblin { background-position: -1px -2530px; }
+.monster-sprite.silver-moblin { background-position: -282px -2530px; }
+.monster-sprite.moblin { background-position: -563px -2530px; }
+.monster-sprite.blue-moblin { background-position: -844px -2530px; }
+.monster-sprite.black-moblin { background-position: -1125px -2530px; }
+.monster-sprite.water-octorok { background-position: -1406px -2530px; }
+.monster-sprite.treasure-octorok { background-position: -1687px -2530px; }
+
+/* Row 11 (y = -2811px) */
+.monster-sprite.forest-octorok { background-position: -1px -2811px; }
+.monster-sprite.snow-octorok { background-position: -282px -2811px; }
+.monster-sprite.rock-octorok { background-position: -563px -2811px; }
+.monster-sprite.molduga { background-position: -844px -2811px; }
+.monster-sprite.windblight-ganon { background-position: -1125px -2811px; }
+.monster-sprite.fireblight-ganon { background-position: -1406px -2811px; }
+.monster-sprite.waterblight-ganon { background-position: -1687px -2811px; }
+
+/* Row 12 (y = -3092px) */
+.monster-sprite.thunderblight-ganon { background-position: -1px -3092px; }
+.monster-sprite.electric-wizzrobe { background-position: -282px -3092px; }
+.monster-sprite.thunder-wizzrobe { background-position: -563px -3092px; }
+.monster-sprite.fire-wizzrobe { background-position: -844px -3092px; }
+.monster-sprite.meteo-wizzrobe { background-position: -1125px -3092px; }
+.monster-sprite.ice-wizzrobe { background-position: -1406px -3092px; }
+.monster-sprite.blizzrobe { background-position: -1687px -3092px; }
+
+/* Row 13 (y = -3373px) */
+.monster-sprite.gold-bokoblin { background-position: -1px -3373px; }
+.monster-sprite.gold-lizalfos { background-position: -282px -3373px; }
+.monster-sprite.gold-lynel { background-position: -563px -3373px; }
+.monster-sprite.gold-moblin { background-position: -844px -3373px; }
+.monster-sprite.sky-octorok { background-position: -1125px -3373px; }
+.monster-sprite.igneo-talus-titan { background-position: -1406px -3373px; }
+.monster-sprite.molduking { background-position: -1687px -3373px; }
+
+/* Row 14 (y = -3654px) */
+.monster-sprite.monk-maz-koshia { background-position: -1px -3654px; }

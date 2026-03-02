@@ -1,0 +1,155 @@
+/* Recipe sprites - food.png, x = -((col-1)*145+1)px, y = -((row-1)*145+2055)px */
+/* Extends .food-sprite from FoodSprites.css */
+/* Row 1 (y = -2055px) */
+.food-sprite.steamed-mushrooms { background-position: -1px -2055px; }
+.food-sprite.steamed-fruit { background-position: -146px -2055px; }
+.food-sprite.steamed-fish { background-position: -291px -2055px; }
+.food-sprite.steamed-meat { background-position: -436px -2055px; }
+.food-sprite.seafood-rice-balls { background-position: -581px -2055px; }
+.food-sprite.veggie-rice-balls { background-position: -726px -2055px; }
+.food-sprite.mushroom-rice-balls { background-position: -871px -2055px; }
+.food-sprite.meaty-rice-balls { background-position: -1016px -2055px; }
+.food-sprite.fruit-and-mushroom-mix { background-position: -1161px -2055px; }
+.food-sprite.omelet { background-position: -1306px -2055px; }
+.food-sprite.glazed-mushrooms { background-position: -1451px -2055px; }
+.food-sprite.glazed-meat { background-position: -1596px -2055px; }
+.food-sprite.glazed-seafood { background-position: -1741px -2055px; }
+
+/* Row 2 (y = -2200px) */
+.food-sprite.glazed-veggies { background-position: -1px -2200px; }
+.food-sprite.simmered-fruit { background-position: -146px -2200px; }
+.food-sprite.copious-fried-wild-greens { background-position: -291px -2200px; }
+.food-sprite.copious-simmered-fruit { background-position: -436px -2200px; }
+.food-sprite.copious-mushroom-skewers { background-position: -581px -2200px; }
+.food-sprite.meat-stuffed-pumpkins,
+.food-sprite.meat-stuffed-pumpkin { background-position: -726px -2200px; }
+.food-sprite.sauteed-peppers { background-position: -871px -2200px; }
+.food-sprite.sauteed-nuts { background-position: -1016px -2200px; }
+.food-sprite.crab-stir-fry { background-position: -1161px -2200px; }
+.food-sprite.poultry-pilaf { background-position: -1306px -2200px; }
+.food-sprite.prime-poultry-pilaf { background-position: -1451px -2200px; }
+.food-sprite.gourmet-poultry-pilaf { background-position: -1596px -2200px; }
+.food-sprite.fried-egg-and-rice { background-position: -1741px -2200px; }
+
+/* Row 3 (y = -2345px) */
+.food-sprite.meat-and-rice-bowl { background-position: -1px -2345px; }
+.food-sprite.prime-meat-and-rice-bowl { background-position: -146px -2345px; }
+.food-sprite.gourmet-meat-and-rice-bowl { background-position: -291px -2345px; }
+.food-sprite.seafood-fried-rice { background-position: -436px -2345px; }
+.food-sprite.curry-pilaf { background-position: -581px -2345px; }
+.food-sprite.mushroom-risotto { background-position: -726px -2345px; }
+.food-sprite.vegetable-risotto { background-position: -871px -2345px; }
+.food-sprite.salmon-risotto { background-position: -1016px -2345px; }
+.food-sprite.crab-omelet-with-rice { background-position: -1161px -2345px; }
+.food-sprite.crab-risotto { background-position: -1306px -2345px; }
+.food-sprite.fruit-pie { background-position: -1451px -2345px; }
+.food-sprite.apple-pie { background-position: -1596px -2345px; }
+.food-sprite.egg-tart { background-position: -1741px -2345px; }
+
+/* Row 4 (y = -2490px) */
+.food-sprite.meat-pie { background-position: -1px -2490px; }
+.food-sprite.carrot-cake { background-position: -146px -2490px; }
+.food-sprite.pumpkin-pie { background-position: -291px -2490px; }
+.food-sprite.hot-buttered-apple { background-position: -436px -2490px; }
+.food-sprite.honeyed-apple { background-position: -581px -2490px; }
+.food-sprite.honeyed-fruits { background-position: -726px -2490px; }
+.food-sprite.plain-crepe { background-position: -871px -2490px; }
+.food-sprite.wildberry-crepe { background-position: -1016px -2490px; }
+.food-sprite.nutcake { background-position: -1161px -2490px; }
+.food-sprite.fried-bananas { background-position: -1306px -2490px; }
+.food-sprite.egg-pudding { background-position: -1451px -2490px; }
+.food-sprite.fish-pie { background-position: -1596px -2490px; }
+.food-sprite.honey-crepe { background-position: -1741px -2490px; }
+
+/* Row 5 (y = -2635px) */
+.food-sprite.curry-rice { background-position: -1px -2635px; }
+.food-sprite.vegetable-curry { background-position: -146px -2635px; }
+.food-sprite.seafood-curry { background-position: -291px -2635px; }
+.food-sprite.poultry-curry { background-position: -436px -2635px; }
+.food-sprite.prime-poultry-curry { background-position: -581px -2635px; }
+.food-sprite.gourmet-poultry-curry { background-position: -726px -2635px; }
+.food-sprite.meat-curry { background-position: -871px -2635px; }
+.food-sprite.prime-meat-curry { background-position: -1016px -2635px; }
+.food-sprite.gourmet-meat-curry { background-position: -1161px -2635px; }
+.food-sprite.meat-stew { background-position: -1306px -2635px; }
+.food-sprite.prime-meat-stew  { background-position: -1451px -2635px; }
+.food-sprite.gourmet-meat-stew { background-position: -1596px -2635px; }
+.food-sprite.pumpkin-stew { background-position: -1741px -2635px; }
+
+
+/* Row 6 (y = -2780px) */
+.food-sprite.clam-chowder { background-position: -1px -2780px; }
+.food-sprite.creamy-meat-soup { background-position: -146px -2780px; }
+.food-sprite.creamy-seafood-soup { background-position: -291px -2780px; }
+.food-sprite.veggie-cream-soup { background-position: -436px -2780px; }
+.food-sprite.creamy-heart-soup { background-position: -581px -2780px; }
+.food-sprite.cream-of-mushroom-soup { background-position: -726px -2780px; }
+.food-sprite.cream-of-vegetable-soup { background-position: -871px -2780px; }
+.food-sprite.carrot-stew { background-position: -1016px -2780px; }
+.food-sprite.seafood-paella { background-position: -1161px -2780px; }
+.food-sprite.fruitcake { background-position: -1306px -2780px; }
+.food-sprite.vegetable-omelet { background-position: -1451px -2780px; }
+.food-sprite.mushroom-omelet { background-position: -1596px -2780px; }
+.food-sprite.meat-and-seafood-fry { background-position: -1741px -2780px; }
+
+/* Row 7 (y = -2925px) */
+.food-sprite.prime-meat-and-seafood-fry { background-position: -1px -2925px; }
+.food-sprite.gourmet-meat-and-seafood-fry { background-position: -146px -2925px; }
+.food-sprite.pepper-steak { background-position: -291px -2925px; }
+.food-sprite.pepper-seafood { background-position: -436px -2925px; }
+.food-sprite.fried-wild-greens,
+.food-sprite.fried-wild-greens-level-2 { background-position: -581px -2925px; }
+.food-sprite.fragrant-mushroom-saute { background-position: -726px -2925px; }
+.food-sprite.salt-grilled-greens { background-position: -871px -2925px; }
+.food-sprite.salt-grilled-fish { background-position: -1016px -2925px; }
+.food-sprite.salt-grilled-meat { background-position: -1161px -2925px; }
+.food-sprite.salt-grilled-prime-meat { background-position: -1306px -2925px; }
+.food-sprite.salt-grilled-gourmet-meat { background-position: -1451px -2925px; }
+.food-sprite.salt-grilled-crab { background-position: -1596px -2925px; }
+.food-sprite.seafood-meuniere { background-position: -1741px -2925px; }
+
+/* Row 8 (y = -3070px) */
+.food-sprite.porgy-meuniere { background-position: -1px -3070px; }
+.food-sprite.salmon-meuniere { background-position: -146px -3070px; }
+.food-sprite.wheat-bread { background-position: -291px -3070px; }
+.food-sprite.salt-grilled-mushrooms { background-position: -436px -3070px; }
+.food-sprite.herb-saute { background-position: -581px -3070px; }
+.food-sprite.monster-rice-balls { background-position: -726px -3070px; }
+.food-sprite.monster-stew { background-position: -871px -3070px; }
+.food-sprite.monster-soup { background-position: -1016px -3070px; }
+.food-sprite.monster-cake { background-position: -1161px -3070px; }
+.food-sprite.monster-curry { background-position: -1306px -3070px; }
+.food-sprite.rock-hard-food { background-position: -1451px -3070px; }
+.food-sprite.dubious-food { background-position: -1596px -3070px; }
+.food-sprite.honey-candy { background-position: -1741px -3070px; }
+
+/* Row 9 (y = -3215px) */
+.food-sprite.warm-milk { background-position: -1px -3215px; }
+.food-sprite.mushroom-skewer { background-position: -146px -3215px; }
+.food-sprite.fish-and-mushroom-skewer { background-position: -291px -3215px; }
+.food-sprite.meat-and-mushroom-skewer { background-position: -436px -3215px; }
+.food-sprite.fish-skewer { background-position: -581px -3215px; }
+.food-sprite.meat-skewer { background-position: -726px -3215px; }
+.food-sprite.copious-fish-skewers { background-position: -871px -3215px; }
+.food-sprite.copious-meat-skewers { background-position: -1016px -3215px; }
+.food-sprite.seafood-skewer { background-position: -1161px -3215px; }
+.food-sprite.spiced-meat-skewer { background-position: -1306px -3215px; }
+.food-sprite.prime-spiced-meat-skewer { background-position: -1451px -3215px; }
+.food-sprite.gourmet-spiced-meat-skewer { background-position: -1596px -3215px; }
+
+/* Row 10 (y = -3373px) */
+.food-sprite.hasty-elixir { background-position: -1px -3373px; }
+.food-sprite.mighty-elixir { background-position: -146px -3373px; } 
+.food-sprite.tough-elixir { background-position: -291px -3373px; }
+.food-sprite.enduring-elixir { background-position: -436px -3373px; }
+.food-sprite.fireproof-elixir { background-position: -581px -3373px; }
+.food-sprite.energizing-elixir { background-position: -726px -3373px; }
+.food-sprite.hearty-elixir { background-position: -871px -3373px; }
+.food-sprite.sneaky-elixir { background-position: -1016px -3373px; }
+.food-sprite.spicy-elixir { background-position: -1161px -3373px; }
+.food-sprite.electro-elixir { background-position: -1306px -3373px; }
+.food-sprite.chilly-elixir { background-position: -1451px -3373px; }
+.food-sprite.fairy-tonic-level-1,
+.food-sprite.fairy-tonic-level-2,
+.food-sprite.fairy-tonic-level-3,
+.food-sprite.fairy-tonic-level-4 { background-position: -1596px -3373px; }

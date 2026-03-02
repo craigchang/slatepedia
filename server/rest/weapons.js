@@ -2,7 +2,7 @@ module.exports = [
   {
     "id": 1,
     "name": "Master Sword",
-    "cssClassName": null,
+    "cssClassName": "master-sword",
     "attackPowerBase": 30,
     "attackPowerBonusMin": 0,
     "attackPowerBonusMax": 0,
@@ -24,7 +24,7 @@ module.exports = [
   {
     "id": 2,
     "name": "Tree branch",
-    "cssClassName": null,
+    "cssClassName": "tree-branch",
     "attackPowerBase": 2,
     "attackPowerBonusMin": 2,
     "attackPowerBonusMax": 2,
@@ -47,7 +47,7 @@ module.exports = [
   {
     "id": 3,
     "name": "Torch",
-    "cssClassName": null,
+    "cssClassName": "torch",
     "attackPowerBase": 2,
     "attackPowerBonusMin": 2,
     "attackPowerBonusMax": 2,
@@ -71,7 +71,7 @@ module.exports = [
   {
     "id": 4,
     "name": "Soup Ladle",
-    "cssClassName": null,
+    "cssClassName": "soup-ladle",
     "attackPowerBase": 4,
     "attackPowerBonusMin": 3,
     "attackPowerBonusMax": 4,
@@ -94,7 +94,7 @@ module.exports = [
   {
     "id": 5,
     "name": "Boomerang",
-    "cssClassName": null,
+    "cssClassName": "boomerang",
     "attackPowerBase": 8,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 8,
@@ -117,7 +117,7 @@ module.exports = [
   {
     "id": 6,
     "name": "Spring-Loaded Hammer",
-    "cssClassName": null,
+    "cssClassName": "spring-loaded-hammer",
     "attackPowerBase": 1,
     "attackPowerBonusMin": 1,
     "attackPowerBonusMax": 1,
@@ -139,7 +139,7 @@ module.exports = [
   {
     "id": 7,
     "name": "Traveler's Sword",
-    "cssClassName": null,
+    "cssClassName": "travelers-sword",
     "attackPowerBase": 5,
     "attackPowerBonusMin": 3,
     "attackPowerBonusMax": 5,
@@ -162,7 +162,7 @@ module.exports = [
   {
     "id": 8,
     "name": "Soldier's Broadsword",
-    "cssClassName": null,
+    "cssClassName": "soldiers-broadsword",
     "attackPowerBase": 14,
     "attackPowerBonusMin": 3,
     "attackPowerBonusMax": 6,
@@ -185,7 +185,7 @@ module.exports = [
   {
     "id": 9,
     "name": "Knight's Broadsword",
-    "cssClassName": null,
+    "cssClassName": "knights-broadsword",
     "attackPowerBase": 26,
     "attackPowerBonusMin": 3,
     "attackPowerBonusMax": 5,
@@ -208,7 +208,7 @@ module.exports = [
   {
     "id": 10,
     "name": "Royal Broadsword",
-    "cssClassName": null,
+    "cssClassName": "royal-broadsword",
     "attackPowerBase": 36,
     "attackPowerBonusMin": 6,
     "attackPowerBonusMax": 12,
@@ -232,7 +232,7 @@ module.exports = [
   {
     "id": 11,
     "name": "Forest Dweller's Sword",
-    "cssClassName": null,
+    "cssClassName": "forest-dwellers-sword",
     "attackPowerBase": 22,
     "attackPowerBonusMin": 3,
     "attackPowerBonusMax": 4,
@@ -255,7 +255,7 @@ module.exports = [
   {
     "id": 12,
     "name": "Zora's Sword",
-    "cssClassName": null,
+    "cssClassName": "zoras-sword",
     "attackPowerBase": 15,
     "attackPowerBonusMin": 4,
     "attackPowerBonusMax": 6,
@@ -278,7 +278,7 @@ module.exports = [
   {
     "id": 13,
     "name": "Feathered Edge",
-    "cssClassName": null,
+    "cssClassName": "feathered-edge",
     "attackPowerBase": 15,
     "attackPowerBonusMin": 4,
     "attackPowerBonusMax": 6,
@@ -301,7 +301,7 @@ module.exports = [
   {
     "id": 14,
     "name": "Gerudo Scimitar",
-    "cssClassName": null,
+    "cssClassName": "gerudo-scimitar",
     "attackPowerBase": 16,
     "attackPowerBonusMin": 3,
     "attackPowerBonusMax": 5,
@@ -324,7 +324,7 @@ module.exports = [
   {
     "id": 15,
     "name": "Moonlight Scimitar",
-    "cssClassName": null,
+    "cssClassName": "moonlight-scimitar",
     "attackPowerBase": 25,
     "attackPowerBonusMin": 2,
     "attackPowerBonusMax": 4,
@@ -347,7 +347,7 @@ module.exports = [
   {
     "id": 16,
     "name": "Scimitar of the Seven",
-    "cssClassName": null,
+    "cssClassName": "scimitar-of-the-seven",
     "attackPowerBase": 32,
     "attackPowerBonusMin": 3,
     "attackPowerBonusMax": 5,
@@ -369,7 +369,7 @@ module.exports = [
   {
     "id": 17,
     "name": "Eightfold Blade",
-    "cssClassName": null,
+    "cssClassName": "eightfold-blade",
     "attackPowerBase": 15,
     "attackPowerBonusMin": 4,
     "attackPowerBonusMax": 6,
@@ -392,7 +392,7 @@ module.exports = [
   {
     "id": 18,
     "name": "Ancient Short Sword",
-    "cssClassName": null,
+    "cssClassName": "ancient-short-sword",
     "attackPowerBase": 40,
     "attackPowerBonusMin": 7,
     "attackPowerBonusMax": 14,
@@ -414,7 +414,7 @@ module.exports = [
   {
     "id": 19,
     "name": "Rusty Broadsword",
-    "cssClassName": null,
+    "cssClassName": "rusty-broadsword",
     "attackPowerBase": 6,
     "attackPowerBonusMin": 4,
     "attackPowerBonusMax": 6,
@@ -438,7 +438,7 @@ module.exports = [
   {
     "id": 20,
     "name": "Royal Guard's Sword",
-    "cssClassName": null,
+    "cssClassName": "royal-guards-sword",
     "attackPowerBase": 48,
     "attackPowerBonusMin": 9,
     "attackPowerBonusMax": 16,
@@ -460,7 +460,7 @@ module.exports = [
   {
     "id": 21,
     "name": "Flameblade",
-    "cssClassName": null,
+    "cssClassName": "flameblade",
     "attackPowerBase": 24,
     "attackPowerBonusMin": 6,
     "attackPowerBonusMax": 9,
@@ -483,7 +483,7 @@ module.exports = [
   {
     "id": 22,
     "name": "Frostblade",
-    "cssClassName": null,
+    "cssClassName": "frostblade",
     "attackPowerBase": 20,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 8,
@@ -506,7 +506,7 @@ module.exports = [
   {
     "id": 23,
     "name": "Thunderblade",
-    "cssClassName": null,
+    "cssClassName": "thunderblade",
     "attackPowerBase": 22,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 8,
@@ -529,7 +529,7 @@ module.exports = [
   {
     "id": 24,
     "name": "Goddess Sword",
-    "cssClassName": null,
+    "cssClassName": "goddess-sword",
     "attackPowerBase": 28,
     "attackPowerBonusMin": 6,
     "attackPowerBonusMax": 10,
@@ -551,7 +551,7 @@ module.exports = [
   {
     "id": 25,
     "name": "Sword",
-    "cssClassName": null,
+    "cssClassName": "sword",
     "attackPowerBase": 22,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 8,
@@ -573,7 +573,7 @@ module.exports = [
   {
     "id": 26,
     "name": "Sea Breeze Boomerang",
-    "cssClassName": null,
+    "cssClassName": "sea-breeze-boomerang",
     "attackPowerBase": 20,
     "attackPowerBonusMin": 4,
     "attackPowerBonusMax": 7,
@@ -595,7 +595,7 @@ module.exports = [
   {
     "id": 27,
     "name": "Boko Club",
-    "cssClassName": null,
+    "cssClassName": "boko-club",
     "attackPowerBase": 4,
     "attackPowerBonusMin": 2,
     "attackPowerBonusMax": 4,
@@ -618,7 +618,7 @@ module.exports = [
   {
     "id": 28,
     "name": "Spiked Boko Club",
-    "cssClassName": null,
+    "cssClassName": "spiked-boko-club",
     "attackPowerBase": 12,
     "attackPowerBonusMin": 3,
     "attackPowerBonusMax": 6,
@@ -641,7 +641,7 @@ module.exports = [
   {
     "id": 29,
     "name": "Dragonbone Boko Club",
-    "cssClassName": null,
+    "cssClassName": "dragonbone-boko-club",
     "attackPowerBase": 24,
     "attackPowerBonusMin": 7,
     "attackPowerBonusMax": 13,
@@ -664,7 +664,7 @@ module.exports = [
   {
     "id": 30,
     "name": "Lizal Boomerang",
-    "cssClassName": null,
+    "cssClassName": "lizal-boomerang",
     "attackPowerBase": 14,
     "attackPowerBonusMin": 3,
     "attackPowerBonusMax": 5,
@@ -687,7 +687,7 @@ module.exports = [
   {
     "id": 31,
     "name": "Lizal Forked Boomerang",
-    "cssClassName": null,
+    "cssClassName": "lizal-forked-boomerang",
     "attackPowerBase": 24,
     "attackPowerBonusMin": 3,
     "attackPowerBonusMax": 6,
@@ -710,7 +710,7 @@ module.exports = [
   {
     "id": 32,
     "name": "Lizal Tri-Boomerang",
-    "cssClassName": null,
+    "cssClassName": "lizal-tri-boomerang",
     "attackPowerBase": 36,
     "attackPowerBonusMin": 6,
     "attackPowerBonusMax": 12,
@@ -733,7 +733,7 @@ module.exports = [
   {
     "id": 33,
     "name": "Guardian Sword",
-    "cssClassName": null,
+    "cssClassName": "guardian-sword",
     "attackPowerBase": 20,
     "attackPowerBonusMin": 3,
     "attackPowerBonusMax": 5,
@@ -755,7 +755,7 @@ module.exports = [
   {
     "id": 34,
     "name": "Guardian Sword+",
-    "cssClassName": null,
+    "cssClassName": "guardian-sword-plus",
     "attackPowerBase": 30,
     "attackPowerBonusMin": 3,
     "attackPowerBonusMax": 5,
@@ -777,7 +777,7 @@ module.exports = [
   {
     "id": 35,
     "name": "Guardian Sword++",
-    "cssClassName": null,
+    "cssClassName": "guardian-sword-plus-plus",
     "attackPowerBase": 40,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 10,
@@ -799,7 +799,7 @@ module.exports = [
   {
     "id": 36,
     "name": "Lynel Sword",
-    "cssClassName": null,
+    "cssClassName": "lynel-sword",
     "attackPowerBase": 24,
     "attackPowerBonusMin": 3,
     "attackPowerBonusMax": 6,
@@ -821,7 +821,7 @@ module.exports = [
   {
     "id": 37,
     "name": "Mighty Lynel Sword",
-    "cssClassName": null,
+    "cssClassName": "mighty-lynel-sword",
     "attackPowerBase": 36,
     "attackPowerBonusMin": 6,
     "attackPowerBonusMax": 11,
@@ -843,7 +843,7 @@ module.exports = [
   {
     "id": 38,
     "name": "Savage Lynel Sword",
-    "cssClassName": null,
+    "cssClassName": "savage-lynel-sword",
     "attackPowerBase": 58,
     "attackPowerBonusMin": 11,
     "attackPowerBonusMax": 21,
@@ -866,7 +866,7 @@ module.exports = [
   {
     "id": 39,
     "name": "Fire Rod",
-    "cssClassName": null,
+    "cssClassName": "fire-rod",
     "attackPowerBase": 5,
     "attackPowerBonusMin": 3,
     "attackPowerBonusMax": 3,
@@ -889,7 +889,7 @@ module.exports = [
   {
     "id": 40,
     "name": "Meteor Rod",
-    "cssClassName": null,
+    "cssClassName": "meteor-rod",
     "attackPowerBase": 10,
     "attackPowerBonusMin": 6,
     "attackPowerBonusMax": 6,
@@ -912,7 +912,7 @@ module.exports = [
   {
     "id": 41,
     "name": "Ice Rod",
-    "cssClassName": null,
+    "cssClassName": "ice-rod",
     "attackPowerBase": 5,
     "attackPowerBonusMin": 3,
     "attackPowerBonusMax": 3,
@@ -935,7 +935,7 @@ module.exports = [
   {
     "id": 42,
     "name": "Blizzard Rod",
-    "cssClassName": null,
+    "cssClassName": "blizzard-rod",
     "attackPowerBase": 10,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 6,
@@ -959,7 +959,7 @@ module.exports = [
   {
     "id": 43,
     "name": "Lightning Rod",
-    "cssClassName": null,
+    "cssClassName": "lightning-rod",
     "attackPowerBase": 5,
     "attackPowerBonusMin": 3,
     "attackPowerBonusMax": 3,
@@ -982,7 +982,7 @@ module.exports = [
   {
     "id": 44,
     "name": "Thunderstorm Rod",
-    "cssClassName": null,
+    "cssClassName": "thunderstorm-rod",
     "attackPowerBase": 10,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 6,
@@ -1005,7 +1005,7 @@ module.exports = [
   {
     "id": 45,
     "name": "Vicious Sickle",
-    "cssClassName": null,
+    "cssClassName": "vicious-sickle",
     "attackPowerBase": 16,
     "attackPowerBonusMin": 4,
     "attackPowerBonusMax": 6,
@@ -1027,7 +1027,7 @@ module.exports = [
   {
     "id": 46,
     "name": "Demon Carver",
-    "cssClassName": null,
+    "cssClassName": "demon-carver",
     "attackPowerBase": 40,
     "attackPowerBonusMin": 7,
     "attackPowerBonusMax": 14,
@@ -1049,7 +1049,7 @@ module.exports = [
   {
     "id": 47,
     "name": "Bokoblin Arm",
-    "cssClassName": null,
+    "cssClassName": "bokoblin-arm",
     "attackPowerBase": 5,
     "attackPowerBonusMin": 1,
     "attackPowerBonusMax": 2,
@@ -1071,7 +1071,7 @@ module.exports = [
   {
     "id": 48,
     "name": "Lizalfos Arm",
-    "cssClassName": null,
+    "cssClassName": "lizalfos-arm",
     "attackPowerBase": 12,
     "attackPowerBonusMin": 1,
     "attackPowerBonusMax": 5,
@@ -1093,7 +1093,7 @@ module.exports = [
   {
     "id": 49,
     "name": "Korok Leaf",
-    "cssClassName": null,
+    "cssClassName": "korok-leaf",
     "attackPowerBase": 1,
     "attackPowerBonusMin": 0,
     "attackPowerBonusMax": 0,
@@ -1116,7 +1116,7 @@ module.exports = [
   {
     "id": 50,
     "name": "Farming Hoe",
-    "cssClassName": null,
+    "cssClassName": "farming-hoe",
     "attackPowerBase": 16,
     "attackPowerBonusMin": 8,
     "attackPowerBonusMax": 14,
@@ -1139,7 +1139,7 @@ module.exports = [
   {
     "id": 51,
     "name": "Boat Oar",
-    "cssClassName": null,
+    "cssClassName": "boat-oar",
     "attackPowerBase": 14,
     "attackPowerBonusMin": 7,
     "attackPowerBonusMax": 13,
@@ -1162,7 +1162,7 @@ module.exports = [
   {
     "id": 52,
     "name": "Woodcutter's Axe",
-    "cssClassName": null,
+    "cssClassName": "woodcutters-axe",
     "attackPowerBase": 3,
     "attackPowerBonusMin": 2,
     "attackPowerBonusMax": 3,
@@ -1184,7 +1184,7 @@ module.exports = [
   {
     "id": 53,
     "name": "Double Axe",
-    "cssClassName": null,
+    "cssClassName": "double-axe",
     "attackPowerBase": 18,
     "attackPowerBonusMin": 9,
     "attackPowerBonusMax": 16,
@@ -1206,7 +1206,7 @@ module.exports = [
   {
     "id": 54,
     "name": "Iron Sledgehammer",
-    "cssClassName": null,
+    "cssClassName": "iron-sledgehammer",
     "attackPowerBase": 12,
     "attackPowerBonusMin": 6,
     "attackPowerBonusMax": 11,
@@ -1230,7 +1230,7 @@ module.exports = [
   {
     "id": 55,
     "name": "Giant Boomerang",
-    "cssClassName": null,
+    "cssClassName": "giant-boomerang",
     "attackPowerBase": 25,
     "attackPowerBonusMin": 6,
     "attackPowerBonusMax": 11,
@@ -1253,7 +1253,7 @@ module.exports = [
   {
     "id": 56,
     "name": "Traveler's Claymore",
-    "cssClassName": null,
+    "cssClassName": "travelers-claymore",
     "attackPowerBase": 10,
     "attackPowerBonusMin": 3,
     "attackPowerBonusMax": 5,
@@ -1276,7 +1276,7 @@ module.exports = [
   {
     "id": 57,
     "name": "Soldier's Claymore",
-    "cssClassName": null,
+    "cssClassName": "soldiers-claymore",
     "attackPowerBase": 20,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 9,
@@ -1299,7 +1299,7 @@ module.exports = [
   {
     "id": 58,
     "name": "Knight's Claymore",
-    "cssClassName": null,
+    "cssClassName": "knights-claymore",
     "attackPowerBase": 38,
     "attackPowerBonusMin": 4,
     "attackPowerBonusMax": 7,
@@ -1322,7 +1322,7 @@ module.exports = [
   {
     "id": 59,
     "name": "Royal Claymore",
-    "cssClassName": null,
+    "cssClassName": "royal-claymore",
     "attackPowerBase": 52,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 10,
@@ -1346,7 +1346,7 @@ module.exports = [
   {
     "id": 60,
     "name": "Silver Longsword",
-    "cssClassName": null,
+    "cssClassName": "silver-longsword",
     "attackPowerBase": 22,
     "attackPowerBonusMin": 6,
     "attackPowerBonusMax": 8,
@@ -1369,7 +1369,7 @@ module.exports = [
   {
     "id": 61,
     "name": "Cobble Crusher",
-    "cssClassName": null,
+    "cssClassName": "cobble-crusher",
     "attackPowerBase": 15,
     "attackPowerBonusMin": 7,
     "attackPowerBonusMax": 14,
@@ -1392,7 +1392,7 @@ module.exports = [
   {
     "id": 62,
     "name": "Stone Smasher",
-    "cssClassName": null,
+    "cssClassName": "stone-smasher",
     "attackPowerBase": 42,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 9,
@@ -1415,7 +1415,7 @@ module.exports = [
   {
     "id": 63,
     "name": "Boulder Breaker",
-    "cssClassName": null,
+    "cssClassName": "boulder-breaker",
     "attackPowerBase": 60,
     "attackPowerBonusMin": 4,
     "attackPowerBonusMax": 8,
@@ -1437,7 +1437,7 @@ module.exports = [
   {
     "id": 64,
     "name": "Golden Claymore",
-    "cssClassName": null,
+    "cssClassName": "golden-claymore",
     "attackPowerBase": 28,
     "attackPowerBonusMin": 4,
     "attackPowerBonusMax": 8,
@@ -1460,7 +1460,7 @@ module.exports = [
   {
     "id": 65,
     "name": "Eightfold Longblade",
-    "cssClassName": null,
+    "cssClassName": "eightfold-longblade",
     "attackPowerBase": 32,
     "attackPowerBonusMin": 4,
     "attackPowerBonusMax": 6,
@@ -1483,7 +1483,7 @@ module.exports = [
   {
     "id": 66,
     "name": "Edge of Duality",
-    "cssClassName": null,
+    "cssClassName": "edge-of-duality",
     "attackPowerBase": 50,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 10,
@@ -1506,7 +1506,7 @@ module.exports = [
   {
     "id": 67,
     "name": "Ancient Bladesaw",
-    "cssClassName": null,
+    "cssClassName": "ancient-bladesaw",
     "attackPowerBase": 55,
     "attackPowerBonusMin": 11,
     "attackPowerBonusMax": 20,
@@ -1528,7 +1528,7 @@ module.exports = [
   {
     "id": 68,
     "name": "Rusty Claymore",
-    "cssClassName": null,
+    "cssClassName": "rusty-claymore",
     "attackPowerBase": 12,
     "attackPowerBonusMin": 6,
     "attackPowerBonusMax": 11,
@@ -1552,7 +1552,7 @@ module.exports = [
   {
     "id": 69,
     "name": "Royal Guard's Claymore",
-    "cssClassName": null,
+    "cssClassName": "royal-guards-claymore",
     "attackPowerBase": 72,
     "attackPowerBonusMin": 14,
     "attackPowerBonusMax": 26,
@@ -1574,7 +1574,7 @@ module.exports = [
   {
     "id": 70,
     "name": "Great Flameblade",
-    "cssClassName": null,
+    "cssClassName": "great-flameblade",
     "attackPowerBase": 34,
     "attackPowerBonusMin": 7,
     "attackPowerBonusMax": 12,
@@ -1597,7 +1597,7 @@ module.exports = [
   {
     "id": 71,
     "name": "Great Frostblade",
-    "cssClassName": null,
+    "cssClassName": "great-frostblade",
     "attackPowerBase": 30,
     "attackPowerBonusMin": 6,
     "attackPowerBonusMax": 11,
@@ -1620,7 +1620,7 @@ module.exports = [
   {
     "id": 72,
     "name": "Great Thunderblade",
-    "cssClassName": null,
+    "cssClassName": "great-thunderblade",
     "attackPowerBase": 32,
     "attackPowerBonusMin": 7,
     "attackPowerBonusMax": 12,
@@ -1643,7 +1643,7 @@ module.exports = [
   {
     "id": 73,
     "name": "Sword of the Six Sages",
-    "cssClassName": null,
+    "cssClassName": "sword-of-the-six-sages",
     "attackPowerBase": 48,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 10,
@@ -1665,7 +1665,7 @@ module.exports = [
   {
     "id": 74,
     "name": "Biggoron's Sword",
-    "cssClassName": null,
+    "cssClassName": "biggorons-sword",
     "attackPowerBase": 50,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 10,
@@ -1687,7 +1687,7 @@ module.exports = [
   {
     "id": 75,
     "name": "Fierce Deity Sword",
-    "cssClassName": null,
+    "cssClassName": "fierce-deity-sword",
     "attackPowerBase": 60,
     "attackPowerBonusMin": 6,
     "attackPowerBonusMax": 12,
@@ -1709,7 +1709,7 @@ module.exports = [
   {
     "id": 76,
     "name": "Boko Bat",
-    "cssClassName": null,
+    "cssClassName": "boko-bat",
     "attackPowerBase": 6,
     "attackPowerBonusMin": 3,
     "attackPowerBonusMax": 6,
@@ -1732,7 +1732,7 @@ module.exports = [
   {
     "id": 77,
     "name": "Spiked Boko Bat",
-    "cssClassName": null,
+    "cssClassName": "spiked-boko-bat",
     "attackPowerBase": 18,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 9,
@@ -1755,7 +1755,7 @@ module.exports = [
   {
     "id": 78,
     "name": "Dragonbone Boko Bat",
-    "cssClassName": null,
+    "cssClassName": "dragonbone-boko-bat",
     "attackPowerBase": 36,
     "attackPowerBonusMin": 6,
     "attackPowerBonusMax": 12,
@@ -1778,7 +1778,7 @@ module.exports = [
   {
     "id": 79,
     "name": "Moblin Club",
-    "cssClassName": null,
+    "cssClassName": "moblin-club",
     "attackPowerBase": 9,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 9,
@@ -1801,7 +1801,7 @@ module.exports = [
   {
     "id": 80,
     "name": "Spiked Moblin Club",
-    "cssClassName": null,
+    "cssClassName": "spiked-moblin-club",
     "attackPowerBase": 27,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 9,
@@ -1824,7 +1824,7 @@ module.exports = [
   {
     "id": 81,
     "name": "Dragonbone Moblin Club",
-    "cssClassName": null,
+    "cssClassName": "dragonbone-moblin-club",
     "attackPowerBase": 36,
     "attackPowerBonusMin": 6,
     "attackPowerBonusMax": 12,
@@ -1847,7 +1847,7 @@ module.exports = [
   {
     "id": 82,
     "name": "Ancient Battle Axe",
-    "cssClassName": null,
+    "cssClassName": "ancient-battle-axe",
     "attackPowerBase": 30,
     "attackPowerBonusMin": 4,
     "attackPowerBonusMax": 8,
@@ -1869,7 +1869,7 @@ module.exports = [
   {
     "id": 83,
     "name": "Ancient Battle Axe+",
-    "cssClassName": null,
+    "cssClassName": "ancient-battle-axe-plus",
     "attackPowerBase": 45,
     "attackPowerBonusMin": 4,
     "attackPowerBonusMax": 8,
@@ -1891,7 +1891,7 @@ module.exports = [
   {
     "id": 84,
     "name": "Ancient Battle Axe++",
-    "cssClassName": null,
+    "cssClassName": "ancient-battle-axe-plus-plus",
     "attackPowerBase": 60,
     "attackPowerBonusMin": 4,
     "attackPowerBonusMax": 8,
@@ -1913,7 +1913,7 @@ module.exports = [
   {
     "id": 85,
     "name": "Lynel Crusher",
-    "cssClassName": null,
+    "cssClassName": "lynel-crusher",
     "attackPowerBase": 36,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 9,
@@ -1935,7 +1935,7 @@ module.exports = [
   {
     "id": 86,
     "name": "Mighty Lynel Crusher",
-    "cssClassName": null,
+    "cssClassName": "mighty-lynel-crusher",
     "attackPowerBase": 54,
     "attackPowerBonusMin": 6,
     "attackPowerBonusMax": 12,
@@ -1957,7 +1957,7 @@ module.exports = [
   {
     "id": 87,
     "name": "Savage Lynel Crusher",
-    "cssClassName": null,
+    "cssClassName": "savage-lynel-crusher",
     "attackPowerBase": 78,
     "attackPowerBonusMin": 8,
     "attackPowerBonusMax": 15,
@@ -1980,7 +1980,7 @@ module.exports = [
   {
     "id": 88,
     "name": "Windcleaver",
-    "cssClassName": null,
+    "cssClassName": "windcleaver",
     "attackPowerBase": 40,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 8,
@@ -2002,7 +2002,7 @@ module.exports = [
   {
     "id": 89,
     "name": "Moblin Arm",
-    "cssClassName": null,
+    "cssClassName": "moblin-arm",
     "attackPowerBase": 15,
     "attackPowerBonusMin": 4,
     "attackPowerBonusMax": 6,
@@ -2024,7 +2024,7 @@ module.exports = [
   {
     "id": 90,
     "name": "Wooden Mop",
-    "cssClassName": null,
+    "cssClassName": "wooden-mop",
     "attackPowerBase": 5,
     "attackPowerBonusMin": 2,
     "attackPowerBonusMax": 4,
@@ -2047,7 +2047,7 @@ module.exports = [
   {
     "id": 91,
     "name": "Farmer's Pitchfork",
-    "cssClassName": null,
+    "cssClassName": "farmers-pitchfork",
     "attackPowerBase": 7,
     "attackPowerBonusMin": 3,
     "attackPowerBonusMax": 4,
@@ -2070,7 +2070,7 @@ module.exports = [
   {
     "id": 92,
     "name": "Fishing Harpoon",
-    "cssClassName": null,
+    "cssClassName": "fishing-harpoon",
     "attackPowerBase": 8,
     "attackPowerBonusMin": 3,
     "attackPowerBonusMax": 4,
@@ -2093,7 +2093,7 @@ module.exports = [
   {
     "id": 93,
     "name": "Throwing Spear",
-    "cssClassName": null,
+    "cssClassName": "throwing-spear",
     "attackPowerBase": 6,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 6,
@@ -2116,7 +2116,7 @@ module.exports = [
   {
     "id": 94,
     "name": "Traveler's Spear",
-    "cssClassName": null,
+    "cssClassName": "travelers-spear",
     "attackPowerBase": 3,
     "attackPowerBonusMin": 1,
     "attackPowerBonusMax": 2,
@@ -2139,7 +2139,7 @@ module.exports = [
   {
     "id": 95,
     "name": "Soldier's Spear",
-    "cssClassName": null,
+    "cssClassName": "soldiers-spear",
     "attackPowerBase": 7,
     "attackPowerBonusMin": 2,
     "attackPowerBonusMax": 3,
@@ -2162,7 +2162,7 @@ module.exports = [
   {
     "id": 96,
     "name": "Knight's Halberd",
-    "cssClassName": null,
+    "cssClassName": "knights-halberd",
     "attackPowerBase": 13,
     "attackPowerBonusMin": 4,
     "attackPowerBonusMax": 7,
@@ -2185,7 +2185,7 @@ module.exports = [
   {
     "id": 97,
     "name": "Royal Halberd",
-    "cssClassName": null,
+    "cssClassName": "royal-halberd",
     "attackPowerBase": 26,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 10,
@@ -2208,7 +2208,7 @@ module.exports = [
   {
     "id": 98,
     "name": "Forest Dweller's Spear",
-    "cssClassName": null,
+    "cssClassName": "forest-dwellers-spear",
     "attackPowerBase": 11,
     "attackPowerBonusMin": 4,
     "attackPowerBonusMax": 6,
@@ -2231,7 +2231,7 @@ module.exports = [
   {
     "id": 99,
     "name": "Zora Spear",
-    "cssClassName": null,
+    "cssClassName": "zora-spear",
     "attackPowerBase": 9,
     "attackPowerBonusMin": 3,
     "attackPowerBonusMax": 4,
@@ -2254,7 +2254,7 @@ module.exports = [
   {
     "id": 100,
     "name": "Silverscale Spear",
-    "cssClassName": null,
+    "cssClassName": "silverscale-spear",
     "attackPowerBase": 12,
     "attackPowerBonusMin": 4,
     "attackPowerBonusMax": 7,
@@ -2277,7 +2277,7 @@ module.exports = [
   {
     "id": 101,
     "name": "Ceremonial Trident",
-    "cssClassName": null,
+    "cssClassName": "ceremonial-trident",
     "attackPowerBase": 14,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 8,
@@ -2299,7 +2299,7 @@ module.exports = [
   {
     "id": 102,
     "name": "Lightscale Trident",
-    "cssClassName": null,
+    "cssClassName": "lightscale-trident",
     "attackPowerBase": 22,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 9,
@@ -2321,7 +2321,7 @@ module.exports = [
   {
     "id": 103,
     "name": "Drillshaft",
-    "cssClassName": null,
+    "cssClassName": "drillshaft",
     "attackPowerBase": 14,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 8,
@@ -2344,7 +2344,7 @@ module.exports = [
   {
     "id": 104,
     "name": "Feathered Spear",
-    "cssClassName": null,
+    "cssClassName": "feathered-spear",
     "attackPowerBase": 10,
     "attackPowerBonusMin": 3,
     "attackPowerBonusMax": 5,
@@ -2367,7 +2367,7 @@ module.exports = [
   {
     "id": 105,
     "name": "Gerudo Spear",
-    "cssClassName": null,
+    "cssClassName": "gerudo-spear",
     "attackPowerBase": 16,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 9,
@@ -2390,7 +2390,7 @@ module.exports = [
   {
     "id": 106,
     "name": "Serpentine Spear",
-    "cssClassName": null,
+    "cssClassName": "serpentine-spear",
     "attackPowerBase": 12,
     "attackPowerBonusMin": 4,
     "attackPowerBonusMax": 7,
@@ -2413,7 +2413,7 @@ module.exports = [
   {
     "id": 107,
     "name": "Ancient Spear",
-    "cssClassName": null,
+    "cssClassName": "ancient-spear",
     "attackPowerBase": 30,
     "attackPowerBonusMin": 6,
     "attackPowerBonusMax": 12,
@@ -2435,7 +2435,7 @@ module.exports = [
   {
     "id": 108,
     "name": "Rusty Halberd",
-    "cssClassName": null,
+    "cssClassName": "rusty-halberd",
     "attackPowerBase": 5,
     "attackPowerBonusMin": 4,
     "attackPowerBonusMax": 5,
@@ -2458,7 +2458,7 @@ module.exports = [
   {
     "id": 109,
     "name": "Royal Guard's Spear",
-    "cssClassName": null,
+    "cssClassName": "royal-guards-spear",
     "attackPowerBase": 32,
     "attackPowerBonusMin": 7,
     "attackPowerBonusMax": 13,
@@ -2480,7 +2480,7 @@ module.exports = [
   {
     "id": 110,
     "name": "Flamespear",
-    "cssClassName": null,
+    "cssClassName": "flamespear",
     "attackPowerBase": 24,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 10,
@@ -2503,7 +2503,7 @@ module.exports = [
   {
     "id": 111,
     "name": "Frostspear",
-    "cssClassName": null,
+    "cssClassName": "frostspear",
     "attackPowerBase": 20,
     "attackPowerBonusMin": 4,
     "attackPowerBonusMax": 8,
@@ -2526,7 +2526,7 @@ module.exports = [
   {
     "id": 112,
     "name": "Thunderspear",
-    "cssClassName": null,
+    "cssClassName": "thunderspear",
     "attackPowerBase": 22,
     "attackPowerBonusMin": 5,
     "attackPowerBonusMax": 9,
@@ -2549,7 +2549,7 @@ module.exports = [
   {
     "id": 113,
     "name": "Boko Spear",
-    "cssClassName": null,
+    "cssClassName": "boko-spear",
     "attackPowerBase": 2,
     "attackPowerBonusMin": 1,
     "attackPowerBonusMax": 2,
@@ -2572,7 +2572,7 @@ module.exports = [
   {
     "id": 114,
     "name": "Spiked Boko Spear",
-    "cssClassName": null,
+    "cssClassName": "spiked-boko-spear",
     "attackPowerBase": 6,
     "attackPowerBonusMin": 2,
     "attackPowerBonusMax": 3,
@@ -2595,7 +2595,7 @@ module.exports = [
   {
     "id": 115,
     "name": "Dragonbone Boko Spear",
-    "cssClassName": null,
+    "cssClassName": "dragonbone-boko-spear",
     "attackPowerBase": 12,
     "attackPowerBonusMin": 2,
     "attackPowerBonusMax": 4,
@@ -2618,7 +2618,7 @@ module.exports = [
   {
     "id": 116,
     "name": "Moblin Spear",
-    "cssClassName": null,
+    "cssClassName": "moblin-spear",
     "attackPowerBase": 4,
     "attackPowerBonusMin": 2,
     "attackPowerBonusMax": 3,
@@ -2641,7 +2641,7 @@ module.exports = [
   {
     "id": 117,
     "name": "Spiked Moblin Spear",
-    "cssClassName": null,
+    "cssClassName": "spiked-moblin-spear",
     "attackPowerBase": 9,
     "attackPowerBonusMin": 2,
     "attackPowerBonusMax": 3,
@@ -2664,7 +2664,7 @@ module.exports = [
   {
     "id": 118,
     "name": "Dragonbone Moblin Spear",
-    "cssClassName": null,
+    "cssClassName": "dragonbone-moblin-spear",
     "attackPowerBase": 15,
     "attackPowerBonusMin": 2,
     "attackPowerBonusMax": 4,
@@ -2687,7 +2687,7 @@ module.exports = [
   {
     "id": 119,
     "name": "Lizal Spear",
-    "cssClassName": null,
+    "cssClassName": "lizal-spear",
     "attackPowerBase": 7,
     "attackPowerBonusMin": 2,
     "attackPowerBonusMax": 3,
@@ -2710,7 +2710,7 @@ module.exports = [
   {
     "id": 120,
     "name": "Enhanced Lizal Spear",
-    "cssClassName": null,
+    "cssClassName": "enhanced-lizal-spear",
     "attackPowerBase": 12,
     "attackPowerBonusMin": 2,
     "attackPowerBonusMax": 3,
@@ -2733,7 +2733,7 @@ module.exports = [
   {
     "id": 121,
     "name": "Forked Lizal Spear",
-    "cssClassName": null,
+    "cssClassName": "forked-lizal-spear",
     "attackPowerBase": 18,
     "attackPowerBonusMin": 2,
     "attackPowerBonusMax": 4,
@@ -2756,7 +2756,7 @@ module.exports = [
   {
     "id": 122,
     "name": "Guardian Spear",
-    "cssClassName": null,
+    "cssClassName": "guardian-spear",
     "attackPowerBase": 10,
     "attackPowerBonusMin": 2,
     "attackPowerBonusMax": 3,
@@ -2778,7 +2778,7 @@ module.exports = [
   {
     "id": 123,
     "name": "Guardian Spear+",
-    "cssClassName": null,
+    "cssClassName": "guardian-spear-plus",
     "attackPowerBase": 15,
     "attackPowerBonusMin": 2,
     "attackPowerBonusMax": 3,
@@ -2800,7 +2800,7 @@ module.exports = [
   {
     "id": 124,
     "name": "Guardian Spear++",
-    "cssClassName": null,
+    "cssClassName": "guardian-spear-plus-plus",
     "attackPowerBase": 20,
     "attackPowerBonusMin": 2,
     "attackPowerBonusMax": 4,
@@ -2822,7 +2822,7 @@ module.exports = [
   {
     "id": 125,
     "name": "Lynel Spear",
-    "cssClassName": null,
+    "cssClassName": "lynel-spear",
     "attackPowerBase": 14,
     "attackPowerBonusMin": 2,
     "attackPowerBonusMax": 3,
@@ -2844,7 +2844,7 @@ module.exports = [
   {
     "id": 126,
     "name": "Mighty Lynel Spear",
-    "cssClassName": null,
+    "cssClassName": "mighty-lynel-spear",
     "attackPowerBase": 20,
     "attackPowerBonusMin": 3,
     "attackPowerBonusMax": 5,
@@ -2866,7 +2866,7 @@ module.exports = [
   {
     "id": 127,
     "name": "Savage Lynel Spear",
-    "cssClassName": null,
+    "cssClassName": "savage-lynel-spear",
     "attackPowerBase": 30,
     "attackPowerBonusMin": 4,
     "attackPowerBonusMax": 7,

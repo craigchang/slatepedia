@@ -4,6 +4,7 @@ import DataDetailTableView from '../Other/DataDetailTableView/DataDetailTableVie
 import IconContainer from '../Other/IconContainer/IconContainer';
 
 import './WeaponsDetail.css';
+import '../Weapons/WeaponSprites.css';
 
 class WeaponsDetail extends Component {
   constructor(props) {
@@ -43,7 +44,7 @@ class WeaponsDetail extends Component {
             <tr>
               <td>Icon</td>
               <td>
-                <IconContainer propertyName={weapon.name} folderName={"weapons"} />
+                <IconContainer propertyName={weapon.name} folderName={"weapons"} cssClassName={weapon.cssClassName} spriteSheet={"weapons"} />
               </td>
             </tr>
             <tr>

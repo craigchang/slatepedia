@@ -2446,23 +2446,105 @@ module.exports = [
   },
   {
     "id": 121,
-    "name": "Elixer",
-    "cssClassName": "elixer",
+    "name": "Hasty Elixir",
+    "cssClassName": "hasty-elixir",
     "ingredients": [
-      {
-        "id": 0,
-        "name": "Any Monster Part",
-        "cssClassName": null
-      },
-      {
-        "id": 0,
-        "name": "Any Small Animal",
-        "cssClassName": null
-      }
+      { "id": 0, "name": "Any Monster Part", "cssClassName": null },
+      { "id": 0, "name": "Any Small Animal", "cssClassName": null }
     ]
   },
   {
     "id": 122,
+    "name": "Mighty Elixir",
+    "cssClassName": "mighty-elixir",
+    "ingredients": [
+      { "id": 0, "name": "Any Monster Part", "cssClassName": null },
+      { "id": 0, "name": "Any Small Animal", "cssClassName": null }
+    ]
+  },
+  {
+    "id": 123,
+    "name": "Tough Elixir",
+    "cssClassName": "tough-elixir",
+    "ingredients": [
+      { "id": 0, "name": "Any Monster Part", "cssClassName": null },
+      { "id": 0, "name": "Any Small Animal", "cssClassName": null }
+    ]
+  },
+  {
+    "id": 124,
+    "name": "Enduring Elixir",
+    "cssClassName": "enduring-elixir",
+    "ingredients": [
+      { "id": 0, "name": "Any Monster Part", "cssClassName": null },
+      { "id": 0, "name": "Any Small Animal", "cssClassName": null }
+    ]
+  },
+  {
+    "id": 125,
+    "name": "Fireproof Elixir",
+    "cssClassName": "fireproof-elixir",
+    "ingredients": [
+      { "id": 0, "name": "Any Monster Part", "cssClassName": null },
+      { "id": 0, "name": "Any Small Animal", "cssClassName": null }
+    ]
+  },
+  {
+    "id": 126,
+    "name": "Energizing Elixir",
+    "cssClassName": "energizing-elixir",
+    "ingredients": [
+      { "id": 0, "name": "Any Monster Part", "cssClassName": null },
+      { "id": 0, "name": "Any Small Animal", "cssClassName": null }
+    ]
+  },
+  {
+    "id": 127,
+    "name": "Hearty Elixir",
+    "cssClassName": "hearty-elixir",
+    "ingredients": [
+      { "id": 0, "name": "Any Monster Part", "cssClassName": null },
+      { "id": 0, "name": "Any Small Animal", "cssClassName": null }
+    ]
+  },
+  {
+    "id": 128,
+    "name": "Sneaky Elixir",
+    "cssClassName": "sneaky-elixir",
+    "ingredients": [
+      { "id": 0, "name": "Any Monster Part", "cssClassName": null },
+      { "id": 0, "name": "Any Small Animal", "cssClassName": null }
+    ]
+  },
+  {
+    "id": 129,
+    "name": "Spicy Elixir",
+    "cssClassName": "spicy-elixir",
+    "ingredients": [
+      { "id": 0, "name": "Any Monster Part", "cssClassName": null },
+      { "id": 0, "name": "Any Small Animal", "cssClassName": null }
+    ]
+  },
+  {
+    "id": 130,
+    "name": "Electro Elixir",
+    "cssClassName": "electro-elixir",
+    "ingredients": [
+      { "id": 0, "name": "Any Monster Part", "cssClassName": null },
+      { "id": 0, "name": "Any Small Animal", "cssClassName": null }
+    ]
+  },
+  {
+    "id": 131,
+    "name": "Chilly Elixir",
+    "cssClassName": "chilly-elixir",
+    "ingredients": [
+      { "id": 0, "name": "Any Monster Part", "cssClassName": null },
+      { "id": 0, "name": "Any Small Animal", "cssClassName": null }
+    ]
+  },
+  {
+    "id": 132,
     "name": "Dubious Food",
     "cssClassName": "dubious-food",
     "ingredients": [

@@ -3,6 +3,7 @@ import DataDetailTableView from '../Other/DataDetailTableView/DataDetailTableVie
 import IconContainer from '../Other/IconContainer/IconContainer';
 
 import './MonstersDetail.css';
+import '../Monsters/MonsterSprites.css';
 
 class MonstersDetail extends Component {
   constructor(props) {
@@ -42,7 +43,7 @@ class MonstersDetail extends Component {
             <tr>
               <td>Icon</td>
               <td>
-                <IconContainer propertyName={monster.name} folderName={"monsters"} fileType={"jpg"} />
+                <IconContainer propertyName={monster.name} folderName={"monsters"} cssClassName={monster.cssClassName} spriteSheet={"monsters"} />
               </td>
             </tr>
             { monster.size === '' ? '' : 

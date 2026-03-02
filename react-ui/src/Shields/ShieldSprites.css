@@ -1,0 +1,54 @@
+/* Shield sprite sheet - weapons.png, 144x144px per sprite + 1px border (145px step) */
+/* Shields start at y=2544. Formula: x = -((col-1)*145+1)px, y = -((row-1)*145+2544)px */
+.shield-sprite {
+  width: 144px;
+  height: 144px;
+  background-image: url('../img/weapons.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* Scaled down for list/grid view (~80px) */
+.shield-sprite.shield-sprite-sm {
+  transform: scale(0.556);
+  transform-origin: top left;
+}
+
+/* Row 1 (y = -2544px) */
+.shield-sprite.wooden-shield { background-position: -1px -2544px; }
+.shield-sprite.soldiers-shield { background-position: -146px -2544px; }
+.shield-sprite.knights-shield { background-position: -291px -2544px; }
+.shield-sprite.boko-shield { background-position: -436px -2544px; }
+.shield-sprite.spiked-boko-shield { background-position: -581px -2544px; }
+.shield-sprite.dragonbone-boko-shield { background-position: -726px -2544px; }
+.shield-sprite.lizal-shield { background-position: -871px -2544px; }
+.shield-sprite.reinforced-lizal-shield { background-position: -1016px -2544px; }
+.shield-sprite.steel-lizal-shield { background-position: -1161px -2544px; }
+.shield-sprite.guardian-shield { background-position: -1306px -2544px; }
+.shield-sprite.guardian-shield-plus { background-position: -1451px -2544px; }
+
+/* Row 2 (y = -2689px) */
+.shield-sprite.guardian-shield-plus-plus { background-position: -1px -2689px; }
+.shield-sprite.lynel-shield { background-position: -146px -2689px; }
+.shield-sprite.mighty-lynel-shield { background-position: -291px -2689px; }
+.shield-sprite.savage-lynel-shield { background-position: -436px -2689px; }
+.shield-sprite.rusty-shield { background-position: -581px -2689px; }
+.shield-sprite.royal-shield { background-position: -726px -2689px; }
+.shield-sprite.forest-dwellers-shield { background-position: -871px -2689px; }
+.shield-sprite.silver-shield { background-position: -1016px -2689px; }
+.shield-sprite.gerudo-shield { background-position: -1161px -2689px; }
+.shield-sprite.hylian-shield { background-position: -1306px -2689px; }
+.shield-sprite.hunters-shield { background-position: -1451px -2689px; }
+
+/* Row 3 (y = -2834px) */
+.shield-sprite.fishermans-shield { background-position: -1px -2834px; }
+.shield-sprite.royal-guards-shield { background-position: -146px -2834px; }
+.shield-sprite.emblazoned-shield { background-position: -291px -2834px; }
+.shield-sprite.travelers-shield { background-position: -436px -2834px; }
+.shield-sprite.radiant-shield { background-position: -581px -2834px; }
+.shield-sprite.daybreaker { background-position: -726px -2834px; }
+.shield-sprite.ancient-shield { background-position: -871px -2834px; }
+.shield-sprite.pot-lid { background-position: -1016px -2834px; }
+.shield-sprite.shield-of-the-minds-eye { background-position: -1161px -2834px; }
+.shield-sprite.kite-shield { background-position: -1306px -2834px; }
+.shield-sprite.heros-shield { background-position: -1451px -2834px; }

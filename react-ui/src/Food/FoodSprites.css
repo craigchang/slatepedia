@@ -1,0 +1,100 @@
+/* Food sprite sheet - food.png, 144x144px per sprite + 1px border (145px x-step) */
+/* x = -((col-1)*145+1)px, y = -((row-1)*144+offset)px. Offsets: R1 +14, R2 +28, R3 +42, R4 +56, R5 +70, R6 +84, R7 +98, R8 +112, R9 +126, R10 +140, R11 +141, R12 +155, R13 +169 */
+.food-sprite {
+  width: 144px;
+  height: 144px;
+  background-image: url('../img/food.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* Scaled down for list/grid view (~80px) */
+.food-sprite.food-sprite-sm {
+  transform: scale(0.556);
+  transform-origin: top left;
+}
+
+/* Row 2 - fruit cooked (y = -172px) */
+.food-sprite.baked-apple { background-position: -1px -172px; }
+.food-sprite.roasted-wildberry { background-position: -146px -172px; }
+.food-sprite.roasted-voltfruit { background-position: -291px -172px; }
+.food-sprite.roasted-hearty-durian { background-position: -436px -172px; }
+.food-sprite.roasted-lotus-seeds { background-position: -581px -172px; }
+.food-sprite.roasted-hydromelon { background-position: -726px -172px; }
+.food-sprite.baked-palm-fruit { background-position: -871px -172px; }
+.food-sprite.roasted-mighty-bananas { background-position: -1016px -172px; }
+
+/* Row 3 - meat (y = -330px) */
+.food-sprite.raw-meat { background-position: -1px -330px; }
+.food-sprite.raw-prime-meat { background-position: -146px -330px; }
+.food-sprite.raw-gourmet-meat { background-position: -291px -330px; }
+.food-sprite.raw-bird-drumstick { background-position: -436px -330px; }
+.food-sprite.raw-bird-thigh { background-position: -581px -330px; }
+.food-sprite.raw-whole-bird { background-position: -726px -330px; }
+.food-sprite.bird-egg { background-position: -871px -330px; }
+
+/* Row 4 - meat cooked (y = -488px) */
+.food-sprite.seared-steak { background-position: -1px -488px; }
+.food-sprite.seared-prime-steak { background-position: -146px -488px; }
+.food-sprite.seared-gourmet-steak { background-position: -291px -488px; }
+.food-sprite.roasted-bird-drumstick { background-position: -436px -488px; }
+.food-sprite.roasted-bird-thigh { background-position: -581px -488px; }
+.food-sprite.roasted-whole-bird { background-position: -726px -488px; }
+.food-sprite.campfire-egg { background-position: -871px -488px; }
+.food-sprite.hard-boiled-egg { background-position: -1016px -488px; }
+
+/* Row 5 - meat frozen (y = -646px) */
+.food-sprite.icy-meat { background-position: -1px -646px; }
+.food-sprite.icy-prime-meat { background-position: -146px -646px; }
+.food-sprite.icy-gourmet-meat { background-position: -291px -646px; }
+.food-sprite.frozen-bird-drumstick { background-position: -436px -646px; }
+.food-sprite.frozen-bird-thigh { background-position: -581px -646px; }
+.food-sprite.frozen-whole-bird { background-position: -726px -646px; }
+
+/* Row 7 - mushrooms cooked (y = -962px) */
+.food-sprite.toasty-stamella-shroom { background-position: -1px -962px; }
+.food-sprite.toasty-chillshroom { background-position: -146px -962px; }
+.food-sprite.toasty-sunshroom { background-position: -291px -962px; }
+.food-sprite.toasty-zapshroom { background-position: -436px -962px; }
+.food-sprite.toasty-rushroom { background-position: -581px -962px; }
+.food-sprite.toasty-hylian-shroom { background-position: -726px -962px; }
+.food-sprite.toasty-hearty-truffle { background-position: -871px -962px; }
+.food-sprite.toasty-silent-shroom { background-position: -1016px -962px; }
+.food-sprite.toasty-razorshroom { background-position: -1161px -962px; }
+.food-sprite.toasty-ironshroom { background-position: -1306px -962px; }
+.food-sprite.toasty-big-hearty-truffle { background-position: -1451px -962px; }
+.food-sprite.toasty-endura-shroom { background-position: -1596px -962px; }
+
+/* Row 9 - vegetables cooked (y = -1278px) */
+.food-sprite.roasted-radish { background-position: -1px -1278px; }
+.food-sprite.roasted-big-radish { background-position: -146px -1278px; }
+.food-sprite.roasted-mighty-thistle { background-position: -291px -1278px; }
+.food-sprite.roasted-armoranth { background-position: -436px -1278px; }
+.food-sprite.roasted-swift-carrot { background-position: -581px -1278px; }
+.food-sprite.roasted-endura-carrot { background-position: -726px -1278px; }
+.food-sprite.charred-pepper { background-position: -871px -1278px; }
+.food-sprite.baked-fortified-pumpkin { background-position: -1016px -1278px; }
+.food-sprite.roasted-acorn { background-position: -1161px -1278px; }
+.food-sprite.roasted-tree-nut { background-position: -1306px -1278px; }
+
+/* Row 12 - fish cooked (y = -1739px) */
+.food-sprite.roasted-bass { background-position: -1px -1739px; }
+.food-sprite.roasted-hearty-bass { background-position: -146px -1739px; }
+.food-sprite.roasted-trout { background-position: -291px -1739px; }
+.food-sprite.roasted-hearty-salmon { background-position: -436px -1739px; }
+.food-sprite.roasted-carp { background-position: -581px -1739px; }
+.food-sprite.roasted-porgy { background-position: -726px -1739px; }
+.food-sprite.blueshell-escargot { background-position: -871px -1739px; }
+.food-sprite.sneaky-river-escargot { background-position: -1016px -1739px; }
+.food-sprite.blackened-crab { background-position: -1161px -1739px; }
+
+/* Row 13 - fish frozen (y = -1897px) */
+.food-sprite.frozen-bass { background-position: -1px -1897px; }
+.food-sprite.frozen-hearty-salmon { background-position: -146px -1897px; }
+.food-sprite.frozen-trout { background-position: -291px -1897px; }
+.food-sprite.frozen-carp { background-position: -436px -1897px; }
+.food-sprite.frozen-porgy { background-position: -581px -1897px; }
+.food-sprite.frozen-hearty-bass { background-position: -726px -1897px; }
+.food-sprite.frozen-river-snail { background-position: -871px -1897px; }
+.food-sprite.icy-hearty-blueshell-snail { background-position: -1016px -1897px; }
+.food-sprite.frozen-crab { background-position: -1161px -1897px; }

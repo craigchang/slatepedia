@@ -1,0 +1,49 @@
+/* Bow sprite sheet - weapons.png, 144x144px per sprite + 1px border (145px step) */
+/* x = -((col-1)*145+1)px. Rows 14-16: y = -((row-1)*145+56)px */
+.bow-sprite {
+  width: 144px;
+  height: 144px;
+  background-image: url('../img/weapons.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* Scaled down for list view (~80px) */
+.bow-sprite.bow-sprite-sm {
+  /* width: 80px;
+  height: 80px; */
+  transform: scale(0.556);
+  transform-origin: top left;
+}
+
+/* Row 14 - Bows (y = -1941px) */
+.bow-sprite.travelers-bow { background-position: -1px -1938px; }
+.bow-sprite.soldiers-bow { background-position: -146px -1938px; }
+.bow-sprite.spiked-boko-bow { background-position: -291px -1938px; }
+.bow-sprite.boko-bow { background-position: -436px -1938px; }
+.bow-sprite.lizal-bow { background-position: -581px -1938px; }
+.bow-sprite.lynel-bow { background-position: -726px -1938px; }
+.bow-sprite.reinforced-lizal-bow { background-position: -871px -1938px; }
+.bow-sprite.forest-dwellers-bow { background-position: -1016px -1938px; }
+.bow-sprite.silver-bow { background-position: -1161px -1938px; }
+.bow-sprite.golden-bow { background-position: -1306px -1938px; }
+.bow-sprite.swallow-bow { background-position: -1451px -1938px; }
+
+/* Row 15 (y = -2083px) */
+.bow-sprite.falcon-bow { background-position: -1px -2083px; }
+.bow-sprite.ancient-bow { background-position: -146px -2083px; }
+.bow-sprite.mighty-lynel-bow { background-position: -291px -2083px; }
+.bow-sprite.dragon-bone-boko-bow { background-position: -436px -2083px; }
+.bow-sprite.great-eagle-bow { background-position: -581px -2083px; }
+.bow-sprite.phrenic-bow { background-position: -726px -2083px; }
+.bow-sprite.steel-lizal-bow { background-position: -871px -2083px; }
+.bow-sprite.savage-lynel-bow { background-position: -1016px -2083px; }
+.bow-sprite.royal-guards-bow { background-position: -1161px -2083px; }
+.bow-sprite.knights-bow { background-position: -1306px -2083px; }
+.bow-sprite.royal-bow { background-position: -1451px -2083px; }
+
+/* Row 16 (y = -2228px) */
+.bow-sprite.wooden-bow { background-position: -1px -2228px; }
+.bow-sprite.duplex-bow { background-position: -146px -2228px; }
+.bow-sprite.bow-of-light { background-position: -291px -2228px; }
+.bow-sprite.twilight-bow { background-position: -436px -2228px; }

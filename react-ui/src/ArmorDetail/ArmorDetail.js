@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import IconContainer from '..//Other/IconContainer/IconContainer';
+import IconContainer from '../Other/IconContainer/IconContainer';
+import '../Armor/ArmorSprites.css';
 import DataDetailTableView from '../Other/DataDetailTableView/DataDetailTableView';
 
 import './ArmorDetail.css';
@@ -42,7 +43,7 @@ class ArmorDetail extends Component {
             <tr>
               <td>Icon</td>
               <td>
-                <IconContainer propertyName={armor.name} folderName={"armor"} />
+                <IconContainer propertyName={armor.name} folderName={"armor"} cssClassName={armor.cssClassName} spriteSheet="bodyarmor" />
               </td>
             </tr>
             <tr>

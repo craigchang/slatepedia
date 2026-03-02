@@ -2693,5 +2693,389 @@ module.exports = [
     ],
     "itemDrops": null,
     "notes": ""
+  },
+  {
+    "id": 85,
+    "name": "Golden Bokoblin",
+    "cssClassName": "gold-bokoblin",
+    "size": "",
+    "hp": 1080,
+    "rank": null,
+    "commonLocations": [],
+    "itemDrops": [
+      {
+        "id": 111,
+        "name": "Bokoblin Horn",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 112,
+        "name": "Bokoblin Fang",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 113,
+        "name": "Bokoblin Guts",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 104,
+        "name": "Amber",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 105,
+        "name": "Opal",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 107,
+        "name": "Topaz",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 108,
+        "name": "Ruby",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 109,
+        "name": "Sapphire",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 110,
+        "name": "Diamond",
+        "cssClassName": null,
+        "category": "materials"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 86,
+    "name": "Golden Lizalfos",
+    "cssClassName": "gold-lizalfos",
+    "size": "",
+    "hp": 1296,
+    "rank": null,
+    "commonLocations": [],
+    "itemDrops": [
+      {
+        "id": 117,
+        "name": "Lizalfos Horn",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 119,
+        "name": "Lizalfos Tail",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 118,
+        "name": "Lizalfos Talon",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 104,
+        "name": "Amber",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 105,
+        "name": "Opal",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 107,
+        "name": "Topaz",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 108,
+        "name": "Ruby",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 109,
+        "name": "Sapphire",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 110,
+        "name": "Diamond",
+        "cssClassName": null,
+        "category": "materials"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 87,
+    "name": "Golden Lynel",
+    "cssClassName": "gold-lynel",
+    "size": "",
+    "hp": 7500,
+    "rank": null,
+    "commonLocations": [],
+    "itemDrops": [
+      {
+        "id": 110,
+        "name": "Diamond",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 125,
+        "name": "Lynel Guts",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 124,
+        "name": "Lynel Hoof",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 123,
+        "name": "Lynel Horn",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 108,
+        "name": "Ruby",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 109,
+        "name": "Sapphire",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 54,
+        "name": "Star Fragment",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 107,
+        "name": "Topaz",
+        "cssClassName": null,
+        "category": "materials"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 88,
+    "name": "Golden Moblin",
+    "cssClassName": "gold-moblin",
+    "size": "",
+    "hp": 1620,
+    "rank": null,
+    "commonLocations": [],
+    "itemDrops": [
+      {
+        "id": 114,
+        "name": "Moblin Horn",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 115,
+        "name": "Moblin Fang",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 116,
+        "name": "Moblin Guts",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 104,
+        "name": "Amber",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 105,
+        "name": "Opal",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 107,
+        "name": "Topaz",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 108,
+        "name": "Ruby",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 109,
+        "name": "Sapphire",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 110,
+        "name": "Diamond",
+        "cssClassName": null,
+        "category": "materials"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 89,
+    "name": "Sky Octorok",
+    "cssClassName": "sky-octorok",
+    "size": "",
+    "hp": 8,
+    "rank": null,
+    "commonLocations": [],
+    "itemDrops": [
+      {
+        "id": 0,
+        "name": "Bow",
+        "cssClassName": null,
+        "category": "other"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 90,
+    "name": "Igneo Talus Titan",
+    "cssClassName": "igneo-talus-titan",
+    "size": "",
+    "hp": 1600,
+    "rank": null,
+    "commonLocations": [
+      "Lake Darman"
+    ],
+    "itemDrops": [
+      {
+        "id": 52,
+        "name": "Rock Salt",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 103,
+        "name": "Flint",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 104,
+        "name": "Amber",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 105,
+        "name": "Opal",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 107,
+        "name": "Topaz",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 108,
+        "name": "Ruby",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 109,
+        "name": "Sapphire",
+        "cssClassName": null,
+        "category": "materials"
+      },
+      {
+        "id": 110,
+        "name": "Diamond",
+        "cssClassName": null,
+        "category": "materials"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 91,
+    "name": "Molduking",
+    "cssClassName": "molduking",
+    "size": "",
+    "hp": 1600,
+    "rank": null,
+    "commonLocations": [
+      "East Barrens"
+    ],
+    "itemDrops": [
+      {
+        "id": 0,
+        "name": "Treasure Chests",
+        "cssClassName": null,
+        "category": "other"
+      },
+      {
+        "id": 0,
+        "name": "Weapons",
+        "cssClassName": null,
+        "category": "other"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 92,
+    "name": "Monk Maz Koshia",
+    "cssClassName": "monk-maz-koshia",
+    "size": "",
+    "hp": 4000,
+    "rank": null,
+    "commonLocations": [
+      "Shrine of Resurrection"
+    ],
+    "itemDrops": [
+      {
+        "id": 0,
+        "name": "Master Cycle Zero",
+        "cssClassName": null,
+        "category": "other"
+      }
+    ],
+    "notes": ""
   }
 ]

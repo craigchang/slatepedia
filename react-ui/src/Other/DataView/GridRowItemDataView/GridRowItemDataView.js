@@ -16,7 +16,9 @@ const GridRowItemDataView = ({obj, filterSettings}) => {
                       key={`${filterSettings[i].dataName}-image`}
                       imageFolder={filterSettings[i].imageFolder} 
                       fileType={filterSettings[i].fileType}
-                      name={obj.name} />)
+                      name={obj.name}
+                      cssClassName={filterSettings[i].imageCssDataName ? obj[filterSettings[i].imageCssDataName] : null}
+                      spriteSheet={filterSettings[i].spriteSheet} />)
         break;
       case 'string':
         array.push(<GridItemStringView 

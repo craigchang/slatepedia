@@ -3,6 +3,7 @@ import DataDetailTableView from '../Other/DataDetailTableView/DataDetailTableVie
 import IconContainer from '../Other/IconContainer/IconContainer';
 
 import './BowsDetail.css';
+import '../Bows/BowSprites.css';
 
 class BowsDetail extends Component {
   constructor(props) {
@@ -42,7 +43,7 @@ class BowsDetail extends Component {
             <tr>
               <td>Icon</td>
               <td>
-                <IconContainer propertyName={bow.name} folderName={"weapons"} />
+                <IconContainer propertyName={bow.name} folderName={"weapons"} cssClassName={bow.cssClassName} spriteSheet={"bows"} />
               </td>
             </tr>
             <tr>

@@ -3,6 +3,8 @@ import DataDetailTableView from '../Other/DataDetailTableView/DataDetailTableVie
 import IconContainer from '../Other/IconContainer/IconContainer';
 
 import './RecipesDetail.css';
+import '../Food/FoodSprites.css';
+import '../Recipes/RecipesSprites.css';
 
 class RecipesDetail extends Component {
   constructor(props) {
@@ -42,7 +44,7 @@ class RecipesDetail extends Component {
             <tr>
               <td>Icon</td>
               <td>
-                <IconContainer propertyName={recipe.name} folderName={"recipes"} />
+                <IconContainer propertyName={recipe.name} folderName={"food"} cssClassName={recipe.cssClassName} spriteSheet={"food"} />
               </td>
             </tr>
             <tr>

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import DataView from '../Other/DataView/DataView';
 
 import './Recipes.css';
+import '../Food/FoodSprites.css';
+import './RecipesSprites.css';
 
 class Recipes extends Component {
   constructor(props) {
@@ -55,7 +57,9 @@ class Recipes extends Component {
                   "dataName": null, 
                   "headerName": "Icon",
                   "dataType": "image", 
-                  "imageFolder": "/img/recipes",
+                  "imageFolder": "/img/food",
+                  "imageCssDataName": "cssClassName",
+                  "spriteSheet": "food",
                   "isSortable": false, 
                   "isFilterable": false
                 },

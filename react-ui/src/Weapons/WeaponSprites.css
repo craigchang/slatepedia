@@ -1,0 +1,174 @@
+/* Weapon sprite sheet - weapons.png, 144x144px per sprite + 1px border (145px step) */
+/* x = -((col-1)*145+1)px. Row 1: y=-14px; Rows 2-5: y=-((row-1)*145+14)px; Rows 6-9: y=-((row-1)*145+28)px; Rows 10-13: y=-((row-1)*145+42)px; Rows 14-16: y=-((row-1)*145+56)px */
+.weapon-sprite {
+  width: 144px;
+  height: 144px;
+  background-image: url('../img/weapons.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* Scaled down for list view (~80px) */
+.weapon-sprite.weapon-sprite-sm {
+  /* width: 80px;
+  height: 80px; */
+  transform: scale(0.556);
+  transform-origin: top left;
+}
+
+/* Row 1 - One-Handed (y = -14px) */
+.weapon-sprite.travelers-sword { background-position: -1px -14px; }
+.weapon-sprite.soldiers-broadsword { background-position: -146px -14px; }
+.weapon-sprite.knights-broadsword { background-position: -291px -14px; }
+.weapon-sprite.boko-club { background-position: -436px -14px; }
+.weapon-sprite.spiked-boko-club { background-position: -581px -14px; }
+.weapon-sprite.dragonbone-boko-club { background-position: -726px -14px; }
+.weapon-sprite.lizal-boomerang { background-position: -871px -14px; }
+.weapon-sprite.lizal-forked-boomerang { background-position: -1016px -14px; }
+.weapon-sprite.lizal-tri-boomerang { background-position: -1161px -14px; }
+.weapon-sprite.guardian-sword { background-position: -1306px -14px; }
+.weapon-sprite.guardian-sword-plus { background-position: -1451px -14px; }
+
+/* Row 2 (y = -159px) */
+.weapon-sprite.guardian-sword-plus-plus { background-position: -1px -159px; }
+.weapon-sprite.lynel-sword { background-position: -146px -159px; }
+.weapon-sprite.mighty-lynel-sword { background-position: -291px -159px; }
+.weapon-sprite.savage-lynel-sword { background-position: -436px -159px; }
+.weapon-sprite.bokoblin-arm { background-position: -581px -159px; }
+.weapon-sprite.lizalfos-arm { background-position: -726px -159px; }
+.weapon-sprite.rusty-broadsword { background-position: -871px -159px; }
+.weapon-sprite.soup-ladle { background-position: -1016px -159px; }
+.weapon-sprite.ancient-short-sword { background-position: -1161px -159px; }
+.weapon-sprite.royal-broadsword { background-position: -1306px -159px; }
+.weapon-sprite.forest-dwellers-sword { background-position: -1451px -159px; }
+
+/* Row 3 (y = -304px) */
+.weapon-sprite.zoras-sword { background-position: -1px -304px; }
+.weapon-sprite.gerudo-scimitar { background-position: -146px -304px; }
+.weapon-sprite.moonlight-scimitar { background-position: -291px -304px; }
+.weapon-sprite.feathered-edge { background-position: -436px -304px; }
+.weapon-sprite.flameblade { background-position: -581px -304px; }
+.weapon-sprite.frostblade { background-position: -726px -304px; }
+.weapon-sprite.thunderblade { background-position: -871px -304px; }
+.weapon-sprite.spring-loaded-hammer { background-position: -1016px -304px; }
+.weapon-sprite.eightfold-blade { background-position: -1161px -304px; }
+.weapon-sprite.torch { background-position: -1306px -304px; }
+.weapon-sprite.tree-branch { background-position: -1451px -304px; }
+
+/* Row 4 (y = -449px) */
+.weapon-sprite.royal-guards-sword { background-position: -1px -449px; }
+.weapon-sprite.meteor-rod { background-position: -146px -449px; }
+.weapon-sprite.blizzard-rod { background-position: -291px -449px; }
+.weapon-sprite.lightning-rod { background-position: -436px -449px; }
+.weapon-sprite.thunderstorm-rod { background-position: -436px -449px; }
+.weapon-sprite.boomerang { background-position: -581px -449px; }
+.weapon-sprite.scimitar-of-the-seven { background-position: -871px -449px; }
+.weapon-sprite.vicious-sickle { background-position: -871px -449px; }
+/* col 9 skip */
+.weapon-sprite.goddess-sword { background-position: -1161px -449px; }
+.weapon-sprite.sword { background-position: -1306px -449px; }
+.weapon-sprite.sea-breeze-boomerang { background-position: -1451px -449px; }
+
+/* Row 5 (y = -594px) */
+.weapon-sprite.fire-rod { background-position: -1px -594px; }
+.weapon-sprite.ice-rod { background-position: -146px -594px; }
+.weapon-sprite.lightning-rod { background-position: -291px -594px; }
+.weapon-sprite.master-sword { background-position: -436px -594px; }
+/* cols 5,6,7 skip */
+.weapon-sprite.demon-carver { background-position: -871px -594px; }
+/* cols 9,10,11 skip */
+
+/* Row 6 - Two-Handed (y = -752px) */
+.weapon-sprite.travelers-claymore { background-position: -1px -752px; }
+.weapon-sprite.soldiers-claymore { background-position: -146px -752px; }
+.weapon-sprite.knights-claymore { background-position: -291px -752px; }
+.weapon-sprite.boko-bat { background-position: -436px -752px; }
+.weapon-sprite.spiked-boko-bat { background-position: -581px -752px; }
+.weapon-sprite.dragonbone-boko-bat { background-position: -726px -752px; }
+.weapon-sprite.moblin-club { background-position: -871px -752px; }
+.weapon-sprite.spiked-moblin-club { background-position: -1016px -752px; }
+.weapon-sprite.dragonbone-moblin-club { background-position: -1161px -752px; }
+.weapon-sprite.ancient-battle-axe { background-position: -1306px -752px; }
+.weapon-sprite.ancient-battle-axe-plus { background-position: -1451px -752px; }
+
+/* Row 7 (y = -897px) */
+.weapon-sprite.ancient-battle-axe-plus-plus { background-position: -1px -897px; }
+.weapon-sprite.lynel-crusher { background-position: -146px -897px; }
+.weapon-sprite.mighty-lynel-crusher { background-position: -291px -897px; }
+.weapon-sprite.savage-lynel-crusher { background-position: -436px -897px; }
+.weapon-sprite.moblin-arm { background-position: -581px -897px; }
+.weapon-sprite.rusty-claymore { background-position: -726px -897px; }
+.weapon-sprite.ancient-bladesaw { background-position: -871px -897px; }
+.weapon-sprite.royal-claymore { background-position: -1016px -897px; }
+.weapon-sprite.silver-longsword { background-position: -1161px -897px; }
+.weapon-sprite.golden-claymore { background-position: -1306px -897px; }
+.weapon-sprite.double-axe { background-position: -1451px -897px; }
+
+/* Row 8 (y = -1042px) */
+.weapon-sprite.iron-sledgehammer { background-position: -1px -1042px; }
+.weapon-sprite.woodcutters-axe { background-position: -146px -1042px; }
+.weapon-sprite.great-flameblade { background-position: -291px -1042px; }
+.weapon-sprite.great-frostblade { background-position: -436px -1042px; }
+.weapon-sprite.great-thunderblade { background-position: -581px -1042px; }
+.weapon-sprite.cobble-crusher { background-position: -726px -1042px; }
+.weapon-sprite.stone-smasher { background-position: -871px -1042px; }
+.weapon-sprite.boat-oar { background-position: -1016px -1042px; }
+.weapon-sprite.eightfold-longblade { background-position: -1161px -1042px; }
+.weapon-sprite.farming-hoe { background-position: -1306px -1042px; }
+.weapon-sprite.royal-guards-claymore { background-position: -1451px -1042px; }
+
+/* Row 9 (y = -1187px) */
+.weapon-sprite.giant-boomerang { background-position: -1px -1187px; }
+.weapon-sprite.boulder-breaker { background-position: -146px -1187px; }
+.weapon-sprite.edge-of-duality { background-position: -291px -1187px; }
+.weapon-sprite.korok-leaf { background-position: -436px -1187px; }
+.weapon-sprite.sword-of-the-six-sages { background-position: -581px -1187px; }
+.weapon-sprite.biggorons-sword { background-position: -726px -1187px; }
+.weapon-sprite.fierce-deity-sword { background-position: -871px -1187px; }
+.weapon-sprite.windcleaver { background-position: -1016px -1187px; }
+
+/* Row 10 - Spears (y = -1345px) */
+.weapon-sprite.travelers-spear { background-position: -1px -1345px; }
+.weapon-sprite.soldiers-spear { background-position: -146px -1345px; }
+.weapon-sprite.knights-halberd { background-position: -291px -1345px; }
+.weapon-sprite.boko-spear { background-position: -436px -1345px; }
+.weapon-sprite.spiked-boko-spear { background-position: -581px -1345px; }
+.weapon-sprite.dragonbone-boko-spear { background-position: -726px -1345px; }
+.weapon-sprite.lizal-spear { background-position: -871px -1345px; }
+.weapon-sprite.enhanced-lizal-spear { background-position: -1016px -1345px; }
+.weapon-sprite.forked-lizal-spear { background-position: -1161px -1345px; }
+.weapon-sprite.moblin-spear { background-position: -1306px -1345px; }
+.weapon-sprite.spiked-moblin-spear { background-position: -1451px -1345px; }
+
+/* Row 11 (y = -1490px) */
+.weapon-sprite.dragonbone-moblin-spear { background-position: -1px -1490px; }
+.weapon-sprite.guardian-spear { background-position: -146px -1490px; }
+.weapon-sprite.guardian-spear-plus { background-position: -291px -1490px; }
+.weapon-sprite.guardian-spear-plus-plus { background-position: -436px -1490px; }
+.weapon-sprite.lynel-spear { background-position: -581px -1490px; }
+.weapon-sprite.mighty-lynel-spear { background-position: -726px -1490px; }
+.weapon-sprite.savage-lynel-spear { background-position: -871px -1490px; }
+.weapon-sprite.rusty-halberd { background-position: -1016px -1490px; }
+.weapon-sprite.farmers-pitchfork { background-position: -1161px -1490px; }
+.weapon-sprite.ancient-spear { background-position: -1306px -1490px; }
+.weapon-sprite.royal-halberd { background-position: -1451px -1490px; }
+
+/* Row 12 (y = -1635px) */
+.weapon-sprite.forest-dwellers-spear { background-position: -1px -1635px; }
+.weapon-sprite.zora-spear { background-position: -146px -1635px; }
+.weapon-sprite.silverscale-spear { background-position: -291px -1635px; }
+.weapon-sprite.gerudo-spear { background-position: -436px -1635px; }
+.weapon-sprite.throwing-spear { background-position: -581px -1635px; }
+.weapon-sprite.drillshaft { background-position: -726px -1635px; }
+.weapon-sprite.feathered-spear { background-position: -871px -1635px; }
+.weapon-sprite.flamespear { background-position: -1016px -1635px; }
+.weapon-sprite.frostspear { background-position: -1161px -1635px; }
+.weapon-sprite.thunderspear { background-position: -1306px -1635px; }
+.weapon-sprite.wooden-mop { background-position: -1451px -1635px; }
+
+/* Row 13 (y = -1780px) */
+.weapon-sprite.serpentine-spear { background-position: -1px -1780px; }
+.weapon-sprite.fishing-harpoon { background-position: -146px -1780px; }
+.weapon-sprite.royal-guards-spear { background-position: -291px -1780px; }
+.weapon-sprite.lightscale-trident { background-position: -436px -1780px; }
+.weapon-sprite.ceremonial-trident { background-position: -436px -1780px; }

@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
-import IconContainer from '..//Other/IconContainer/IconContainer';
+import IconContainer from '../Other/IconContainer/IconContainer';
+import '../Armor/ArmorSprites.css';
+import '../Materials/MaterialsSprites.css';
+import '../Food/FoodSprites.css';
+import '../Recipes/RecipesSprites.css';
 import DataDetailTableView from '../Other/DataDetailTableView/DataDetailTableView';
 
 import './MaterialsDetail.css';
@@ -41,7 +45,7 @@ class MaterialsDetail extends Component {
           <tbody>
             <tr>
               <td>Icon</td>
-              <td><IconContainer propertyName={material.name} folderName={"materials"} /></td>
+              <td><IconContainer propertyName={material.name} folderName={material.cssClassName ? "food" : "materials"} cssClassName={material.cssClassName} spriteSheet={material.cssClassName ? "materials" : null} /></td>
             </tr>
             <tr>
               <td>Description</td>
@@ -96,7 +100,7 @@ class MaterialsDetail extends Component {
                 {material.recipes.map((recipe, index) => (
                   <tr key={index}>
                     <td>
-                      <IconContainer propertyName={recipe.name} folderName={"recipes"} />
+                      <IconContainer propertyName={recipe.name} folderName={"food"} cssClassName={recipe.cssClassName} spriteSheet={"food"} />
                     </td>
                     <td>
                       <i className="fa fa-cutlery" aria-hidden="true"></i> <a href={"/recipes/" + recipe.id}>{recipe.name}</a>
@@ -122,7 +126,7 @@ class MaterialsDetail extends Component {
                 {material.armorList.map((armor, index) => (
                   <tr key={index}>
                     <td>
-                      <IconContainer propertyName={armor.name} folderName={"armor"} />
+                      <IconContainer propertyName={armor.name} folderName={"armor"} cssClassName={armor.cssClassName} spriteSheet="bodyarmor" />
                     </td>
                     <td>
                       <i className="fa fa-male" aria-hidden="true"></i> <a href={"/armor/" + armor.id}>{armor.name}</a>

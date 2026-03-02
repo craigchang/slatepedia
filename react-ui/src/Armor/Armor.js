@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import DataView from '../Other/DataView/DataView';
 
 import './Armor.css';
+import './ArmorSprites.css';
 
 class Armor extends Component {
   constructor(props) {
@@ -56,6 +57,8 @@ class Armor extends Component {
                   "headerName": "Icon",
                   "dataType": "image",
                   "imageFolder": "/img/armor",
+                  "imageCssDataName": "cssClassName",
+                  "spriteSheet": "bodyarmor",
                   "isSortable": false, 
                   "isFilterable": false
                 },

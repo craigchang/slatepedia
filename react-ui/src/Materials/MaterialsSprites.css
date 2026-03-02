@@ -1,0 +1,293 @@
+/* Material sprite sheet - food.png (fruit, mushrooms, vegetables, fish, shellfish), 144x144px per sprite */
+.material-sprite {
+  width: 144px;
+  height: 144px;
+  background-image: url('../img/food.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* materials.png (enemy drops, insects, ores, plants, misc) - 145x145px per sprite */
+.material-sprite.bokoblin-horn,
+.material-sprite.bokoblin-fang,
+.material-sprite.bokoblin-guts,
+.material-sprite.lizalfos-talon,
+.material-sprite.lizalfos-horn,
+.material-sprite.lizalfos-tail,
+.material-sprite.red-lizalfos-tail,
+.material-sprite.icy-lizalfos-tail,
+.material-sprite.yellow-lizalfos-tail,
+.material-sprite.moblin-horn,
+.material-sprite.moblin-fang,
+.material-sprite.moblin-guts,
+.material-sprite.lynel-horn,
+.material-sprite.lynel-hoof,
+.material-sprite.lynel-guts,
+.material-sprite.red-chuchu-jelly,
+.material-sprite.yellow-chuchu-jelly,
+.material-sprite.white-chuchu-jelly,
+.material-sprite.chuchu-jelly,
+.material-sprite.keese-eyeball,
+.material-sprite.octorok-tentacle,
+.material-sprite.octorok-eyeball,
+.material-sprite.molduga-fin,
+.material-sprite.molduga-guts,
+.material-sprite.ancient-gear,
+.material-sprite.ancient-screw,
+.material-sprite.ancient-spring,
+.material-sprite.ancient-shaft,
+.material-sprite.ancient-core,
+.material-sprite.giant-ancient-core,
+.material-sprite.keese-wing,
+.material-sprite.fire-keese-wing,
+.material-sprite.electric-keese-wing,
+.material-sprite.ice-keese-wing,
+.material-sprite.hinox-toenail,
+.material-sprite.hinox-tooth,
+.material-sprite.hinox-guts,
+.material-sprite.dinraals-claw,
+.material-sprite.naydras-claw,
+.material-sprite.faroshs-claw,
+.material-sprite.dinraals-horn,
+.material-sprite.naydras-horn,
+.material-sprite.faroshs-horn,
+.material-sprite.dinraals-scale,
+.material-sprite.naydras-scale,
+.material-sprite.shard-of-dinraals-fang,
+.material-sprite.faroshs-scale,
+.material-sprite.shard-of-naydras-fang,
+.material-sprite.shard-of-faroshs-fang,
+.material-sprite.octo-balloon,
+.material-sprite.winterwing-butterfly,
+.material-sprite.summerwing-butterfly,
+.material-sprite.thunderwing-butterfly,
+.material-sprite.smotherwing-butterfly,
+.material-sprite.cold-darner,
+.material-sprite.electric-darner,
+.material-sprite.warm-darner,
+.material-sprite.rugged-rhino-beetle,
+.material-sprite.bladed-rhino-beetle,
+.material-sprite.energetic-rhino-beetle,
+.material-sprite.sunset-firefly,
+.material-sprite.fairy,
+.material-sprite.restless-cricket,
+.material-sprite.hot-footed-frog,
+.material-sprite.tireless-frog,
+.material-sprite.hearty-lizard,
+.material-sprite.hightail-lizard,
+.material-sprite.fireproof-lizard,
+.material-sprite.diamond,
+.material-sprite.ruby,
+.material-sprite.sapphire,
+.material-sprite.topaz,
+.material-sprite.opal,
+.material-sprite.amber,
+.material-sprite.luminous-stone,
+.material-sprite.rock-salt,
+.material-sprite.flint,
+.material-sprite.star-fragment,
+.material-sprite.hyrule-herb,
+.material-sprite.cool-safflina,
+.material-sprite.warm-safflina,
+.material-sprite.blue-nightshade,
+.material-sprite.silent-princess,
+.material-sprite.electric-safflina,
+.material-sprite.swift-violet,
+.material-sprite.wood,
+.material-sprite.cane-sugar,
+.material-sprite.tabantha-wheat,
+.material-sprite.hylian-rice,
+.material-sprite.goat-butter,
+.material-sprite.fresh-milk,
+.material-sprite.courser-bee-honey,
+.material-sprite.goron-spice,
+.material-sprite.monster-extract {
+  background-image: url('../img/materials.png');
+  width: 145px;
+  height: 145px;
+}
+
+/* Scaled down for list/grid view (~80px) */
+.material-sprite.material-sprite-sm {
+  transform: scale(0.556);
+  transform-origin: top left;
+}
+
+/* Row 1 - fruit (y = -14px) */
+.material-sprite.apple { background-position: -1px -14px; }
+.material-sprite.wildberry { background-position: -146px -14px; }
+.material-sprite.volt-fruit { background-position: -291px -14px; }
+.material-sprite.hearty-durian { background-position: -436px -14px; }
+.material-sprite.fleet-lotus-seeds { background-position: -581px -14px; }
+.material-sprite.hydromelon { background-position: -726px -14px; }
+.material-sprite.palm-fruit { background-position: -871px -14px; }
+.material-sprite.mighty-bananas { background-position: -1016px -14px; }
+
+/* Row 3 - meat (y = -330px) */
+.material-sprite.raw-meat { background-position: -1px -330px; }
+.material-sprite.raw-prime-meat { background-position: -146px -330px; }
+.material-sprite.raw-gourmet-meat { background-position: -291px -330px; }
+.material-sprite.raw-bird-drumstick { background-position: -436px -330px; }
+.material-sprite.raw-bird-thigh { background-position: -581px -330px; }
+.material-sprite.raw-whole-bird { background-position: -726px -330px; }
+.material-sprite.bird-egg { background-position: -871px -330px; }
+
+/* Row 6 - mushrooms (y = -804px) */
+.material-sprite.stamella-shroom { background-position: -1px -804px; }
+.material-sprite.chillshroom { background-position: -146px -804px; }
+.material-sprite.sunshroom { background-position: -291px -804px; }
+.material-sprite.zapshroom { background-position: -436px -804px; }
+.material-sprite.rushroom { background-position: -581px -804px; }
+.material-sprite.hylian-shroom { background-position: -726px -804px; }
+.material-sprite.hearty-truffle { background-position: -871px -804px; }
+.material-sprite.silent-shroom { background-position: -1016px -804px; }
+.material-sprite.razorshroom { background-position: -1161px -804px; }
+.material-sprite.ironshroom { background-position: -1306px -804px; }
+.material-sprite.big-hearty-truffle { background-position: -1451px -804px; }
+.material-sprite.endura-shroom { background-position: -1596px -804px; }
+
+/* Row 8 - vegetables (y = -1120px) */
+.material-sprite.hearty-radish { background-position: -1px -1120px; }
+.material-sprite.big-hearty-radish { background-position: -146px -1120px; }
+.material-sprite.mighty-thistle { background-position: -291px -1120px; }
+.material-sprite.armoranth { background-position: -436px -1120px; }
+.material-sprite.swift-carrot { background-position: -581px -1120px; }
+.material-sprite.endura-carrot { background-position: -726px -1120px; }
+.material-sprite.spicy-pepper { background-position: -871px -1120px; }
+.material-sprite.fortified-pumpkin { background-position: -1016px -1120px; }
+.material-sprite.acorn { background-position: -1161px -1120px; }
+.material-sprite.chickaloo-tree-nut { background-position: -1306px -1120px; }
+
+/* Row 10 - fish (y = -1436px) */
+.material-sprite.hyrule-bass { background-position: -1px -1436px; }
+.material-sprite.staminoka-bass { background-position: -146px -1436px; }
+.material-sprite.hearty-bass { background-position: -291px -1436px; }
+.material-sprite.chillfin-trout { background-position: -436px -1436px; }
+.material-sprite.voltfin-trout { background-position: -581px -1436px; }
+.material-sprite.sizzlefin-trout { background-position: -726px -1436px; }
+.material-sprite.stealthfin-trout { background-position: -871px -1436px; }
+.material-sprite.hearty-salmon { background-position: -1016px -1436px; }
+.material-sprite.mighty-carp { background-position: -1161px -1436px; }
+.material-sprite.armored-carp { background-position: -1306px -1436px; }
+.material-sprite.sanke-carp { background-position: -1451px -1436px; }
+.material-sprite.mighty-porgy { background-position: -1596px -1436px; }
+.material-sprite.armored-porgy { background-position: -1741px -1436px; }
+
+/* Row 11 - shellfish (y = -1581px) */
+.material-sprite.hearty-blueshell-snail { background-position: -1px -1581px; }
+.material-sprite.sneaky-river-snail { background-position: -146px -1581px; }
+.material-sprite.razorclaw-crab { background-position: -291px -1581px; }
+.material-sprite.ironshell-crab { background-position: -436px -1581px; }
+.material-sprite.bright-eyed-crab { background-position: -581px -1581px; }
+
+/* Row 1 - Enemy Drops (y = -488px) */
+.material-sprite.bokoblin-horn { background-position: -1px -488px; }
+.material-sprite.bokoblin-fang { background-position: -146px -488px; }
+.material-sprite.bokoblin-guts { background-position: -291px -488px; }
+.material-sprite.lizalfos-talon { background-position: -436px -488px; }
+.material-sprite.lizalfos-horn { background-position: -581px -488px; }
+.material-sprite.lizalfos-tail { background-position: -726px -488px; }
+.material-sprite.red-lizalfos-tail { background-position: -871px -488px; }
+.material-sprite.icy-lizalfos-tail { background-position: -1016px -488px; }
+.material-sprite.yellow-lizalfos-tail { background-position: -1161px -488px; }
+.material-sprite.moblin-horn { background-position: -1306px -488px; }
+.material-sprite.moblin-fang { background-position: -1451px -488px; }
+.material-sprite.moblin-guts { background-position: -1596px -488px; }
+.material-sprite.lynel-horn { background-position: -1741px -488px; }
+.material-sprite.lynel-hoof { background-position: -1886px -488px; }
+.material-sprite.lynel-guts { background-position: -2031px -488px; }
+
+/* Row 2 - Enemy Drops (y = -633px) */
+.material-sprite.red-chuchu-jelly { background-position: -1px -633px; }
+.material-sprite.yellow-chuchu-jelly { background-position: -146px -633px; }
+.material-sprite.white-chuchu-jelly { background-position: -291px -633px; }
+.material-sprite.chuchu-jelly { background-position: -436px -633px; }
+.material-sprite.keese-eyeball { background-position: -581px -633px; }
+.material-sprite.octorok-tentacle { background-position: -726px -633px; }
+.material-sprite.octorok-eyeball { background-position: -871px -633px; }
+.material-sprite.molduga-fin { background-position: -1016px -633px; }
+.material-sprite.molduga-guts { background-position: -1161px -633px; }
+.material-sprite.ancient-gear { background-position: -1306px -633px; }
+.material-sprite.ancient-screw { background-position: -1451px -633px; }
+.material-sprite.ancient-spring { background-position: -1596px -633px; }
+.material-sprite.ancient-shaft { background-position: -1741px -633px; }
+.material-sprite.ancient-core { background-position: -1886px -633px; }
+.material-sprite.giant-ancient-core { background-position: -2031px -633px; }
+
+/* Row 3 - Enemy Drops (y = -778px) */
+.material-sprite.keese-wing { background-position: -1px -778px; }
+.material-sprite.fire-keese-wing { background-position: -146px -778px; }
+.material-sprite.electric-keese-wing { background-position: -291px -778px; }
+.material-sprite.ice-keese-wing { background-position: -436px -778px; }
+.material-sprite.hinox-toenail { background-position: -581px -778px; }
+.material-sprite.hinox-tooth { background-position: -726px -778px; }
+.material-sprite.hinox-guts { background-position: -871px -778px; }
+.material-sprite.dinraals-claw { background-position: -1016px -778px; }
+.material-sprite.naydras-claw { background-position: -1161px -778px; }
+.material-sprite.faroshs-claw { background-position: -1306px -778px; }
+.material-sprite.dinraals-horn { background-position: -1451px -778px; }
+.material-sprite.naydras-horn { background-position: -1596px -778px; }
+.material-sprite.faroshs-horn { background-position: -1741px -778px; }
+.material-sprite.dinraals-scale { background-position: -1886px -778px; }
+.material-sprite.naydras-scale { background-position: -2031px -778px; }
+
+/* Row 4 - Enemy Drops (y = -923px) */
+.material-sprite.shard-of-dinraals-fang { background-position: -1px -923px; }
+.material-sprite.faroshs-scale { background-position: -146px -923px; }
+.material-sprite.shard-of-naydras-fang { background-position: -291px -923px; }
+.material-sprite.shard-of-faroshs-fang { background-position: -436px -923px; }
+.material-sprite.octo-balloon { background-position: -581px -923px; }
+
+/* Row 5 - Insects (y = -1239px) */
+.material-sprite.winterwing-butterfly { background-position: -1px -1239px; }
+.material-sprite.summerwing-butterfly { background-position: -146px -1239px; }
+.material-sprite.thunderwing-butterfly { background-position: -291px -1239px; }
+.material-sprite.smotherwing-butterfly { background-position: -436px -1239px; }
+.material-sprite.cold-darner { background-position: -581px -1239px; }
+.material-sprite.electric-darner { background-position: -726px -1239px; }
+.material-sprite.warm-darner { background-position: -871px -1239px; }
+.material-sprite.rugged-rhino-beetle { background-position: -1016px -1239px; }
+.material-sprite.bladed-rhino-beetle { background-position: -1161px -1239px; }
+.material-sprite.energetic-rhino-beetle { background-position: -1306px -1239px; }
+.material-sprite.sunset-firefly { background-position: -1451px -1239px; }
+.material-sprite.fairy { background-position: -1596px -1239px; }
+.material-sprite.restless-cricket { background-position: -1741px -1239px; }
+.material-sprite.hot-footed-frog { background-position: -1886px -1239px; }
+.material-sprite.tireless-frog { background-position: -2031px -1239px; }
+
+/* Row 6 - Insects (y = -1384px) */
+.material-sprite.hearty-lizard { background-position: -1px -1384px; }
+.material-sprite.hightail-lizard { background-position: -146px -1384px; }
+.material-sprite.fireproof-lizard { background-position: -291px -1384px; }
+
+/* Row 7 - Ores (y = -1542px) */
+.material-sprite.diamond { background-position: -1px -1542px; }
+.material-sprite.ruby { background-position: -146px -1542px; }
+.material-sprite.sapphire { background-position: -291px -1542px; }
+.material-sprite.topaz { background-position: -436px -1542px; }
+.material-sprite.opal { background-position: -581px -1542px; }
+.material-sprite.amber { background-position: -726px -1542px; }
+.material-sprite.luminous-stone { background-position: -871px -1542px; }
+.material-sprite.rock-salt { background-position: -1016px -1542px; }
+.material-sprite.flint { background-position: -1161px -1542px; }
+.material-sprite.star-fragment { background-position: -1306px -1542px; }
+
+/* Row 8 - Plants (y = -1700px) */
+.material-sprite.hyrule-herb { background-position: -1px -1700px; }
+.material-sprite.cool-safflina { background-position: -146px -1700px; }
+.material-sprite.warm-safflina { background-position: -291px -1700px; }
+.material-sprite.blue-nightshade { background-position: -436px -1700px; }
+.material-sprite.silent-princess { background-position: -581px -1700px; }
+.material-sprite.electric-safflina { background-position: -726px -1700px; }
+.material-sprite.swift-violet { background-position: -871px -1700px; }
+
+/* Individual sprites (materials.png) */
+.material-sprite.wood { background-position: -436px -2306px; }
+.material-sprite.cane-sugar { background-position: -581px -2306px; }
+.material-sprite.tabantha-wheat { background-position: -726px -2306px; }
+.material-sprite.hylian-rice { background-position: -871px -2306px; }
+.material-sprite.goat-butter { background-position: -1016px -2306px; }
+.material-sprite.fresh-milk { background-position: -1161px -2306px; }
+.material-sprite.courser-bee-honey { background-position: -1161px -2161px; }
+.material-sprite.goron-spice { background-position: -1306px -2306px; }
+.material-sprite.monster-extract { background-position: -1451px -2306px; }

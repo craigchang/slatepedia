@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import DataView from '../Other/DataView/DataView';
 
 import './Shields.css';
+import './ShieldSprites.css';
 
 class Monsters extends Component {
   constructor(props) {
@@ -54,8 +55,10 @@ class Monsters extends Component {
                 {
                   "dataName": null, 
                   "headerName": "Icon",
-                  "dataType": "image", 
-                  "imageFolder": "/img/shields",
+                  "dataType": "image",
+                  "imageFolder": "/img/weapons",
+                  "imageCssDataName": "cssClassName",
+                  "spriteSheet": "shields",
                   "isSortable": false, 
                   "isFilterable": false
                 },
