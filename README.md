@@ -81,8 +81,6 @@ The app is hosted on [Render](https://render.com/) at **https://slatepedia.onren
 - **Start command:** `npm start`
 - **Port:** Uses `process.env.PORT` (set by Render)
 
-**Important:** The `heroku-postbuild` script was removed from `package.json`. Render automatically runs `heroku-postbuild` when present, which triggered the React build and caused OOM failures. Keeping it removed ensures only the Node server runs.
-
 To deploy: connect your repo to Render and use the Blueprint. Render will read `render.yaml` and configure the web service.
 
 ---
