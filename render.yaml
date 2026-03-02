@@ -1,16 +1,9 @@
 # Render Blueprint - Slatepedia
-# Node API server serves the built React app from react-ui/build/
+# API server only (no React UI build)
 
 services:
   - type: web
     name: slatepedia
     runtime: node
-    buildCommand: npm install && cd react-ui && npm install && npm run build
+    buildCommand: npm install
     startCommand: npm start
-    envVars:
-      # Increase Node memory limit for CRA build (exit 9 = OOM on free tier)
-      - key: NODE_OPTIONS
-        value: --max_old_space_size=2048 --openssl-legacy-provider
-      # Disable source maps to reduce build memory usage
-      - key: GENERATE_SOURCEMAP
-        value: "false"
