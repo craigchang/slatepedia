@@ -1,0 +1,9 @@
+# Render Blueprint - Slatepedia
+# Node API server serves the built React app from react-ui/build/
+
+services:
+  - type: web
+    name: slatepedia
+    runtime: node
+    buildCommand: npm install && cd react-ui && npm install && npm run build
+    startCommand: npm start
