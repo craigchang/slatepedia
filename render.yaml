@@ -7,3 +7,10 @@ services:
     runtime: node
     buildCommand: npm install && cd react-ui && npm install && npm run build
     startCommand: npm start
+    envVars:
+      # Increase Node memory limit for CRA build (exit 9 = OOM on free tier)
+      - key: NODE_OPTIONS
+        value: --max_old_space_size=2048 --openssl-legacy-provider
+      # Disable source maps to reduce build memory usage
+      - key: GENERATE_SOURCEMAP
+        value: "false"
