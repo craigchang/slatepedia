@@ -5,5 +5,5 @@ services:
   - type: web
     name: slatepedia
     runtime: node
-    buildCommand: npm install
+    buildCommand: npm install && cd react-ui && npm install && npm run build
     startCommand: npm start

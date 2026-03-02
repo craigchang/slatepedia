@@ -2,7 +2,7 @@
 
 A wiki for *The Legend of Zelda: Breath of the Wild*, covering materials, recipes, armor, food, monsters, shields, weapons, and bows. Browse items with grid/list views, search, filter, and view detailed stats.
 
-**Live demo:** https://slatepedia.herokuapp.com/
+**Live demo:** https://slatepedia.onrender.com/
 
 ---
 
@@ -38,7 +38,7 @@ The app has two parts: a Node API server and a React UI. Run both for full funct
 
 ### Prerequisites
 
-- Node.js (v14+ recommended; the project may use `engines.node` from `package.json`)
+- Node.js (v22+; see `engines.node` in `package.json`)
 - npm
 
 ### 1. API server
@@ -73,18 +73,17 @@ This starts the UI on **http://localhost:3000** and proxies API requests to the 
 
 ## Deployment
 
-The app is currently set up for Heroku (`heroku-postbuild` builds the React app). For future hosting, it can be adapted for other platforms.
+### Render
 
-### Future hosting (e.g. Render)
+The app is hosted on [Render](https://render.com/) at **https://slatepedia.onrender.com/** via a Blueprint (`render.yaml`). The deployment runs **API server only**—no React UI build—to avoid memory limits on the free tier.
 
-Planned deployment target: **Render**. Suggested setup:
+- **Build command:** `npm install`
+- **Start command:** `npm start`
+- **Port:** Uses `process.env.PORT` (set by Render)
 
-- **Web Service** for the Node server
-- Build command: `npm install && cd react-ui/ && npm install && npm run build`
-- Start command: `npm start`
-- Ensure the built React app is served from `react-ui/build/` (already configured in `server/index.js`)
+**Important:** The `heroku-postbuild` script was removed from `package.json`. Render automatically runs `heroku-postbuild` when present, which triggered the React build and caused OOM failures. Keeping it removed ensures only the Node server runs.
 
-Render will use the Node buildpack. Environment variables and production ports are handled via `process.env.PORT`.
+To deploy: connect your repo to Render and use the Blueprint. Render will read `render.yaml` and configure the web service.
 
 ---
 
