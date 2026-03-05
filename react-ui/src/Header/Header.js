@@ -52,6 +52,7 @@ class Header extends Component {
                 <a className="dropdown-item" href="/shields">Shields <span className="sr-only">(current)</span></a>
                 <a className="dropdown-item" href="/weapons">Weapons <span className="sr-only">(current)</span></a>
                 <a className="dropdown-item" href="/bows">Bows <span className="sr-only">(current)</span></a>
+                <a className="dropdown-item" href="/animals">Animals <span className="sr-only">(current)</span></a>
 
                 {/* <a className="dropdown-item" href="#">Action</a>
                 <a className="dropdown-item" href="#">Another action</a>

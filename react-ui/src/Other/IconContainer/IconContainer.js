@@ -35,6 +35,9 @@ const IconContainer = ({propertyName, gridType, folderName, fileType, cssClassNa
     if (spriteSheet === "materials") {
       return <div className={`material-sprite ${spriteClassName}`} title={propertyName} aria-label={imageName} />;
     }
+    if (spriteSheet === "animals") {
+      return <div className={`animal-sprite ${spriteClassName}`} title={propertyName} aria-label={imageName} />;
+    }
   }
   
   return <img alt={imageName} className={cssClassName} src={`${IMAGE_FOLDER}/${folderName}/${imageName}.${fileType}`}/>;

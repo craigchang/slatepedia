@@ -13,6 +13,7 @@ const monstersJson = require('./rest/monsters');
 const shieldsJson = require('./rest/shields');
 const weaponsJson = require('./rest/weapons');
 const bowsJson = require('./rest/bows');
+const animalsJson = require('./rest/animals');
 
 // Multi-process to utilize all CPU cores.
 if (cluster.isMaster) {
@@ -134,7 +135,17 @@ if (cluster.isMaster) {
     res.set('Content-Type', 'application/json');
     res.send(bowsJson[Number(req.params.id) - 1]);
   });
-  
+
+  // Animals API
+  app.get('/api/animals', function (req, res) {
+    res.set('Content-Type', 'application/json');
+    res.send(animalsJson);
+  });
+  // Animals Detail API
+  app.get('/api/animals/:id', function (req, res) {
+    res.set('Content-Type', 'application/json');
+    res.send(animalsJson[Number(req.params.id) - 1]);
+  });
 
   // All remaining requests return the React app, so it can handle routing.
   app.get('*', function(request, response) {

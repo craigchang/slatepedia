@@ -1,0 +1,126 @@
+/* Animal sprite sheets - animals.png & animals2.png, 280x280px per sprite + 1px border (281px step) */
+/* Formula: x = -((col-1)*281+1)px, y = -((row-1)*281+1)px */
+.animal-sprite {
+  width: 280px;
+  height: 280px;
+  background-image: url('../img/animals.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* Scaled down for list/grid view (~80px) */
+.animal-sprite.animal-sprite-sm {
+  transform: scale(0.286);
+  transform-origin: top left;
+}
+
+/* animals.png - Row 1 (y = -1px) */
+.animal-sprite.honeyvore-bear { background-position: -1px -1px; }
+.animal-sprite.grizzlemaw-bear { background-position: -282px -1px; }
+.animal-sprite.woodland-boar { background-position: -563px -1px; }
+.animal-sprite.red-tusked-boar { background-position: -844px -1px; }
+.animal-sprite.water-buffalo { background-position: -1125px -1px; }
+.animal-sprite.eldin-ostrich { background-position: -1406px -1px; }
+.animal-sprite.hateno-cow { background-position: -1687px -1px; }
+.animal-sprite.mountain-crow { background-position: -1968px -1px; }
+
+/* animals.png - Row 2 (y = -282px) */
+.animal-sprite.mountain-buck { background-position: -1px -282px; }
+.animal-sprite.mountain-doe { background-position: -282px -282px; }
+.animal-sprite.hylian-retriever { background-position: -563px -282px; }
+.animal-sprite.tabantha-moose { background-position: -844px -282px; }
+
+/* animals.png - Row 3 (y = -563px) */
+.animal-sprite.grassland-fox { background-position: -1px -563px; }
+.animal-sprite.snowcoat-fox { background-position: -282px -563px; }
+.animal-sprite.white-goat { background-position: -563px -563px; }
+.animal-sprite.seagull { background-position: -844px -563px; }
+.animal-sprite.islander-hawk { background-position: -1125px -563px; }
+.animal-sprite.blue-winged-heron { background-position: -1406px -563px; }
+.animal-sprite.pink-heron { background-position: -1687px -563px; }
+.animal-sprite.hot-footed-frog { background-position: -1968px -563px; }
+
+/* animals.png - Row 4 (y = -844px) */
+.animal-sprite.energetic-rhino-beetle { background-position: -1px -844px; }
+.animal-sprite.smotherwing-butterfly { background-position: -282px -844px; }
+.animal-sprite.tireless-frog { background-position: -563px -844px; }
+.animal-sprite.cold-darner { background-position: -844px -844px; }
+.animal-sprite.sunset-firefly { background-position: -1125px -844px; }
+.animal-sprite.fairy { background-position: -1406px -844px; }
+.animal-sprite.bladed-rhino-beetle { background-position: -1687px -844px; }
+.animal-sprite.restless-cricket { background-position: -1968px -844px; }
+
+/* animals.png - Row 5 (y = -1125px) */
+.animal-sprite.electric-darner { background-position: -1px -1125px; }
+.animal-sprite.hearty-lizard { background-position: -282px -1125px; }
+.animal-sprite.winterwing-butterfly { background-position: -563px -1125px; }
+.animal-sprite.rugged-rhino-beetle { background-position: -844px -1125px; }
+.animal-sprite.summerwing-butterfly { background-position: -1125px -1125px; }
+.animal-sprite.thunderwing-butterfly { background-position: -1406px -1125px; }
+.animal-sprite.hightail-lizard { background-position: -1687px -1125px; }
+.animal-sprite.warm-darner { background-position: -1968px -1125px; }
+
+/* animals.png - Row 6 (y = -1406px) */
+.animal-sprite.fireproof-lizard { background-position: -1px -1406px; }
+.animal-sprite.cucco { background-position: -282px -1406px; }
+.animal-sprite.common-sparrow { background-position: -563px -1406px; }
+.animal-sprite.red-sparrow { background-position: -844px -1406px; }
+.animal-sprite.blue-sparrow { background-position: -1125px -1406px; }
+.animal-sprite.rainbow-sparrow { background-position: -1406px -1406px; }
+.animal-sprite.sand-sparrow { background-position: -1687px -1406px; }
+.animal-sprite.golden-sparrow { background-position: -1968px -1406px; }
+
+/* animals.png - Row 7 (y = -1687px) */
+.animal-sprite.wood-pigeon { background-position: -1px -1687px; }
+.animal-sprite.rainbow-pigeon { background-position: -282px -1687px; }
+.animal-sprite.white-pigeon { background-position: -563px -1687px; }
+.animal-sprite.hotfeather-pigeon { background-position: -844px -1687px; }
+.animal-sprite.great-horned-rhinoceros { background-position: -1125px -1687px; }
+.animal-sprite.blupee { background-position: -1406px -1687px; }
+.animal-sprite.highland-sheep { background-position: -1687px -1687px; }
+.animal-sprite.bushy-tailed-squirrel { background-position: -1968px -1687px; }
+
+/* animals.png - Row 8 (y = -1968px) */
+.animal-sprite.sand-seal { background-position: -1px -1968px; }
+.animal-sprite.patricia { background-position: -282px -1968px; }
+.animal-sprite.bright-chested-duck { background-position: -563px -1968px; }
+.animal-sprite.mountain-goat { background-position: -844px -1968px; }
+.animal-sprite.maraudo-wolf { background-position: -1125px -1968px; }
+.animal-sprite.wasteland-coyote { background-position: -1406px -1968px; }
+.animal-sprite.cold-footed-wolf { background-position: -1687px -1968px; }
+.animal-sprite.horse { background-position: -1968px -1968px; }
+
+/* animals.png - Row 9 (y = -2249px) */
+.animal-sprite.giant-horse { background-position: -1px -2249px; }
+.animal-sprite.donkey { background-position: -282px -2249px; }
+.animal-sprite.stalhorse { background-position: -563px -2249px; }
+.animal-sprite.lord-of-the-mountain { background-position: -1125px -2249px; }
+.animal-sprite.white-horse { background-position: -1406px -2249px; }
+.animal-sprite.korok { background-position: -1687px -2249px; }
+
+/* animals2.png - same formula, 6 cols. Override background-image for these. */
+/* Row 1 (y = -1px) */
+.animal-sprite.hyrule-bass { background-image: url('../img/animals2.png'); background-position: -1px -1px; }
+.animal-sprite.hearty-bass { background-image: url('../img/animals2.png'); background-position: -282px -1px; }
+.animal-sprite.chill-fin-trout { background-image: url('../img/animals2.png'); background-position: -563px -1px; }
+.animal-sprite.voltfin-trout { background-image: url('../img/animals2.png'); background-position: -844px -1px; }
+.animal-sprite.mighty-carp { background-image: url('../img/animals2.png'); background-position: -1125px -1px; }
+.animal-sprite.mighty-porgy { background-image: url('../img/animals2.png'); background-position: -1406px -1px; }
+
+/* animals2.png - Row 2 (y = -282px) */
+.animal-sprite.armored-porgy { background-image: url('../img/animals2.png'); background-position: -1px -282px; }
+.animal-sprite.armored-carp { background-image: url('../img/animals2.png'); background-position: -282px -282px; }
+.animal-sprite.hearty-salmon { background-image: url('../img/animals2.png'); background-position: -563px -282px; }
+.animal-sprite.sizzlefin-trout { background-image: url('../img/animals2.png'); background-position: -844px -282px; }
+.animal-sprite.hearty-blueshell-snail { background-image: url('../img/animals2.png'); background-position: -1125px -282px; }
+.animal-sprite.staminoka-bass { background-image: url('../img/animals2.png'); background-position: -1406px -282px; }
+
+/* animals2.png - Row 3 (y = -563px) */
+.animal-sprite.sneaky-river-snail { background-image: url('../img/animals2.png'); background-position: -1px -563px; }
+.animal-sprite.stealthfin-trout { background-image: url('../img/animals2.png'); background-position: -282px -563px; }
+.animal-sprite.sanke-carp { background-image: url('../img/animals2.png'); background-position: -563px -563px; }
+
+/* animals2.png - Row 5 (y = -1125px) */
+.animal-sprite.razorclaw-crab { background-image: url('../img/animals2.png'); background-position: -282px -1125px; }
+.animal-sprite.ironshell-crab { background-image: url('../img/animals2.png'); background-position: -563px -1125px; }
+.animal-sprite.bright-eyed-crab { background-image: url('../img/animals2.png'); background-position: -844px -1125px; }

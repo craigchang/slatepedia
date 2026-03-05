@@ -18,6 +18,8 @@ import Weapons from './Weapons/Weapons';
 import WeaponsDetail from './WeaponsDetail/WeaponsDetail';
 import Bows from './Bows/Bows';
 import BowsDetail from './BowsDetail/BowsDetail';
+import Animal from './Animals/Animal';
+import AnimalsDetail from './AnimalsDetail/AnimalsDetail';
 
 
 // The Main component renders one of the three provided
@@ -56,6 +58,8 @@ const Main = () => (
       <Route path='/weapons' component={Weapons} />
       <Route path='/bows/:id' component={BowsDetail} />
       <Route path='/bows' component={Bows} />
+      <Route path='/animals/:id' component={AnimalsDetail} />
+      <Route path='/animals' component={Animal} />
       <Route path='/' component={App}/>
     </Switch>
   </main>
