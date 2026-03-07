@@ -1,6 +1,6 @@
 # Slatepedia
 
-A wiki for *The Legend of Zelda: Breath of the Wild*, covering materials, recipes, armor, food, monsters, shields, weapons, and bows. Browse items with grid/list views, search, filter, and view detailed stats.
+A wiki for *The Legend of Zelda: Breath of the Wild*, covering materials, recipes, armor, food, monsters, animals, shields, weapons, and bows. Browse items with grid/list views, search, filter, and view detailed stats.
 
 **Live demo:** https://slatepedia.onrender.com/
 
@@ -15,9 +15,10 @@ Slatepedia is a fan-made reference site for BOTW that includes:
 - **Armor** — Body, head, and leg armor with upgrade paths
 - **Food** — Cooked and raw food items
 - **Monsters** — Enemy types and drops
+- **Animals** — Creatures (land animals, birds, fish, insects) with in-game descriptions and common locations
 - **Weapons, Bows & Shields** — Combat gear with durability and stats
 
-The app provides list and grid views with filtering, sorting, and detail pages for each item. Sprite sheets power icons for weapons, armor, monsters, food, and materials.
+The app provides list and grid views with filtering, sorting, and detail pages for each item. Sprite sheets power icons for weapons, armor, monsters, food, materials, and animals.
 
 ---
 
@@ -90,7 +91,7 @@ To deploy: connect your repo to Render and use the Blueprint. Render will read `
 ```
 slatepedia/
 ├── server/           # Express API, serves react-ui/build in production
-│   ├── rest/         # JSON data (materials, recipes, armor, food, etc.)
+│   ├── rest/         # JSON data (materials, recipes, armor, food, animals, etc.)
 │   └── index.js      # App entry, API routes, static files
 ├── react-ui/         # Create React App frontend
 │   └── src/
@@ -99,6 +100,7 @@ slatepedia/
 │       ├── Armor/
 │       ├── Food/
 │       ├── Monsters/
+│       ├── Animals/
 │       ├── Weapons/
 │       ├── Bows/
 │       └── Shields/
