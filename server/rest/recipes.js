@@ -24,7 +24,8 @@ module.exports = [
         "name": "Cane Sugar",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Making ample use of fruits found all over Hyrule, this cake is a must for celebrations."
   },
   {
     "id": 2,
@@ -56,7 +57,8 @@ module.exports = [
         "name": "Rock Salt",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "No fisherman's birthday bash would be complete without this top-shelf seafood dish."
   },
   {
     "id": 3,
@@ -78,7 +80,8 @@ module.exports = [
         "name": "Monster Extract",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "This unusual take on curry uses monster extract and doesn't rely on spices."
   },
   {
     "id": 4,
@@ -100,7 +103,8 @@ module.exports = [
         "name": "Monster Extract",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Rice balls flavored with monster extract. Their unique aroma is not for everyone."
   },
   {
     "id": 5,
@@ -127,7 +131,8 @@ module.exports = [
         "name": "Monster Extract",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "It's said that once you have a taste of this cake, you'll never forget its sweetness."
   },
   {
     "id": 6,
@@ -154,7 +159,8 @@ module.exports = [
         "name": "Monster Extract",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Using monster extract as a base, this soup's distinct gaminess is either loved or hated."
   },
   {
     "id": 7,
@@ -176,7 +182,8 @@ module.exports = [
         "name": "Monster Extract",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Meat and seafood simmered in monster extract. A savory dish despite its ingredients."
   },
   {
     "id": 8,
@@ -203,7 +210,8 @@ module.exports = [
         "name": "Fresh Milk",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Enjoying this sweet soup with another person will bring you both closer together."
   },
   {
     "id": 9,
@@ -230,7 +238,8 @@ module.exports = [
         "name": "Hearty Blueshell Snail",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "The nutritional value of hearty blueshell snail combines with butter and milk in a rich soup."
   },
   {
     "id": 10,
@@ -257,7 +266,8 @@ module.exports = [
         "name": "Fortified Pumpkin",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Simply simmer a fortified pumpkin to make this dish. A favorite in Kakariko Village."
   },
   {
     "id": 11,
@@ -284,7 +294,8 @@ module.exports = [
         "name": "Raw Gourmet Meat or Raw Bird Thigh",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "The meat has simmered for so long it melts in your mouth. A true bucket-list meal!"
   },
   {
     "id": 12,
@@ -311,7 +322,8 @@ module.exports = [
         "name": "Raw Prime Meat or Raw Bird Thigh",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "The savoriness of the meal comes from letting the meat simmer."
   },
   {
     "id": 13,
@@ -338,7 +350,8 @@ module.exports = [
         "name": "Raw Meat or Raw Bird Drumstick",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "The hearty meat in this mainstay dish leaves bellies satisfied all throughout Hyrule."
   },
   {
     "id": 14,
@@ -360,7 +373,8 @@ module.exports = [
         "name": "Goron Spice",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "The high-quality meat used in this prized dish satisfies meat and curry lovers alike."
   },
   {
     "id": 15,
@@ -382,7 +396,8 @@ module.exports = [
         "name": "Goron Spice",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "The high-quality bird meat makes this a cut above your typical poultry curry."
   },
   {
     "id": 16,
@@ -404,7 +419,8 @@ module.exports = [
         "name": "Goron Spice",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "The high-quality meat in this curry has given it a deeper taste than most other curries."
   },
   {
     "id": 17,
@@ -426,7 +442,8 @@ module.exports = [
         "name": "Goron Spice",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "The high-quality poultry in this curry gives it a richer taste than usual."
   },
   {
     "id": 18,
@@ -448,7 +465,8 @@ module.exports = [
         "name": "Goron Spice",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "The heat from the spice allows you to enjoy the large portion of the meat's savoriness."
   },
   {
     "id": 19,
@@ -470,7 +488,8 @@ module.exports = [
         "name": "Goron Spice",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "The savory meat pairs well with the aroma of spice in this common curry."
   },
   {
     "id": 20,
@@ -492,7 +511,8 @@ module.exports = [
         "name": "Goron Spice",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "This dish is full of treasures from the sea. Its spice packs a kick, so it's not for kids."
   },
   {
     "id": 21,
@@ -514,7 +534,8 @@ module.exports = [
         "name": "Goron Spice",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "This healthy curry is popular for its mild flavor and moderate spiciness."
   },
   {
     "id": 22,
@@ -541,7 +562,8 @@ module.exports = [
         "name": "Goat Butter",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "The intense sweetness of fortified pumpkins makes this dessert popular among children."
   },
   {
     "id": 23,
@@ -568,7 +590,8 @@ module.exports = [
         "name": "Goat Butter",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Even those who don't like carrots tend to enjoy the mild sweetness of this cake."
   },
   {
     "id": 24,
@@ -600,7 +623,8 @@ module.exports = [
         "name": "Wildberry",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Sweet, tart wildberries are folded into thin, springy dough to make this dessert."
   },
   {
     "id": 25,
@@ -632,7 +656,8 @@ module.exports = [
         "name": "Courser Bee Honey",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Honey has been drizzled over thin crepes to bring out their natural sweetness and flavor."
   },
   {
     "id": 26,
@@ -659,7 +684,8 @@ module.exports = [
         "name": "Cane Sugar",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "The simplicity of this dish lets the flavor of its ingredients shine."
   },
   {
     "id": 27,
@@ -686,7 +712,8 @@ module.exports = [
         "name": "Cane Sugar",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "The crispy, flaky pie crust and sweet apples are a match made in heaven."
   },
   {
     "id": 28,
@@ -713,7 +740,8 @@ module.exports = [
         "name": "Goat Butter",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Forest nuts give this cake a pleasant texture and a simple, understated sweetness."
   },
   {
     "id": 29,
@@ -740,7 +768,8 @@ module.exports = [
         "name": "Goat Butter",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "You'll know this simple dessert is done when it smells just right."
   },
   {
     "id": 30,
@@ -762,7 +791,8 @@ module.exports = [
         "name": "Cane Sugar",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Made by cooking eggs and milk in a special mold; its soft texture melts in your mouth."
   },
   {
     "id": 31,
@@ -784,7 +814,8 @@ module.exports = [
         "name": "Cane Sugar",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Children love fried mighty bananas. The trick is frying them over very high heat."
   },
   {
     "id": 32,
@@ -811,7 +842,8 @@ module.exports = [
         "name": "Goat Butter",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "A celebration isn't a celebration until this fruit-filled crust hits the table!"
   },
   {
     "id": 33,
@@ -838,7 +870,8 @@ module.exports = [
         "name": "Any Meat",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "You'll need an extra napkin to deal with this juicy pie of perfectly baked minced meat."
   },
   {
     "id": 34,
@@ -865,7 +898,8 @@ module.exports = [
         "name": "Any Seafood",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "A mainstay in any fisherman's home, the crisp crust pairs well with the fishy flavor."
   },
   {
     "id": 35,
@@ -887,7 +921,8 @@ module.exports = [
         "name": "Hearty Salmon",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "The crispy skin of this fried hearty salmon puts its texture in a class of its own."
   },
   {
     "id": 36,
@@ -914,7 +949,8 @@ module.exports = [
         "name": "Hearty Salmon",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "This risotto is rich because the rice takes on the light flavor of the salmon."
   },
   {
     "id": 37,
@@ -941,7 +977,8 @@ module.exports = [
         "name": "Any Crab",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "An everyday staple of seaside villages; the secret to its flavor lies in the crab fat."
   },
   {
     "id": 38,
@@ -968,7 +1005,8 @@ module.exports = [
         "name": "Any Carrot or Pumpkin",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "The sweetness of the ingredients gives this risotto a mild flavor."
   },
   {
     "id": 39,
@@ -995,7 +1033,8 @@ module.exports = [
         "name": "Any Mushroom",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "The aroma of mushrooms and butter draws you to the table."
   },
   {
     "id": 40,
@@ -1027,7 +1066,8 @@ module.exports = [
         "name": "Any Herb or Flower",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Simple mushroom soup cooked to bring out the natural flavors of the forest."
   },
   {
     "id": 41,
@@ -1049,7 +1089,8 @@ module.exports = [
         "name": "Any Carrot or Pumpkin",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "This creamy soup highlights the sweetness of vegetables in a clear taste explosion."
   },
   {
     "id": 42,
@@ -1076,7 +1117,8 @@ module.exports = [
         "name": "Any Meat",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "A nutritious soup with a good amount of lightly-braised meat and vegetables."
   },
   {
     "id": 43,
@@ -1103,7 +1145,8 @@ module.exports = [
         "name": "Any Seafood",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Thick-cut chunks of seafood and stock provide a satisfying savoriness."
   },
   {
     "id": 44,
@@ -1125,7 +1168,8 @@ module.exports = [
         "name": "Any Vegetable, Herb, or Flower",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "A creamy soup that showcases the natural sweetness of vegetables."
   },
   {
     "id": 45,
@@ -1152,7 +1196,8 @@ module.exports = [
         "name": "Any Carrot",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Carrots simmered until tender. A simple, hearty dish from Kakariko Village."
   },
   {
     "id": 46,
@@ -1179,7 +1224,8 @@ module.exports = [
         "name": "Rock Salt",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Eggs and mushrooms cooked together. A hearty start to any day."
   },
   {
     "id": 47,
@@ -1201,7 +1247,8 @@ module.exports = [
         "name": "Goat Butter",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Crab meat and eggs over rice. A seaside breakfast favorite."
   },
   {
     "id": 48,
@@ -1228,7 +1275,8 @@ module.exports = [
         "name": "Goat Butter",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "High-quality bird meat elevates this pilaf to a luxurious dish."
   },
   {
     "id": 49,
@@ -1255,7 +1303,8 @@ module.exports = [
         "name": "Goat Butter",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "The prime bird meat gives this pilaf a richer flavor than the standard version."
   },
   {
     "id": 50,
@@ -1282,7 +1331,8 @@ module.exports = [
         "name": "Goat Butter",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "A simple pilaf made with bird meat. The rice soaks up the savory juices."
   },
   {
     "id": 51,
@@ -1309,7 +1359,8 @@ module.exports = [
         "name": "Rock Salt",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Eggs loaded with vegetables. Healthy and filling."
   },
   {
     "id": 52,
@@ -1331,7 +1382,8 @@ module.exports = [
         "name": "Any Porgy",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Crispy-fried porgy. The skin is the best part!"
   },
   {
     "id": 53,
@@ -1353,7 +1405,8 @@ module.exports = [
         "name": "Any Seafood",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Seafood fried in butter until golden. A staple of seaside cooking."
   },
   {
     "id": 54,
@@ -1375,7 +1428,8 @@ module.exports = [
         "name": "Hearty Blueshell Snail or Any Porgy",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Fried rice packed with seafood. Perfect for using up the day's catch."
   },
   {
     "id": 55,
@@ -1397,7 +1451,8 @@ module.exports = [
         "name": "Goat Butter",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "The Goron spice used in this pilaf has given it a rich, spicy aroma."
   },
   {
     "id": 56,
@@ -1419,7 +1474,8 @@ module.exports = [
         "name": "Rock Salt",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "A lavish dish of premium meat over rice. A true delicacy."
   },
   {
     "id": 57,
@@ -1441,7 +1497,8 @@ module.exports = [
         "name": "Rock Salt",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "High-quality meat served over fluffy rice. Satisfying and delicious."
   },
   {
     "id": 58,
@@ -1463,7 +1520,8 @@ module.exports = [
         "name": "Rock Salt",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "A simple, filling dish of meat over rice. A Hyrule staple."
   },
   {
     "id": 59,
@@ -1480,7 +1538,8 @@ module.exports = [
         "name": "Bird Egg",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "A simple dish of fried egg over rice. Comfort food at its finest."
   },
   {
     "id": 60,
@@ -1497,7 +1556,8 @@ module.exports = [
         "name": "Any Meat",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Rice balls stuffed with meat. A portable meal for adventurers."
   },
   {
     "id": 61,
@@ -1514,7 +1574,8 @@ module.exports = [
         "name": "Any Fish",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Rice balls packed with fresh seafood. Popular in coastal villages."
   },
   {
     "id": 62,
@@ -1531,7 +1592,8 @@ module.exports = [
         "name": "Any Mushroom",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Rice balls filled with mushrooms. The forest flavor shines through."
   },
   {
     "id": 63,
@@ -1548,7 +1610,8 @@ module.exports = [
         "name": "Any Vegetable, Herb, or Flower",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Rice balls stuffed with vegetables. A light, healthy option."
   },
   {
     "id": 64,
@@ -1565,7 +1628,8 @@ module.exports = [
         "name": "Goat Butter",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "A warm apple cooked in butter. Simple yet satisfying."
   },
   {
     "id": 65,
@@ -1582,7 +1646,8 @@ module.exports = [
         "name": "Any Meat",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "This hollow, meat-filled fortified pumpkin is a local specialty of Kakariko Village."
   },
   {
     "id": 66,
@@ -1599,7 +1664,8 @@ module.exports = [
         "name": "Courser Bee Honey",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Meat coated in a sweet glaze. The caramelized coating is irresistible."
   },
   {
     "id": 67,
@@ -1616,7 +1682,8 @@ module.exports = [
         "name": "Courser Bee Honey",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Seafood glazed to perfection. The sweet coating complements the ocean flavor."
   },
   {
     "id": 68,
@@ -1633,7 +1700,8 @@ module.exports = [
         "name": "Courser Bee Honey",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Mushrooms cooked in a savory glaze. A tasty way to enjoy forest fungi."
   },
   {
     "id": 69,
@@ -1650,7 +1718,8 @@ module.exports = [
         "name": "Courser Bee Honey",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Vegetables glazed until shiny and sweet. Even picky eaters will enjoy these."
   },
   {
     "id": 70,
@@ -1667,7 +1736,8 @@ module.exports = [
         "name": "Goron Spice",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Rice cooked with Goron spice. A simple curry that hits the spot."
   },
   {
     "id": 71,
@@ -1684,7 +1754,8 @@ module.exports = [
         "name": "Courser Bee Honey",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "A juicy combination with sweet and sour flavors."
   },
   {
     "id": 72,
@@ -1701,7 +1772,8 @@ module.exports = [
         "name": "Courser Bee Honey",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Fruits drizzled with honey. The natural sweetness is enhanced."
   },
   {
     "id": 73,
@@ -1718,7 +1790,8 @@ module.exports = [
         "name": "Goron Spice",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Premium meat seasoned with Goron spice and grilled to perfection."
   },
   {
     "id": 74,
@@ -1735,7 +1808,8 @@ module.exports = [
         "name": "Goron Spice",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "High-quality meat on a skewer with a kick of spice."
   },
   {
     "id": 75,
@@ -1752,7 +1826,8 @@ module.exports = [
         "name": "Goron Spice",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Meat seasoned with Goron spice and grilled. Simple but satisfying."
   },
   {
     "id": 76,
@@ -1769,7 +1844,8 @@ module.exports = [
         "name": "Goron Spice",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Mushrooms sautéed in butter until fragrant. A forest delicacy."
   },
   {
     "id": 77,
@@ -1786,7 +1862,8 @@ module.exports = [
         "name": "Goron Spice",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Fresh herbs sautéed to bring out their aromatic flavor."
   },
   {
     "id": 78,
@@ -1803,7 +1880,8 @@ module.exports = [
         "name": "Rock Salt",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Considered lavish, made with high-quality meat."
   },
   {
     "id": 79,
@@ -1820,7 +1898,8 @@ module.exports = [
         "name": "Rock Salt",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Simple yet exquisite, thanks to its use of high-quality meat."
   },
   {
     "id": 80,
@@ -1837,7 +1916,8 @@ module.exports = [
         "name": "Rock Salt",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Easy to make when you're short on ingredients—just rub the meat in salt."
   },
   {
     "id": 81,
@@ -1854,7 +1934,8 @@ module.exports = [
         "name": "Goron Spice",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Crab meat quickly stir-fried to preserve its delicate flavor."
   },
   {
     "id": 82,
@@ -1871,7 +1952,8 @@ module.exports = [
         "name": "Rock Salt",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Crab grilled with a simple salt seasoning. The shell holds in the flavor."
   },
   {
     "id": 83,
@@ -1888,7 +1970,8 @@ module.exports = [
         "name": "Rock Salt",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Fish grilled with salt. Let the natural flavor of the catch shine through."
   },
   {
     "id": 84,
@@ -1905,7 +1988,8 @@ module.exports = [
         "name": "Rock Salt",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "A simple loaf of bread made from Tabantha wheat. A staple of Hylian cuisine."
   },
   {
     "id": 85,
@@ -1922,7 +2006,8 @@ module.exports = [
         "name": "Rock Salt",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Vegetables grilled with a touch of salt. Healthy and delicious."
   },
   {
     "id": 86,
@@ -1939,7 +2024,8 @@ module.exports = [
         "name": "Rock Salt",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Mushrooms grilled with salt. The heat brings out their earthy flavor."
   },
   {
     "id": 87,
@@ -1951,7 +2037,8 @@ module.exports = [
         "name": "Any Variety of Four Different Meats",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Simple preparation: just shove meat onto a skewer."
   },
   {
     "id": 88,
@@ -1963,7 +2050,8 @@ module.exports = [
         "name": "Any Variety of Four Different Vegetables, Herbs, or Flowers",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "A heap of wild greens fried to perfection. Plenty for everyone."
   },
   {
     "id": 89,
@@ -1975,7 +2063,8 @@ module.exports = [
         "name": "Any Variety of Four Different Fruits",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Fruit simmered until tender and sweet. A satisfying dessert."
   },
   {
     "id": 90,
@@ -1987,7 +2076,8 @@ module.exports = [
         "name": "Any Variety of Four Different Mushrooms",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Mushrooms skewered and grilled. A forest feast."
   },
   {
     "id": 91,
@@ -1999,7 +2089,8 @@ module.exports = [
         "name": "Any Variety of Four Different Fishes",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "A heap of fish and seafood shoved onto a skewer. Plenty for everyone."
   },
   {
     "id": 92,
@@ -2016,7 +2107,8 @@ module.exports = [
         "name": "Any Vegetable, Herb, or Flower",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Wild greens fried to a crisp. The perfect side dish."
   },
   {
     "id": 93,
@@ -2033,7 +2125,8 @@ module.exports = [
         "name": "Any Seafood",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Premium meat and seafood fried together. A feast for special occasions."
   },
   {
     "id": 94,
@@ -2050,7 +2143,8 @@ module.exports = [
         "name": "Any Seafood",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "High-quality meat and seafood fried to perfection."
   },
   {
     "id": 95,
@@ -2067,7 +2161,8 @@ module.exports = [
         "name": "Any Seafood",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "A filling dish made by cooking fresh seafood and meat together."
   },
   {
     "id": 96,
@@ -2084,7 +2179,8 @@ module.exports = [
         "name": "Spicy Pepper",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Steak seasoned with spicy pepper. Warms you from the inside out."
   },
   {
     "id": 97,
@@ -2101,7 +2197,8 @@ module.exports = [
         "name": "Spicy Pepper",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Seafood cooked with spicy pepper. A kick of heat with every bite."
   },
   {
     "id": 98,
@@ -2118,7 +2215,8 @@ module.exports = [
         "name": "Any Meat",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Meat steamed to tender perfection. Simple and satisfying."
   },
   {
     "id": 99,
@@ -2135,7 +2233,8 @@ module.exports = [
         "name": "Any Fish",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Fish steamed to preserve its delicate flavor. Light and healthy."
   },
   {
     "id": 100,
@@ -2152,7 +2251,8 @@ module.exports = [
         "name": "Any Mushroom",
         "cssClassName": null
       }
-    ]
+    ],
+    "description": "Mushrooms steamed until tender. The forest flavor is preserved."
   },
   {
     "id": 101,
@@ -2449,8 +2549,16 @@ module.exports = [
     "name": "Hasty Elixir",
     "cssClassName": "hasty-elixir",
     "ingredients": [
-      { "id": 0, "name": "Any Monster Part", "cssClassName": null },
-      { "id": 0, "name": "Any Small Animal", "cssClassName": null }
+      {
+        "id": 0,
+        "name": "Any Monster Part",
+        "cssClassName": null
+      },
+      {
+        "id": 0,
+        "name": "Any Small Animal",
+        "cssClassName": null
+      }
     ]
   },
   {
@@ -2458,8 +2566,16 @@ module.exports = [
     "name": "Mighty Elixir",
     "cssClassName": "mighty-elixir",
     "ingredients": [
-      { "id": 0, "name": "Any Monster Part", "cssClassName": null },
-      { "id": 0, "name": "Any Small Animal", "cssClassName": null }
+      {
+        "id": 0,
+        "name": "Any Monster Part",
+        "cssClassName": null
+      },
+      {
+        "id": 0,
+        "name": "Any Small Animal",
+        "cssClassName": null
+      }
     ]
   },
   {
@@ -2467,8 +2583,16 @@ module.exports = [
     "name": "Tough Elixir",
     "cssClassName": "tough-elixir",
     "ingredients": [
-      { "id": 0, "name": "Any Monster Part", "cssClassName": null },
-      { "id": 0, "name": "Any Small Animal", "cssClassName": null }
+      {
+        "id": 0,
+        "name": "Any Monster Part",
+        "cssClassName": null
+      },
+      {
+        "id": 0,
+        "name": "Any Small Animal",
+        "cssClassName": null
+      }
     ]
   },
   {
@@ -2476,8 +2600,16 @@ module.exports = [
     "name": "Enduring Elixir",
     "cssClassName": "enduring-elixir",
     "ingredients": [
-      { "id": 0, "name": "Any Monster Part", "cssClassName": null },
-      { "id": 0, "name": "Any Small Animal", "cssClassName": null }
+      {
+        "id": 0,
+        "name": "Any Monster Part",
+        "cssClassName": null
+      },
+      {
+        "id": 0,
+        "name": "Any Small Animal",
+        "cssClassName": null
+      }
     ]
   },
   {
@@ -2485,8 +2617,16 @@ module.exports = [
     "name": "Fireproof Elixir",
     "cssClassName": "fireproof-elixir",
     "ingredients": [
-      { "id": 0, "name": "Any Monster Part", "cssClassName": null },
-      { "id": 0, "name": "Any Small Animal", "cssClassName": null }
+      {
+        "id": 0,
+        "name": "Any Monster Part",
+        "cssClassName": null
+      },
+      {
+        "id": 0,
+        "name": "Any Small Animal",
+        "cssClassName": null
+      }
     ]
   },
   {
@@ -2494,8 +2634,16 @@ module.exports = [
     "name": "Energizing Elixir",
     "cssClassName": "energizing-elixir",
     "ingredients": [
-      { "id": 0, "name": "Any Monster Part", "cssClassName": null },
-      { "id": 0, "name": "Any Small Animal", "cssClassName": null }
+      {
+        "id": 0,
+        "name": "Any Monster Part",
+        "cssClassName": null
+      },
+      {
+        "id": 0,
+        "name": "Any Small Animal",
+        "cssClassName": null
+      }
     ]
   },
   {
@@ -2503,8 +2651,16 @@ module.exports = [
     "name": "Hearty Elixir",
     "cssClassName": "hearty-elixir",
     "ingredients": [
-      { "id": 0, "name": "Any Monster Part", "cssClassName": null },
-      { "id": 0, "name": "Any Small Animal", "cssClassName": null }
+      {
+        "id": 0,
+        "name": "Any Monster Part",
+        "cssClassName": null
+      },
+      {
+        "id": 0,
+        "name": "Any Small Animal",
+        "cssClassName": null
+      }
     ]
   },
   {
@@ -2512,8 +2668,16 @@ module.exports = [
     "name": "Sneaky Elixir",
     "cssClassName": "sneaky-elixir",
     "ingredients": [
-      { "id": 0, "name": "Any Monster Part", "cssClassName": null },
-      { "id": 0, "name": "Any Small Animal", "cssClassName": null }
+      {
+        "id": 0,
+        "name": "Any Monster Part",
+        "cssClassName": null
+      },
+      {
+        "id": 0,
+        "name": "Any Small Animal",
+        "cssClassName": null
+      }
     ]
   },
   {
@@ -2521,8 +2685,16 @@ module.exports = [
     "name": "Spicy Elixir",
     "cssClassName": "spicy-elixir",
     "ingredients": [
-      { "id": 0, "name": "Any Monster Part", "cssClassName": null },
-      { "id": 0, "name": "Any Small Animal", "cssClassName": null }
+      {
+        "id": 0,
+        "name": "Any Monster Part",
+        "cssClassName": null
+      },
+      {
+        "id": 0,
+        "name": "Any Small Animal",
+        "cssClassName": null
+      }
     ]
   },
   {
@@ -2530,8 +2702,16 @@ module.exports = [
     "name": "Electro Elixir",
     "cssClassName": "electro-elixir",
     "ingredients": [
-      { "id": 0, "name": "Any Monster Part", "cssClassName": null },
-      { "id": 0, "name": "Any Small Animal", "cssClassName": null }
+      {
+        "id": 0,
+        "name": "Any Monster Part",
+        "cssClassName": null
+      },
+      {
+        "id": 0,
+        "name": "Any Small Animal",
+        "cssClassName": null
+      }
     ]
   },
   {
@@ -2539,8 +2719,16 @@ module.exports = [
     "name": "Chilly Elixir",
     "cssClassName": "chilly-elixir",
     "ingredients": [
-      { "id": 0, "name": "Any Monster Part", "cssClassName": null },
-      { "id": 0, "name": "Any Small Animal", "cssClassName": null }
+      {
+        "id": 0,
+        "name": "Any Monster Part",
+        "cssClassName": null
+      },
+      {
+        "id": 0,
+        "name": "Any Small Animal",
+        "cssClassName": null
+      }
     ]
   },
   {

@@ -48,6 +48,10 @@ class WeaponsDetail extends Component {
               </td>
             </tr>
             <tr>
+              <td>Description</td>
+              <td><i className="fa fa-book" aria-hidden="true"></i> {weapon.description}</td>
+            </tr>
+            <tr>
               <td>Attack Power Base</td>
               <td>{weapon.durabilityBase}</td>
             </tr>

@@ -15,11 +15,12 @@ module.exports = [
     "durabilityBonus2Max": 0,
     "throwDistanceEffect": "Beam (all hearts)",
     "throwDistanceBase": 50,
-    "throwDistanceMin": 0.0,
-    "throwDistanceMax": 0.0,
+    "throwDistanceMin": 0,
+    "throwDistanceMax": 0,
     "availabilities": [
       "Korok Forest (main quest: The Hero's Sword)"
-    ]
+    ],
+    "description": "The legendary sword that seals the darkness. Its blade gleams with a sacred luster that can oppose the Calamity. Only a hero chosen by the sword itself may wield it."
   },
   {
     "id": 2,
@@ -38,11 +39,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 4,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Hyrule Field",
       "West Necluda (cut small trees/shrubs)"
-    ]
+    ],
+    "description": "Wooden branches such as this are pretty common, but it's surprisingly well-balanced. It doesn't do much damage but can serve as a weapon in a pinch."
   },
   {
     "id": 3,
@@ -61,12 +63,13 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 3,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Great Hyrule Forest",
       "Hyrule Field",
       "Inside the Tech Labs"
-    ]
+    ],
+    "description": "This torch will stay lit once ignited. If you put it away, the flame will be extinguished until you light it again."
   },
   {
     "id": 4,
@@ -85,11 +88,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Hyrule Field",
       "Tabantha Frontier (by cooking pots)"
-    ]
+    ],
+    "description": "A kitchen implement often used for serving delicious soups. It was carved from the wood of a sturdy tree, so it actually packs quite the wallop."
   },
   {
     "id": 5,
@@ -107,12 +111,13 @@ module.exports = [
     "durabilityBonus2Max": 9,
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 20,
-    "throwDistanceMin": 0.0,
-    "throwDistanceMax": 0.0,
+    "throwDistanceMin": 0,
+    "throwDistanceMax": 0,
     "availabilities": [
       "West Necluda",
       "Faron Grasslands"
-    ]
+    ],
+    "description": "This throwing weapon was originally used by the forest-dwelling Koroks. Its unique shape allows it to return after being thrown."
   },
   {
     "id": 6,
@@ -131,10 +136,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Kilton's Shop"
-    ]
+    ],
+    "description": "This strange hammer is one of Kilton's specialties. Being struck by it doesn't hurt much, but the fourth swing in a string of attacks will send the victim flying."
   },
   {
     "id": 7,
@@ -153,11 +159,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Hyrule Field",
       "West Necluda"
-    ]
+    ],
+    "description": "A very common sword often kept by travelers to fend off small beasts. It's fairly durable, but a bit unreliable against monsters."
   },
   {
     "id": 8,
@@ -176,11 +183,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Gerudo Desert",
       "Tabantha Frontier"
-    ]
+    ],
+    "description": "A sword brandished by the soldiers who once protected Hyrule Castle. Its durable blade is well tuned for slaying monsters."
   },
   {
     "id": 9,
@@ -199,11 +207,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Gerudo Desert",
       "Tabantha Frontier"
-    ]
+    ],
+    "description": "Knights of Hyrule once carried this sword. These days it's the weapon of choice for seasoned adventurers thanks to its ease of use and high attack power."
   },
   {
     "id": 10,
@@ -222,12 +231,13 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Tabantha Frontier",
       "Akkala Highlands",
       "Hyrule Castle"
-    ]
+    ],
+    "description": "The Hyrulean royal family would award this sword to knights who achieved remarkable feats. A sword that balances strength and beauty as elegantly as this one is a rare find."
   },
   {
     "id": 11,
@@ -246,11 +256,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Great Hyrule Forest",
       "Hyrule Field"
-    ]
+    ],
+    "description": "Koroks made this sword for Hylians. It's made of wood, so it isn't the best choice for head-on attacks. Its original intent was likely clearing vines to forge paths through forests."
   },
   {
     "id": 12,
@@ -269,11 +280,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Lanayru Great Spring",
       "East Necluda"
-    ]
+    ],
+    "description": "The ornamentation that adorns this blade is a traditional Zora design. It's forged from a very durable and rust-proof metal."
   },
   {
     "id": 13,
@@ -292,11 +304,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Tabantha Frontier",
       "Hyrule Field"
-    ]
+    ],
+    "description": "Rito craftsmen forged this lightweight, double-edge sword so Rito warriors could soar into battle unhindered by its weight."
   },
   {
     "id": 14,
@@ -315,11 +328,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Gerudo Highlands",
       "Gerudo Desert"
-    ]
+    ],
+    "description": "This common sword is often carried by Gerudo women for self-defense. Its short, curved blade is easily recognized."
   },
   {
     "id": 15,
@@ -338,11 +352,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Gerudo Highlands",
       "Gerudo Desert"
-    ]
+    ],
+    "description": "Delicate Gerudo carvings decorate this curved sword. The engraved blade is extremely sharp. Apparently it once served ceremonial purposes in festivals."
   },
   {
     "id": 16,
@@ -361,10 +376,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Reward for clearing Divine Beast Vah Naboris dungeon"
-    ]
+    ],
+    "description": "A famous sword once beloved by the Gerudo Champion Urbosa. It is said that when Urbosa swung this sword in battle, her movements resembled a beautiful dance."
   },
   {
     "id": 17,
@@ -383,11 +399,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "West Necluda",
       "Lake Hylia"
-    ]
+    ],
+    "description": "A single-edged sword traditional to the Sheikah tribe. Forged using ancient technology, it just may be among the sharpest conventional weapons ever made."
   },
   {
     "id": 18,
@@ -406,10 +423,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Akkala Ancient Tech Lab"
-    ]
+    ],
+    "description": "The blade of this sword was made using an ancient power lost to this modern age. Its blade appears only when drawn, and its cutting power surpasses metal swords."
   },
   {
     "id": 19,
@@ -428,12 +446,13 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Hyrule Field",
       "Eldin Canyon",
       "Hyrule Castle"
-    ]
+    ],
+    "description": "A rusty sword used ages ago by a skilled swordsman. It can do some damage in the right hands but also breaks quickly."
   },
   {
     "id": 20,
@@ -452,10 +471,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Hyrule Castle"
-    ]
+    ],
+    "description": "A Sheikah-made replica of the sword that seals the darkness. It was made with ancient technology to oppose the Great Calamity, but its low durability made it inefficient."
   },
   {
     "id": 21,
@@ -474,11 +494,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Coliseum Ruins",
       "East Necluda"
-    ]
+    ],
+    "description": "This magical sword was forged in the lava of Death Mountain. It leaves white-hot flames in its wake when the blade glows red."
   },
   {
     "id": 22,
@@ -497,11 +518,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Gerudo Highlands",
       "Coliseum Ruins"
-    ]
+    ],
+    "description": "A magical sword forged in the frigid mountains of the Hebra region. When the blade glows blue, enemies struck by it will become frozen."
   },
   {
     "id": 23,
@@ -520,11 +542,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Coliseum Ruins",
       "West Necluda"
-    ]
+    ],
+    "description": "A magical sword forged and refined by lightning from the Hyrule Hills. When the blade shines with a golden light, it will electrocute enemies struck by it."
   },
   {
     "id": 24,
@@ -543,10 +566,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Unlocked by corresponding amiibo"
-    ]
+    ],
+    "description": "A sword said to have once belonged to a hero from the sky. Its blade houses the fire of the Goddess. When wielded, a strange yet heavenly breeze kicks up around you."
   },
   {
     "id": 25,
@@ -565,10 +589,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Unlocked by corresponding amiibo"
-    ]
+    ],
+    "description": "A sword once wielded by a hero in an ancient age. When grasped, a strange sense of nostalgia washes over you. Take it when going alone would otherwise be dangerous."
   },
   {
     "id": 26,
@@ -586,11 +611,12 @@ module.exports = [
     "durabilityBonus2Max": 10,
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 20,
-    "throwDistanceMin": 0.0,
-    "throwDistanceMax": 0.0,
+    "throwDistanceMin": 0,
+    "throwDistanceMax": 0,
     "availabilities": [
       "Unlocked by corresponding amiibo"
-    ]
+    ],
+    "description": "A boomerang said to have been used by a hero who traveled the Great Sea. It smells faintly of salt water."
   },
   {
     "id": 27,
@@ -609,11 +635,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Hyrule Field",
       "West Necluda"
-    ]
+    ],
+    "description": "A crude Bokoblin club made to clobber small prey. It's essentially a stick, so its durability is low."
   },
   {
     "id": 28,
@@ -632,11 +659,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Faron Grasslands",
       "East Necluda"
-    ]
+    ],
+    "description": "A reinforced Bokoblin club made to maximize damage. The sharpened bones jabbed into it make it a brutal weapon."
   },
   {
     "id": 29,
@@ -655,11 +683,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Hyrule Ridge",
       "Necluda Sea"
-    ]
+    ],
+    "description": "This Bokoblin club has been reinforced with fossilized bones to maximize clobbering potential. Only the brawniest of Bokoblins can manage its immense weight."
   },
   {
     "id": 30,
@@ -677,12 +706,13 @@ module.exports = [
     "durabilityBonus2Max": 9,
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
-    "throwDistanceMin": 0.0,
-    "throwDistanceMax": 0.0,
+    "throwDistanceMin": 0,
+    "throwDistanceMax": 0,
     "availabilities": [
       "Lake Hylia",
       "Lanayru"
-    ]
+    ],
+    "description": "A curved sword favored by the Lizalfos. It can be used to attack directly or can be thrown like a boomerang."
   },
   {
     "id": 31,
@@ -700,12 +730,13 @@ module.exports = [
     "durabilityBonus2Max": 12,
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
-    "throwDistanceMin": 0.0,
-    "throwDistanceMax": 0.0,
+    "throwDistanceMin": 0,
+    "throwDistanceMax": 0,
     "availabilities": [
       "Gerudo Desert",
       "Tabantha Frontier"
-    ]
+    ],
+    "description": "Blue Lizalfos in particular like this weapon. It has one more blade than the Lizal boomerang to give it additional cutting power, and it still returns when thrown."
   },
   {
     "id": 32,
@@ -723,12 +754,13 @@ module.exports = [
     "durabilityBonus2Max": 14,
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
-    "throwDistanceMin": 0.0,
-    "throwDistanceMax": 0.0,
+    "throwDistanceMin": 0,
+    "throwDistanceMax": 0,
     "availabilities": [
       "Hebra Mountains",
       "Akkala Highlands"
-    ]
+    ],
+    "description": "More blades means more attack power! It can be used as a boomerang, but all those blades make that a bit more dangerous. Carried by Black Lizalfos seasoned in battle."
   },
   {
     "id": 33,
@@ -747,10 +779,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Dropped by Guardian Scout II"
-    ]
+    ],
+    "description": "A sword often wielded by Guardian Scouts. Its blue energy blade is a product of ancient technology. It's not very durable."
   },
   {
     "id": 34,
@@ -769,10 +802,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Dropped by Guardian Scout III"
-    ]
+    ],
+    "description": "This Guardian sword has enhanced power over the standard model. Its cutting capabilities are improved, and its durability has seen a slight uptick."
   },
   {
     "id": 35,
@@ -791,10 +825,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Dropped by Guardian Scout IV"
-    ]
+    ],
+    "description": "The abilities of this Guardian sword have been boosted to the maximum, as evidenced by its increase in size. It slices through armor like a hot knife through butter!"
   },
   {
     "id": 36,
@@ -813,10 +848,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Dropped by Lynels"
-    ]
+    ],
+    "description": "This Lynel-made sword was designed with smashing in mind rather than slicing. It's on the heavy side compared to what Hylians are used to, but it's very strong."
   },
   {
     "id": 37,
@@ -835,10 +871,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Dropped by Blue-Maned Lynels"
-    ]
+    ],
+    "description": "This Lynel-made sword boasts more blades and more attack power. A skilled Lynel can draw this sword simply in passing and still cut a foe in two."
   },
   {
     "id": 38,
@@ -857,11 +894,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Dropped by White-Maned Lynels",
       "Silver Lynels"
-    ]
+    ],
+    "description": "A brutal sword carried by white-haired Lynels. The savage blades are strong enough to cut down any foe, no matter how strong."
   },
   {
     "id": 39,
@@ -879,12 +917,13 @@ module.exports = [
     "durabilityBonus2Max": 7,
     "throwDistanceEffect": "1 fire ball",
     "throwDistanceBase": 30,
-    "throwDistanceMin": 0.0,
-    "throwDistanceMax": 0.0,
+    "throwDistanceMin": 0,
+    "throwDistanceMax": 0,
     "availabilities": [
       "Gerudo Highlands",
       "Great Hyrule Forest"
-    ]
+    ],
+    "description": "A magical rod that can cast fireballs. The rod will break if it strikes something directly, so use it wisely."
   },
   {
     "id": 40,
@@ -902,12 +941,13 @@ module.exports = [
     "durabilityBonus2Max": 16,
     "throwDistanceEffect": "3 fire balls",
     "throwDistanceBase": 30,
-    "throwDistanceMin": 0.0,
-    "throwDistanceMax": 0.0,
+    "throwDistanceMin": 0,
+    "throwDistanceMax": 0,
     "availabilities": [
       "Crenel Hills",
       "Hebra Mountains"
-    ]
+    ],
+    "description": "A magical rod that can cast three fireballs at once, crafted by an ancient magician. It will break upon running out of magical energy, so make it last!"
   },
   {
     "id": 41,
@@ -925,12 +965,13 @@ module.exports = [
     "durabilityBonus2Max": 7,
     "throwDistanceEffect": "1 ice ball",
     "throwDistanceBase": 30,
-    "throwDistanceMin": 0.0,
-    "throwDistanceMax": 0.0,
+    "throwDistanceMin": 0,
+    "throwDistanceMax": 0,
     "availabilities": [
       "Gerudo Highlands",
       "Eldin Canyon"
-    ]
+    ],
+    "description": "A magical rod crafted from refined ice found in the Hebra Mountains. This rod can cast waves of freezing air. Great for magic—not so great for melee."
   },
   {
     "id": 42,
@@ -948,13 +989,14 @@ module.exports = [
     "durabilityBonus2Max": 16,
     "throwDistanceEffect": "3 ice balls",
     "throwDistanceBase": 30,
-    "throwDistanceMin": 0.0,
-    "throwDistanceMax": 0.0,
+    "throwDistanceMin": 0,
+    "throwDistanceMax": 0,
     "availabilities": [
       "Gerudo Highlands",
       "Hebra Mountains",
       "Crenel Hills"
-    ]
+    ],
+    "description": "A magical rod that can cast extreme cold in a wide range. These are crafted from refined ice found at the summit of Hebra Peak. It will break when depleted."
   },
   {
     "id": 43,
@@ -972,12 +1014,13 @@ module.exports = [
     "durabilityBonus2Max": 7,
     "throwDistanceEffect": "1 electric ball",
     "throwDistanceBase": 30,
-    "throwDistanceMin": 0.0,
-    "throwDistanceMax": 0.0,
+    "throwDistanceMin": 0,
+    "throwDistanceMax": 0,
     "availabilities": [
       "West Necluda",
       "Hyrule Ridge"
-    ]
+    ],
+    "description": "A magical rod that can shoot balls of electricity. Its gem contains lightning from the Hyrule Hills. It's not recommended to use as a melee weapon."
   },
   {
     "id": 44,
@@ -995,12 +1038,13 @@ module.exports = [
     "durabilityBonus2Max": 16,
     "throwDistanceEffect": "3 electric balls",
     "throwDistanceBase": 30,
-    "throwDistanceMin": 0.0,
-    "throwDistanceMax": 0.0,
+    "throwDistanceMin": 0,
+    "throwDistanceMax": 0,
     "availabilities": [
       "Crenel Hills",
       "Hyrule Ridge"
-    ]
+    ],
+    "description": "A magical rod that can hurl three balls of electricity at once. Its gem contains electricity from the Hyrule Hills, and the rod will break when that electricity runs out."
   },
   {
     "id": 45,
@@ -1019,10 +1063,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 6,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Dropped by Yiga Footsoldiers"
-    ]
+    ],
+    "description": "A grim weapon favored by the Yiga. The half-moon shape of the blade allows for the rapid delivery of fatal wounds and serves as a symbol of their terror. Its durability is low."
   },
   {
     "id": 46,
@@ -1041,10 +1086,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Dropped by Yiga Footsoldiers"
-    ]
+    ],
+    "description": "This lethal weapon is forged by the Yiga. Its unique shape facilitates the sound dispatching of any target and strikes fear into the hearts of all who see it."
   },
   {
     "id": 47,
@@ -1063,10 +1109,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Dropped by Stalkoblins"
-    ]
+    ],
+    "description": "A skeletal arm that keeps moving even after it's severed from its body. It's kind of gross to strap it to your back, but it'll do in a pinch. It's old and fragile, so it's quick to break."
   },
   {
     "id": 48,
@@ -1084,11 +1131,12 @@ module.exports = [
     "durabilityBonus2Max": 8,
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
-    "throwDistanceMin": 0.0,
-    "throwDistanceMax": 0.0,
+    "throwDistanceMin": 0,
+    "throwDistanceMax": 0,
     "availabilities": [
       "Dropped by Stalizalfos"
-    ]
+    ],
+    "description": "The arm of a Stalizalfos that continues to struggle even in death. It can be used as a weapon, but it's very brittle. You can feel it wiggling when you strap it to your back..."
   },
   {
     "id": 49,
@@ -1106,12 +1154,13 @@ module.exports = [
     "durabilityBonus2Max": 12,
     "throwDistanceEffect": "Wind gust",
     "throwDistanceBase": 5,
-    "throwDistanceMin": 0.0,
-    "throwDistanceMax": 0.0,
+    "throwDistanceMin": 0,
+    "throwDistanceMax": 0,
     "availabilities": [
       "Hyrule Field",
       "West Necluda"
-    ]
+    ],
+    "description": "A single swing of this giant, sturdy leaf can create a gust of wind strong enough to blow away light objects."
   },
   {
     "id": 50,
@@ -1130,11 +1179,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Hyrule Field",
       "West Necluda"
-    ]
+    ],
+    "description": "A farming tool primarily used for tilling fields. Its fine craftsmanship is sturdy enough to withstand backbreaking fieldwork, but its battle applications are untested."
   },
   {
     "id": 51,
@@ -1153,11 +1203,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "East Necluda",
       "Necluda Sea"
-    ]
+    ],
+    "description": "Made for paddling boats, but it was made sturdy enough to fight strong currents. Maybe it's useful for self-defense in a pinch."
   },
   {
     "id": 52,
@@ -1176,10 +1227,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "At various stables"
-    ]
+    ],
+    "description": "A woodcutter's tool of choice for felling trees. Its formidable weight and uneven balancing make it a slow, inefficient weapon."
   },
   {
     "id": 53,
@@ -1198,10 +1250,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "At various stables"
-    ]
+    ],
+    "description": "This double-sided axe was designed with fighting in mind. It's a bit unwieldy, so it requires a well-practiced technique to use efficiently."
   },
   {
     "id": 54,
@@ -1220,12 +1273,13 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Eldin Canyon",
       "Akkala Highlands",
       "Tanagar Canyon Course"
-    ]
+    ],
+    "description": "This large iron sledgehammer was originally used for mining, but it works reasonably well as a weapon too."
   },
   {
     "id": 55,
@@ -1243,12 +1297,13 @@ module.exports = [
     "durabilityBonus2Max": 18,
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
-    "throwDistanceMin": 0.0,
-    "throwDistanceMax": 0.0,
+    "throwDistanceMin": 0,
+    "throwDistanceMax": 0,
     "availabilities": [
       "West Necluda",
       "Hebra Mountains"
-    ]
+    ],
+    "description": "This massive boomerang requires two hands. Originally used for hunting, it was modified for use as a weapon. The blades on the inner curves make it a bit tricky to wield."
   },
   {
     "id": 56,
@@ -1267,11 +1322,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Hyrule Field",
       "West Necluda"
-    ]
+    ],
+    "description": "A basic two-handed sword often wielded by aspiring adventurers. Its immense weight can knock enemies' shields right out of their hands."
   },
   {
     "id": 57,
@@ -1290,11 +1346,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Hyrule Field",
       "Faron Grasslands"
-    ]
+    ],
+    "description": "A two-handed sword designed for combat. It's heavy and hard to use but has decent build quality and durability."
   },
   {
     "id": 58,
@@ -1313,11 +1370,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Gerudo Desert",
       "Tabantha Frontier"
-    ]
+    ],
+    "description": "Only the most confident of Hyrule Castle's knights carried this two-handed sword. Its cutting edge is finely honed."
   },
   {
     "id": 59,
@@ -1336,12 +1394,13 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Gerudo Desert",
       "Tabantha Frontier",
       "Hyrule Castle"
-    ]
+    ],
+    "description": "A two-handed sword issued to the Hyrulean royal family's immediate guard detail. Its powerful strikes are said to crush an opponent's body and resolve alike."
   },
   {
     "id": 60,
@@ -1360,11 +1419,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Lanayru Great Spring",
       "Lanayru Wetlands"
-    ]
+    ],
+    "description": "Although the Zora prefer spears to swords, they made this two-handed weapon using a special metal. It found popularity among Hylians for its unique design."
   },
   {
     "id": 61,
@@ -1383,11 +1443,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Eldin Canyon",
       "Eldin Mountains"
-    ]
+    ],
+    "description": "A Goron-made two-handed weapon. It's made from thick, hard metal and has no cutting edge, so it relies on its sheer weight to crush all opponents."
   },
   {
     "id": 62,
@@ -1406,11 +1467,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Eldin Canyon",
       "Hyrule Field"
-    ]
+    ],
+    "description": "A two-handed weapon forged from a rare metal mined in Goron City. Its center of gravity is at its tip, so it uses centrifugal force and its sheer weight to smash opponents flat."
   },
   {
     "id": 63,
@@ -1429,10 +1491,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Reward for clearing Divine Beast Vah Rudania dungeon"
-    ]
+    ],
+    "description": "This two-handed weapon was once wielded by the Goron Champion Daruk. Daruk made swinging it around look easy, but a Hylian would need an immense amount of strength."
   },
   {
     "id": 64,
@@ -1451,11 +1514,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Gerudo Highlands",
       "Hyrule Ridge"
-    ]
+    ],
+    "description": "Only the most talented Gerudo sword fighters carry this two-handed sword. It's actually much lighter than it appears and is surprisingly easy to wield."
   },
   {
     "id": 65,
@@ -1474,11 +1538,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "West Necluda",
       "Lanayru Great Spring"
-    ]
+    ],
+    "description": "A single-edged sword seldom seen in Hyrule. This weapon is passed down through the Sheikah tribe and has an astonishingly sharp edge ideal for slicing."
   },
   {
     "id": 66,
@@ -1497,11 +1562,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Hyrule Field",
       "West Necluda"
-    ]
+    ],
+    "description": "A curious double-edged sword crafted using Sheikah technology. It was originally made for Hyrulean knights unfamiliar with single-edged blades."
   },
   {
     "id": 67,
@@ -1520,10 +1586,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Akkala Ancient Tech Lab"
-    ]
+    ],
+    "description": "This two-handed sword was forged using ancient Sheikah technology. Its unique rotating blades give it impressive cutting power that will slice enemies to shreds."
   },
   {
     "id": 68,
@@ -1542,12 +1609,13 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Hyrule Field",
       "Eldin Canyon",
       "Hyrule Castle"
-    ]
+    ],
+    "description": "A two-handed sword not properly cared for. Although it can be used as a weapon, its durability is very low. Don't expect it to last for more than a few strikes."
   },
   {
     "id": 69,
@@ -1566,10 +1634,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Hyrule Castle"
-    ]
+    ],
+    "description": "The Sheikah used the very essence of ancient technology to forge this greatsword. It was designed to oppose the Calamity, but its low durability made it impractical in battle."
   },
   {
     "id": 70,
@@ -1588,11 +1657,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Coliseum Ruins",
       "Eldin Canyon"
-    ]
+    ],
+    "description": "This magic-infused greatsword was forged in the fires of Death Mountain by Goron smiths in an ancient age. Attack when the blade glows red to expel flames."
   },
   {
     "id": 71,
@@ -1611,11 +1681,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Coliseum Ruins",
       "Hebra Mountains"
-    ]
+    ],
+    "description": "This magic-infused greatsword was forged by smelting ore found in the Hebra Mountains' permafrost. Attack when the blade glows blue to expel freezing air."
   },
   {
     "id": 72,
@@ -1634,11 +1705,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Coliseum Ruins",
       "Tabantha Frontier"
-    ]
+    ],
+    "description": "This magic-infused greatsword was forged by the Hyrulean royal family using lightning from the Hyrule Hills. Attack when the blade glows golden to expel lightning."
   },
   {
     "id": 73,
@@ -1657,10 +1729,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Unlocked by corresponding amiibo"
-    ]
+    ],
+    "description": "The Six Sages are said to have forged this longsword to seal a demon king in the world where the hero fought against the beasts of twilight. The blade shines with a holy luster."
   },
   {
     "id": 74,
@@ -1679,10 +1752,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Unlocked by corresponding amiibo"
-    ]
+    ],
+    "description": "A legendary greatsword forged by a Goron craftsman for a hero who traveled through time. The exceptionally sharp cutting edge is a testament to the craftsman's mastery."
   },
   {
     "id": 75,
@@ -1701,10 +1775,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Unlocked by corresponding amiibo"
-    ]
+    ],
+    "description": "A peculiar greatsword allegedly used by a hero from a world in which the moon threatened to fall. It slashes wildly in battle as if possessed by a fierce deity."
   },
   {
     "id": 76,
@@ -1723,11 +1798,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Hyrule Field",
       "West Necluda"
-    ]
+    ],
+    "description": "A clunky club made by a Bokoblin. If you swing it at an enemy's shield, it may be able to knock the shield out of your foe's hand."
   },
   {
     "id": 77,
@@ -1746,11 +1822,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Faron Grasslands",
       "East Necluda"
-    ]
+    ],
+    "description": "After much consideration by Bokoblins on how to improve the Boko bat, they simply attached sharp spikes to it. A skilled fighter can cause immense damage with this."
   },
   {
     "id": 78,
@@ -1769,11 +1846,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Hyrule Ridge",
       "Necluda Sea"
-    ]
+    ],
+    "description": "Used by only the toughest Bokoblin warriors, this Boko bat has been fortified by fossilized bone. It boasts a high durability and is strong enough to beat down powerful foes."
   },
   {
     "id": 79,
@@ -1792,11 +1870,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Hyrule Field",
       "West Necluda"
-    ]
+    ],
+    "description": "A crudely fashioned club favored by Moblins. It's carved from a sturdy tree but is sloppily made, so it breaks easily."
   },
   {
     "id": 80,
@@ -1815,11 +1894,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Hyrule Field",
       "Akkala Highlands"
-    ]
+    ],
+    "description": "Animal bone has been affixed to this Moblin club to greatly improve its damage."
   },
   {
     "id": 81,
@@ -1838,11 +1918,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Hyrule Ridge",
       "Necluda Sea"
-    ]
+    ],
+    "description": "The bone of an ancient beast has been affixed to this Moblin club, further increasing its damage. Moblins carrying these in battle are particularly dangerous."
   },
   {
     "id": 82,
@@ -1861,10 +1942,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Dropped by Guardian Scout II"
-    ]
+    ],
+    "description": "A weapon used by Guardian Scouts. Its unique blade was forged using ancient technology. Although powerful, its unusual shape causes it to break easily."
   },
   {
     "id": 83,
@@ -1883,10 +1965,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Dropped by Guardian Scout III"
-    ]
+    ],
+    "description": "This ancient battle axe's damage output has been increased to maximum. It's sharp enough to cut through almost anything, so it may have been used to forge new routes."
   },
   {
     "id": 84,
@@ -1905,10 +1988,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Dropped by Guardian Scout IV"
-    ]
+    ],
+    "description": "This ancient battle axe's damage output is scaled up to peak performance. Ancient technology makes it possible to enhance cutting power beyond metal weapons' limits."
   },
   {
     "id": 85,
@@ -1927,10 +2011,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Dropped by Lynels"
-    ]
+    ],
+    "description": "This two-handed weapon is favored by the Lynels. It may be more accurate to call it a lump of metal than a weapon, but if wielded by a Lynel, it can pound you into a fine dust."
   },
   {
     "id": 86,
@@ -1949,10 +2034,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Dropped by Blue-Maned Lynels"
-    ]
+    ],
+    "description": "This Lynel-made two-handed weapon has been reinforced to increase its durability and striking power. Its overwhelming heft will crush your foe, shield and all."
   },
   {
     "id": 87,
@@ -1971,11 +2057,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Dropped by White-Maned Lynels",
       "Silver Lynels"
-    ]
+    ],
+    "description": "This Lynel-made two-handed weapon is immensely heavy thanks to a rare metal from Death Mountain's peak. The power of its downward swing is in a class all its own."
   },
   {
     "id": 88,
@@ -1993,11 +2080,12 @@ module.exports = [
     "durabilityBonus2Max": 24,
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 20,
-    "throwDistanceMin": 1.0,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMin": 1,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Dropped by Yiga Blademasters"
-    ]
+    ],
+    "description": "This sword is favored by high-ranking members of the Yiga. When wielded by a proficient fighter, its unique shape cleaves the very wind and creates a vacuum."
   },
   {
     "id": 89,
@@ -2016,10 +2104,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Dropped by Stalmoblins"
-    ]
+    ],
+    "description": "A Moblin bone that continues to move even after being detached from its body. The bone is thick enough to be used as a weapon but is extremely brittle and easily broken."
   },
   {
     "id": 90,
@@ -2038,11 +2127,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "East Necluda",
       "Hyrule Field"
-    ]
+    ],
+    "description": "Just a mop to the untrained eye, it excels at tidying up the place. But it owes its sturdy construction to a true craftsman, so it actually has some combat merit."
   },
   {
     "id": 91,
@@ -2061,11 +2151,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "East Necluda",
       "West Necluda"
-    ]
+    ],
+    "description": "A farming tool used to collect hay efficiently. It's light enough to be used by anyone. The four prongs are very sharp."
   },
   {
     "id": 92,
@@ -2084,11 +2175,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "East Necluda",
       "Lake Hylia"
-    ]
+    ],
+    "description": "A fisherman's tool that excels at catching large fish. Its particularly sharp spearhead makes it valuable as a weapon as well."
   },
   {
     "id": 93,
@@ -2107,11 +2199,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "West Necluda",
       "Hyrule Field"
-    ]
+    ],
+    "description": "A specialized spear weighted to excel as a throwing weapon. It's perfectly balanced to be thrown farther than your average spear, able to pierce targets from a great distance."
   },
   {
     "id": 94,
@@ -2130,11 +2223,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "West Necluda",
       "Hyrule Field"
-    ]
+    ],
+    "description": "A spear used mainly by travelers to fend off wolves and other beasts. It's easy to hold and simple to use."
   },
   {
     "id": 95,
@@ -2153,11 +2247,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Hyrule Field",
       "Faron Grasslands"
-    ]
+    ],
+    "description": "A long spear once used by the guards of Hyrule Castle. Easy to use but difficult to master. The iron tip is very sturdy and the shaft will not burn when exposed to flame."
   },
   {
     "id": 96,
@@ -2176,11 +2271,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Tabantha Frontier",
       "Gerudo Desert"
-    ]
+    ],
+    "description": "A spear used by knights adept in mounted combat. The spearhead is modeled after an axe."
   },
   {
     "id": 97,
@@ -2199,11 +2295,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Gerudo Highlands",
       "Tabantha Frontier"
-    ]
+    ],
+    "description": "This spear was issued to the knights who guarded Hyrule Castle's throne room. Its ornate design was applied by a craftsman in service to the royal family."
   },
   {
     "id": 98,
@@ -2222,11 +2319,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Great Hyrule Forest",
       "Hyrule Ridge"
-    ]
+    ],
+    "description": "The Koroks made this spear for Hylians. The shaft is made from a light, sturdy wood, offering ease of use. The spearhead is made from a much harder wood, offering strength."
   },
   {
     "id": 99,
@@ -2245,11 +2343,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Lanayru Great Spring",
       "Lake Hylia"
-    ]
+    ],
+    "description": "This spear is a Zora's weapon of choice. It's lighter than it looks due to being made from a special metal and is used by the Zora for both fishing and protecting their domain."
   },
   {
     "id": 100,
@@ -2268,11 +2367,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Akkala Highlands",
       "Lanayru Great Spring"
-    ]
+    ],
+    "description": "The most skilled Zora fighters wield this spear. Its beautiful fish-tail design belies its impressive strength; the spearhead can pierce even the toughest scales."
   },
   {
     "id": 101,
@@ -2291,10 +2391,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Zora's Domain"
-    ]
+    ],
+    "description": "A spear modeled after the Lightscale Trident wielded by the Zora Champion Mipha. They may be identical in appearance, but this spear's strength and durability are inferior."
   },
   {
     "id": 102,
@@ -2313,10 +2414,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Reward for clearing Divine Beast Vah Ruta dungeon"
-    ]
+    ],
+    "description": "A spear of peerless grace cherished by the Zora Champion Mipha. Although Mipha specialized in healing abilities, her spearmanship was in a class all its own."
   },
   {
     "id": 103,
@@ -2335,11 +2437,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Eldin Canyon",
       "Hebra Mountains"
-    ]
+    ],
+    "description": "Goron artisans used recycled metal to forge this weapon. The tip is made from an old excavation bore, which affords it unmatched piercing capabilities."
   },
   {
     "id": 104,
@@ -2358,11 +2461,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Tabantha Frontier",
       "Hyrule Field"
-    ]
+    ],
+    "description": "Its lightweight design is a hallmark of Rito craftsmanship. It's made from light and sturdy materials, which afford Rito warriors ease of use during aerial combat."
   },
   {
     "id": 105,
@@ -2381,11 +2485,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Gerudo Highlands",
       "Gerudo Desert"
-    ]
+    ],
+    "description": "This spear's center of gravity is in its tip, making it a bit unwieldy for the average fighter. But in the hands of a skilled Gerudo warrior, it's a weapon of reliable strength."
   },
   {
     "id": 106,
@@ -2404,11 +2509,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "East Necluda",
       "Hyrule Field"
-    ]
+    ],
+    "description": "The spearhead of this weapon is uniquely Sheikah in design. Spear masters of the Sheikah tribe can use the crescent shape to snag their opponents and deliver brutal cuts."
   },
   {
     "id": 107,
@@ -2427,10 +2533,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Akkala Ancient Tech Lab"
-    ]
+    ],
+    "description": "This spear is the result of countless hours of research into the ancient technology used by Guardians. The glowing spearhead has high piercing potential."
   },
   {
     "id": 108,
@@ -2449,11 +2556,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Hyrule Field",
       "Great Hyrule Forest"
-    ]
+    ],
+    "description": "A rusty polearm likely used by knights from an age past. The spearhead is in bad shape due to prolonged exposure to the elements, so its durability is low."
   },
   {
     "id": 109,
@@ -2472,10 +2580,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Hyrule Castle"
-    ]
+    ],
+    "description": "This Sheikah-made spear was created using ancient technology to combat the Calamity. Its attack power is very high, but a critical design flaw left it with poor durability."
   },
   {
     "id": 110,
@@ -2494,11 +2603,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Coliseum Ruins",
       "Hebra Mountains"
-    ]
+    ],
+    "description": "A magical spear forged in the magma of Death Mountain. Attack when the blade glows to expel powerful flames."
   },
   {
     "id": 111,
@@ -2517,11 +2627,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Coliseum Ruins",
       "Hebra Mountains"
-    ]
+    ],
+    "description": "A magical spear forged from ancient ice taken from the Hebra Mountains. Attack when the blade glows blue to chill the air and freeze your foe."
   },
   {
     "id": 112,
@@ -2540,11 +2651,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Coliseum Ruins",
       "Hyrule Ridge"
-    ]
+    ],
+    "description": "A magical spear that contains thunder from Thundra Plateau in its tip. Attack when the blade glows with a golden light to unleash an electrical attack."
   },
   {
     "id": 113,
@@ -2563,11 +2675,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "West Necluda",
       "Hyrule Field"
-    ]
+    ],
+    "description": "A spear recklessly carved from a tree branch. Useful for skewering fish and meat, which can then be cooked over a flame. If it's close to breaking, consider throwing it."
   },
   {
     "id": 114,
@@ -2586,11 +2699,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Faron Grasslands",
       "East Necluda"
-    ]
+    ],
+    "description": "A Boko spear enhanced with sharpened animal bones. It's light, easy to use, and deals a decent amount of damage."
   },
   {
     "id": 115,
@@ -2609,11 +2723,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Necluda Sea",
       "Hyrule Ridge"
-    ]
+    ],
+    "description": "This Boko spear has been strengthened with fossilized bones. The bones are positioned outward so the fangs bite at the opponent. Beware Bokoblins carrying this weapon."
   },
   {
     "id": 116,
@@ -2632,11 +2747,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Faron Grasslands",
       "Gerudo Highlands"
-    ]
+    ],
+    "description": "This wooden spear is most often used by Moblins. It's made from a hastily whittled tree, so its stabbing power and durability are both pretty low."
   },
   {
     "id": 117,
@@ -2655,11 +2771,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Gerudo Highlands",
       "Akkala Highlands"
-    ]
+    ],
+    "description": "This Moblin-made spear uses a horned animal bone as the spearhead. Like many Moblin weapons it's sloppily made, but this one packs some respectable piercing power."
   },
   {
     "id": 118,
@@ -2678,11 +2795,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Hebra Mountains",
       "Eldin Mountains"
-    ]
+    ],
+    "description": "This spear is a fan favorite among Moblins. The spearhead is made from fossilized bones adorned with spikes, which greatly increases its stabbing power."
   },
   {
     "id": 119,
@@ -2701,11 +2819,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Lanayru Wetlands",
       "East Necluda"
-    ]
+    ],
+    "description": "The brutal, ripping edge of this weapon's spearhead is a distinctly Lizalfos design. Its low durability doesn't lend itself to extended use."
   },
   {
     "id": 120,
@@ -2724,11 +2843,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Tabantha Frontier",
       "Gerudo Desert"
-    ]
+    ],
+    "description": "Judging by the harpoon-like spearhead of this Lizalfos-made spear, the Lizalfos use it for fishing as well as combat. Try not to get caught on the wrong end of its barbs."
   },
   {
     "id": 121,
@@ -2747,11 +2867,12 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Eldin Canyon",
       "Akkala Highlands"
-    ]
+    ],
+    "description": "Skilled Lizalfos warriors tend to favor this spear. What it lacks in piercing power, it makes up for with the brutal wounds its dual ripping blades will inflict."
   },
   {
     "id": 122,
@@ -2770,10 +2891,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Dropped by Guardian Scout II"
-    ]
+    ],
+    "description": "Wielded by Guardian Scouts, this spear has a high piercing power and is a testament to the Sheikah's high level of technology. The spearhead appears only when brandished."
   },
   {
     "id": 123,
@@ -2792,10 +2914,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Dropped by Guardian Scout III"
-    ]
+    ],
+    "description": "The tip of this Guardian spear has been enlarged and strengthened. It's a bit shorter than your average spear, perhaps to facilitate use in tight spaces."
   },
   {
     "id": 124,
@@ -2814,10 +2937,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Dropped by Guardian Scout IV"
-    ]
+    ],
+    "description": "This Guardian spear's output has been boosted to the maximum. The spearhead is designed for optimal stabbing, capable of easily piercing most armor."
   },
   {
     "id": 125,
@@ -2836,10 +2960,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Dropped by Lynels"
-    ]
+    ],
+    "description": "The crescent-shaped spearhead of this Lynel-made weapon gives it poor balance, making it difficult to wield. Lynels, however, can swing it effectively with a single hand."
   },
   {
     "id": 126,
@@ -2858,10 +2983,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Dropped by Blue-Maned Lynels"
-    ]
+    ],
+    "description": "The weight and cutting edge of this Lynel-made spear have both been enhanced. It's immensely heavy for a Hylian, but a Lynel can cleave through rock with a single swing."
   },
   {
     "id": 127,
@@ -2880,10 +3006,11 @@ module.exports = [
     "throwDistanceEffect": "Weapon Thrown",
     "throwDistanceBase": 5,
     "throwDistanceMin": 1.5,
-    "throwDistanceMax": 2.0,
+    "throwDistanceMax": 2,
     "availabilities": [
       "Dropped by White-Maned Lynels",
       "Silver Lynels"
-    ]
+    ],
+    "description": "White-haired Lynels favor this brutal spear. Its axe-like spearhead and exceptional weight give it absolute destructive power."
   }
 ]

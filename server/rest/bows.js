@@ -10,7 +10,8 @@ module.exports = [
     "quickShot": false,
     "availabilities": [
       "During a late-game boss battle"
-    ]
+    ],
+    "description": "Princess Zelda gave you this bow and arrow for the battle with Dark Beast Ganon. When wielded by the hero, it fires arrows of pure light strong enough to oppose the Calamity."
   },
   {
     "id": 2,
@@ -24,7 +25,8 @@ module.exports = [
     "availabilities": [
       "Hyrule Field",
       "West Necluda"
-    ]
+    ],
+    "description": "This wooden bow may not be the most reliable for battling monsters, but it is excellent for hunting small animals."
   },
   {
     "id": 3,
@@ -38,7 +40,8 @@ module.exports = [
     "availabilities": [
       "Hyrule Field",
       "Faron Grasslands"
-    ]
+    ],
+    "description": "A small bow used by travelers for protection. It doesn't do a lot of damage, but it can be used to attack foes from a distance."
   },
   {
     "id": 4,
@@ -52,7 +55,8 @@ module.exports = [
     "availabilities": [
       "Hyrule Field",
       "Faron Grasslands"
-    ]
+    ],
+    "description": "A bow designed for armed conflict. Inflicts more damage than a civilian bow, but it will still burn if it touches fire."
   },
   {
     "id": 5,
@@ -66,7 +70,8 @@ module.exports = [
     "availabilities": [
       "Gerudo Desert",
       "Tabantha Frontier"
-    ]
+    ],
+    "description": "The sturdy metal construction of this bow offers superior durability, while its lack of firing quirks makes it quite reliable. Once favored by the knights at Hyrule Castle."
   },
   {
     "id": 6,
@@ -80,7 +85,8 @@ module.exports = [
     "availabilities": [
       "Tabantha Frontier",
       "Hebra Mountains"
-    ]
+    ],
+    "description": "In the past, the king of Hyrule presented this bow to only the most talented archers in the land. Its combat capabilities are as impressive as its extravagant design."
   },
   {
     "id": 7,
@@ -94,7 +100,8 @@ module.exports = [
     "availabilities": [
       "Tabantha Frontier",
       "Hyrule Ridge"
-    ]
+    ],
+    "description": "The Koroks made this bow for Hylians. It's crafted from flexible wood and uses sturdy vines for the bowstring. Its construction may be simple, but it fires multiple arrows at once."
   },
   {
     "id": 8,
@@ -108,7 +115,8 @@ module.exports = [
     "availabilities": [
       "Lanayru Great Spring",
       "Akkala Highlands"
-    ]
+    ],
+    "description": "A bow favored by the Zora for fishing. It doesn't boast the highest firepower, but the special metal it's crafted from prioritizes durability."
   },
   {
     "id": 9,
@@ -122,7 +130,8 @@ module.exports = [
     "availabilities": [
       "Tabantha Frontier",
       "Hebra Mountains"
-    ]
+    ],
+    "description": "This bow is a favorite among Rito warriors. The bowstring has been specially engineered for aerial combat, which allows it to be drawn faster than a normal bow."
   },
   {
     "id": 10,
@@ -136,7 +145,8 @@ module.exports = [
     "availabilities": [
       "Tabantha Frontier",
       "Hebra Mountains"
-    ]
+    ],
+    "description": "A highly refined Rito-made bow created by a master Rito craftsman. Rito warriors favor it for its superior rate of fire, which helps them excel even further at aerial combat."
   },
   {
     "id": 11,
@@ -150,7 +160,8 @@ module.exports = [
     "availabilities": [
       "Reward for clearing Divine Beast Vah Medoh dungeon",
       "Forged by Harth at Rito Village"
-    ]
+    ],
+    "description": "A bow without equal wielded by the Rito Champion, Revali. It's said Revali could loose arrows with the speed of a gale, making him supreme in aerial combat."
   },
   {
     "id": 12,
@@ -164,7 +175,8 @@ module.exports = [
     "availabilities": [
       "Gerudo Highlands",
       "Gerudo Desert"
-    ]
+    ],
+    "description": "This Gerudo-made bow is popular for the fine ornamentations along its limbs. Designed for hunting and warfare alike, this bow was engineered to strike distant targets."
   },
   {
     "id": 13,
@@ -178,7 +190,8 @@ module.exports = [
     "availabilities": [
       "West Necluda",
       "East Necluda"
-    ]
+    ],
+    "description": "A bow passed down through the Sheikah tribe. Concentrating before drawing the string will allow you to target distant enemies as easily as those nearby."
   },
   {
     "id": 14,
@@ -191,7 +204,8 @@ module.exports = [
     "quickShot": false,
     "availabilities": [
       "Akkala Ancient Tech Lab"
-    ]
+    ],
+    "description": "This bow is the result of Robbie's research. Ancient Sheikah technology allows it heightened functionality. Arrows fired from it travel in a perfectly straight line."
   },
   {
     "id": 15,
@@ -204,7 +218,8 @@ module.exports = [
     "quickShot": false,
     "availabilities": [
       "Hyrule Castle"
-    ]
+    ],
+    "description": "This prototype Sheikah-made bow was designed to fight the Great Calamity. Made with ancient technology, it boasts a high rate of fire and firepower but has low durability."
   },
   {
     "id": 16,
@@ -217,7 +232,8 @@ module.exports = [
     "quickShot": false,
     "availabilities": [
       "Unlocked by corresponding Amiibo"
-    ]
+    ],
+    "description": "A bow used by the princess who fought the beasts of twilight alongside the hero. It's said to contain the spirits of light's power. It fires arrows straight and true, as if beams of light."
   },
   {
     "id": 17,
@@ -231,7 +247,8 @@ module.exports = [
     "availabilities": [
       "Hyrule Field",
       " West Necluda"
-    ]
+    ],
+    "description": "A basic Bokoblin bow made of wood. It's made by taking any tree branch and tying a string to either end, so don't expect much in the way of combat effectiveness."
   },
   {
     "id": 18,
@@ -245,7 +262,8 @@ module.exports = [
     "availabilities": [
       "Faron Grasslands",
       "East Necluda"
-    ]
+    ],
+    "description": "An upgraded Boko Bow bound with animal bone to boost its durability and firepower. Its craftsmanship is sloppy, but it's light and easy to use."
   },
   {
     "id": 19,
@@ -259,7 +277,8 @@ module.exports = [
     "availabilities": [
       "Hyrule Field",
       " Hyrule Ridge"
-    ]
+    ],
+    "description": "A Boko bow reinforced by fossils. Bokoblins handpicked the materials it's made from, so it boasts a respectable firepower."
   },
   {
     "id": 20,
@@ -273,7 +292,8 @@ module.exports = [
     "availabilities": [
       "Lanayru Great Spring",
       "Lanayru Wetlands"
-    ]
+    ],
+    "description": "A wooden bow created by Lizalfos. It's reinforced by the bones of a large fish - a marked improvement over any standard wooden bow."
   },
   {
     "id": 21,
@@ -287,7 +307,8 @@ module.exports = [
     "availabilities": [
       "Tabantha Frontier",
       "Gerudo Desert"
-    ]
+    ],
+    "description": "A Lizal bow with a grip reinforced by metal. The body is made from the branches of a flexible tree that grows near water, which offers some serious destructive power."
   },
   {
     "id": 22,
@@ -301,7 +322,8 @@ module.exports = [
     "availabilities": [
       "Hebra Mountains",
       "Akkala Highlands"
-    ]
+    ],
+    "description": "This bow is wielded by Lizalfos who are expert marksmen. The metal that reinforces much of the weapon adds some additional weight but offers heightened durability."
   },
   {
     "id": 23,
@@ -314,7 +336,8 @@ module.exports = [
     "quickShot": false,
     "availabilities": [
       "Dropped by Lynels"
-    ]
+    ],
+    "description": "A Lynel-made bow crafted from rough metal. True to the vicious nature of Lynel weaponry, it fires a spread of multiple arrows at once. Ideal for taking down quick-moving targets."
   },
   {
     "id": 24,
@@ -327,7 +350,8 @@ module.exports = [
     "quickShot": false,
     "availabilities": [
       "Dropped by Blue-Maned Lynels"
-    ]
+    ],
+    "description": "This massive Lynel bow sports a bowstring made from a metal so tough, mere Hylians have trouble drawing it back."
   },
   {
     "id": 25,
@@ -340,7 +364,8 @@ module.exports = [
     "quickShot": true,
     "availabilities": [
       "Dropped by White-Maned Lynels"
-    ]
+    ],
+    "description": "This Lynel bow is made from a special steel found at the peak of Death Mountain. It has tremendous stopping power and can pierce thick armor as easily as thin paper."
   },
   {
     "id": 26,
@@ -354,6 +379,7 @@ module.exports = [
     "availabilities": [
       "Yiga Clan Highout",
       "dropped by Yiga Footsoldiers"
-    ]
+    ],
+    "description": "A bow favored by the skilled archers of the Yiga Clan. It's been engineered to fire two arrows at once to ensure your target comes to a swift and none-too-pleasant halt."
   }
 ]

@@ -47,6 +47,16 @@ class RecipesDetail extends Component {
                 <IconContainer propertyName={recipe.name} folderName={"food"} cssClassName={recipe.cssClassName} spriteSheet={"food"} />
               </td>
             </tr>
+            
+              <tr>
+                <td>Description</td>
+                <td>
+                  { recipe.description ? (
+                    <><i className="fa fa-book" aria-hidden="true"></i> {recipe.description}</>
+                  ) : '' }
+                </td>
+              </tr>
+            
             <tr>
               <td>Ingredients</td>
               <td>

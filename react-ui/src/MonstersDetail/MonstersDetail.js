@@ -46,6 +46,12 @@ class MonstersDetail extends Component {
                 <IconContainer propertyName={monster.name} folderName={"monsters"} cssClassName={monster.cssClassName} spriteSheet={"monsters"} />
               </td>
             </tr>
+            { monster.description ? (
+              <tr>
+                <td>Description</td>
+                <td><i className="fa fa-book" aria-hidden="true"></i> {monster.description}</td>
+              </tr>
+            ) : '' }
             { monster.size === '' ? '' : 
               <tr>
                 <td>Size</td>
@@ -58,7 +64,11 @@ class MonstersDetail extends Component {
             </tr>
             <tr>
               <td>Rank</td>
-              <td><i className="fa fa-star" aria-hidden="true"></i> {monster.rank}</td>
+              <td>
+              { monster.rank ? (
+                <><i className="fa fa-star" aria-hidden="true"></i> {monster.rank}</>
+              ) : '-'}
+              </td>
             </tr>
             <tr>
               <td>Common Locations</td>

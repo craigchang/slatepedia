@@ -47,6 +47,10 @@ class BowsDetail extends Component {
               </td>
             </tr>
             <tr>
+              <td>Description</td>
+              <td><i className="fa fa-book" aria-hidden="true"></i> {bow.description}</td>
+            </tr>
+            <tr>
               <td>Attack Power</td>
               <td><i className="fa fa-superpowers" aria-hidden="true"></i> {bow.attackPower}</td>
             </tr>

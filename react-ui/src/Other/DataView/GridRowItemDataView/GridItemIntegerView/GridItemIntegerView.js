@@ -2,7 +2,7 @@ import React from 'react';
 
 const GridItemIntegerView = ({dataValue, tooltip}) => {
   return (
-    <td title={tooltip || undefined}>{dataValue}</td>
+    <td title={tooltip || undefined}>{dataValue || '-'}</td>
   );
 }
 

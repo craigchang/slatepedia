@@ -18,7 +18,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This low-level, gel-based monster can be found all over Hyrule. It tends to spring its attacks on unsuspecting prey from the ground or from trees. Its strength varies by size, and the type of jelly it drops varies depending on whether the Chuchu was heated up, cooled down, or shocked."
   },
   {
     "id": 2,
@@ -39,7 +40,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This low-level gel monster is engulfed in flames. Its strength varies depending on its size. It tends to explode if attacked from close range, so the use of spears, arrows, and other ranged weapons is advised."
   },
   {
     "id": 3,
@@ -60,7 +62,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This low-level gel monster is engulfed in freezing-cold air. Its strength varies depending on its size. It tends to explode if attacked from close range, so the use of spears, arrows, and other ranged weapons is advised."
   },
   {
     "id": 4,
@@ -81,7 +84,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This low-level gel monster is engulfed in electricity. Its strength varies depending on its size. It tends to explode if attacked from close range, so the use of spears, arrows, and other ranged weapons is advised."
   },
   {
     "id": 5,
@@ -102,7 +106,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This low-level, gel-based monster can be found all over Hyrule. It tends to spring its attacks on unsuspecting prey from the ground or from trees. Its strength varies by size, and the type of jelly it drops varies depending on whether the Chuchu was heated up, cooled down, or shocked."
   },
   {
     "id": 6,
@@ -123,7 +128,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This low-level gel monster is engulfed in flames. Its strength varies depending on its size. It tends to explode if attacked from close range, so the use of spears, arrows, and other ranged weapons is advised."
   },
   {
     "id": 7,
@@ -144,7 +150,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This low-level gel monster is engulfed in freezing-cold air. Its strength varies depending on its size. It tends to explode if attacked from close range, so the use of spears, arrows, and other ranged weapons is advised."
   },
   {
     "id": 8,
@@ -165,7 +172,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This low-level gel monster is engulfed in electricity. Its strength varies depending on its size. It tends to explode if attacked from close range, so the use of spears, arrows, and other ranged weapons is advised."
   },
   {
     "id": 9,
@@ -186,7 +194,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This low-level, gel-based monster can be found all over Hyrule. It tends to spring its attacks on unsuspecting prey from the ground or from trees. Its strength varies by size, and the type of jelly it drops varies depending on whether the Chuchu was heated up, cooled down, or shocked."
   },
   {
     "id": 10,
@@ -207,7 +216,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This low-level gel monster is engulfed in flames. Its strength varies depending on its size. It tends to explode if attacked from close range, so the use of spears, arrows, and other ranged weapons is advised."
   },
   {
     "id": 11,
@@ -228,7 +238,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This low-level gel monster is engulfed in freezing-cold air. Its strength varies depending on its size. It tends to explode if attacked from close range, so the use of spears, arrows, and other ranged weapons is advised."
   },
   {
     "id": 12,
@@ -249,7 +260,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This low-level gel monster is engulfed in electricity. Its strength varies depending on its size. It tends to explode if attacked from close range, so the use of spears, arrows, and other ranged weapons is advised."
   },
   {
     "id": 13,
@@ -276,7 +288,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "The unpredictable flight pattern of this nocturnal bat-like species can make fighting them a nuisance, but they're weak enough to fell with a single strike. Sometimes they'll attack in packs, but even then, a pack can be sent packing with a single attack."
   },
   {
     "id": 14,
@@ -303,7 +316,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "The fire that engulfs the bodies of these bat-like Keese makes them more dangerous than the standard type. They're capable of setting fire to anything they touch."
   },
   {
     "id": 15,
@@ -330,7 +344,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "The intense frost that engulfs the bodies of these bat-like Keese makes them more dangerous than the standard type. They're capable of freezing anything they touch."
   },
   {
     "id": 16,
@@ -357,7 +372,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "The electricity that engulfs the bodies of these bat-like Keese makes them more dangerous than the standard type. They're capable of shocking anything they touch."
   },
   {
     "id": 17,
@@ -390,7 +406,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "Although they spend most of their time in water, the drop in barometric pressure that occurs when it rains causes an air sac within these octopus-like monsters to inflate and lift them into the air. The rocks they spit out can be bounced back with a shield."
   },
   {
     "id": 18,
@@ -423,7 +440,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "Although originally an aquatic species, this type has adapted to life in the forest. They hide among the trees, disguising themselves as grass or unassuming shrubbery, and then attack when someone wanders by."
   },
   {
     "id": 19,
@@ -456,7 +474,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This octopus-like species of monster lives in volcanic regions. When they inhale, they're preparing to spit out flaming rocks but have been known to suck up weapons or bombs in the same breath."
   },
   {
     "id": 20,
@@ -489,7 +508,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "These octopus-like monsters live in snowy fields and disguise themselves as grass. When someone wanders by, they spring into action and attack by spitting snowballs."
   },
   {
     "id": 21,
@@ -522,7 +542,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "These particularly clever monsters bury themselves in deep sand or snow and disguise themselves as treasure chests. Anyone who approaches the chests is attacked. The treasure chests are not magnetic, which proves that they are actually a part of these monsters' bodies."
   },
   {
     "id": 22,
@@ -543,7 +564,8 @@ module.exports = [
         "category": "weapons"
       }
     ],
-    "notes": "Weak to ice"
+    "notes": "Weak to ice",
+    "description": "These spell-casting monsters can be found all over Hyrule. They use their fire rods to hurl fireballs or to summon flaming monsters and have been known to severely raise the temperature around them. The weather will normalize once the Wizzrobe is defeated."
   },
   {
     "id": 23,
@@ -564,7 +586,8 @@ module.exports = [
         "category": "weapons"
       }
     ],
-    "notes": "Weak to fire"
+    "notes": "Weak to fire",
+    "description": "These spell-casting monsters can be found all over Hyrule. They use their ice rods to create freezing blasts of air or to summon frozen monsters and have been known to cause blizzards to severely decrease the temperature around them. The weather will normalize once the Wizzrobe is defeated."
   },
   {
     "id": 24,
@@ -585,7 +608,8 @@ module.exports = [
         "category": "weapons"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "These spell-casting monsters can be found all over Hyrule. They use their lightning rods to hurl balls of electricity or to summon monsters surging with electricity and have been known to cause thunderstorms in the area. The weather will normalize once the Wizzrobe is defeated."
   },
   {
     "id": 25,
@@ -606,7 +630,8 @@ module.exports = [
         "category": "weapons"
       }
     ],
-    "notes": "Weak to ice"
+    "notes": "Weak to ice",
+    "description": "These spell-casting monsters can be found all over Hyrule. They use their meteor rods to hurl fireballs or to summon flaming monsters and have been known to severely raise the temperature around them. The weather will normalize once the Wizzrobe is defeated."
   },
   {
     "id": 26,
@@ -627,7 +652,8 @@ module.exports = [
         "category": "weapons"
       }
     ],
-    "notes": "Weak to fire"
+    "notes": "Weak to fire",
+    "description": "These spell-casting monsters can be found all over Hyrule. They use their blizzard rods to create freezing blasts of air or to summon frozen monsters and have been known to cause blizzards to severely decrease the temperature around them. The weather will normalize once the Blizzrobe is defeated."
   },
   {
     "id": 27,
@@ -648,7 +674,8 @@ module.exports = [
         "category": "weapons"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "These spell-casting monsters can be found all over Hyrule. They use their thunderstorm rods to hurl balls of electricity or to summon monsters surging with electricity and have been known to cause thunderstorms in the area. The weather will normalize once the Wizzrobe is defeated."
   },
   {
     "id": 28,
@@ -675,7 +702,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This common species is a nuisance all over Hyrule. Some have unified in the time following the Great Calamity and have formed factions of bandits. While not very clever, they are at least intelligent enough to hunt beasts and grill the meat for food. Though they're typically ferocious carnivores, they actually enjoy fruit as well."
   },
   {
     "id": 29,
@@ -708,7 +736,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This common species is a nuisance all over Hyrule. They're tougher and have stronger weapons than the red Bokoblins— and are a little more clever, as well. At the very least, they figured out that they can simply kick a Remote Bomb out of the way to avoid its blast."
   },
   {
     "id": 30,
@@ -741,7 +770,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "Although Bokoblins are generally a nuisance, the Black Bokoblins are among the most dangerous type. They're extremely resilient, and many are armed with advanced weapons."
   },
   {
     "id": 31,
@@ -768,7 +798,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "The remains of Bokoblins appear in the dark of the night. While they're fragile enough to crumble from a single blow, as long as a skull remains intact, they'll continue to pull themselves back together and go on fighting. Sometimes the body will pick up the wrong skull, but this doesn't seem to be a problem..."
   },
   {
     "id": 32,
@@ -836,7 +867,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "You would be foolish to call these Silver Bokoblins a mere nuisance. They have been influenced by Ganon's fiendish magic, so they are stronger than even the Black Bokoblins. They're called \"silver\" not only because of their coloring but also to denote their rarity. The purple markings help them stand out even more."
   },
   {
     "id": 33,
@@ -863,7 +895,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This heavyweight species of monster can be found all over Hyrule. They're physically very strong, their legs alone strong enough to resist the force of a bomb blast. They're much more dangerous than Bokoblins. In fact, Moblins have been known to pick up Bokoblins and throw them as makeshift projectile weapons."
   },
   {
     "id": 34,
@@ -896,7 +929,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "These heavyweight monsters can be found all over Hyrule. They're much tougher than their standard counterparts and often have much stronger weapons equipped."
   },
   {
     "id": 35,
@@ -929,7 +963,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "These heavyweight monsters can be found all over Hyrule and are among the most dangerous types of Moblin. They're extremely resilient and are often armed with some of the strongest weapons Moblins can carry."
   },
   {
     "id": 36,
@@ -956,7 +991,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "The remains of Moblins appear in the dark of the night. Even the toughest Moblins become fragile when they're little more than a pile of bones, so they'll crumble after just a few attacks. However, as long as a skull remains intact, they'll continue to pull themselves back together and go on fighting."
   },
   {
     "id": 37,
@@ -1024,7 +1060,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "The strongest of all Moblins, Ganon's fiendish magic has allowed them to surpass even the Black Moblins in strength and resilience. They're called \"silver\" for both their body color as well as their rarity. The purple patterns on their bodies also help them to stand out."
   },
   {
     "id": 38,
@@ -1051,7 +1088,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "These quick-witted, lizard-like monsters can be found all over Hyrule. They're a sly species that lurks underwater or uses camouflage to blend in with the environment to launch ambushes. Moreover, they never sleep. They're meat eaters by nature but will enjoy the occasional insect or two."
   },
   {
     "id": 39,
@@ -1084,7 +1122,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "These quick-witted, lizard-like monsters can be found all over Hyrule. Compared to the green Lizalfos, many of these carry much stronger weapons and are generally much tougher."
   },
   {
     "id": 40,
@@ -1117,7 +1156,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "These quick-witted, lizard-like monsters can be found all over Hyrule. This particular type tends to carry some pretty strong weapons, so they are among the most dangerous Lizalfos."
   },
   {
     "id": 41,
@@ -1144,7 +1184,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "The remains of Lizalfos appear in the dark of the night. They're as sly as ever, even now that they're just some bones stacked atop each other. However, their bodies are much more fragile, and a single solid hit can reduce them to pieces. If a skull remains intact, they will pull themselves back up and continue to fight. They've been known to grab the wrong skull at times, but they never seem to mind..."
   },
   {
     "id": 42,
@@ -1177,7 +1218,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": "Weak to ice"
+    "notes": "Weak to ice",
+    "description": "These quick-witted, lizard-like monsters can be found all over Hyrule. Their fiery breath makes them pretty dangerous, but exposure to cold will kill them instantly. They mainly make their homes in volcanic areas but have also been sighted in the Akkala region."
   },
   {
     "id": 43,
@@ -1210,7 +1252,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": "Weak to fire"
+    "notes": "Weak to fire",
+    "description": "These quick-witted, lizard-like monsters can be found all over Hyrule. The balls of ice they spit make them particularly troublesome, but exposure to fire will kill them instantly. Their homes are mainly on snowy mountains."
   },
   {
     "id": 44,
@@ -1243,7 +1286,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "These quick-witted, lizard-like monsters can be found all over Hyrule. They can emit strong electrical currents from their bodies, so don't get too close. Their horns are brimming with electricity, which will discharge and arc to nearby areas if struck by an arrow. They tend to live in desert climates."
   },
   {
     "id": 45,
@@ -1311,7 +1355,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "These Lizalfos have been influenced by Ganon's fiendish magic to become the strongest Lizalfos of all. They're called silver for their unique coloring and also to denote their rarity. Their purple pattern makes them even more distinct."
   },
   {
     "id": 46,
@@ -1356,7 +1401,8 @@ module.exports = [
         "category": "other"
       }
     ],
-    "notes": "The melee variant of Yoga Footsoldier has 72 HP"
+    "notes": "The melee variant of Yoga Footsoldier has 72 HP",
+    "description": "The lowest-ranked members of the Yiga Clan. They've been dispatched all across Hyrule with a single task: seek out Link and end his life. They're a crafty bunch, sometimes disguising themselves as simple travelers or villagers to get the jump on you. Be wary of suspicious people you encounter. They're very agile and carry a bow and a one-handed sword."
   },
   {
     "id": 47,
@@ -1406,7 +1452,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "These are the elite soldiers of the Yiga Clan. They favor the windcleaver blade and are extremely agile despite their bulky build. At this Yiga Clan rank, they have mastered a technique that allows them to manipulate the very earth. By striking the ground, they can create stone pillars and blasts of air."
   },
   {
     "id": 48,
@@ -1432,7 +1479,8 @@ module.exports = [
       "Spawned from mouths connected to glowing eyeballs"
     ],
     "itemDrops": null,
-    "notes": ""
+    "notes": "",
+    "description": "The Malice has given these Bokoblin skulls a sort of life. Devoid of any intelligence the Bokoblin it once belonged to may have had, these pitiful things now exist only to attack anything that gets too close."
   },
   {
     "id": 50,
@@ -1445,7 +1493,8 @@ module.exports = [
       "Spawned from mouths connected to glowing eyeballs"
     ],
     "itemDrops": null,
-    "notes": ""
+    "notes": "",
+    "description": "The Malice has given these Moblin skulls a pitiful life after death. The only fragment of their former selves they've held on to is the ferocity innate to all Moblins, so they will attack anyone that approaches. They're tougher than Bokoblin skulls."
   },
   {
     "id": 51,
@@ -1458,7 +1507,8 @@ module.exports = [
       "Spawned from mouths connected to glowing eyeballs"
     ],
     "itemDrops": null,
-    "notes": ""
+    "notes": "",
+    "description": "The Malice has given these Lizalfos skulls a sorry form of life after death. Only the slyness of their former selves remains, making them faster than Bokoblin skulls. They thoughtlessly attack anyone who approaches."
   },
   {
     "id": 52,
@@ -1508,7 +1558,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "The Sheikah of ancient Hyrule developed this as a weapon to combat Ganon. Its six legs give it extraordinary mobility compared to most current vehicles, and its powerful laser provides far greater offensive capability than conventional weaponry. Destroying the legs severely reduces its mobility."
   },
   {
     "id": 53,
@@ -1559,7 +1610,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "The Sheikah of ancient Hyrule developed this as a weapon to combat Ganon. This flying model is an improvement over the walking type, capable of either attacking or surveying from the air. Destroying the propeller will ground it."
   },
   {
     "id": 54,
@@ -1609,7 +1661,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "The Sheikah of ancient Hyrule developed this as a weapon to combat Ganon. This stationary model was used for defending important structures. Its offensive power is on par with other Guardians, and omitting the legs kept the manufacturing costs low."
   },
   {
     "id": 55,
@@ -1648,7 +1701,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "The Sheikah of ancient Hyrule developed this as a weapon to combat Ganon, but it was destroyed during the Great Calamity. Ages of weather and neglect have left it in a state of disrepair. Approach with caution; some of these derelict models have been known to awaken from stasis and attack when approached."
   },
   {
     "id": 56,
@@ -1693,7 +1747,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "These sentries dispatched from Divine Beast Vah Rudania are equipped with searchlights that can spot intruders."
   },
   {
     "id": 57,
@@ -1719,7 +1774,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": "Wields no melee weapon"
+    "notes": "Wields no melee weapon",
+    "description": "Guardians were originally designed by an ancient civilization to combat Ganon, but these smaller models were placed inside shrines as part of the trials found within. The multiple legs and beam functionality were scaled down but kept mostly intact."
   },
   {
     "id": 58,
@@ -1757,7 +1813,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": "Wields one standard melee weapon"
+    "notes": "Wields one standard melee weapon",
+    "description": "Although originally designed by an ancient civilization to combat Ganon, these scaled-down Guardians were placed inside shrines as part of the trials. In addition to the beam functionality, this particular model was designed to handle weaponry as a means of further testing the combat prowess of one undertaking the trials. It takes some serious skill to go toe-to-toe with one of these."
   },
   {
     "id": 59,
@@ -1801,7 +1858,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": "Wields two “+” melee weapons"
+    "notes": "Wields two “+” melee weapons",
+    "description": "Although originally designed by an ancient civilization to combat Ganon, these scaled-down Guardians were placed inside shrines as part of the trials. This model is equipped with twin-blade functionality to further test the combat prowess of one undertaking the trials. It takes a nimble fighter to overcome this one."
   },
   {
     "id": 60,
@@ -1845,7 +1903,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": "Wields three “++” melee weapons"
+    "notes": "Wields three “++” melee weapons",
+    "description": "An ancient civilization originally designed Guardians to combat Ganon but then scaled them down to place in shrines as part of the trials. This model is very resilient and has been outfitted with triple-blade functionality, allowing it to wield three weapons. This will put any would-be hero to the test for sure. A great deal of strength and confidence alike are required to contend with one of these."
   },
   {
     "id": 61,
@@ -1883,7 +1942,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This enormous monster is naturally camouflaged as a rock formation. Neither sword nor arrow can pierce its stony form, but a cunning adventurer knows to scale its body and attack the ore sprouting from its peak."
   },
   {
     "id": 62,
@@ -1933,7 +1993,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This enormous monster is naturally camouflaged as a rock formation. Neither sword nor arrow can pierce its stony form, but a cunning adventurer knows to scale its body and attack the ore sprouting from its peak. Unlike your average Stone Talus, this type's ore deposit consists mostly of luminous stone."
   },
   {
     "id": 63,
@@ -1983,7 +2044,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This enormous monster is naturally camouflaged as a rock formation. Neither sword nor arrow can pierce its stony form, but a cunning adventurer knows to scale its body and attack the ore sprouting from its peak. Unlike your average Stone Talus, this type's ore deposit contains a large amount of precious ore."
   },
   {
     "id": 64,
@@ -2021,7 +2083,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This enormous monster is naturally camouflaged as molten rock. Neither sword nor arrow can pierce its fiery form. Merely touching its magma-hot body can burn you pretty badly, but you may be able to scale it if you can use something to chill its flames."
   },
   {
     "id": 65,
@@ -2059,7 +2122,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This enormous monster is naturally camouflaged as a frozen rock formation. Neither sword nor arrow can pierce its frigid form. Merely touching its frosty body can leave you with severe frostbite, but you may be able to scale it if you use something to thaw its icy exterior."
   },
   {
     "id": 66,
@@ -2091,7 +2155,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "A very young Stone Talus. Their bodies toughen as they mature, becoming as tough as boulders by adulthood. As a child, however, their bodies are light enough to be lifted and fragile enough to break when thrown."
   },
   {
     "id": 67,
@@ -2124,7 +2189,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "A very young Igneo Talus. Their bodies toughen as they mature and convert fully into lava by adulthood. As a child, however, while still covered in fire, their bodies are fragile and light enough to be blown away by a bomb's blast."
   },
   {
     "id": 68,
@@ -2157,7 +2223,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "A very young Frost Talus. Their bodies toughen and frost over as they mature, becoming entirely made of ice by adulthood. As a child, however, their bodies are awfully fragile and are light enough to be blown away by a bomb's blast."
   },
   {
     "id": 69,
@@ -2231,7 +2298,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "The largest monster to make its home in Hyrule, the Hinox lives primarily in forested areas. A keen awareness of your surroundings is paramount when facing one, as Hinox are known for tearing entire trees from the ground and using them as weapons. A deft hand can steal weapons off the necklaces they wear."
   },
   {
     "id": 70,
@@ -2317,7 +2385,8 @@ module.exports = [
         "category": "other"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "The largest monster to make its home in Hyrule, the Hinox lives primarily in forested areas. A keen awareness of your surroundings is paramount when facing one, as Hinox are known for tearing entire trees from the ground and using them as weapons. Blue Hinox wear greaves that can be burnt away to expose their feet. A deft hand can steal weapons off the necklaces they wear."
   },
   {
     "id": 71,
@@ -2385,7 +2454,8 @@ module.exports = [
         "category": "other"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "The largest monster to make its home in Hyrule, the Hinox lives primarily in forested areas. A keen awareness of your surroundings is paramount when facing one, as Hinox are known for tearing entire trees from the ground and using them as weapons. Black Hinox wear metal greaves that conduct electricity rather well. A deft hand can steal weapons off the necklaces they wear."
   },
   {
     "id": 72,
@@ -2405,7 +2475,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "The mere remains of what was once a giant monster known as a Hinox. These skeletal beasts appear at nighttime. Much like their living counterparts, the Stalnox will tear entire trees from the ground to use as weapons. Furthermore, even if it appears defeated at first, it will keep coming back for more as long as its eye is left intact."
   },
   {
     "id": 73,
@@ -2437,7 +2508,8 @@ module.exports = [
         "category": "other"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This massive monster swims beneath the desert's sand. It spends most of its time submerged, but if it senses sound, it will breach the surface to feast on whatever it can grab. Running around carelessly can be dangerous if you suspect there may be one in the area."
   },
   {
     "id": 74,
@@ -2469,7 +2541,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "These fearsome monsters have lived in Hyrule since ancient times. They possess intense intelligence, resilience, and strength, making them among the most dangerous monsters in all the land. This is compounded by the fact that they have a natural resistance to all elements. You would be wise to challenge a Lynel only if you're very well prepared."
   },
   {
     "id": 75,
@@ -2501,7 +2574,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "These fearsome monsters have lived in Hyrule since ancient times. Compared to the standard Lynel, those with blue manes are much tougher and are equipped with much stronger weapons. Facing off against a Lynel is ill-advised, but if you must, be sure you're well prepared."
   },
   {
     "id": 76,
@@ -2533,7 +2607,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "These fearsome monsters have lived in Hyrule since ancient times. Their ability to breathe fire makes White-Maned Lynels among the toughest of the species; each one of their attacks is an invitation to the grave. There are so few eyewitness accounts of this breed because a White-Maned Lynel is not one to let even simple passersby escape with their lives."
   },
   {
     "id": 77,
@@ -2601,7 +2676,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "Silver Lynels are not to be trifled with. They have been influenced by Ganon's fiendish magic, so they are the strongest among the Lynel species, surpassing even the strength of those with white manes. The term \"silver\" denotes not only their color but also their rarity. The purple stripes help them to stand out even more."
   },
   {
     "id": 78,
@@ -2614,7 +2690,8 @@ module.exports = [
       "Yiga Clan Hideout"
     ],
     "itemDrops": null,
-    "notes": ""
+    "notes": "",
+    "description": "The leader of the Yiga Clan, a group formed with just a single objective: eliminate Link. He sends his minions all over Hyrule in search of you but tends to spend most of his own time napping and generally loafing about. Despite this, his mastery of the esoteric arts has earned him a deep respect. Even if he were to die, his followers would never give up their one and only task."
   },
   {
     "id": 79,
@@ -2627,7 +2704,8 @@ module.exports = [
       "Divine Beast Vah Naboris"
     ],
     "itemDrops": null,
-    "notes": ""
+    "notes": "",
+    "description": "This phantom of Ganon attacked the Divine Beast Vah Naboris and was responsible for the demise of the Champion Urbosa. It specializes in quick, lightning-based attacks."
   },
   {
     "id": 80,
@@ -2640,7 +2718,8 @@ module.exports = [
       "Divine Beast Vah Rudania"
     ],
     "itemDrops": null,
-    "notes": ""
+    "notes": "",
+    "description": "This phantom of Ganon attacked the Divine Beast Vah Rudania and was responsible for the demise of the Champion Daruk. It attacks with a greatsword and fire magic."
   },
   {
     "id": 81,
@@ -2653,7 +2732,8 @@ module.exports = [
       "Divine Beast Vah Ruta"
     ],
     "itemDrops": null,
-    "notes": ""
+    "notes": "",
+    "description": "This phantom of Ganon attacked the Divine Beast Vah Ruta and was responsible for the demise of the Champion Mipha. It attacks with a spear and ice magic."
   },
   {
     "id": 82,
@@ -2666,7 +2746,8 @@ module.exports = [
       "Divine Beast Vah Medoh"
     ],
     "itemDrops": null,
-    "notes": ""
+    "notes": "",
+    "description": "This phantom of Ganon attacked the Divine Beast Vah Medoh and was responsible for the demise of the Champion Revali. It specializes in long-range wind attacks."
   },
   {
     "id": 83,
@@ -2679,7 +2760,8 @@ module.exports = [
       "Hyrule Castle"
     ],
     "itemDrops": null,
-    "notes": ""
+    "notes": "",
+    "description": "The source of the darkness that has appeared time and again throughout Hyrule's history. It's been called many names, from \"Great King of Evil\" to \"Calamity.\" Hibernating within a cocoon, it attempted to regenerate a physical form after Link awoke but was forced to confront him in an incomplete state."
   },
   {
     "id": 84,
@@ -2692,7 +2774,8 @@ module.exports = [
       "Hyrule Castle"
     ],
     "itemDrops": null,
-    "notes": ""
+    "notes": "",
+    "description": "After Ganon was defeated by Link, the remaining Malice pulled itself together to form this bestial creature. Its appearance and fiendish magic earned it the name of Dark Beast. This form is considered to be Ganon's original, although in this state, his awareness has been consumed entirely by Malice, and all he knows is a desire to rampage and destroy."
   },
   {
     "id": 85,
@@ -2758,7 +2841,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "With brutal strength and extreme resilience, this type of Bokoblin somehow surpasses Silver Bokoblins in sheer power. It is said they are actually Silver Bokoblins who mysteriously transformed after being struck by lightning. Perhaps that is why they have such a high tolerance for electric attacks."
   },
   {
     "id": 86,
@@ -2824,7 +2908,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "With brutal strength and extreme resilience, this type of Lizalfos somehow surpasses Silver Lizalfos in sheer power. It is said they are actually Silver Lizalfos who mysteriously transformed after being struck by lightning. Perhaps that is why they have such a high tolerance for electric attacks."
   },
   {
     "id": 87,
@@ -2884,7 +2969,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "With brutal strength and extreme resilience, this type of Lynel somehow surpasses Silver Lynels in sheer power. It is said they are actually Silver Lynels who mysteriously transformed after being struck by lightning. If you see one, get away as fast as you can."
   },
   {
     "id": 88,
@@ -2950,7 +3036,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "With brutal strength and extreme resilience, this type of Moblin somehow surpasses Silver Moblins in sheer power. It is said they are actually Silver Moblins who mysteriously transformed after being struck by lightning. Perhaps that is why they have such a high tolerance for electric attacks."
   },
   {
     "id": 89,
@@ -2968,7 +3055,8 @@ module.exports = [
         "category": "other"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "These low-level, octopus-like monsters used to be aquatic, but their inflatable air sacs evolved so that they are able to float around in the air. Other monsters are known to take advantage of this ability, using them to make floating fortresses. They are trained to ascend when they hear a whistle but they will not attack."
   },
   {
     "id": 90,
@@ -3030,7 +3118,8 @@ module.exports = [
         "category": "materials"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This Monster is an Igneo Talus subspecies that is camouflaged as molten rock. It lives in lava for many years before emerging at an enormous size. It is wildly powerful and emits a tremendous amount of heat, causing a constant updraft in its vicinity. This monster is so fearsome it has earned the title of Titan."
   },
   {
     "id": 91,
@@ -3056,7 +3145,8 @@ module.exports = [
         "category": "other"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "description": "This massive monster swims beneath the desert's sand. It is a subspecies of Molduga that stored up a great deal of energy by sleeping underground for hundreds of years. Its power is superior to Molduga, as its skin is rich with iron and acts as a protective shield."
   },
   {
     "id": 92,
@@ -3078,4 +3168,4 @@ module.exports = [
     ],
     "notes": ""
   }
-];
+]
