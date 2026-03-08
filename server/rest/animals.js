@@ -1071,7 +1071,7 @@ module.exports = [
       "Lanayru Great Spring"
     ],
     "recoverableMaterials": [],
-    "uniqueCookingEffects": "Stealth"
+    "uniqueCookingEffects": "Stealth Up"
   },
   {
     "id": 80,
