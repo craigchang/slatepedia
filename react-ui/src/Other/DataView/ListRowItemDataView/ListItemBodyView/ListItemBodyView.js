@@ -28,7 +28,8 @@ const ListItemBodyView = ({obj, filterSettings}) => {
                       key={`${filterSettings[i].dataName}-integer`} 
                       dataValue={obj[filterSettings[i].dataName]}
                       labelName={filterSettings[i].labelName} 
-                      classIcon={filterSettings[i].classIcon} />)
+                      classIcon={filterSettings[i].classIcon}
+                      tooltip={filterSettings[i].tooltip} />)
         break;
       case 'array':
         array.push(<ListItemArrayView 

@@ -47,23 +47,12 @@ class FoodDetail extends Component {
                 <IconContainer propertyName={food.name} folderName={"food"} cssClassName={food.cssClassName} spriteSheet={"food"} />
               </td>
             </tr>
-            { !food.ingredient ? '' : 
+            { food.description ? (
               <tr>
-                <td>Ingredient</td>
-                <td>
-                  { food.ingredient.id !== 0 ? 
-                    <div>
-                      <div style={{'display': 'inline-block', 'verticalAlign': 'middle'}}>
-                        <IconContainer propertyName={food.ingredient.name} folderName={"materials"} />
-                      </div>
-                      <span><a href={"/materials/" + food.ingredient.id}>{food.ingredient.name}</a></span>
-                    </div>
-                    :
-                    <p><i className="fa fa-cutlery" aria-hidden="true"></i> {food.ingredient.name}</p>
-                  }
-                </td>
+                <td>Description</td>
+                <td><i className="fa fa-book" aria-hidden="true"></i> {food.description}</td>
               </tr>
-            }
+            ) : '' }
             <tr>
               <td>Sell Price</td>
               <td><i className="fa fa-diamond" aria-hidden="true"></i> {food.sellPrice} Rupees</td>
@@ -76,6 +65,27 @@ class FoodDetail extends Component {
               <tr>
                 <td>Notes</td>
                 <td><i className="fa fa-sticky-note-o" aria-hidden="true"></i> {food.notes}</td>
+              </tr>
+            }
+            { !food.ingredients || food.ingredients.length === 0 ? '' : 
+              <tr>
+                <td>Ingredient (any of)</td>
+                <td>
+                  {food.ingredients.map((ingredient, index) => (
+                    <div key={index} style={{ marginBottom: index < food.ingredients.length - 1 ? '0.5rem' : 0 }}>
+                      { ingredient.id !== 0 ? 
+                        <span>
+                          <span style={{display: 'inline-block', verticalAlign: 'middle'}}>
+                            <IconContainer propertyName={ingredient.name} folderName="materials" cssClassName={ingredient.cssClassName} spriteSheet="materials" small/>
+                          </span>
+                          <a href={"/materials/" + ingredient.id}>{ingredient.name}</a>
+                        </span>
+                        :
+                        <span><i className="fa fa-cutlery" aria-hidden="true"></i> {ingredient.name}</span>
+                      }
+                    </div>
+                  ))}
+                </td>
               </tr>
             }
           </tbody>

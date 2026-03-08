@@ -78,11 +78,11 @@ class Animal extends Component {
                   "isFilterable": true
                 },
                 {
-                  "dataName": "description",
-                  "headerName": "Description",
+                  "dataName": "uniqueCookingEffects",
+                  "headerName": "Unique Cooking Effects",
                   "dataType": "string",
-                  "classIcon": "fa fa-book",
-                  "isSortable": false,
+                  "classIcon": "fa fa-cutlery",
+                  "isSortable": true,
                   "isFilterable": true
                 },
                 {
@@ -92,6 +92,14 @@ class Animal extends Component {
                   "classIcon": "fa fa-map-marker",
                   "isSortable": false,
                   "isFilterable": true
+                },
+                {
+                  "dataName": "recoverableMaterials",
+                  "headerName": "Recoverable Materials",
+                  "dataType": "arrayObject",
+                  "classIcon": "fa fa-cube",
+                  "isSortable": false,
+                  "isFilterable": false
                 }
               ]}
             />

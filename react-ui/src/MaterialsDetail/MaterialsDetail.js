@@ -60,7 +60,7 @@ class MaterialsDetail extends Component {
               <td><i className="fa fa-diamond" aria-hidden="true"></i> {material.sellPrice} Rupees</td>
             </tr>
             <tr>
-              <td>HP Recovery</td>
+              <td title="1 HP recovery = 1/4 heart recovery">HP Recovery</td>
               <td><i className="fa fa-heart" aria-hidden="true"></i> {material.hpRecovery} HP</td>
             </tr>
             <tr>
@@ -100,7 +100,7 @@ class MaterialsDetail extends Component {
                 {material.recipes.map((recipe, index) => (
                   <tr key={index}>
                     <td>
-                      <IconContainer propertyName={recipe.name} folderName={"food"} cssClassName={recipe.cssClassName} spriteSheet={"food"} />
+                      <IconContainer propertyName={recipe.name} folderName={"food"} cssClassName={recipe.cssClassName} spriteSheet={"food"} small/>
                     </td>
                     <td>
                       <i className="fa fa-cutlery" aria-hidden="true"></i> <a href={"/recipes/" + recipe.id}>{recipe.name}</a>

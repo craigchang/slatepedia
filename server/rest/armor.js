@@ -56,10 +56,11 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 35,
             "material": {
               "name": "Silent Princess",
-              "id": 35
+              "id": 35,
+              "cssClassName": "silent-princess"
             },
             "quantity": 3
           }
@@ -71,18 +72,20 @@ module.exports = [
         "defense": 14,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 35,
             "material": {
               "name": "Silent Princess",
-              "id": 35
+              "id": 35,
+              "cssClassName": "silent-princess"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 66,
             "material": {
               "name": "Shard of Farosh's Horn",
-              "id": 66
+              "id": 66,
+              "cssClassName": "faroshs-horn"
             },
             "quantity": 2
           }
@@ -94,18 +97,20 @@ module.exports = [
         "defense": 22,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 35,
             "material": {
               "name": "Silent Princess",
-              "id": 35
+              "id": 35,
+              "cssClassName": "silent-princess"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 62,
             "material": {
               "name": "Shard of Naydra's Horn",
-              "id": 62
+              "id": 62,
+              "cssClassName": "naydras-horn"
             },
             "quantity": 2
           }
@@ -117,18 +122,20 @@ module.exports = [
         "defense": 32,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 35,
             "material": {
               "name": "Silent Princess",
-              "id": 35
+              "id": 35,
+              "cssClassName": "silent-princess"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 58,
             "material": {
               "name": "Shard of Dinraal's Horn",
-              "id": 58
+              "id": 58,
+              "cssClassName": "dinraals-horn"
             },
             "quantity": 2
           }
@@ -167,18 +174,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 138,
             "material": {
               "name": "Molduga Fin",
-              "id": 138
+              "id": 138,
+              "cssClassName": "molduga-fin"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 100,
             "material": {
               "name": "Hightail Lizard",
-              "id": 100
+              "id": 100,
+              "cssClassName": "hightail-lizard"
             },
             "quantity": 10
           }
@@ -190,18 +199,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 138,
             "material": {
               "name": "Molduga Fin",
-              "id": 138
+              "id": 138,
+              "cssClassName": "molduga-fin"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 26,
             "material": {
               "name": "Swift Carrot",
-              "id": 26
+              "id": 26,
+              "cssClassName": "swift-carrot"
             },
             "quantity": 10
           }
@@ -213,18 +224,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 139,
             "material": {
               "name": "Molduga Guts",
-              "id": 139
+              "id": 139,
+              "cssClassName": "molduga-guts"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 18,
             "material": {
               "name": "Rushroom",
-              "id": 18
+              "id": 18,
+              "cssClassName": "rushroom"
             },
             "quantity": 15
           }
@@ -236,18 +249,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 139,
             "material": {
               "name": "Molduga Guts",
-              "id": 139
+              "id": 139,
+              "cssClassName": "molduga-guts"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 31,
             "material": {
               "name": "Swift Violet",
-              "id": 31
+              "id": 31,
+              "cssClassName": "swift-violet"
             },
             "quantity": 15
           }
@@ -273,18 +288,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 135,
             "material": {
               "name": "Octorok Tentacle",
-              "id": 135
+              "id": 135,
+              "cssClassName": "octorok-tentacle"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 100,
             "material": {
               "name": "Hightail Lizard",
-              "id": 100
+              "id": 100,
+              "cssClassName": "hightail-lizard"
             },
             "quantity": 10
           }
@@ -296,18 +313,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 137,
             "material": {
               "name": "Octo Balloon",
-              "id": 137
+              "id": 137,
+              "cssClassName": "octo-balloon"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 26,
             "material": {
               "name": "Swift Carrot",
-              "id": 26
+              "id": 26,
+              "cssClassName": "swift-carrot"
             },
             "quantity": 10
           }
@@ -319,18 +338,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 136,
             "material": {
               "name": "Octorok Eyeball",
-              "id": 136
+              "id": 136,
+              "cssClassName": "octorok-eyeball"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 18,
             "material": {
               "name": "Rushroom",
-              "id": 18
+              "id": 18,
+              "cssClassName": "rushroom"
             },
             "quantity": 15
           }
@@ -342,18 +363,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 59,
             "material": {
               "name": "Naydra's Scale",
-              "id": 59
+              "id": 59,
+              "cssClassName": "naydras-scale"
             },
             "quantity": 2
           },
           {
-            "id": 0,
+            "id": 31,
             "material": {
               "name": "Swift Violet",
-              "id": 31
+              "id": 31,
+              "cssClassName": "swift-violet"
             },
             "quantity": 15
           }
@@ -379,18 +402,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 107,
             "material": {
               "name": "Topaz",
-              "id": 107
+              "id": 107,
+              "cssClassName": "topaz"
             },
             "quantity": 2
           },
           {
-            "id": 0,
+            "id": 103,
             "material": {
               "name": "Flint",
-              "id": 103
+              "id": 103,
+              "cssClassName": "flint"
             },
             "quantity": 3
           }
@@ -402,18 +427,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 107,
             "material": {
               "name": "Topaz",
-              "id": 107
+              "id": 107,
+              "cssClassName": "topaz"
             },
             "quantity": 4
           },
           {
-            "id": 0,
+            "id": 103,
             "material": {
               "name": "Flint",
-              "id": 103
+              "id": 103,
+              "cssClassName": "flint"
             },
             "quantity": 3
           }
@@ -425,18 +452,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 107,
             "material": {
               "name": "Topaz",
-              "id": 107
+              "id": 107,
+              "cssClassName": "topaz"
             },
             "quantity": 6
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -448,18 +477,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 107,
             "material": {
               "name": "Topaz",
-              "id": 107
+              "id": 107,
+              "cssClassName": "topaz"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -485,18 +516,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 105,
             "material": {
               "name": "Opal",
-              "id": 105
+              "id": 105,
+              "cssClassName": "opal"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 103,
             "material": {
               "name": "Flint",
-              "id": 103
+              "id": 103,
+              "cssClassName": "flint"
             },
             "quantity": 3
           }
@@ -508,18 +541,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 105,
             "material": {
               "name": "Opal",
-              "id": 105
+              "id": 105,
+              "cssClassName": "opal"
             },
             "quantity": 8
           },
           {
-            "id": 0,
+            "id": 103,
             "material": {
               "name": "Flint",
-              "id": 103
+              "id": 103,
+              "cssClassName": "flint"
             },
             "quantity": 3
           }
@@ -531,18 +566,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 105,
             "material": {
               "name": "Opal",
-              "id": 105
+              "id": 105,
+              "cssClassName": "opal"
             },
             "quantity": 16
           },
           {
-            "id": 0,
+            "id": 103,
             "material": {
               "name": "Flint",
-              "id": 103
+              "id": 103,
+              "cssClassName": "flint"
             },
             "quantity": 3
           }
@@ -554,18 +591,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 105,
             "material": {
               "name": "Opal",
-              "id": 105
+              "id": 105,
+              "cssClassName": "opal"
             },
             "quantity": 20
           },
           {
-            "id": 0,
+            "id": 103,
             "material": {
               "name": "Flint",
-              "id": 103
+              "id": 103,
+              "cssClassName": "flint"
             },
             "quantity": 3
           }
@@ -591,18 +630,20 @@ module.exports = [
         "defense": 7,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 104,
             "material": {
               "name": "Amber",
-              "id": 104
+              "id": 104,
+              "cssClassName": "amber"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 103,
             "material": {
               "name": "Flint",
-              "id": 103
+              "id": 103,
+              "cssClassName": "flint"
             },
             "quantity": 3
           }
@@ -614,18 +655,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 104,
             "material": {
               "name": "Amber",
-              "id": 104
+              "id": 104,
+              "cssClassName": "amber"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 103,
             "material": {
               "name": "Flint",
-              "id": 103
+              "id": 103,
+              "cssClassName": "flint"
             },
             "quantity": 3
           }
@@ -637,18 +680,20 @@ module.exports = [
         "defense": 18,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 104,
             "material": {
               "name": "Amber",
-              "id": 104
+              "id": 104,
+              "cssClassName": "amber"
             },
             "quantity": 20
           },
           {
-            "id": 0,
+            "id": 103,
             "material": {
               "name": "Flint",
-              "id": 103
+              "id": 103,
+              "cssClassName": "flint"
             },
             "quantity": 3
           }
@@ -660,18 +705,20 @@ module.exports = [
         "defense": 28,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 104,
             "material": {
               "name": "Amber",
-              "id": 104
+              "id": 104,
+              "cssClassName": "amber"
             },
             "quantity": 30
           },
           {
-            "id": 0,
+            "id": 103,
             "material": {
               "name": "Flint",
-              "id": 103
+              "id": 103,
+              "cssClassName": "flint"
             },
             "quantity": 3
           }
@@ -697,18 +744,20 @@ module.exports = [
         "defense": 7,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 110,
             "material": {
               "name": "Diamond",
-              "id": 110
+              "id": 110,
+              "cssClassName": "diamond"
             },
             "quantity": 2
           },
           {
-            "id": 0,
+            "id": 103,
             "material": {
               "name": "Flint",
-              "id": 103
+              "id": 103,
+              "cssClassName": "flint"
             },
             "quantity": 3
           }
@@ -720,18 +769,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 110,
             "material": {
               "name": "Diamond",
-              "id": 110
+              "id": 110,
+              "cssClassName": "diamond"
             },
             "quantity": 4
           },
           {
-            "id": 0,
+            "id": 103,
             "material": {
               "name": "Flint",
-              "id": 103
+              "id": 103,
+              "cssClassName": "flint"
             },
             "quantity": 3
           }
@@ -743,18 +794,20 @@ module.exports = [
         "defense": 18,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 110,
             "material": {
               "name": "Diamond",
-              "id": 110
+              "id": 110,
+              "cssClassName": "diamond"
             },
             "quantity": 6
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -766,18 +819,20 @@ module.exports = [
         "defense": 28,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 110,
             "material": {
               "name": "Diamond",
-              "id": 110
+              "id": 110,
+              "cssClassName": "diamond"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -803,18 +858,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 108,
             "material": {
               "name": "Ruby",
-              "id": 108
+              "id": 108,
+              "cssClassName": "ruby"
             },
             "quantity": 2
           },
           {
-            "id": 0,
+            "id": 103,
             "material": {
               "name": "Flint",
-              "id": 103
+              "id": 103,
+              "cssClassName": "flint"
             },
             "quantity": 3
           }
@@ -826,18 +883,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 108,
             "material": {
               "name": "Ruby",
-              "id": 108
+              "id": 108,
+              "cssClassName": "ruby"
             },
             "quantity": 4
           },
           {
-            "id": 0,
+            "id": 103,
             "material": {
               "name": "Flint",
-              "id": 103
+              "id": 103,
+              "cssClassName": "flint"
             },
             "quantity": 3
           }
@@ -849,18 +908,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 108,
             "material": {
               "name": "Ruby",
-              "id": 108
+              "id": 108,
+              "cssClassName": "ruby"
             },
             "quantity": 6
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -872,18 +933,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 108,
             "material": {
               "name": "Ruby",
-              "id": 108
+              "id": 108,
+              "cssClassName": "ruby"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -909,18 +972,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 109,
             "material": {
               "name": "Sapphire",
-              "id": 109
+              "id": 109,
+              "cssClassName": "sapphire"
             },
             "quantity": 2
           },
           {
-            "id": 0,
+            "id": 103,
             "material": {
               "name": "Flint",
-              "id": 103
+              "id": 103,
+              "cssClassName": "flint"
             },
             "quantity": 3
           }
@@ -932,18 +997,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 109,
             "material": {
               "name": "Sapphire",
-              "id": 109
+              "id": 109,
+              "cssClassName": "sapphire"
             },
             "quantity": 4
           },
           {
-            "id": 0,
+            "id": 103,
             "material": {
               "name": "Flint",
-              "id": 103
+              "id": 103,
+              "cssClassName": "flint"
             },
             "quantity": 3
           }
@@ -955,18 +1022,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 109,
             "material": {
               "name": "Sapphire",
-              "id": 109
+              "id": 109,
+              "cssClassName": "sapphire"
             },
             "quantity": 6
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -978,18 +1047,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 109,
             "material": {
               "name": "Sapphire",
-              "id": 109
+              "id": 109,
+              "cssClassName": "sapphire"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -1015,18 +1086,20 @@ module.exports = [
         "defense": 4,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 35,
             "material": {
               "name": "Silent Princess",
-              "id": 35
+              "id": 35,
+              "cssClassName": "silent-princess"
             },
             "quantity": 1
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -1038,18 +1111,20 @@ module.exports = [
         "defense": 6,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 35,
             "material": {
               "name": "Silent Princess",
-              "id": 35
+              "id": 35,
+              "cssClassName": "silent-princess"
             },
             "quantity": 2
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 2
           }
@@ -1061,18 +1136,20 @@ module.exports = [
         "defense": 9,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 35,
             "material": {
               "name": "Silent Princess",
-              "id": 35
+              "id": 35,
+              "cssClassName": "silent-princess"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 3
           }
@@ -1084,18 +1161,20 @@ module.exports = [
         "defense": 16,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 35,
             "material": {
               "name": "Silent Princess",
-              "id": 35
+              "id": 35,
+              "cssClassName": "silent-princess"
             },
             "quantity": 4
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 4
           }
@@ -1173,10 +1252,11 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 123,
             "material": {
               "name": "Lynel Horn",
-              "id": 123
+              "id": 123,
+              "cssClassName": "lynel-horn"
             },
             "quantity": 3
           }
@@ -1188,18 +1268,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 123,
             "material": {
               "name": "Lynel Horn",
-              "id": 123
+              "id": 123,
+              "cssClassName": "lynel-horn"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 124,
             "material": {
               "name": "Lynel Hoof",
-              "id": 124
+              "id": 124,
+              "cssClassName": "lynel-hoof"
             },
             "quantity": 5
           }
@@ -1211,18 +1293,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 123,
             "material": {
               "name": "Lynel Horn",
-              "id": 123
+              "id": 123,
+              "cssClassName": "lynel-horn"
             },
             "quantity": 8
           },
           {
-            "id": 0,
+            "id": 125,
             "material": {
               "name": "Lynel Guts",
-              "id": 125
+              "id": 125,
+              "cssClassName": "lynel-guts"
             },
             "quantity": 1
           }
@@ -1234,18 +1318,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 125,
             "material": {
               "name": "Lynel Guts",
-              "id": 125
+              "id": 125,
+              "cssClassName": "lynel-guts"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 58,
             "material": {
               "name": "Shard of Dinraal's Horn",
-              "id": 58
+              "id": 58,
+              "cssClassName": "dinraals-horn"
             },
             "quantity": 1
           }
@@ -1271,10 +1357,11 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 123,
             "material": {
               "name": "Lynel Horn",
-              "id": 123
+              "id": 123,
+              "cssClassName": "lynel-horn"
             },
             "quantity": 3
           }
@@ -1286,18 +1373,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 123,
             "material": {
               "name": "Lynel Horn",
-              "id": 123
+              "id": 123,
+              "cssClassName": "lynel-horn"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 124,
             "material": {
               "name": "Lynel Hoof",
-              "id": 124
+              "id": 124,
+              "cssClassName": "lynel-hoof"
             },
             "quantity": 5
           }
@@ -1309,18 +1398,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 123,
             "material": {
               "name": "Lynel Horn",
-              "id": 123
+              "id": 123,
+              "cssClassName": "lynel-horn"
             },
             "quantity": 8
           },
           {
-            "id": 0,
+            "id": 125,
             "material": {
               "name": "Lynel Guts",
-              "id": 125
+              "id": 125,
+              "cssClassName": "lynel-guts"
             },
             "quantity": 1
           }
@@ -1332,18 +1423,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 125,
             "material": {
               "name": "Lynel Guts",
-              "id": 125
+              "id": 125,
+              "cssClassName": "lynel-guts"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 66,
             "material": {
               "name": "Shard of Farosh's Horn",
-              "id": 66
+              "id": 66,
+              "cssClassName": "faroshs-horn"
             },
             "quantity": 1
           }
@@ -1369,10 +1462,11 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 123,
             "material": {
               "name": "Lynel Horn",
-              "id": 123
+              "id": 123,
+              "cssClassName": "lynel-horn"
             },
             "quantity": 3
           }
@@ -1384,18 +1478,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 123,
             "material": {
               "name": "Lynel Horn",
-              "id": 123
+              "id": 123,
+              "cssClassName": "lynel-horn"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 124,
             "material": {
               "name": "Lynel Hoof",
-              "id": 124
+              "id": 124,
+              "cssClassName": "lynel-hoof"
             },
             "quantity": 5
           }
@@ -1407,18 +1503,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 123,
             "material": {
               "name": "Lynel Horn",
-              "id": 123
+              "id": 123,
+              "cssClassName": "lynel-horn"
             },
             "quantity": 8
           },
           {
-            "id": 0,
+            "id": 125,
             "material": {
               "name": "Lynel Guts",
-              "id": 125
+              "id": 125,
+              "cssClassName": "lynel-guts"
             },
             "quantity": 3
           }
@@ -1430,18 +1528,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 125,
             "material": {
               "name": "Lynel Guts",
-              "id": 125
+              "id": 125,
+              "cssClassName": "lynel-guts"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 62,
             "material": {
               "name": "Shard of Naydra's Horn",
-              "id": 62
+              "id": 62,
+              "cssClassName": "naydras-horn"
             },
             "quantity": 1
           }
@@ -1467,18 +1567,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 130,
             "material": {
               "name": "Keese Wing",
-              "id": 130
+              "id": 130,
+              "cssClassName": "keese-wing"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 18,
             "material": {
               "name": "Rushroom",
-              "id": 18
+              "id": 18,
+              "cssClassName": "rushroom"
             },
             "quantity": 3
           }
@@ -1490,18 +1592,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 133,
             "material": {
               "name": "Electric Keese Wing",
-              "id": 133
+              "id": 133,
+              "cssClassName": "electric-keese-wing"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 100,
             "material": {
               "name": "Hightail Lizard",
-              "id": 100
+              "id": 100,
+              "cssClassName": "hightail-lizard"
             },
             "quantity": 5
           }
@@ -1513,18 +1617,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 131,
             "material": {
               "name": "Ice Keese Wing",
-              "id": 131
+              "id": 131,
+              "cssClassName": "ice-keese-wing"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 98,
             "material": {
               "name": "Hot-Footed Frog",
-              "id": 98
+              "id": 98,
+              "cssClassName": "hot-footed-frog"
             },
             "quantity": 10
           }
@@ -1536,18 +1642,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 132,
             "material": {
               "name": "Fire Keese Wing",
-              "id": 132
+              "id": 132,
+              "cssClassName": "fire-keese-wing"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 31,
             "material": {
               "name": "Swift Violet",
-              "id": 31
+              "id": 31,
+              "cssClassName": "swift-violet"
             },
             "quantity": 20
           }
@@ -1573,18 +1681,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 130,
             "material": {
               "name": "Keese Wing",
-              "id": 130
+              "id": 130,
+              "cssClassName": "keese-wing"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 18,
             "material": {
               "name": "Rushroom",
-              "id": 18
+              "id": 18,
+              "cssClassName": "rushroom"
             },
             "quantity": 3
           }
@@ -1596,18 +1706,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 133,
             "material": {
               "name": "Electric Keese Wing",
-              "id": 133
+              "id": 133,
+              "cssClassName": "electric-keese-wing"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 100,
             "material": {
               "name": "Hightail Lizard",
-              "id": 100
+              "id": 100,
+              "cssClassName": "hightail-lizard"
             },
             "quantity": 5
           }
@@ -1619,18 +1731,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 131,
             "material": {
               "name": "Ice Keese Wing",
-              "id": 131
+              "id": 131,
+              "cssClassName": "ice-keese-wing"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 98,
             "material": {
               "name": "Hot-Footed Frog",
-              "id": 98
+              "id": 98,
+              "cssClassName": "hot-footed-frog"
             },
             "quantity": 10
           }
@@ -1642,18 +1756,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 132,
             "material": {
               "name": "Fire Keese Wing",
-              "id": 132
+              "id": 132,
+              "cssClassName": "fire-keese-wing"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 31,
             "material": {
               "name": "Swift Violet",
-              "id": 31
+              "id": 31,
+              "cssClassName": "swift-violet"
             },
             "quantity": 20
           }
@@ -1679,18 +1795,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 130,
             "material": {
               "name": "Keese Wing",
-              "id": 130
+              "id": 130,
+              "cssClassName": "keese-wing"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 18,
             "material": {
               "name": "Rushroom",
-              "id": 18
+              "id": 18,
+              "cssClassName": "rushroom"
             },
             "quantity": 3
           }
@@ -1702,18 +1820,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 133,
             "material": {
               "name": "Electric Keese Wing",
-              "id": 133
+              "id": 133,
+              "cssClassName": "electric-keese-wing"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 100,
             "material": {
               "name": "Hightail Lizard",
-              "id": 100
+              "id": 100,
+              "cssClassName": "hightail-lizard"
             },
             "quantity": 5
           }
@@ -1725,18 +1845,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 131,
             "material": {
               "name": "Ice Keese Wing",
-              "id": 131
+              "id": 131,
+              "cssClassName": "ice-keese-wing"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 98,
             "material": {
               "name": "Hot-Footed Frog",
-              "id": 98
+              "id": 98,
+              "cssClassName": "hot-footed-frog"
             },
             "quantity": 10
           }
@@ -1748,18 +1870,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 132,
             "material": {
               "name": "Fire Keese Wing",
-              "id": 132
+              "id": 132,
+              "cssClassName": "fire-keese-wing"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 31,
             "material": {
               "name": "Swift Violet",
-              "id": 31
+              "id": 31,
+              "cssClassName": "swift-violet"
             },
             "quantity": 20
           }
@@ -1824,10 +1948,11 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 127,
             "material": {
               "name": "White Chuchu Jelly",
-              "id": 127
+              "id": 127,
+              "cssClassName": "white-chuchu-jelly"
             },
             "quantity": 3
           }
@@ -1839,18 +1964,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 127,
             "material": {
               "name": "White Chuchu Jelly",
-              "id": 127
+              "id": 127,
+              "cssClassName": "white-chuchu-jelly"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 131,
             "material": {
               "name": "Ice Keese Wing",
-              "id": 131
+              "id": 131,
+              "cssClassName": "ice-keese-wing"
             },
             "quantity": 3
           }
@@ -1862,18 +1989,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 131,
             "material": {
               "name": "Ice Keese Wing",
-              "id": 131
+              "id": 131,
+              "cssClassName": "ice-keese-wing"
             },
             "quantity": 8
           },
           {
-            "id": 0,
+            "id": 120,
             "material": {
               "name": "Icy Lizalfos Tail",
-              "id": 120
+              "id": 120,
+              "cssClassName": "icy-lizalfos-tail"
             },
             "quantity": 3
           }
@@ -1885,18 +2014,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 120,
             "material": {
               "name": "Icy Lizalfos Tail",
-              "id": 120
+              "id": 120,
+              "cssClassName": "icy-lizalfos-tail"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 109,
             "material": {
               "name": "Sapphire",
-              "id": 109
+              "id": 109,
+              "cssClassName": "sapphire"
             },
             "quantity": 5
           }
@@ -1922,10 +2053,11 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 127,
             "material": {
               "name": "White Chuchu Jelly",
-              "id": 127
+              "id": 127,
+              "cssClassName": "white-chuchu-jelly"
             },
             "quantity": 3
           }
@@ -1937,18 +2069,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 127,
             "material": {
               "name": "White Chuchu Jelly",
-              "id": 127
+              "id": 127,
+              "cssClassName": "white-chuchu-jelly"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 131,
             "material": {
               "name": "Ice Keese Wing",
-              "id": 131
+              "id": 131,
+              "cssClassName": "ice-keese-wing"
             },
             "quantity": 3
           }
@@ -1960,18 +2094,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 131,
             "material": {
               "name": "Ice Keese Wing",
-              "id": 131
+              "id": 131,
+              "cssClassName": "ice-keese-wing"
             },
             "quantity": 8
           },
           {
-            "id": 0,
+            "id": 120,
             "material": {
               "name": "Icy Lizalfos Tail",
-              "id": 120
+              "id": 120,
+              "cssClassName": "icy-lizalfos-tail"
             },
             "quantity": 3
           }
@@ -1983,18 +2119,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 120,
             "material": {
               "name": "Icy Lizalfos Tail",
-              "id": 120
+              "id": 120,
+              "cssClassName": "icy-lizalfos-tail"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 109,
             "material": {
               "name": "Sapphire",
-              "id": 109
+              "id": 109,
+              "cssClassName": "sapphire"
             },
             "quantity": 5
           }
@@ -2020,10 +2158,11 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 127,
             "material": {
               "name": "White Chuchu Jelly",
-              "id": 127
+              "id": 127,
+              "cssClassName": "white-chuchu-jelly"
             },
             "quantity": 3
           }
@@ -2035,18 +2174,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 127,
             "material": {
               "name": "White Chuchu Jelly",
-              "id": 127
+              "id": 127,
+              "cssClassName": "white-chuchu-jelly"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 131,
             "material": {
               "name": "Ice Keese Wing",
-              "id": 131
+              "id": 131,
+              "cssClassName": "ice-keese-wing"
             },
             "quantity": 3
           }
@@ -2058,18 +2199,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 131,
             "material": {
               "name": "Ice Keese Wing",
-              "id": 131
+              "id": 131,
+              "cssClassName": "ice-keese-wing"
             },
             "quantity": 8
           },
           {
-            "id": 0,
+            "id": 120,
             "material": {
               "name": "Icy Lizalfos Tail",
-              "id": 120
+              "id": 120,
+              "cssClassName": "icy-lizalfos-tail"
             },
             "quantity": 3
           }
@@ -2081,18 +2224,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 120,
             "material": {
               "name": "Icy Lizalfos Tail",
-              "id": 120
+              "id": 120,
+              "cssClassName": "icy-lizalfos-tail"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 109,
             "material": {
               "name": "Sapphire",
-              "id": 109
+              "id": 109,
+              "cssClassName": "sapphire"
             },
             "quantity": 5
           }
@@ -2118,18 +2263,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 140,
             "material": {
               "name": "Hinox Toenail",
-              "id": 140
+              "id": 140,
+              "cssClassName": "hinox-toenail"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 55,
             "material": {
               "name": "Dinraal's Scale",
-              "id": 55
+              "id": 55,
+              "cssClassName": "dinraals-scale"
             },
             "quantity": 1
           }
@@ -2141,18 +2288,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 141,
             "material": {
               "name": "Hinox Tooth",
-              "id": 141
+              "id": 141,
+              "cssClassName": "hinox-tooth"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 56,
             "material": {
               "name": "Dinraal's Claw",
-              "id": 56
+              "id": 56,
+              "cssClassName": "dinraals-claw"
             },
             "quantity": 1
           }
@@ -2164,18 +2313,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 142,
             "material": {
               "name": "Hinox Guts",
-              "id": 142
+              "id": 142,
+              "cssClassName": "hinox-guts"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 57,
             "material": {
               "name": "Shard of Dinraal's Fang",
-              "id": 57
+              "id": 57,
+              "cssClassName": "shard-of-dinraals-fang"
             },
             "quantity": 1
           }
@@ -2187,18 +2338,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 125,
             "material": {
               "name": "Lynel Guts",
-              "id": 125
+              "id": 125,
+              "cssClassName": "lynel-guts"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 58,
             "material": {
               "name": "Shard of Dinraal's Horn",
-              "id": 58
+              "id": 58,
+              "cssClassName": "dinraals-horn"
             },
             "quantity": 1
           }
@@ -2224,18 +2377,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 140,
             "material": {
               "name": "Hinox Toenail",
-              "id": 140
+              "id": 140,
+              "cssClassName": "hinox-toenail"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 59,
             "material": {
               "name": "Naydra's Scale",
-              "id": 59
+              "id": 59,
+              "cssClassName": "naydras-scale"
             },
             "quantity": 1
           }
@@ -2247,18 +2402,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 141,
             "material": {
               "name": "Hinox Tooth",
-              "id": 141
+              "id": 141,
+              "cssClassName": "hinox-tooth"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 60,
             "material": {
               "name": "Naydra's Claw",
-              "id": 60
+              "id": 60,
+              "cssClassName": "naydras-claw"
             },
             "quantity": 1
           }
@@ -2270,18 +2427,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 142,
             "material": {
               "name": "Hinox Guts",
-              "id": 142
+              "id": 142,
+              "cssClassName": "hinox-guts"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 61,
             "material": {
               "name": "Shard of Naydra's Fang",
-              "id": 61
+              "id": 61,
+              "cssClassName": "shard-of-naydras-fang"
             },
             "quantity": 1
           }
@@ -2293,18 +2452,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 125,
             "material": {
               "name": "Lynel Guts",
-              "id": 125
+              "id": 125,
+              "cssClassName": "lynel-guts"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 62,
             "material": {
               "name": "Shard of Naydra's Horn",
-              "id": 62
+              "id": 62,
+              "cssClassName": "naydras-horn"
             },
             "quantity": 1
           }
@@ -2330,18 +2491,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 140,
             "material": {
               "name": "Hinox Toenail",
-              "id": 140
+              "id": 140,
+              "cssClassName": "hinox-toenail"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 63,
             "material": {
               "name": "Farosh's Scale",
-              "id": 63
+              "id": 63,
+              "cssClassName": "faroshs-scale"
             },
             "quantity": 1
           }
@@ -2353,18 +2516,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 141,
             "material": {
               "name": "Hinox Tooth",
-              "id": 141
+              "id": 141,
+              "cssClassName": "hinox-tooth"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 64,
             "material": {
               "name": "Farosh's Claw",
-              "id": 64
+              "id": 64,
+              "cssClassName": "faroshs-claw"
             },
             "quantity": 1
           }
@@ -2376,18 +2541,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 142,
             "material": {
               "name": "Hinox Guts",
-              "id": 142
+              "id": 142,
+              "cssClassName": "hinox-guts"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 65,
             "material": {
               "name": "Shard of Farosh's Fang",
-              "id": 65
+              "id": 65,
+              "cssClassName": "shard-of-faroshs-fang"
             },
             "quantity": 1
           }
@@ -2399,18 +2566,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 125,
             "material": {
               "name": "Lynel Guts",
-              "id": 125
+              "id": 125,
+              "cssClassName": "lynel-guts"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 66,
             "material": {
               "name": "Shard of Farosh's Horn",
-              "id": 66
+              "id": 66,
+              "cssClassName": "faroshs-horn"
             },
             "quantity": 1
           }
@@ -2436,18 +2605,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 102,
             "material": {
               "name": "Fireproof Lizard",
-              "id": 102
+              "id": 102,
+              "cssClassName": "fireproof-lizard"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 114,
             "material": {
               "name": "Moblin Horn",
-              "id": 114
+              "id": 114,
+              "cssClassName": "moblin-horn"
             },
             "quantity": 3
           }
@@ -2459,18 +2630,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 102,
             "material": {
               "name": "Fireproof Lizard",
-              "id": 102
+              "id": 102,
+              "cssClassName": "fireproof-lizard"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 115,
             "material": {
               "name": "Moblin Fang",
-              "id": 115
+              "id": 115,
+              "cssClassName": "moblin-fang"
             },
             "quantity": 5
           }
@@ -2482,18 +2655,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 89,
             "material": {
               "name": "Smotherwing Butterfly",
-              "id": 89
+              "id": 89,
+              "cssClassName": "smotherwing-butterfly"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 116,
             "material": {
               "name": "Moblin Guts",
-              "id": 116
+              "id": 116,
+              "cssClassName": "moblin-guts"
             },
             "quantity": 3
           }
@@ -2505,18 +2680,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 89,
             "material": {
               "name": "Smotherwing Butterfly",
-              "id": 89
+              "id": 89,
+              "cssClassName": "smotherwing-butterfly"
             },
             "quantity": 8
           },
           {
-            "id": 0,
+            "id": 142,
             "material": {
               "name": "Hinox Guts",
-              "id": 142
+              "id": 142,
+              "cssClassName": "hinox-guts"
             },
             "quantity": 5
           }
@@ -2542,18 +2719,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 102,
             "material": {
               "name": "Fireproof Lizard",
-              "id": 102
+              "id": 102,
+              "cssClassName": "fireproof-lizard"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 114,
             "material": {
               "name": "Moblin Horn",
-              "id": 114
+              "id": 114,
+              "cssClassName": "moblin-horn"
             },
             "quantity": 3
           }
@@ -2565,18 +2744,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 102,
             "material": {
               "name": "Fireproof Lizard",
-              "id": 102
+              "id": 102,
+              "cssClassName": "fireproof-lizard"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 115,
             "material": {
               "name": "Moblin Fang",
-              "id": 115
+              "id": 115,
+              "cssClassName": "moblin-fang"
             },
             "quantity": 5
           }
@@ -2588,18 +2769,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 89,
             "material": {
               "name": "Smotherwing Butterfly",
-              "id": 89
+              "id": 89,
+              "cssClassName": "smotherwing-butterfly"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 116,
             "material": {
               "name": "Moblin Guts",
-              "id": 116
+              "id": 116,
+              "cssClassName": "moblin-guts"
             },
             "quantity": 3
           }
@@ -2611,18 +2794,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 89,
             "material": {
               "name": "Smotherwing Butterfly",
-              "id": 89
+              "id": 89,
+              "cssClassName": "smotherwing-butterfly"
             },
             "quantity": 8
           },
           {
-            "id": 0,
+            "id": 142,
             "material": {
               "name": "Hinox Guts",
-              "id": 142
+              "id": 142,
+              "cssClassName": "hinox-guts"
             },
             "quantity": 5
           }
@@ -2648,18 +2833,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 102,
             "material": {
               "name": "Fireproof Lizard",
-              "id": 102
+              "id": 102,
+              "cssClassName": "fireproof-lizard"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 114,
             "material": {
               "name": "Moblin Horn",
-              "id": 114
+              "id": 114,
+              "cssClassName": "moblin-horn"
             },
             "quantity": 3
           }
@@ -2671,18 +2858,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 102,
             "material": {
               "name": "Fireproof Lizard",
-              "id": 102
+              "id": 102,
+              "cssClassName": "fireproof-lizard"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 115,
             "material": {
               "name": "Moblin Fang",
-              "id": 115
+              "id": 115,
+              "cssClassName": "moblin-fang"
             },
             "quantity": 5
           }
@@ -2694,18 +2883,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 89,
             "material": {
               "name": "Smotherwing Butterfly",
-              "id": 89
+              "id": 89,
+              "cssClassName": "smotherwing-butterfly"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 116,
             "material": {
               "name": "Moblin Guts",
-              "id": 116
+              "id": 116,
+              "cssClassName": "moblin-guts"
             },
             "quantity": 3
           }
@@ -2717,18 +2908,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 89,
             "material": {
               "name": "Smotherwing Butterfly",
-              "id": 89
+              "id": 89,
+              "cssClassName": "smotherwing-butterfly"
             },
             "quantity": 8
           },
           {
-            "id": 0,
+            "id": 142,
             "material": {
               "name": "Hinox Guts",
-              "id": 142
+              "id": 142,
+              "cssClassName": "hinox-guts"
             },
             "quantity": 5
           }
@@ -2793,18 +2986,20 @@ module.exports = [
         "defense": 7,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 143,
             "material": {
               "name": "Ancient Screw",
-              "id": 143
+              "id": 143,
+              "cssClassName": "ancient-screw"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 144,
             "material": {
               "name": "Ancient Spring",
-              "id": 144
+              "id": 144,
+              "cssClassName": "ancient-spring"
             },
             "quantity": 5
           }
@@ -2816,18 +3011,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 144,
             "material": {
               "name": "Ancient Spring",
-              "id": 144
+              "id": 144,
+              "cssClassName": "ancient-spring"
             },
             "quantity": 15
           },
           {
-            "id": 0,
+            "id": 145,
             "material": {
               "name": "Ancient Gear",
-              "id": 145
+              "id": 145,
+              "cssClassName": "ancient-gear"
             },
             "quantity": 10
           }
@@ -2839,18 +3036,20 @@ module.exports = [
         "defense": 18,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 146,
             "material": {
               "name": "Ancient Shaft",
-              "id": 146
+              "id": 146,
+              "cssClassName": "ancient-shaft"
             },
             "quantity": 15
           },
           {
-            "id": 0,
+            "id": 147,
             "material": {
               "name": "Ancient Core",
-              "id": 147
+              "id": 147,
+              "cssClassName": "ancient-core"
             },
             "quantity": 5
           }
@@ -2862,18 +3061,20 @@ module.exports = [
         "defense": 28,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 148,
             "material": {
               "name": "Giant Ancient Core",
-              "id": 148
+              "id": 148,
+              "cssClassName": "giant-ancient-core"
             },
             "quantity": 3
           }
@@ -2899,18 +3100,20 @@ module.exports = [
         "defense": 7,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 143,
             "material": {
               "name": "Ancient Screw",
-              "id": 143
+              "id": 143,
+              "cssClassName": "ancient-screw"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 144,
             "material": {
               "name": "Ancient Spring",
-              "id": 144
+              "id": 144,
+              "cssClassName": "ancient-spring"
             },
             "quantity": 5
           }
@@ -2922,18 +3125,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 144,
             "material": {
               "name": "Ancient Spring",
-              "id": 144
+              "id": 144,
+              "cssClassName": "ancient-spring"
             },
             "quantity": 15
           },
           {
-            "id": 0,
+            "id": 145,
             "material": {
               "name": "Ancient Gear",
-              "id": 145
+              "id": 145,
+              "cssClassName": "ancient-gear"
             },
             "quantity": 10
           }
@@ -2945,18 +3150,20 @@ module.exports = [
         "defense": 18,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 146,
             "material": {
               "name": "Ancient Shaft",
-              "id": 146
+              "id": 146,
+              "cssClassName": "ancient-shaft"
             },
             "quantity": 15
           },
           {
-            "id": 0,
+            "id": 147,
             "material": {
               "name": "Ancient Core",
-              "id": 147
+              "id": 147,
+              "cssClassName": "ancient-core"
             },
             "quantity": 5
           }
@@ -2968,18 +3175,20 @@ module.exports = [
         "defense": 28,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 148,
             "material": {
               "name": "Giant Ancient Core",
-              "id": 148
+              "id": 148,
+              "cssClassName": "giant-ancient-core"
             },
             "quantity": 3
           }
@@ -3005,18 +3214,20 @@ module.exports = [
         "defense": 7,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 143,
             "material": {
               "name": "Ancient Screw",
-              "id": 143
+              "id": 143,
+              "cssClassName": "ancient-screw"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 144,
             "material": {
               "name": "Ancient Spring",
-              "id": 144
+              "id": 144,
+              "cssClassName": "ancient-spring"
             },
             "quantity": 5
           }
@@ -3028,18 +3239,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 144,
             "material": {
               "name": "Ancient Spring",
-              "id": 144
+              "id": 144,
+              "cssClassName": "ancient-spring"
             },
             "quantity": 15
           },
           {
-            "id": 0,
+            "id": 145,
             "material": {
               "name": "Ancient Gear",
-              "id": 145
+              "id": 145,
+              "cssClassName": "ancient-gear"
             },
             "quantity": 10
           }
@@ -3051,18 +3264,20 @@ module.exports = [
         "defense": 18,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 146,
             "material": {
               "name": "Ancient Shaft",
-              "id": 146
+              "id": 146,
+              "cssClassName": "ancient-shaft"
             },
             "quantity": 15
           },
           {
-            "id": 0,
+            "id": 147,
             "material": {
               "name": "Ancient Core",
-              "id": 147
+              "id": 147,
+              "cssClassName": "ancient-core"
             },
             "quantity": 5
           }
@@ -3074,18 +3289,20 @@ module.exports = [
         "defense": 28,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 148,
             "material": {
               "name": "Giant Ancient Core",
-              "id": 148
+              "id": 148,
+              "cssClassName": "giant-ancient-core"
             },
             "quantity": 3
           }
@@ -3111,18 +3328,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 109,
             "material": {
               "name": "Sapphire",
-              "id": 109
+              "id": 109,
+              "cssClassName": "sapphire"
             },
             "quantity": 1
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -3134,18 +3353,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 109,
             "material": {
               "name": "Sapphire",
-              "id": 109
+              "id": 109,
+              "cssClassName": "sapphire"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 2
           }
@@ -3157,18 +3378,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 109,
             "material": {
               "name": "Sapphire",
-              "id": 109
+              "id": 109,
+              "cssClassName": "sapphire"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 3
           }
@@ -3180,18 +3403,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 109,
             "material": {
               "name": "Sapphire",
-              "id": 109
+              "id": 109,
+              "cssClassName": "sapphire"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 4
           }
@@ -3217,18 +3442,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 109,
             "material": {
               "name": "Sapphire",
-              "id": 109
+              "id": 109,
+              "cssClassName": "sapphire"
             },
             "quantity": 1
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -3240,18 +3467,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 109,
             "material": {
               "name": "Sapphire",
-              "id": 109
+              "id": 109,
+              "cssClassName": "sapphire"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 2
           }
@@ -3263,18 +3492,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 109,
             "material": {
               "name": "Sapphire",
-              "id": 109
+              "id": 109,
+              "cssClassName": "sapphire"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 3
           }
@@ -3286,18 +3517,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 109,
             "material": {
               "name": "Sapphire",
-              "id": 109
+              "id": 109,
+              "cssClassName": "sapphire"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 4
           }
@@ -3323,18 +3556,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 109,
             "material": {
               "name": "Sapphire",
-              "id": 109
+              "id": 109,
+              "cssClassName": "sapphire"
             },
             "quantity": 1
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -3346,18 +3581,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 109,
             "material": {
               "name": "Sapphire",
-              "id": 109
+              "id": 109,
+              "cssClassName": "sapphire"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 2
           }
@@ -3369,18 +3606,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 109,
             "material": {
               "name": "Sapphire",
-              "id": 109
+              "id": 109,
+              "cssClassName": "sapphire"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 3
           }
@@ -3392,18 +3631,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 109,
             "material": {
               "name": "Sapphire",
-              "id": 109
+              "id": 109,
+              "cssClassName": "sapphire"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 4
           }
@@ -3429,18 +3670,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 104,
             "material": {
               "name": "Amber",
-              "id": 104
+              "id": 104,
+              "cssClassName": "amber"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -3452,18 +3695,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 104,
             "material": {
               "name": "Amber",
-              "id": 104
+              "id": 104,
+              "cssClassName": "amber"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 2
           }
@@ -3475,18 +3720,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 104,
             "material": {
               "name": "Amber",
-              "id": 104
+              "id": 104,
+              "cssClassName": "amber"
             },
             "quantity": 15
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 3
           }
@@ -3498,18 +3745,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 104,
             "material": {
               "name": "Amber",
-              "id": 104
+              "id": 104,
+              "cssClassName": "amber"
             },
             "quantity": 30
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 4
           }
@@ -3535,18 +3784,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 104,
             "material": {
               "name": "Amber",
-              "id": 104
+              "id": 104,
+              "cssClassName": "amber"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -3558,18 +3809,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 104,
             "material": {
               "name": "Amber",
-              "id": 104
+              "id": 104,
+              "cssClassName": "amber"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 2
           }
@@ -3581,18 +3834,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 104,
             "material": {
               "name": "Amber",
-              "id": 104
+              "id": 104,
+              "cssClassName": "amber"
             },
             "quantity": 15
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 3
           }
@@ -3604,18 +3859,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 104,
             "material": {
               "name": "Amber",
-              "id": 104
+              "id": 104,
+              "cssClassName": "amber"
             },
             "quantity": 30
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 4
           }
@@ -3641,18 +3898,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 104,
             "material": {
               "name": "Amber",
-              "id": 104
+              "id": 104,
+              "cssClassName": "amber"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -3664,18 +3923,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 104,
             "material": {
               "name": "Amber",
-              "id": 104
+              "id": 104,
+              "cssClassName": "amber"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 2
           }
@@ -3687,18 +3948,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 104,
             "material": {
               "name": "Amber",
-              "id": 104
+              "id": 104,
+              "cssClassName": "amber"
             },
             "quantity": 15
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 3
           }
@@ -3710,18 +3973,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 104,
             "material": {
               "name": "Amber",
-              "id": 104
+              "id": 104,
+              "cssClassName": "amber"
             },
             "quantity": 30
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 4
           }
@@ -3747,18 +4012,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 107,
             "material": {
               "name": "Topaz",
-              "id": 107
+              "id": 107,
+              "cssClassName": "topaz"
             },
             "quantity": 1
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -3770,18 +4037,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 107,
             "material": {
               "name": "Topaz",
-              "id": 107
+              "id": 107,
+              "cssClassName": "topaz"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 2
           }
@@ -3793,18 +4062,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 107,
             "material": {
               "name": "Topaz",
-              "id": 107
+              "id": 107,
+              "cssClassName": "topaz"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 3
           }
@@ -3816,18 +4087,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 107,
             "material": {
               "name": "Topaz",
-              "id": 107
+              "id": 107,
+              "cssClassName": "topaz"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 4
           }
@@ -3853,18 +4126,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 107,
             "material": {
               "name": "Topaz",
-              "id": 107
+              "id": 107,
+              "cssClassName": "topaz"
             },
             "quantity": 1
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -3876,18 +4151,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 107,
             "material": {
               "name": "Topaz",
-              "id": 107
+              "id": 107,
+              "cssClassName": "topaz"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 2
           }
@@ -3899,18 +4176,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 107,
             "material": {
               "name": "Topaz",
-              "id": 107
+              "id": 107,
+              "cssClassName": "topaz"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 3
           }
@@ -3922,18 +4201,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 107,
             "material": {
               "name": "Topaz",
-              "id": 107
+              "id": 107,
+              "cssClassName": "topaz"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 4
           }
@@ -3959,18 +4240,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 107,
             "material": {
               "name": "Topaz",
-              "id": 107
+              "id": 107,
+              "cssClassName": "topaz"
             },
             "quantity": 1
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -3982,18 +4265,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 107,
             "material": {
               "name": "Topaz",
-              "id": 107
+              "id": 107,
+              "cssClassName": "topaz"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 2
           }
@@ -4005,18 +4290,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 107,
             "material": {
               "name": "Topaz",
-              "id": 107
+              "id": 107,
+              "cssClassName": "topaz"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 3
           }
@@ -4028,18 +4315,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 107,
             "material": {
               "name": "Topaz",
-              "id": 107
+              "id": 107,
+              "cssClassName": "topaz"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 4
           }
@@ -4065,18 +4354,20 @@ module.exports = [
         "defense": 7,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 44,
             "material": {
               "name": "Acorn",
-              "id": 44
+              "id": 44,
+              "cssClassName": "acorn"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 63,
             "material": {
               "name": "Farosh's Scale",
-              "id": 63
+              "id": 63,
+              "cssClassName": "faroshs-scale"
             },
             "quantity": 2
           }
@@ -4088,18 +4379,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 42,
             "material": {
               "name": "Courser Bee Honey",
-              "id": 42
+              "id": 42,
+              "cssClassName": "courser-bee-honey"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 64,
             "material": {
               "name": "Farosh's Claw",
-              "id": 64
+              "id": 64,
+              "cssClassName": "faroshs-claw"
             },
             "quantity": 2
           }
@@ -4111,18 +4404,20 @@ module.exports = [
         "defense": 18,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 96,
             "material": {
               "name": "Energetic Rhino Beetle",
-              "id": 96
+              "id": 96,
+              "cssClassName": "energetic-rhino-beetle"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 65,
             "material": {
               "name": "Shard of Farosh's Fang",
-              "id": 65
+              "id": 65,
+              "cssClassName": "shard-of-faroshs-fang"
             },
             "quantity": 2
           }
@@ -4134,18 +4429,20 @@ module.exports = [
         "defense": 28,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           },
           {
-            "id": 0,
+            "id": 66,
             "material": {
               "name": "Shard of Farosh's Horn",
-              "id": 66
+              "id": 66,
+              "cssClassName": "faroshs-horn"
             },
             "quantity": 2
           }
@@ -4171,18 +4468,20 @@ module.exports = [
         "defense": 7,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 44,
             "material": {
               "name": "Acorn",
-              "id": 44
+              "id": 44,
+              "cssClassName": "acorn"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 59,
             "material": {
               "name": "Naydra's Scale",
-              "id": 59
+              "id": 59,
+              "cssClassName": "naydras-scale"
             },
             "quantity": 2
           }
@@ -4194,18 +4493,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 42,
             "material": {
               "name": "Courser Bee Honey",
-              "id": 42
+              "id": 42,
+              "cssClassName": "courser-bee-honey"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 60,
             "material": {
               "name": "Naydra's Claw",
-              "id": 60
+              "id": 60,
+              "cssClassName": "naydras-claw"
             },
             "quantity": 2
           }
@@ -4217,18 +4518,20 @@ module.exports = [
         "defense": 18,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 96,
             "material": {
               "name": "Energetic Rhino Beetle",
-              "id": 96
+              "id": 96,
+              "cssClassName": "energetic-rhino-beetle"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 61,
             "material": {
               "name": "Shard of Naydra's Fang",
-              "id": 61
+              "id": 61,
+              "cssClassName": "shard-of-naydras-fang"
             },
             "quantity": 2
           }
@@ -4240,18 +4543,20 @@ module.exports = [
         "defense": 28,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           },
           {
-            "id": 0,
+            "id": 62,
             "material": {
               "name": "Shard of Naydra's Horn",
-              "id": 62
+              "id": 62,
+              "cssClassName": "naydras-horn"
             },
             "quantity": 2
           }
@@ -4277,18 +4582,20 @@ module.exports = [
         "defense": 7,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 44,
             "material": {
               "name": "Acorn",
-              "id": 44
+              "id": 44,
+              "cssClassName": "acorn"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 55,
             "material": {
               "name": "Dinraal's Scale",
-              "id": 55
+              "id": 55,
+              "cssClassName": "dinraals-scale"
             },
             "quantity": 2
           }
@@ -4300,18 +4607,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 42,
             "material": {
               "name": "Courser Bee Honey",
-              "id": 42
+              "id": 42,
+              "cssClassName": "courser-bee-honey"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 60,
             "material": {
               "name": "Naydra's Claw",
-              "id": 60
+              "id": 60,
+              "cssClassName": "naydras-claw"
             },
             "quantity": 2
           }
@@ -4323,18 +4632,20 @@ module.exports = [
         "defense": 18,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 96,
             "material": {
               "name": "Energetic Rhino Beetle",
-              "id": 96
+              "id": 96,
+              "cssClassName": "energetic-rhino-beetle"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 61,
             "material": {
               "name": "Shard of Naydra's Fang",
-              "id": 61
+              "id": 61,
+              "cssClassName": "shard-of-naydras-fang"
             },
             "quantity": 2
           }
@@ -4346,18 +4657,20 @@ module.exports = [
         "defense": 28,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           },
           {
-            "id": 0,
+            "id": 62,
             "material": {
               "name": "Shard of Naydra's Horn",
-              "id": 62
+              "id": 62,
+              "cssClassName": "naydras-horn"
             },
             "quantity": 2
           }
@@ -4383,18 +4696,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 105,
             "material": {
               "name": "Opal",
-              "id": 105
+              "id": 105,
+              "cssClassName": "opal"
             },
             "quantity": 1
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -4406,18 +4721,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 105,
             "material": {
               "name": "Opal",
-              "id": 105
+              "id": 105,
+              "cssClassName": "opal"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 2
           }
@@ -4429,18 +4746,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 105,
             "material": {
               "name": "Opal",
-              "id": 105
+              "id": 105,
+              "cssClassName": "opal"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 3
           }
@@ -4452,18 +4771,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 105,
             "material": {
               "name": "Opal",
-              "id": 105
+              "id": 105,
+              "cssClassName": "opal"
             },
             "quantity": 20
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 4
           }
@@ -4489,18 +4810,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 105,
             "material": {
               "name": "Opal",
-              "id": 105
+              "id": 105,
+              "cssClassName": "opal"
             },
             "quantity": 1
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -4512,18 +4835,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 105,
             "material": {
               "name": "Opal",
-              "id": 105
+              "id": 105,
+              "cssClassName": "opal"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 2
           }
@@ -4535,18 +4860,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 105,
             "material": {
               "name": "Opal",
-              "id": 105
+              "id": 105,
+              "cssClassName": "opal"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 3
           }
@@ -4558,18 +4885,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 105,
             "material": {
               "name": "Opal",
-              "id": 105
+              "id": 105,
+              "cssClassName": "opal"
             },
             "quantity": 20
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 4
           }
@@ -4595,18 +4924,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 105,
             "material": {
               "name": "Opal",
-              "id": 105
+              "id": 105,
+              "cssClassName": "opal"
             },
             "quantity": 1
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -4618,18 +4949,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 105,
             "material": {
               "name": "Opal",
-              "id": 105
+              "id": 105,
+              "cssClassName": "opal"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 2
           }
@@ -4641,18 +4974,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 105,
             "material": {
               "name": "Opal",
-              "id": 105
+              "id": 105,
+              "cssClassName": "opal"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 3
           }
@@ -4664,18 +4999,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 105,
             "material": {
               "name": "Opal",
-              "id": 105
+              "id": 105,
+              "cssClassName": "opal"
             },
             "quantity": 20
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 4
           }
@@ -4701,18 +5038,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 108,
             "material": {
               "name": "Ruby",
-              "id": 108
+              "id": 108,
+              "cssClassName": "ruby"
             },
             "quantity": 1
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -4724,18 +5063,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 108,
             "material": {
               "name": "Ruby",
-              "id": 108
+              "id": 108,
+              "cssClassName": "ruby"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 2
           }
@@ -4747,18 +5088,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 108,
             "material": {
               "name": "Ruby",
-              "id": 108
+              "id": 108,
+              "cssClassName": "ruby"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 3
           }
@@ -4770,18 +5113,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 108,
             "material": {
               "name": "Ruby",
-              "id": 108
+              "id": 108,
+              "cssClassName": "ruby"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 4
           }
@@ -4807,18 +5152,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 108,
             "material": {
               "name": "Ruby",
-              "id": 108
+              "id": 108,
+              "cssClassName": "ruby"
             },
             "quantity": 1
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -4830,18 +5177,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 108,
             "material": {
               "name": "Ruby",
-              "id": 108
+              "id": 108,
+              "cssClassName": "ruby"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 2
           }
@@ -4853,18 +5202,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 108,
             "material": {
               "name": "Ruby",
-              "id": 108
+              "id": 108,
+              "cssClassName": "ruby"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 3
           }
@@ -4876,18 +5227,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 108,
             "material": {
               "name": "Ruby",
-              "id": 108
+              "id": 108,
+              "cssClassName": "ruby"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 4
           }
@@ -4913,18 +5266,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 108,
             "material": {
               "name": "Ruby",
-              "id": 108
+              "id": 108,
+              "cssClassName": "ruby"
             },
             "quantity": 1
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 1
           }
@@ -4936,18 +5291,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 108,
             "material": {
               "name": "Ruby",
-              "id": 108
+              "id": 108,
+              "cssClassName": "ruby"
             },
             "quantity": 3
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 2
           }
@@ -4959,18 +5316,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 108,
             "material": {
               "name": "Ruby",
-              "id": 108
+              "id": 108,
+              "cssClassName": "ruby"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 3
           }
@@ -4982,18 +5341,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 108,
             "material": {
               "name": "Ruby",
-              "id": 108
+              "id": 108,
+              "cssClassName": "ruby"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 54,
             "material": {
               "name": "Star Fragment",
-              "id": 54
+              "id": 54,
+              "cssClassName": "star-fragment"
             },
             "quantity": 4
           }
@@ -5019,10 +5380,11 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 111,
             "material": {
               "name": "Bokoblin Horn",
-              "id": 111
+              "id": 111,
+              "cssClassName": "bokoblin-horn"
             },
             "quantity": 5
           }
@@ -5034,18 +5396,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 111,
             "material": {
               "name": "Bokoblin Horn",
-              "id": 111
+              "id": 111,
+              "cssClassName": "bokoblin-horn"
             },
             "quantity": 8
           },
           {
-            "id": 0,
+            "id": 112,
             "material": {
               "name": "Bokoblin Fang",
-              "id": 112
+              "id": 112,
+              "cssClassName": "bokoblin-fang"
             },
             "quantity": 5
           }
@@ -5057,18 +5421,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 112,
             "material": {
               "name": "Bokoblin Fang",
-              "id": 112
+              "id": 112,
+              "cssClassName": "bokoblin-fang"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 113,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113
+              "id": 113,
+              "cssClassName": "bokoblin-guts"
             },
             "quantity": 5
           }
@@ -5080,18 +5446,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 113,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113
+              "id": 113,
+              "cssClassName": "bokoblin-guts"
             },
             "quantity": 15
           },
           {
-            "id": 0,
+            "id": 104,
             "material": {
               "name": "Amber",
-              "id": 104
+              "id": 104,
+              "cssClassName": "amber"
             },
             "quantity": 30
           }
@@ -5117,10 +5485,11 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 111,
             "material": {
               "name": "Bokoblin Horn",
-              "id": 111
+              "id": 111,
+              "cssClassName": "bokoblin-horn"
             },
             "quantity": 5
           }
@@ -5132,18 +5501,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 111,
             "material": {
               "name": "Bokoblin Horn",
-              "id": 111
+              "id": 111,
+              "cssClassName": "bokoblin-horn"
             },
             "quantity": 8
           },
           {
-            "id": 0,
+            "id": 112,
             "material": {
               "name": "Bokoblin Fang",
-              "id": 112
+              "id": 112,
+              "cssClassName": "bokoblin-fang"
             },
             "quantity": 5
           }
@@ -5155,18 +5526,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 112,
             "material": {
               "name": "Bokoblin Fang",
-              "id": 112
+              "id": 112,
+              "cssClassName": "bokoblin-fang"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 113,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113
+              "id": 113,
+              "cssClassName": "bokoblin-guts"
             },
             "quantity": 5
           }
@@ -5178,18 +5551,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 113,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113
+              "id": 113,
+              "cssClassName": "bokoblin-guts"
             },
             "quantity": 15
           },
           {
-            "id": 0,
+            "id": 104,
             "material": {
               "name": "Amber",
-              "id": 104
+              "id": 104,
+              "cssClassName": "amber"
             },
             "quantity": 30
           }
@@ -5215,10 +5590,11 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 111,
             "material": {
               "name": "Bokoblin Horn",
-              "id": 111
+              "id": 111,
+              "cssClassName": "bokoblin-horn"
             },
             "quantity": 5
           }
@@ -5230,18 +5606,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 111,
             "material": {
               "name": "Bokoblin Horn",
-              "id": 111
+              "id": 111,
+              "cssClassName": "bokoblin-horn"
             },
             "quantity": 8
           },
           {
-            "id": 0,
+            "id": 112,
             "material": {
               "name": "Bokoblin Fang",
-              "id": 112
+              "id": 112,
+              "cssClassName": "bokoblin-fang"
             },
             "quantity": 5
           }
@@ -5253,18 +5631,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 112,
             "material": {
               "name": "Bokoblin Fang",
-              "id": 112
+              "id": 112,
+              "cssClassName": "bokoblin-fang"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 113,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113
+              "id": 113,
+              "cssClassName": "bokoblin-guts"
             },
             "quantity": 5
           }
@@ -5276,18 +5656,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 113,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113
+              "id": 113,
+              "cssClassName": "bokoblin-guts"
             },
             "quantity": 15
           },
           {
-            "id": 0,
+            "id": 104,
             "material": {
               "name": "Amber",
-              "id": 104
+              "id": 104,
+              "cssClassName": "amber"
             },
             "quantity": 30
           }
@@ -5313,18 +5695,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 106,
             "material": {
               "name": "Luminous Stone",
-              "id": 106
+              "id": 106,
+              "cssClassName": "luminous-stone"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 113,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113
+              "id": 113,
+              "cssClassName": "bokoblin-guts"
             },
             "quantity": 3
           }
@@ -5336,18 +5720,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 106,
             "material": {
               "name": "Luminous Stone",
-              "id": 106
+              "id": 106,
+              "cssClassName": "luminous-stone"
             },
             "quantity": 8
           },
           {
-            "id": 0,
+            "id": 116,
             "material": {
               "name": "Moblin Guts",
-              "id": 116
+              "id": 116,
+              "cssClassName": "moblin-guts"
             },
             "quantity": 3
           }
@@ -5359,18 +5745,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 106,
             "material": {
               "name": "Luminous Stone",
-              "id": 106
+              "id": 106,
+              "cssClassName": "luminous-stone"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 139,
             "material": {
               "name": "Molduga Guts",
-              "id": 139
+              "id": 139,
+              "cssClassName": "molduga-guts"
             },
             "quantity": 3
           }
@@ -5382,18 +5770,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 106,
             "material": {
               "name": "Luminous Stone",
-              "id": 106
+              "id": 106,
+              "cssClassName": "luminous-stone"
             },
             "quantity": 20
           },
           {
-            "id": 0,
+            "id": 125,
             "material": {
               "name": "Lynel Guts",
-              "id": 125
+              "id": 125,
+              "cssClassName": "lynel-guts"
             },
             "quantity": 3
           }
@@ -5419,18 +5809,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 106,
             "material": {
               "name": "Luminous Stone",
-              "id": 106
+              "id": 106,
+              "cssClassName": "luminous-stone"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 113,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113
+              "id": 113,
+              "cssClassName": "bokoblin-guts"
             },
             "quantity": 3
           }
@@ -5442,18 +5834,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 106,
             "material": {
               "name": "Luminous Stone",
-              "id": 106
+              "id": 106,
+              "cssClassName": "luminous-stone"
             },
             "quantity": 8
           },
           {
-            "id": 0,
+            "id": 116,
             "material": {
               "name": "Moblin Guts",
-              "id": 116
+              "id": 116,
+              "cssClassName": "moblin-guts"
             },
             "quantity": 3
           }
@@ -5465,18 +5859,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 106,
             "material": {
               "name": "Luminous Stone",
-              "id": 106
+              "id": 106,
+              "cssClassName": "luminous-stone"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 139,
             "material": {
               "name": "Molduga Guts",
-              "id": 139
+              "id": 139,
+              "cssClassName": "molduga-guts"
             },
             "quantity": 3
           }
@@ -5488,18 +5884,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 106,
             "material": {
               "name": "Luminous Stone",
-              "id": 106
+              "id": 106,
+              "cssClassName": "luminous-stone"
             },
             "quantity": 20
           },
           {
-            "id": 0,
+            "id": 125,
             "material": {
               "name": "Lynel Guts",
-              "id": 125
+              "id": 125,
+              "cssClassName": "lynel-guts"
             },
             "quantity": 3
           }
@@ -5525,18 +5923,20 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 106,
             "material": {
               "name": "Luminous Stone",
-              "id": 106
+              "id": 106,
+              "cssClassName": "luminous-stone"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 113,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113
+              "id": 113,
+              "cssClassName": "bokoblin-guts"
             },
             "quantity": 3
           }
@@ -5548,18 +5948,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 106,
             "material": {
               "name": "Luminous Stone",
-              "id": 106
+              "id": 106,
+              "cssClassName": "luminous-stone"
             },
             "quantity": 8
           },
           {
-            "id": 0,
+            "id": 116,
             "material": {
               "name": "Moblin Guts",
-              "id": 116
+              "id": 116,
+              "cssClassName": "moblin-guts"
             },
             "quantity": 3
           }
@@ -5571,18 +5973,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 106,
             "material": {
               "name": "Luminous Stone",
-              "id": 106
+              "id": 106,
+              "cssClassName": "luminous-stone"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 139,
             "material": {
               "name": "Molduga Guts",
-              "id": 139
+              "id": 139,
+              "cssClassName": "molduga-guts"
             },
             "quantity": 3
           }
@@ -5594,18 +5998,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 106,
             "material": {
               "name": "Luminous Stone",
-              "id": 106
+              "id": 106,
+              "cssClassName": "luminous-stone"
             },
             "quantity": 20
           },
           {
-            "id": 0,
+            "id": 125,
             "material": {
               "name": "Lynel Guts",
-              "id": 125
+              "id": 125,
+              "cssClassName": "lynel-guts"
             },
             "quantity": 3
           }
@@ -5631,10 +6037,11 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 129,
             "material": {
               "name": "Yellow Chuchu Jelly",
-              "id": 129
+              "id": 129,
+              "cssClassName": "yellow-chuchu-jelly"
             },
             "quantity": 3
           }
@@ -5646,18 +6053,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 129,
             "material": {
               "name": "Yellow Chuchu Jelly",
-              "id": 129
+              "id": 129,
+              "cssClassName": "yellow-chuchu-jelly"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 7,
             "material": {
               "name": "Voltfruit",
-              "id": 7
+              "id": 7,
+              "cssClassName": "voltfruit"
             },
             "quantity": 5
           }
@@ -5669,18 +6078,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 17,
             "material": {
               "name": "Zapshroom",
-              "id": 17
+              "id": 17,
+              "cssClassName": "zapshroom"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 122,
             "material": {
               "name": "Yellow Lizalfos Tail",
-              "id": 122
+              "id": 122,
+              "cssClassName": "yellow-lizalfos-tail"
             },
             "quantity": 5
           }
@@ -5692,18 +6103,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 122,
             "material": {
               "name": "Yellow Lizalfos Tail",
-              "id": 122
+              "id": 122,
+              "cssClassName": "yellow-lizalfos-tail"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 107,
             "material": {
               "name": "Topaz",
-              "id": 107
+              "id": 107,
+              "cssClassName": "topaz"
             },
             "quantity": 10
           }
@@ -5729,10 +6142,11 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 129,
             "material": {
               "name": "Yellow Chuchu Jelly",
-              "id": 129
+              "id": 129,
+              "cssClassName": "yellow-chuchu-jelly"
             },
             "quantity": 3
           }
@@ -5744,18 +6158,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 129,
             "material": {
               "name": "Yellow Chuchu Jelly",
-              "id": 129
+              "id": 129,
+              "cssClassName": "yellow-chuchu-jelly"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 7,
             "material": {
               "name": "Voltfruit",
-              "id": 7
+              "id": 7,
+              "cssClassName": "voltfruit"
             },
             "quantity": 5
           }
@@ -5767,18 +6183,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 17,
             "material": {
               "name": "Zapshroom",
-              "id": 17
+              "id": 17,
+              "cssClassName": "zapshroom"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 122,
             "material": {
               "name": "Yellow Lizalfos Tail",
-              "id": 122
+              "id": 122,
+              "cssClassName": "yellow-lizalfos-tail"
             },
             "quantity": 5
           }
@@ -5790,18 +6208,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 122,
             "material": {
               "name": "Yellow Lizalfos Tail",
-              "id": 122
+              "id": 122,
+              "cssClassName": "yellow-lizalfos-tail"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 107,
             "material": {
               "name": "Topaz",
-              "id": 107
+              "id": 107,
+              "cssClassName": "topaz"
             },
             "quantity": 10
           }
@@ -5827,10 +6247,11 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 129,
             "material": {
               "name": "Yellow Chuchu Jelly",
-              "id": 129
+              "id": 129,
+              "cssClassName": "yellow-chuchu-jelly"
             },
             "quantity": 3
           }
@@ -5842,18 +6263,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 129,
             "material": {
               "name": "Yellow Chuchu Jelly",
-              "id": 129
+              "id": 129,
+              "cssClassName": "yellow-chuchu-jelly"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 7,
             "material": {
               "name": "Voltfruit",
-              "id": 7
+              "id": 7,
+              "cssClassName": "voltfruit"
             },
             "quantity": 5
           }
@@ -5865,18 +6288,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 17,
             "material": {
               "name": "Zapshroom",
-              "id": 17
+              "id": 17,
+              "cssClassName": "zapshroom"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 122,
             "material": {
               "name": "Yellow Lizalfos Tail",
-              "id": 122
+              "id": 122,
+              "cssClassName": "yellow-lizalfos-tail"
             },
             "quantity": 5
           }
@@ -5888,18 +6313,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 122,
             "material": {
               "name": "Yellow Lizalfos Tail",
-              "id": 122
+              "id": 122,
+              "cssClassName": "yellow-lizalfos-tail"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 107,
             "material": {
               "name": "Topaz",
-              "id": 107
+              "id": 107,
+              "cssClassName": "topaz"
             },
             "quantity": 10
           }
@@ -5925,10 +6352,11 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 128,
             "material": {
               "name": "Red Chuchu Jelly",
-              "id": 128
+              "id": 128,
+              "cssClassName": "red-chuchu-jelly"
             },
             "quantity": 3
           }
@@ -5940,18 +6368,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 128,
             "material": {
               "name": "Red Chuchu Jelly",
-              "id": 128
+              "id": 128,
+              "cssClassName": "red-chuchu-jelly"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 29,
             "material": {
               "name": "Warm Safflina",
-              "id": 29
+              "id": 29,
+              "cssClassName": "warm-safflina"
             },
             "quantity": 3
           }
@@ -5963,18 +6393,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 132,
             "material": {
               "name": "Fire Keese Wing",
-              "id": 132
+              "id": 132,
+              "cssClassName": "fire-keese-wing"
             },
             "quantity": 8
           },
           {
-            "id": 0,
+            "id": 16,
             "material": {
               "name": "Sunshroom",
-              "id": 16
+              "id": 16,
+              "cssClassName": "sunshroom"
             },
             "quantity": 5
           }
@@ -5986,18 +6418,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 121,
             "material": {
               "name": "Red Lizalfos Tail",
-              "id": 121
+              "id": 121,
+              "cssClassName": "red-lizalfos-tail"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 108,
             "material": {
               "name": "Ruby",
-              "id": 108
+              "id": 108,
+              "cssClassName": "ruby"
             },
             "quantity": 5
           }
@@ -6023,10 +6457,11 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 128,
             "material": {
               "name": "Red Chuchu Jelly",
-              "id": 128
+              "id": 128,
+              "cssClassName": "red-chuchu-jelly"
             },
             "quantity": 3
           }
@@ -6038,18 +6473,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 128,
             "material": {
               "name": "Red Chuchu Jelly",
-              "id": 128
+              "id": 128,
+              "cssClassName": "red-chuchu-jelly"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 29,
             "material": {
               "name": "Warm Safflina",
-              "id": 29
+              "id": 29,
+              "cssClassName": "warm-safflina"
             },
             "quantity": 3
           }
@@ -6061,18 +6498,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 132,
             "material": {
               "name": "Fire Keese Wing",
-              "id": 132
+              "id": 132,
+              "cssClassName": "fire-keese-wing"
             },
             "quantity": 8
           },
           {
-            "id": 0,
+            "id": 16,
             "material": {
               "name": "Sunshroom",
-              "id": 16
+              "id": 16,
+              "cssClassName": "sunshroom"
             },
             "quantity": 5
           }
@@ -6084,18 +6523,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 121,
             "material": {
               "name": "Red Lizalfos Tail",
-              "id": 121
+              "id": 121,
+              "cssClassName": "red-lizalfos-tail"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 108,
             "material": {
               "name": "Ruby",
-              "id": 108
+              "id": 108,
+              "cssClassName": "ruby"
             },
             "quantity": 5
           }
@@ -6121,10 +6562,11 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 128,
             "material": {
               "name": "Red Chuchu Jelly",
-              "id": 128
+              "id": 128,
+              "cssClassName": "red-chuchu-jelly"
             },
             "quantity": 3
           }
@@ -6136,18 +6578,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 128,
             "material": {
               "name": "Red Chuchu Jelly",
-              "id": 128
+              "id": 128,
+              "cssClassName": "red-chuchu-jelly"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 29,
             "material": {
               "name": "Warm Safflina",
-              "id": 29
+              "id": 29,
+              "cssClassName": "warm-safflina"
             },
             "quantity": 3
           }
@@ -6159,18 +6603,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 132,
             "material": {
               "name": "Fire Keese Wing",
-              "id": 132
+              "id": 132,
+              "cssClassName": "fire-keese-wing"
             },
             "quantity": 8
           },
           {
-            "id": 0,
+            "id": 16,
             "material": {
               "name": "Sunshroom",
-              "id": 16
+              "id": 16,
+              "cssClassName": "sunshroom"
             },
             "quantity": 5
           }
@@ -6182,18 +6628,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 121,
             "material": {
               "name": "Red Lizalfos Tail",
-              "id": 121
+              "id": 121,
+              "cssClassName": "red-lizalfos-tail"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 108,
             "material": {
               "name": "Ruby",
-              "id": 108
+              "id": 108,
+              "cssClassName": "ruby"
             },
             "quantity": 5
           }
@@ -6219,18 +6667,20 @@ module.exports = [
         "defense": 7,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 126,
             "material": {
               "name": "Chuchu Jelly",
-              "id": 126
+              "id": 126,
+              "cssClassName": "chuchu-jelly"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 113,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113
+              "id": 113,
+              "cssClassName": "bokoblin-guts"
             },
             "quantity": 3
           }
@@ -6242,18 +6692,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 130,
             "material": {
               "name": "Keese Wing",
-              "id": 130
+              "id": 130,
+              "cssClassName": "keese-wing"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 116,
             "material": {
               "name": "Moblin Guts",
-              "id": 116
+              "id": 116,
+              "cssClassName": "moblin-guts"
             },
             "quantity": 3
           }
@@ -6265,18 +6717,20 @@ module.exports = [
         "defense": 18,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 119,
             "material": {
               "name": "Lizalfos Tail",
-              "id": 119
+              "id": 119,
+              "cssClassName": "lizalfos-tail"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 142,
             "material": {
               "name": "Hinox Guts",
-              "id": 142
+              "id": 142,
+              "cssClassName": "hinox-guts"
             },
             "quantity": 3
           }
@@ -6288,18 +6742,20 @@ module.exports = [
         "defense": 28,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 124,
             "material": {
               "name": "Lynel Hoof",
-              "id": 124
+              "id": 124,
+              "cssClassName": "lynel-hoof"
             },
             "quantity": 4
           },
           {
-            "id": 0,
+            "id": 125,
             "material": {
               "name": "Lynel Guts",
-              "id": 125
+              "id": 125,
+              "cssClassName": "lynel-guts"
             },
             "quantity": 2
           }
@@ -6325,18 +6781,20 @@ module.exports = [
         "defense": 7,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 126,
             "material": {
               "name": "Chuchu Jelly",
-              "id": 126
+              "id": 126,
+              "cssClassName": "chuchu-jelly"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 113,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113
+              "id": 113,
+              "cssClassName": "bokoblin-guts"
             },
             "quantity": 3
           }
@@ -6348,18 +6806,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 130,
             "material": {
               "name": "Keese Wing",
-              "id": 130
+              "id": 130,
+              "cssClassName": "keese-wing"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 116,
             "material": {
               "name": "Moblin Guts",
-              "id": 116
+              "id": 116,
+              "cssClassName": "moblin-guts"
             },
             "quantity": 3
           }
@@ -6371,18 +6831,20 @@ module.exports = [
         "defense": 18,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 119,
             "material": {
               "name": "Lizalfos Tail",
-              "id": 119
+              "id": 119,
+              "cssClassName": "lizalfos-tail"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 142,
             "material": {
               "name": "Hinox Guts",
-              "id": 142
+              "id": 142,
+              "cssClassName": "hinox-guts"
             },
             "quantity": 3
           }
@@ -6394,18 +6856,20 @@ module.exports = [
         "defense": 28,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 124,
             "material": {
               "name": "Lynel Hoof",
-              "id": 124
+              "id": 124,
+              "cssClassName": "lynel-hoof"
             },
             "quantity": 4
           },
           {
-            "id": 0,
+            "id": 125,
             "material": {
               "name": "Lynel Guts",
-              "id": 125
+              "id": 125,
+              "cssClassName": "lynel-guts"
             },
             "quantity": 2
           }
@@ -6431,18 +6895,20 @@ module.exports = [
         "defense": 7,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 126,
             "material": {
               "name": "Chuchu Jelly",
-              "id": 126
+              "id": 126,
+              "cssClassName": "chuchu-jelly"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 113,
             "material": {
               "name": "Bokoblin Guts",
-              "id": 113
+              "id": 113,
+              "cssClassName": "bokoblin-guts"
             },
             "quantity": 3
           }
@@ -6454,18 +6920,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 130,
             "material": {
               "name": "Keese Wing",
-              "id": 130
+              "id": 130,
+              "cssClassName": "keese-wing"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 116,
             "material": {
               "name": "Moblin Guts",
-              "id": 116
+              "id": 116,
+              "cssClassName": "moblin-guts"
             },
             "quantity": 3
           }
@@ -6477,18 +6945,20 @@ module.exports = [
         "defense": 18,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 119,
             "material": {
               "name": "Lizalfos Tail",
-              "id": 119
+              "id": 119,
+              "cssClassName": "lizalfos-tail"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 142,
             "material": {
               "name": "Hinox Guts",
-              "id": 142
+              "id": 142,
+              "cssClassName": "hinox-guts"
             },
             "quantity": 3
           }
@@ -6500,18 +6970,20 @@ module.exports = [
         "defense": 28,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 124,
             "material": {
               "name": "Lynel Hoof",
-              "id": 124
+              "id": 124,
+              "cssClassName": "lynel-hoof"
             },
             "quantity": 4
           },
           {
-            "id": 0,
+            "id": 125,
             "material": {
               "name": "Lynel Guts",
-              "id": 125
+              "id": 125,
+              "cssClassName": "lynel-guts"
             },
             "quantity": 2
           }
@@ -6537,10 +7009,11 @@ module.exports = [
         "defense": 4,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 34,
             "material": {
               "name": "Blue Nightshade",
-              "id": 34
+              "id": 34,
+              "cssClassName": "blue-nightshade"
             },
             "quantity": 3
           }
@@ -6552,18 +7025,20 @@ module.exports = [
         "defense": 6,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 34,
             "material": {
               "name": "Blue Nightshade",
-              "id": 34
+              "id": 34,
+              "cssClassName": "blue-nightshade"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 97,
             "material": {
               "name": "Sunset Firefly",
-              "id": 97
+              "id": 97,
+              "cssClassName": "sunset-firefly"
             },
             "quantity": 5
           }
@@ -6575,18 +7050,20 @@ module.exports = [
         "defense": 9,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 21,
             "material": {
               "name": "Silent Shroom",
-              "id": 21
+              "id": 21,
+              "cssClassName": "silent-shroom"
             },
             "quantity": 8
           },
           {
-            "id": 0,
+            "id": 80,
             "material": {
               "name": "Sneaky River Snail",
-              "id": 80
+              "id": 80,
+              "cssClassName": "sneaky-river-snail"
             },
             "quantity": 5
           }
@@ -6598,18 +7075,20 @@ module.exports = [
         "defense": 16,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 81,
             "material": {
               "name": "Hearty Blueshell Snail",
-              "id": 81
+              "id": 81,
+              "cssClassName": "hearty-blueshell-snail"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 35,
             "material": {
               "name": "Silent Princess",
-              "id": 35
+              "id": 35,
+              "cssClassName": "silent-princess"
             },
             "quantity": 5
           }
@@ -6635,10 +7114,11 @@ module.exports = [
         "defense": 4,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 34,
             "material": {
               "name": "Blue Nightshade",
-              "id": 34
+              "id": 34,
+              "cssClassName": "blue-nightshade"
             },
             "quantity": 3
           }
@@ -6650,18 +7130,20 @@ module.exports = [
         "defense": 6,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 34,
             "material": {
               "name": "Blue Nightshade",
-              "id": 34
+              "id": 34,
+              "cssClassName": "blue-nightshade"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 97,
             "material": {
               "name": "Sunset Firefly",
-              "id": 97
+              "id": 97,
+              "cssClassName": "sunset-firefly"
             },
             "quantity": 5
           }
@@ -6673,18 +7155,20 @@ module.exports = [
         "defense": 9,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 21,
             "material": {
               "name": "Silent Shroom",
-              "id": 21
+              "id": 21,
+              "cssClassName": "silent-shroom"
             },
             "quantity": 8
           },
           {
-            "id": 0,
+            "id": 80,
             "material": {
               "name": "Sneaky River Snail",
-              "id": 80
+              "id": 80,
+              "cssClassName": "sneaky-river-snail"
             },
             "quantity": 5
           }
@@ -6696,18 +7180,20 @@ module.exports = [
         "defense": 16,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 81,
             "material": {
               "name": "Hearty Blueshell Snail",
-              "id": 81
+              "id": 81,
+              "cssClassName": "hearty-blueshell-snail"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 35,
             "material": {
               "name": "Silent Princess",
-              "id": 35
+              "id": 35,
+              "cssClassName": "silent-princess"
             },
             "quantity": 5
           }
@@ -6733,10 +7219,11 @@ module.exports = [
         "defense": 4,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 34,
             "material": {
               "name": "Blue Nightshade",
-              "id": 34
+              "id": 34,
+              "cssClassName": "blue-nightshade"
             },
             "quantity": 3
           }
@@ -6748,18 +7235,20 @@ module.exports = [
         "defense": 6,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 34,
             "material": {
               "name": "Blue Nightshade",
-              "id": 34
+              "id": 34,
+              "cssClassName": "blue-nightshade"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 97,
             "material": {
               "name": "Sunset Firefly",
-              "id": 97
+              "id": 97,
+              "cssClassName": "sunset-firefly"
             },
             "quantity": 5
           }
@@ -6771,18 +7260,20 @@ module.exports = [
         "defense": 9,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 21,
             "material": {
               "name": "Silent Shroom",
-              "id": 21
+              "id": 21,
+              "cssClassName": "silent-shroom"
             },
             "quantity": 8
           },
           {
-            "id": 0,
+            "id": 80,
             "material": {
               "name": "Sneaky River Snail",
-              "id": 80
+              "id": 80,
+              "cssClassName": "sneaky-river-snail"
             },
             "quantity": 5
           }
@@ -6794,18 +7285,20 @@ module.exports = [
         "defense": 16,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 81,
             "material": {
               "name": "Hearty Blueshell Snail",
-              "id": 81
+              "id": 81,
+              "cssClassName": "hearty-blueshell-snail"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 35,
             "material": {
               "name": "Silent Princess",
-              "id": 35
+              "id": 35,
+              "cssClassName": "silent-princess"
             },
             "quantity": 5
           }
@@ -6831,10 +7324,11 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 117,
             "material": {
               "name": "Lizalfos Horn",
-              "id": 117
+              "id": 117,
+              "cssClassName": "lizalfos-horn"
             },
             "quantity": 3
           }
@@ -6846,18 +7340,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 118,
             "material": {
               "name": "Lizalfos Talon",
-              "id": 118
+              "id": 118,
+              "cssClassName": "lizalfos-talon"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 69,
             "material": {
               "name": "Hyrule Bass",
-              "id": 69
+              "id": 69,
+              "cssClassName": "hyrule-bass"
             },
             "quantity": 5
           }
@@ -6869,18 +7365,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 119,
             "material": {
               "name": "Lizalfos Tail",
-              "id": 119
+              "id": 119,
+              "cssClassName": "lizalfos-tail"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 68,
             "material": {
               "name": "Hearty Bass",
-              "id": 68
+              "id": 68,
+              "cssClassName": "hearty-bass"
             },
             "quantity": 5
           }
@@ -6892,18 +7390,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 119,
             "material": {
               "name": "Lizalfos Tail",
-              "id": 119
+              "id": 119,
+              "cssClassName": "lizalfos-tail"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 105,
             "material": {
               "name": "Opal",
-              "id": 105
+              "id": 105,
+              "cssClassName": "opal"
             },
             "quantity": 15
           }
@@ -6929,10 +7429,11 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 117,
             "material": {
               "name": "Lizalfos Horn",
-              "id": 117
+              "id": 117,
+              "cssClassName": "lizalfos-horn"
             },
             "quantity": 3
           }
@@ -6944,18 +7445,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 118,
             "material": {
               "name": "Lizalfos Talon",
-              "id": 118
+              "id": 118,
+              "cssClassName": "lizalfos-talon"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 69,
             "material": {
               "name": "Hyrule Bass",
-              "id": 69
+              "id": 69,
+              "cssClassName": "hyrule-bass"
             },
             "quantity": 5
           }
@@ -6967,18 +7470,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 119,
             "material": {
               "name": "Lizalfos Tail",
-              "id": 119
+              "id": 119,
+              "cssClassName": "lizalfos-tail"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 68,
             "material": {
               "name": "Hearty Bass",
-              "id": 68
+              "id": 68,
+              "cssClassName": "hearty-bass"
             },
             "quantity": 5
           }
@@ -6990,18 +7495,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 119,
             "material": {
               "name": "Lizalfos Tail",
-              "id": 119
+              "id": 119,
+              "cssClassName": "lizalfos-tail"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 105,
             "material": {
               "name": "Opal",
-              "id": 105
+              "id": 105,
+              "cssClassName": "opal"
             },
             "quantity": 15
           }
@@ -7027,10 +7534,11 @@ module.exports = [
         "defense": 5,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 117,
             "material": {
               "name": "Lizalfos Horn",
-              "id": 117
+              "id": 117,
+              "cssClassName": "lizalfos-horn"
             },
             "quantity": 3
           }
@@ -7042,18 +7550,20 @@ module.exports = [
         "defense": 8,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 118,
             "material": {
               "name": "Lizalfos Talon",
-              "id": 118
+              "id": 118,
+              "cssClassName": "lizalfos-talon"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 69,
             "material": {
               "name": "Hyrule Bass",
-              "id": 69
+              "id": 69,
+              "cssClassName": "hyrule-bass"
             },
             "quantity": 5
           }
@@ -7065,18 +7575,20 @@ module.exports = [
         "defense": 12,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 119,
             "material": {
               "name": "Lizalfos Tail",
-              "id": 119
+              "id": 119,
+              "cssClassName": "lizalfos-tail"
             },
             "quantity": 5
           },
           {
-            "id": 0,
+            "id": 68,
             "material": {
               "name": "Hearty Bass",
-              "id": 68
+              "id": 68,
+              "cssClassName": "hearty-bass"
             },
             "quantity": 5
           }
@@ -7088,18 +7600,20 @@ module.exports = [
         "defense": 20,
         "armorMaterials": [
           {
-            "id": 0,
+            "id": 119,
             "material": {
               "name": "Lizalfos Tail",
-              "id": 119
+              "id": 119,
+              "cssClassName": "lizalfos-tail"
             },
             "quantity": 10
           },
           {
-            "id": 0,
+            "id": 105,
             "material": {
               "name": "Opal",
-              "id": 105
+              "id": 105,
+              "cssClassName": "opal"
             },
             "quantity": 15
           }
@@ -7445,4 +7959,4 @@ module.exports = [
     "defense": 1,
     "armorUpgrades": null
   }
-];
+]

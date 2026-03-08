@@ -342,7 +342,7 @@ module.exports = [
     "name": "Voltfruit",
     "id": 7,
     "type": "Fruit",
-    "cssClassName": "volt-fruit",
+    "cssClassName": "voltfruit",
     "description": "Cacti found in the Gerudo Desert bear this sweet fruit. It's naturally insulated, so when cooked into a dish, it provides resistance against electricity.",
     "sellPrice": 4,
     "hpRecovery": 2,
@@ -3304,7 +3304,8 @@ module.exports = [
         "cssClassName": "meat-skewer"
       }
     ],
-    "armorList": null
+    "armorList": null,
+    "cssClassName": "raw-gourmet-meat"
   },
   {
     "name": "Raw Whole Bird",
@@ -3381,7 +3382,8 @@ module.exports = [
         "cssClassName": "meat-skewer"
       }
     ],
-    "armorList": null
+    "armorList": null,
+    "cssClassName": "raw-whole-bird"
   },
   {
     "name": "Raw Prime Meat",
@@ -3459,7 +3461,8 @@ module.exports = [
         "cssClassName": "meat-skewer"
       }
     ],
-    "armorList": null
+    "armorList": null,
+    "cssClassName": "raw-prime-meat"
   },
   {
     "name": "Raw Bird Thigh",
@@ -3536,7 +3539,8 @@ module.exports = [
         "cssClassName": "meat-skewer"
       }
     ],
-    "armorList": null
+    "armorList": null,
+    "cssClassName": "raw-bird-thigh"
   },
   {
     "name": "Raw Meat",
@@ -3669,7 +3673,8 @@ module.exports = [
         "cssClassName": "meat-skewer"
       }
     ],
-    "armorList": null
+    "armorList": null,
+    "cssClassName": "raw-meat"
   },
   {
     "name": "Raw Bird Drumstick",
@@ -3801,7 +3806,8 @@ module.exports = [
         "cssClassName": "meat-skewer"
       }
     ],
-    "armorList": null
+    "armorList": null,
+    "cssClassName": "raw-bird-drumstick"
   },
   {
     "name": "Courser Bee Honey",
@@ -4205,7 +4211,8 @@ module.exports = [
         "cssClassName": "omelet"
       }
     ],
-    "armorList": null
+    "armorList": null,
+    "cssClassName": "bird-egg"
   },
   {
     "name": "Tabantha Wheat",
@@ -5193,8 +5200,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -5247,8 +5254,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -5296,8 +5303,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -5345,8 +5352,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -5404,8 +5411,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -5463,8 +5470,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -5522,8 +5529,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -5581,8 +5588,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -5650,8 +5657,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -5704,8 +5711,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -5758,8 +5765,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -5812,8 +5819,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -7635,8 +7642,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -7682,8 +7689,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -7729,8 +7736,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -7776,8 +7783,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -7839,8 +7846,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -7886,8 +7893,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -7933,8 +7940,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -7980,8 +7987,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -8027,8 +8034,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -8074,8 +8081,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -8121,8 +8128,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -8184,8 +8191,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -8247,8 +8254,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -8310,8 +8317,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -8357,8 +8364,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -8430,8 +8437,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -8477,8 +8484,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -9017,8 +9024,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -9076,8 +9083,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -9135,8 +9142,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -9224,8 +9231,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -9283,8 +9290,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -9342,8 +9349,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -9431,8 +9438,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -9490,8 +9497,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -9549,8 +9556,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -9623,8 +9630,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -9682,8 +9689,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -9741,8 +9748,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -9800,8 +9807,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -9859,8 +9866,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -9933,8 +9940,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -10037,8 +10044,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -10096,8 +10103,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -10155,8 +10162,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -10214,8 +10221,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -10273,8 +10280,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -10347,8 +10354,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -10421,8 +10428,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -10495,8 +10502,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -10554,8 +10561,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -10597,8 +10604,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -10646,8 +10653,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -10695,8 +10702,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -10744,8 +10751,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -10793,8 +10800,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -10857,8 +10864,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -10916,8 +10923,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -10975,8 +10982,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -11064,8 +11071,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -11123,8 +11130,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -11182,8 +11189,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -11241,8 +11248,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -11300,8 +11307,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,
@@ -11359,8 +11366,8 @@ module.exports = [
       },
       {
         "id": 121,
-        "name": "Elixer",
-        "cssClassName": "elixer"
+        "name": "Elixir",
+        "cssClassName": "elixir"
       },
       {
         "id": 122,

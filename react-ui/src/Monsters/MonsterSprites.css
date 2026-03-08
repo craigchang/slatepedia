@@ -132,3 +132,7 @@
 
 /* Row 14 (y = -3654px) */
 .monster-sprite.monk-maz-koshia { background-position: -1px -3654px; }
+
+
+/* Misc */
+.monster-sprite.sentry { background-position: -844px -2530px; background-image: url('../img/animals2.png'); }

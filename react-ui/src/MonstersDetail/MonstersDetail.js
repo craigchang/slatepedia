@@ -68,31 +68,6 @@ class MonstersDetail extends Component {
                 ))}
               </td>
             </tr>
-            { monster.itemDrops === null ? '' :  
-              <tr>
-                <td>Item Drops</td>
-                <td>
-                  {monster.itemDrops.map((itemDrop, index) => (     
-                    itemDrop.id === 0 ? 
-                      (
-                        <p key={index}><i className="fa fa-cog" aria-hidden="true"></i> {itemDrop.name}</p>
-                      )
-                      :
-                      (
-                        <div key={index}>
-                          <div style={{'display': 'inline-block', 'verticalAlign': 'middle'}}>
-                            <IconContainer propertyName={itemDrop.name} folderName={"materials"} />
-                            {/* <div className={classnames('sprite', itemDrop.cssClassName !== '' && itemDrop.cssClassName)}></div> */}
-                          </div>
-                          <span>
-                            <span><a href={"/" + itemDrop.category + "/" + itemDrop.id}>{itemDrop.name} </a></span>
-                          </span>
-                        </div>
-                      )
-                  ))}
-                </td>
-              </tr>
-            }
 
             { monster.notes === '' ? '' : 
               <tr>
@@ -102,6 +77,39 @@ class MonstersDetail extends Component {
             }
           </tbody>
         </DataDetailTableView>
+
+        { !monster.itemDrops || monster.itemDrops.length === 0 ? '' : (
+          <div>
+            <h2 className="page-header">Item Drops</h2>
+            <DataDetailTableView>
+              <thead>
+                <tr>
+                  <td><b>Icon</b></td>
+                  <td><b>Name</b></td>
+                </tr>
+              </thead>
+              <tbody>
+                {monster.itemDrops.map((itemDrop, index) => {
+                  const category = itemDrop.category || 'other';
+                  const showIcon = itemDrop.id !== 0 && category !== 'other';
+                  const spriteSource = ['materials', 'weapons', 'armor', 'bows'].includes(category) ? category : 'materials';
+                  const detailLink = category !== 'other' && itemDrop.id ? `/${category}/${itemDrop.id}` : null;
+                  return (
+                    <tr key={index}>
+                      <td>
+                        {showIcon ? <IconContainer propertyName={itemDrop.name} folderName={spriteSource} cssClassName={itemDrop.cssClassName} spriteSheet={spriteSource} small/> : ''}
+                      </td>
+                      <td>
+                        {detailLink ? <a href={detailLink}>{itemDrop.name}</a> : itemDrop.name}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </DataDetailTableView>
+          </div>
+        )}
+
       </div>
     )
   }

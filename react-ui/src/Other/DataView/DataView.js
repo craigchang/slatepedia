@@ -215,18 +215,22 @@ class DataView extends Component {
   renderGridHeaderView() {
     let tableHeaderColsArray = [];
     for(let i = 0; i < this.props.filterSettings.length; i++) {
-      if (this.props.filterSettings[i].isSortable)
+      const setting = this.props.filterSettings[i];
+      const titleAttr = setting.tooltip ? { title: setting.tooltip } : {};
+      if (setting.isSortable)
         tableHeaderColsArray.push( 
           <th 
-            className={`sortable ${this.state.sortBy === this.props.filterSettings[i].dataName ? this.state.sortOrder : ''}`}
-            key={`${i}-${this.props.filterSettings[i].headerName}`} 
-            onClick={(event) => this.clickTableColumnHeader(event, this.props.filterSettings[i].dataName)}>{this.props.filterSettings[i].headerName}</th> 
+            {...titleAttr}
+            className={`sortable ${this.state.sortBy === setting.dataName ? this.state.sortOrder : ''}`}
+            key={`${i}-${setting.headerName}`} 
+            onClick={(event) => this.clickTableColumnHeader(event, setting.dataName)}>{setting.headerName}</th> 
         )
       else
         tableHeaderColsArray.push( 
           <th 
+            {...titleAttr}
             style={{cursor: 'default'}} 
-            key={`${i}-${this.props.filterSettings[i].dataValue}`}>{this.props.filterSettings[i].headerName}</th> 
+            key={`${i}-${setting.dataValue}`}>{setting.headerName}</th> 
         )
     }
 

@@ -110,3 +110,5 @@ typings/
 # do not include images files
 react-ui/public/img
 
+# for batch scripts
+batch-scripts/

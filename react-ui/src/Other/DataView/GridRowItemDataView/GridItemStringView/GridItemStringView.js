@@ -21,10 +21,10 @@ const GridItemStringView = ({obj, dataName, nestedDataName, detailLink}) => {
           <small className="small"><Link to={`${detailLink}/${obj.id}`}>Details &#187;</Link></small>
         </td>
       );
-    else
+    else{
       return (
-        <td>{obj[dataName] === "" ? '-': obj[dataName]}</td>
-      ) 
+        <td>{!obj[dataName] ? '-': obj[dataName]}</td>
+      ) }
   }
 }
 

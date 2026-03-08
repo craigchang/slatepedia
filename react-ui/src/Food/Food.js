@@ -77,15 +77,7 @@ class Food extends Component {
                   "isSortable": true,
                   "isFilterable": true
                 },
-                {
-                  "dataName": "ingredient.name",
-                  "nested": 'name',
-                  "headerName": "Ingredient",
-                  "classIcon": "fa fa-tags",
-                  "dataType": "string",
-                  "isSortable": true,
-                  "isFilterable": true
-                },
+                
                 {
                   "dataName": "sellPrice",
                   "headerName": "Sell Price",
@@ -103,6 +95,14 @@ class Food extends Component {
                   "isSortable": true,
                   "isFilterable": true
                 },
+                {
+                  "dataName": "ingredients",
+                  "headerName": "Ingredient (any of)",
+                  "classIcon": "fa fa-cutlery",
+                  "dataType": "arrayObject",
+                  "isSortable": false,
+                  "isFilterable": false
+                }
               ]} 
             />
           }

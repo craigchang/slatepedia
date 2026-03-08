@@ -1,9 +1,9 @@
 import React from 'react';
 
-const GridItemIntegerView = ({dataValue}) => {
+const GridItemIntegerView = ({dataValue, tooltip}) => {
   return (
-    <td>{dataValue}</td>
-  ); 
+    <td title={tooltip || undefined}>{dataValue}</td>
+  );
 }
 
 export default GridItemIntegerView;

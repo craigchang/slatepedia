@@ -31,7 +31,8 @@ const GridRowItemDataView = ({obj, filterSettings}) => {
       case 'integer':
         array.push(<GridItemIntegerView 
                       key={`${filterSettings[i].dataName}-integer`} 
-                      dataValue={obj[filterSettings[i].dataName]} />)
+                      dataValue={obj[filterSettings[i].dataName]}
+                      tooltip={filterSettings[i].tooltip} />)
         break;
       case 'array':
         array.push(<GridItemArrayView 

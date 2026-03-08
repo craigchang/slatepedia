@@ -4,6 +4,7 @@ import IconContainer from '../Other/IconContainer/IconContainer';
 
 import './AnimalsDetail.css';
 import '../Animals/AnimalSprites.css';
+import '../Materials/MaterialsSprites.css';
 
 class AnimalsDetail extends Component {
   constructor(props) {
@@ -63,8 +64,45 @@ class AnimalsDetail extends Component {
                 }
               </td>
             </tr>
+            { animal.uniqueCookingEffects ? (
+              <tr>
+                <td>Unique Cooking Effects</td>
+                <td>
+                  <i className="fa fa-cutlery" aria-hidden="true"></i> {animal.uniqueCookingEffects}
+                </td>
+              </tr>
+            ) : '' }
           </tbody>
         </DataDetailTableView>
+
+        { !animal.recoverableMaterials || animal.recoverableMaterials.length === 0 ? '' : (
+          <div>
+            <h2 className="page-header">Recoverable Materials</h2>
+            <DataDetailTableView>
+              <thead>
+                <tr>
+                  <td><b>Icon</b></td>
+                  <td><b>Name</b></td>
+                </tr>
+              </thead>
+              <tbody>
+                {animal.recoverableMaterials.map((material, index) => {
+                  const cssClassName = material.cssClassName || material.name.replace(/ /g, '-').replace(/'/g, '').toLowerCase();
+                  return (
+                    <tr key={index}>
+                      <td>
+                        <IconContainer propertyName={material.name} folderName="materials" cssClassName={cssClassName} spriteSheet="materials" small/>
+                      </td>
+                      <td>
+                        <a href={"/materials/" + material.id}>{material.name}</a>
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </DataDetailTableView>
+          </div>
+        )}
       </div>
     );
   }

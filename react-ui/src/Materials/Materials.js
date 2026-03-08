@@ -100,7 +100,8 @@ class Materials extends Component {
                   "classIcon": "fa fa-heart",
                   "dataType": "integer",
                   "isSortable": true,
-                  "isFilterable": true
+                  "isFilterable": true,
+                  "tooltip": "1 HP recovery = 1/4 heart recovery"
                 },
                 {
                   "dataName": "category.name",

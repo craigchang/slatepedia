@@ -9,3 +9,9 @@
   min-width: 60px;
   width: 60%;
 }
+
+.resource-icon-sm {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}

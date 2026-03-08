@@ -20,7 +20,7 @@ const ListItemStringView = ({obj, dataName, nestedDataName, detailLink, classIco
         </React.Fragment>
       );
     else
-      return <span><i className={classIcon} aria-hidden="true"></i> <b>{obj[dataName] === "" ? 'None': obj[dataName]}</b></span> 
+      return <span><i className={classIcon} aria-hidden="true"></i> <b>{ !obj[dataName] ? 'None': obj[dataName]}</b></span> 
   }
 }
 

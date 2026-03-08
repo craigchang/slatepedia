@@ -99,7 +99,8 @@ class ArmorDetail extends Component {
                             { armorMaterial.material === null ? '' : (
                               <div key={index2}>
                                 <div style={{'display': 'inline-block', 'verticalAlign': 'middle'}}>
-                                  <IconContainer propertyName={armorMaterial.material && armorMaterial.material.name} folderName={"materials"} />
+                                  {/* <IconContainer propertyName={armorMaterial.name} folderName={spriteSource} cssClassName={armorMaterial.cssClassName} spriteSheet={spriteSource} small/> */}
+                                  <IconContainer propertyName={armorMaterial.material && armorMaterial.material.name} folderName="materials" cssClassName={armorMaterial.material && armorMaterial.material.cssClassName} spriteSheet="materials" small/>
                                 </div>
                                 <span>
                                   <span><a href={"/materials/" + armorMaterial.material.id}>{armorMaterial.material.name} </a> x {armorMaterial.quantity}</span>

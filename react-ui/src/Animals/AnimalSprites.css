@@ -96,7 +96,6 @@
 .animal-sprite.stalhorse { background-position: -563px -2249px; }
 .animal-sprite.lord-of-the-mountain { background-position: -1125px -2249px; }
 .animal-sprite.white-horse { background-position: -1406px -2249px; }
-.animal-sprite.korok { background-position: -1687px -2249px; }
 
 /* animals2.png - same formula, 6 cols. Override background-image for these. */
 /* Row 1 (y = -1px) */

@@ -6,7 +6,7 @@ const ListItemImageView = ({imageFolder, name, fileType, cssClassName, spriteShe
 
   /* Use CSS background-image (sprite sheet) for weapons, bows, shields, monsters, food, and materials - never individual <img> */
   /* Materials: use sprite when cssClassName present (food.png: fruit/mushrooms/veg/fish/shellfish; materials.png: enemy drops, insects, ores, plants, misc); else fall through to img */
-  if ((spriteSheet === 'weapons' || spriteSheet === 'bows' || spriteSheet === 'shields' || spriteSheet === 'monsters' || spriteSheet === 'food' || spriteSheet === 'animals' || (spriteSheet === 'materials' && cssClassName))) {
+  if ((spriteSheet === 'weapons' || spriteSheet === 'bows' || spriteSheet === 'shields' || spriteSheet === 'monsters' || spriteSheet === 'food' || spriteSheet === 'animals' || (spriteSheet === 'materials'))) {
     const spriteClassName = (cssClassName || name.replace(/ /g, '-').replace(/'/g, '').toLowerCase()).replace(/'/g, '');
     const baseClass = spriteSheet === 'weapons' ? 'weapon-sprite weapon-sprite-sm' : spriteSheet === 'bows' ? 'bow-sprite bow-sprite-sm' : spriteSheet === 'shields' ? 'shield-sprite shield-sprite-sm' : spriteSheet === 'monsters' ? 'monster-sprite monster-sprite-sm' : spriteSheet === 'food' ? 'food-sprite food-sprite-sm' : spriteSheet === 'animals' ? 'animal-sprite animal-sprite-sm' : 'material-sprite material-sprite-sm';
     return (
@@ -25,9 +25,7 @@ const ListItemImageView = ({imageFolder, name, fileType, cssClassName, spriteShe
     );
   }
 
-  return (
-    <img alt={imageName} className="resource-icon-list-view" src={`${imageFolder}/${imageName}.${fileType}`}/>
-  )
+  return (<></>)
 }
 
 export default ListItemImageView;

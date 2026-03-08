@@ -14,7 +14,7 @@ module.exports = [
       {
         "id": 126,
         "name": "Chuchu Jelly",
-        "cssClassName": null,
+        "cssClassName": "chuchu-jelly",
         "category": "materials"
       }
     ],
@@ -35,7 +35,7 @@ module.exports = [
       {
         "id": 128,
         "name": "Red Chuchu Jelly",
-        "cssClassName": null,
+        "cssClassName": "red-chuchu-jelly",
         "category": "materials"
       }
     ],
@@ -56,7 +56,7 @@ module.exports = [
       {
         "id": 127,
         "name": "White Chuchu Jelly",
-        "cssClassName": null,
+        "cssClassName": "white-chuchu-jelly",
         "category": "materials"
       }
     ],
@@ -77,7 +77,7 @@ module.exports = [
       {
         "id": 129,
         "name": "Yellow Chuchu Jelly",
-        "cssClassName": null,
+        "cssClassName": "yellow-chuchu-jelly",
         "category": "materials"
       }
     ],
@@ -98,7 +98,7 @@ module.exports = [
       {
         "id": 126,
         "name": "Chuchu Jelly",
-        "cssClassName": null,
+        "cssClassName": "chuchu-jelly",
         "category": "materials"
       }
     ],
@@ -119,7 +119,7 @@ module.exports = [
       {
         "id": 128,
         "name": "Red Chuchu Jelly",
-        "cssClassName": null,
+        "cssClassName": "red-chuchu-jelly",
         "category": "materials"
       }
     ],
@@ -140,7 +140,7 @@ module.exports = [
       {
         "id": 127,
         "name": "White Chuchu Jelly",
-        "cssClassName": null,
+        "cssClassName": "white-chuchu-jelly",
         "category": "materials"
       }
     ],
@@ -161,7 +161,7 @@ module.exports = [
       {
         "id": 129,
         "name": "Yellow Chuchu Jelly",
-        "cssClassName": null,
+        "cssClassName": "yellow-chuchu-jelly",
         "category": "materials"
       }
     ],
@@ -182,7 +182,7 @@ module.exports = [
       {
         "id": 126,
         "name": "Chuchu Jelly",
-        "cssClassName": null,
+        "cssClassName": "chuchu-jelly",
         "category": "materials"
       }
     ],
@@ -203,7 +203,7 @@ module.exports = [
       {
         "id": 128,
         "name": "Red Chuchu Jelly",
-        "cssClassName": null,
+        "cssClassName": "red-chuchu-jelly",
         "category": "materials"
       }
     ],
@@ -224,7 +224,7 @@ module.exports = [
       {
         "id": 127,
         "name": "White Chuchu Jelly",
-        "cssClassName": null,
+        "cssClassName": "white-chuchu-jelly",
         "category": "materials"
       }
     ],
@@ -245,7 +245,7 @@ module.exports = [
       {
         "id": 129,
         "name": "Yellow Chuchu Jelly",
-        "cssClassName": null,
+        "cssClassName": "yellow-chuchu-jelly",
         "category": "materials"
       }
     ],
@@ -266,13 +266,13 @@ module.exports = [
       {
         "id": 130,
         "name": "Keese Wing",
-        "cssClassName": null,
+        "cssClassName": "keese-wing",
         "category": "materials"
       },
       {
         "id": 134,
         "name": "Keese Eyeball",
-        "cssClassName": null,
+        "cssClassName": "keese-eyeball",
         "category": "materials"
       }
     ],
@@ -293,13 +293,13 @@ module.exports = [
       {
         "id": 132,
         "name": "Fire Keese Wing",
-        "cssClassName": null,
+        "cssClassName": "fire-keese-wing",
         "category": "materials"
       },
       {
         "id": 134,
         "name": "Keese Eyeball",
-        "cssClassName": null,
+        "cssClassName": "keese-eyeball",
         "category": "materials"
       }
     ],
@@ -320,13 +320,13 @@ module.exports = [
       {
         "id": 131,
         "name": "Ice Keese Wing",
-        "cssClassName": null,
+        "cssClassName": "ice-keese-wing",
         "category": "materials"
       },
       {
         "id": 134,
         "name": "Keese Eyeball",
-        "cssClassName": null,
+        "cssClassName": "keese-eyeball",
         "category": "materials"
       }
     ],
@@ -347,13 +347,13 @@ module.exports = [
       {
         "id": 133,
         "name": "Electric Keese Wing",
-        "cssClassName": null,
+        "cssClassName": "electric-keese-wing",
         "category": "materials"
       },
       {
         "id": 134,
         "name": "Keese Eyeball",
-        "cssClassName": null,
+        "cssClassName": "keese-eyeball",
         "category": "materials"
       }
     ],
@@ -374,19 +374,19 @@ module.exports = [
       {
         "id": 135,
         "name": "Octorok Tentacle",
-        "cssClassName": null,
+        "cssClassName": "octorok-tentacle",
         "category": "materials"
       },
       {
         "id": 137,
         "name": "Octo Balloon",
-        "cssClassName": null,
+        "cssClassName": "octo-balloon",
         "category": "materials"
       },
       {
         "id": 136,
         "name": "Octorok Eyeball",
-        "cssClassName": null,
+        "cssClassName": "octorok-eyeball",
         "category": "materials"
       }
     ],
@@ -407,19 +407,19 @@ module.exports = [
       {
         "id": 135,
         "name": "Octorok Tentacle",
-        "cssClassName": null,
+        "cssClassName": "octorok-tentacle",
         "category": "materials"
       },
       {
         "id": 137,
         "name": "Octo Balloon",
-        "cssClassName": null,
+        "cssClassName": "octo-balloon",
         "category": "materials"
       },
       {
         "id": 136,
         "name": "Octorok Eyeball",
-        "cssClassName": null,
+        "cssClassName": "octorok-eyeball",
         "category": "materials"
       }
     ],
@@ -440,19 +440,19 @@ module.exports = [
       {
         "id": 135,
         "name": "Octorok Tentacle",
-        "cssClassName": null,
+        "cssClassName": "octorok-tentacle",
         "category": "materials"
       },
       {
         "id": 137,
         "name": "Octo Balloon",
-        "cssClassName": null,
+        "cssClassName": "octo-balloon",
         "category": "materials"
       },
       {
         "id": 136,
         "name": "Octorok Eyeball",
-        "cssClassName": null,
+        "cssClassName": "octorok-eyeball",
         "category": "materials"
       }
     ],
@@ -473,19 +473,19 @@ module.exports = [
       {
         "id": 135,
         "name": "Octorok Tentacle",
-        "cssClassName": null,
+        "cssClassName": "octorok-tentacle",
         "category": "materials"
       },
       {
         "id": 137,
         "name": "Octo Balloon",
-        "cssClassName": null,
+        "cssClassName": "octo-balloon",
         "category": "materials"
       },
       {
         "id": 136,
         "name": "Octorok Eyeball",
-        "cssClassName": null,
+        "cssClassName": "octorok-eyeball",
         "category": "materials"
       }
     ],
@@ -506,19 +506,19 @@ module.exports = [
       {
         "id": 135,
         "name": "Octorok Tentacle",
-        "cssClassName": null,
+        "cssClassName": "octorok-tentacle",
         "category": "materials"
       },
       {
         "id": 137,
         "name": "Octo Balloon",
-        "cssClassName": null,
+        "cssClassName": "octo-balloon",
         "category": "materials"
       },
       {
         "id": 136,
         "name": "Octorok Eyeball",
-        "cssClassName": null,
+        "cssClassName": "octorok-eyeball",
         "category": "materials"
       }
     ],
@@ -537,10 +537,10 @@ module.exports = [
     ],
     "itemDrops": [
       {
-        "id": 0,
+        "id": 39,
         "name": "Fire Rod",
-        "cssClassName": null,
-        "category": "other"
+        "cssClassName": "fire-rod",
+        "category": "weapons"
       }
     ],
     "notes": "Weak to ice"
@@ -558,10 +558,10 @@ module.exports = [
     ],
     "itemDrops": [
       {
-        "id": 0,
+        "id": 41,
         "name": "Ice Rod",
-        "cssClassName": null,
-        "category": "other"
+        "cssClassName": "ice-rod",
+        "category": "weapons"
       }
     ],
     "notes": "Weak to fire"
@@ -579,10 +579,10 @@ module.exports = [
     ],
     "itemDrops": [
       {
-        "id": 0,
+        "id": 43,
         "name": "Lightning Rod",
-        "cssClassName": null,
-        "category": "other"
+        "cssClassName": "lightning-rod",
+        "category": "weapons"
       }
     ],
     "notes": ""
@@ -600,10 +600,10 @@ module.exports = [
     ],
     "itemDrops": [
       {
-        "id": 0,
+        "id": 40,
         "name": "Meteor Rod",
-        "cssClassName": null,
-        "category": "other"
+        "cssClassName": "meteor-rod",
+        "category": "weapons"
       }
     ],
     "notes": "Weak to ice"
@@ -621,10 +621,10 @@ module.exports = [
     ],
     "itemDrops": [
       {
-        "id": 0,
+        "id": 42,
         "name": "Blizzard Rod",
-        "cssClassName": null,
-        "category": "other"
+        "cssClassName": "blizzard-rod",
+        "category": "weapons"
       }
     ],
     "notes": "Weak to fire"
@@ -642,10 +642,10 @@ module.exports = [
     ],
     "itemDrops": [
       {
-        "id": 0,
+        "id": 44,
         "name": "Thunderstorm Rod",
-        "cssClassName": null,
-        "category": "other"
+        "cssClassName": "thunderstorm-rod",
+        "category": "weapons"
       }
     ],
     "notes": ""
@@ -665,13 +665,13 @@ module.exports = [
       {
         "id": 111,
         "name": "Bokoblin Horn",
-        "cssClassName": null,
+        "cssClassName": "bokoblin-horn",
         "category": "materials"
       },
       {
         "id": 112,
         "name": "Bokoblin Fang",
-        "cssClassName": null,
+        "cssClassName": "bokoblin-fang",
         "category": "materials"
       }
     ],
@@ -692,19 +692,19 @@ module.exports = [
       {
         "id": 111,
         "name": "Bokoblin Horn",
-        "cssClassName": null,
+        "cssClassName": "bokoblin-horn",
         "category": "materials"
       },
       {
         "id": 112,
         "name": "Bokoblin Fang",
-        "cssClassName": null,
+        "cssClassName": "bokoblin-fang",
         "category": "materials"
       },
       {
         "id": 113,
         "name": "Bokoblin Guts",
-        "cssClassName": null,
+        "cssClassName": "bokoblin-guts",
         "category": "materials"
       }
     ],
@@ -725,19 +725,19 @@ module.exports = [
       {
         "id": 111,
         "name": "Bokoblin Horn",
-        "cssClassName": null,
+        "cssClassName": "bokoblin-horn",
         "category": "materials"
       },
       {
         "id": 112,
         "name": "Bokoblin Fang",
-        "cssClassName": null,
+        "cssClassName": "bokoblin-fang",
         "category": "materials"
       },
       {
         "id": 113,
         "name": "Bokoblin Guts",
-        "cssClassName": null,
+        "cssClassName": "bokoblin-guts",
         "category": "materials"
       }
     ],
@@ -758,13 +758,13 @@ module.exports = [
       {
         "id": 111,
         "name": "Bokoblin Horn",
-        "cssClassName": null,
+        "cssClassName": "bokoblin-horn",
         "category": "materials"
       },
       {
         "id": 112,
         "name": "Bokoblin Fang",
-        "cssClassName": null,
+        "cssClassName": "bokoblin-fang",
         "category": "materials"
       }
     ],
@@ -784,55 +784,55 @@ module.exports = [
       {
         "id": 111,
         "name": "Bokoblin Horn",
-        "cssClassName": null,
+        "cssClassName": "bokoblin-horn",
         "category": "materials"
       },
       {
         "id": 112,
         "name": "Bokoblin Fang",
-        "cssClassName": null,
+        "cssClassName": "bokoblin-fang",
         "category": "materials"
       },
       {
         "id": 113,
         "name": "Bokoblin Guts",
-        "cssClassName": null,
+        "cssClassName": "bokoblin-guts",
         "category": "materials"
       },
       {
         "id": 104,
         "name": "Amber",
-        "cssClassName": null,
+        "cssClassName": "amber",
         "category": "materials"
       },
       {
         "id": 105,
         "name": "Opal",
-        "cssClassName": null,
+        "cssClassName": "opal",
         "category": "materials"
       },
       {
         "id": 107,
         "name": "Topaz",
-        "cssClassName": null,
+        "cssClassName": "topaz",
         "category": "materials"
       },
       {
         "id": 108,
         "name": "Ruby",
-        "cssClassName": null,
+        "cssClassName": "ruby",
         "category": "materials"
       },
       {
         "id": 109,
         "name": "Sapphire",
-        "cssClassName": null,
+        "cssClassName": "sapphire",
         "category": "materials"
       },
       {
         "id": 110,
         "name": "Diamond",
-        "cssClassName": null,
+        "cssClassName": "diamond",
         "category": "materials"
       }
     ],
@@ -853,13 +853,13 @@ module.exports = [
       {
         "id": 114,
         "name": "Moblin Horn",
-        "cssClassName": null,
+        "cssClassName": "moblin-horn",
         "category": "materials"
       },
       {
         "id": 115,
         "name": "Moblin Fang",
-        "cssClassName": null,
+        "cssClassName": "moblin-fang",
         "category": "materials"
       }
     ],
@@ -880,19 +880,19 @@ module.exports = [
       {
         "id": 114,
         "name": "Moblin Horn",
-        "cssClassName": null,
+        "cssClassName": "moblin-horn",
         "category": "materials"
       },
       {
         "id": 115,
         "name": "Moblin Fang",
-        "cssClassName": null,
+        "cssClassName": "moblin-fang",
         "category": "materials"
       },
       {
         "id": 116,
         "name": "Moblin Guts",
-        "cssClassName": null,
+        "cssClassName": "moblin-guts",
         "category": "materials"
       }
     ],
@@ -913,19 +913,19 @@ module.exports = [
       {
         "id": 114,
         "name": "Moblin Horn",
-        "cssClassName": null,
+        "cssClassName": "moblin-horn",
         "category": "materials"
       },
       {
         "id": 115,
         "name": "Moblin Fang",
-        "cssClassName": null,
+        "cssClassName": "moblin-fang",
         "category": "materials"
       },
       {
         "id": 116,
         "name": "Moblin Guts",
-        "cssClassName": null,
+        "cssClassName": "moblin-guts",
         "category": "materials"
       }
     ],
@@ -946,13 +946,13 @@ module.exports = [
       {
         "id": 114,
         "name": "Moblin Horn",
-        "cssClassName": null,
+        "cssClassName": "moblin-horn",
         "category": "materials"
       },
       {
         "id": 115,
         "name": "Moblin Fang",
-        "cssClassName": null,
+        "cssClassName": "moblin-fang",
         "category": "materials"
       }
     ],
@@ -972,55 +972,55 @@ module.exports = [
       {
         "id": 114,
         "name": "Moblin Horn",
-        "cssClassName": null,
+        "cssClassName": "moblin-horn",
         "category": "materials"
       },
       {
         "id": 115,
         "name": "Moblin Fang",
-        "cssClassName": null,
+        "cssClassName": "moblin-fang",
         "category": "materials"
       },
       {
         "id": 116,
         "name": "Moblin Guts",
-        "cssClassName": null,
+        "cssClassName": "moblin-guts",
         "category": "materials"
       },
       {
         "id": 104,
         "name": "Amber",
-        "cssClassName": null,
+        "cssClassName": "amber",
         "category": "materials"
       },
       {
         "id": 105,
         "name": "Opal",
-        "cssClassName": null,
+        "cssClassName": "opal",
         "category": "materials"
       },
       {
         "id": 107,
         "name": "Topaz",
-        "cssClassName": null,
+        "cssClassName": "topaz",
         "category": "materials"
       },
       {
         "id": 108,
         "name": "Ruby",
-        "cssClassName": null,
+        "cssClassName": "ruby",
         "category": "materials"
       },
       {
         "id": 109,
         "name": "Sapphire",
-        "cssClassName": null,
+        "cssClassName": "sapphire",
         "category": "materials"
       },
       {
         "id": 110,
         "name": "Diamond",
-        "cssClassName": null,
+        "cssClassName": "diamond",
         "category": "materials"
       }
     ],
@@ -1041,13 +1041,13 @@ module.exports = [
       {
         "id": 117,
         "name": "Lizalfos Horn",
-        "cssClassName": null,
+        "cssClassName": "lizalfos-horn",
         "category": "materials"
       },
       {
         "id": 118,
         "name": "Lizalfos Talon",
-        "cssClassName": null,
+        "cssClassName": "lizalfos-talon",
         "category": "materials"
       }
     ],
@@ -1068,19 +1068,19 @@ module.exports = [
       {
         "id": 117,
         "name": "Lizalfos Horn",
-        "cssClassName": null,
+        "cssClassName": "lizalfos-horn",
         "category": "materials"
       },
       {
         "id": 118,
         "name": "Lizalfos Talon",
-        "cssClassName": null,
+        "cssClassName": "lizalfos-talon",
         "category": "materials"
       },
       {
         "id": 119,
         "name": "Lizalfos Tail",
-        "cssClassName": null,
+        "cssClassName": "lizalfos-tail",
         "category": "materials"
       }
     ],
@@ -1101,19 +1101,19 @@ module.exports = [
       {
         "id": 117,
         "name": "Lizalfos Horn",
-        "cssClassName": null,
+        "cssClassName": "lizalfos-horn",
         "category": "materials"
       },
       {
         "id": 118,
         "name": "Lizalfos Talon",
-        "cssClassName": null,
+        "cssClassName": "lizalfos-talon",
         "category": "materials"
       },
       {
         "id": 119,
         "name": "Lizalfos Tail",
-        "cssClassName": null,
+        "cssClassName": "lizalfos-tail",
         "category": "materials"
       }
     ],
@@ -1134,13 +1134,13 @@ module.exports = [
       {
         "id": 117,
         "name": "Lizalfos Horn",
-        "cssClassName": null,
+        "cssClassName": "lizalfos-horn",
         "category": "materials"
       },
       {
         "id": 118,
         "name": "Lizalfos Talon",
-        "cssClassName": null,
+        "cssClassName": "lizalfos-talon",
         "category": "materials"
       }
     ],
@@ -1161,19 +1161,19 @@ module.exports = [
       {
         "id": 117,
         "name": "Lizalfos Horn",
-        "cssClassName": null,
+        "cssClassName": "lizalfos-horn",
         "category": "materials"
       },
       {
         "id": 118,
         "name": "Lizalfos Talon",
-        "cssClassName": null,
+        "cssClassName": "lizalfos-talon",
         "category": "materials"
       },
       {
         "id": 121,
         "name": "Red Lizalfos Tail",
-        "cssClassName": null,
+        "cssClassName": "red-lizalfos-tail",
         "category": "materials"
       }
     ],
@@ -1194,19 +1194,19 @@ module.exports = [
       {
         "id": 117,
         "name": "Lizalfos Horn",
-        "cssClassName": null,
+        "cssClassName": "lizalfos-horn",
         "category": "materials"
       },
       {
         "id": 118,
         "name": "Lizalfos Talon",
-        "cssClassName": null,
+        "cssClassName": "lizalfos-talon",
         "category": "materials"
       },
       {
         "id": 120,
         "name": "Icy Lizalfos Tail",
-        "cssClassName": null,
+        "cssClassName": "icy-lizalfos-tail",
         "category": "materials"
       }
     ],
@@ -1227,19 +1227,19 @@ module.exports = [
       {
         "id": 117,
         "name": "Lizalfos Horn",
-        "cssClassName": null,
+        "cssClassName": "lizalfos-horn",
         "category": "materials"
       },
       {
         "id": 118,
         "name": "Lizalfos Talon",
-        "cssClassName": null,
+        "cssClassName": "lizalfos-talon",
         "category": "materials"
       },
       {
         "id": 122,
         "name": "Yellow Lizalfos Tail",
-        "cssClassName": null,
+        "cssClassName": "yellow-lizalfos-tail",
         "category": "materials"
       }
     ],
@@ -1259,55 +1259,55 @@ module.exports = [
       {
         "id": 117,
         "name": "Lizalfos Horn",
-        "cssClassName": null,
+        "cssClassName": "lizalfos-horn",
         "category": "materials"
       },
       {
         "id": 118,
         "name": "Lizalfos Talon",
-        "cssClassName": null,
+        "cssClassName": "lizalfos-talon",
         "category": "materials"
       },
       {
         "id": 119,
         "name": "Lizalfos Tail",
-        "cssClassName": null,
+        "cssClassName": "lizalfos-tail",
         "category": "materials"
       },
       {
         "id": 104,
         "name": "Amber",
-        "cssClassName": null,
+        "cssClassName": "amber",
         "category": "materials"
       },
       {
         "id": 105,
         "name": "Opal",
-        "cssClassName": null,
+        "cssClassName": "opal",
         "category": "materials"
       },
       {
         "id": 107,
         "name": "Topaz",
-        "cssClassName": null,
+        "cssClassName": "topaz",
         "category": "materials"
       },
       {
         "id": 108,
         "name": "Ruby",
-        "cssClassName": null,
+        "cssClassName": "ruby",
         "category": "materials"
       },
       {
         "id": 109,
         "name": "Sapphire",
-        "cssClassName": null,
+        "cssClassName": "sapphire",
         "category": "materials"
       },
       {
         "id": 110,
         "name": "Diamond",
-        "cssClassName": null,
+        "cssClassName": "diamond",
         "category": "materials"
       }
     ],
@@ -1328,31 +1328,31 @@ module.exports = [
       {
         "id": 9,
         "name": "Mighty Bananas",
-        "cssClassName": null,
+        "cssClassName": "mighty-bananas",
         "category": "materials"
       },
       {
         "id": 0,
         "name": "Rupees (Green",
-        "cssClassName": null,
+        "cssClassName": "rupees-green",
         "category": "other"
       },
       {
         "id": 0,
         "name": " Blue",
-        "cssClassName": null,
+        "cssClassName": "-blue",
         "category": "other"
       },
       {
         "id": 0,
         "name": " Red",
-        "cssClassName": null,
+        "cssClassName": "-red",
         "category": "other"
       },
       {
         "id": 0,
         "name": " Purple)",
-        "cssClassName": null,
+        "cssClassName": "-purple",
         "category": "other"
       }
     ],
@@ -1372,37 +1372,37 @@ module.exports = [
       {
         "id": 104,
         "name": "Amber",
-        "cssClassName": null,
+        "cssClassName": "amber",
         "category": "materials"
       },
       {
         "id": 105,
         "name": "Opal",
-        "cssClassName": null,
+        "cssClassName": "opal",
         "category": "materials"
       },
       {
         "id": 107,
         "name": "Topaz",
-        "cssClassName": null,
+        "cssClassName": "topaz",
         "category": "materials"
       },
       {
         "id": 108,
         "name": "Ruby",
-        "cssClassName": null,
+        "cssClassName": "ruby",
         "category": "materials"
       },
       {
         "id": 109,
         "name": "Sapphire",
-        "cssClassName": null,
+        "cssClassName": "sapphire",
         "category": "materials"
       },
       {
         "id": 9,
         "name": "Mighty Bananas",
-        "cssClassName": null,
+        "cssClassName": "mighty-bananas",
         "category": "materials"
       }
     ],
@@ -1474,37 +1474,37 @@ module.exports = [
       {
         "id": 143,
         "name": "Ancient Screw",
-        "cssClassName": null,
+        "cssClassName": "ancient-screw",
         "category": "materials"
       },
       {
         "id": 144,
         "name": "Ancient Spring",
-        "cssClassName": null,
+        "cssClassName": "ancient-spring",
         "category": "materials"
       },
       {
         "id": 145,
         "name": "Ancient Gear",
-        "cssClassName": null,
+        "cssClassName": "ancient-gear",
         "category": "materials"
       },
       {
         "id": 146,
         "name": "Ancient Shaft",
-        "cssClassName": null,
+        "cssClassName": "ancient-shaft",
         "category": "materials"
       },
       {
         "id": 147,
         "name": "Ancient Core",
-        "cssClassName": null,
+        "cssClassName": "ancient-core",
         "category": "materials"
       },
       {
         "id": 148,
         "name": "Giant Ancient Core",
-        "cssClassName": null,
+        "cssClassName": "giant-ancient-core",
         "category": "materials"
       }
     ],
@@ -1525,37 +1525,37 @@ module.exports = [
       {
         "id": 143,
         "name": "Ancient Screw",
-        "cssClassName": null,
+        "cssClassName": "ancient-screw",
         "category": "materials"
       },
       {
         "id": 144,
         "name": "Ancient Spring",
-        "cssClassName": null,
+        "cssClassName": "ancient-spring",
         "category": "materials"
       },
       {
         "id": 145,
         "name": "Ancient Gear",
-        "cssClassName": null,
+        "cssClassName": "ancient-gear",
         "category": "materials"
       },
       {
         "id": 146,
         "name": "Ancient Shaft",
-        "cssClassName": null,
+        "cssClassName": "ancient-shaft",
         "category": "materials"
       },
       {
         "id": 147,
         "name": "Ancient Core",
-        "cssClassName": null,
+        "cssClassName": "ancient-core",
         "category": "materials"
       },
       {
         "id": 148,
         "name": "Giant Ancient Core",
-        "cssClassName": null,
+        "cssClassName": "giant-ancient-core",
         "category": "materials"
       }
     ],
@@ -1575,37 +1575,37 @@ module.exports = [
       {
         "id": 143,
         "name": "Ancient Screw",
-        "cssClassName": null,
+        "cssClassName": "ancient-screw",
         "category": "materials"
       },
       {
         "id": 144,
         "name": "Ancient Spring",
-        "cssClassName": null,
+        "cssClassName": "ancient-spring",
         "category": "materials"
       },
       {
         "id": 145,
         "name": "Ancient Gear",
-        "cssClassName": null,
+        "cssClassName": "ancient-gear",
         "category": "materials"
       },
       {
         "id": 146,
         "name": "Ancient Shaft",
-        "cssClassName": null,
+        "cssClassName": "ancient-shaft",
         "category": "materials"
       },
       {
         "id": 147,
         "name": "Ancient Core",
-        "cssClassName": null,
+        "cssClassName": "ancient-core",
         "category": "materials"
       },
       {
         "id": 148,
         "name": "Giant Ancient Core",
-        "cssClassName": null,
+        "cssClassName": "giant-ancient-core",
         "category": "materials"
       }
     ],
@@ -1626,25 +1626,25 @@ module.exports = [
       {
         "id": 143,
         "name": "Ancient Screw",
-        "cssClassName": null,
+        "cssClassName": "ancient-screw",
         "category": "materials"
       },
       {
         "id": 144,
         "name": "Ancient Spring",
-        "cssClassName": null,
+        "cssClassName": "ancient-spring",
         "category": "materials"
       },
       {
         "id": 145,
         "name": "Ancient Gear",
-        "cssClassName": null,
+        "cssClassName": "ancient-gear",
         "category": "materials"
       },
       {
         "id": 146,
         "name": "Ancient Shaft",
-        "cssClassName": null,
+        "cssClassName": "ancient-shaft",
         "category": "materials"
       }
     ],
@@ -1665,31 +1665,31 @@ module.exports = [
       {
         "id": 143,
         "name": "Ancient Screw",
-        "cssClassName": null,
+        "cssClassName": "ancient-screw",
         "category": "materials"
       },
       {
         "id": 144,
         "name": "Ancient Spring",
-        "cssClassName": null,
+        "cssClassName": "ancient-spring",
         "category": "materials"
       },
       {
         "id": 145,
         "name": "Ancient Gear",
-        "cssClassName": null,
+        "cssClassName": "ancient-gear",
         "category": "materials"
       },
       {
         "id": 146,
         "name": "Ancient Shaft",
-        "cssClassName": null,
+        "cssClassName": "ancient-shaft",
         "category": "materials"
       },
       {
         "id": 147,
         "name": "Ancient Core",
-        "cssClassName": null,
+        "cssClassName": "ancient-core",
         "category": "materials"
       }
     ],
@@ -1709,13 +1709,13 @@ module.exports = [
       {
         "id": 143,
         "name": "Ancient Screw",
-        "cssClassName": null,
+        "cssClassName": "ancient-screw",
         "category": "materials"
       },
       {
         "id": 144,
         "name": "Ancient Spring",
-        "cssClassName": null,
+        "cssClassName": "ancient-spring",
         "category": "materials"
       }
     ],
@@ -1735,25 +1735,25 @@ module.exports = [
       {
         "id": 143,
         "name": "Ancient Screw",
-        "cssClassName": null,
+        "cssClassName": "ancient-screw",
         "category": "materials"
       },
       {
         "id": 144,
         "name": "Ancient Spring",
-        "cssClassName": null,
+        "cssClassName": "ancient-spring",
         "category": "materials"
       },
       {
         "id": 145,
         "name": "Ancient Gear",
-        "cssClassName": null,
+        "cssClassName": "ancient-gear",
         "category": "materials"
       },
       {
         "id": 146,
         "name": "Ancient Shaft",
-        "cssClassName": null,
+        "cssClassName": "ancient-shaft",
         "category": "materials"
       }
     ],
@@ -1773,31 +1773,31 @@ module.exports = [
       {
         "id": 143,
         "name": "Ancient Screw",
-        "cssClassName": null,
+        "cssClassName": "ancient-screw",
         "category": "materials"
       },
       {
         "id": 144,
         "name": "Ancient Spring",
-        "cssClassName": null,
+        "cssClassName": "ancient-spring",
         "category": "materials"
       },
       {
         "id": 145,
         "name": "Ancient Gear",
-        "cssClassName": null,
+        "cssClassName": "ancient-gear",
         "category": "materials"
       },
       {
         "id": 146,
         "name": "Ancient Shaft",
-        "cssClassName": null,
+        "cssClassName": "ancient-shaft",
         "category": "materials"
       },
       {
         "id": 147,
         "name": "Ancient Core",
-        "cssClassName": null,
+        "cssClassName": "ancient-core",
         "category": "materials"
       }
     ],
@@ -1817,31 +1817,31 @@ module.exports = [
       {
         "id": 143,
         "name": "Ancient Screw",
-        "cssClassName": null,
+        "cssClassName": "ancient-screw",
         "category": "materials"
       },
       {
         "id": 144,
         "name": "Ancient Spring",
-        "cssClassName": null,
+        "cssClassName": "ancient-spring",
         "category": "materials"
       },
       {
         "id": 145,
         "name": "Ancient Gear",
-        "cssClassName": null,
+        "cssClassName": "ancient-gear",
         "category": "materials"
       },
       {
         "id": 146,
         "name": "Ancient Shaft",
-        "cssClassName": null,
+        "cssClassName": "ancient-shaft",
         "category": "materials"
       },
       {
         "id": 147,
         "name": "Ancient Core",
-        "cssClassName": null,
+        "cssClassName": "ancient-core",
         "category": "materials"
       }
     ],
@@ -1861,25 +1861,25 @@ module.exports = [
       {
         "id": 103,
         "name": "Flint",
-        "cssClassName": null,
+        "cssClassName": "flint",
         "category": "materials"
       },
       {
         "id": 104,
         "name": "Amber",
-        "cssClassName": null,
+        "cssClassName": "amber",
         "category": "materials"
       },
       {
         "id": 105,
         "name": "Opal",
-        "cssClassName": null,
+        "cssClassName": "opal",
         "category": "materials"
       },
       {
         "id": 108,
         "name": "Ruby",
-        "cssClassName": null,
+        "cssClassName": "ruby",
         "category": "materials"
       }
     ],
@@ -1899,37 +1899,37 @@ module.exports = [
       {
         "id": 103,
         "name": "Flint",
-        "cssClassName": null,
+        "cssClassName": "flint",
         "category": "materials"
       },
       {
         "id": 104,
         "name": "Amber",
-        "cssClassName": null,
+        "cssClassName": "amber",
         "category": "materials"
       },
       {
         "id": 105,
         "name": "Opal",
-        "cssClassName": null,
+        "cssClassName": "opal",
         "category": "materials"
       },
       {
         "id": 106,
         "name": "Luminous Stone",
-        "cssClassName": null,
+        "cssClassName": "luminous-stone",
         "category": "materials"
       },
       {
         "id": 107,
         "name": "Topaz",
-        "cssClassName": null,
+        "cssClassName": "topaz",
         "category": "materials"
       },
       {
         "id": 110,
         "name": "Diamond",
-        "cssClassName": null,
+        "cssClassName": "diamond",
         "category": "materials"
       }
     ],
@@ -1949,37 +1949,37 @@ module.exports = [
       {
         "id": 103,
         "name": "Flint",
-        "cssClassName": null,
+        "cssClassName": "flint",
         "category": "materials"
       },
       {
         "id": 104,
         "name": "Amber",
-        "cssClassName": null,
+        "cssClassName": "amber",
         "category": "materials"
       },
       {
         "id": 105,
         "name": "Opal",
-        "cssClassName": null,
+        "cssClassName": "opal",
         "category": "materials"
       },
       {
         "id": 107,
         "name": "Topaz",
-        "cssClassName": null,
+        "cssClassName": "topaz",
         "category": "materials"
       },
       {
         "id": 109,
         "name": "Sapphire",
-        "cssClassName": null,
+        "cssClassName": "sapphire",
         "category": "materials"
       },
       {
         "id": 110,
         "name": "Diamond",
-        "cssClassName": null,
+        "cssClassName": "diamond",
         "category": "materials"
       }
     ],
@@ -1999,25 +1999,25 @@ module.exports = [
       {
         "id": 103,
         "name": "Flint",
-        "cssClassName": null,
+        "cssClassName": "flint",
         "category": "materials"
       },
       {
         "id": 105,
         "name": "Opal",
-        "cssClassName": null,
+        "cssClassName": "opal",
         "category": "materials"
       },
       {
         "id": 108,
         "name": "Ruby",
-        "cssClassName": null,
+        "cssClassName": "ruby",
         "category": "materials"
       },
       {
         "id": 110,
         "name": "Diamond",
-        "cssClassName": null,
+        "cssClassName": "diamond",
         "category": "materials"
       }
     ],
@@ -2037,25 +2037,25 @@ module.exports = [
       {
         "id": 103,
         "name": "Flint",
-        "cssClassName": null,
+        "cssClassName": "flint",
         "category": "materials"
       },
       {
         "id": 105,
         "name": "Opal",
-        "cssClassName": null,
+        "cssClassName": "opal",
         "category": "materials"
       },
       {
         "id": 109,
         "name": "Sapphire",
-        "cssClassName": null,
+        "cssClassName": "sapphire",
         "category": "materials"
       },
       {
         "id": 110,
         "name": "Diamond",
-        "cssClassName": null,
+        "cssClassName": "diamond",
         "category": "materials"
       }
     ],
@@ -2075,19 +2075,19 @@ module.exports = [
       {
         "id": 103,
         "name": "Flint",
-        "cssClassName": null,
+        "cssClassName": "flint",
         "category": "materials"
       },
       {
         "id": 104,
         "name": "Amber",
-        "cssClassName": null,
+        "cssClassName": "amber",
         "category": "materials"
       },
       {
         "id": 105,
         "name": "Opal",
-        "cssClassName": null,
+        "cssClassName": "opal",
         "category": "materials"
       }
     ],
@@ -2108,19 +2108,19 @@ module.exports = [
       {
         "id": 103,
         "name": "Flint",
-        "cssClassName": null,
+        "cssClassName": "flint",
         "category": "materials"
       },
       {
         "id": 104,
         "name": "Amber",
-        "cssClassName": null,
+        "cssClassName": "amber",
         "category": "materials"
       },
       {
         "id": 108,
         "name": "Ruby",
-        "cssClassName": null,
+        "cssClassName": "ruby",
         "category": "materials"
       }
     ],
@@ -2141,19 +2141,19 @@ module.exports = [
       {
         "id": 103,
         "name": "Flint",
-        "cssClassName": null,
+        "cssClassName": "flint",
         "category": "materials"
       },
       {
         "id": 104,
         "name": "Amber",
-        "cssClassName": null,
+        "cssClassName": "amber",
         "category": "materials"
       },
       {
         "id": 108,
         "name": "Ruby",
-        "cssClassName": null,
+        "cssClassName": "ruby",
         "category": "materials"
       }
     ],
@@ -2173,62 +2173,62 @@ module.exports = [
       {
         "id": 140,
         "name": "Hinox Toenail",
-        "cssClassName": null,
+        "cssClassName": "hinox-toenail",
         "category": "materials"
       },
       {
         "id": 141,
         "name": "Hinox Tooth",
-        "cssClassName": null,
+        "cssClassName": "hinox-tooth",
         "category": "materials"
       },
       {
         "id": 142,
         "name": "Hinox Guts",
-        "cssClassName": null,
+        "cssClassName": "hinox-guts",
         "category": "materials"
       },
       {
         "id": 3,
         "name": "Apple",
-        "cssClassName": null,
+        "cssClassName": "apple",
         "category": "materials"
       },
       {
         "id": 4,
         "name": "Wildberry",
-        "cssClassName": null,
+        "cssClassName": "wildberry",
         "category": "materials"
       },
       {
         "id": 2,
         "name": "Palm Fruit",
-        "cssClassName": null,
+        "cssClassName": "palm-fruit",
         "category": "materials"
       },
       {
         "id": 7,
         "name": "Voltfruit",
-        "cssClassName": null,
+        "cssClassName": "voltfruit",
         "category": "materials"
       },
       {
         "id": 9,
         "name": "Mighty Bananas",
-        "cssClassName": null,
+        "cssClassName": "mighty-bananas",
         "category": "materials"
       },
       {
         "id": 1,
         "name": "Hearty Durian",
-        "cssClassName": null,
+        "cssClassName": "hearty-durian",
         "category": "materials"
       },
       {
-        "id": 0,
-        "name": "Fortified Pumpkins",
-        "cssClassName": null,
-        "category": "other"
+        "id": 27,
+        "name": "Fortified Pumpkin",
+        "cssClassName": "fortified-pumpkin",
+        "category": "materials"
       }
     ],
     "notes": ""
@@ -2247,74 +2247,74 @@ module.exports = [
       {
         "id": 140,
         "name": "Hinox Toenail",
-        "cssClassName": null,
+        "cssClassName": "hinox-toenail",
         "category": "materials"
       },
       {
         "id": 141,
         "name": "Hinox Tooth",
-        "cssClassName": null,
+        "cssClassName": "hinox-tooth",
         "category": "materials"
       },
       {
         "id": 142,
         "name": "Hinox Guts",
-        "cssClassName": null,
+        "cssClassName": "hinox-guts",
         "category": "materials"
       },
       {
         "id": 16,
         "name": "Roasted Bass",
-        "cssClassName": null,
-        "category": "food"
+        "cssClassName": "roasted-bass",
+        "category": "other"
       },
       {
         "id": 17,
         "name": "Roasted Hearty Bass",
-        "cssClassName": null,
-        "category": "food"
+        "cssClassName": "roasted-hearty-bass",
+        "category": "other"
       },
       {
         "id": 18,
         "name": "Roasted Hearty Salmon",
-        "cssClassName": null,
-        "category": "food"
+        "cssClassName": "roasted-hearty-salmon",
+        "category": "other"
       },
       {
         "id": 19,
         "name": "Roasted Trout",
-        "cssClassName": null,
-        "category": "food"
+        "cssClassName": "roasted-trout",
+        "category": "other"
       },
       {
         "id": 20,
         "name": "Roasted Carp",
-        "cssClassName": null,
-        "category": "food"
+        "cssClassName": "roasted-carp",
+        "category": "other"
       },
       {
         "id": 21,
         "name": "Roasted Porgy",
-        "cssClassName": null,
-        "category": "food"
+        "cssClassName": "roasted-porgy",
+        "category": "other"
       },
       {
         "id": 22,
         "name": "Sneaky River Escargot",
-        "cssClassName": null,
-        "category": "food"
+        "cssClassName": "sneaky-river-escargot",
+        "category": "other"
       },
       {
         "id": 23,
         "name": "Blueshell Escargot",
-        "cssClassName": null,
-        "category": "food"
+        "cssClassName": "blueshell-escargot",
+        "category": "other"
       },
       {
         "id": 24,
         "name": "Blackened Crab",
-        "cssClassName": null,
-        "category": "food"
+        "cssClassName": "blackened-crab",
+        "category": "other"
       }
     ],
     "notes": ""
@@ -2333,56 +2333,56 @@ module.exports = [
       {
         "id": 140,
         "name": "Hinox Toenail",
-        "cssClassName": null,
+        "cssClassName": "hinox-toenail",
         "category": "materials"
       },
       {
         "id": 141,
         "name": "Hinox Tooth",
-        "cssClassName": null,
+        "cssClassName": "hinox-tooth",
         "category": "materials"
       },
       {
         "id": 142,
         "name": "Hinox Guts",
-        "cssClassName": null,
+        "cssClassName": "hinox-guts",
         "category": "materials"
       },
       {
         "id": 38,
         "name": "Seared Steak",
-        "cssClassName": null,
-        "category": "food"
+        "cssClassName": "seared-steak",
+        "category": "other"
       },
       {
         "id": 39,
         "name": "Seared Prime Steak",
-        "cssClassName": null,
-        "category": "food"
+        "cssClassName": "seared-prime-steak",
+        "category": "other"
       },
       {
         "id": 40,
         "name": "Seared Gourmet Steak",
-        "cssClassName": null,
-        "category": "food"
+        "cssClassName": "seared-gourmet-steak",
+        "category": "other"
       },
       {
         "id": 41,
         "name": "Roasted Bird Drumstick",
-        "cssClassName": null,
-        "category": "food"
+        "cssClassName": "roasted-bird-drumstick",
+        "category": "other"
       },
       {
         "id": 42,
         "name": "Roasted Bird Thigh",
-        "cssClassName": null,
-        "category": "food"
+        "cssClassName": "roasted-bird-thigh",
+        "category": "other"
       },
       {
         "id": 43,
         "name": "Roasted Whole Bird",
-        "cssClassName": null,
-        "category": "food"
+        "cssClassName": "roasted-whole-bird",
+        "category": "other"
       }
     ],
     "notes": ""
@@ -2401,7 +2401,7 @@ module.exports = [
       {
         "id": 141,
         "name": "Hinox Tooth",
-        "cssClassName": null,
+        "cssClassName": "hinox-tooth",
         "category": "materials"
       }
     ],
@@ -2421,19 +2421,19 @@ module.exports = [
       {
         "id": 138,
         "name": "Molduga Fin",
-        "cssClassName": null,
+        "cssClassName": "molduga-fin",
         "category": "materials"
       },
       {
         "id": 139,
         "name": "Molduga Guts",
-        "cssClassName": null,
+        "cssClassName": "molduga-guts",
         "category": "materials"
       },
       {
         "id": 0,
         "name": "Treasure Chests",
-        "cssClassName": null,
+        "cssClassName": "treasure-chests",
         "category": "other"
       }
     ],
@@ -2453,19 +2453,19 @@ module.exports = [
       {
         "id": 123,
         "name": "Lynel Horn",
-        "cssClassName": null,
+        "cssClassName": "lynel-horn",
         "category": "materials"
       },
       {
         "id": 124,
         "name": "Lynel Hoof",
-        "cssClassName": null,
+        "cssClassName": "lynel-hoof",
         "category": "materials"
       },
       {
         "id": 125,
         "name": "Lynel Guts",
-        "cssClassName": null,
+        "cssClassName": "lynel-guts",
         "category": "materials"
       }
     ],
@@ -2485,19 +2485,19 @@ module.exports = [
       {
         "id": 123,
         "name": "Lynel Horn",
-        "cssClassName": null,
+        "cssClassName": "lynel-horn",
         "category": "materials"
       },
       {
         "id": 124,
         "name": "Lynel Hoof",
-        "cssClassName": null,
+        "cssClassName": "lynel-hoof",
         "category": "materials"
       },
       {
         "id": 125,
         "name": "Lynel Guts",
-        "cssClassName": null,
+        "cssClassName": "lynel-guts",
         "category": "materials"
       }
     ],
@@ -2517,19 +2517,19 @@ module.exports = [
       {
         "id": 123,
         "name": "Lynel Horn",
-        "cssClassName": null,
+        "cssClassName": "lynel-horn",
         "category": "materials"
       },
       {
         "id": 124,
         "name": "Lynel Hoof",
-        "cssClassName": null,
+        "cssClassName": "lynel-hoof",
         "category": "materials"
       },
       {
         "id": 125,
         "name": "Lynel Guts",
-        "cssClassName": null,
+        "cssClassName": "lynel-guts",
         "category": "materials"
       }
     ],
@@ -2549,55 +2549,55 @@ module.exports = [
       {
         "id": 123,
         "name": "Lynel Horn",
-        "cssClassName": null,
+        "cssClassName": "lynel-horn",
         "category": "materials"
       },
       {
         "id": 124,
         "name": "Lynel Hoof",
-        "cssClassName": null,
+        "cssClassName": "lynel-hoof",
         "category": "materials"
       },
       {
         "id": 125,
         "name": "Lynel Guts",
-        "cssClassName": null,
+        "cssClassName": "lynel-guts",
         "category": "materials"
       },
       {
         "id": 104,
         "name": "Amber",
-        "cssClassName": null,
+        "cssClassName": "amber",
         "category": "materials"
       },
       {
         "id": 105,
         "name": "Opal",
-        "cssClassName": null,
+        "cssClassName": "opal",
         "category": "materials"
       },
       {
         "id": 107,
         "name": "Topaz",
-        "cssClassName": null,
+        "cssClassName": "topaz",
         "category": "materials"
       },
       {
         "id": 108,
         "name": "Ruby",
-        "cssClassName": null,
+        "cssClassName": "ruby",
         "category": "materials"
       },
       {
         "id": 109,
         "name": "Sapphire",
-        "cssClassName": null,
+        "cssClassName": "sapphire",
         "category": "materials"
       },
       {
         "id": 110,
         "name": "Diamond",
-        "cssClassName": null,
+        "cssClassName": "diamond",
         "category": "materials"
       }
     ],
@@ -2706,55 +2706,55 @@ module.exports = [
       {
         "id": 111,
         "name": "Bokoblin Horn",
-        "cssClassName": null,
+        "cssClassName": "bokoblin-horn",
         "category": "materials"
       },
       {
         "id": 112,
         "name": "Bokoblin Fang",
-        "cssClassName": null,
+        "cssClassName": "bokoblin-fang",
         "category": "materials"
       },
       {
         "id": 113,
         "name": "Bokoblin Guts",
-        "cssClassName": null,
+        "cssClassName": "bokoblin-guts",
         "category": "materials"
       },
       {
         "id": 104,
         "name": "Amber",
-        "cssClassName": null,
+        "cssClassName": "amber",
         "category": "materials"
       },
       {
         "id": 105,
         "name": "Opal",
-        "cssClassName": null,
+        "cssClassName": "opal",
         "category": "materials"
       },
       {
         "id": 107,
         "name": "Topaz",
-        "cssClassName": null,
+        "cssClassName": "topaz",
         "category": "materials"
       },
       {
         "id": 108,
         "name": "Ruby",
-        "cssClassName": null,
+        "cssClassName": "ruby",
         "category": "materials"
       },
       {
         "id": 109,
         "name": "Sapphire",
-        "cssClassName": null,
+        "cssClassName": "sapphire",
         "category": "materials"
       },
       {
         "id": 110,
         "name": "Diamond",
-        "cssClassName": null,
+        "cssClassName": "diamond",
         "category": "materials"
       }
     ],
@@ -2772,55 +2772,55 @@ module.exports = [
       {
         "id": 117,
         "name": "Lizalfos Horn",
-        "cssClassName": null,
+        "cssClassName": "lizalfos-horn",
         "category": "materials"
       },
       {
         "id": 119,
         "name": "Lizalfos Tail",
-        "cssClassName": null,
+        "cssClassName": "lizalfos-tail",
         "category": "materials"
       },
       {
         "id": 118,
         "name": "Lizalfos Talon",
-        "cssClassName": null,
+        "cssClassName": "lizalfos-talon",
         "category": "materials"
       },
       {
         "id": 104,
         "name": "Amber",
-        "cssClassName": null,
+        "cssClassName": "amber",
         "category": "materials"
       },
       {
         "id": 105,
         "name": "Opal",
-        "cssClassName": null,
+        "cssClassName": "opal",
         "category": "materials"
       },
       {
         "id": 107,
         "name": "Topaz",
-        "cssClassName": null,
+        "cssClassName": "topaz",
         "category": "materials"
       },
       {
         "id": 108,
         "name": "Ruby",
-        "cssClassName": null,
+        "cssClassName": "ruby",
         "category": "materials"
       },
       {
         "id": 109,
         "name": "Sapphire",
-        "cssClassName": null,
+        "cssClassName": "sapphire",
         "category": "materials"
       },
       {
         "id": 110,
         "name": "Diamond",
-        "cssClassName": null,
+        "cssClassName": "diamond",
         "category": "materials"
       }
     ],
@@ -2838,49 +2838,49 @@ module.exports = [
       {
         "id": 110,
         "name": "Diamond",
-        "cssClassName": null,
+        "cssClassName": "diamond",
         "category": "materials"
       },
       {
         "id": 125,
         "name": "Lynel Guts",
-        "cssClassName": null,
+        "cssClassName": "lynel-guts",
         "category": "materials"
       },
       {
         "id": 124,
         "name": "Lynel Hoof",
-        "cssClassName": null,
+        "cssClassName": "lynel-hoof",
         "category": "materials"
       },
       {
         "id": 123,
         "name": "Lynel Horn",
-        "cssClassName": null,
+        "cssClassName": "lynel-horn",
         "category": "materials"
       },
       {
         "id": 108,
         "name": "Ruby",
-        "cssClassName": null,
+        "cssClassName": "ruby",
         "category": "materials"
       },
       {
         "id": 109,
         "name": "Sapphire",
-        "cssClassName": null,
+        "cssClassName": "sapphire",
         "category": "materials"
       },
       {
         "id": 54,
         "name": "Star Fragment",
-        "cssClassName": null,
+        "cssClassName": "star-fragment",
         "category": "materials"
       },
       {
         "id": 107,
         "name": "Topaz",
-        "cssClassName": null,
+        "cssClassName": "topaz",
         "category": "materials"
       }
     ],
@@ -2898,55 +2898,55 @@ module.exports = [
       {
         "id": 114,
         "name": "Moblin Horn",
-        "cssClassName": null,
+        "cssClassName": "moblin-horn",
         "category": "materials"
       },
       {
         "id": 115,
         "name": "Moblin Fang",
-        "cssClassName": null,
+        "cssClassName": "moblin-fang",
         "category": "materials"
       },
       {
         "id": 116,
         "name": "Moblin Guts",
-        "cssClassName": null,
+        "cssClassName": "moblin-guts",
         "category": "materials"
       },
       {
         "id": 104,
         "name": "Amber",
-        "cssClassName": null,
+        "cssClassName": "amber",
         "category": "materials"
       },
       {
         "id": 105,
         "name": "Opal",
-        "cssClassName": null,
+        "cssClassName": "opal",
         "category": "materials"
       },
       {
         "id": 107,
         "name": "Topaz",
-        "cssClassName": null,
+        "cssClassName": "topaz",
         "category": "materials"
       },
       {
         "id": 108,
         "name": "Ruby",
-        "cssClassName": null,
+        "cssClassName": "ruby",
         "category": "materials"
       },
       {
         "id": 109,
         "name": "Sapphire",
-        "cssClassName": null,
+        "cssClassName": "sapphire",
         "category": "materials"
       },
       {
         "id": 110,
         "name": "Diamond",
-        "cssClassName": null,
+        "cssClassName": "diamond",
         "category": "materials"
       }
     ],
@@ -2964,7 +2964,7 @@ module.exports = [
       {
         "id": 0,
         "name": "Bow",
-        "cssClassName": null,
+        "cssClassName": "bow",
         "category": "other"
       }
     ],
@@ -2984,49 +2984,49 @@ module.exports = [
       {
         "id": 52,
         "name": "Rock Salt",
-        "cssClassName": null,
+        "cssClassName": "rock-salt",
         "category": "materials"
       },
       {
         "id": 103,
         "name": "Flint",
-        "cssClassName": null,
+        "cssClassName": "flint",
         "category": "materials"
       },
       {
         "id": 104,
         "name": "Amber",
-        "cssClassName": null,
+        "cssClassName": "amber",
         "category": "materials"
       },
       {
         "id": 105,
         "name": "Opal",
-        "cssClassName": null,
+        "cssClassName": "opal",
         "category": "materials"
       },
       {
         "id": 107,
         "name": "Topaz",
-        "cssClassName": null,
+        "cssClassName": "topaz",
         "category": "materials"
       },
       {
         "id": 108,
         "name": "Ruby",
-        "cssClassName": null,
+        "cssClassName": "ruby",
         "category": "materials"
       },
       {
         "id": 109,
         "name": "Sapphire",
-        "cssClassName": null,
+        "cssClassName": "sapphire",
         "category": "materials"
       },
       {
         "id": 110,
         "name": "Diamond",
-        "cssClassName": null,
+        "cssClassName": "diamond",
         "category": "materials"
       }
     ],
@@ -3046,13 +3046,13 @@ module.exports = [
       {
         "id": 0,
         "name": "Treasure Chests",
-        "cssClassName": null,
+        "cssClassName": "treasure-chests",
         "category": "other"
       },
       {
         "id": 0,
         "name": "Weapons",
-        "cssClassName": null,
+        "cssClassName": "weapons",
         "category": "other"
       }
     ],
@@ -3072,10 +3072,10 @@ module.exports = [
       {
         "id": 0,
         "name": "Master Cycle Zero",
-        "cssClassName": null,
+        "cssClassName": "master-cycle-zero",
         "category": "other"
       }
     ],
     "notes": ""
   }
-]
+];

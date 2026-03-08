@@ -103,8 +103,8 @@
 .material-sprite.goron-spice,
 .material-sprite.monster-extract {
   background-image: url('../img/materials.png');
-  width: 145px;
-  height: 145px;
+  width: 144px;
+  height: 144px;
 }
 
 /* Scaled down for list/grid view (~80px) */
@@ -116,7 +116,7 @@
 /* Row 1 - fruit (y = -14px) */
 .material-sprite.apple { background-position: -1px -14px; }
 .material-sprite.wildberry { background-position: -146px -14px; }
-.material-sprite.volt-fruit { background-position: -291px -14px; }
+.material-sprite.voltfruit { background-position: -291px -14px; }
 .material-sprite.hearty-durian { background-position: -436px -14px; }
 .material-sprite.fleet-lotus-seeds { background-position: -581px -14px; }
 .material-sprite.hydromelon { background-position: -726px -14px; }
