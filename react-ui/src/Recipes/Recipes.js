@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import DataView from '../Other/DataView/DataView';
+import Loading from '../Other/Loading/Loading';
 
 import './Recipes.css';
 import '../Food/FoodSprites.css';
@@ -47,7 +48,7 @@ class Recipes extends Component {
       <div>
         <div className="container-nonresponsive container-results">
           <h1 className="page-header">Recipes</h1>
-          { this.state.fetching ? '' : 
+          { this.state.fetching ? <Loading /> : 
             <DataView
               json={this.state.json}
               jsonOriginal={this.state.jsonOriginal}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import DataView from '../Other/DataView/DataView';
+import Loading from '../Other/Loading/Loading';
 
 import './Bows.css';
 import './BowSprites.css';
@@ -46,7 +47,7 @@ class Bows extends Component {
       <div>
         <div className="container-nonresponsive container-results">
           <h1 className="page-header">Bows</h1>
-          { this.state.fetching ? '' : 
+          { this.state.fetching ? <Loading /> : 
             <DataView
               json={this.state.json}
               jsonOriginal={this.state.jsonOriginal}

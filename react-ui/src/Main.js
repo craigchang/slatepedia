@@ -1,6 +1,7 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import Header from './Header/Header'
+import Footer from './Footer/Footer'
 import App from './App'
 import Materials from './Materials/Materials'
 import MaterialsDetail from './MaterialsDetail/MaterialsDetail';
@@ -20,6 +21,7 @@ import Bows from './Bows/Bows';
 import BowsDetail from './BowsDetail/BowsDetail';
 import Animal from './Animals/Animal';
 import AnimalsDetail from './AnimalsDetail/AnimalsDetail';
+// import Changelog from './Changelog/Changelog';
 
 
 // The Main component renders one of the three provided
@@ -60,8 +62,10 @@ const Main = () => (
       <Route path='/bows' component={Bows} />
       <Route path='/animals/:id' component={AnimalsDetail} />
       <Route path='/animals' component={Animal} />
+      {/* <Route path='/changelog' component={Changelog} /> */}
       <Route path='/' component={App}/>
     </Switch>
+    <Footer/>
   </main>
 )
 
