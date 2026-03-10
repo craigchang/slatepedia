@@ -23,6 +23,7 @@ class App extends Component {
             <p>
               Slatepedia is a comprehensive online encyclopedia for <em>The Legend of Zelda: Breath of the Wild</em>. 
               Browse creatures, monsters, materials, equipment, recipes, and treasures—all with in-game descriptions, stats, locations, and cross-references.
+              Updates to the site are made continuously—see the <a href="/changelog">changelog</a> for the latest commits.
             </p>
             <p>
               Use the <strong>Resources</strong> menu in the navigation bar to explore each category:{' '}
