@@ -63,7 +63,7 @@ const Main = () => (
       <Route path='/animals/:id' component={AnimalsDetail} />
       <Route path='/animals' component={Animal} />
       <Route path='/changelog' component={Changelog} />
-      <Route path='/' component={App}/>
+      <Route exact path='/' component={App}/>
     </Switch>
     <Footer/>
   </main>
