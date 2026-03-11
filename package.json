@@ -6,7 +6,9 @@
     "node": ">=22"
   },
   "scripts": {
-    "start": "node server"
+    "start": "node server",
+    "build": "npm --prefix react-ui install && npm --prefix react-ui run build",
+    "postinstall": "npm run build"
   },
   "cacheDirectories": [
     "node_modules",
