@@ -69,11 +69,6 @@ class Changelog extends Component {
             const key = entry.sha || String(idx);
             const title = (entry.title || '').trim();
             const message = (entry.message || '').trim();
-            const messageLines = message ? message.split('\n') : [];
-            const messageBody =
-              messageLines.length > 0 && messageLines[0].trim() === title
-                ? messageLines.slice(1).join('\n').trim()
-                : message;
 
             return (
             <li key={key} className="list-group-item changelog-item">
@@ -96,8 +91,8 @@ class Changelog extends Component {
                 <span className="changelog-date">{this.formatDate(entry.date)}</span>
               </div>
               <p className="changelog-message">{title}</p>
-              {messageBody ? (
-                <pre className="changelog-detail">{messageBody}</pre>
+              {message ? (
+                <pre className="changelog-detail">{message}</pre>
               ) : null}
             </li>
           )})}
