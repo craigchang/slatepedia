@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import IconContainer from '../Other/IconContainer/IconContainer';
 import '../Armor/ArmorSprites.css';
 import DataDetailTableView from '../Other/DataDetailTableView/DataDetailTableView';
+import BonusEffect from '../Other/BonusEffect/BonusEffect';
 
 import './ArmorDetail.css';
 
@@ -64,11 +65,15 @@ class ArmorDetail extends Component {
             </tr>
             <tr>
               <td>Added Effect</td>
-              <td><i className="fa fa-long-arrow-up"></i> {armor.addedEffect === '' ? '-' : armor.addedEffect}</td>
+              <td>
+                <BonusEffect effectName={armor.addedEffect} classIcon={armor.classIcon} />
+              </td>
             </tr>
             <tr>
               <td>Set Bonus</td>
-              <td><i className="fa fa-plus" aria-hidden="true"></i> {armor.setBonus === '' ? '-' : armor.setBonus}</td>
+              <td>
+                <BonusEffect effectName={armor.setBonus} classIcon={armor.classIcon} />
+              </td>
             </tr>
             <tr>
               <td>Availability</td>

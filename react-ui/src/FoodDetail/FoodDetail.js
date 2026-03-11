@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import _ from 'lodash';
 import DataDetailTableView from '../Other/DataDetailTableView/DataDetailTableView'
 import IconContainer from '../Other/IconContainer/IconContainer'
+// import HealthBar from '../Other/HealthBar/HealthBar'
 
 import './FoodDetail.css';
 import '../Food/FoodSprites.css';
@@ -61,6 +62,10 @@ class FoodDetail extends Component {
               <td>HP Recovery</td>
               <td><i className="fa fa-heart" aria-hidden="true"></i> {food.hpRecovery} HP</td>
             </tr>
+            {/* <tr>
+              <td>Health Bar Recovery</td>
+              <td><HealthBar health={food.hpRecovery} /></td>
+            </tr> */}
             { food.notes === null ? '' :
               <tr>
                 <td>Notes</td>

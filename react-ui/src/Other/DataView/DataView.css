@@ -1,3 +1,20 @@
+/* Sticky header: table-responsive's overflow prevents position:sticky from working with
+   page scroll. Override to overflow:visible on larger screens so the header can stick. */
+.table-responsive.table-responsive-sticky {
+  overflow-x: visible;
+  overflow-y: visible;
+}
+/* @media (max-width: 767px) {
+  .table-responsive.table-responsive-sticky {
+    overflow-x: auto;
+  }
+} */
+.table-responsive .table.sortable thead th.sticky-top {
+  top: 55px;
+  z-index: 10;
+  background-color: #fff;
+}
+
 th {
   position: relative;
   cursor: pointer;

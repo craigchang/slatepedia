@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import DataDetailTableView from '../Other/DataDetailTableView/DataDetailTableView';
 import IconContainer from '../Other/IconContainer/IconContainer';
+//import HealthBar from '../Other/HealthBar/HealthBar';
 
 import './MonstersDetail.css';
 import '../Monsters/MonsterSprites.css';
@@ -10,8 +11,15 @@ class MonstersDetail extends Component {
     super(props);
     this.state = {
       json: null,
-      fetching: true
+      fetching: true,
+      showHealthBar: false
     };
+  }
+
+  componentDidUpdate(prevProps) {
+    if (prevProps.match.params.id !== this.props.match.params.id) {
+      this.setState({ showHealthBar: false });
+    }
   }
 
   componentDidMount() {
@@ -62,6 +70,29 @@ class MonstersDetail extends Component {
               <td>HP</td>
               <td><i className="fa fa-heart" aria-hidden="true"></i> {monster.hp}</td>
             </tr>
+            {/* <tr>
+              <td>Enemy Health Bar</td>
+              <td>
+                {monster.hp > 120 ? (
+                  <div>
+                    <button
+                      type="button"
+                      className="btn btn-sm btn-outline-primary"
+                      onClick={() => this.setState({ showHealthBar: !this.state.showHealthBar })}
+                    >
+                      {this.state.showHealthBar ? 'Hide' : 'Show'} health bar
+                    </button>
+                    {this.state.showHealthBar && (
+                      <div style={{ marginTop: '0.5rem' }}>
+                        <HealthBar health={monster.hp}/>
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  <HealthBar health={monster.hp}/>
+                )}
+              </td>
+            </tr> */}
             <tr>
               <td>Rank</td>
               <td>

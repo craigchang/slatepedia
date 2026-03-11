@@ -221,7 +221,7 @@ class DataView extends Component {
         tableHeaderColsArray.push( 
           <th 
             {...titleAttr}
-            className={`sortable ${this.state.sortBy === setting.dataName ? this.state.sortOrder : ''}`}
+            className={`sticky-top sortable ${this.state.sortBy === setting.dataName ? this.state.sortOrder : ''}`}
             key={`${i}-${setting.headerName}`} 
             onClick={(event) => this.clickTableColumnHeader(event, setting.dataName)}>{setting.headerName}</th> 
         )
@@ -229,6 +229,7 @@ class DataView extends Component {
         tableHeaderColsArray.push( 
           <th 
             {...titleAttr}
+            className="sticky-top"
             style={{cursor: 'default'}} 
             key={`${i}-${setting.dataValue}`}>{setting.headerName}</th> 
         )
@@ -239,7 +240,7 @@ class DataView extends Component {
 
   renderGridView() {
     return (
-      <div className="table-responsive">
+      <div className="table-responsive table-responsive-sticky">
         <table className="table table-striped sortable">
           <thead>
             <tr>

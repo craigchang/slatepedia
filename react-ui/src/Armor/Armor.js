@@ -107,7 +107,7 @@ class Armor extends Component {
                   "dataName": "addedEffect",
                   "headerName": "Added Effect",
                   "classIcon": "fa fa-plus",
-                  "dataType": "string",
+                  "dataType": "bonusEffect",
                   "isSortable": true,
                   "isFilterable": true
                 },
@@ -115,7 +115,7 @@ class Armor extends Component {
                   "dataName": "setBonus",
                   "headerName": "Set Bonus",
                   "classIcon": "fa fa-long-arrow-up",
-                  "dataType": "string",
+                  "dataType": "bonusEffect",
                   "isSortable": true,
                   "isFilterable": true
                 },

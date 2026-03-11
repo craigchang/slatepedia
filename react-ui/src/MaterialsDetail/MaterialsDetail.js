@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import IconContainer from '../Other/IconContainer/IconContainer';
+import DataDetailTableView from '../Other/DataDetailTableView/DataDetailTableView';
+// import HealthBar from '../Other/HealthBar/HealthBar';
 import '../Armor/ArmorSprites.css';
 import '../Materials/MaterialsSprites.css';
 import '../Food/FoodSprites.css';
 import '../Recipes/RecipesSprites.css';
-import DataDetailTableView from '../Other/DataDetailTableView/DataDetailTableView';
-
 import './MaterialsDetail.css';
 
 class MaterialsDetail extends Component {
@@ -61,8 +61,14 @@ class MaterialsDetail extends Component {
             </tr>
             <tr>
               <td title="1 HP recovery = 1/4 heart recovery">HP Recovery</td>
-              <td><i className="fa fa-heart" aria-hidden="true"></i> {material.hpRecovery} HP</td>
+              <td>
+                <i className="fa fa-heart" aria-hidden="true"></i> {material.hpRecovery} HP
+              </td>
             </tr>
+            {/* <tr>
+              <td>Health Bar Recovery</td>
+              <td><HealthBar health={material.hpRecovery} /></td>
+            </tr> */}
             <tr>
               <td>Category</td>
               <td><i className="fa fa-tags"></i> {material.category == null ? 'None' : material.category.name}</td>
@@ -102,7 +108,7 @@ class MaterialsDetail extends Component {
                     <td>
                       <IconContainer propertyName={recipe.name} folderName={"food"} cssClassName={recipe.cssClassName} spriteSheet={"food"} small/>
                     </td>
-                    <td>
+                    <td style={{'vertical-align': 'middle'}}>
                       <i className="fa fa-cutlery" aria-hidden="true"></i> <a href={"/recipes/" + recipe.id}>{recipe.name}</a>
                     </td>
                   </tr>

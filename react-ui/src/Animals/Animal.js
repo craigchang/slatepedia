@@ -81,8 +81,7 @@ class Animal extends Component {
                 {
                   "dataName": "uniqueCookingEffects",
                   "headerName": "Unique Cooking Effects",
-                  "dataType": "string",
-                  "classIcon": "fa fa-cutlery",
+                  "dataType": "bonusEffect",
                   "isSortable": true,
                   "isFilterable": true
                 },
@@ -98,7 +97,7 @@ class Animal extends Component {
                   "dataName": "recoverableMaterials",
                   "headerName": "Recoverable Materials",
                   "dataType": "arrayObject",
-                  "classIcon": "fa fa-cube",
+                  "classIcon": "fa fa-cog",
                   "isSortable": false,
                   "isFilterable": false
                 }

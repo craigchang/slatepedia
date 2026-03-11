@@ -4,6 +4,7 @@ import ListItemIntegerView from '../ListItemIntegerView/ListItemIntegerView';
 import ListItemArrayView from '../ListItemArrayView/ListItemArrayView';
 import ListItemArrayObjectView from '../ListItemArrayObjectView/ListItemArrayObjectView';
 import ListItemBooleanView from '../ListItemBooleanView/ListItemBooleanView';
+import ListItemBonusEffectView from '../ListItemBonusEffectView/ListItemBonusEffectView';
 
 const ListItemBodyView = ({obj, filterSettings}) => {
   let array = [];
@@ -49,6 +50,13 @@ const ListItemBodyView = ({obj, filterSettings}) => {
                       dataValue={obj[filterSettings[i].dataName]}
                       classIcon={filterSettings[i].classIcon}
                       labelName={filterSettings[i].labelName} />)
+        break;
+      case 'bonusEffect':
+        array.push(<ListItemBonusEffectView
+                      key={`${filterSettings[i].dataName}-bonusEffect`}
+                      obj={obj}
+                      dataName={filterSettings[i].dataName}
+                      classIcon={filterSettings[i].classIcon} />)
         break;
       default:
         break;

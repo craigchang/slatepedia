@@ -5,6 +5,7 @@ import GridItemIntegerView from './GridItemIntegerView/GridItemIntegerView';
 import GridItemArrayView from './GridItemArrayView/GridItemArrayView';
 import GridItemArrayObjectView from './GridItemArrayObjectView/GridItemArrayObjectView';
 import GridItemBooleanView from './GridItemBooleanView/GridItemBooleanView';
+import GridItemBonusEffectView from './GridItemBonusEffectView/GridItemBonusEffectView';
 
 const GridRowItemDataView = ({obj, filterSettings}) => {
   let array = [];
@@ -48,6 +49,13 @@ const GridRowItemDataView = ({obj, filterSettings}) => {
         array.push(<GridItemBooleanView 
                       key={`${filterSettings[i].dataName}-boolean`}
                       dataValue={obj[filterSettings[i].dataName]}/>)
+        break;
+      case 'bonusEffect':
+        array.push(<GridItemBonusEffectView
+                      key={`${filterSettings[i].dataName}-bonusEffect`}
+                      obj={obj}
+                      dataName={filterSettings[i].dataName}
+                      classIcon={filterSettings[i].classIcon} />)
         break;
       default:
         break;

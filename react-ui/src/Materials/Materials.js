@@ -114,6 +114,14 @@ class Materials extends Component {
                   "isFilterable": true
                 },
                 {
+                  "dataName": "category.addedEffect",
+                  "headerName": "Bonus Effect",
+                  "classIcon": "fa fa-plus",
+                  "dataType": "bonusEffect",
+                  "isSortable": true,
+                  "isFilterable": true
+                },
+                {
                   "dataName": "potencyGrade",
                   "headerName": "Potency Grade",
                   "classIcon": "fa fa-thermometer-full",
