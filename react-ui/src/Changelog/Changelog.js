@@ -7,39 +7,24 @@ class Changelog extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      commits: null,
+      entries: null,
       fetching: true,
       error: null
     };
   }
 
   componentDidMount() {
-    fetch('/api/commits?per_page=20')
+    fetch('/api/changelog')
       .then(response => {
-        if (!response.ok) {
-          return response.json().then(err => {
-            throw new Error(err.error || `status ${response.status}`);
-          });
-        }
+        if (!response.ok) throw new Error(`status ${response.status}`);
         return response.json();
       })
-      .then(commits => {
-        this.setState({
-          commits,
-          fetching: false,
-          error: null
-        });
-      })
-      .catch(e => {
-        this.setState({
-          commits: null,
-          fetching: false,
-          error: e.message
-        });
-      });
+      .then(entries => this.setState({ entries, fetching: false, error: null }))
+      .catch(e => this.setState({ entries: null, fetching: false, error: e.message }));
   }
 
   formatDate(isoString) {
+    if (!isoString) return '-';
     const d = new Date(isoString);
     return d.toLocaleDateString(undefined, {
       year: 'numeric',
@@ -51,7 +36,7 @@ class Changelog extends Component {
   }
 
   render() {
-    const { commits, fetching, error } = this.state;
+    const { entries, fetching, error } = this.state;
 
     if (fetching) {
       return (
@@ -80,32 +65,42 @@ class Changelog extends Component {
           Recent commits and changes to Slatepedia. Updates are made continuously.
         </p>
         <ul className="list-group changelog-list">
-          {commits && commits.map((commit) => (
-            <li key={commit.sha} className="list-group-item changelog-item">
+          {entries && entries.map((entry, idx) => {
+            const key = entry.sha || String(idx);
+            const title = (entry.title || '').trim();
+            const message = (entry.message || '').trim();
+            const messageLines = message ? message.split('\n') : [];
+            const messageBody =
+              messageLines.length > 0 && messageLines[0].trim() === title
+                ? messageLines.slice(1).join('\n').trim()
+                : message;
+
+            return (
+            <li key={key} className="list-group-item changelog-item">
               <div className="changelog-item-header">
-                <a
-                  href={commit.html_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="changelog-sha"
-                  title="View on GitHub"
-                >
-                  {commit.sha.substring(0, 7)}
-                </a>
-                <span className="changelog-date">
-                  {this.formatDate(commit.commit.author.date)}
-                </span>
+                {entry.htmlUrl ? (
+                  <a
+                    className="changelog-sha"
+                    href={entry.htmlUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="View commit on GitHub"
+                  >
+                    {entry.shortSha || (entry.sha ? entry.sha.substring(0, 7) : '-')}
+                  </a>
+                ) : (
+                  <span className="changelog-sha" title={entry.sha ? `Commit ${entry.sha}` : 'Commit'}>
+                    {entry.shortSha || (entry.sha ? entry.sha.substring(0, 7) : '-')}
+                  </span>
+                )}
+                <span className="changelog-date">{this.formatDate(entry.date)}</span>
               </div>
-              <p className="changelog-message">
-                {commit.commit.message.split('\n')[0]}
-              </p>
-              {commit.commit.message.includes('\n') && (
-                <pre className="changelog-detail">
-                  {commit.commit.message.split('\n').slice(1).join('\n').trim()}
-                </pre>
-              )}
+              <p className="changelog-message">{title}</p>
+              {messageBody ? (
+                <pre className="changelog-detail">{messageBody}</pre>
+              ) : null}
             </li>
-          ))}
+          )})}
         </ul>
       </div>
     );

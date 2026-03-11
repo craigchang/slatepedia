@@ -14,6 +14,7 @@ const shieldsJson = require('./rest/shields');
 const weaponsJson = require('./rest/weapons');
 const bowsJson = require('./rest/bows');
 const animalsJson = require('./rest/animals');
+const changelogJson = require('./rest/changelog');
 
 // Multi-process to utilize all CPU cores.
 if (cluster.isMaster) {
@@ -147,27 +148,15 @@ if (cluster.isMaster) {
     res.send(animalsJson[Number(req.params.id) - 1]);
   });
 
-  // GitHub commits API (proxy to avoid CORS)
-  const githubRepo = process.env.GITHUB_REPO || 'craigchang/slatepedia';
+  // Changelog API (static snapshot)
+  app.get('/api/changelog', function (req, res) {
+    res.set('Content-Type', 'application/json');
+    res.send(changelogJson);
+  });
 
-  app.get('/api/commits', function (req, res) {
-    if (!githubRepo) {
-      return res.status(503).json({ error: 'GitHub repo not configured. Set GITHUB_REPO=owner/repo' });
-    }
-    const perPage = Math.min(parseInt(req.query.per_page, 10) || 20, 20);
-    fetch(`https://api.github.com/repos/${githubRepo}/commits?per_page=${perPage}`, {
-      headers: {
-        'Accept': 'application/vnd.github.v3+json',
-        'User-Agent': 'Slatepedia'
-      }
-    })
-      .then(r => r.json())
-      .then(data => {
-        if (data.message) return res.status(404).json(data);
-        res.set('Content-Type', 'application/json');
-        res.json(data);
-      })
-      .catch(err => res.status(500).json({ error: err.message }));
+  // Ensure unknown API routes never fall back to index.html
+  app.get('/api/*', function (req, res) {
+    res.status(404).json({ error: 'Unknown API route' });
   });
 
   // All remaining requests return the React app, so it can handle routing.
