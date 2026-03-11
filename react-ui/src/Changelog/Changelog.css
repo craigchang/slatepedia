@@ -1,0 +1,51 @@
+.changelog-intro {
+  margin-bottom: 1.5rem;
+  color: #6c757d;
+}
+
+.changelog-list {
+  max-width: 720px;
+}
+
+.changelog-item {
+  padding: 1rem 1.25rem;
+}
+
+.changelog-item-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.changelog-sha {
+  font-family: monospace;
+  font-size: 0.9rem;
+  color: #0d6efd;
+}
+
+.changelog-sha:hover {
+  text-decoration: underline;
+}
+
+.changelog-date {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.changelog-message {
+  margin-bottom: 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.changelog-detail {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.85rem;
+  background: #f8f9fa;
+  border-radius: 4px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
