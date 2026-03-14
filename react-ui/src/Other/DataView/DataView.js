@@ -70,8 +70,6 @@ class DataView extends Component {
     let tableHeaderColumn = event.target;
     let sortOrder = 'asc';
     let results = this.state.json.slice();
-    
-    console.log(event.target.textContent);
 
     this.clearSorting();
 

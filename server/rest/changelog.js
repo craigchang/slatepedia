@@ -1,5 +1,13 @@
 module.exports = [
   {
+    "sha": "unreleased",
+    "shortSha": "unreleased",
+    "htmlUrl": "",
+    "date": "2026-02-27T00:00:00Z",
+    "title": "Add BonusEffect component",
+    "message": "Adds shared BonusEffect component that maps bonus effect names (e.g. Attack Up, Defense Up, Stealth Up) to icons. Used in list and grid item views for food, armor, and other items with bonus effects."
+  },
+  {
     "sha": "b0dd412649c253dd21f4821450c45ea6378e6c71",
     "shortSha": "b0dd412",
     "htmlUrl": "https://github.com/craigchang/slatepedia/commit/b0dd412649c253dd21f4821450c45ea6378e6c71",

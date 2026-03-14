@@ -5,7 +5,6 @@ import './IconContainer.css';
 const IMAGE_FOLDER = '/img';
 
 const IconContainer = ({propertyName, gridType, folderName, fileType, cssClassName: spriteCssClassName, spriteSheet, small}) => {
-  console.log({propertyName, gridType, folderName, fileType, spriteCssClassName, spriteSheet, small})
   if (!propertyName) return '';
   if (!folderName) return '';
   let cssClassName = gridType === 'list' ? "resource-icon-list-view" : "resource-icon";
