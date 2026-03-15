@@ -57,7 +57,7 @@ class Materials extends Component {
                   "dataName": null, 
                   "headerName": "Icon",
                   "dataType": "image",
-                  "imageFolder": "/img/materials",
+                  "imageFolder": "/images/materials",
                   "imageCssDataName": "cssClassName",
                   "spriteSheet": "materials",
                   "isSortable": false, 

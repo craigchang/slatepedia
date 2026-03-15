@@ -3,7 +3,7 @@
 .food-sprite {
   width: 144px;
   height: 144px;
-  background-image: url('../img/food.png');
+  background-image: url('../images/food.png');
   background-repeat: no-repeat;
   display: inline-block;
 }

@@ -920,7 +920,7 @@ module.exports = [
     "recoverableMaterials": []
   },
   {
-    "id": 67,
+    "id": 66,
     "name": "Hyrule Bass",
     "cssClassName": "hyrule-bass",
     "description": "An ordinary fish that can be found all over Hyrule. It can be eaten raw, but cooking it amplifies its healing benefits.",
@@ -931,7 +931,7 @@ module.exports = [
     "recoverableMaterials": []
   },
   {
-    "id": 68,
+    "id": 67,
     "name": "Hearty Bass",
     "cssClassName": "hearty-bass",
     "description": "This large fish lives near the shoreline. Its sizable body can store a lot of nutrients. When cooked into a dish, it will temporarily increase your maximum hearts.",
@@ -943,7 +943,7 @@ module.exports = [
     "uniqueCookingEffects": "Extra Hearts"
   },
   {
-    "id": 69,
+    "id": 68,
     "name": "Chillfin Trout",
     "cssClassName": "chillfin-trout",
     "description": "This blue trout prefers cold bodies of water. Its skin contains enzymes that keep its body cool, and when cooked into a dish, it will temporarily boost your heat resistance.",
@@ -955,7 +955,7 @@ module.exports = [
     "uniqueCookingEffects": "Heat Resistance"
   },
   {
-    "id": 70,
+    "id": 69,
     "name": "Voltfin Trout",
     "cssClassName": "voltfin-trout",
     "description": "This trout makes its home in the freshwater lakes. Its scales have an insulating compound that, when cooked into a dish, offers resistance to electricity.",
@@ -967,7 +967,7 @@ module.exports = [
     "uniqueCookingEffects": "Shock Resistance"
   },
   {
-    "id": 71,
+    "id": 70,
     "name": "Mighty Carp",
     "cssClassName": "mighty-carp",
     "description": "This freshwater fish lives alongside its less mighty carp ilk. A compound in its liver promotes muscle growth. Dishes cooked with it will temporarily increase your attack power.",
@@ -979,7 +979,7 @@ module.exports = [
     "uniqueCookingEffects": "Attack Up"
   },
   {
-    "id": 72,
+    "id": 71,
     "name": "Mighty Porgy",
     "cssClassName": "mighty-porgy",
     "description": "This ocean-dwelling fish comes with one rude attitude. The compounds in its flesh elevate your competitive spirit when it's cooked into a dish, thus increasing your attack power.",
@@ -991,7 +991,7 @@ module.exports = [
     "uniqueCookingEffects": "Attack Up"
   },
   {
-    "id": 73,
+    "id": 72,
     "name": "Armored Porgy",
     "cssClassName": "armored-porgy",
     "description": "This porgy's body is covered in armor-hard scales. The compounds in its scales, when cooked into a dish, fortify your bones and temporarily boost your defense.",
@@ -1003,7 +1003,7 @@ module.exports = [
     "uniqueCookingEffects": "Defense Up"
   },
   {
-    "id": 74,
+    "id": 73,
     "name": "Armored Carp",
     "cssClassName": "armored-carp",
     "description": "Calcium deposits in the scales of this ancient fish make them as hard as armor. Cooking it into a dish will fortify your bones, temporarily increasing your defense.",
@@ -1015,7 +1015,7 @@ module.exports = [
     "uniqueCookingEffects": "Defense Up"
   },
   {
-    "id": 75,
+    "id": 74,
     "name": "Hearty Salmon",
     "cssClassName": "hearty-salmon",
     "description": "This fish makes its home in cold water, giving it extra layers of fat. It temporarily increases your maximum hearts when used in cooking.",
@@ -1027,7 +1027,7 @@ module.exports = [
     "uniqueCookingEffects": "Extra Hearts"
   },
   {
-    "id": 76,
+    "id": 75,
     "name": "Sizzlefin Trout",
     "cssClassName": "sizzlefin-trout",
     "description": "This red trout prefers warm bodies of water. It has a special organ specifically for storing heat. When cooked into a dish, it temporarily boosts your resistance to the cold.",
@@ -1039,7 +1039,7 @@ module.exports = [
     "uniqueCookingEffects": "Cold Resistance"
   },
   {
-    "id": 77,
+    "id": 76,
     "name": "Hearty Blueshell Snail",
     "cssClassName": "hearty-blueshell-snail",
     "description": "This snail lives on sandy beaches in large numbers. Its flesh contains a high amount of stimulants, so when cooked into a dish, it temporarily increases your maximum hearts.",
@@ -1050,7 +1050,7 @@ module.exports = [
     "recoverableMaterials": []
   },
   {
-    "id": 78,
+    "id": 77,
     "name": "Staminoka Bass",
     "cssClassName": "staminoka-bass",
     "description": "This Hyrule bass got to be the biggest fish by never getting caught (until now). Its long life results in a cooked dish that will restore a lot of stamina.",
@@ -1062,7 +1062,7 @@ module.exports = [
     "uniqueCookingEffects": "Stamina Recovery"
   },
   {
-    "id": 79,
+    "id": 78,
     "name": "Sneaky River Snail",
     "cssClassName": "sneaky-river-snail",
     "description": "This large, glow-in-the-dark snail lives in fresh water. When cooked into a dish, it heightens your senses so you can move about silently.",
@@ -1074,7 +1074,7 @@ module.exports = [
     "uniqueCookingEffects": "Stealth Up"
   },
   {
-    "id": 80,
+    "id": 79,
     "name": "Stealthfin Trout",
     "cssClassName": "stealthfin-trout",
     "description": "Consuming the bioluminescent compound that makes this fish glow in the dark will increase concentration. Dishes cooked with it will suppress noise when consumed.",
@@ -1086,7 +1086,7 @@ module.exports = [
     "uniqueCookingEffects": "Stealth Up"
   },
   {
-    "id": 81,
+    "id": 80,
     "name": "Sanke Carp",
     "cssClassName": "sanke-carp",
     "description": "This wild armored carp has been bred into a prizewinning fish. Its beautifully colored markings do not occur in nature. It offers no special effects when cooked.",
@@ -1096,7 +1096,7 @@ module.exports = [
     "recoverableMaterials": []
   },
   {
-    "id": 82,
+    "id": 81,
     "name": "Razorclaw Crab",
     "cssClassName": "razorclaw-crab",
     "description": "This crab is well known for its exceptionally sharp pincers. When cooked, the strength compound in its claws will increase your attack power.",
@@ -1108,7 +1108,7 @@ module.exports = [
     "uniqueCookingEffects": "Attack Up"
   },
   {
-    "id": 83,
+    "id": 82,
     "name": "Ironshell Crab",
     "cssClassName": "ironshell-crab",
     "description": "This crab's shell is particularly hard. When cooked into a dish, its fat and meat bolster the body to increase your defense.",
@@ -1120,7 +1120,7 @@ module.exports = [
     "uniqueCookingEffects": "Defense Up"
   },
   {
-    "id": 84,
+    "id": 83,
     "name": "Bright-Eyed Crab",
     "cssClassName": "bright-eyed-crab",
     "description": "This crab appears in large numbers when it rains. One bite of its delectable meat, and you'll forget all your exhaustion. Replenishes your stamina when cooked into a dish.",

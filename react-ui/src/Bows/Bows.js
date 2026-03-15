@@ -57,7 +57,7 @@ class Bows extends Component {
                   "dataName": null, 
                   "headerName": "Icon",
                   "dataType": "image",
-                  "imageFolder": "/img/weapons",
+                  "imageFolder": "/images/weapons",
                   "imageCssDataName": "cssClassName",
                   "spriteSheet": "bows",
                   "isSortable": false, 

@@ -2,7 +2,7 @@ import React from 'react';
 
 import './IconContainer.css';
 
-const IMAGE_FOLDER = '/img';
+const IMAGE_FOLDER = '/images';
 
 const IconContainer = ({propertyName, gridType, folderName, fileType, cssClassName: spriteCssClassName, spriteSheet, small}) => {
   if (!propertyName) return '';

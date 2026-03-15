@@ -13,7 +13,7 @@ const monstersJson = require('./rest/monsters');
 const shieldsJson = require('./rest/shields');
 const weaponsJson = require('./rest/weapons');
 const bowsJson = require('./rest/bows');
-const animalsJson = require('./rest/animals');
+const { getFilteredAnimals, animalsJson } = require('./rest/animals');
 const changelogJson = require('./rest/changelog');
 
 // Multi-process to utilize all CPU cores.
@@ -137,10 +137,13 @@ if (cluster.isMaster) {
     res.send(bowsJson[Number(req.params.id) - 1]);
   });
 
-  // Animals API
+  // Animals API (supports ?uniqueCookingEffect=, ?commonLocation=, ?recoverableMaterial=)
   app.get('/api/animals', function (req, res) {
     res.set('Content-Type', 'application/json');
-    res.send(animalsJson);
+    if (req.query)
+      res.send(getFilteredAnimals(req.query));
+    else
+      res.send(animalsJson)
   });
   // Animals Detail API
   app.get('/api/animals/:id', function (req, res) {

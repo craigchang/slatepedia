@@ -57,7 +57,7 @@ class Food extends Component {
                   "dataName": null, 
                   "headerName": "Icon",
                   "dataType": "image",
-                  "imageFolder": "/img/food",
+                  "imageFolder": "/images/food",
                   "imageCssDataName": "cssClassName",
                   "spriteSheet": "food",
                   "isSortable": false, 

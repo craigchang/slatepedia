@@ -3,7 +3,7 @@
 .weapon-sprite {
   width: 144px;
   height: 144px;
-  background-image: url('../img/weapons.png');
+  background-image: url('../images/weapons.png');
   background-repeat: no-repeat;
   display: inline-block;
 }

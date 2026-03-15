@@ -2,7 +2,7 @@
 .material-sprite {
   width: 144px;
   height: 144px;
-  background-image: url('../img/food.png');
+  background-image: url('../images/food.png');
   background-repeat: no-repeat;
   display: inline-block;
 }
@@ -102,7 +102,7 @@
 .material-sprite.courser-bee-honey,
 .material-sprite.goron-spice,
 .material-sprite.monster-extract {
-  background-image: url('../img/materials.png');
+  background-image: url('../images/materials.png');
   width: 144px;
   height: 144px;
 }

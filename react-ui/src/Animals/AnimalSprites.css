@@ -3,7 +3,7 @@
 .animal-sprite {
   width: 280px;
   height: 280px;
-  background-image: url('../img/animals.png');
+  background-image: url('../images/animals.png');
   background-repeat: no-repeat;
   display: inline-block;
 }
@@ -99,27 +99,27 @@
 
 /* animals2.png - same formula, 6 cols. Override background-image for these. */
 /* Row 1 (y = -1px) */
-.animal-sprite.hyrule-bass { background-image: url('../img/animals2.png'); background-position: -1px -1px; }
-.animal-sprite.hearty-bass { background-image: url('../img/animals2.png'); background-position: -282px -1px; }
-.animal-sprite.chill-fin-trout { background-image: url('../img/animals2.png'); background-position: -563px -1px; }
-.animal-sprite.voltfin-trout { background-image: url('../img/animals2.png'); background-position: -844px -1px; }
-.animal-sprite.mighty-carp { background-image: url('../img/animals2.png'); background-position: -1125px -1px; }
-.animal-sprite.mighty-porgy { background-image: url('../img/animals2.png'); background-position: -1406px -1px; }
+.animal-sprite.hyrule-bass { background-image: url('../images/animals2.png'); background-position: -1px -1px; }
+.animal-sprite.hearty-bass { background-image: url('../images/animals2.png'); background-position: -282px -1px; }
+.animal-sprite.chill-fin-trout { background-image: url('../images/animals2.png'); background-position: -563px -1px; }
+.animal-sprite.voltfin-trout { background-image: url('../images/animals2.png'); background-position: -844px -1px; }
+.animal-sprite.mighty-carp { background-image: url('../images/animals2.png'); background-position: -1125px -1px; }
+.animal-sprite.mighty-porgy { background-image: url('../images/animals2.png'); background-position: -1406px -1px; }
 
 /* animals2.png - Row 2 (y = -282px) */
-.animal-sprite.armored-porgy { background-image: url('../img/animals2.png'); background-position: -1px -282px; }
-.animal-sprite.armored-carp { background-image: url('../img/animals2.png'); background-position: -282px -282px; }
-.animal-sprite.hearty-salmon { background-image: url('../img/animals2.png'); background-position: -563px -282px; }
-.animal-sprite.sizzlefin-trout { background-image: url('../img/animals2.png'); background-position: -844px -282px; }
-.animal-sprite.hearty-blueshell-snail { background-image: url('../img/animals2.png'); background-position: -1125px -282px; }
-.animal-sprite.staminoka-bass { background-image: url('../img/animals2.png'); background-position: -1406px -282px; }
+.animal-sprite.armored-porgy { background-image: url('../images/animals2.png'); background-position: -1px -282px; }
+.animal-sprite.armored-carp { background-image: url('../images/animals2.png'); background-position: -282px -282px; }
+.animal-sprite.hearty-salmon { background-image: url('../images/animals2.png'); background-position: -563px -282px; }
+.animal-sprite.sizzlefin-trout { background-image: url('../images/animals2.png'); background-position: -844px -282px; }
+.animal-sprite.hearty-blueshell-snail { background-image: url('../images/animals2.png'); background-position: -1125px -282px; }
+.animal-sprite.staminoka-bass { background-image: url('../images/animals2.png'); background-position: -1406px -282px; }
 
 /* animals2.png - Row 3 (y = -563px) */
-.animal-sprite.sneaky-river-snail { background-image: url('../img/animals2.png'); background-position: -1px -563px; }
-.animal-sprite.stealthfin-trout { background-image: url('../img/animals2.png'); background-position: -282px -563px; }
-.animal-sprite.sanke-carp { background-image: url('../img/animals2.png'); background-position: -563px -563px; }
+.animal-sprite.sneaky-river-snail { background-image: url('../images/animals2.png'); background-position: -1px -563px; }
+.animal-sprite.stealthfin-trout { background-image: url('../images/animals2.png'); background-position: -282px -563px; }
+.animal-sprite.sanke-carp { background-image: url('../images/animals2.png'); background-position: -563px -563px; }
 
 /* animals2.png - Row 5 (y = -1125px) */
-.animal-sprite.razorclaw-crab { background-image: url('../img/animals2.png'); background-position: -282px -1125px; }
-.animal-sprite.ironshell-crab { background-image: url('../img/animals2.png'); background-position: -563px -1125px; }
-.animal-sprite.bright-eyed-crab { background-image: url('../img/animals2.png'); background-position: -844px -1125px; }
+.animal-sprite.razorclaw-crab { background-image: url('../images/animals2.png'); background-position: -282px -1125px; }
+.animal-sprite.ironshell-crab { background-image: url('../images/animals2.png'); background-position: -563px -1125px; }
+.animal-sprite.bright-eyed-crab { background-image: url('../images/animals2.png'); background-position: -844px -1125px; }

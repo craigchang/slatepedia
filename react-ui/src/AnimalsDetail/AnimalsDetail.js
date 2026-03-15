@@ -5,6 +5,7 @@ import IconContainer from '../Other/IconContainer/IconContainer';
 import './AnimalsDetail.css';
 import '../Animals/AnimalSprites.css';
 import '../Materials/MaterialsSprites.css';
+import BonusEffect from '../Other/BonusEffect/BonusEffect';
 
 class AnimalsDetail extends Component {
   constructor(props) {
@@ -47,35 +48,33 @@ class AnimalsDetail extends Component {
                 <IconContainer propertyName={animal.name} folderName={"animals"} cssClassName={animal.cssClassName} spriteSheet={"animals"} />
               </td>
             </tr>
-            { animal.description ? (
-              <tr>
-                <td>Description</td>
-                <td><i className="fa fa-book" aria-hidden="true"></i> {animal.description}</td>
-              </tr>
-            ) : '' }
+            <tr>
+              <td>Description</td>
+              <td>
+                { !animal.description ? '-' : <><i className="fa fa-book" aria-hidden="true"></i> {animal.description}</>}
+              </td>
+            </tr>
+            <tr>
+              <td>Unique Cooking Effects</td>
+              <td>
+                { !animal.uniqueCookingEffects ? '-' : <BonusEffect effectName={animal.uniqueCookingEffects} /> }
+              </td>
+            </tr>
             <tr>
               <td>Common Locations</td>
               <td>
-                { animal.commonLocations != null && animal.commonLocations.length > 0
-                  ? animal.commonLocations.map((location, index) => (
+                { 
+                  !animal.commonLocations || animal.commonLocations.length == 0 ? '-' : 
+                  animal.commonLocations.map((location, index) => (
                       <p key={index}><i className="fa fa-map-marker" aria-hidden="true"></i> {location}</p>
-                    ))
-                  : <span>—</span>
+                  ))
                 }
               </td>
             </tr>
-            { animal.uniqueCookingEffects ? (
-              <tr>
-                <td>Unique Cooking Effects</td>
-                <td>
-                  <i className="fa fa-cutlery" aria-hidden="true"></i> {animal.uniqueCookingEffects}
-                </td>
-              </tr>
-            ) : '' }
           </tbody>
         </DataDetailTableView>
 
-        { !animal.recoverableMaterials || animal.recoverableMaterials.length === 0 ? '' : (
+        { !animal.recoverableMaterials || animal.recoverableMaterials.length == 0 ? '' : (
           <div>
             <h2 className="page-header">Recoverable Materials</h2>
             <DataDetailTableView>

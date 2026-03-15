@@ -2,7 +2,7 @@
 .armor-sprite {
   width: 144px;
   height: 144px;
-  background-image: url('../img/bodyarmor.png');
+  background-image: url('../images/bodyarmor.png');
   background-repeat: no-repeat;
   display: inline-block;
 }
@@ -13,110 +13,110 @@
   transform-origin: top left;
 }
 
-.armor-sprite.thunder-helm { background-image: url('../img/headarmor.png'); background-position: -726px -2031px; }
+.armor-sprite.thunder-helm { background-image: url('../images/headarmor.png'); background-position: -726px -2031px; }
 .armor-sprite.old-shirt { background-position: -1px -1596px; }
 .armor-sprite.warm-doublet { background-position: -1px -1741px; }
 .armor-sprite.champions-tunic { background-position: -1px -2321px; }
-.armor-sprite.well-worn-trousers { background-image: url('../img/legarmor.png'); background-position: -1px -1596px; }
-.armor-sprite.sand-boots { background-image: url('../img/legarmor.png'); background-position: -1px -2031px; }
-.armor-sprite.snow-boots { background-image: url('../img/legarmor.png'); background-position: -1px -2321px; }
-.armor-sprite.topaz-earrings { background-image: url('../img/headarmor.png'); background-position: -726px -2176px; }
-.armor-sprite.opal-earrings { background-image: url('../img/headarmor.png'); background-position: -581px -2176px; }
-.armor-sprite.amber-earrings { background-image: url('../img/headarmor.png'); background-position: -436px -2176px; }
-.armor-sprite.diamond-circlet { background-image: url('../img/headarmor.png'); background-position: -1px -2176px; }
-.armor-sprite.ruby-circlet { background-image: url('../img/headarmor.png'); background-position: -146px -2176px; }
-.armor-sprite.sapphire-circlet { background-image: url('../img/headarmor.png'); background-position: -291px -2176px; }
-.armor-sprite.sheiks-mask { background-image: url('../img/headarmor.png'); background-position: -1741px -2031px; }
-.armor-sprite.bokoblin-mask { background-image: url('../img/headarmor.png'); background-position: -1px -2031px; }
-.armor-sprite.moblin-mask { background-image: url('../img/headarmor.png'); background-position: -436px -2031px; }
-.armor-sprite.lizalfos-mask { background-image: url('../img/headarmor.png'); background-position: -291px -2031px; }
-.armor-sprite.lynel-mask { background-image: url('../img/headarmor.png'); background-position: -581px -2031px; }
-.armor-sprite.barbarian-helm { background-image: url('../img/headarmor.png'); background-position: -1px -1741px; }
+.armor-sprite.well-worn-trousers { background-image: url('../images/legarmor.png'); background-position: -1px -1596px; }
+.armor-sprite.sand-boots { background-image: url('../images/legarmor.png'); background-position: -1px -2031px; }
+.armor-sprite.snow-boots { background-image: url('../images/legarmor.png'); background-position: -1px -2321px; }
+.armor-sprite.topaz-earrings { background-image: url('../images/headarmor.png'); background-position: -726px -2176px; }
+.armor-sprite.opal-earrings { background-image: url('../images/headarmor.png'); background-position: -581px -2176px; }
+.armor-sprite.amber-earrings { background-image: url('../images/headarmor.png'); background-position: -436px -2176px; }
+.armor-sprite.diamond-circlet { background-image: url('../images/headarmor.png'); background-position: -1px -2176px; }
+.armor-sprite.ruby-circlet { background-image: url('../images/headarmor.png'); background-position: -146px -2176px; }
+.armor-sprite.sapphire-circlet { background-image: url('../images/headarmor.png'); background-position: -291px -2176px; }
+.armor-sprite.sheiks-mask { background-image: url('../images/headarmor.png'); background-position: -1741px -2031px; }
+.armor-sprite.bokoblin-mask { background-image: url('../images/headarmor.png'); background-position: -1px -2031px; }
+.armor-sprite.moblin-mask { background-image: url('../images/headarmor.png'); background-position: -436px -2031px; }
+.armor-sprite.lizalfos-mask { background-image: url('../images/headarmor.png'); background-position: -291px -2031px; }
+.armor-sprite.lynel-mask { background-image: url('../images/headarmor.png'); background-position: -581px -2031px; }
+.armor-sprite.barbarian-helm { background-image: url('../images/headarmor.png'); background-position: -1px -1741px; }
 .armor-sprite.barbarian-armor { background-position: -1px -2031px; }
-.armor-sprite.barbarian-leg-wraps { background-image: url('../img/legarmor.png'); background-position: -1px -1886px; }
-.armor-sprite.climbers-bandana { background-image: url('../img/headarmor.png'); background-position: -1px -1016px; }
+.armor-sprite.barbarian-leg-wraps { background-image: url('../images/legarmor.png'); background-position: -1px -1886px; }
+.armor-sprite.climbers-bandana { background-image: url('../images/headarmor.png'); background-position: -1px -1016px; }
 .armor-sprite.climbers-gear { background-position: -1px -1016px; }
-.armor-sprite.climbers-boots { background-image: url('../img/legarmor.png'); background-position: -1px -1016px; }
-.armor-sprite.dark-hood { background-image: url('../img/headarmor.png'); background-position: -1016px -2031px; }
+.armor-sprite.climbers-boots { background-image: url('../images/legarmor.png'); background-position: -1px -1016px; }
+.armor-sprite.dark-hood { background-image: url('../images/headarmor.png'); background-position: -1016px -2031px; }
 .armor-sprite.dark-tunic { background-position: -146px -2321px; }
-.armor-sprite.dark-trousers { background-image: url('../img/legarmor.png'); background-position: -1px -2466px; }
-.armor-sprite.desert-voe-headband { background-image: url('../img/headarmor.png'); background-position: -1px -436px; }
+.armor-sprite.dark-trousers { background-image: url('../images/legarmor.png'); background-position: -1px -2466px; }
+.armor-sprite.desert-voe-headband { background-image: url('../images/headarmor.png'); background-position: -1px -436px; }
 .armor-sprite.desert-voe-spaulder { background-position: -1px -436px; }
-.armor-sprite.desert-voe-trousers { background-image: url('../img/legarmor.png'); background-position: -1px -436px; }
-.armor-sprite.fierce-deity-mask { background-image: url('../img/headarmor.png'); background-position: -2031px -2031px; }
+.armor-sprite.desert-voe-trousers { background-image: url('../images/legarmor.png'); background-position: -1px -436px; }
+.armor-sprite.fierce-deity-mask { background-image: url('../images/headarmor.png'); background-position: -2031px -2031px; }
 .armor-sprite.fierce-deity-armor { background-position: -871px -2321px; }
-.armor-sprite.fierce-deity-boots { background-image: url('../img/legarmor.png'); background-position: -1px -2466px; }
-.armor-sprite.flamebreaker-helm { background-image: url('../img/headarmor.png'); background-position: -1px -726px; }
+.armor-sprite.fierce-deity-boots { background-image: url('../images/legarmor.png'); background-position: -1px -2466px; }
+.armor-sprite.flamebreaker-helm { background-image: url('../images/headarmor.png'); background-position: -1px -726px; }
 .armor-sprite.flamebreaker-armor { background-position: -1px -726px; }
-.armor-sprite.flamebreaker-boots { background-image: url('../img/legarmor.png'); background-position: -1px -726px; }
-.armor-sprite.gerudo-veil { background-image: url('../img/headarmor.png'); background-position: -1px -1886px; }
+.armor-sprite.flamebreaker-boots { background-image: url('../images/legarmor.png'); background-position: -1px -726px; }
+.armor-sprite.gerudo-veil { background-image: url('../images/headarmor.png'); background-position: -1px -1886px; }
 .armor-sprite.gerudo-top { background-position: -1px -2176px; }
-.armor-sprite.gerudo-sirwal { background-image: url('../img/legarmor.png'); background-position: -1px -2176px; }
-.armor-sprite.ancient-helm { background-image: url('../img/headarmor.png'); background-position: -1px -1451px; }
+.armor-sprite.gerudo-sirwal { background-image: url('../images/legarmor.png'); background-position: -1px -2176px; }
+.armor-sprite.ancient-helm { background-image: url('../images/headarmor.png'); background-position: -1px -1451px; }
 .armor-sprite.ancient-cuiress { background-position: -1px -1451px; }
-.armor-sprite.ancient-greaves { background-image: url('../img/legarmor.png'); background-position: -1px -1451px; }
-.armor-sprite.cap-of-the-sky { background-image: url('../img/headarmor.png'); background-position: -1596px -2031px; }
+.armor-sprite.ancient-greaves { background-image: url('../images/legarmor.png'); background-position: -1px -1451px; }
+.armor-sprite.cap-of-the-sky { background-image: url('../images/headarmor.png'); background-position: -1596px -2031px; }
 .armor-sprite.tunic-of-the-sky { background-position: -726px -2321px; }
-.armor-sprite.trousers-of-the-sky { background-image: url('../img/legarmor.png'); background-position: -581px -2466px; }
-.armor-sprite.cap-of-time { background-image: url('../img/headarmor.png'); background-position: -1161px -2031px; }
+.armor-sprite.trousers-of-the-sky { background-image: url('../images/legarmor.png'); background-position: -581px -2466px; }
+.armor-sprite.cap-of-time { background-image: url('../images/headarmor.png'); background-position: -1161px -2031px; }
 .armor-sprite.tunic-of-time { background-position: -291px -2321px; }
-.armor-sprite.trousers-of-time { background-image: url('../img/legarmor.png'); background-position: -146px -2466px; }
-.armor-sprite.cap-of-twilight { background-image: url('../img/headarmor.png'); background-position: -1451px -2031px; }
+.armor-sprite.trousers-of-time { background-image: url('../images/legarmor.png'); background-position: -146px -2466px; }
+.armor-sprite.cap-of-twilight { background-image: url('../images/headarmor.png'); background-position: -1451px -2031px; }
 .armor-sprite.tunic-of-twilight { background-position: -581px -2321px; }
-.armor-sprite.trousers-of-twilight { background-image: url('../img/legarmor.png'); background-position: -436px -2466px; }
-.armor-sprite.cap-of-the-wild { background-image: url('../img/headarmor.png'); background-position: -1px -146px; }
+.armor-sprite.trousers-of-twilight { background-image: url('../images/legarmor.png'); background-position: -436px -2466px; }
+.armor-sprite.cap-of-the-wild { background-image: url('../images/headarmor.png'); background-position: -1px -146px; }
 .armor-sprite.tunic-of-the-wild { background-position: -1px -146px; }
-.armor-sprite.trousers-of-the-wild { background-image: url('../img/legarmor.png'); background-position: -1px -146px; }
-.armor-sprite.cap-of-the-wind { background-image: url('../img/headarmor.png'); background-position: -1306px -2031px; }
+.armor-sprite.trousers-of-the-wild { background-image: url('../images/legarmor.png'); background-position: -1px -146px; }
+.armor-sprite.cap-of-the-wind { background-image: url('../images/headarmor.png'); background-position: -1306px -2031px; }
 .armor-sprite.tunic-of-the-wind { background-position: -436px -2321px; }
-.armor-sprite.trousers-of-the-wind { background-image: url('../img/legarmor.png'); background-position: -291px -2466px; }
-.armor-sprite.cap-of-the-hero { background-image: url('../img/headarmor.png'); background-position: -2176px -2031px; }
+.armor-sprite.trousers-of-the-wind { background-image: url('../images/legarmor.png'); background-position: -291px -2466px; }
+.armor-sprite.cap-of-the-hero { background-image: url('../images/headarmor.png'); background-position: -2176px -2031px; }
 .armor-sprite.tunic-of-the-hero { background-position: -1016px -2321px; }
-.armor-sprite.trousers-of-the-hero { background-image: url('../img/legarmor.png'); background-position: -1886px -2466px; }
-.armor-sprite.hylian-hood { background-image: url('../img/headarmor.png'); background-position: -1px -1px; }
+.armor-sprite.trousers-of-the-hero { background-image: url('../images/legarmor.png'); background-position: -1886px -2466px; }
+.armor-sprite.hylian-hood { background-image: url('../images/headarmor.png'); background-position: -1px -1px; }
 .armor-sprite.hylian-tunic { background-position: -1px -1px; }
-.armor-sprite.hylian-trousers { background-image: url('../img/legarmor.png'); background-position: -1px -1px; }
-.armor-sprite.radiant-mask { background-image: url('../img/headarmor.png'); background-position: -1px -1161px; }
+.armor-sprite.hylian-trousers { background-image: url('../images/legarmor.png'); background-position: -1px -1px; }
+.armor-sprite.radiant-mask { background-image: url('../images/headarmor.png'); background-position: -1px -1161px; }
 .armor-sprite.radiant-shirt { background-position: -1px -1161px; }
-.armor-sprite.radiant-tights { background-image: url('../img/legarmor.png'); background-position: -1px -1161px; }
-.armor-sprite.rubber-helm { background-image: url('../img/headarmor.png'); background-position: -1px -1596px; }
+.armor-sprite.radiant-tights { background-image: url('../images/legarmor.png'); background-position: -1px -1161px; }
+.armor-sprite.rubber-helm { background-image: url('../images/headarmor.png'); background-position: -1px -1596px; }
 .armor-sprite.rubber-armor { background-position: -1px -1886px; }
-.armor-sprite.rubber-tights { background-image: url('../img/legarmor.png'); background-position: -1px -1741px; }
-.armor-sprite.snowquill-headdress { background-image: url('../img/headarmor.png'); background-position: -1px -581px; }
+.armor-sprite.rubber-tights { background-image: url('../images/legarmor.png'); background-position: -1px -1741px; }
+.armor-sprite.snowquill-headdress { background-image: url('../images/headarmor.png'); background-position: -1px -581px; }
 .armor-sprite.snowquill-tunic { background-position: -1px -581px; }
-.armor-sprite.snowquill-trousers { background-image: url('../img/legarmor.png'); background-position: -1px -581px; }
-.armor-sprite.soldiers-helm { background-image: url('../img/headarmor.png'); background-position: -1px -1306px; }
+.armor-sprite.snowquill-trousers { background-image: url('../images/legarmor.png'); background-position: -1px -581px; }
+.armor-sprite.soldiers-helm { background-image: url('../images/headarmor.png'); background-position: -1px -1306px; }
 .armor-sprite.soldiers-armor { background-position: -1px -1306px; }
-.armor-sprite.soldiers-greaves { background-image: url('../img/legarmor.png'); background-position: -1px -1306px; }
-.armor-sprite.stealth-mask { background-image: url('../img/headarmor.png'); background-position: -1px -871px; }
+.armor-sprite.soldiers-greaves { background-image: url('../images/legarmor.png'); background-position: -1px -1306px; }
+.armor-sprite.stealth-mask { background-image: url('../images/headarmor.png'); background-position: -1px -871px; }
 .armor-sprite.stealth-chest-guard { background-position: -1px -871px; }
-.armor-sprite.stealth-tights { background-image: url('../img/legarmor.png'); background-position: -1px -871px; }
-.armor-sprite.zora-helm { background-image: url('../img/headarmor.png'); background-position: -1px -291px; }
+.armor-sprite.stealth-tights { background-image: url('../images/legarmor.png'); background-position: -1px -871px; }
+.armor-sprite.zora-helm { background-image: url('../images/headarmor.png'); background-position: -1px -291px; }
 .armor-sprite.zora-armor { background-position: -1px -291px; }
-.armor-sprite.zora-greaves { background-image: url('../img/legarmor.png'); background-position: -1px -291px; }
-.armor-sprite.korok-mask { background-image: url('../img/headarmor.png'); background-position: -1451px -2176px; }
-.armor-sprite.majoras-mask { background-image: url('../img/headarmor.png'); background-position: -1016px -2176px; }
-.armor-sprite.midnas-helmet { background-image: url('../img/headarmor.png'); background-position: -1161px -2176px; }
-.armor-sprite.phantom-ganon-skull { background-image: url('../img/headarmor.png'); background-position: -2176px -2176px; }
+.armor-sprite.zora-greaves { background-image: url('../images/legarmor.png'); background-position: -1px -291px; }
+.armor-sprite.korok-mask { background-image: url('../images/headarmor.png'); background-position: -1451px -2176px; }
+.armor-sprite.majoras-mask { background-image: url('../images/headarmor.png'); background-position: -1016px -2176px; }
+.armor-sprite.midnas-helmet { background-image: url('../images/headarmor.png'); background-position: -1161px -2176px; }
+.armor-sprite.phantom-ganon-skull { background-image: url('../images/headarmor.png'); background-position: -2176px -2176px; }
 .armor-sprite.phantom-ganon-armor { background-position: -2031px -2321px; }
-.armor-sprite.phantom-ganon-greaves { background-image: url('../img/legarmor.png'); background-position: -1451px -2466px; }
-.armor-sprite.phantom-helmet { background-image: url('../img/headarmor.png'); background-position: -871px -2176px; }
+.armor-sprite.phantom-ganon-greaves { background-image: url('../images/legarmor.png'); background-position: -1451px -2466px; }
+.armor-sprite.phantom-helmet { background-image: url('../images/headarmor.png'); background-position: -871px -2176px; }
 .armor-sprite.phantom-armor { background-position: -1306px -2321px; }
-.armor-sprite.phantom-greaves { background-image: url('../img/legarmor.png'); background-position: -871px -2466px; }
-.armor-sprite.ravios-hood { background-image: url('../img/headarmor.png'); background-position: -1741px -2176px; }
-.armor-sprite.royal-guard-cap { background-image: url('../img/headarmor.png'); background-position: -2031px -2176px; }
+.armor-sprite.phantom-greaves { background-image: url('../images/legarmor.png'); background-position: -871px -2466px; }
+.armor-sprite.ravios-hood { background-image: url('../images/headarmor.png'); background-position: -1741px -2176px; }
+.armor-sprite.royal-guard-cap { background-image: url('../images/headarmor.png'); background-position: -2031px -2176px; }
 .armor-sprite.royal-guard-uniform { background-position: -1886px -2321px; }
-.armor-sprite.royal-guard-boots { background-image: url('../img/legarmor.png'); background-position: -1306px -2466px; }
-.armor-sprite.salvager-headgear { background-image: url('../img/headarmor.png'); background-position: -1596px -2176px; }
+.armor-sprite.royal-guard-boots { background-image: url('../images/legarmor.png'); background-position: -1306px -2466px; }
+.armor-sprite.salvager-headgear { background-image: url('../images/headarmor.png'); background-position: -1596px -2176px; }
 .armor-sprite.salvager-vest { background-position: -1596px -2321px; }
-.armor-sprite.salvager-trousers { background-image: url('../img/legarmor.png'); background-position: -1161px -2466px; }
-.armor-sprite.tingles-hood { background-image: url('../img/headarmor.png'); background-position: -1306px -2176px; }
+.armor-sprite.salvager-trousers { background-image: url('../images/legarmor.png'); background-position: -1161px -2466px; }
+.armor-sprite.tingles-hood { background-image: url('../images/headarmor.png'); background-position: -1306px -2176px; }
 .armor-sprite.tingles-shirt { background-position: -1451px -2321px; }
-.armor-sprite.tingles-tights { background-image: url('../img/legarmor.png'); background-position: -1016px -2466px; }
-.armor-sprite.vah-medoh-divine-helm { background-image: url('../img/headarmor.png'); background-position: -1px -2466px; }
-.armor-sprite.vah-naboris-divine-helm { background-image: url('../img/headarmor.png'); background-position: -1px -2756px; }
-.armor-sprite.vah-rudania-divine-helm { background-image: url('../img/headarmor.png'); background-position: -1px -2611px; }
-.armor-sprite.vah-ruta-divine-helm { background-image: url('../img/headarmor.png'); background-position: -1px -2321px; }
-.armor-sprite.zants-helmet { background-image: url('../img/headarmor.png'); background-position: -1886px -2176px; }
+.armor-sprite.tingles-tights { background-image: url('../images/legarmor.png'); background-position: -1016px -2466px; }
+.armor-sprite.vah-medoh-divine-helm { background-image: url('../images/headarmor.png'); background-position: -1px -2466px; }
+.armor-sprite.vah-naboris-divine-helm { background-image: url('../images/headarmor.png'); background-position: -1px -2756px; }
+.armor-sprite.vah-rudania-divine-helm { background-image: url('../images/headarmor.png'); background-position: -1px -2611px; }
+.armor-sprite.vah-ruta-divine-helm { background-image: url('../images/headarmor.png'); background-position: -1px -2321px; }
+.armor-sprite.zants-helmet { background-image: url('../images/headarmor.png'); background-position: -1886px -2176px; }
 .armor-sprite.island-lobster-shirt { background-position: -1741px -2321px; }
 .armor-sprite.nintendo-switch-shirt { background-position: -1161px -2321px; }

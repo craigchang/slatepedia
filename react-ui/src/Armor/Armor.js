@@ -57,7 +57,7 @@ class Armor extends Component {
                   "dataName": null, 
                   "headerName": "Icon",
                   "dataType": "image",
-                  "imageFolder": "/img/armor",
+                  "imageFolder": "/images/armor",
                   "imageCssDataName": "cssClassName",
                   "spriteSheet": "bodyarmor",
                   "isSortable": false, 

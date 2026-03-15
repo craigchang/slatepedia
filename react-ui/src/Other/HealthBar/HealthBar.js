@@ -1,10 +1,10 @@
 import React from 'react';
 import './HealthBar.css';
 
-import quarterHeartImg from '../../img/icons/quarter_heart_icon.png';
-import halfHeartImg from '../../img/icons/half_heart_icon.png';
-import threeQuartersHeartImg from '../../img/icons/three_quarters_heart_icon.png';
-import fullHeartImg from '../../img/icons/full_heart_icon.png';
+import quarterHeartImg from './images/quarter_heart_icon.png';
+import halfHeartImg from './images/half_heart_icon.png';
+import threeQuartersHeartImg from './images/three_quarters_heart_icon.png';
+import fullHeartImg from './images/full_heart_icon.png';
 
 const HEART_IMAGES = {
   quarter: quarterHeartImg,

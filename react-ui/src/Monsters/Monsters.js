@@ -57,7 +57,7 @@ class Monsters extends Component {
                   "dataName": null, 
                   "headerName": "Icon",
                   "dataType": "image",
-                  "imageFolder": "/img/monsters",
+                  "imageFolder": "/images/monsters",
                   "imageCssDataName": "cssClassName",
                   "spriteSheet": "monsters",
                   "isSortable": false, 

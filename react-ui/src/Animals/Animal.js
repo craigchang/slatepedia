@@ -57,7 +57,7 @@ class Animal extends Component {
                   "dataName": null,
                   "headerName": "Icon",
                   "dataType": "image",
-                  "imageFolder": "/img/animals",
+                  "imageFolder": "/images/animals",
                   "imageCssDataName": "cssClassName",
                   "spriteSheet": "animals",
                   "isSortable": false,
