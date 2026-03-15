@@ -21,16 +21,16 @@ import { withRouter } from 'react-router-dom';
 import './Header.css';
 
 const RESOURCE_LINKS = [
-  { path: '/materials', label: 'Materials' },
-  { path: '/recipes', label: 'Recipes' },
-  { path: '/armor', label: 'Armor' },
-  { path: '/food', label: 'Food' },
-  { path: '/monsters', label: 'Monsters' },
-  { path: '/shields', label: 'Shields' },
-  { path: '/weapons', label: 'Weapons' },
-  { path: '/bows', label: 'Bows' },
   { path: '/animals', label: 'Animals' },
-  { path: '/other', label: 'Other' }
+  { path: '/armor', label: 'Armor' },
+  { path: '/bows', label: 'Bows' },
+  { path: '/food', label: 'Food' },
+  { path: '/materials', label: 'Materials' },
+  { path: '/monsters', label: 'Monsters' },
+  { path: '/other', label: 'Other' },
+  { path: '/recipes', label: 'Recipes' },
+  { path: '/shields', label: 'Shields' },
+  { path: '/weapons', label: 'Weapons' }
 ];
 
 class Header extends Component {
