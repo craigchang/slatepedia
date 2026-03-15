@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import _ from 'lodash';
 import DataDetailTableView from '../Other/DataDetailTableView/DataDetailTableView'
 import IconContainer from '../Other/IconContainer/IconContainer'
-// import HealthBar from '../Other/HealthBar/HealthBar'
 
 import './FoodDetail.css';
 import '../Food/FoodSprites.css';

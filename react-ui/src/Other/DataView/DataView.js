@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import GridDataView from './GridDataView/GridDataView';
-import ListDataView from './ListDataView/ListDataView';
+import GridDataView from '../GridDataView/GridDataView';
+import ListDataView from '../ListDataView/ListDataView';
 import _ from 'lodash';
 
 import './DataView.css';

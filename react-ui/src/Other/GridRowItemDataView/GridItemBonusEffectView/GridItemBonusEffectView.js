@@ -1,5 +1,5 @@
 import React from 'react';
-import BonusEffect from '../../../BonusEffect/BonusEffect';
+import BonusEffect from '../../BonusEffect/BonusEffect';
 
 const getNestedValue = (obj, path) => {
   const parts = path.split('.');

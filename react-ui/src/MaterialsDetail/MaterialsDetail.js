@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import IconContainer from '../Other/IconContainer/IconContainer';
 import DataDetailTableView from '../Other/DataDetailTableView/DataDetailTableView';
-// import HealthBar from '../Other/HealthBar/HealthBar';
 import '../Armor/ArmorSprites.css';
 import '../Materials/MaterialsSprites.css';
 import '../Food/FoodSprites.css';
