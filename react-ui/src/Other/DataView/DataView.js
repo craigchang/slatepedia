@@ -188,7 +188,7 @@ class DataView extends Component {
 
     for(let i = 0; i < this.props.filterSettings.length; i++) {
       if (this.props.filterSettings[i].isSortable)
-        options.push(<option key={`${this.props.filterSettings[i].dataName}-option`} value={this.props.filterSettings[i].dataName} defaultValue={this.state.sortBy === this.props.filterSettings[i].dataName ? 'selected' : ''} >{this.props.filterSettings[i].headerName}</option>)
+        options.push(<option key={`${this.props.filterSettings[i].dataName}-option`} value={this.props.filterSettings[i].dataName}>{this.props.filterSettings[i].headerName}</option>)
     }
 
     return (
@@ -200,8 +200,8 @@ class DataView extends Component {
                 <i className={this.state.sortOrder === 'desc' ? 'fa fa-sort-alpha-desc': 'fa fa-sort-alpha-asc'} aria-hidden="true"></i>
               </button>
             </div>
-            <select className="form-control" name="sortSelect" ref={this.sortSelect} onChange={this.onChangeSortSelect}>
-              <option value="" >Sort By...</option>
+            <select className="form-control" name="sortSelect" ref={this.sortSelect} value={this.state.sortBy || ''} onChange={this.onChangeSortSelect}>
+              <option value="">Sort By...</option>
               {options}
             </select>
           </div>
