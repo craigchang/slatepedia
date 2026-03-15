@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import LoadingWidget from '../Other/Loading/Loading';
+import LoadingWidget from '../CommonComponents/Loading/Loading';
 
 import './Changelog.css';
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import DataView from '../Other/DataView/DataView';
-import Loading from '../Other/Loading/Loading';
+import DataView from '../CommonComponents/DataView/DataView';
+import Loading from '../CommonComponents/Loading/Loading';
 
 import './Food.css';
 import './FoodSprites.css';

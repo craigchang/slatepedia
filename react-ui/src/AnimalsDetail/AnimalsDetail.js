@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import DataDetailTableView from '../Other/DataDetailTableView/DataDetailTableView';
-import IconContainer from '../Other/IconContainer/IconContainer';
+import DataDetailTableView from '../CommonComponents/DataDetailTableView/DataDetailTableView';
+import IconContainer from '../CommonComponents/IconContainer/IconContainer';
 
 import './AnimalsDetail.css';
 import '../Animals/AnimalSprites.css';
 import '../Materials/MaterialsSprites.css';
-import BonusEffect from '../Other/BonusEffect/BonusEffect';
+import BonusEffect from '../CommonComponents/BonusEffect/BonusEffect';
 
 class AnimalsDetail extends Component {
   constructor(props) {

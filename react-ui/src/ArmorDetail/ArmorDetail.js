@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import IconContainer from '../Other/IconContainer/IconContainer';
+import IconContainer from '../CommonComponents/IconContainer/IconContainer';
 import '../Armor/ArmorSprites.css';
-import DataDetailTableView from '../Other/DataDetailTableView/DataDetailTableView';
-import BonusEffect from '../Other/BonusEffect/BonusEffect';
+import DataDetailTableView from '../CommonComponents/DataDetailTableView/DataDetailTableView';
+import BonusEffect from '../CommonComponents/BonusEffect/BonusEffect';
 
 import './ArmorDetail.css';
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import DataDetailTableView from '../Other/DataDetailTableView/DataDetailTableView';
-import IconContainer from '../Other/IconContainer/IconContainer';
+import DataDetailTableView from '../CommonComponents/DataDetailTableView/DataDetailTableView';
+import IconContainer from '../CommonComponents/IconContainer/IconContainer';
 
 import './RecipesDetail.css';
 import '../Food/FoodSprites.css';

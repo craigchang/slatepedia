@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import _ from 'lodash';
-import DataDetailTableView from '../Other/DataDetailTableView/DataDetailTableView';
-import IconContainer from '../Other/IconContainer/IconContainer';
+import DataDetailTableView from '../CommonComponents/DataDetailTableView/DataDetailTableView';
+import IconContainer from '../CommonComponents/IconContainer/IconContainer';
 
 import './WeaponsDetail.css';
 import '../Weapons/WeaponSprites.css';

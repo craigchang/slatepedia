@@ -1378,25 +1378,25 @@ module.exports = [
       },
       {
         "id": 0,
-        "name": "Rupees (Green",
+        "name": "Green Rupee",
         "cssClassName": "rupees-green",
         "category": "other"
       },
       {
         "id": 0,
-        "name": " Blue",
+        "name": "Blue Rupee",
         "cssClassName": "-blue",
         "category": "other"
       },
       {
         "id": 0,
-        "name": " Red",
+        "name": "Red Rupee",
         "cssClassName": "-red",
         "category": "other"
       },
       {
         "id": 0,
-        "name": " Purple)",
+        "name": "Purple Rupee",
         "cssClassName": "-purple",
         "category": "other"
       }
