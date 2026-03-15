@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import GridRowItemDataView from './GridRowItemDataView/GridRowItemDataView';
-import ListRowItemDataView from './ListRowItemDataView/ListRowItemDataView';
+import GridDataView from './GridDataView/GridDataView';
+import ListDataView from './ListDataView/ListDataView';
 import _ from 'lodash';
 
 import './DataView.css';
@@ -27,6 +27,7 @@ class DataView extends Component {
     this.clickFilterOptionsButton = this.clickFilterOptionsButton.bind(this);
     this.clickClearFilterButton = this.clickClearFilterButton.bind(this);
     this.submitFilterSearch = this.submitFilterSearch.bind(this);
+    this.clickTableColumnHeader = this.clickTableColumnHeader.bind(this);
 
     this.onClickSortButton = this.onClickSortButton.bind(this);
     this.onChangeSortSelect = this.onChangeSortSelect.bind(this);
@@ -101,14 +102,15 @@ class DataView extends Component {
     let dataName = this.sortSelect.current.value;
     if (dataName === '') return false;
 
+    const sortOrder = this.state.sortOrder || 'asc';
     let results = this.state.json.slice();
-    
-    results = _.orderBy(results, dataName, this.state.sortOrder);
+    results = _.orderBy(results, dataName, sortOrder);
 
     this.setState({
       json: results,
-      sortBy: dataName
-    })
+      sortBy: dataName,
+      sortOrder: sortOrder
+    });
   }
 
   onClickSortButton(event) {
@@ -159,26 +161,27 @@ class DataView extends Component {
   // RENDER FUNCTIONS
 
   renderDataView(json) {
-    if (json == null || json.length === 0) return false;
+    if (json == null || json.length === 0) return null;
 
-    switch(this.state.dataView) {
-      case "grid":
-        return this.renderGridView(json);
-      case "list":
-        return this.renderListView(json);
-      default:
-        return this.renderGridView(json);
+    if (this.state.dataView === 'list') {
+      return (
+        <ListDataView
+          json={json}
+          fetching={this.state.fetching}
+          filterSettings={this.props.filterSettings}
+        />
+      );
     }
-  }
-
-  renderListView() {
-    return ( 
-      <div className="list-group mt-0">
-        {this.state.fetching ? 
-          'Fetching message from API' : 
-          this.state.json.map((obj, index) => (<ListRowItemDataView key={index} obj={obj} filterSettings={this.props.filterSettings} />))}
-      </div>
-    )
+    return (
+      <GridDataView
+        json={json}
+        fetching={this.state.fetching}
+        filterSettings={this.props.filterSettings}
+        sortBy={this.state.sortBy}
+        sortOrder={this.state.sortOrder}
+        onColumnHeaderClick={this.clickTableColumnHeader}
+      />
+    );
   }
 
   renderListSortSelectView() {
@@ -206,51 +209,6 @@ class DataView extends Component {
             </select>
           </div>
         </div>
-      </div>
-    )
-  }
-
-  renderGridHeaderView() {
-    let tableHeaderColsArray = [];
-    for(let i = 0; i < this.props.filterSettings.length; i++) {
-      const setting = this.props.filterSettings[i];
-      const titleAttr = setting.tooltip ? { title: setting.tooltip } : {};
-      if (setting.isSortable)
-        tableHeaderColsArray.push( 
-          <th 
-            {...titleAttr}
-            className={`sticky-top sortable ${this.state.sortBy === setting.dataName ? this.state.sortOrder : ''}`}
-            key={`${i}-${setting.headerName}`} 
-            onClick={(event) => this.clickTableColumnHeader(event, setting.dataName)}>{setting.headerName}</th> 
-        )
-      else
-        tableHeaderColsArray.push( 
-          <th 
-            {...titleAttr}
-            className="sticky-top"
-            style={{cursor: 'default'}} 
-            key={`${i}-${setting.dataValue}`}>{setting.headerName}</th> 
-        )
-    }
-
-    return tableHeaderColsArray;
-  }
-
-  renderGridView() {
-    return (
-      <div className="table-responsive table-responsive-sticky">
-        <table className="table table-striped sortable">
-          <thead>
-            <tr>
-              {this.state.fetching ? '' : this.renderGridHeaderView()}
-            </tr>
-          </thead>
-          <tbody>
-            {this.state.fetching ? 
-              'Fetching message from API' : 
-              this.state.json.map((obj, index) => (<GridRowItemDataView key={index} obj={obj} filterSettings={this.props.filterSettings} />))}
-          </tbody>
-        </table>
       </div>
     )
   }
