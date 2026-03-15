@@ -10,7 +10,7 @@
   }
 } */
 .table-responsive .table.sortable thead th.sticky-top {
-  top: 55px;
+  top: 40px;
   z-index: 10;
   background-color: #fff;
 }
@@ -64,6 +64,20 @@ th.sortable.desc:after {
 .list-view-item:hover {
   background-color: #f5f5f5; }
 
+/* List view: icon left, body right (Bootstrap 5 removed .media; use flex) */
+.list-view-item .media {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+.list-view-item .media-left {
+  flex-shrink: 0;
+}
+.list-view-item .media-body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
 .list-view-item .media .media-body .media-heading {
   font-size: 20px; }
 
@@ -96,3 +110,155 @@ th.sortable.desc:after {
 
 .slider.slider-horizontal {
   width: 100%; }
+
+/* View toggle: full width on mobile */
+@media (max-width: 767px) {
+  .dataview-view-toggle {
+    width: 100%;
+    display: flex;
+  }
+  .dataview-view-toggle .btn {
+    flex: 1;
+  }
+}
+
+/* Search form: full-width input, responsive layout, consistent font size (0.875rem = Bootstrap sm) */
+.dataview-search-form {
+  font-size: 0.875rem;
+}
+
+.dataview-search-form .form-control,
+.dataview-search-form .form-select,
+.dataview-search-form .input-group-text,
+.dataview-search-form .btn-group .btn,
+.dataview-api-filters .btn,
+.dataview-api-filters .input-group-text,
+.dataview-api-filters .form-select {
+  font-size: 0.875rem;
+}
+
+.dataview-search-form .row {
+  --bs-gutter-x: 0.5rem;
+}
+
+.dataview-search-form .col.min-width-0 {
+  min-width: 0;
+}
+
+.dataview-search-form .input-group {
+  width: 100%;
+}
+
+.dataview-search-form .form-control {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* API filters: Bootstrap 5 input-group (direct children), full width on mobile */
+.dataview-api-filters .input-group {
+  align-items: stretch;
+}
+
+.dataview-api-filters__item {
+  display: inline-flex;
+}
+
+.dataview-api-filters__item .dropdown .btn {
+  border-radius: 0;
+}
+
+.dataview-api-filters__item:first-child .dropdown .btn {
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+
+/* When Clear button is present, connect last filter button to it */
+.dataview-api-filters .input-group:has(> .btn:last-child) .dataview-api-filters__item:last-child .dropdown .btn {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.dataview-api-filters .input-group > .btn:last-child {
+  border-radius: 0 0.375rem 0.375rem 0;
+}
+
+/* Reserve space for Clear button so dropdown position doesn't shift when filters become active */
+.dataview-api-filters__clear {
+  min-width: 6.5rem;
+}
+.dataview-api-filters__clear--hidden {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.dataview-api-filters__dropdown-btn {
+  min-height: 31px;
+  min-width: 11rem;
+  padding: 0.25rem 0.5rem;
+  text-align: left;
+}
+
+.dataview-api-filters__dropdown-menu {
+  max-height: 70vh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.dataview-api-filters__dropdown-menu .dropdown-item {
+  padding: 0.5rem 0.75rem;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.dataview-api-filters__dropdown-menu .dropdown-item input[type="checkbox"] {
+  min-width: 18px;
+  min-height: 18px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 767px) {
+  .dataview-api-filters .input-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .dataview-api-filters__item {
+    width: 100%;
+    margin-right: 0 !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .dataview-api-filters__item .dropdown .btn,
+  .dataview-api-filters__item:first-child .dropdown .btn {
+    border-radius: 0.25rem;
+  }
+
+  .dataview-api-filters__dropdown {
+    width: 100%;
+  }
+
+  .dataview-api-filters__dropdown-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    min-height: 44px;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+  }
+
+  .dataview-api-filters__dropdown-menu {
+    left: 0 !important;
+    right: 0 !important;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .dataview-api-filters .input-group > .btn:last-child {
+    width: 100%;
+    min-height: 44px;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+  }
+}

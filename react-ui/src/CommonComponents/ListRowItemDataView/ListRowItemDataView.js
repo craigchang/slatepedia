@@ -16,7 +16,7 @@ const ListRowItemDataView = ({obj, filterSettings}) => {
   return (
     <div className="list-group-item list-view-item">
       <div className="media">
-        <div className="media-left media-middle mr-2">
+        <div className="media-left media-middle me-2">
           <ListItemImageView imageFolder={imageFilterSettings[0].imageFolder} name={obj.name} fileType={imageFilterSettings[0].fileType} cssClassName={imageFilterSettings[0].imageCssDataName ? obj[imageFilterSettings[0].imageCssDataName] : null} spriteSheet={imageFilterSettings[0].spriteSheet}/>
         </div>
         <div className="media-body">

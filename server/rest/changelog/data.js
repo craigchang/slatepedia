@@ -3,6 +3,14 @@ module.exports = [
     "sha": "unreleased",
     "shortSha": "unreleased",
     "htmlUrl": "",
+    "date": "2026-02-27T00:00:00Z",
+    "title": "Bootstrap 5 upgrade, search/filter UI, and Animals filters",
+    "message": "Upgrades Bootstrap from 4.x to 5.3.3. Migrates markup and styles: data-bs-toggle/data-bs-target, ml/mr to me/ms, custom-select to form-select, sr-only to visually-hidden, navbar container-fluid and data-bs-theme; drops input-group-prepend/append in favor of direct children; form-row to row with g-2. Navbar and landing: proper padding via container-fluid px-3/px-md-4 in header, body padding-top 56px for fixed navbar, main padding 1rem/1.5rem 2rem; landing (App) uses Bootstrap 5–style bg-light rounded-3 section instead of jumbotron. Search and filter UI: search/sort in a card; Grid/List view toggle on its own row (full-width on mobile via dataview-view-toggle CSS); consistent 0.875rem font in SearchFilterCriteria and DataView form; API filter dropdowns use data-bs-auto-close=\"outside\" so they stay open while selecting; Clear filters button always rendered (visibility hidden when inactive) and dropdown-menu-start plus min-width on filter buttons so the dropdown menu does not shift when selections change. Animals: adds Common Locations and Recoverable Materials multi-select filters using existing API query params (commonLocation, recoverableMaterial). List view: icon fixed to the left of body content via flex layout on .media (Bootstrap 5 no longer provides .media). HealthBar: sr-only to visually-hidden."
+  },
+  {
+    "sha": "unreleased",
+    "shortSha": "unreleased",
+    "htmlUrl": "",
     "date": "2026-03-15T00:00:00Z",
     "title": "Other Items resource, monster item drops, and nav",
     "message": "Adds an Other Items resource for miscellaneous in-game items (rupees, key items, bridles/saddles, compendium icons, etc.). New REST API: GET /api/other and GET /api/other/:id; data includes id, name, cssClassName, and in-game descriptions (rupees use official BotW text). New React list (OtherItems) and detail (OtherItemDetail) pages with sprites from materials.png via OtherItemsSprites.css; routes /other and /other/:id; Other added to Resources dropdown in the header. IconContainer and grid/list image views support spriteSheet \"other\". MonstersDetail shows Other Items sprites in Item Drops, imports OtherItemsSprites.css, and uses correct category and id per drop: rupees and Master Cycle Zero use category \"other\" with ids from other/data.js; cooked food (Roasted Bass, Seared Steak, etc.) use category \"food\"; generic Bow and Weapons use \"bows\" and \"weapons\". Monster rupee drop ids fixed (e.g. Green 1, Blue 2, Red 5, Purple 4); Master Cycle Zero id set to 30. WeaponsDetail: add map-marker icon to Availabilities list for consistency."

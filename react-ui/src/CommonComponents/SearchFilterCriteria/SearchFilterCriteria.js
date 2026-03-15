@@ -9,21 +9,20 @@ import './SearchFilterCriteria.css';
 function SearchFilterCriteria({ searchName, onSearchNameChange, placeholder = 'Search by Name', children }) {
   return (
     <div className="search-filter-criteria">
-      <div className="form-group">
-        <div className="input-group mb-2">
-          <div className="input-group-prepend">
-            <div className="input-group-text"><i className="fa fa-search" aria-hidden="true"></i></div>
-          </div>
-          <input
-            type="text"
-            className="form-control"
-            placeholder={placeholder}
-            value={searchName}
-            onChange={(e) => onSearchNameChange(e.target.value)}
-            name="searchName"
-            aria-label={placeholder}
-          />
-        </div>
+      <div className="input-group input-group-sm flex-nowrap">
+        <span className="input-group-text rounded-start flex-shrink-0" id="search-addon">
+          <i className="fa fa-search" aria-hidden="true"></i>
+        </span>
+        <input
+          type="text"
+          className="form-control rounded-end"
+          placeholder={placeholder}
+          value={searchName}
+          onChange={(e) => onSearchNameChange(e.target.value)}
+          name="searchName"
+          aria-label={placeholder}
+          aria-describedby="search-addon"
+        />
       </div>
       {children}
     </div>

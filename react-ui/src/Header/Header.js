@@ -43,16 +43,17 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-          <a className="navbar-brand" href="/">Slatepedia</a>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
+        <nav className="navbar navbar-expand-md fixed-top bg-dark py-2 py-md-0" data-bs-theme="dark">
+          <div className="container-fluid px-3 px-md-4">
+            <a className="navbar-brand" href="/">Slatepedia</a>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
 
-          <div className="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul className="navbar-nav mr-auto">
+            <div className="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul className="navbar-nav me-auto">
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+                <a className="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
                 <div className="dropdown-menu" aria-labelledby="dropdown01">
                   {RESOURCE_LINKS.map(({ path, label }) => {
                     const active = this.isResourceActive(path);
@@ -63,25 +64,24 @@ class Header extends Component {
                         href={path}
                       >
                         {label}
-                        {active && <span className="sr-only">(current)</span>}
+                        {active && <span className="visually-hidden">(current)</span>}
                       </a>
                     );
                   })}
                 </div>
               </li>
             </ul>
-            <ul className="navbar-nav ml-auto">
+            <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <a className="nav-link" href="/changelog">Changelog</a>
               </li>
             </ul>
             {/* <form className="form-inline my-2 my-lg-0">
-              <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"/>
+              <input className="form-control me-sm-2" type="text" placeholder="Search" aria-label="Search"/>
               <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form> */}
+            </div>
           </div>
-            
-
         </nav>
       </header>
     );

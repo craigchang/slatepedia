@@ -10,7 +10,7 @@ const ListItemImageView = ({imageFolder, name, fileType, cssClassName, spriteShe
     const spriteClassName = (cssClassName || name.replace(/ /g, '-').replace(/'/g, '').toLowerCase()).replace(/'/g, '');
     const baseClass = spriteSheet === 'weapons' ? 'weapon-sprite weapon-sprite-sm' : spriteSheet === 'bows' ? 'bow-sprite bow-sprite-sm' : spriteSheet === 'shields' ? 'shield-sprite shield-sprite-sm' : spriteSheet === 'monsters' ? 'monster-sprite monster-sprite-sm' : spriteSheet === 'food' ? 'food-sprite food-sprite-sm' : spriteSheet === 'animals' ? 'animal-sprite animal-sprite-sm' : spriteSheet === 'other' ? 'other-sprite other-sprite-sm' : 'material-sprite material-sprite-sm';
     return (
-      <div style={{ width: 80, height: 80, overflow: 'hidden', display: 'inline-block' }} title={name} aria-label={imageName}>
+      <div style={{ width: 80, height: 80 }} title={name} aria-label={imageName}>
         <div className={`${baseClass} ${spriteClassName}`.trim()} />
       </div>
     );

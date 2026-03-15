@@ -33,7 +33,7 @@ const HealthBar = ({health}) => {
       default: break;
     }
     
-    hearts.push( (<span className="sr-only">{health} Hearts</span>) )
+    hearts.push( (<span className="visually-hidden">{health} Hearts</span>) )
 
     return React.Children.toArray(hearts);
   }

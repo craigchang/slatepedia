@@ -1,8 +1,24 @@
+/* Match Bootstrap form-control-sm / form-select-sm font size (0.875rem) */
 .search-filter-criteria {
-  align-items: center;
+  display: flex;
+  flex-direction: column;
   gap: 0.5rem;
+  width: 100%;
+  min-width: 0;
+  font-size: 0.875rem;
 }
 
-.search-filter-criteria .form-group {
-  min-width: 180px;
+.search-filter-criteria .input-group {
+  width: 100%;
+  min-width: 0;
+}
+
+.search-filter-criteria .input-group-text,
+.search-filter-criteria .form-control {
+  font-size: 0.875rem;
+}
+
+.search-filter-criteria .form-control {
+  flex: 1 1 auto;
+  min-width: 0;
 }

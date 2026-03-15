@@ -5,12 +5,16 @@ body {
 }
 
 /*
- * Base structure
+ * Base structure: offset content for fixed navbar (Bootstrap 5 navbar height)
  */
-
-/* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 3.5rem;
+  padding-top: 56px;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-top: 56px;
+  }
 }
 
 
@@ -75,16 +79,25 @@ body {
 
 
 /*
- * Main content
+ * Main content: consistent padding (Bootstrap spacing)
  */
+main {
+  padding: 1rem;
+}
 
+@media (min-width: 768px) {
+  main {
+    padding: 1.5rem 2rem;
+  }
+}
+
+/* Legacy .main class if used elsewhere */
 .main {
-  padding: 20px;
+  padding: 1rem;
 }
 @media (min-width: 768px) {
   .main {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding: 1.5rem 2rem;
   }
 }
 .main .page-header {

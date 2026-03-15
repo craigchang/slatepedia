@@ -895,7 +895,8 @@ module.exports = [
     "cssClassName": "stalhorse",
     "description": "This skeletal horse is ridden by monsters. It was once a regular horse, but Ganon's power revived it from death. It cannot maintain its bone structure in the daytime.",
     "commonLocations": [
-      "Faron Grasslands, Hyrule Ridge"
+      "Faron Grasslands", 
+      "Hyrule Ridge"
     ],
     "recoverableMaterials": []
   },
