@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import GridDataView from '../GridDataView/GridDataView';
 import ListDataView from '../ListDataView/ListDataView';
+import SearchFilterCriteria from '../SearchFilterCriteria/SearchFilterCriteria';
 import _ from 'lodash';
 
 import './DataView.css';
@@ -15,10 +16,9 @@ class DataView extends Component {
       sortBy: "",
       sortOrder: "",
       filterButtonCollapsed: true,
-      dataView: 'grid'
+      dataView: 'grid',
+      searchName: ''
     };
-
-    this.nameInput = React.createRef();
     this.sortSelect = React.createRef();
     this.sortOrderButton = React.createRef();
 
@@ -27,6 +27,7 @@ class DataView extends Component {
     this.clickFilterOptionsButton = this.clickFilterOptionsButton.bind(this);
     this.clickClearFilterButton = this.clickClearFilterButton.bind(this);
     this.submitFilterSearch = this.submitFilterSearch.bind(this);
+    this.handleSearchNameChange = this.handleSearchNameChange.bind(this);
     this.clickTableColumnHeader = this.clickTableColumnHeader.bind(this);
 
     this.onClickSortButton = this.onClickSortButton.bind(this);
@@ -54,15 +55,15 @@ class DataView extends Component {
   clickClearFilterButton(event) {
     event.preventDefault();
 
-    let results = this.state.jsonOriginal.slice();
-
+    let results = (this.state.jsonOriginal || []).slice();
     this.clearSorting();
 
     this.setState({
       json: results,
       sortBy: '',
-      sortOrder: ''
-    })
+      sortOrder: '',
+      searchName: ''
+    });
   }
 
   clickTableColumnHeader(event, dataName) {
@@ -127,25 +128,33 @@ class DataView extends Component {
     })
   }
 
+  handleSearchNameChange(value) {
+    let results = (this.state.jsonOriginal || []).slice();
+    if (value !== '') {
+      results = _.filter(results, (obj) =>
+        obj.name && obj.name.toLowerCase().indexOf(value.toLowerCase()) !== -1
+      );
+    }
+    if (this.state.sortBy && this.state.sortOrder) {
+      results = _.orderBy(results, this.state.sortBy, this.state.sortOrder);
+    }
+    this.setState({ searchName: value, json: results });
+  }
+
   submitFilterSearch(event) {
     event.preventDefault();
 
-    let results = this.state.jsonOriginal.slice();
+    let results = (this.state.jsonOriginal || []).slice();
 
-    // Name Input
-    if (this.nameInput.current.value !== '') {
-      results = _.filter(results, (obj) => {
-        return obj.name.toLowerCase().indexOf(this.nameInput.current.value.toLowerCase()) !== -1;
-      });
+    if (this.state.searchName !== '') {
+      results = _.filter(results, (obj) =>
+        obj.name && obj.name.toLowerCase().indexOf(this.state.searchName.toLowerCase()) !== -1
+      );
     }
-
-    // Sort existing
-    if (this.state.sortBy && this.state.sortOrder)
+    if (this.state.sortBy && this.state.sortOrder) {
       results = _.orderBy(results, this.state.sortBy, this.state.sortOrder);
-
-    this.setState({
-      json: results
-    });
+    }
+    this.setState({ json: results });
   }
 
   // HELPER FUNCTIONS
@@ -221,22 +230,13 @@ class DataView extends Component {
           <button type="button" className={this.state.dataView === 'list' ? 'btn btn-primary' : 'btn btn-secondary'} onClick={this.changeToListView}>List View</button>
         </p> 
         <form onSubmit={this.submitFilterSearch}>
-          <div className="form-row">
-            <div className="col-md-6">
-              <div className="form-group">
-                <div className="input-group mb-2">
-                  <div className="input-group-prepend">
-                    <div className="input-group-text"><i className="fa fa-search" aria-hidden="true"></i></div>
-                  </div>
-                  <input
-                    type="text"
-                    className="form-control"
-                    ref={this.nameInput} 
-                    placeholder={`Search by Name`} 
-                    name="name"
-                    onChange={this.submitFilterSearch}/>
-                </div>
-              </div>
+          <div className="form-row align-items-center">
+            <div className="col-md-6 mb-2 mb-md-0">
+              <SearchFilterCriteria
+                searchName={this.state.searchName}
+                onSearchNameChange={this.handleSearchNameChange}
+                placeholder="Search by Name"
+              />
             </div>
             {this.renderListSortSelectView()}
           </div>

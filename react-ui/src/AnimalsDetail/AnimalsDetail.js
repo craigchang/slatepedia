@@ -92,7 +92,7 @@ class AnimalsDetail extends Component {
                       <td>
                         <IconContainer propertyName={material.name} folderName="materials" cssClassName={cssClassName} spriteSheet="materials" small/>
                       </td>
-                      <td style={{'vertical-align': 'middle'}}>
+                      <td style={{verticalAlign: 'middle'}}>
                         <i className="fa fa-cog"></i> <a href={"/materials/" + material.id}>{material.name}</a>
                       </td>
                     </tr>

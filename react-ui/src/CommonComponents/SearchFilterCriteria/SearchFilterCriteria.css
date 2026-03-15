@@ -1,0 +1,8 @@
+.search-filter-criteria {
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.search-filter-criteria .form-group {
+  min-width: 180px;
+}
