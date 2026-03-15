@@ -17,47 +17,55 @@
 // export default Header
 
 import React, { Component } from 'react';
-//import { Link } from 'react-router-dom'
+import { withRouter } from 'react-router-dom';
 import './Header.css';
 
+const RESOURCE_LINKS = [
+  { path: '/materials', label: 'Materials' },
+  { path: '/recipes', label: 'Recipes' },
+  { path: '/armor', label: 'Armor' },
+  { path: '/food', label: 'Food' },
+  { path: '/monsters', label: 'Monsters' },
+  { path: '/shields', label: 'Shields' },
+  { path: '/weapons', label: 'Weapons' },
+  { path: '/bows', label: 'Bows' },
+  { path: '/animals', label: 'Animals' }
+];
+
 class Header extends Component {
+  isResourceActive(path) {
+    const { pathname } = this.props.location || {};
+    if (!pathname) return false;
+    return pathname === path || pathname.startsWith(path + '/');
+  }
+
   render() {
     return (
       <header>
         <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
           <a className="navbar-brand" href="/">Slatepedia</a>
-          {/* <Link className="navbar-brand" to='/'>Slatepedia</Link> */}
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
 
           <div className="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul className="navbar-nav mr-auto">
-              <li className="nav-item active">
-                {/* <Link className="nav-link" to='/materials'>Materials <span className="sr-only">(current)</span></Link> */}
-              </li>
-              {/* <li className="nav-item">
-                <a className="nav-link" href="#">Link</a>
-              </li> */}
-              {/* <li className="nav-item">
-                <a className="nav-link disabled" href="#">Disabled</a>
-              </li> */}
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+                <a className="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
                 <div className="dropdown-menu" aria-labelledby="dropdown01">
-                  <a className="dropdown-item" href="/materials">Materials <span className="sr-only">(current)</span></a>
-                  <a className="dropdown-item" href="/recipes">Recipes <span className="sr-only">(current)</span></a>
-                  <a className="dropdown-item" href="/armor">Armor <span className="sr-only">(current)</span></a>
-                  <a className="dropdown-item" href="/food">Food <span className="sr-only">(current)</span></a>
-                  <a className="dropdown-item" href="/monsters">Monsters <span className="sr-only">(current)</span></a>
-                  <a className="dropdown-item" href="/shields">Shields <span className="sr-only">(current)</span></a>
-                  <a className="dropdown-item" href="/weapons">Weapons <span className="sr-only">(current)</span></a>
-                  <a className="dropdown-item" href="/bows">Bows <span className="sr-only">(current)</span></a>
-                  <a className="dropdown-item" href="/animals">Animals <span className="sr-only">(current)</span></a>
-
-                  {/* <a className="dropdown-item" href="#">Action</a>
-                  <a className="dropdown-item" href="#">Another action</a>
-                  <a className="dropdown-item" href="#">Something else here</a> */}
+                  {RESOURCE_LINKS.map(({ path, label }) => {
+                    const active = this.isResourceActive(path);
+                    return (
+                      <a
+                        key={path}
+                        className={`dropdown-item${active ? ' active' : ''}`}
+                        href={path}
+                      >
+                        {label}
+                        {active && <span className="sr-only">(current)</span>}
+                      </a>
+                    );
+                  })}
                 </div>
               </li>
             </ul>
@@ -79,4 +87,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default withRouter(Header);
