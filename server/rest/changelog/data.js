@@ -4,6 +4,14 @@ module.exports = [
     "shortSha": "unreleased",
     "htmlUrl": "",
     "date": "2026-02-27T00:00:00Z",
+    "title": "Swagger (OpenAPI) docs, CORS, and API description on landing",
+    "message": "Adds interactive Swagger UI for the REST API at /api-docs. New OpenAPI 3.0 spec (server/openapi.yaml) documents all endpoints: API root, changelog, and list/detail for materials, recipes, armor, food, monsters, shields, weapons, bows, animals, and other; GET /animals documents query parameters uniqueCookingEffect, commonLocation, recoverableMaterial with examples. Long description in the spec summarizes each resource and how to use Try it out. Servers list uses production URL (Render). Express serves the spec at /api-docs/openapi.yaml and mounts swagger-ui-express at /api-docs. Enables CORS (cors package) so API and docs can be called from other origins. App.js: adds a paragraph on the landing page describing the Swagger docs and linking to /api-docs. Prettifies server/rest/other/data.js (one property per line, consistent indentation)."
+  },
+  {
+    "sha": "unreleased",
+    "shortSha": "unreleased",
+    "htmlUrl": "",
+    "date": "2026-02-27T00:00:00Z",
     "title": "Bootstrap 5 upgrade, search/filter UI, and Animals filters",
     "message": "Upgrades Bootstrap from 4.x to 5.3.3. Migrates markup and styles: data-bs-toggle/data-bs-target, ml/mr to me/ms, custom-select to form-select, sr-only to visually-hidden, navbar container-fluid and data-bs-theme; drops input-group-prepend/append in favor of direct children; form-row to row with g-2. Navbar and landing: proper padding via container-fluid px-3/px-md-4 in header, body padding-top 56px for fixed navbar, main padding 1rem/1.5rem 2rem; landing (App) uses Bootstrap 5–style bg-light rounded-3 section instead of jumbotron. Search and filter UI: search/sort in a card; Grid/List view toggle on its own row (full-width on mobile via dataview-view-toggle CSS); consistent 0.875rem font in SearchFilterCriteria and DataView form; API filter dropdowns use data-bs-auto-close=\"outside\" so they stay open while selecting; Clear filters button always rendered (visibility hidden when inactive) and dropdown-menu-start plus min-width on filter buttons so the dropdown menu does not shift when selections change. Animals: adds Common Locations and Recoverable Materials multi-select filters using existing API query params (commonLocation, recoverableMaterial). List view: icon fixed to the left of body content via flex layout on .media (Bootstrap 5 no longer provides .media). HealthBar: sr-only to visually-hidden."
   },

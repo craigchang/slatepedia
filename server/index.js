@@ -1,6 +1,9 @@
 const express = require('express');
 const path = require('path');
+const fs = require('fs');
+const cors = require('cors');
 const cluster = require('cluster');
+const swaggerUi = require('swagger-ui-express');
 const numCPUs = require('os').cpus().length;
 
 const PORT = process.env.PORT || 3001;
@@ -33,8 +36,20 @@ if (cluster.isMaster) {
 } else {
   const app = express();
 
+  // Allow API and Swagger UI to be called from other origins (e.g. Try it out from api-docs)
+  app.use(cors());
+
   // Priority serve any static files.
   app.use(express.static(path.resolve(__dirname, '../react-ui/build')));
+
+  // Swagger / OpenAPI docs (must be before catch-all)
+  app.get('/api-docs/openapi.yaml', function (req, res) {
+    res.set('Content-Type', 'application/yaml');
+    res.send(fs.readFileSync(path.join(__dirname, 'openapi.yaml'), 'utf8'));
+  });
+  app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(null, {
+    swaggerOptions: { url: '/api-docs/openapi.yaml' }
+  }));
 
   //
   const obj = {

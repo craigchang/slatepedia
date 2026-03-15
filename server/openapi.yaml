@@ -1,0 +1,499 @@
+openapi: 3.0.3
+info:
+  title: Slatepedia API
+  description: |
+    Slatepedia exposes a REST API over encyclopedia data for *The Legend of Zelda: Breath of the Wild*. All responses are JSON.
+
+    **Resources**
+
+    - **Materials** – Ingredients, plants, ores, and other collectibles (names, types, descriptions, sell prices, locations, recipes that use them).
+    - **Recipes** – Cooked dishes and their materials, effects, and bonus effects.
+    - **Armor** – Armor pieces with defense, set names, and upgrade levels.
+    - **Food** – Cooked food items and their effects.
+    - **Monsters** – Enemies and creatures, with descriptions and item drops (weapons, materials, other).
+    - **Shields**, **Weapons**, **Bows** – Equipment with attack/defense and metadata.
+    - **Animals** – Wildlife (non-enemy) with common locations, recoverable materials, and unique cooking effects. List endpoint supports optional query filters: `uniqueCookingEffect`, `commonLocation`, `recoverableMaterial` (comma-separated for multiple values).
+    - **Other** – Miscellaneous items (rupees, key items, bridles, saddles, compendium categories, etc.).
+    - **Changelog** – Static list of changelog entries (sha, date, title, message, links).
+
+    **Usage**
+
+    Use the **Servers** dropdown to choose the base URL (e.g. production). For each operation, click **Try it out**, fill any parameters, then **Execute** to send a request and see the response. List endpoints return arrays; detail endpoints use a numeric path parameter (e.g. `/api/materials/1`).
+  version: 1.0.0
+
+servers:
+  - url: /api
+    description: Current host (relative – use when docs and API share the same origin)
+
+tags:
+  - name: General
+    description: Root and changelog
+  - name: Materials
+  - name: Recipes
+  - name: Armor
+  - name: Food
+  - name: Monsters
+  - name: Shields
+  - name: Weapons
+  - name: Bows
+  - name: Animals
+  - name: Other
+  - name: Changelog
+
+paths:
+  /:
+    get:
+      tags: [General]
+      summary: API root
+      operationId: getApiRoot
+      responses:
+        '200':
+          description: Simple welcome message
+          content:
+            application/json:
+              schema:
+                type: object
+                example: { message: "Hello from the custom server!", test: { one: "nested message" } }
+
+  /changelog:
+    get:
+      tags: [Changelog]
+      summary: List changelog entries
+      operationId: getChangelog
+      description: Returns a static snapshot of changelog entries (sha, shortSha, date, title, message, htmlUrl).
+      responses:
+        '200':
+          description: Array of changelog entries
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    sha: { type: string }
+                    shortSha: { type: string }
+                    htmlUrl: { type: string }
+                    date: { type: string, format: date-time }
+                    title: { type: string }
+                    message: { type: string }
+
+  /materials:
+    get:
+      tags: [Materials]
+      summary: List all materials
+      operationId: getMaterials
+      responses:
+        '200':
+          description: Array of material objects
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: '#/components/schemas/Material' }
+  /materials/{id}:
+    get:
+      tags: [Materials]
+      summary: Get material by ID
+      operationId: getMaterialById
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: integer, minimum: 1 }
+      responses:
+        '200':
+          description: Single material object
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Material' }
+
+  /recipes:
+    get:
+      tags: [Recipes]
+      summary: List all recipes
+      operationId: getRecipes
+      responses:
+        '200':
+          description: Array of recipe objects
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: '#/components/schemas/Recipe' }
+  /recipes/{id}:
+    get:
+      tags: [Recipes]
+      summary: Get recipe by ID
+      operationId: getRecipeById
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: integer, minimum: 1 }
+      responses:
+        '200':
+          description: Single recipe object
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Recipe' }
+
+  /armor:
+    get:
+      tags: [Armor]
+      summary: List all armor
+      operationId: getArmor
+      responses:
+        '200':
+          description: Array of armor objects
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: '#/components/schemas/Armor' }
+  /armor/{id}:
+    get:
+      tags: [Armor]
+      summary: Get armor by ID
+      operationId: getArmorById
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: integer, minimum: 1 }
+      responses:
+        '200':
+          description: Single armor object
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Armor' }
+
+  /food:
+    get:
+      tags: [Food]
+      summary: List all food
+      operationId: getFood
+      responses:
+        '200':
+          description: Array of food objects
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: '#/components/schemas/Food' }
+  /food/{id}:
+    get:
+      tags: [Food]
+      summary: Get food by ID
+      operationId: getFoodById
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: integer, minimum: 1 }
+      responses:
+        '200':
+          description: Single food object
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Food' }
+
+  /monsters:
+    get:
+      tags: [Monsters]
+      summary: List all monsters
+      operationId: getMonsters
+      responses:
+        '200':
+          description: Array of monster objects
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: '#/components/schemas/Monster' }
+  /monsters/{id}:
+    get:
+      tags: [Monsters]
+      summary: Get monster by ID
+      operationId: getMonsterById
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: integer, minimum: 1 }
+      responses:
+        '200':
+          description: Single monster object
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Monster' }
+
+  /shields:
+    get:
+      tags: [Shields]
+      summary: List all shields
+      operationId: getShields
+      responses:
+        '200':
+          description: Array of shield objects
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: '#/components/schemas/Shield' }
+  /shields/{id}:
+    get:
+      tags: [Shields]
+      summary: Get shield by ID
+      operationId: getShieldById
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: integer, minimum: 1 }
+      responses:
+        '200':
+          description: Single shield object
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Shield' }
+
+  /weapons:
+    get:
+      tags: [Weapons]
+      summary: List all weapons
+      operationId: getWeapons
+      responses:
+        '200':
+          description: Array of weapon objects
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: '#/components/schemas/Weapon' }
+  /weapons/{id}:
+    get:
+      tags: [Weapons]
+      summary: Get weapon by ID
+      operationId: getWeaponById
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: integer, minimum: 1 }
+      responses:
+        '200':
+          description: Single weapon object
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Weapon' }
+
+  /bows:
+    get:
+      tags: [Bows]
+      summary: List all bows
+      operationId: getBows
+      responses:
+        '200':
+          description: Array of bow objects
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: '#/components/schemas/Bow' }
+  /bows/{id}:
+    get:
+      tags: [Bows]
+      summary: Get bow by ID
+      operationId: getBowById
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: integer, minimum: 1 }
+      responses:
+        '200':
+          description: Single bow object
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Bow' }
+
+  /animals:
+    get:
+      tags: [Animals]
+      summary: List animals (with optional filters)
+      operationId: getAnimals
+      description: Returns animals. Optionally filter by unique cooking effect, common location, and/or recoverable material. Multiple values per parameter are supported as comma-separated strings.
+      parameters:
+        - name: uniqueCookingEffect
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter by unique cooking effect (e.g. "Attack Up", "Defense Up"). Comma-separated for multiple (e.g. "Attack Up,Defense Up").
+          example: "Attack Up"
+        - name: commonLocation
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter by common location name (e.g. "Hyrule Field", "Hebra Mountains"). Comma-separated for multiple.
+          example: "Hyrule Field"
+        - name: recoverableMaterial
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter by recoverable material name or material id. Comma-separated for multiple (e.g. "Raw Meat,Raw Prime Meat" or "40,38").
+          example: "Raw Meat"
+      responses:
+        '200':
+          description: Array of animal objects (filtered if query params provided)
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: '#/components/schemas/Animal' }
+  /animals/{id}:
+    get:
+      tags: [Animals]
+      summary: Get animal by ID
+      operationId: getAnimalById
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: integer, minimum: 1 }
+      responses:
+        '200':
+          description: Single animal object
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Animal' }
+
+  /other:
+    get:
+      tags: [Other]
+      summary: List all other items
+      operationId: getOther
+      description: Miscellaneous in-game items (rupees, key items, bridles, saddles, compendium categories, etc.).
+      responses:
+        '200':
+          description: Array of other item objects
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: '#/components/schemas/OtherItem' }
+  /other/{id}:
+    get:
+      tags: [Other]
+      summary: Get other item by ID
+      operationId: getOtherById
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: integer, minimum: 1 }
+      responses:
+        '200':
+          description: Single other item object
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/OtherItem' }
+
+components:
+  schemas:
+    Material:
+      type: object
+      description: Game material (e.g. fruit, insect, ore)
+      properties:
+        id: { type: integer }
+        name: { type: string }
+        type: { type: string }
+        cssClassName: { type: string }
+        description: { type: string }
+        sellPrice: { type: number }
+        hpRecovery: { type: number }
+        category: { type: object }
+        availabilities: { type: array, items: { type: string } }
+        recipes: { type: array }
+    Recipe:
+      type: object
+      description: Cooking recipe
+      properties:
+        id: { type: integer }
+        name: { type: string }
+        cssClassName: { type: string }
+        materials: { type: array }
+        effects: { type: object }
+    Armor:
+      type: object
+      description: Armor piece
+      properties:
+        id: { type: integer }
+        name: { type: string }
+        cssClassName: { type: string }
+        defense: { type: number }
+        set: { type: string }
+        upgradeLevel: { type: integer }
+    Food:
+      type: object
+      description: Cooked food item
+      properties:
+        id: { type: integer }
+        name: { type: string }
+        cssClassName: { type: string }
+        effects: { type: object }
+    Monster:
+      type: object
+      description: Enemy or creature
+      properties:
+        id: { type: integer }
+        name: { type: string }
+        cssClassName: { type: string }
+        description: { type: string }
+        itemDrops: { type: array }
+    Shield:
+      type: object
+      description: Shield equipment
+      properties:
+        id: { type: integer }
+        name: { type: string }
+        cssClassName: { type: string }
+        defense: { type: number }
+    Weapon:
+      type: object
+      description: Weapon equipment
+      properties:
+        id: { type: integer }
+        name: { type: string }
+        cssClassName: { type: string }
+        attack: { type: number }
+    Bow:
+      type: object
+      description: Bow equipment
+      properties:
+        id: { type: integer }
+        name: { type: string }
+        cssClassName: { type: string }
+        attack: { type: number }
+    Animal:
+      type: object
+      description: Wildlife (non-enemy)
+      properties:
+        id: { type: integer }
+        name: { type: string }
+        cssClassName: { type: string }
+        description: { type: string }
+        commonLocations: { type: array, items: { type: string } }
+        recoverableMaterials: { type: array, items: { type: object, properties: { id: { type: integer }, name: { type: string } } } }
+        uniqueCookingEffects: { type: string }
+    OtherItem:
+      type: object
+      description: Miscellaneous item (rupees, key items, etc.)
+      properties:
+        id: { type: integer }
+        name: { type: string }
+        cssClassName: { type: string }
+        description: { type: string }

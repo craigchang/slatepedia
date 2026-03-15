@@ -26,6 +26,11 @@ class App extends Component {
               Updates to the site are made continuously—see the <a href="/changelog">changelog</a> for the latest commits.
             </p>
             <p className="mb-3">
+              The site is backed by a REST API. Interactive <strong>Swagger (OpenAPI) documentation</strong> is available at <a href="/api-docs">/api-docs</a>. 
+              There you can browse all endpoints (materials, recipes, armor, food, monsters, shields, weapons, bows, animals, other items, and changelog), read request and response shapes, and use <strong>Try it out</strong> to run requests from the browser. 
+              The animals list endpoint supports optional filters by unique cooking effect, common location, and recoverable material.
+            </p>
+            <p className="mb-3">
               Use the <strong>Resources</strong> menu in the navigation bar to explore each category:{' '}
               <a href="/materials">Materials</a>{', '}
               <a href="/recipes">Recipes</a>{', '}

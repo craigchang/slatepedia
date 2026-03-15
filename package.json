@@ -15,7 +15,9 @@
     "react-ui/node_modules"
   ],
   "dependencies": {
-    "express": "^4.16.3"
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "swagger-ui-express": "^5.0.0"
   },
   "repository": {
     "type": "git",
