@@ -14,6 +14,7 @@ const shieldsJson = require('./rest/shields');
 const weaponsJson = require('./rest/weapons');
 const bowsJson = require('./rest/bows');
 const { getFilteredAnimals, animalsJson } = require('./rest/animals');
+const otherJson = require('./rest/other');
 const changelogJson = require('./rest/changelog');
 
 // Multi-process to utilize all CPU cores.
@@ -149,6 +150,17 @@ if (cluster.isMaster) {
   app.get('/api/animals/:id', function (req, res) {
     res.set('Content-Type', 'application/json');
     res.send(animalsJson[Number(req.params.id) - 1]);
+  });
+
+  // Other items API
+  app.get('/api/other', function (req, res) {
+    res.set('Content-Type', 'application/json');
+    res.send(otherJson);
+  });
+  // Other Detail API
+  app.get('/api/other/:id', function (req, res) {
+    res.set('Content-Type', 'application/json');
+    res.send(otherJson[Number(req.params.id) - 1]);
   });
 
   // Changelog API (static snapshot)

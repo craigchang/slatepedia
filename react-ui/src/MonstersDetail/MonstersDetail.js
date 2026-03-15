@@ -4,6 +4,7 @@ import IconContainer from '../CommonComponents/IconContainer/IconContainer';
 
 import './MonstersDetail.css';
 import '../Monsters/MonsterSprites.css';
+import '../OtherItems/OtherItemsSprites.css';
 
 class MonstersDetail extends Component {
   constructor(props) {
@@ -130,17 +131,18 @@ class MonstersDetail extends Component {
               </thead>
               <tbody>
                 {monster.itemDrops.map((itemDrop, index) => {
+                  console.log(itemDrop)
                   const category = itemDrop.category || 'other';
-                  const showIcon = itemDrop.id !== 0 && category !== 'other';
-                  const spriteSource = ['materials', 'weapons', 'armor', 'bows'].includes(category) ? category : 'materials';
-                  const detailLink = category !== 'other' && itemDrop.id ? `/${category}/${itemDrop.id}` : null;
+                  const spriteSource = ['materials', 'weapons', 'armor', 'bows', 'other'].includes(category) ? category : 'materials';
+                  const showIcon = itemDrop.id !== 0 && (itemDrop.cssClassName || spriteSource === 'materials');
+                  const detailLink = itemDrop.id ? `/${category}/${itemDrop.id}` : null;
                   return (
                     <tr key={index}>
                       <td>
                         {showIcon ? <IconContainer propertyName={itemDrop.name} folderName={spriteSource} cssClassName={itemDrop.cssClassName} spriteSheet={spriteSource} small/> : ''}
                       </td>
-                      <td>
-                        {detailLink ? <a href={detailLink}>{itemDrop.name}</a> : itemDrop.name}
+                      <td style={{verticalAlign: 'middle'}}>
+                        {detailLink ? <><i className="fa fa-cog"></i><a href={detailLink}> {itemDrop.name}</a></> : itemDrop.name}
                       </td>
                     </tr>
                   );

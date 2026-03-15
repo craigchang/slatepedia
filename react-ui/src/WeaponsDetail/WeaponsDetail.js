@@ -91,7 +91,7 @@ class WeaponsDetail extends Component {
               <td>Availabilities</td>
               <td>
                 {weapon.availabilities != null && weapon.availabilities.map((availability, index) => (
-                  <p key={index}>{availability}</p>
+                  <p key={index}><i className="fa fa-map-marker" aria-hidden="true"></i> {availability}</p>
                 ))}
               </td>
             </tr>

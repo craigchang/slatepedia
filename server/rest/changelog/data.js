@@ -3,6 +3,14 @@ module.exports = [
     "sha": "unreleased",
     "shortSha": "unreleased",
     "htmlUrl": "",
+    "date": "2026-03-15T00:00:00Z",
+    "title": "Other Items resource, monster item drops, and nav",
+    "message": "Adds an Other Items resource for miscellaneous in-game items (rupees, key items, bridles/saddles, compendium icons, etc.). New REST API: GET /api/other and GET /api/other/:id; data includes id, name, cssClassName, and in-game descriptions (rupees use official BotW text). New React list (OtherItems) and detail (OtherItemDetail) pages with sprites from materials.png via OtherItemsSprites.css; routes /other and /other/:id; Other added to Resources dropdown in the header. IconContainer and grid/list image views support spriteSheet \"other\". MonstersDetail shows Other Items sprites in Item Drops, imports OtherItemsSprites.css, and uses correct category and id per drop: rupees and Master Cycle Zero use category \"other\" with ids from other/data.js; cooked food (Roasted Bass, Seared Steak, etc.) use category \"food\"; generic Bow and Weapons use \"bows\" and \"weapons\". Monster rupee drop ids fixed (e.g. Green 1, Blue 2, Red 5, Purple 4); Master Cycle Zero id set to 30. WeaponsDetail: add map-marker icon to Availabilities list for consistency."
+  },
+  {
+    "sha": "unreleased",
+    "shortSha": "unreleased",
+    "htmlUrl": "",
     "date": "2026-02-27T00:00:00Z",
     "title": "Add BonusEffect component",
     "message": "Adds shared BonusEffect component that maps bonus effect names (e.g. Attack Up, Defense Up, Stealth Up) to icons. Used in list and grid item views for food, armor, and other items with bonus effects."

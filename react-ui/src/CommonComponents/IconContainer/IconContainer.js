@@ -34,6 +34,8 @@ const IconContainer = ({propertyName, gridType, folderName, fileType, cssClassNa
       spriteEl = <div className={`material-sprite${small ? ' material-sprite-sm' : ''} ${spriteClassName}`} title={!small ? propertyName : undefined} aria-label={!small ? imageName : undefined} />;
     } else if (spriteSheet === "animals") {
       spriteEl = <div className={`animal-sprite${small ? ' animal-sprite-sm' : ''} ${spriteClassName}`} title={!small ? propertyName : undefined} aria-label={!small ? imageName : undefined} />;
+    } else if (spriteSheet === "other") {
+      spriteEl = <div className={`other-sprite${small ? ' other-sprite-sm' : ''} ${spriteClassName}`} title={!small ? propertyName : undefined} aria-label={!small ? imageName : undefined} />;
     }
     if (spriteEl) {
       return small ? <div style={sizeStyle} title={propertyName} aria-label={imageName}>{spriteEl}</div> : spriteEl;

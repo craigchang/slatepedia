@@ -29,7 +29,8 @@ const RESOURCE_LINKS = [
   { path: '/shields', label: 'Shields' },
   { path: '/weapons', label: 'Weapons' },
   { path: '/bows', label: 'Bows' },
-  { path: '/animals', label: 'Animals' }
+  { path: '/animals', label: 'Animals' },
+  { path: '/other', label: 'Other' }
 ];
 
 class Header extends Component {

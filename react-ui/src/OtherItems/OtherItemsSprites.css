@@ -1,0 +1,69 @@
+/* Other items sprite sheet - materials.png, 144x144px per sprite, 145px step */
+.other-sprite {
+  width: 144px;
+  height: 144px;
+  background-image: url('../images/materials.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.other-sprite.other-sprite-sm {
+  transform: scale(0.556);
+  transform-origin: top left;
+}
+
+/* Region 1: baseY 2161 (row 1), 2306 (row 2) */
+.other-sprite.green-rupee { background-position: -1px -2161px; }
+.other-sprite.blue-rupee { background-position: -146px -2161px; }
+.other-sprite.gold-rupee { background-position: -291px -2161px; }
+.other-sprite.purple-rupee { background-position: -436px -2161px; }
+.other-sprite.red-rupee { background-position: -581px -2161px; }
+.other-sprite.silver-rupee { background-position: -726px -2161px; }
+.other-sprite.heart-container { background-position: -871px -2161px; }
+.other-sprite.stamina-vessel { background-position: -1016px -2161px; }
+.other-sprite.paraglider { background-position: -1306px -2161px; }
+.other-sprite.small-key { background-position: -1451px -2161px; }
+.other-sprite.classified-envelope { background-position: -1596px -2161px; }
+.other-sprite.hestus-maracas { background-position: -1741px -2161px; }
+.other-sprite.korok-seed { background-position: -1886px -2161px; }
+.other-sprite.hestus-gift { background-position: -2031px -2161px; }
+.other-sprite.medal-of-honor-hinox { background-position: -1px -2306px; }
+.other-sprite.medal-of-honor-talus { background-position: -146px -2306px; }
+.other-sprite.medal-of-honor-molduga { background-position: -291px -2306px; }
+.other-sprite.picture-of-the-champions { background-position: -1886px -2306px; }
+
+/* Region 2: baseY 1858 (row 1), 2003 (row 2) */
+.other-sprite.sheikah-slate { background-position: -1px -1858px; }
+.other-sprite.camera { background-position: -146px -1858px; }
+.other-sprite.cryonis { background-position: -291px -1858px; }
+.other-sprite.magnesis { background-position: -436px -1858px; }
+.other-sprite.remote-bomb-sphere { background-position: -581px -1858px; }
+.other-sprite.remote-bomb-plus-sphere { background-position: -726px -1858px; }
+.other-sprite.remote-bomb-cube { background-position: -871px -1858px; }
+.other-sprite.remote-bomb-plus-cube { background-position: -1016px -1858px; }
+.other-sprite.stasis { background-position: -1161px -1858px; }
+.other-sprite.stasis-plus { background-position: -1306px -1858px; }
+.other-sprite.amiibo { background-position: -1451px -1858px; }
+.other-sprite.master-cycle-zero { background-position: -1596px -1858px; }
+.other-sprite.fauna-hyrule-compendium { background-position: -1px -2003px; }
+.other-sprite.enemy-hyrule-compendium { background-position: -146px -2003px; }
+.other-sprite.elite-enemy-hyrule-compendium { background-position: -291px -2003px; }
+.other-sprite.material-hyrule-compendium { background-position: -436px -2003px; }
+.other-sprite.other-hyrule-compendium { background-position: -581px -2003px; }
+.other-sprite.weapon-hyrule-compendium { background-position: -726px -2003px; }
+
+/* Region 3: row 1 baseY 172, row 2 baseY 186 → y -331 */
+.other-sprite.stable-bridle { background-position: -1px -172px; }
+.other-sprite.travelers-bridle { background-position: -146px -172px; }
+.other-sprite.royal-bridle { background-position: -291px -172px; }
+.other-sprite.knights-bridle { background-position: -436px -172px; }
+.other-sprite.monster-bridle { background-position: -581px -172px; }
+.other-sprite.extravagant-bridle { background-position: -726px -172px; }
+.other-sprite.ancient-bridle { background-position: -871px -172px; }
+.other-sprite.stable-saddle { background-position: -1px -331px; }
+.other-sprite.travelers-saddle { background-position: -146px -331px; }
+.other-sprite.royal-saddle { background-position: -291px -331px; }
+.other-sprite.knights-saddle { background-position: -436px -331px; }
+.other-sprite.monster-saddle { background-position: -581px -331px; }
+.other-sprite.extravagant-saddle { background-position: -726px -331px; }
+.other-sprite.ancient-saddle { background-position: -1016px -331px; }

@@ -1377,27 +1377,27 @@ module.exports = [
         "category": "materials"
       },
       {
-        "id": 0,
+        "id": 1,
         "name": "Green Rupee",
-        "cssClassName": "rupees-green",
+        "cssClassName": "green-rupee",
         "category": "other"
       },
       {
-        "id": 0,
+        "id": 2,
         "name": "Blue Rupee",
-        "cssClassName": "-blue",
+        "cssClassName": "blue-rupee",
         "category": "other"
       },
       {
-        "id": 0,
+        "id": 5,
         "name": "Red Rupee",
-        "cssClassName": "-red",
+        "cssClassName": "red-rupee",
         "category": "other"
       },
       {
-        "id": 0,
+        "id": 4,
         "name": "Purple Rupee",
-        "cssClassName": "-purple",
+        "cssClassName": "purple-rupee",
         "category": "other"
       }
     ],
@@ -2334,55 +2334,55 @@ module.exports = [
         "id": 16,
         "name": "Roasted Bass",
         "cssClassName": "roasted-bass",
-        "category": "other"
+        "category": "food"
       },
       {
         "id": 17,
         "name": "Roasted Hearty Bass",
         "cssClassName": "roasted-hearty-bass",
-        "category": "other"
+        "category": "food"
       },
       {
         "id": 18,
         "name": "Roasted Hearty Salmon",
         "cssClassName": "roasted-hearty-salmon",
-        "category": "other"
+        "category": "food"
       },
       {
         "id": 19,
         "name": "Roasted Trout",
         "cssClassName": "roasted-trout",
-        "category": "other"
+        "category": "food"
       },
       {
         "id": 20,
         "name": "Roasted Carp",
         "cssClassName": "roasted-carp",
-        "category": "other"
+        "category": "food"
       },
       {
         "id": 21,
         "name": "Roasted Porgy",
         "cssClassName": "roasted-porgy",
-        "category": "other"
+        "category": "food"
       },
       {
         "id": 22,
         "name": "Sneaky River Escargot",
         "cssClassName": "sneaky-river-escargot",
-        "category": "other"
+        "category": "food"
       },
       {
         "id": 23,
         "name": "Blueshell Escargot",
         "cssClassName": "blueshell-escargot",
-        "category": "other"
+        "category": "food"
       },
       {
         "id": 24,
         "name": "Blackened Crab",
         "cssClassName": "blackened-crab",
-        "category": "other"
+        "category": "food"
       }
     ],
     "notes": "",
@@ -2421,37 +2421,37 @@ module.exports = [
         "id": 38,
         "name": "Seared Steak",
         "cssClassName": "seared-steak",
-        "category": "other"
+        "category": "food"
       },
       {
         "id": 39,
         "name": "Seared Prime Steak",
         "cssClassName": "seared-prime-steak",
-        "category": "other"
+        "category": "food"
       },
       {
         "id": 40,
         "name": "Seared Gourmet Steak",
         "cssClassName": "seared-gourmet-steak",
-        "category": "other"
+        "category": "food"
       },
       {
         "id": 41,
         "name": "Roasted Bird Drumstick",
         "cssClassName": "roasted-bird-drumstick",
-        "category": "other"
+        "category": "food"
       },
       {
         "id": 42,
         "name": "Roasted Bird Thigh",
         "cssClassName": "roasted-bird-thigh",
-        "category": "other"
+        "category": "food"
       },
       {
         "id": 43,
         "name": "Roasted Whole Bird",
         "cssClassName": "roasted-whole-bird",
-        "category": "other"
+        "category": "food"
       }
     ],
     "notes": "",
@@ -3052,7 +3052,7 @@ module.exports = [
         "id": 0,
         "name": "Bow",
         "cssClassName": "bow",
-        "category": "other"
+        "category": ""
       }
     ],
     "notes": "",
@@ -3142,7 +3142,7 @@ module.exports = [
         "id": 0,
         "name": "Weapons",
         "cssClassName": "weapons",
-        "category": "other"
+        "category": ""
       }
     ],
     "notes": "",
@@ -3160,7 +3160,7 @@ module.exports = [
     ],
     "itemDrops": [
       {
-        "id": 0,
+        "id": 30,
         "name": "Master Cycle Zero",
         "cssClassName": "master-cycle-zero",
         "category": "other"

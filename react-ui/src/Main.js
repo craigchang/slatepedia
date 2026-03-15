@@ -21,6 +21,8 @@ import Bows from './Bows/Bows';
 import BowsDetail from './BowsDetail/BowsDetail';
 import Animal from './Animals/Animal';
 import AnimalsDetail from './AnimalsDetail/AnimalsDetail';
+import OtherItems from './OtherItems/OtherItems';
+import OtherItemDetail from './OtherItems/OtherItemDetail';
 import Changelog from './Changelog/Changelog';
 
 
@@ -62,6 +64,8 @@ const Main = () => (
       <Route path='/bows' component={Bows} />
       <Route path='/animals/:id' component={AnimalsDetail} />
       <Route path='/animals' component={Animal} />
+      <Route path='/other/:id' component={OtherItemDetail} />
+      <Route path='/other' component={OtherItems} />
       <Route path='/changelog' component={Changelog} />
       <Route exact path='/' component={App}/>
     </Switch>
