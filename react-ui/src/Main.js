@@ -24,6 +24,7 @@ import AnimalsDetail from './AnimalsDetail/AnimalsDetail';
 import OtherItems from './OtherItems/OtherItems';
 import OtherItemDetail from './OtherItems/OtherItemDetail';
 import Changelog from './Changelog/Changelog';
+import Roadmap from './Roadmap/Roadmap';
 
 
 // The Main component renders one of the three provided
@@ -66,6 +67,7 @@ const Main = () => (
       <Route path='/animals' component={Animal} />
       <Route path='/other/:id' component={OtherItemDetail} />
       <Route path='/other' component={OtherItems} />
+      <Route path='/roadmap' component={Roadmap} />
       <Route path='/changelog' component={Changelog} />
       <Route exact path='/' component={App}/>
     </Switch>

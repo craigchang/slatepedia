@@ -18,14 +18,11 @@
   margin-bottom: 0.5rem;
 }
 
-.changelog-sha {
+.changelog-version {
   font-family: monospace;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
+  font-weight: 600;
   color: #0d6efd;
-}
-
-.changelog-sha:hover {
-  text-decoration: underline;
 }
 
 .changelog-date {
@@ -43,9 +40,11 @@
   margin-top: 0.5rem;
   margin-bottom: 0;
   padding: 0.5rem 0.75rem;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  font-family: inherit;
   background: #f8f9fa;
   border-radius: 4px;
-  white-space: pre-wrap;
+  white-space: pre-line;
   word-break: break-word;
 }

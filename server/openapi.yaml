@@ -14,7 +14,7 @@ info:
     - **Shields**, **Weapons**, **Bows** – Equipment with attack/defense and metadata.
     - **Animals** – Wildlife (non-enemy) with common locations, recoverable materials, and unique cooking effects. List endpoint supports optional query filters: `uniqueCookingEffect`, `commonLocation`, `recoverableMaterial` (comma-separated for multiple values).
     - **Other** – Miscellaneous items (rupees, key items, bridles, saddles, compendium categories, etc.).
-    - **Changelog** – Static list of changelog entries (sha, date, title, message, links).
+    - **Changelog** – Static list of changelog entries (semantic `version`, date, title, message).
 
     **Usage**
 
@@ -60,7 +60,7 @@ paths:
       tags: [Changelog]
       summary: List changelog entries
       operationId: getChangelog
-      description: Returns a static snapshot of changelog entries (sha, shortSha, date, title, message, htmlUrl).
+      description: Returns a static snapshot of changelog entries (version, date, title, message). Versions follow semver-style 0.major.minor with no GitHub commit links.
       responses:
         '200':
           description: Array of changelog entries
@@ -71,9 +71,7 @@ paths:
                 items:
                   type: object
                   properties:
-                    sha: { type: string }
-                    shortSha: { type: string }
-                    htmlUrl: { type: string }
+                    version: { type: string, example: "0.6.0" }
                     date: { type: string, format: date-time }
                     title: { type: string }
                     message: { type: string }

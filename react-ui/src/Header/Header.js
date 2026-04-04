@@ -73,6 +73,15 @@ class Header extends Component {
             </ul>
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
+                <a
+                  className={`nav-link${(this.props.location && this.props.location.pathname === '/roadmap') ? ' active' : ''}`}
+                  href="/roadmap"
+                  aria-current={(this.props.location && this.props.location.pathname === '/roadmap') ? 'page' : undefined}
+                >
+                  Roadmap
+                </a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link" href="/changelog">Changelog</a>
               </li>
             </ul>

@@ -62,37 +62,26 @@ class Changelog extends Component {
       <div className="container">
         <h1 className="page-header">Changelog</h1>
         <p className="changelog-intro">
-          Recent commits and changes to Slatepedia. Updates are made continuously.
+          Recent changes to Slatepedia, in plain language. Summaries describe what you will notice on the site, not source files or internal structure. Updates are made continuously.
         </p>
         <ul className="list-group changelog-list">
           {entries && entries.map((entry, idx) => {
-            const key = entry.sha || String(idx);
+            const key = entry.version || String(idx);
             const title = (entry.title || '').trim();
             const message = (entry.message || '').trim();
+            const version = (entry.version || '').trim() || '-';
 
             return (
             <li key={key} className="list-group-item changelog-item">
               <div className="changelog-item-header">
-                {entry.htmlUrl ? (
-                  <a
-                    className="changelog-sha"
-                    href={entry.htmlUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title="View commit on GitHub"
-                  >
-                    {entry.shortSha || (entry.sha ? entry.sha.substring(0, 7) : '-')}
-                  </a>
-                ) : (
-                  <span className="changelog-sha" title={entry.sha ? `Commit ${entry.sha}` : 'Commit'}>
-                    {entry.shortSha || (entry.sha ? entry.sha.substring(0, 7) : '-')}
-                  </span>
-                )}
+                <span className="changelog-version" title="Release version">
+                  v{version}
+                </span>
                 <span className="changelog-date">{this.formatDate(entry.date)}</span>
               </div>
               <p className="changelog-message">{title}</p>
               {message ? (
-                <pre className="changelog-detail">{message}</pre>
+                <div className="changelog-detail">{message}</div>
               ) : null}
             </li>
           )})}
