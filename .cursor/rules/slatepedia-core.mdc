@@ -1,0 +1,11 @@
+---
+description: Slatepedia-wide defaults — scope, layout, Node version
+alwaysApply: true
+---
+
+# Slatepedia core
+
+- **Scope**: Change only what the task requires. No drive-by refactors, unrelated files, or scope creep.
+- **Layout**: Express app in `server/` (API + serves the React build). UI is Create React App under `react-ui/`.
+- **Data**: Encyclopedia content lives under `server/rest/<resource>/` (typically `data.js` + `index.js`). Do not introduce duplicate sources of truth without an explicit decision.
+- **Node**: `package.json` specifies `engines.node` `>=22` — respect that floor for syntax and APIs.

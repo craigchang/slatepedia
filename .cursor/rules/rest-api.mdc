@@ -1,0 +1,13 @@
+---
+description: Express REST modules and routing conventions
+globs:
+  - "server/rest/**/*.js"
+  - "server/index.js"
+alwaysApply: false
+---
+
+# REST API
+
+- **Structure**: Follow existing resources: `server/rest/<name>/` with `index.js` (exports) and `data.js` (or the pattern used by that resource).
+- **Consistency**: New list endpoints and query parameters should mirror conventions used elsewhere (e.g. optional filters like Animals) unless the task defines a new standard.
+- **Wire-up**: New routes are registered in `server/index.js`; keep ordering and error handling consistent with neighboring routes.

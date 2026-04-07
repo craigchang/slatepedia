@@ -1,0 +1,11 @@
+---
+description: Keep OpenAPI spec aligned with the public API
+globs: server/openapi.yaml
+alwaysApply: false
+---
+
+# OpenAPI (`server/openapi.yaml`)
+
+- When adding or changing `/api/*` routes, **update this file**: paths, tags, summaries, descriptions, parameters, and response schemas.
+- Keep the root **info.description** block accurate when resources, filters, or high-level behavior change.
+- Changelog endpoint must match `server/rest/changelog` (field names and types).

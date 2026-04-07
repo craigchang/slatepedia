@@ -1,0 +1,14 @@
+---
+description: Changelog data shape, versioning, and user-facing copy
+globs:
+  - "**/rest/changelog/**"
+  - "**/Changelog/**"
+alwaysApply: false
+---
+
+# Changelog
+
+- **Shape**: Each entry uses `version`, `date`, `title`, and `message` only. Do not add commit SHAs, `shortSha`, or GitHub URLs to API data.
+- **Versions**: Semantic-style `major.minor.build`. Versions are assigned **oldest → newest**; document any scheme changes in the comment at the top of `data.js`.
+- **Copy**: `message` is user-facing — plain language, no file paths, internal module names, or “repo dump” tone.
+- **Docs**: If the changelog response shape or fields change, update `server/openapi.yaml` in the same change set.

@@ -1,0 +1,14 @@
+---
+description: React UI — routes, Bootstrap 5, shared components
+globs:
+  - "react-ui/src/**/*.js"
+  - "react-ui/src/**/*.css"
+alwaysApply: false
+---
+
+# React UI (`react-ui/`)
+
+- **Patterns**: Match existing folder layout, class/function component style, and shared pieces under `CommonComponents/`.
+- **Styling**: Bootstrap 5; align spacing, typography, and layout with nearby screens.
+- **Navigation**: New pages need a `Route` in `Main.js`, a header link in `Header.js` when appropriate, and SPA-friendly hosting (e.g. `public/` redirects) if the URL must load on refresh.
+- **API**: Prefer existing fetch patterns and `/api/...` URLs used elsewhere in the app.
