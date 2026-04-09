@@ -1,0 +1,10 @@
+# Rename this file to `.cursorignore` at repo root.
+# Cursor ignore file (uses .gitignore syntax).
+
+# Dependencies
+node_modules/
+react-ui/node_modules/
+
+# Builds / outputs
+react-ui/build/
+

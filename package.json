@@ -8,7 +8,12 @@
   "scripts": {
     "start": "node server",
     "build": "npm --prefix react-ui install && npm --prefix react-ui run build",
-    "postinstall": "npm run build"
+    "postinstall": "npm run build",
+    "check:no-generated-changes": "node scripts/check-no-generated-changes.js",
+    "check:changelog": "node scripts/check-changelog.js",
+    "check:openapi-min": "node scripts/check-openapi-min.js",
+    "check:openapi-drift": "node scripts/check-openapi-drift.js",
+    "check:all": "npm run check:no-generated-changes && npm run check:changelog && npm run check:openapi-min && npm run check:openapi-drift"
   },
   "cacheDirectories": [
     "node_modules",
