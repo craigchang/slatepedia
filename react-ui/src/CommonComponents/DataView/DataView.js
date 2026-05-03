@@ -9,6 +9,10 @@ import './DataView.css';
 class DataView extends Component {
   constructor(props) {
     super(props);
+    const narrow =
+      typeof window !== 'undefined' &&
+      window.matchMedia &&
+      window.matchMedia('(max-width: 767.98px)').matches;
     this.state = {
       json: this.props.json,
       jsonOriginal: this.props.jsonOriginal,
@@ -16,8 +20,11 @@ class DataView extends Component {
       sortBy: "",
       sortOrder: "",
       filterButtonCollapsed: true,
-      dataView: 'grid',
-      searchName: ''
+      dataView: narrow ? 'list' : 'grid',
+      searchName: '',
+      apiSidebarOpen: false,
+      useSidebarNativeMultiSelect: narrow,
+      isMobileViewport: narrow
     };
     this.sortSelect = React.createRef();
     this.sortOrderButton = React.createRef();
@@ -32,9 +39,51 @@ class DataView extends Component {
 
     this.onClickSortButton = this.onClickSortButton.bind(this);
     this.onChangeSortSelect = this.onChangeSortSelect.bind(this);
+    this.toggleApiSidebar = this.toggleApiSidebar.bind(this);
+    this.closeApiSidebar = this.closeApiSidebar.bind(this);
   }
 
   componentDidMount() {
+    this._onDocKeyDown = (e) => {
+      if (e.key !== 'Escape') return;
+      if (!this.isApiFilterSidebarMode()) return;
+      if (!this.state.apiSidebarOpen) return;
+      this.closeApiSidebar();
+    };
+    document.addEventListener('keydown', this._onDocKeyDown);
+
+    if (typeof window !== 'undefined' && window.matchMedia) {
+      this._sidebarNativeMultiMql = window.matchMedia('(max-width: 767.98px)');
+      this._onSidebarNativeMultiMql = () => {
+        const narrow = this._sidebarNativeMultiMql.matches;
+        this.setState((prev) => {
+          const next = {
+            useSidebarNativeMultiSelect: narrow,
+            isMobileViewport: narrow
+          };
+          if (narrow && prev.dataView === 'grid') {
+            next.dataView = 'list';
+          }
+          return next;
+        });
+      };
+      if (this._sidebarNativeMultiMql.addEventListener) {
+        this._sidebarNativeMultiMql.addEventListener('change', this._onSidebarNativeMultiMql);
+      } else {
+        this._sidebarNativeMultiMql.addListener(this._onSidebarNativeMultiMql);
+      }
+    }
+  }
+
+  componentWillUnmount() {
+    if (this._onDocKeyDown) document.removeEventListener('keydown', this._onDocKeyDown);
+    if (this._sidebarNativeMultiMql && this._onSidebarNativeMultiMql) {
+      if (this._sidebarNativeMultiMql.removeEventListener) {
+        this._sidebarNativeMultiMql.removeEventListener('change', this._onSidebarNativeMultiMql);
+      } else {
+        this._sidebarNativeMultiMql.removeListener(this._onSidebarNativeMultiMql);
+      }
+    }
   }
 
   componentDidUpdate(prevProps) {
@@ -55,11 +104,12 @@ class DataView extends Component {
   }
 
   changeToGridView(event) {
-    this.setState({dataView: 'grid'});
+    if (this.state.isMobileViewport) return;
+    this.setState({ dataView: 'grid' });
   }
 
   changeToListView(event) {
-    this.setState({ dataView: 'list'});
+    this.setState({ dataView: 'list' });
   }
 
   clickFilterOptionsButton(event) {
@@ -184,29 +234,54 @@ class DataView extends Component {
     }
   }
 
+  isApiFilterSidebarMode() {
+    const { apiFilterLayout, apiFilterConfig, onApiFilterChange } = this.props;
+    return (
+      apiFilterLayout === 'sidebar' &&
+      apiFilterConfig &&
+      Array.isArray(apiFilterConfig) &&
+      apiFilterConfig.length > 0 &&
+      typeof onApiFilterChange === 'function'
+    );
+  }
+
+  getEmptyApiFilterState() {
+    const { apiFilterConfig } = this.props;
+    const empty = {};
+    (apiFilterConfig || []).forEach((f) => {
+      empty[f.paramKey] = f.multiSelect ? [] : '';
+    });
+    return empty;
+  }
+
+  hasActiveApiFilters() {
+    const { apiFilterConfig, apiFilterState } = this.props;
+    if (!apiFilterConfig || !apiFilterState) return false;
+    return apiFilterConfig.some((f) => {
+      const v = apiFilterState[f.paramKey];
+      if (f.multiSelect) return Array.isArray(v) && v.length > 0;
+      return v != null && String(v).trim() !== '';
+    });
+  }
+
+  toggleApiSidebar() {
+    this.setState((s) => ({ apiSidebarOpen: !s.apiSidebarOpen }));
+  }
+
+  closeApiSidebar() {
+    this.setState({ apiSidebarOpen: false });
+  }
+
   // RENDER FUNCTIONS
 
   renderApiFilters() {
     const { apiFilterConfig, apiFilterState, onApiFilterChange } = this.props;
     if (!apiFilterConfig || !Array.isArray(apiFilterConfig) || apiFilterConfig.length === 0) return null;
     if (typeof onApiFilterChange !== 'function') return null;
+    if (this.isApiFilterSidebarMode()) return null;
 
-    const getEmptyFilterState = () => {
-      const empty = {};
-      apiFilterConfig.forEach((f) => {
-        empty[f.paramKey] = f.multiSelect ? [] : '';
-      });
-      return empty;
-    };
-
-    const hasActiveFilters = () => {
-      if (!apiFilterState) return false;
-      return apiFilterConfig.some((f) => {
-        const v = apiFilterState[f.paramKey];
-        if (f.multiSelect) return Array.isArray(v) && v.length > 0;
-        return v != null && String(v).trim() !== '';
-      });
-    };
+    const getEmptyFilterState = () => this.getEmptyApiFilterState();
+    const hasActiveFilters = () => this.hasActiveApiFilters();
 
     return (
       <div className="dataview-api-filters">
@@ -225,6 +300,239 @@ class DataView extends Component {
           >
             Clear filters
           </button>
+        </div>
+      </div>
+    );
+  }
+
+  renderApiFiltersSidebarPanel() {
+    const { apiFilterConfig, apiFilterState, onApiFilterChange } = this.props;
+    if (!apiFilterConfig || !Array.isArray(apiFilterConfig) || apiFilterConfig.length === 0) return null;
+    if (typeof onApiFilterChange !== 'function') return null;
+
+    const hasActive = this.hasActiveApiFilters();
+
+    return (
+      <div className="dataview-sidebar__scroll">
+        <div className="dataview-sidebar__inner">
+          <div className="dataview-sidebar__header">
+            <h2 className="dataview-sidebar__title h6 mb-0" id="dataview-api-sidebar-title">
+              Filters
+            </h2>
+            <div className="dataview-sidebar__header-actions">
+              <button
+                type="button"
+                className="btn btn-sm btn-link text-decoration-none p-0 d-none d-md-inline-block"
+                onClick={this.closeApiSidebar}
+              >
+                Hide
+              </button>
+              <button
+                type="button"
+                className="btn btn-sm btn-outline-secondary rounded-pill dataview-sidebar__close d-md-none"
+                onClick={this.closeApiSidebar}
+                aria-label="Close filters"
+              >
+                <i className="fa fa-times" aria-hidden="true" />
+              </button>
+            </div>
+          </div>
+          <p className="dataview-sidebar__hint small text-body-secondary mb-3 d-none d-md-block">
+            Narrow the list by selecting one or more values per field.
+          </p>
+          <div className="dataview-sidebar__fields">
+            {apiFilterConfig.map((filter) => (
+              <div key={filter.paramKey} className="dataview-sidebar__field">
+                {filter.multiSelect
+                  ? this.renderSidebarMultiSelectFilter(filter, apiFilterState, onApiFilterChange)
+                  : this.renderSidebarSingleSelectFilter(filter, apiFilterState, onApiFilterChange)}
+              </div>
+            ))}
+          </div>
+          <div className="dataview-sidebar__footer">
+            <button
+              type="button"
+              className="btn btn-outline-secondary w-100"
+              disabled={!hasActive}
+              onClick={() => onApiFilterChange(this.getEmptyApiFilterState())}
+            >
+              Clear all filters
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  renderSidebarMultiSelectFilter(filter, apiFilterState, onApiFilterChange) {
+    const selected = Array.isArray(apiFilterState && apiFilterState[filter.paramKey]) ? apiFilterState[filter.paramKey] : [];
+    const options = filter.options || [];
+    const toggleValue = (opt) => {
+      const nextSelected = selected.includes(opt) ? selected.filter((s) => s !== opt) : [...selected, opt];
+      const next = { ...(apiFilterState || {}), [filter.paramKey]: nextSelected };
+      onApiFilterChange(next);
+    };
+
+    const nativeId = `dataview-sidebar-native-multi-${filter.paramKey}`;
+    const listboxSize = Math.min(Math.max(options.length, 3), 5);
+
+    if (this.state.useSidebarNativeMultiSelect) {
+      return (
+        <div>
+          <label className="form-label fw-semibold mb-1" htmlFor={nativeId}>
+            {filter.label}
+          </label>
+          <select
+            id={nativeId}
+            className="form-select form-select-sm dataview-sidebar-filter__native-multi"
+            multiple
+            size={options.length === 0 ? 2 : listboxSize}
+            value={selected}
+            disabled={options.length === 0}
+            onChange={(e) => {
+              const nextVals = Array.from(e.target.selectedOptions, (o) => o.value);
+              const next = { ...(apiFilterState || {}), [filter.paramKey]: nextVals };
+              onApiFilterChange(next);
+            }}
+            aria-label={`Filter by ${filter.label}`}
+          >
+            {options.length === 0 ? (
+              <option value="" disabled>
+                No options
+              </option>
+            ) : (
+              options.map((opt) => (
+                <option key={opt} value={opt}>
+                  {opt}
+                </option>
+              ))
+            )}
+          </select>
+        </div>
+      );
+    }
+
+    const buttonLabel = selected.length === 0 ? `${filter.label}: All` : `${filter.label}: ${selected.length} selected`;
+
+    return (
+      <div>
+        <label className="form-label fw-semibold mb-1" id={`dataview-sidebar-multi-label-${filter.paramKey}`}>
+          {filter.label}
+        </label>
+        <div className="dropdown w-100 dataview-sidebar-filter__dropdown">
+          <button
+            type="button"
+            className="btn btn-outline-secondary btn-sm dropdown-toggle w-100 text-start dataview-sidebar-filter__dropdown-btn"
+            id={`dataview-sidebar-multi-${filter.paramKey}`}
+            data-bs-toggle="dropdown"
+            data-bs-auto-close="outside"
+            aria-expanded="false"
+            aria-labelledby={`dataview-sidebar-multi-label-${filter.paramKey}`}
+            aria-label={`Filter by ${filter.label}`}
+          >
+            <span className="dataview-sidebar-filter__dropdown-label text-truncate">{buttonLabel}</span>
+          </button>
+          <div
+            className="dropdown-menu w-100 dataview-sidebar-filter__dropdown-menu"
+            aria-labelledby={`dataview-sidebar-multi-${filter.paramKey}`}
+          >
+            {options.map((opt) => (
+              <label
+                key={opt}
+                className="dropdown-item mb-0 d-flex align-items-center text-wrap text-break"
+                style={{ cursor: 'pointer' }}
+                onClick={(e) => e.stopPropagation()}
+              >
+                <input
+                  type="checkbox"
+                  className="form-check-input flex-shrink-0 me-2"
+                  checked={selected.includes(opt)}
+                  onChange={() => toggleValue(opt)}
+                  onClick={(e) => e.stopPropagation()}
+                  aria-label={opt}
+                />
+                <span className="small">{opt}</span>
+              </label>
+            ))}
+            {options.length === 0 && (
+              <span className="dropdown-item text-body-secondary">No options</span>
+            )}
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  renderSidebarSingleSelectFilter(filter, apiFilterState, onApiFilterChange) {
+    const value = apiFilterState && apiFilterState[filter.paramKey] != null ? apiFilterState[filter.paramKey] : '';
+    return (
+      <div>
+        <label className="form-label fw-semibold mb-2" htmlFor={`dataview-sidebar-ss-${filter.paramKey}`}>
+          {filter.label}
+        </label>
+        <select
+          id={`dataview-sidebar-ss-${filter.paramKey}`}
+          className="form-select form-select-sm"
+          value={value}
+          onChange={(e) => {
+            const next = { ...(apiFilterState || {}), [filter.paramKey]: e.target.value };
+            onApiFilterChange(next);
+          }}
+          aria-label={`Filter by ${filter.label}`}
+        >
+          <option value="">All</option>
+          {(filter.options || []).map((opt) => (
+            <option key={opt} value={opt}>{opt}</option>
+          ))}
+        </select>
+      </div>
+    );
+  }
+
+  renderApiFilterToolbarToggle() {
+    if (!this.isApiFilterSidebarMode()) return null;
+    const open = this.state.apiSidebarOpen;
+    const dirty = this.hasActiveApiFilters();
+
+    return (
+      <button
+        type="button"
+        className={`btn btn-sm dataview-sidebar-toggle d-inline-flex align-items-center ${open ? 'btn-secondary' : 'btn-outline-secondary'} ${dirty && !open ? 'dataview-sidebar-toggle--dirty' : ''}`}
+        onClick={this.toggleApiSidebar}
+        aria-expanded={open}
+        aria-controls="dataview-api-sidebar"
+        title="Show or hide filters"
+      >
+        <i className="fa fa-filter me-md-1" aria-hidden="true" />
+        <span className="d-none d-md-inline">Filters</span>
+        {dirty ? <span className="visually-hidden"> (filters active)</span> : null}
+      </button>
+    );
+  }
+
+  renderApiFilterSidebarLayout(mainColumn) {
+    const open = this.state.apiSidebarOpen;
+    const sidebarCollapsedClass = open ? '' : ' dataview-sidebar--collapsed';
+
+    return (
+      <div
+        className={`dataview-layout dataview-layout--with-sidebar${open ? '' : ' dataview-layout--sidebar-retracted'}`}
+      >
+        <div
+          className={`dataview-sidebar-backdrop${open ? ' is-visible' : ''}`}
+          onClick={this.closeApiSidebar}
+          role="presentation"
+          aria-hidden="true"
+        />
+        <aside
+          id="dataview-api-sidebar"
+          className={`dataview-sidebar dataview-sidebar--sticky${sidebarCollapsedClass}`}
+          aria-labelledby="dataview-api-sidebar-title"
+        >
+          {this.renderApiFiltersSidebarPanel()}
+        </aside>
+        <div className="dataview-main flex-grow-1">
+          {mainColumn}
         </div>
       </div>
     );
@@ -308,7 +616,8 @@ class DataView extends Component {
   renderDataView(json) {
     if (json == null || json.length === 0) return null;
 
-    if (this.state.dataView === 'list') {
+    const effectiveView = this.state.isMobileViewport ? 'list' : this.state.dataView;
+    if (effectiveView === 'list') {
       return (
         <ListDataView
           json={json}
@@ -330,7 +639,8 @@ class DataView extends Component {
   }
 
   renderListSortSelectView() {
-    if (this.state.dataView !== 'list') return '';
+    const effectiveView = this.state.isMobileViewport ? 'list' : this.state.dataView;
+    if (effectiveView !== 'list') return '';
 
     let options = [];
 
@@ -355,37 +665,54 @@ class DataView extends Component {
   }
 
   render() {
-    return (
-      <React.Fragment>
-        <div className="card mb-3">
-          <div className="card-body">
-            <form onSubmit={this.submitFilterSearch} className="dataview-search-form">
-              <div className="row mb-3 dataview-view-toggle-row">
-                <div className="col-12">
-                  <div className="btn-group btn-group-sm dataview-view-toggle" role="group" aria-label="View toggle">
-                    <button type="button" className={`btn ${this.state.dataView === 'grid' ? 'btn-primary' : 'btn-outline-secondary'}`} onClick={this.changeToGridView}>Grid</button>
-                    <button type="button" className={`btn ${this.state.dataView === 'list' ? 'btn-primary' : 'btn-outline-secondary'}`} onClick={this.changeToListView}>List</button>
+    const sidebarMode = this.isApiFilterSidebarMode();
+
+    const cardInner = (
+      <div className="card mb-3">
+        <div className="card-body">
+          <form onSubmit={this.submitFilterSearch} className="dataview-search-form">
+            {(sidebarMode || !this.state.isMobileViewport) && (
+              <div className="row mb-3 dataview-view-toggle-row align-items-center g-2">
+                {sidebarMode ? <div className="col-auto">{this.renderApiFilterToolbarToggle()}</div> : null}
+                {!this.state.isMobileViewport ? (
+                  <div className={sidebarMode ? 'col-12 col-md-auto' : 'col-12'}>
+                    <div className="btn-group btn-group-sm dataview-view-toggle w-100 w-md-auto" role="group" aria-label="View toggle">
+                      <button type="button" className={`btn ${this.state.dataView === 'grid' ? 'btn-primary' : 'btn-outline-secondary'}`} onClick={this.changeToGridView}>Grid</button>
+                      <button type="button" className={`btn ${this.state.dataView === 'list' ? 'btn-primary' : 'btn-outline-secondary'}`} onClick={this.changeToListView}>List</button>
+                    </div>
                   </div>
-                </div>
+                ) : null}
               </div>
-              <div className="row align-items-center g-2 mb-3">
-                <div className="col-12 col-md">
-                  <SearchFilterCriteria
-                    searchName={this.state.searchName}
-                    onSearchNameChange={this.handleSearchNameChange}
-                    placeholder="Search by Name"
-                  />
-                </div>
-                {this.renderListSortSelectView()}
+            )}
+            <div className="row align-items-center g-2 mb-3">
+              <div className="col-12 col-md">
+                <SearchFilterCriteria
+                  searchName={this.state.searchName}
+                  onSearchNameChange={this.handleSearchNameChange}
+                  placeholder="Search by Name"
+                />
               </div>
-              {this.renderApiFilters()}
-            </form>
-          </div>
+              {this.renderListSortSelectView()}
+            </div>
+            {this.renderApiFilters()}
+          </form>
         </div>
+      </div>
+    );
+
+    const mainColumn = (
+      <React.Fragment>
+        {cardInner}
         <p className="mb-0">
           {this.state.fetching ? '' : `${this.state.json.length} Items`}
         </p>
         {this.state.fetching ? '' : this.renderDataView(this.state.json)}
+      </React.Fragment>
+    );
+
+    return (
+      <React.Fragment>
+        {sidebarMode ? this.renderApiFilterSidebarLayout(mainColumn) : mainColumn}
       </React.Fragment>
     );
   }

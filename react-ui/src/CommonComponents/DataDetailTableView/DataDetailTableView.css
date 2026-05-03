@@ -5,3 +5,16 @@ table.table-detail td:first-child{
 table.table-detail td:last-child{
   width: 75%;
 }
+
+@media (max-width: 767.98px) {
+  table.table-detail {
+    table-layout: fixed;
+    width: 100%;
+  }
+
+  table.table-detail td:last-child {
+    min-width: 0;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+}

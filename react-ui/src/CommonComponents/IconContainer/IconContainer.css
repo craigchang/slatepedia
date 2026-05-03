@@ -15,3 +15,28 @@
   height: 80px;
   object-fit: contain;
 }
+
+/*
+ * medium detail (e.g. animal hero): native sheet tile on desktop; 144×144 clip on small screens.
+ * Matches Bootstrap md breakpoint convention used elsewhere in the app.
+ */
+.icon-container--detail-md {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@media (max-width: 767.98px) {
+  .icon-container--detail-md {
+    width: 144px;
+    height: 144px;
+    max-width: 144px;
+    max-height: 144px;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .icon-container--detail-md .animal-sprite:not(.animal-sprite-sm) {
+    transform: scale(0.5143);
+    transform-origin: top left;
+  }
+}

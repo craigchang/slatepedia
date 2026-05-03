@@ -118,6 +118,19 @@ main {
   margin-left: auto;
 }
 
+/* Bootstrap overrides */
+/* Below Bootstrap lg: full-width containers (undo Bootstrap + footer max-width caps) */
+@media (max-width: 991.98px) {
+  .container {
+    max-width: none;
+    width: 100%;
+  }
+
+  footer.site-footer .container {
+    max-width: none;
+  }
+}
+
 .price-icon {
   max-width: 30px;
   min-width: 20px;

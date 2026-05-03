@@ -86,7 +86,7 @@ class ArmorDetail extends Component {
           <div>
             <h2 className="page-header">Armor Upgrades</h2>
             <div className="table-responsive">
-              <table className="table table-striped">
+              <table className="table table-striped table-detail">
                 <thead>
                   <tr>
                     <td><b>Level</b></td>

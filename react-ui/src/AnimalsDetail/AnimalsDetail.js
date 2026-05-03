@@ -45,7 +45,7 @@ class AnimalsDetail extends Component {
             <tr>
               <td>Icon</td>
               <td>
-                <IconContainer propertyName={animal.name} folderName={"animals"} cssClassName={animal.cssClassName} spriteSheet={"animals"} />
+                <IconContainer propertyName={animal.name} folderName={"animals"} cssClassName={animal.cssClassName} spriteSheet={"animals"} medium />
               </td>
             </tr>
             <tr>

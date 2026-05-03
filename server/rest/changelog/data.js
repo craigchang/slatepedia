@@ -7,6 +7,12 @@
  */
 module.exports = [
   {
+    "version": "0.7.0",
+    "date": "2026-05-02T12:00:00Z",
+    "title": "Animals filters, mobile list view, and detail icons",
+    "message": "Animals browse: optional filter sidebar starts closed; on phones, filters use simple multi-select lists instead of dropdowns, and the panel fills the screen height on larger layouts. Filter labels and dropdown arrows behave more reliably on desktop. Grid and list view buttons keep a steady width on desktop; on small screens only list view is offered (no grid). Animal encyclopedia list and grid icons use the intended small artwork again. Animal detail pages show full-size artwork on desktop and a smaller tile on phones."
+  },
+  {
     "version": "0.6.0",
     "date": "2026-02-27T00:00:00Z",
     "title": "Development roadmap page and landing copy",

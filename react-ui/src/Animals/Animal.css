@@ -1,1 +1,19 @@
 /* Animals list/grid page */
+
+/* Tighter grid rows + icon clip to match smaller .animal-sprite-sm (scoped so bundle-wide AnimalSprites.css does not affect other resources) */
+.page-animals .table.table-striped.sortable tbody tr td {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  vertical-align: middle;
+}
+
+.page-animals .table.table-striped.sortable .icon-container--detail-sm {
+  width: 80px !important;
+  height: 80px !important;
+}
+
+.page-animals .list-view-item .media-left > div:has(.animal-sprite-sm) {
+  width: 80px !important;
+  height: 80px !important;
+  overflow: hidden;
+}

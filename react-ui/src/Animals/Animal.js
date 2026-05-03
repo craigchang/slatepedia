@@ -148,13 +148,14 @@ class Animal extends Component {
 
     return (
       <div>
-        <div className="container-nonresponsive container-results">
+        <div className="container-nonresponsive container-results page-animals">
           <h1 className="page-header">Animals</h1>
           { this.state.fetching && !this.state.json ? <Loading /> :
             <DataView
               json={this.state.json}
               jsonOriginal={this.state.jsonOriginal}
               fetching={this.state.fetching}
+              apiFilterLayout="sidebar"
               apiFilterConfig={apiFilterConfig}
               apiFilterState={this.state.apiFilterState}
               onApiFilterChange={this.handleApiFilterChange}

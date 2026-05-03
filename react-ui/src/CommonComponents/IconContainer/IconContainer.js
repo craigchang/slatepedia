@@ -4,7 +4,7 @@ import './IconContainer.css';
 
 const IMAGE_FOLDER = '/images';
 
-const IconContainer = ({propertyName, gridType, folderName, fileType, cssClassName: spriteCssClassName, spriteSheet, small}) => {
+const IconContainer = ({propertyName, gridType, folderName, fileType, cssClassName: spriteCssClassName, spriteSheet, small, medium}) => {
   if (!propertyName) return '';
   if (!folderName) return '';
   let cssClassName = gridType === 'list' ? "resource-icon-list-view" : "resource-icon";
@@ -13,7 +13,9 @@ const IconContainer = ({propertyName, gridType, folderName, fileType, cssClassNa
 
   let imageName = propertyName.replace(/ /g, "-").replace(/'/g,"").toLowerCase();
 
-  const sizeStyle = small ? { width: 80, height: 80, overflow: 'hidden', display: 'inline-block' } : null;
+  const sizeStyle = small
+    ? { width: 80, height: 80, overflow: 'hidden', display: 'inline-block' }
+    : null;
 
   if (spriteSheet && spriteCssClassName) {
     const spriteClassName = spriteCssClassName.replace(/'/g, '');
@@ -38,7 +40,35 @@ const IconContainer = ({propertyName, gridType, folderName, fileType, cssClassNa
       spriteEl = <div className={`other-sprite${small ? ' other-sprite-sm' : ''} ${spriteClassName}`} title={!small ? propertyName : undefined} aria-label={!small ? imageName : undefined} />;
     }
     if (spriteEl) {
-      return small ? <div style={sizeStyle} title={propertyName} aria-label={imageName}>{spriteEl}</div> : spriteEl;
+      const wrapCls = small
+        ? 'icon-container icon-container--detail icon-container--detail-sm'
+        : medium && !small
+          ? 'icon-container icon-container--detail icon-container--detail-md'
+          : 'icon-container icon-container--detail icon-container--detail-lg';
+      if (small) {
+        return (
+          <div
+            className={wrapCls}
+            style={sizeStyle}
+            title={propertyName}
+            aria-label={imageName}
+          >
+            {spriteEl}
+          </div>
+        );
+      }
+      if (medium) {
+        return (
+          <div className={wrapCls} title={propertyName} aria-label={imageName}>
+            {spriteEl}
+          </div>
+        );
+      }
+      return (
+        <div className={wrapCls} title={propertyName} aria-label={imageName}>
+          {spriteEl}
+        </div>
+      );
     }
   }
   
