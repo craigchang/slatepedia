@@ -234,6 +234,16 @@ class DataView extends Component {
     }
   }
 
+  formatFilterOptionLabel(filter, opt) {
+    return typeof filter.formatOptionLabel === 'function'
+      ? filter.formatOptionLabel(opt)
+      : opt;
+  }
+
+  rangeFilterStableKey(filter) {
+    return `${filter.minParam}-${filter.maxParam}`;
+  }
+
   isApiFilterSidebarMode() {
     const { apiFilterLayout, apiFilterConfig, onApiFilterChange } = this.props;
     return (
@@ -249,7 +259,12 @@ class DataView extends Component {
     const { apiFilterConfig } = this.props;
     const empty = {};
     (apiFilterConfig || []).forEach((f) => {
-      empty[f.paramKey] = f.multiSelect ? [] : '';
+      if (f.filterType === 'range') {
+        empty[f.minParam] = f.minBound;
+        empty[f.maxParam] = f.maxBound;
+      } else if (f.paramKey != null) {
+        empty[f.paramKey] = f.multiSelect ? [] : '';
+      }
     });
     return empty;
   }
@@ -258,6 +273,14 @@ class DataView extends Component {
     const { apiFilterConfig, apiFilterState } = this.props;
     if (!apiFilterConfig || !apiFilterState) return false;
     return apiFilterConfig.some((f) => {
+      if (f.filterType === 'range') {
+        const minV = Number(apiFilterState[f.minParam]);
+        const maxV = Number(apiFilterState[f.maxParam]);
+        const lo = Number(f.minBound);
+        const hi = Number(f.maxBound);
+        if (Number.isNaN(minV) || Number.isNaN(maxV)) return false;
+        return minV > lo || maxV < hi;
+      }
       const v = apiFilterState[f.paramKey];
       if (f.multiSelect) return Array.isArray(v) && v.length > 0;
       return v != null && String(v).trim() !== '';
@@ -287,8 +310,15 @@ class DataView extends Component {
       <div className="dataview-api-filters">
         <div className="input-group input-group-sm flex-wrap">
           {apiFilterConfig.map((filter) => (
-            <div key={filter.paramKey} className="dataview-api-filters__item">
-              {filter.multiSelect ? this.renderMultiSelectFilter(filter, apiFilterState, onApiFilterChange) : this.renderSingleSelectFilter(filter, apiFilterState, onApiFilterChange)}
+            <div
+              key={filter.filterType === 'range' ? this.rangeFilterStableKey(filter) : filter.paramKey}
+              className="dataview-api-filters__item"
+            >
+              {filter.filterType === 'range'
+                ? this.renderInlineRangeFilter(filter, apiFilterState, onApiFilterChange)
+                : filter.multiSelect
+                  ? this.renderMultiSelectFilter(filter, apiFilterState, onApiFilterChange)
+                  : this.renderSingleSelectFilter(filter, apiFilterState, onApiFilterChange)}
             </div>
           ))}
           <button
@@ -342,10 +372,15 @@ class DataView extends Component {
           </p>
           <div className="dataview-sidebar__fields">
             {apiFilterConfig.map((filter) => (
-              <div key={filter.paramKey} className="dataview-sidebar__field">
-                {filter.multiSelect
-                  ? this.renderSidebarMultiSelectFilter(filter, apiFilterState, onApiFilterChange)
-                  : this.renderSidebarSingleSelectFilter(filter, apiFilterState, onApiFilterChange)}
+              <div
+                key={filter.filterType === 'range' ? this.rangeFilterStableKey(filter) : filter.paramKey}
+                className="dataview-sidebar__field"
+              >
+                {filter.filterType === 'range'
+                  ? this.renderSidebarRangeFilter(filter, apiFilterState, onApiFilterChange)
+                  : filter.multiSelect
+                    ? this.renderSidebarMultiSelectFilter(filter, apiFilterState, onApiFilterChange)
+                    : this.renderSidebarSingleSelectFilter(filter, apiFilterState, onApiFilterChange)}
               </div>
             ))}
           </div>
@@ -403,7 +438,7 @@ class DataView extends Component {
             ) : (
               options.map((opt) => (
                 <option key={opt} value={opt}>
-                  {opt}
+                  {this.formatFilterOptionLabel(filter, opt)}
                 </option>
               ))
             )}
@@ -449,9 +484,9 @@ class DataView extends Component {
                   checked={selected.includes(opt)}
                   onChange={() => toggleValue(opt)}
                   onClick={(e) => e.stopPropagation()}
-                  aria-label={opt}
+                  aria-label={this.formatFilterOptionLabel(filter, opt)}
                 />
-                <span className="small">{opt}</span>
+                <span className="small">{this.formatFilterOptionLabel(filter, opt)}</span>
               </label>
             ))}
             {options.length === 0 && (
@@ -562,6 +597,168 @@ class DataView extends Component {
     );
   }
 
+  renderSidebarRangeFilter(filter, apiFilterState, onApiFilterChange) {
+    const minBound = Number(filter.minBound);
+    const maxBound = Number(filter.maxBound);
+    let minVal = Number(apiFilterState?.[filter.minParam]);
+    let maxVal = Number(apiFilterState?.[filter.maxParam]);
+    if (Number.isNaN(minVal)) minVal = minBound;
+    if (Number.isNaN(maxVal)) maxVal = maxBound;
+    minVal = Math.min(maxBound, Math.max(minBound, minVal));
+    maxVal = Math.min(maxBound, Math.max(minBound, maxVal));
+    if (minVal > maxVal) maxVal = minVal;
+
+    const suffix = filter.rangeValueSuffix != null ? String(filter.rangeValueSuffix) : '';
+    const k = this.rangeFilterStableKey(filter);
+
+    const bumpMin = (raw) => {
+      let curMax = Number(apiFilterState?.[filter.maxParam]);
+      if (Number.isNaN(curMax)) curMax = maxBound;
+      curMax = Math.min(maxBound, Math.max(minBound, curMax));
+      let nextMin = Math.min(maxBound, Math.max(minBound, Number(raw)));
+      nextMin = Math.min(nextMin, curMax);
+      onApiFilterChange({ ...(apiFilterState || {}), [filter.minParam]: nextMin });
+    };
+
+    const bumpMax = (raw) => {
+      let curMin = Number(apiFilterState?.[filter.minParam]);
+      if (Number.isNaN(curMin)) curMin = minBound;
+      curMin = Math.min(maxBound, Math.max(minBound, curMin));
+      let nextMax = Math.min(maxBound, Math.max(minBound, Number(raw)));
+      nextMax = Math.max(nextMax, curMin);
+      onApiFilterChange({ ...(apiFilterState || {}), [filter.maxParam]: nextMax });
+    };
+
+    return (
+      <div className="dataview-sidebar__range">
+        <div className="fw-semibold mb-2">{filter.label}</div>
+        <div className="mb-3">
+          <label className="form-label small mb-1" htmlFor={`dataview-sidebar-range-min-${k}`}>
+            Min
+          </label>
+          <input
+            type="range"
+            className="form-range"
+            id={`dataview-sidebar-range-min-${k}`}
+            min={minBound}
+            max={maxBound}
+            step={filter.rangeStep != null ? Number(filter.rangeStep) : 1}
+            value={minVal}
+            onChange={(e) => bumpMin(e.target.value)}
+            aria-valuemin={minBound}
+            aria-valuemax={maxBound}
+            aria-valuenow={minVal}
+            aria-label={`${filter.label} minimum`}
+          />
+          <output className="small text-body-secondary">{minVal}{suffix}</output>
+        </div>
+        <div>
+          <label className="form-label small mb-1" htmlFor={`dataview-sidebar-range-max-${k}`}>
+            Max
+          </label>
+          <input
+            type="range"
+            className="form-range"
+            id={`dataview-sidebar-range-max-${k}`}
+            min={minBound}
+            max={maxBound}
+            step={filter.rangeStep != null ? Number(filter.rangeStep) : 1}
+            value={maxVal}
+            onChange={(e) => bumpMax(e.target.value)}
+            aria-valuemin={minBound}
+            aria-valuemax={maxBound}
+            aria-valuenow={maxVal}
+            aria-label={`${filter.label} maximum`}
+          />
+          <output className="small text-body-secondary">{maxVal}{suffix}</output>
+        </div>
+      </div>
+    );
+  }
+
+  renderInlineRangeFilter(filter, apiFilterState, onApiFilterChange) {
+    const minBound = Number(filter.minBound);
+    const maxBound = Number(filter.maxBound);
+    let minVal = Number(apiFilterState?.[filter.minParam]);
+    let maxVal = Number(apiFilterState?.[filter.maxParam]);
+    if (Number.isNaN(minVal)) minVal = minBound;
+    if (Number.isNaN(maxVal)) maxVal = maxBound;
+    minVal = Math.min(maxBound, Math.max(minBound, minVal));
+    maxVal = Math.min(maxBound, Math.max(minBound, maxVal));
+    if (minVal > maxVal) maxVal = minVal;
+
+    const suffix = filter.rangeValueSuffix != null ? String(filter.rangeValueSuffix) : '';
+    const k = this.rangeFilterStableKey(filter);
+
+    const bumpMin = (raw) => {
+      let curMax = Number(apiFilterState?.[filter.maxParam]);
+      if (Number.isNaN(curMax)) curMax = maxBound;
+      curMax = Math.min(maxBound, Math.max(minBound, curMax));
+      let nextMin = Math.min(maxBound, Math.max(minBound, Number(raw)));
+      nextMin = Math.min(nextMin, curMax);
+      onApiFilterChange({ ...(apiFilterState || {}), [filter.minParam]: nextMin });
+    };
+
+    const bumpMax = (raw) => {
+      let curMin = Number(apiFilterState?.[filter.minParam]);
+      if (Number.isNaN(curMin)) curMin = minBound;
+      curMin = Math.min(maxBound, Math.max(minBound, curMin));
+      let nextMax = Math.min(maxBound, Math.max(minBound, Number(raw)));
+      nextMax = Math.max(nextMax, curMin);
+      onApiFilterChange({ ...(apiFilterState || {}), [filter.maxParam]: nextMax });
+    };
+
+    const step = filter.rangeStep != null ? Number(filter.rangeStep) : 1;
+
+    return (
+      <div className="dataview-api-filters__range input-group input-group-sm d-inline-flex flex-column align-items-stretch flex-shrink-0 me-1 mb-1 border rounded px-2 py-2">
+        <span className="fw-semibold small mb-2">{filter.label}</span>
+        <div className="d-flex flex-wrap align-items-center gap-1 mb-1">
+          <label className="small mb-0 me-1" htmlFor={`dataview-inline-range-min-${k}`}>
+            Min
+          </label>
+          <input
+            type="range"
+            className="form-range flex-grow-1"
+            style={{ minWidth: '6rem' }}
+            id={`dataview-inline-range-min-${k}`}
+            min={minBound}
+            max={maxBound}
+            step={step}
+            value={minVal}
+            onChange={(e) => bumpMin(e.target.value)}
+            aria-label={`${filter.label} minimum`}
+          />
+          <span className="small text-body-secondary text-nowrap">
+            {minVal}
+            {suffix}
+          </span>
+        </div>
+        <div className="d-flex flex-wrap align-items-center gap-1 mb-0">
+          <label className="small mb-0 me-1" htmlFor={`dataview-inline-range-max-${k}`}>
+            Max
+          </label>
+          <input
+            type="range"
+            className="form-range flex-grow-1"
+            style={{ minWidth: '6rem' }}
+            id={`dataview-inline-range-max-${k}`}
+            min={minBound}
+            max={maxBound}
+            step={step}
+            value={maxVal}
+            onChange={(e) => bumpMax(e.target.value)}
+            aria-label={`${filter.label} maximum`}
+          />
+          <span className="small text-body-secondary text-nowrap">
+            {maxVal}
+            {suffix}
+          </span>
+        </div>
+      </div>
+    );
+  }
+
   renderMultiSelectFilter(filter, apiFilterState, onApiFilterChange) {
     const selected = Array.isArray(apiFilterState && apiFilterState[filter.paramKey]) ? apiFilterState[filter.paramKey] : [];
     const options = filter.options || [];
@@ -600,9 +797,9 @@ class DataView extends Component {
                 checked={selected.includes(opt)}
                 onChange={() => toggleValue(opt)}
                 onClick={(e) => e.stopPropagation()}
-                aria-label={opt}
+                aria-label={this.formatFilterOptionLabel(filter, opt)}
               />
-              {opt}
+              {this.formatFilterOptionLabel(filter, opt)}
             </label>
           ))}
           {options.length === 0 && (
