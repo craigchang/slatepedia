@@ -139,11 +139,65 @@ paths:
   /armor:
     get:
       tags: [Armor]
-      summary: List all armor
+      summary: List armor (with optional filters)
       operationId: getArmor
+      description: |
+        Returns armor. Optionally narrow by numeric ranges (defense, sell price) and/or categories
+        (body part, added effect, set bonus, availability). Multiple categorical values use a
+        comma-separated string. Empty added effect/set bonus filters use reserved token "__none__"
+        as a value name.
+      parameters:
+        - name: defenseMin
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Minimum defense value (inclusive).
+        - name: defenseMax
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Maximum defense value (inclusive).
+        - name: sellPriceMin
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Minimum sell price in Rupees (inclusive). Use for items with explicit sell prices.
+        - name: sellPriceMax
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Maximum sell price in Rupees (inclusive).
+        - name: bodyPart
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter by exact body part (e.g. "Head", "Chest"). Comma-separated for multiple matches (OR semantics).
+          example: "Chest"
+        - name: addedEffect
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Exact match against added effects. Use "__none__" to match items without an added effect. Comma-separated for multiple values.
+          example: "Cold Resistance"
+        - name: setBonus
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Exact match against set bonuses. Use "__none__" for items without a set bonus. Comma-separated for multiple values.
+          example: "Attack Up"
+        - name: availability
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Exact match against availability strings. Comma-separated for multiple matches.
+          example: "Shop: Tarrey Town"
       responses:
         '200':
-          description: Array of armor objects
+          description: Array of armor objects (filtered if query params provided)
           content:
             application/json:
               schema:

@@ -7,6 +7,12 @@
  */
 module.exports = [
   {
+    "version": "0.7.1",
+    "date": "2026-05-05T12:00:00Z",
+    "title": "Armor filters (ranges + categories)",
+    "message": "Armor browse now supports filters similar to Animals: choose defense and sell price ranges, and narrow by body part, added effect, set bonus, and availability."
+  },
+  {
     "version": "0.7.0",
     "date": "2026-05-02T12:00:00Z",
     "title": "Animals filters, mobile list view, and detail icons",
