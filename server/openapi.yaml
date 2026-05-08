@@ -343,11 +343,67 @@ paths:
   /bows:
     get:
       tags: [Bows]
-      summary: List all bows
+      summary: List bows (with optional filters)
       operationId: getBows
+      description: |
+        Returns bows. Optionally narrow by numeric ranges (attack power, durability, range, multiple arrows),
+        a Quick Shot boolean, and/or availability. Multiple availability values use a comma-separated string.
+      parameters:
+        - name: attackPowerMin
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Minimum attack power value (inclusive).
+        - name: attackPowerMax
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Maximum attack power value (inclusive).
+        - name: durabilityMin
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Minimum durability value (inclusive).
+        - name: durabilityMax
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Maximum durability value (inclusive).
+        - name: rangeMin
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Minimum range value (inclusive).
+        - name: rangeMax
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Maximum range value (inclusive).
+        - name: multipleArrowsMin
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Minimum multiple arrows value (inclusive).
+        - name: multipleArrowsMax
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Maximum multiple arrows value (inclusive).
+        - name: quickShot
+          in: query
+          required: false
+          schema: { type: boolean }
+          description: Filter by Quick Shot (true/false). Omit to include all.
+        - name: availability
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter by exact availability string (matches any element of availabilities[]). Comma-separated for multiple.
+          example: "Hyrule Field"
       responses:
         '200':
-          description: Array of bow objects
+          description: Array of bow objects (filtered if query params provided)
           content:
             application/json:
               schema:

@@ -7,6 +7,12 @@
  */
 module.exports = [
   {
+    "version": "0.7.2",
+    "date": "2026-05-08T06:33:00Z",
+    "title": "Bows filters and search bar sizing",
+    "message": "Bows browse now supports filters: attack power, durability, range, and multiple arrows (min/max sliders), Quick Shot (All/Yes/No), and availability (multi-select). The \"Search by Name\" field is now kept to a consistent half-width on desktop so it doesn’t stretch excessively on very wide screens."
+  },
+  {
     "version": "0.7.1",
     "date": "2026-05-05T12:00:00Z",
     "title": "Armor filters (ranges + categories)",

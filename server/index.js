@@ -15,7 +15,7 @@ const foodJson = require('./rest/food');
 const monstersJson = require('./rest/monsters');
 const shieldsJson = require('./rest/shields');
 const weaponsJson = require('./rest/weapons');
-const bowsJson = require('./rest/bows');
+const { getFilteredBows, bowsJson } = require('./rest/bows');
 const { getFilteredAnimals, animalsJson } = require('./rest/animals');
 const otherJson = require('./rest/other');
 const changelogJson = require('./rest/changelog');
@@ -142,10 +142,10 @@ if (cluster.isMaster) {
     res.send(weaponsJson[Number(req.params.id) - 1]);
   });
 
-   // Bows API
-  app.get('/api/bows', function(req, res) {
+   // Bows API (supports filters: attackPowerMin/Max, durabilityMin/Max, rangeMin/Max, multipleArrowsMin/Max, quickShot, availability)
+  app.get('/api/bows', function (req, res) {
     res.set('Content-Type', 'application/json');
-    res.send(bowsJson);
+    res.send(getFilteredBows(req.query));
   })
   // Bows Detail API
   app.get('/api/bows/:id', function (req, res) {

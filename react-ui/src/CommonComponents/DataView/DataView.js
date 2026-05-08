@@ -517,7 +517,7 @@ class DataView extends Component {
         >
           <option value="">All</option>
           {(filter.options || []).map((opt) => (
-            <option key={opt} value={opt}>{opt}</option>
+            <option key={opt} value={opt}>{this.formatFilterOptionLabel(filter, opt)}</option>
           ))}
         </select>
       </div>
@@ -590,7 +590,7 @@ class DataView extends Component {
         >
           <option value="">All</option>
           {(filter.options || []).map((opt) => (
-            <option key={opt} value={opt}>{opt}</option>
+            <option key={opt} value={opt}>{this.formatFilterOptionLabel(filter, opt)}</option>
           ))}
         </select>
       </div>
@@ -882,7 +882,7 @@ class DataView extends Component {
               </div>
             )}
             <div className="row align-items-center g-2 mb-3">
-              <div className="col-12 col-md">
+              <div className="col-12 col-md-6">
                 <SearchFilterCriteria
                   searchName={this.state.searchName}
                   onSearchNameChange={this.handleSearchNameChange}
