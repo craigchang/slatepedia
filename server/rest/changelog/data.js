@@ -7,6 +7,12 @@
  */
 module.exports = [
   {
+    "version": "0.7.3",
+    "date": "2026-05-09T12:00:00Z",
+    "title": "Food filters (price, HP, ingredients)",
+    "message": "Food browse now supports filters: sell price and HP recovery (min/max sliders), and ingredients (multi-select). The food list updates from the API when filters change, consistent with other filtered categories."
+  },
+  {
     "version": "0.7.2",
     "date": "2026-05-08T06:33:00Z",
     "title": "Bows filters and search bar sizing",

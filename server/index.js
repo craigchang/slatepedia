@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3001;
 const materialsJson = require('./rest/materials');
 const recipesJson = require('./rest/recipes');
 const { getFilteredArmor, armorJson } = require('./rest/armor');
-const foodJson = require('./rest/food');
+const { getFilteredFood, foodJson } = require('./rest/food');
 const monstersJson = require('./rest/monsters');
 const shieldsJson = require('./rest/shields');
 const weaponsJson = require('./rest/weapons');
@@ -98,10 +98,10 @@ if (cluster.isMaster) {
     res.send(armorJson[Number(req.params.id) - 1]);
   });
 
-  // Food API
-  app.get('/api/food', function(req, res) {
+  // Food API (supports filters: sellPriceMin/Max, hpRecoveryMin/Max, ingredient)
+  app.get('/api/food', function (req, res) {
     res.set('Content-Type', 'application/json');
-    res.send(foodJson);
+    res.send(getFilteredFood(req.query));
   })
   // Food Detail API
   app.get('/api/food/:id', function (req, res) {

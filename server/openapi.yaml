@@ -223,11 +223,42 @@ paths:
   /food:
     get:
       tags: [Food]
-      summary: List all food
+      summary: List food (with optional filters)
       operationId: getFood
+      description: |
+        Returns food. Optionally narrow by sell price and HP recovery ranges, and/or ingredient.
+        Multiple ingredients use a comma-separated string (matches if any selected ingredient appears in ingredients[]).
+      parameters:
+        - name: sellPriceMin
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Minimum sell price in Rupees (inclusive).
+        - name: sellPriceMax
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Maximum sell price in Rupees (inclusive).
+        - name: hpRecoveryMin
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Minimum HP recovery (inclusive).
+        - name: hpRecoveryMax
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Maximum HP recovery (inclusive).
+        - name: ingredient
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter by ingredient name (exact match) or ingredient id. Comma-separated for multiple (matches if any listed ingredient is present).
+          example: "Hyrule Bass"
       responses:
         '200':
-          description: Array of food objects
+          description: Array of food objects (filtered if query params provided)
           content:
             application/json:
               schema:
