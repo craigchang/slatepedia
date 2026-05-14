@@ -7,6 +7,12 @@
  */
 module.exports = [
   {
+    "version": "0.7.4",
+    "date": "2026-05-10T12:00:00Z",
+    "title": "Materials filters (types, stats, categories, locations)",
+    "message": "Materials browse now supports filters: type, sell price and HP recovery (min/max sliders), category and bonus effect, potency grade, duration factor (min/max), and availabilities (multi-select). Rows without a category, effect, or grade can be found using a “none” option where it applies."
+  },
+  {
     "version": "0.7.3",
     "date": "2026-05-09T12:00:00Z",
     "title": "Food filters (price, HP, ingredients)",

@@ -79,11 +79,82 @@ paths:
   /materials:
     get:
       tags: [Materials]
-      summary: List all materials
+      summary: List materials (with optional filters)
       operationId: getMaterials
+      description: |
+        Returns materials. Optionally narrow by type, sell price and HP recovery ranges, category name,
+        bonus effect (category added effect), potency grade, duration factor range, and availability.
+        Multiple values for categorical fields use comma-separated strings (OR semantics within each field).
+        Use reserved token "__none__" to match rows with no category, no bonus effect, or no potency grade.
+      parameters:
+        - name: type
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter by material type (exact match). Comma-separated for multiple.
+          example: "Fruit"
+        - name: sellPriceMin
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Minimum sell price in Rupees (inclusive).
+        - name: sellPriceMax
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Maximum sell price in Rupees (inclusive).
+        - name: hpRecoveryMin
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Minimum HP recovery (inclusive).
+        - name: hpRecoveryMax
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Maximum HP recovery (inclusive).
+        - name: category
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter by category name (exact match). Use "__none__" for materials with no category. Comma-separated for multiple.
+          example: "Hearty"
+        - name: bonusEffect
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter by bonus effect (category added effect, exact match). Use "__none__" when there is no category or no effect. Comma-separated for multiple.
+          example: "Extra Hearts"
+        - name: potencyGrade
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter by potency grade letter (exact match). Use "__none__" for an empty grade. Comma-separated for multiple.
+          example: "A"
+        - name: durationFactorMin
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Minimum duration factor in seconds (inclusive).
+        - name: durationFactorMax
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Maximum duration factor in seconds (inclusive).
+        - name: availability
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter by exact availability string (matches any element of availabilities[]). Comma-separated for multiple.
+          example: "Hyrule Field"
       responses:
         '200':
-          description: Array of material objects
+          description: Array of material objects (filtered if query params provided)
           content:
             application/json:
               schema:

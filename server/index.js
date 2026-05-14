@@ -8,7 +8,7 @@ const numCPUs = require('os').cpus().length;
 
 const PORT = process.env.PORT || 3001;
 
-const materialsJson = require('./rest/materials');
+const { getFilteredMaterials, materialsJson } = require('./rest/materials');
 const recipesJson = require('./rest/recipes');
 const { getFilteredArmor, armorJson } = require('./rest/armor');
 const { getFilteredFood, foodJson } = require('./rest/food');
@@ -68,7 +68,7 @@ if (cluster.isMaster) {
   // Materials API
   app.get('/api/materials', function (req, res) {
     res.set('Content-Type', 'application/json');
-    res.send(materialsJson);
+    res.send(getFilteredMaterials(req.query));
   });
   // Materials Detail API
   app.get('/api/materials/:id', function (req, res) {
