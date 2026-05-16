@@ -7,6 +7,12 @@
  */
 module.exports = [
   {
+    "version": "0.7.5",
+    "date": "2026-05-14T12:00:00Z",
+    "title": "Monsters filters (size, stats, locations, drops)",
+    "message": "Monsters browse now supports filters: size, HP and rank (min/max sliders), common locations, and item drops (multi-select). The list updates from the API when filters change, consistent with other filtered categories."
+  },
+  {
     "version": "0.7.4",
     "date": "2026-05-10T12:00:00Z",
     "title": "Materials filters (types, stats, categories, locations)",

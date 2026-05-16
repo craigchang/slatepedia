@@ -355,11 +355,56 @@ paths:
   /monsters:
     get:
       tags: [Monsters]
-      summary: List all monsters
+      summary: List monsters (with optional filters)
       operationId: getMonsters
+      description: |
+        Returns monsters. Optionally narrow by size, HP and rank ranges, common locations, and item drops.
+        Multiple values per categorical field use comma-separated strings (OR semantics within each field).
+      parameters:
+        - name: size
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter by size (exact match, e.g. "small", "medium", "large"). Comma-separated for multiple.
+          example: "large"
+        - name: hpMin
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Minimum HP (inclusive).
+        - name: hpMax
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Maximum HP (inclusive).
+        - name: rankMin
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Minimum rank (inclusive).
+        - name: rankMax
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Maximum rank (inclusive).
+        - name: commonLocation
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter by exact common location string (matches any element of commonLocations[]). Comma-separated for multiple.
+          example: "Hyrule Field"
+        - name: itemDrop
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter by item drop name (exact match) or drop id. Comma-separated for multiple (matches if any listed drop is present).
+          example: "Bokoblin Horn"
       responses:
         '200':
-          description: Array of monster objects
+          description: Array of monster objects (filtered if query params provided)
           content:
             application/json:
               schema:

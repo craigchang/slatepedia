@@ -12,7 +12,7 @@ const { getFilteredMaterials, materialsJson } = require('./rest/materials');
 const recipesJson = require('./rest/recipes');
 const { getFilteredArmor, armorJson } = require('./rest/armor');
 const { getFilteredFood, foodJson } = require('./rest/food');
-const monstersJson = require('./rest/monsters');
+const { getFilteredMonsters, monstersJson } = require('./rest/monsters');
 const shieldsJson = require('./rest/shields');
 const weaponsJson = require('./rest/weapons');
 const { getFilteredBows, bowsJson } = require('./rest/bows');
@@ -110,9 +110,10 @@ if (cluster.isMaster) {
   });
 
   // Monsters API
-  app.get('/api/monsters', function(req, res) {
+  // Monsters API (supports filters: size, hpMin/Max, rankMin/Max, commonLocation, itemDrop)
+  app.get('/api/monsters', function (req, res) {
     res.set('Content-Type', 'application/json');
-    res.send(monstersJson);
+    res.send(getFilteredMonsters(req.query));
   })
   // Monsters Detail API
   app.get('/api/monsters/:id', function (req, res) {
