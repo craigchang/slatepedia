@@ -13,7 +13,7 @@ const recipesJson = require('./rest/recipes');
 const { getFilteredArmor, armorJson } = require('./rest/armor');
 const { getFilteredFood, foodJson } = require('./rest/food');
 const { getFilteredMonsters, monstersJson } = require('./rest/monsters');
-const shieldsJson = require('./rest/shields');
+const { getFilteredShields, shieldsJson } = require('./rest/shields');
 const weaponsJson = require('./rest/weapons');
 const { getFilteredBows, bowsJson } = require('./rest/bows');
 const { getFilteredAnimals, animalsJson } = require('./rest/animals');
@@ -122,9 +122,10 @@ if (cluster.isMaster) {
   });
 
   // Shields API
-  app.get('/api/shields', function(req, res) {
+  // Shields API (supports filters: durabilityMin/Max, parryPowerMin/Max, availability)
+  app.get('/api/shields', function (req, res) {
     res.set('Content-Type', 'application/json');
-    res.send(shieldsJson);
+    res.send(getFilteredShields(req.query));
   })
   // Shields Detail API
   app.get('/api/shields/:id', function (req, res) {

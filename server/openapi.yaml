@@ -430,11 +430,42 @@ paths:
   /shields:
     get:
       tags: [Shields]
-      summary: List all shields
+      summary: List shields (with optional filters)
       operationId: getShields
+      description: |
+        Returns shields. Optionally narrow by durability and parry power ranges, and/or availability.
+        Multiple availability values use a comma-separated string (matches if any listed value appears in availabilities[]).
+      parameters:
+        - name: durabilityMin
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Minimum durability (inclusive).
+        - name: durabilityMax
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Maximum durability (inclusive).
+        - name: parryPowerMin
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Minimum parry power (inclusive).
+        - name: parryPowerMax
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Maximum parry power (inclusive).
+        - name: availability
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter by exact availability string (matches any element of availabilities[]). Comma-separated for multiple.
+          example: "Hyrule Field"
       responses:
         '200':
-          description: Array of shield objects
+          description: Array of shield objects (filtered if query params provided)
           content:
             application/json:
               schema:
