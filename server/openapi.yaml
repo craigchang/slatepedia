@@ -491,11 +491,53 @@ paths:
   /weapons:
     get:
       tags: [Weapons]
-      summary: List all weapons
+      summary: List weapons (with optional filters)
       operationId: getWeapons
+      description: |
+        Returns weapons. Optionally narrow by attack power base, durability base, and throw distance base ranges,
+        and/or availability. Multiple availability values use a comma-separated string (matches if any listed
+        value appears in availabilities[]).
+      parameters:
+        - name: attackPowerBaseMin
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Minimum attack power base (inclusive).
+        - name: attackPowerBaseMax
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Maximum attack power base (inclusive).
+        - name: durabilityBaseMin
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Minimum durability base (inclusive).
+        - name: durabilityBaseMax
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Maximum durability base (inclusive).
+        - name: throwDistanceBaseMin
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Minimum throw distance base (inclusive).
+        - name: throwDistanceBaseMax
+          in: query
+          required: false
+          schema: { type: integer }
+          description: Maximum throw distance base (inclusive).
+        - name: availability
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter by exact availability string (matches any element of availabilities[]). Comma-separated for multiple.
+          example: "Hyrule Field"
       responses:
         '200':
-          description: Array of weapon objects
+          description: Array of weapon objects (filtered if query params provided)
           content:
             application/json:
               schema:

@@ -7,6 +7,12 @@
  */
 module.exports = [
   {
+    "version": "0.7.7",
+    "date": "2026-05-16T12:00:00Z",
+    "title": "Weapons filters (attack, durability, throw distance, locations)",
+    "message": "Weapons browse now supports filters: attack power base, durability base, and throw distance (min/max sliders), and availabilities (multi-select). The list updates from the API when filters change, consistent with other filtered categories."
+  },
+  {
     "version": "0.7.6",
     "date": "2026-05-15T12:00:00Z",
     "title": "Shields filters (durability, parry power, locations)",
